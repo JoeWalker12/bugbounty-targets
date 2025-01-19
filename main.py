@@ -36,39 +36,39 @@ class PublicPrograms:
         with open(f"{self.results_directory}/{file_name}", 'w') as outfile:
             json.dump(self.results, outfile, indent=4)
 
-"""   def get_hackerone_programs(self) -> List[dict]:
+ #   def get_hackerone_programs(self) -> List[dict]:
         
 #        Retrieve all public programs from the HackerOne API.
 
 #        Returns:
 #            List[dict]: A list of dictionaries representing public programs.
         
-        endpoint = f'{self.api.base_url}/v1/hackers/programs'
-        response_json = self.api.paginate(endpoint)
+#        endpoint = f'{self.api.base_url}/v1/hackers/programs'
+#        response_json = self.api.paginate(endpoint)
 
-        for response in response_json:
-            if 'data' in response:
-                self.results.extend(response['data'])
-            else:
-                self.logger.error("Error: unexpected response format.")
-                continue
-
-        for scope in self.results:
-            scope_handle = scope.get('attributes').get('handle')
-            response_json = self.api.program_info(scope_handle)
+#        for response in response_json:
+#            if 'data' in response:
+ #               self.results.extend(response['data'])
+ #           else:
+#                self.logger.error("Error: unexpected response format.")
+#                continue
+#
+#        for scope in self.results:
+#            scope_handle = scope.get('attributes').get('handle')
+#            response_json = self.api.program_info(scope_handle)
             
-            if 'relationships' in response_json:
-                scope['relationships'] = response_json['relationships']
-            else:
-                self.logger.error("Error: unexpected response format.")
-                continue
+#            if 'relationships' in response_json:
+ #               scope['relationships'] = response_json['relationships']
+#            else:
+#                self.logger.error("Error: unexpected response format.")
+#                continue
 
-        self.save_results('hackerone.json')
+#        self.save_results('hackerone.json')
 
-        self.results = self.api.brief(self.results)
-        self.save_results('brief/hackerone.json')
-        return self.results
-"""
+#        self.results = self.api.brief(self.results)
+#        self.save_results('brief/hackerone.json')
+#        return self.results
+
     def get_bugcrowd_programs(self) -> List[dict]:
         """
         Retrieve all public programs from the BugCrowd API.
