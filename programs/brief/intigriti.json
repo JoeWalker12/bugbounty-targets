@@ -282,11 +282,11 @@
                     "type": "Url"
                 },
                 {
-                    "identifier": "on-premises software",
+                    "identifier": "Modernized Discovery",
                     "type": "Url"
                 },
                 {
-                    "identifier": "OT scanner",
+                    "identifier": "on-premises software",
                     "type": "Url"
                 },
                 {
@@ -1658,11 +1658,23 @@
         "assets": {
             "in_scope": [
                 {
+                    "identifier": "*.weareone.world",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "*.stag.weareone.world",
+                    "type": "Wildcard"
+                },
+                {
                     "identifier": "artists.tomorrowland.com/production-website/33117",
                     "type": "Url"
                 },
                 {
-                    "identifier": "cognito-idp.eu-west-1.amazonaws.com",
+                    "identifier": "belgium.tomorrowland.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "brasil.tomorrowland.com",
                     "type": "Url"
                 },
                 {
@@ -1690,12 +1702,32 @@
                     "type": "Url"
                 },
                 {
+                    "identifier": "tlbe.prod.tomorrowland.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "tlbr.prod.tomorrowland.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "tlfr.prod.tomorrowland.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "winter.tomorrowland.com",
+                    "type": "Url"
+                },
+                {
                     "identifier": "winterpackages.tomorrowland.com",
                     "type": "Url"
                 },
                 {
                     "identifier": "www.tomorrowland.com",
                     "type": "Url"
+                },
+                {
+                    "identifier": "*.stag.tomorrowland.com",
+                    "type": "Wildcard"
                 },
                 {
                     "identifier": "*.tomorrowland.com",
@@ -1906,57 +1938,6 @@
                 }
             ],
             "out_of_scope": []
-        }
-    },
-    {
-        "handle": "clabs",
-        "bounty": 1,
-        "active": 0,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "explorer.celo.org",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "forno.celo.org",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "https://*.celo.org",
-                    "type": "Wildcard"
-                },
-                {
-                    "identifier": "https://github.com/celo-org/*",
-                    "type": "Wildcard"
-                },
-                {
-                    "identifier": "optics.app",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "stcelo.xyz",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "https://celo.org",
-                    "type": "Url"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "celoprod.azurecr.io",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "grameen.celo.org",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "hackathon.celo.org",
-                    "type": "Url"
-                }
-            ]
         }
     },
     {
@@ -3076,6 +3057,36 @@
         }
     },
     {
+        "handle": "altera",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Non Altera Products",
+                    "type": "Other"
+                },
+                {
+                    "identifier": "Firmware",
+                    "type": "Device"
+                },
+                {
+                    "identifier": "Hardware",
+                    "type": "Device"
+                },
+                {
+                    "identifier": "Software",
+                    "type": "Other"
+                },
+                {
+                    "identifier": "FPGA Solution Development Tools and Utilities",
+                    "type": "Other"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
         "handle": "delijn",
         "bounty": 0,
         "active": 1,
@@ -3185,7 +3196,7 @@
             ],
             "out_of_scope": [
                 {
-                    "identifier": "https://*.pdq.com/ ",
+                    "identifier": "https://*.pdq.com/",
                     "type": "Wildcard"
                 },
                 {
@@ -4511,156 +4522,6 @@
         }
     },
     {
-        "handle": "vrt",
-        "bounty": 0,
-        "active": 0,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.canvas.be",
-                    "type": "Wildcard"
-                },
-                {
-                    "identifier": "*.dewarmsteweek.be",
-                    "type": "Wildcard"
-                },
-                {
-                    "identifier": "*.ketnet.be",
-                    "type": "Wildcard"
-                },
-                {
-                    "identifier": "*.klara.be",
-                    "type": "Wildcard"
-                },
-                {
-                    "identifier": "*.mnm.be",
-                    "type": "Wildcard"
-                },
-                {
-                    "identifier": "*.radio1.be",
-                    "type": "Wildcard"
-                },
-                {
-                    "identifier": "*.radio2.be",
-                    "type": "Wildcard"
-                },
-                {
-                    "identifier": "*.radioplus.be",
-                    "type": "Wildcard"
-                },
-                {
-                    "identifier": "*.sporza.be",
-                    "type": "Wildcard"
-                },
-                {
-                    "identifier": "*.stubru.be",
-                    "type": "Wildcard"
-                },
-                {
-                    "identifier": "*.vrt.be",
-                    "type": "Wildcard"
-                },
-                {
-                    "identifier": "1001982587",
-                    "type": "iOS"
-                },
-                {
-                    "identifier": "1001983790",
-                    "type": "iOS"
-                },
-                {
-                    "identifier": "1041369236",
-                    "type": "iOS"
-                },
-                {
-                    "identifier": "1116046348",
-                    "type": "iOS"
-                },
-                {
-                    "identifier": "1116049623",
-                    "type": "iOS"
-                },
-                {
-                    "identifier": "1116054448",
-                    "type": "iOS"
-                },
-                {
-                    "identifier": "1116054765",
-                    "type": "iOS"
-                },
-                {
-                    "identifier": "1337574835",
-                    "type": "iOS"
-                },
-                {
-                    "identifier": "388159251",
-                    "type": "iOS"
-                },
-                {
-                    "identifier": "878339906",
-                    "type": "iOS"
-                },
-                {
-                    "identifier": "927943978",
-                    "type": "iOS"
-                },
-                {
-                    "identifier": "952769219",
-                    "type": "iOS"
-                },
-                {
-                    "identifier": "959958329",
-                    "type": "iOS"
-                },
-                {
-                    "identifier": "be.vrt.ketnet.ketnet",
-                    "type": "Android"
-                },
-                {
-                    "identifier": "be.vrt.ketnet.ketnetjr",
-                    "type": "Android"
-                },
-                {
-                    "identifier": "be.vrt.mobile.android.deredactie",
-                    "type": "Android"
-                },
-                {
-                    "identifier": "be.vrt.mobile.android.sporza.voetbal",
-                    "type": "Android"
-                },
-                {
-                    "identifier": "be.vrt.radioplus.klara",
-                    "type": "Android"
-                },
-                {
-                    "identifier": "be.vrt.radioplus.mnm",
-                    "type": "Android"
-                },
-                {
-                    "identifier": "be.vrt.radioplus.radio1",
-                    "type": "Android"
-                },
-                {
-                    "identifier": "be.vrt.radioplus.radio2",
-                    "type": "Android"
-                },
-                {
-                    "identifier": "be.vrt.radioplus.stubru",
-                    "type": "Android"
-                },
-                {
-                    "identifier": "be.vrt.vrtnu",
-                    "type": "Android"
-                },
-                {
-                    "identifier": "com.fwc2014.vrt.and",
-                    "type": "Android"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "usz-vdp",
         "bounty": 0,
         "active": 1,
@@ -4695,7 +4556,7 @@
     {
         "handle": "aikidoruntime",
         "bounty": 1,
-        "active": 1,
+        "active": 0,
         "assets": {
             "in_scope": [
                 {
@@ -4795,10 +4656,6 @@
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "css-tricks.com",
-                    "type": "Url"
-                },
-                {
                     "identifier": "*.cloudways.com",
                     "type": "Wildcard"
                 },
@@ -4823,11 +4680,7 @@
                     "type": "Url"
                 },
                 {
-                    "identifier": "uacademy.ugurus.com",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "ugurus.com",
+                    "identifier": "css-tricks.com",
                     "type": "Url"
                 }
             ],
@@ -5842,14 +5695,6 @@
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "com.robinhood.gateway",
-                    "type": "Android"
-                },
-                {
-                    "identifier": "com.robinhood.money",
-                    "type": "Android"
-                },
-                {
                     "identifier": "*.rhinternal.net",
                     "type": "Wildcard"
                 },
@@ -5876,9 +5721,22 @@
                 {
                     "identifier": "com.robinhood.android",
                     "type": "Android"
+                },
+                {
+                    "identifier": "com.robinhood.gateway",
+                    "type": "Android"
+                },
+                {
+                    "identifier": "com.robinhood.money",
+                    "type": "Android"
                 }
             ],
-            "out_of_scope": []
+            "out_of_scope": [
+                {
+                    "identifier": "shop.robinhood.com",
+                    "type": "Url"
+                }
+            ]
         }
     },
     {
@@ -7078,10 +6936,6 @@
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "Web SDK",
-                    "type": "Other"
-                },
-                {
                     "identifier": "api.truelayer[-sandbox].com",
                     "type": "Url"
                 },
@@ -7186,11 +7040,19 @@
                     "type": "Other"
                 },
                 {
+                    "identifier": "Web SDK",
+                    "type": "Other"
+                },
+                {
                     "identifier": "Rust SDK",
                     "type": "Other"
                 }
             ],
             "out_of_scope": [
+                {
+                    "identifier": "ok.truelayer.com",
+                    "type": "Url"
+                },
                 {
                     "identifier": "banks.truelayer.com",
                     "type": "Url"
@@ -7237,7 +7099,7 @@
     {
         "handle": "intergamma",
         "bounty": 1,
-        "active": 0,
+        "active": 1,
         "assets": {
             "in_scope": [
                 {
