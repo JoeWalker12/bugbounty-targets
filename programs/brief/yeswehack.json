@@ -1,5 +1,55 @@
 [
     {
+        "handle": "ezviz-bug-bounty-program",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Hardware found on https://www.ezviz.com/category/security-wifi-cameras",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Hardware found on https://www.ezviz.com/category/smart-home",
+                    "type": "other"
+                },
+                {
+                    "identifier": "i.ys7.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "open.ys7.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "auth.ys7.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "api.ys7.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "api.ezvizlife.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "usauth.ezvizlife.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "ius.ezvizlife.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.ys7.com",
+                    "type": "web-application"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
         "handle": "infomaniak-bug-bounty-program",
         "bounty": 1,
         "active": 1,
@@ -148,6 +198,98 @@
                 {
                     "identifier": "https://play.google.com/store/apps/details?id=com.infomaniak.mail&hl=en_US",
                     "type": "mobile-application-android"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "dailymotion-public-bug-bounty",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.dailymotion.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.api.dailymotion.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "developer.dailymotion.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.dmcdn.net",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://play.google.com/store/apps/details?id=com.dailymotion.dailymotion&hl=fr&gl=US",
+                    "type": "mobile-application-android"
+                },
+                {
+                    "identifier": "https://apps.apple.com/fr/app/dailymotion/id336978041",
+                    "type": "mobile-application-ios"
+                },
+                {
+                    "identifier": "ifttt-adaptor.pub.kube.dm.gg",
+                    "type": "api"
+                },
+                {
+                    "identifier": "AS41690",
+                    "type": "other"
+                },
+                {
+                    "identifier": "dmxleo.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.dm.gg",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "Google Cloud Plateform Instances",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "telenor-sweden-public-bug-bounty-program",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.telenor.se",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.bredbandsbolaget.se",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.europolitan.se",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.ownit.se",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.vimla.se",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.vimla.work",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.vimla.io",
+                    "type": "web-application"
                 }
             ],
             "out_of_scope": []
@@ -440,56 +582,6 @@
         }
     },
     {
-        "handle": "ezviz-bug-bounty-program",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Hardware found on https://www.ezviz.com/category/security-wifi-cameras",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Hardware found on https://www.ezviz.com/category/smart-home",
-                    "type": "other"
-                },
-                {
-                    "identifier": "i.ys7.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "open.ys7.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "auth.ys7.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "api.ys7.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "api.ezvizlife.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "usauth.ezvizlife.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "ius.ezvizlife.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.ys7.com",
-                    "type": "web-application"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "franceconnect-proconnect-public",
         "bounty": 1,
         "active": 1,
@@ -646,60 +738,6 @@
                 {
                     "identifier": "Contentsquare SDK (cf : Program Description)",
                     "type": "application"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "dailymotion-public-bug-bounty",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.dailymotion.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.api.dailymotion.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "developer.dailymotion.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.dmcdn.net",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://play.google.com/store/apps/details?id=com.dailymotion.dailymotion&hl=fr&gl=US",
-                    "type": "mobile-application-android"
-                },
-                {
-                    "identifier": "https://apps.apple.com/fr/app/dailymotion/id336978041",
-                    "type": "mobile-application-ios"
-                },
-                {
-                    "identifier": "ifttt-adaptor.pub.kube.dm.gg",
-                    "type": "api"
-                },
-                {
-                    "identifier": "AS41690",
-                    "type": "other"
-                },
-                {
-                    "identifier": "dmxleo.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.dm.gg",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "Google Cloud Plateform Instances",
-                    "type": "other"
                 }
             ],
             "out_of_scope": []
@@ -1485,44 +1523,6 @@
                 },
                 {
                     "identifier": "https://emistores.pinelabs.com/",
-                    "type": "web-application"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "telenor-sweden-public-bug-bounty-program",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.telenor.se",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.bredbandsbolaget.se",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.europolitan.se",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.ownit.se",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.vimla.se",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.vimla.work",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.vimla.io",
                     "type": "web-application"
                 }
             ],
