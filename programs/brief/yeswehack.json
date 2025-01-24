@@ -1,53 +1,123 @@
 [
     {
-        "handle": "otto-de-bug-bounty",
+        "handle": "systemd-bug-bounty-program",
         "bounty": 1,
         "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "https://www.otto.de",
+                    "identifier": "systemd (the manager itself)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "systemd-boot",
+                    "type": "other"
+                },
+                {
+                    "identifier": "systemd-stub",
+                    "type": "other"
+                },
+                {
+                    "identifier": "systemd-udev",
+                    "type": "other"
+                },
+                {
+                    "identifier": "systemd-journald",
+                    "type": "other"
+                },
+                {
+                    "identifier": "systemd-logind",
+                    "type": "other"
+                },
+                {
+                    "identifier": "systemd-networkd",
+                    "type": "other"
+                },
+                {
+                    "identifier": "libsystemd",
+                    "type": "other"
+                },
+                {
+                    "identifier": "systemd-timesyncd",
+                    "type": "other"
+                },
+                {
+                    "identifier": "systemd-hostnamed",
+                    "type": "other"
+                },
+                {
+                    "identifier": "systemd-resolved",
+                    "type": "other"
+                },
+                {
+                    "identifier": "systemd-cryptenroll",
+                    "type": "other"
+                },
+                {
+                    "identifier": "systemd-cryptsetup",
+                    "type": "other"
+                },
+                {
+                    "identifier": "systemd-veritysetup",
+                    "type": "other"
+                },
+                {
+                    "identifier": "systemd-fstab-generator",
+                    "type": "other"
+                },
+                {
+                    "identifier": "systemd-gpt-auto-generator",
+                    "type": "other"
+                },
+                {
+                    "identifier": "systemd-ask-password",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "teamviewer-bounty-program",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://www.teamviewer.com/en/products/teamviewer/",
+                    "type": "application"
+                },
+                {
+                    "identifier": "https://web.teamviewer.com",
                     "type": "web-application"
                 },
                 {
-                    "identifier": "https://www.otto.de/jobs",
+                    "identifier": "https://account.teamviewer.com",
                     "type": "web-application"
                 },
                 {
-                    "identifier": "https://play.google.com/store/apps/details?id=de.cellular.ottohybrid&hl=de",
+                    "identifier": "https://login.teamviewer.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://play.google.com/store/apps/details?id=com.teamviewer.teamviewer.market.mobile&hl=en&gl=US",
                     "type": "mobile-application-android"
                 },
                 {
-                    "identifier": "https://apps.apple.com/de/app/otto-shopping-m%C3%B6bel/id404844644",
+                    "identifier": "https://play.google.com/store/apps/details?id=com.teamviewer.quicksupport.market&hl=en&gl=US",
+                    "type": "mobile-application-android"
+                },
+                {
+                    "identifier": "https://play.google.com/store/apps/details?id=com.teamviewer.host.market&hl=en&gl=US",
+                    "type": "mobile-application-android"
+                },
+                {
+                    "identifier": "https://apps.apple.com/de/app/teamviewer-remote-control/id692035811",
                     "type": "mobile-application-ios"
                 },
                 {
-                    "identifier": "https://www.lascana.de/",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://teleoptiprd.otto.de",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://mmp.otto.de",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://partnerprogramm.otto.de",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://orbidder.otto.de",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://supplier-connect.otto.de",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://retail-api.otto.de",
-                    "type": "web-application"
+                    "identifier": "https://apps.apple.com/de/app/teamviewer-quicksupport/id661649585",
+                    "type": "mobile-application-ios"
                 }
             ],
             "out_of_scope": []
@@ -208,6 +278,60 @@
         }
     },
     {
+        "handle": "otto-de-bug-bounty",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://www.otto.de",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://www.otto.de/jobs",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://play.google.com/store/apps/details?id=de.cellular.ottohybrid&hl=de",
+                    "type": "mobile-application-android"
+                },
+                {
+                    "identifier": "https://apps.apple.com/de/app/otto-shopping-m%C3%B6bel/id404844644",
+                    "type": "mobile-application-ios"
+                },
+                {
+                    "identifier": "https://www.lascana.de/",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://teleoptiprd.otto.de",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://mmp.otto.de",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://partnerprogramm.otto.de",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://orbidder.otto.de",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://supplier-connect.otto.de",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://retail-api.otto.de",
+                    "type": "web-application"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
         "handle": "vincisa-public-program",
         "bounty": 1,
         "active": 1,
@@ -316,84 +440,6 @@
         }
     },
     {
-        "handle": "systemd-bug-bounty-program",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "systemd (the manager itself)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "systemd-boot",
-                    "type": "other"
-                },
-                {
-                    "identifier": "systemd-stub",
-                    "type": "other"
-                },
-                {
-                    "identifier": "systemd-udev",
-                    "type": "other"
-                },
-                {
-                    "identifier": "systemd-journald",
-                    "type": "other"
-                },
-                {
-                    "identifier": "systemd-logind",
-                    "type": "other"
-                },
-                {
-                    "identifier": "systemd-networkd",
-                    "type": "other"
-                },
-                {
-                    "identifier": "libsystemd",
-                    "type": "other"
-                },
-                {
-                    "identifier": "systemd-timesyncd",
-                    "type": "other"
-                },
-                {
-                    "identifier": "systemd-hostnamed",
-                    "type": "other"
-                },
-                {
-                    "identifier": "systemd-resolved",
-                    "type": "other"
-                },
-                {
-                    "identifier": "systemd-cryptenroll",
-                    "type": "other"
-                },
-                {
-                    "identifier": "systemd-cryptsetup",
-                    "type": "other"
-                },
-                {
-                    "identifier": "systemd-veritysetup",
-                    "type": "other"
-                },
-                {
-                    "identifier": "systemd-fstab-generator",
-                    "type": "other"
-                },
-                {
-                    "identifier": "systemd-gpt-auto-generator",
-                    "type": "other"
-                },
-                {
-                    "identifier": "systemd-ask-password",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "ezviz-bug-bounty-program",
         "bounty": 1,
         "active": 1,
@@ -472,52 +518,6 @@
                 {
                     "identifier": "User Dashboard  (see program description for github link)",
                     "type": "web-application"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "teamviewer-bounty-program",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://www.teamviewer.com/en/products/teamviewer/",
-                    "type": "application"
-                },
-                {
-                    "identifier": "https://web.teamviewer.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://account.teamviewer.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://login.teamviewer.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://play.google.com/store/apps/details?id=com.teamviewer.teamviewer.market.mobile&hl=en&gl=US",
-                    "type": "mobile-application-android"
-                },
-                {
-                    "identifier": "https://play.google.com/store/apps/details?id=com.teamviewer.quicksupport.market&hl=en&gl=US",
-                    "type": "mobile-application-android"
-                },
-                {
-                    "identifier": "https://play.google.com/store/apps/details?id=com.teamviewer.host.market&hl=en&gl=US",
-                    "type": "mobile-application-android"
-                },
-                {
-                    "identifier": "https://apps.apple.com/de/app/teamviewer-remote-control/id692035811",
-                    "type": "mobile-application-ios"
-                },
-                {
-                    "identifier": "https://apps.apple.com/de/app/teamviewer-quicksupport/id661649585",
-                    "type": "mobile-application-ios"
                 }
             ],
             "out_of_scope": []
