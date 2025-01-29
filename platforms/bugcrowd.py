@@ -62,17 +62,26 @@ class BugcrowdAPI(API):
         if scope.startswith('engagements/'):
             # Retrieve the change logs for the specified scope.
             changelogs = self.get(f"{self.base_url}/{scope}/changelog.json")
-            changelog_id = changelogs.get("changelogs", [])[0].get('id')
+            if changelogs.get("changelogs", [])[0].get('id'):                             #edited by myself
+                changelog_id = changelogs.get("changelogs", [])[0].get('id')
 
-            changelog_data = self.get(f"{self.base_url}/{scope}/changelog/{changelog_id}.json")
+                changelog_data = self.get(f"{self.base_url}/{scope}/changelog/{changelog_id}.json")
 
-            if changelog_data.get('statusLabel', '') != 'In progress paused':
-                scope_data = changelog_data.get('data', {}).get('scope', [])
+                if changelog_data.get('statusLabel', '') != 'In progress paused':
+                    scope_data = changelog_data.get('data', {}).get('scope', [])
 
-                return {"target_groups": scope_data}
+                    return {"target_groups": scope_data}
 
-            else:
-                return {"status": "paused"}
+                else:
+                    return {"status": "paused"}
+            else:                                              #added by myself ***
+                if changelog_data.get('statusLabel', '') != 'In progress paused':
+                    scope_data = changelog_data.get('data', {}).get('scope', [])
+
+                    return {"target_groups": scope_data}
+
+                else:
+                    return {"status": "paused"}                #till here ***
 
         else:
             # Retrieve the target groups for the specified scope.
