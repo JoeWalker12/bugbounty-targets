@@ -69,7 +69,7 @@ class PublicPrograms:
 #        self.save_results('brief/hackerone.json')
 #        return self.results
 
-    def get_bugcrowd_programs(self) -> List[dict]:
+    def get_bugcrowd_programs(self) -> List[dict]:   ###
         """
         Retrieve all public programs from the BugCrowd API.
 
@@ -91,9 +91,9 @@ class PublicPrograms:
         self.results = self.api.complement_programs(self.results)
         self.results = [scope for scope in self.results if scope['accessStatus'] == 'open']
         
-        local_results = []
-        for scope in self.results:
-            scope_handle = scope.get('briefUrl', '').strip("/")
+        local_results = []  ##
+        for scope in self.results: #$
+            scope_handle = scope.get('briefUrl', '').strip("/") #$
             response_json = self.api.program_info(scope_handle)
 
             if response_json and response_json.get('status') != 'deleted':
@@ -101,13 +101,13 @@ class PublicPrograms:
                 scope['status'] = response_json.get('status', scope.get('status'))
                 local_results.append(scope)
             else:
-                self.logger.error("Error: unexpected response format.")
+                self.logger.error("Error: unexpected response format.")  ##
 
-        self.results = local_results
+        self.results = local_results ##
         self.save_results('bugcrowd.json')
 
         self.results = self.api.brief(self.results)
-        self.save_results('brief/bugcrowd.json')
+        self.save_results('brief/bugcrowd.json') ###
 
         return self.results
         
