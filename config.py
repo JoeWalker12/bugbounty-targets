@@ -39,7 +39,10 @@ class API:
         """
         try:
             response = self.session.get(endpoint, params=params, timeout=60.0)
-            response.raise_for_status()
+            if response.reason_phrase != 'Not Found':  #added by myself
+               response.raise_for_status()
+            else:
+                return "Not Found";                                           #till here
             self._wait()
             return response.json()
         except httpx.HTTPError as e:
