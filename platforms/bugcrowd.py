@@ -61,34 +61,31 @@ class BugcrowdAPI(API):
         """
         if scope.startswith('engagements/'):
             # Retrieve the change logs for the specified scope.
-            changelogs = self.get(f"{self.base_url}/{scope}/changelog.json")
-            if changelogs.get("changelogs", [])[0].get('id'):                             #edited by myself
-                changelog_id = changelogs.get("changelogs", [])[0].get('id')
+            changelogs = self.get(f"{self.base_url}/{scope}/changelog.json")  #$
+            if changelogs == "Not Found": #added by myself
+                return {"status": "deleted"}    #till here
+            changelogs.get("changelogs", [])[0].get('id')    #$
+            changelog_id = changelogs.get("changelogs", [])[0].get('id')
 
-                changelog_data = self.get(f"{self.base_url}/{scope}/changelog/{changelog_id}.json")
+            changelog_data = self.get(f"{self.base_url}/{scope}/changelog/{changelog_id}.json")
 
-                if changelog_data.get('statusLabel', '') != 'In progress paused':
-                    scope_data = changelog_data.get('data', {}).get('scope', [])
+            if changelog_data.get('statusLabel', '') != 'In progress paused':
+                scope_data = changelog_data.get('data', {}).get('scope', [])
 
-                    return {"target_groups": scope_data}
+                return {"target_groups": scope_data}
 
-                else:
-                    return {"status": "paused"}
-            else:                                              #added by myself ***
-                if changelog_data.get('statusLabel', '') != 'In progress paused':
-                    scope_data = changelog_data.get('data', {}).get('scope', [])
-
-                    return {"target_groups": scope_data}
-
-                else:
-                    return {"status": "paused"}                #till here ***
+            else:
+                return {"status": "paused"}
+            
 
         else:
             # Retrieve the target groups for the specified scope.
             target_groups_response = self.get(f"{self.base_url}/{scope}/target_groups.json")
             
-            if target_groups_response.get('errors', [{}])[0].get('detail') == 'Not found':
-                return {"status": "deleted"}
+#           if target_groups_response.get('errors', [{}])[0].get('detail') == 'Not found': #%
+#               return {"status": "deleted"}  #%
+            if target_groups_response == "Not Found": #added by myself
+                return {"status": "deleted"}    #till here
             
             target_groups = target_groups_response.get("groups", [])
 
