@@ -4433,33 +4433,6 @@
         }
     },
     {
-        "handle": "engagements/shoppingcart",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "1shoppingcart.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "mcssl.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.mcssl.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "*.1shoppingcart.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/kucoin",
         "bounty": 1,
         "active": 1,
@@ -5051,6 +5024,33 @@
                 }
             ],
             "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/shoppingcart",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "1shoppingcart.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "mcssl.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.mcssl.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "*.1shoppingcart.com",
+                    "type": "website"
+                }
+            ]
         }
     },
     {
@@ -6051,89 +6051,6 @@
         }
     },
     {
-        "handle": "engagements/lastpass",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://lastpass.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "LastPass browser extensions (Chrome / Safari / Edge / Firefox)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Local computer apps (UWP application / Windows installer (MSI) / MacOS)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://support.lastpass.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Workstation MFA (WMFA)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://blog.lastpass.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://admin.lastpass.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://auth.lastpass.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://accounts.lastpass.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.lastpass.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "LastPass Password Manager (Android)",
-                    "type": "android"
-                },
-                {
-                    "identifier": "LastPass Authenticator (Android)",
-                    "type": "android"
-                },
-                {
-                    "identifier": "LastPass Password Manager (iOS)",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "LastPass Authenticator (iOS)",
-                    "type": "ios"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "https://identity.lastpass.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Lastpass CLI tool",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://info.lastpass.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://forums.lastpass.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/underarmour",
         "bounty": 1,
         "active": 1,
@@ -6611,60 +6528,6 @@
         }
     },
     {
-        "handle": "engagements/openai",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "api.openai.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "ChatGPT",
-                    "type": "website"
-                },
-                {
-                    "identifier": "ChatGPT Plugins",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Third Party Targets",
-                    "type": "website"
-                },
-                {
-                    "identifier": "OpenAI API Keys",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://openai.org",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.openai.org",
-                    "type": "api"
-                },
-                {
-                    "identifier": "openai.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.openai.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Developer Platform Playground",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Other",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/skyscanner",
         "bounty": 1,
         "active": 1,
@@ -7053,6 +6916,143 @@
                     "type": "website"
                 }
             ]
+        }
+    },
+    {
+        "handle": "engagements/lastpass",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://lastpass.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "LastPass browser extensions (Chrome / Safari / Edge / Firefox)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Local computer apps (UWP application / Windows installer (MSI) / MacOS)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://support.lastpass.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Workstation MFA (WMFA)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://blog.lastpass.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://admin.lastpass.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://auth.lastpass.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://accounts.lastpass.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.lastpass.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "LastPass Password Manager (Android)",
+                    "type": "android"
+                },
+                {
+                    "identifier": "LastPass Authenticator (Android)",
+                    "type": "android"
+                },
+                {
+                    "identifier": "LastPass Password Manager (iOS)",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "LastPass Authenticator (iOS)",
+                    "type": "ios"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "https://identity.lastpass.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Lastpass CLI tool",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://info.lastpass.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://forums.lastpass.com",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/openai",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "api.openai.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "ChatGPT",
+                    "type": "website"
+                },
+                {
+                    "identifier": "ChatGPT Plugins",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Third Party Targets",
+                    "type": "website"
+                },
+                {
+                    "identifier": "OpenAI API Keys",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://openai.org",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.openai.org",
+                    "type": "api"
+                },
+                {
+                    "identifier": "openai.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.openai.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Developer Platform Playground",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Other",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": []
         }
     },
     {
@@ -10663,165 +10663,6 @@
         }
     },
     {
-        "handle": "engagements/latitude-financial-service-bugbounty",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://api.test.latitudefinancial.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://master.servicecentre.digitalservicing-np.lfscnp.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://master.servicecentre-nz.digitalservicing-np.lfscnp.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.28degreescard.com.au",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.buyersedge.com.au",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.carecredit.com.au",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.gemcreditline.co.nz",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.gemfinance.co.nz",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.gemvisa.com.au",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.genoapay.co.nz",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.genoapay.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.gomastercard.com.au",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.interestfree.com.au",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.latitudefinancial.co.nz",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.latitudefinancial.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.latitudefinancial.com.au",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.latitudeinfinity.com.au",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.latitudepay.com.au",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.latitudepay.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.umiloans.com.au",
-                    "type": "website"
-                },
-                {
-                    "identifier": "images.latitudepayapps.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "app.latitudepayapps.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": " *.test.*.lfscnp.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.dev.*.lfscnp.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.sandbox.*.lfscnp.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.-np.*.lfscnp.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "https://investors.latitudefinancial.com.au",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://auth.latitudefinancial.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://auth.*.latitudefinancial.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "*.latitudefs.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://*.my.latitudepay.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.sg.latitudepay.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://my.latitudepay.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://sg.latitudepay.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://t.latitudefinancial.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://p.latitudefinancial.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Payment APIs",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/underarmour-corp",
         "bounty": 1,
         "active": 1,
@@ -12096,6 +11937,165 @@
                 }
             ],
             "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/latitude-financial-service-bugbounty",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://api.test.latitudefinancial.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://master.servicecentre.digitalservicing-np.lfscnp.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://master.servicecentre-nz.digitalservicing-np.lfscnp.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.28degreescard.com.au",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.buyersedge.com.au",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.carecredit.com.au",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.gemcreditline.co.nz",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.gemfinance.co.nz",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.gemvisa.com.au",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.genoapay.co.nz",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.genoapay.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.gomastercard.com.au",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.interestfree.com.au",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.latitudefinancial.co.nz",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.latitudefinancial.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.latitudefinancial.com.au",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.latitudeinfinity.com.au",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.latitudepay.com.au",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.latitudepay.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.umiloans.com.au",
+                    "type": "website"
+                },
+                {
+                    "identifier": "images.latitudepayapps.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "app.latitudepayapps.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": " *.test.*.lfscnp.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.dev.*.lfscnp.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.sandbox.*.lfscnp.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.-np.*.lfscnp.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "https://investors.latitudefinancial.com.au",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://auth.latitudefinancial.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://auth.*.latitudefinancial.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "*.latitudefs.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://*.my.latitudepay.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.sg.latitudepay.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://my.latitudepay.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://sg.latitudepay.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://t.latitudefinancial.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://p.latitudefinancial.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Payment APIs",
+                    "type": "website"
+                }
+            ]
         }
     },
     {
