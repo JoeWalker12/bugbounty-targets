@@ -2776,109 +2776,6 @@
         }
     },
     {
-        "handle": "engagements/twentyminuten",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://www.20min.ch",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://cm.20min.ch/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://api.20min.ch/",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://videoplayer.20min.ch",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://partner-feeds.20min.ch",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://screenplayer.20min.ch",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://audio.20min.ch",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "https://tgt.tamedia.ch",
-                    "type": "api"
-                },
-                {
-                    "identifier": "http://auth.20min.ch",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://cre-api.tamedia.ch",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://track.20min.ch",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Social Media Links (older than 2 years)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Subdomain Takeover ",
-                    "type": "other"
-                },
-                {
-                    "identifier": "DMARC, SPF, DKIM",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://*.connect.ringier.ch",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.onelog.ch",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.20min-tv.ch",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.newsnetz.tv",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.appuser.ch",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.iagentur.ch",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.streamboat.ch",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.streamboatserver.ch",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Other Domains and Subdomains not specifically in scope",
-                    "type": "other"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/quizlet",
         "bounty": 1,
         "active": 1,
@@ -3707,52 +3604,6 @@
         }
     },
     {
-        "handle": "engagements/backblaze",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Backblaze Android mobile application",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Backblaze iOS mobile application",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Mac Personal Backup Clients",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Windows Personal Backup Clients",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Mac Restore Downloaders",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Windows Restore Downloaders",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Git Repositories (b2-sdk-java & B2 Command Line Tool)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "B2 APIs (*.backblazeb2.com)",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Backblaze Website (*.backblaze.com)",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/linktree-mbb-og",
         "bounty": 1,
         "active": 1,
@@ -3856,95 +3707,157 @@
         }
     },
     {
-        "handle": "engagements/ifood-og",
+        "handle": "engagements/openai",
         "bounty": 1,
         "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "https://www.ifood.com.br",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.movilepay.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.movilepay.com.br",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://shop.ifood.com.br",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://marketplace.ifood.com.br",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://wsloja.ifood.com.br",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://wslatam.ifood.com.br",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://static-images.ifood.com.br",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Gestor de pedidos - Web ONLY",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://developer.ifood.com.br",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://api.fstr.rocks",
+                    "identifier": "api.openai.com",
                     "type": "api"
                 },
                 {
-                    "identifier": "https://rc.fstr.rocks",
+                    "identifier": "ChatGPT",
+                    "type": "website"
+                },
+                {
+                    "identifier": "ChatGPT Plugins",
                     "type": "api"
                 },
                 {
-                    "identifier": "iFood Customer Android Application",
-                    "type": "android"
+                    "identifier": "Third Party Targets",
+                    "type": "website"
                 },
                 {
-                    "identifier": "iFood Customer iOS Application",
-                    "type": "ios"
+                    "identifier": "OpenAI API Keys",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://openai.org",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.openai.org",
+                    "type": "api"
+                },
+                {
+                    "identifier": "openai.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.openai.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Developer Platform Playground",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Other",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/twentyminuten",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://www.20min.ch",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://cm.20min.ch/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://api.20min.ch/",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://videoplayer.20min.ch",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://partner-feeds.20min.ch",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://screenplayer.20min.ch",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://audio.20min.ch",
+                    "type": "website"
                 }
             ],
             "out_of_scope": [
                 {
-                    "identifier": "blog-empresas.ifood.com.br",
+                    "identifier": "https://tgt.tamedia.ch",
+                    "type": "api"
+                },
+                {
+                    "identifier": "http://auth.20min.ch",
                     "type": "website"
                 },
                 {
-                    "identifier": "blog-parceiros.ifood.com.br",
+                    "identifier": "https://cre-api.tamedia.ch",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://track.20min.ch",
                     "type": "website"
                 },
                 {
-                    "identifier": "*.ecomanda.com.br",
+                    "identifier": "Social Media Links (older than 2 years)",
                     "type": "website"
                 },
                 {
-                    "identifier": "*.ecomanda.app",
+                    "identifier": "Subdomain Takeover ",
+                    "type": "other"
+                },
+                {
+                    "identifier": "DMARC, SPF, DKIM",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://*.connect.ringier.ch",
                     "type": "website"
                 },
                 {
-                    "identifier": "*.allin.movilepay.com",
+                    "identifier": "*.onelog.ch",
                     "type": "website"
                 },
                 {
-                    "identifier": "*.starsoft.movilepay.com",
+                    "identifier": "*.20min-tv.ch",
                     "type": "website"
                 },
                 {
-                    "identifier": "Gestor de Pedidos - Desktop Client",
+                    "identifier": "*.newsnetz.tv",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.appuser.ch",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.iagentur.ch",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.streamboat.ch",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.streamboatserver.ch",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Other Domains and Subdomains not specifically in scope",
                     "type": "other"
                 }
             ]
@@ -4054,54 +3967,141 @@
         }
     },
     {
-        "handle": "engagements/openai",
+        "handle": "engagements/ifood-og",
         "bounty": 1,
         "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "api.openai.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "ChatGPT",
+                    "identifier": "https://www.ifood.com.br",
                     "type": "website"
                 },
                 {
-                    "identifier": "ChatGPT Plugins",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Third Party Targets",
+                    "identifier": "*.movilepay.com",
                     "type": "website"
                 },
                 {
-                    "identifier": "OpenAI API Keys",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://openai.org",
+                    "identifier": "*.movilepay.com.br",
                     "type": "website"
                 },
                 {
-                    "identifier": "*.openai.org",
-                    "type": "api"
-                },
-                {
-                    "identifier": "openai.com",
+                    "identifier": "https://shop.ifood.com.br",
                     "type": "website"
                 },
                 {
-                    "identifier": "*.openai.com",
+                    "identifier": "https://marketplace.ifood.com.br",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://wsloja.ifood.com.br",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://wslatam.ifood.com.br",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://static-images.ifood.com.br",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Gestor de pedidos - Web ONLY",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://developer.ifood.com.br",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://api.fstr.rocks",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://rc.fstr.rocks",
+                    "type": "api"
+                },
+                {
+                    "identifier": "iFood Customer Android Application",
+                    "type": "android"
+                },
+                {
+                    "identifier": "iFood Customer iOS Application",
+                    "type": "ios"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "blog-empresas.ifood.com.br",
+                    "type": "website"
+                },
+                {
+                    "identifier": "blog-parceiros.ifood.com.br",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.ecomanda.com.br",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.ecomanda.app",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.allin.movilepay.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.starsoft.movilepay.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Gestor de Pedidos - Desktop Client",
+                    "type": "other"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/backblaze",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Backblaze Android mobile application",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Backblaze iOS mobile application",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Mac Personal Backup Clients",
                     "type": "other"
                 },
                 {
-                    "identifier": "Developer Platform Playground",
-                    "type": "website"
+                    "identifier": "Windows Personal Backup Clients",
+                    "type": "other"
                 },
                 {
-                    "identifier": "Other",
+                    "identifier": "Mac Restore Downloaders",
                     "type": "other"
+                },
+                {
+                    "identifier": "Windows Restore Downloaders",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Git Repositories (b2-sdk-java & B2 Command Line Tool)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "B2 APIs (*.backblazeb2.com)",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Backblaze Website (*.backblaze.com)",
+                    "type": "website"
                 }
             ],
             "out_of_scope": []
