@@ -4036,6 +4036,20 @@
         }
     },
     {
+        "handle": "engagements/worldpay",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Any Worldpay asset is in scope",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
         "handle": "engagements/classdojo",
         "bounty": 1,
         "active": 1,
@@ -4110,17 +4124,73 @@
         }
     },
     {
-        "handle": "engagements/worldpay",
+        "handle": "engagements/aylo-trafficjunky-mbb-og",
         "bounty": 1,
         "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "Any Worldpay asset is in scope",
+                    "identifier": "*.trafficjunky.com ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.adultforce.com ",
                     "type": "website"
                 }
             ],
-            "out_of_scope": []
+            "out_of_scope": [
+                {
+                    "identifier": "https://www.trafficjunky.com/blog/ ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.adultforce.com/#/blog/ ",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/cfr",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://www.foreignaffairs.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.cfr.org/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://thinkglobalhealth.org",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://education.cfr.org/",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "https://subs.foreignaffairs.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://subscribe.foreignaffairs.com ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://world101.cfr.org/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://modeldiplomacy.cfr.org",
+                    "type": "website"
+                }
+            ]
         }
     },
     {
@@ -4279,70 +4349,19 @@
         }
     },
     {
-        "handle": "engagements/aylo-trafficjunky-mbb-og",
+        "handle": "engagements/fis",
         "bounty": 1,
         "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "*.trafficjunky.com ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.adultforce.com ",
+                    "identifier": "Any FIS asset is in scope",
                     "type": "website"
                 }
             ],
             "out_of_scope": [
                 {
-                    "identifier": "https://www.trafficjunky.com/blog/ ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.adultforce.com/#/blog/ ",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/cfr",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://www.foreignaffairs.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.cfr.org/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://thinkglobalhealth.org",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://education.cfr.org/",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "https://subs.foreignaffairs.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://subscribe.foreignaffairs.com ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://world101.cfr.org/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://modeldiplomacy.cfr.org",
+                    "identifier": "Reference above out of scope targets",
                     "type": "website"
                 }
             ]
@@ -4568,170 +4587,6 @@
         }
     },
     {
-        "handle": "engagements/fis",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Any FIS asset is in scope",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "Reference above out of scope targets",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/expressvpn",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "VPN servers",
-                    "type": "other"
-                },
-                {
-                    "identifier": "ExpressVPN iOS application",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "ExpressVPN Android application",
-                    "type": "android"
-                },
-                {
-                    "identifier": "ExpressVPN Linux application",
-                    "type": "other"
-                },
-                {
-                    "identifier": "ExpressVPN macOS application",
-                    "type": "other"
-                },
-                {
-                    "identifier": "ExpressVPN Windows application",
-                    "type": "other"
-                },
-                {
-                    "identifier": "ExpressVPN Router",
-                    "type": "other"
-                },
-                {
-                    "identifier": "ExpressVPN Firefox extension",
-                    "type": "other"
-                },
-                {
-                    "identifier": "ExpressVPN Chrome extension",
-                    "type": "other"
-                },
-                {
-                    "identifier": "MediaStreamer DNS servers",
-                    "type": "other"
-                },
-                {
-                    "identifier": "ExpressVPN APIs",
-                    "type": "api"
-                },
-                {
-                    "identifier": "www.expressvpn.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.expressvpn.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.xvservice.net",
-                    "type": "other"
-                },
-                {
-                    "identifier": "*.xvtest.net",
-                    "type": "other"
-                },
-                {
-                    "identifier": "expressobutiolem.onion",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Google Play (com.expressvpn.vpn)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Apple App Store (886492891)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Lightway Core",
-                    "type": "other"
-                },
-                {
-                    "identifier": "ExpressVPN Keys Browser Extension",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/etsy",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "www.etsy.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Etsy Mobile Application (Android)",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Etsy Mobile Application (iPhone)",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Etsy API (see documentation below)",
-                    "type": "api"
-                },
-                {
-                    "identifier": "etsypayments.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "blog.etsy.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "careers.etsy.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "help.etsy.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "community.etsy.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.etsy.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "icht.etsysecure.com",
-                    "type": "api"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/wise",
         "bounty": 1,
         "active": 1,
@@ -4855,6 +4710,96 @@
         }
     },
     {
+        "handle": "engagements/expressvpn",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "VPN servers",
+                    "type": "other"
+                },
+                {
+                    "identifier": "ExpressVPN iOS application",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "ExpressVPN Android application",
+                    "type": "android"
+                },
+                {
+                    "identifier": "ExpressVPN Linux application",
+                    "type": "other"
+                },
+                {
+                    "identifier": "ExpressVPN macOS application",
+                    "type": "other"
+                },
+                {
+                    "identifier": "ExpressVPN Windows application",
+                    "type": "other"
+                },
+                {
+                    "identifier": "ExpressVPN Router",
+                    "type": "other"
+                },
+                {
+                    "identifier": "ExpressVPN Firefox extension",
+                    "type": "other"
+                },
+                {
+                    "identifier": "ExpressVPN Chrome extension",
+                    "type": "other"
+                },
+                {
+                    "identifier": "MediaStreamer DNS servers",
+                    "type": "other"
+                },
+                {
+                    "identifier": "ExpressVPN APIs",
+                    "type": "api"
+                },
+                {
+                    "identifier": "www.expressvpn.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.expressvpn.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.xvservice.net",
+                    "type": "other"
+                },
+                {
+                    "identifier": "*.xvtest.net",
+                    "type": "other"
+                },
+                {
+                    "identifier": "expressobutiolem.onion",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Google Play (com.expressvpn.vpn)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Apple App Store (886492891)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Lightway Core",
+                    "type": "other"
+                },
+                {
+                    "identifier": "ExpressVPN Keys Browser Extension",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
         "handle": "engagements/stiltsoft",
         "bounty": 1,
         "active": 1,
@@ -4924,6 +4869,171 @@
             "out_of_scope": [
                 {
                     "identifier": "*.atlassian.com",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/etsy",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "www.etsy.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Etsy Mobile Application (Android)",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Etsy Mobile Application (iPhone)",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Etsy API (see documentation below)",
+                    "type": "api"
+                },
+                {
+                    "identifier": "etsypayments.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "blog.etsy.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "careers.etsy.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "help.etsy.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "community.etsy.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.etsy.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "icht.etsysecure.com",
+                    "type": "api"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/asana",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "app.asana.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "asana.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.asana.plus",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.asana.biz",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Asana Desktop App",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Asana iOS app",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Asana Android app",
+                    "type": "android"
+                },
+                {
+                    "identifier": "form.asana.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.app.asana.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "Other subdomains of asana.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Social engineering against Asana Support or Asana Employees",
+                    "type": "other"
+                },
+                {
+                    "identifier": "jira*.integrations.asana.plus",
+                    "type": "website"
+                },
+                {
+                    "identifier": "asana.okta.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "assets.asana.biz",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Forms that you do not own",
+                    "type": "other"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/clickhouse",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://clickhou.se/bugcrowd",
+                    "type": "website"
+                },
+                {
+                    "identifier": "ClickHouse Cloud environment hosted by ClickHouse",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://github.com/ClickHouse/ClickHouse",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "New support cases, Chat, Request new integration form",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Share feedback form",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Vulnerability scanners",
+                    "type": "website"
+                },
+                {
+                    "identifier": "learn.clickhouse.com",
                     "type": "website"
                 }
             ]
@@ -5001,116 +5111,6 @@
                 }
             ],
             "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/clickhouse",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://clickhou.se/bugcrowd",
-                    "type": "website"
-                },
-                {
-                    "identifier": "ClickHouse Cloud environment hosted by ClickHouse",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://github.com/ClickHouse/ClickHouse",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "New support cases, Chat, Request new integration form",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Share feedback form",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Vulnerability scanners",
-                    "type": "website"
-                },
-                {
-                    "identifier": "learn.clickhouse.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/asana",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "app.asana.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "asana.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.asana.plus",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.asana.biz",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Asana Desktop App",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Asana iOS app",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Asana Android app",
-                    "type": "android"
-                },
-                {
-                    "identifier": "form.asana.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.app.asana.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "Other subdomains of asana.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Social engineering against Asana Support or Asana Employees",
-                    "type": "other"
-                },
-                {
-                    "identifier": "jira*.integrations.asana.plus",
-                    "type": "website"
-                },
-                {
-                    "identifier": "asana.okta.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "assets.asana.biz",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Forms that you do not own",
-                    "type": "other"
-                }
-            ]
         }
     },
     {
@@ -6796,60 +6796,6 @@
         }
     },
     {
-        "handle": "engagements/openai",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "api.openai.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "ChatGPT",
-                    "type": "website"
-                },
-                {
-                    "identifier": "ChatGPT Plugins",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Third Party Targets",
-                    "type": "website"
-                },
-                {
-                    "identifier": "OpenAI API Keys",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://openai.org",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.openai.org",
-                    "type": "api"
-                },
-                {
-                    "identifier": "openai.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.openai.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Developer Platform Playground",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Other",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/soundcloud",
         "bounty": 1,
         "active": 1,
@@ -7154,6 +7100,60 @@
                     "type": "other"
                 }
             ]
+        }
+    },
+    {
+        "handle": "engagements/openai",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "api.openai.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "ChatGPT",
+                    "type": "website"
+                },
+                {
+                    "identifier": "ChatGPT Plugins",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Third Party Targets",
+                    "type": "website"
+                },
+                {
+                    "identifier": "OpenAI API Keys",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://openai.org",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.openai.org",
+                    "type": "api"
+                },
+                {
+                    "identifier": "openai.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.openai.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Developer Platform Playground",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Other",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": []
         }
     },
     {
