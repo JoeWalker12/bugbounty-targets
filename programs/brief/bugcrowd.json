@@ -2083,69 +2083,6 @@
         }
     },
     {
-        "handle": "engagements/aruba-product-public",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Aruba Wireless \u2013 ArubaOS and Aruba Instant",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Aruba ClearPass Policy Manager",
-                    "type": "other"
-                },
-                {
-                    "identifier": "ArubaOS-CX Wired Switches",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Aruba EdgeConnect Enterprise Orchestrator",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Aruba EdgeConnect Enterprise",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Aruba InstantOn APs and supporting backend infrastructure",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Aruba Fabric Composer",
-                    "type": "network"
-                },
-                {
-                    "identifier": "Aruba NetEdit",
-                    "type": "network"
-                },
-                {
-                    "identifier": "*.central.arubanetworks.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Aruba InstantOn Switches",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Aruba AirWave AMP",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Aruba User Experience Insight Sensors",
-                    "type": "hardware"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "*.arubanetworks.com not in scope above - see in scope",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/motorolamobility-iot",
         "bounty": 1,
         "active": 1,
@@ -4708,77 +4645,129 @@
         }
     },
     {
-        "handle": "engagements/keepersecurity",
+        "handle": "engagements/etsy",
         "bounty": 1,
         "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "Keeper Browser Extension (Chrome, Safari, Firefox, Edge)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Keeper for iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "KeeperChat for Windows",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Keeper Security Website",
+                    "identifier": "www.etsy.com",
                     "type": "website"
                 },
                 {
-                    "identifier": "Keeper for Mac, PC, Linux",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Keeper Web Vault (US, EU, AU, CA, JP, GovCloud)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Keeper AD / LDAP Bridge",
-                    "type": "api"
-                },
-                {
-                    "identifier": "KeeperChat for iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "KeeperChat for Android",
+                    "identifier": "Etsy Mobile Application (Android)",
                     "type": "android"
                 },
                 {
-                    "identifier": "KeeperChat for Mac",
+                    "identifier": "Etsy Mobile Application (iPhone)",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Etsy API (see documentation below)",
+                    "type": "api"
+                },
+                {
+                    "identifier": "etsypayments.com",
                     "type": "other"
                 },
                 {
-                    "identifier": "Keeper for Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Keeper Connection Manager (KCM)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Keeper Admin Console (US, EU, AU, CA, JP, GovCloud)",
+                    "identifier": "blog.etsy.com",
                     "type": "website"
                 },
                 {
-                    "identifier": "Keeper Secrets Manager and Keeper Commander APIs",
-                    "type": "api"
+                    "identifier": "careers.etsy.com",
+                    "type": "website"
                 },
                 {
-                    "identifier": "SSO Connect On-Prem",
-                    "type": "api"
+                    "identifier": "help.etsy.com",
+                    "type": "website"
                 },
                 {
-                    "identifier": "SSO Connect Cloud and Automator Service",
-                    "type": "api"
+                    "identifier": "community.etsy.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.etsy.com",
+                    "type": "website"
                 }
             ],
-            "out_of_scope": []
+            "out_of_scope": [
+                {
+                    "identifier": "icht.etsysecure.com",
+                    "type": "api"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/asana",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "app.asana.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "asana.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.asana.plus",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.asana.biz",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Asana Desktop App",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Asana iOS app",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Asana Android app",
+                    "type": "android"
+                },
+                {
+                    "identifier": "form.asana.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.app.asana.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "Other subdomains of asana.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Social engineering against Asana Support or Asana Employees",
+                    "type": "other"
+                },
+                {
+                    "identifier": "jira*.integrations.asana.plus",
+                    "type": "website"
+                },
+                {
+                    "identifier": "asana.okta.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "assets.asana.biz",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Forms that you do not own",
+                    "type": "other"
+                }
+            ]
         }
     },
     {
@@ -4988,127 +4977,138 @@
         }
     },
     {
-        "handle": "engagements/etsy",
+        "handle": "engagements/keepersecurity",
         "bounty": 1,
         "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "www.etsy.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Etsy Mobile Application (Android)",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Etsy Mobile Application (iPhone)",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Etsy API (see documentation below)",
-                    "type": "api"
-                },
-                {
-                    "identifier": "etsypayments.com",
+                    "identifier": "Keeper Browser Extension (Chrome, Safari, Firefox, Edge)",
                     "type": "other"
                 },
                 {
-                    "identifier": "blog.etsy.com",
+                    "identifier": "Keeper for iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "KeeperChat for Windows",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Keeper Security Website",
                     "type": "website"
                 },
                 {
-                    "identifier": "careers.etsy.com",
+                    "identifier": "Keeper for Mac, PC, Linux",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Keeper Web Vault (US, EU, AU, CA, JP, GovCloud)",
                     "type": "website"
                 },
                 {
-                    "identifier": "help.etsy.com",
+                    "identifier": "Keeper AD / LDAP Bridge",
+                    "type": "api"
+                },
+                {
+                    "identifier": "KeeperChat for iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "KeeperChat for Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "KeeperChat for Mac",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Keeper for Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Keeper Connection Manager (KCM)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Keeper Admin Console (US, EU, AU, CA, JP, GovCloud)",
                     "type": "website"
                 },
                 {
-                    "identifier": "community.etsy.com",
-                    "type": "website"
+                    "identifier": "Keeper Secrets Manager and Keeper Commander APIs",
+                    "type": "api"
                 },
                 {
-                    "identifier": "*.etsy.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
+                    "identifier": "SSO Connect On-Prem",
+                    "type": "api"
+                },
                 {
-                    "identifier": "icht.etsysecure.com",
+                    "identifier": "SSO Connect Cloud and Automator Service",
                     "type": "api"
                 }
-            ]
+            ],
+            "out_of_scope": []
         }
     },
     {
-        "handle": "engagements/asana",
+        "handle": "engagements/aruba-product-public",
         "bounty": 1,
         "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "app.asana.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "asana.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.asana.plus",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.asana.biz",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Asana Desktop App",
+                    "identifier": "Aruba Wireless \u2013 ArubaOS and Aruba Instant",
                     "type": "other"
                 },
                 {
-                    "identifier": "Asana iOS app",
-                    "type": "ios"
+                    "identifier": "Aruba ClearPass Policy Manager",
+                    "type": "other"
                 },
                 {
-                    "identifier": "Asana Android app",
-                    "type": "android"
+                    "identifier": "ArubaOS-CX Wired Switches",
+                    "type": "other"
                 },
                 {
-                    "identifier": "form.asana.com",
+                    "identifier": "Aruba EdgeConnect Enterprise Orchestrator",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Aruba EdgeConnect Enterprise",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Aruba InstantOn APs and supporting backend infrastructure",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Aruba Fabric Composer",
+                    "type": "network"
+                },
+                {
+                    "identifier": "Aruba NetEdit",
+                    "type": "network"
+                },
+                {
+                    "identifier": "*.central.arubanetworks.com",
                     "type": "website"
                 },
                 {
-                    "identifier": "*.app.asana.com",
-                    "type": "website"
+                    "identifier": "Aruba InstantOn Switches",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Aruba AirWave AMP",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Aruba User Experience Insight Sensors",
+                    "type": "hardware"
                 }
             ],
             "out_of_scope": [
                 {
-                    "identifier": "Other subdomains of asana.com",
+                    "identifier": "*.arubanetworks.com not in scope above - see in scope",
                     "type": "website"
-                },
-                {
-                    "identifier": "Social engineering against Asana Support or Asana Employees",
-                    "type": "other"
-                },
-                {
-                    "identifier": "jira*.integrations.asana.plus",
-                    "type": "website"
-                },
-                {
-                    "identifier": "asana.okta.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "assets.asana.biz",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Forms that you do not own",
-                    "type": "other"
                 }
             ]
         }
