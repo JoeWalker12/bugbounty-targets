@@ -3008,108 +3008,6 @@
         }
     },
     {
-        "handle": "engagements/asana",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "app.asana.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "asana.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.asana.plus",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.asana.biz",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Asana Desktop App",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Asana iOS app",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Asana Android app",
-                    "type": "android"
-                },
-                {
-                    "identifier": "form.asana.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.app.asana.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "Other subdomains of asana.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Social engineering against Asana Support or Asana Employees",
-                    "type": "other"
-                },
-                {
-                    "identifier": "jira*.integrations.asana.plus",
-                    "type": "website"
-                },
-                {
-                    "identifier": "asana.okta.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "assets.asana.biz",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Forms that you do not own",
-                    "type": "other"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/carrefour",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Carrefour UAE iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Carrefour UAE Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "carrefouruae.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://api-prod.retailsso.com",
-                    "type": "api"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "https://cwingsfe.mafrservices.com/login",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/square",
         "bounty": 1,
         "active": 1,
@@ -3179,6 +3077,76 @@
                 },
                 {
                     "identifier": "Any vulnerabilities found in Third-party software",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/carrefour",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Carrefour UAE iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Carrefour UAE Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "carrefouruae.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://api-prod.retailsso.com",
+                    "type": "api"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "https://cwingsfe.mafrservices.com/login",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/clickhouse",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://clickhou.se/bugcrowd",
+                    "type": "website"
+                },
+                {
+                    "identifier": "ClickHouse Cloud environment hosted by ClickHouse",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://github.com/ClickHouse/ClickHouse",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "New support cases, Chat, Request new integration form",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Share feedback form",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Vulnerability scanners",
+                    "type": "website"
+                },
+                {
+                    "identifier": "learn.clickhouse.com",
                     "type": "website"
                 }
             ]
@@ -3403,45 +3371,6 @@
         }
     },
     {
-        "handle": "engagements/clickhouse",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://clickhou.se/bugcrowd",
-                    "type": "website"
-                },
-                {
-                    "identifier": "ClickHouse Cloud environment hosted by ClickHouse",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://github.com/ClickHouse/ClickHouse",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "New support cases, Chat, Request new integration form",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Share feedback form",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Vulnerability scanners",
-                    "type": "website"
-                },
-                {
-                    "identifier": "learn.clickhouse.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/cfr",
         "bounty": 1,
         "active": 1,
@@ -3479,6 +3408,69 @@
                 },
                 {
                     "identifier": "https://modeldiplomacy.cfr.org",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/aruba-product-public",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Aruba Wireless \u2013 ArubaOS and Aruba Instant",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Aruba ClearPass Policy Manager",
+                    "type": "other"
+                },
+                {
+                    "identifier": "ArubaOS-CX Wired Switches",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Aruba EdgeConnect Enterprise Orchestrator",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Aruba EdgeConnect Enterprise",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Aruba InstantOn APs and supporting backend infrastructure",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Aruba Fabric Composer",
+                    "type": "network"
+                },
+                {
+                    "identifier": "Aruba NetEdit",
+                    "type": "network"
+                },
+                {
+                    "identifier": "*.central.arubanetworks.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Aruba InstantOn Switches",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Aruba AirWave AMP",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Aruba User Experience Insight Sensors",
+                    "type": "hardware"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "*.arubanetworks.com not in scope above - see in scope",
                     "type": "website"
                 }
             ]
@@ -3594,69 +3586,6 @@
                 }
             ],
             "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/aruba-product-public",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Aruba Wireless \u2013 ArubaOS and Aruba Instant",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Aruba ClearPass Policy Manager",
-                    "type": "other"
-                },
-                {
-                    "identifier": "ArubaOS-CX Wired Switches",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Aruba EdgeConnect Enterprise Orchestrator",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Aruba EdgeConnect Enterprise",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Aruba InstantOn APs and supporting backend infrastructure",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Aruba Fabric Composer",
-                    "type": "network"
-                },
-                {
-                    "identifier": "Aruba NetEdit",
-                    "type": "network"
-                },
-                {
-                    "identifier": "*.central.arubanetworks.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Aruba InstantOn Switches",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Aruba AirWave AMP",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Aruba User Experience Insight Sensors",
-                    "type": "hardware"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "*.arubanetworks.com not in scope above - see in scope",
-                    "type": "website"
-                }
-            ]
         }
     },
     {
@@ -5119,6 +5048,77 @@
                 }
             ],
             "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/asana",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "app.asana.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "asana.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.asana.plus",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.asana.biz",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Asana Desktop App",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Asana iOS app",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Asana Android app",
+                    "type": "android"
+                },
+                {
+                    "identifier": "form.asana.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.app.asana.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "Other subdomains of asana.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Social engineering against Asana Support or Asana Employees",
+                    "type": "other"
+                },
+                {
+                    "identifier": "jira*.integrations.asana.plus",
+                    "type": "website"
+                },
+                {
+                    "identifier": "asana.okta.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "assets.asana.biz",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Forms that you do not own",
+                    "type": "other"
+                }
+            ]
         }
     },
     {
@@ -8001,32 +8001,6 @@
         }
     },
     {
-        "handle": "engagements/woox",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://api.woox.io/",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://woox.io/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "WOO X: Buy Crypto & BTC (Android)",
-                    "type": "android"
-                },
-                {
-                    "identifier": "WOO X: Buy Crypto & BTC (IOS)",
-                    "type": "ios"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/indeed",
         "bounty": 1,
         "active": 1,
@@ -8646,6 +8620,32 @@
                 {
                     "identifier": "www.planethoster.com",
                     "type": "website"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/woox",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://api.woox.io/",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://woox.io/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "WOO X: Buy Crypto & BTC (Android)",
+                    "type": "android"
+                },
+                {
+                    "identifier": "WOO X: Buy Crypto & BTC (IOS)",
+                    "type": "ios"
                 }
             ],
             "out_of_scope": []
@@ -11254,88 +11254,6 @@
         }
     },
     {
-        "handle": "engagements/cyberghost",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.cyberghostvpn.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.cyberghost.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "cyberghost.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "cyberghost.app",
-                    "type": "website"
-                },
-                {
-                    "identifier": "CyberGhost VPN servers",
-                    "type": "other"
-                },
-                {
-                    "identifier": "CyberGhost APIs",
-                    "type": "api"
-                },
-                {
-                    "identifier": "CyberGhost iOS application",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "CyberGhost Android application",
-                    "type": "android"
-                },
-                {
-                    "identifier": "CyberGhost macOS application",
-                    "type": "other"
-                },
-                {
-                    "identifier": "CyberGhost Windows application",
-                    "type": "other"
-                },
-                {
-                    "identifier": "CyberGhost Linux application",
-                    "type": "other"
-                },
-                {
-                    "identifier": "CyberGhost Firefox extension",
-                    "type": "other"
-                },
-                {
-                    "identifier": "CyberGhost Chrome extension",
-                    "type": "other"
-                },
-                {
-                    "identifier": "polymoon.it",
-                    "type": "network"
-                },
-                {
-                    "identifier": "Employee Email",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Internal chat messages",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Vulnerabilities compromising the privacy of our employees",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Source code hosting",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/cashapp",
         "bounty": 1,
         "active": 1,
@@ -11833,6 +11751,88 @@
                     "type": "website"
                 }
             ]
+        }
+    },
+    {
+        "handle": "engagements/cyberghost",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.cyberghostvpn.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.cyberghost.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "cyberghost.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "cyberghost.app",
+                    "type": "website"
+                },
+                {
+                    "identifier": "CyberGhost VPN servers",
+                    "type": "other"
+                },
+                {
+                    "identifier": "CyberGhost APIs",
+                    "type": "api"
+                },
+                {
+                    "identifier": "CyberGhost iOS application",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "CyberGhost Android application",
+                    "type": "android"
+                },
+                {
+                    "identifier": "CyberGhost macOS application",
+                    "type": "other"
+                },
+                {
+                    "identifier": "CyberGhost Windows application",
+                    "type": "other"
+                },
+                {
+                    "identifier": "CyberGhost Linux application",
+                    "type": "other"
+                },
+                {
+                    "identifier": "CyberGhost Firefox extension",
+                    "type": "other"
+                },
+                {
+                    "identifier": "CyberGhost Chrome extension",
+                    "type": "other"
+                },
+                {
+                    "identifier": "polymoon.it",
+                    "type": "network"
+                },
+                {
+                    "identifier": "Employee Email",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Internal chat messages",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Vulnerabilities compromising the privacy of our employees",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Source code hosting",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": []
         }
     },
     {
