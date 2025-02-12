@@ -2694,19 +2694,39 @@
         }
     },
     {
-        "handle": "engagements/fis",
+        "handle": "engagements/clickhouse",
         "bounty": 1,
         "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "Any FIS asset is in scope",
+                    "identifier": "https://clickhou.se/bugcrowd",
                     "type": "website"
+                },
+                {
+                    "identifier": "ClickHouse Cloud environment hosted by ClickHouse",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://github.com/ClickHouse/ClickHouse",
+                    "type": "other"
                 }
             ],
             "out_of_scope": [
                 {
-                    "identifier": "Reference above out of scope targets",
+                    "identifier": "New support cases, Chat, Request new integration form",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Share feedback form",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Vulnerability scanners",
+                    "type": "website"
+                },
+                {
+                    "identifier": "learn.clickhouse.com",
                     "type": "website"
                 }
             ]
@@ -2808,59 +2828,6 @@
         }
     },
     {
-        "handle": "engagements/clickhouse",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://clickhou.se/bugcrowd",
-                    "type": "website"
-                },
-                {
-                    "identifier": "ClickHouse Cloud environment hosted by ClickHouse",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://github.com/ClickHouse/ClickHouse",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "New support cases, Chat, Request new integration form",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Share feedback form",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Vulnerability scanners",
-                    "type": "website"
-                },
-                {
-                    "identifier": "learn.clickhouse.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/yieldstreet-bb",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "bc.yieldstreet.net",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/aruba-product-public",
         "bounty": 1,
         "active": 1,
@@ -2921,6 +2888,20 @@
                     "type": "website"
                 }
             ]
+        }
+    },
+    {
+        "handle": "engagements/yieldstreet-bb",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "bc.yieldstreet.net",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
         }
     },
     {
@@ -5118,6 +5099,25 @@
         }
     },
     {
+        "handle": "engagements/fis",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Any FIS asset is in scope",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "Reference above out of scope targets",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
         "handle": "engagements/gopro-og-public",
         "bounty": 1,
         "active": 0,
@@ -7084,41 +7084,6 @@
         }
     },
     {
-        "handle": "engagements/quizlet",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://*.quizlet.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "IoS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "3.0 API",
-                    "type": "api"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "2.0 API",
-                    "type": "api"
-                },
-                {
-                    "identifier": " help.quizlet.com (zendesk)",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/openai",
         "bounty": 1,
         "active": 1,
@@ -7170,6 +7135,41 @@
                 }
             ],
             "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/quizlet",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://*.quizlet.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "IoS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "3.0 API",
+                    "type": "api"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "2.0 API",
+                    "type": "api"
+                },
+                {
+                    "identifier": " help.quizlet.com (zendesk)",
+                    "type": "website"
+                }
+            ]
         }
     },
     {
@@ -7975,36 +7975,6 @@
         }
     },
     {
-        "handle": "engagements/planethosterinc",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "my.planethoster.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "api.planethoster.net",
-                    "type": "api"
-                },
-                {
-                    "identifier": " world.planethoster.net",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://mg.n0c.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "www.planethoster.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/woox",
         "bounty": 1,
         "active": 1,
@@ -8657,6 +8627,36 @@
                     "type": "website"
                 }
             ]
+        }
+    },
+    {
+        "handle": "engagements/planethosterinc",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "my.planethoster.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "api.planethoster.net",
+                    "type": "api"
+                },
+                {
+                    "identifier": " world.planethoster.net",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://mg.n0c.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "www.planethoster.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
         }
     },
     {
