@@ -2655,6 +2655,45 @@
         }
     },
     {
+        "handle": "engagements/clickhouse",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://clickhou.se/bugcrowd",
+                    "type": "website"
+                },
+                {
+                    "identifier": "ClickHouse Cloud environment hosted by ClickHouse",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://github.com/ClickHouse/ClickHouse",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "New support cases, Chat, Request new integration form",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Share feedback form",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Vulnerability scanners",
+                    "type": "website"
+                },
+                {
+                    "identifier": "learn.clickhouse.com",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
         "handle": "engagements/bitdefender",
         "bounty": 1,
         "active": 1,
@@ -2750,59 +2789,6 @@
         }
     },
     {
-        "handle": "engagements/clickhouse",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://clickhou.se/bugcrowd",
-                    "type": "website"
-                },
-                {
-                    "identifier": "ClickHouse Cloud environment hosted by ClickHouse",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://github.com/ClickHouse/ClickHouse",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "New support cases, Chat, Request new integration form",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Share feedback form",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Vulnerability scanners",
-                    "type": "website"
-                },
-                {
-                    "identifier": "learn.clickhouse.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/yieldstreet-bb",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "bc.yieldstreet.net",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/aruba-product-public",
         "bounty": 1,
         "active": 1,
@@ -2863,6 +2849,20 @@
                     "type": "website"
                 }
             ]
+        }
+    },
+    {
+        "handle": "engagements/yieldstreet-bb",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "bc.yieldstreet.net",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
         }
     },
     {
@@ -2941,157 +2941,6 @@
                 }
             ],
             "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/aiven-mbb-og",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Aiven for Clickhouse",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Aiven for Dragonfly",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Aiven for Metrics",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Aiven for Valkey",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Aiven for Apache Cassandra",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Aiven for AlloyDB Omni",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Aiven for OpenSearch",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Aiven for Grafana",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Aiven for Apache Kafka",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Aiven for M3",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Aiven for PostgreSQL",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Aiven for Caching",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Aiven for MySQL",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Aiven for Apache Flink",
-                    "type": "other"
-                },
-                {
-                    "identifier": "aiven.io",
-                    "type": "website"
-                },
-                {
-                    "identifier": "console.aiven.io",
-                    "type": "website"
-                },
-                {
-                    "identifier": "api.aiven.io",
-                    "type": "api"
-                },
-                {
-                    "identifier": "github.com/Aiven-Open",
-                    "type": "other"
-                },
-                {
-                    "identifier": "github.com/Aiven",
-                    "type": "other"
-                },
-                {
-                    "identifier": "falcon-bug-bounty-flag-pgsql-dev-sandbox.aivencloud.com",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "aquarium.aiven.io\t",
-                    "type": "website"
-                },
-                {
-                    "identifier": "uptime.aiven.io\t",
-                    "type": "website"
-                },
-                {
-                    "identifier": "video.aiven.io\t",
-                    "type": "website"
-                },
-                {
-                    "identifier": "aiven.io/community",
-                    "type": "website"
-                },
-                {
-                    "identifier": "aiven.io/contact",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Customer services you did not create",
-                    "type": "other"
-                },
-                {
-                    "identifier": "*.aiven.fi",
-                    "type": "other"
-                },
-                {
-                    "identifier": "github.com/Aiven-Labs",
-                    "type": "other"
-                },
-                {
-                    "identifier": "*.avns.net",
-                    "type": "other"
-                },
-                {
-                    "identifier": "events.aiven.io",
-                    "type": "website"
-                },
-                {
-                    "identifier": "ideas.aiven.io",
-                    "type": "other"
-                },
-                {
-                    "identifier": "aivenhelp.zendesk.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "support.aiven.io",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Creation of support tickets",
-                    "type": "website"
-                },
-                {
-                    "identifier": "regatta.aiven.io",
-                    "type": "website"
-                }
-            ]
         }
     },
     {
@@ -4647,105 +4496,6 @@
         }
     },
     {
-        "handle": "engagements/hubspot",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "app.hubspot.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "app-eu1.hubspot.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "api.hubspot.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "api.hubapi.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "chatspot.ai",
-                    "type": "website"
-                },
-                {
-                    "identifier": "connect.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.hubspotemail.net",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.hs-sites(-eu1)?.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.hubspotpagebuilder.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.hubspotpagebuilder.eu",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Customer Portal (1)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Customer connected domain (2)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "HubSpot Android Mobile App",
-                    "type": "android"
-                },
-                {
-                    "identifier": "HubSpot iOS Mobile App",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "HubSpot Sales Office 365 add-in",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Other HubSpot-owned (sub)domains not listed as Out of Scope . Please make sure to exercise due diligence before testing. You must include proof that the subdomain is registered to HubSpot to be eligible for a reward.",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Special Conditions",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "shop.hubspot.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "trust.hubspot.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "thespot.hubspot.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "ir.hubspot.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Out of Scope Vulnerabilities",
-                    "type": "other"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/thousandeyes-og",
         "bounty": 1,
         "active": 1,
@@ -4956,84 +4706,100 @@
         }
     },
     {
-        "handle": "engagements/thefork-b2c-wng",
+        "handle": "engagements/hubspot",
         "bounty": 1,
         "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "https://www.thefork.com/",
+                    "identifier": "app.hubspot.com",
                     "type": "website"
                 },
                 {
-                    "identifier": "https://m.thefork.com",
+                    "identifier": "app-eu1.hubspot.com",
                     "type": "website"
                 },
                 {
-                    "identifier": "https://blog.thefork.com/",
+                    "identifier": "api.hubspot.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "api.hubapi.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "chatspot.ai",
                     "type": "website"
                 },
                 {
-                    "identifier": "https://api.thefork.com",
-                    "type": "api"
+                    "identifier": "connect.com",
+                    "type": "website"
                 },
                 {
-                    "identifier": "https://api.lafourchette.com",
-                    "type": "api"
+                    "identifier": "*.hubspotemail.net",
+                    "type": "website"
                 },
                 {
-                    "identifier": "https://review-api.lafourchette.com",
-                    "type": "api"
+                    "identifier": "*.hs-sites(-eu1)?.com",
+                    "type": "website"
                 },
                 {
-                    "identifier": "https://google-reserve-api.thefork.io ",
-                    "type": "api"
+                    "identifier": "*.hubspotpagebuilder.com",
+                    "type": "website"
                 },
                 {
-                    "identifier": "https://m-api.lafourchette.com",
-                    "type": "api"
+                    "identifier": "*.hubspotpagebuilder.eu",
+                    "type": "website"
                 },
                 {
-                    "identifier": "The Fork Android App",
+                    "identifier": "Customer Portal (1)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Customer connected domain (2)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "HubSpot Android Mobile App",
                     "type": "android"
                 },
                 {
-                    "identifier": "The Fork iOS App",
+                    "identifier": "HubSpot iOS Mobile App",
                     "type": "ios"
                 },
                 {
-                    "identifier": "*.tools.thefork.tech",
-                    "type": "website"
+                    "identifier": "HubSpot Sales Office 365 add-in",
+                    "type": "other"
                 },
                 {
-                    "identifier": "www.restaurant-information.com",
-                    "type": "website"
+                    "identifier": "Other HubSpot-owned (sub)domains not listed as Out of Scope . Please make sure to exercise due diligence before testing. You must include proof that the subdomain is registered to HubSpot to be eligible for a reward.",
+                    "type": "other"
                 },
                 {
-                    "identifier": "widget.thefork.com",
-                    "type": "website"
+                    "identifier": "Special Conditions",
+                    "type": "other"
                 }
             ],
             "out_of_scope": [
                 {
-                    "identifier": "https://*.eltenedor.*",
+                    "identifier": "shop.hubspot.com",
                     "type": "website"
                 },
                 {
-                    "identifier": "https://www.thefork.*",
+                    "identifier": "trust.hubspot.com",
                     "type": "website"
                 },
                 {
-                    "identifier": "Customer semi-login / PartialLogin feature",
+                    "identifier": "thespot.hubspot.com",
                     "type": "website"
                 },
                 {
-                    "identifier": "module.thefork.com",
+                    "identifier": "ir.hubspot.com",
                     "type": "website"
                 },
                 {
-                    "identifier": "https://www.lafourchette.com",
-                    "type": "website"
+                    "identifier": "Out of Scope Vulnerabilities",
+                    "type": "other"
                 }
             ]
         }
@@ -5112,6 +4878,240 @@
                 },
                 {
                     "identifier": "https://www.ecwid.com/",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/aiven-mbb-og",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Aiven for Clickhouse",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Aiven for Dragonfly",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Aiven for Metrics",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Aiven for Valkey",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Aiven for Apache Cassandra",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Aiven for AlloyDB Omni",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Aiven for OpenSearch",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Aiven for Grafana",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Aiven for Apache Kafka",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Aiven for M3",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Aiven for PostgreSQL",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Aiven for Caching",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Aiven for MySQL",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Aiven for Apache Flink",
+                    "type": "other"
+                },
+                {
+                    "identifier": "aiven.io",
+                    "type": "website"
+                },
+                {
+                    "identifier": "console.aiven.io",
+                    "type": "website"
+                },
+                {
+                    "identifier": "api.aiven.io",
+                    "type": "api"
+                },
+                {
+                    "identifier": "github.com/Aiven-Open",
+                    "type": "other"
+                },
+                {
+                    "identifier": "github.com/Aiven",
+                    "type": "other"
+                },
+                {
+                    "identifier": "falcon-bug-bounty-flag-pgsql-dev-sandbox.aivencloud.com",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "aquarium.aiven.io\t",
+                    "type": "website"
+                },
+                {
+                    "identifier": "uptime.aiven.io\t",
+                    "type": "website"
+                },
+                {
+                    "identifier": "video.aiven.io\t",
+                    "type": "website"
+                },
+                {
+                    "identifier": "aiven.io/community",
+                    "type": "website"
+                },
+                {
+                    "identifier": "aiven.io/contact",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Customer services you did not create",
+                    "type": "other"
+                },
+                {
+                    "identifier": "*.aiven.fi",
+                    "type": "other"
+                },
+                {
+                    "identifier": "github.com/Aiven-Labs",
+                    "type": "other"
+                },
+                {
+                    "identifier": "*.avns.net",
+                    "type": "other"
+                },
+                {
+                    "identifier": "events.aiven.io",
+                    "type": "website"
+                },
+                {
+                    "identifier": "ideas.aiven.io",
+                    "type": "other"
+                },
+                {
+                    "identifier": "aivenhelp.zendesk.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "support.aiven.io",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Creation of support tickets",
+                    "type": "website"
+                },
+                {
+                    "identifier": "regatta.aiven.io",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/thefork-b2c-wng",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://www.thefork.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://m.thefork.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://blog.thefork.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://api.thefork.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://api.lafourchette.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://review-api.lafourchette.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://google-reserve-api.thefork.io ",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://m-api.lafourchette.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "The Fork Android App",
+                    "type": "android"
+                },
+                {
+                    "identifier": "The Fork iOS App",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "*.tools.thefork.tech",
+                    "type": "website"
+                },
+                {
+                    "identifier": "www.restaurant-information.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "widget.thefork.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "https://*.eltenedor.*",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.thefork.*",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Customer semi-login / PartialLogin feature",
+                    "type": "website"
+                },
+                {
+                    "identifier": "module.thefork.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.lafourchette.com",
                     "type": "website"
                 }
             ]
@@ -6826,60 +6826,6 @@
         }
     },
     {
-        "handle": "engagements/openai",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "api.openai.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "ChatGPT",
-                    "type": "website"
-                },
-                {
-                    "identifier": "ChatGPT Plugins",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Third Party Targets",
-                    "type": "website"
-                },
-                {
-                    "identifier": "OpenAI API Keys",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://openai.org",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.openai.org",
-                    "type": "api"
-                },
-                {
-                    "identifier": "openai.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.openai.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Developer Platform Playground",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Other",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/soundcloud",
         "bounty": 1,
         "active": 1,
@@ -7186,6 +7132,60 @@
                     "type": "other"
                 }
             ]
+        }
+    },
+    {
+        "handle": "engagements/openai",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "api.openai.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "ChatGPT",
+                    "type": "website"
+                },
+                {
+                    "identifier": "ChatGPT Plugins",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Third Party Targets",
+                    "type": "website"
+                },
+                {
+                    "identifier": "OpenAI API Keys",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://openai.org",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.openai.org",
+                    "type": "api"
+                },
+                {
+                    "identifier": "openai.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.openai.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Developer Platform Playground",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Other",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": []
         }
     },
     {
@@ -12553,15 +12553,6 @@
         }
     },
     {
-        "handle": "engagements/funengine-automation",
-        "bounty": 1,
-        "active": 0,
-        "assets": {
-            "in_scope": [],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/aylo-mbb-og",
         "bounty": 1,
         "active": 1,
@@ -12751,6 +12742,15 @@
         }
     },
     {
+        "handle": "engagements/funengine-automation",
+        "bounty": 1,
+        "active": 0,
+        "assets": {
+            "in_scope": [],
+            "out_of_scope": []
+        }
+    },
+    {
         "handle": "engagements/jora",
         "bounty": 1,
         "active": 1,
@@ -12881,33 +12881,6 @@
                 }
             ],
             "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/shoppingcart",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "1shoppingcart.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "mcssl.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.mcssl.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "*.1shoppingcart.com",
-                    "type": "website"
-                }
-            ]
         }
     },
     {
@@ -13195,6 +13168,33 @@
                 },
                 {
                     "identifier": "https://support.ynab.com",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/shoppingcart",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "1shoppingcart.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "mcssl.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.mcssl.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "*.1shoppingcart.com",
                     "type": "website"
                 }
             ]
@@ -13678,88 +13678,6 @@
         }
     },
     {
-        "handle": "engagements/cyberghost",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.cyberghostvpn.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.cyberghost.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "cyberghost.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "cyberghost.app",
-                    "type": "website"
-                },
-                {
-                    "identifier": "CyberGhost VPN servers",
-                    "type": "other"
-                },
-                {
-                    "identifier": "CyberGhost APIs",
-                    "type": "api"
-                },
-                {
-                    "identifier": "CyberGhost iOS application",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "CyberGhost Android application",
-                    "type": "android"
-                },
-                {
-                    "identifier": "CyberGhost macOS application",
-                    "type": "other"
-                },
-                {
-                    "identifier": "CyberGhost Windows application",
-                    "type": "other"
-                },
-                {
-                    "identifier": "CyberGhost Linux application",
-                    "type": "other"
-                },
-                {
-                    "identifier": "CyberGhost Firefox extension",
-                    "type": "other"
-                },
-                {
-                    "identifier": "CyberGhost Chrome extension",
-                    "type": "other"
-                },
-                {
-                    "identifier": "polymoon.it",
-                    "type": "network"
-                },
-                {
-                    "identifier": "Employee Email",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Internal chat messages",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Vulnerabilities compromising the privacy of our employees",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Source code hosting",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/prosus-og",
         "bounty": 1,
         "active": 1,
@@ -13864,6 +13782,88 @@
                 {
                     "identifier": "https://www.intercom.com",
                     "type": "website"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/cyberghost",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.cyberghostvpn.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.cyberghost.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "cyberghost.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "cyberghost.app",
+                    "type": "website"
+                },
+                {
+                    "identifier": "CyberGhost VPN servers",
+                    "type": "other"
+                },
+                {
+                    "identifier": "CyberGhost APIs",
+                    "type": "api"
+                },
+                {
+                    "identifier": "CyberGhost iOS application",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "CyberGhost Android application",
+                    "type": "android"
+                },
+                {
+                    "identifier": "CyberGhost macOS application",
+                    "type": "other"
+                },
+                {
+                    "identifier": "CyberGhost Windows application",
+                    "type": "other"
+                },
+                {
+                    "identifier": "CyberGhost Linux application",
+                    "type": "other"
+                },
+                {
+                    "identifier": "CyberGhost Firefox extension",
+                    "type": "other"
+                },
+                {
+                    "identifier": "CyberGhost Chrome extension",
+                    "type": "other"
+                },
+                {
+                    "identifier": "polymoon.it",
+                    "type": "network"
+                },
+                {
+                    "identifier": "Employee Email",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Internal chat messages",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Vulnerabilities compromising the privacy of our employees",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Source code hosting",
+                    "type": "other"
                 }
             ],
             "out_of_scope": []
