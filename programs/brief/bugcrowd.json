@@ -2694,6 +2694,45 @@
         }
     },
     {
+        "handle": "engagements/clickhouse",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://clickhou.se/bugcrowd",
+                    "type": "website"
+                },
+                {
+                    "identifier": "ClickHouse Cloud environment hosted by ClickHouse",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://github.com/ClickHouse/ClickHouse",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "New support cases, Chat, Request new integration form",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Share feedback form",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Vulnerability scanners",
+                    "type": "website"
+                },
+                {
+                    "identifier": "learn.clickhouse.com",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
         "handle": "engagements/bitdefender",
         "bounty": 1,
         "active": 1,
@@ -2789,59 +2828,6 @@
         }
     },
     {
-        "handle": "engagements/clickhouse",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://clickhou.se/bugcrowd",
-                    "type": "website"
-                },
-                {
-                    "identifier": "ClickHouse Cloud environment hosted by ClickHouse",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://github.com/ClickHouse/ClickHouse",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "New support cases, Chat, Request new integration form",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Share feedback form",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Vulnerability scanners",
-                    "type": "website"
-                },
-                {
-                    "identifier": "learn.clickhouse.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/yieldstreet-bb",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "bc.yieldstreet.net",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/aruba-product-public",
         "bounty": 1,
         "active": 1,
@@ -2902,6 +2888,20 @@
                     "type": "website"
                 }
             ]
+        }
+    },
+    {
+        "handle": "engagements/yieldstreet-bb",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "bc.yieldstreet.net",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
         }
     },
     {
@@ -2976,20 +2976,6 @@
                 },
                 {
                     "identifier": "https://hr.neogov.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/worldpay",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Any Worldpay asset is in scope",
                     "type": "website"
                 }
             ],
@@ -3335,105 +3321,6 @@
                 {
                     "identifier": "https://modeldiplomacy.cfr.org",
                     "type": "website"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/hubspot",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "app.hubspot.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "app-eu1.hubspot.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "api.hubspot.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "api.hubapi.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "chatspot.ai",
-                    "type": "website"
-                },
-                {
-                    "identifier": "connect.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.hubspotemail.net",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.hs-sites(-eu1)?.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.hubspotpagebuilder.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.hubspotpagebuilder.eu",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Customer Portal (1)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Customer connected domain (2)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "HubSpot Android Mobile App",
-                    "type": "android"
-                },
-                {
-                    "identifier": "HubSpot iOS Mobile App",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "HubSpot Sales Office 365 add-in",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Other HubSpot-owned (sub)domains not listed as Out of Scope . Please make sure to exercise due diligence before testing. You must include proof that the subdomain is registered to HubSpot to be eligible for a reward.",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Special Conditions",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "shop.hubspot.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "trust.hubspot.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "thespot.hubspot.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "ir.hubspot.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Out of Scope Vulnerabilities",
-                    "type": "other"
                 }
             ]
         }
@@ -4968,6 +4855,77 @@
         }
     },
     {
+        "handle": "engagements/asana",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "app.asana.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "asana.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.asana.plus",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.asana.biz",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Asana Desktop App",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Asana iOS app",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Asana Android app",
+                    "type": "android"
+                },
+                {
+                    "identifier": "form.asana.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.app.asana.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "Other subdomains of asana.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Social engineering against Asana Support or Asana Employees",
+                    "type": "other"
+                },
+                {
+                    "identifier": "jira*.integrations.asana.plus",
+                    "type": "website"
+                },
+                {
+                    "identifier": "asana.okta.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "assets.asana.biz",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Forms that you do not own",
+                    "type": "other"
+                }
+            ]
+        }
+    },
+    {
         "handle": "engagements/lightspeed-retail",
         "bounty": 1,
         "active": 1,
@@ -5047,71 +5005,113 @@
         }
     },
     {
-        "handle": "engagements/asana",
+        "handle": "engagements/worldpay",
         "bounty": 1,
         "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "app.asana.com",
+                    "identifier": "Any Worldpay asset is in scope",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/hubspot",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "app.hubspot.com",
                     "type": "website"
                 },
                 {
-                    "identifier": "asana.com",
+                    "identifier": "app-eu1.hubspot.com",
                     "type": "website"
                 },
                 {
-                    "identifier": "*.asana.plus",
+                    "identifier": "api.hubspot.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "api.hubapi.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "chatspot.ai",
                     "type": "website"
                 },
                 {
-                    "identifier": "*.asana.biz",
+                    "identifier": "connect.com",
                     "type": "website"
                 },
                 {
-                    "identifier": "Asana Desktop App",
-                    "type": "other"
+                    "identifier": "*.hubspotemail.net",
+                    "type": "website"
                 },
                 {
-                    "identifier": "Asana iOS app",
-                    "type": "ios"
+                    "identifier": "*.hs-sites(-eu1)?.com",
+                    "type": "website"
                 },
                 {
-                    "identifier": "Asana Android app",
+                    "identifier": "*.hubspotpagebuilder.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.hubspotpagebuilder.eu",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Customer Portal (1)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Customer connected domain (2)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "HubSpot Android Mobile App",
                     "type": "android"
                 },
                 {
-                    "identifier": "form.asana.com",
-                    "type": "website"
+                    "identifier": "HubSpot iOS Mobile App",
+                    "type": "ios"
                 },
                 {
-                    "identifier": "*.app.asana.com",
-                    "type": "website"
+                    "identifier": "HubSpot Sales Office 365 add-in",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Other HubSpot-owned (sub)domains not listed as Out of Scope . Please make sure to exercise due diligence before testing. You must include proof that the subdomain is registered to HubSpot to be eligible for a reward.",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Special Conditions",
+                    "type": "other"
                 }
             ],
             "out_of_scope": [
                 {
-                    "identifier": "Other subdomains of asana.com",
+                    "identifier": "shop.hubspot.com",
                     "type": "website"
                 },
                 {
-                    "identifier": "Social engineering against Asana Support or Asana Employees",
-                    "type": "other"
-                },
-                {
-                    "identifier": "jira*.integrations.asana.plus",
+                    "identifier": "trust.hubspot.com",
                     "type": "website"
                 },
                 {
-                    "identifier": "asana.okta.com",
+                    "identifier": "thespot.hubspot.com",
                     "type": "website"
                 },
                 {
-                    "identifier": "assets.asana.biz",
+                    "identifier": "ir.hubspot.com",
                     "type": "website"
                 },
                 {
-                    "identifier": "Forms that you do not own",
+                    "identifier": "Out of Scope Vulnerabilities",
                     "type": "other"
                 }
             ]
@@ -6092,97 +6092,6 @@
         }
     },
     {
-        "handle": "engagements/underarmour",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "www.underarmour.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "www.underarmour.co.uk",
-                    "type": "website"
-                },
-                {
-                    "identifier": "UA Shop iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "UA Shop Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "https://api.shop.ua.com/graphql",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://www.underarmournext.co.uk/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://underarmournext.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.api.ua.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://consumer-sustainability.underarmour.com/en",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "www.underarmour.<country>",
-                    "type": "website"
-                },
-                {
-                    "identifier": "www.underarmour.com/en-us/affiliate-home",
-                    "type": "website"
-                },
-                {
-                    "identifier": " www.uabiz.com,",
-                    "type": "website"
-                },
-                {
-                    "identifier": "investor.underarmour.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "productsafety.underarmour.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "uabusiness.force.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "www.underarmour.jobs",
-                    "type": "website"
-                },
-                {
-                    "identifier": "blog.underarmour.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "www.uateamcatalogs.com ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "www.uaretail.com ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "www.plankindustries.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/lastpass",
         "bounty": 1,
         "active": 1,
@@ -6950,60 +6859,6 @@
         }
     },
     {
-        "handle": "engagements/openai",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "api.openai.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "ChatGPT",
-                    "type": "website"
-                },
-                {
-                    "identifier": "ChatGPT Plugins",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Third Party Targets",
-                    "type": "website"
-                },
-                {
-                    "identifier": "OpenAI API Keys",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://openai.org",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.openai.org",
-                    "type": "api"
-                },
-                {
-                    "identifier": "openai.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.openai.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Developer Platform Playground",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Other",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/skyscanner",
         "bounty": 1,
         "active": 1,
@@ -7168,6 +7023,167 @@
                 {
                     "identifier": "Gestor de Pedidos - Desktop Client",
                     "type": "other"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/openai",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "api.openai.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "ChatGPT",
+                    "type": "website"
+                },
+                {
+                    "identifier": "ChatGPT Plugins",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Third Party Targets",
+                    "type": "website"
+                },
+                {
+                    "identifier": "OpenAI API Keys",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://openai.org",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.openai.org",
+                    "type": "api"
+                },
+                {
+                    "identifier": "openai.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.openai.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Developer Platform Playground",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Other",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/underarmour",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "www.underarmour.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "www.underarmour.co.uk",
+                    "type": "website"
+                },
+                {
+                    "identifier": "UA Shop iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "UA Shop Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "https://api.shop.ua.com/graphql",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://www.underarmournext.co.uk/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://underarmournext.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.api.ua.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://consumer-sustainability.underarmour.com/en",
+                    "type": "website"
+                },
+                {
+                    "identifier": "vpe-us.underarmour.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "www.underarmour.com.sg",
+                    "type": "website"
+                },
+                {
+                    "identifier": "www.underarmour.cn",
+                    "type": "website"
+                },
+                {
+                    "identifier": "underarmour.co.kr",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://armourhouse.underarmour.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "www.underarmour.com/en-us/affiliate-home",
+                    "type": "website"
+                },
+                {
+                    "identifier": " www.uabiz.com,",
+                    "type": "website"
+                },
+                {
+                    "identifier": "investor.underarmour.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "productsafety.underarmour.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "uabusiness.force.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "www.underarmour.jobs",
+                    "type": "website"
+                },
+                {
+                    "identifier": "blog.underarmour.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "www.uateamcatalogs.com ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "www.uaretail.com ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "www.plankindustries.com",
+                    "type": "website"
                 }
             ]
         }
@@ -12873,173 +12889,6 @@
         }
     },
     {
-        "handle": "engagements/underarmour-corp",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "apphouse.underarmour.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "ourhouse.underarmour.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "transfer.underarmour.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "vpe-us.underarmour.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "snc.underarmour.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "snctest-s.underarmour.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "snctest-c.underarmour.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "supplier.underarmour.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "vtxapp9p.underarmour.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "vtxapp9q.underarmour.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "vtxapp9d.underarmour.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "vtxappd.underarmour.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "204.29.196.0/23",
-                    "type": "other"
-                },
-                {
-                    "identifier": "3.223.149.182",
-                    "type": "other"
-                },
-                {
-                    "identifier": "3.230.219.249",
-                    "type": "other"
-                },
-                {
-                    "identifier": "34.237.130.2",
-                    "type": "other"
-                },
-                {
-                    "identifier": "34.239.5.227",
-                    "type": "other"
-                },
-                {
-                    "identifier": "52.220.158.49",
-                    "type": "other"
-                },
-                {
-                    "identifier": "52.76.174.107",
-                    "type": "other"
-                },
-                {
-                    "identifier": "52.67.69.35",
-                    "type": "other"
-                },
-                {
-                    "identifier": "52.44.176.187",
-                    "type": "website"
-                },
-                {
-                    "identifier": "52.86.17.52",
-                    "type": "other"
-                },
-                {
-                    "identifier": "54.83.32.16",
-                    "type": "other"
-                },
-                {
-                    "identifier": "13.58.121.166",
-                    "type": "other"
-                },
-                {
-                    "identifier": "3.133.230.28",
-                    "type": "other"
-                },
-                {
-                    "identifier": "3.19.172.158",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "investor.underarmour.com ",
-                    "type": "other"
-                },
-                {
-                    "identifier": "careers.underarmour.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "www.underarmour.<country> ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "www.underarmour.com/en-us/affiliate-home",
-                    "type": "website"
-                },
-                {
-                    "identifier": "www.uabiz.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "productsafety.underarmour.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "uabusiness.force.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "www.underarmour.jobs",
-                    "type": "website"
-                },
-                {
-                    "identifier": "blog.underarmour.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "www.uateamcatalogs.com ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "www.uaretail.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "uaallaccess.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "www.plankindustries.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/latitude-financial-service-bugbounty",
         "bounty": 1,
         "active": 1,
@@ -13377,92 +13226,6 @@
                 {
                     "identifier": "Gala Casino Website (and all its subdomains)",
                     "type": "website"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/privateinternetaccess",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.privateinternetaccess.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "privateinternetaccess.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "piaservers.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "piaservers.net",
-                    "type": "website"
-                },
-                {
-                    "identifier": "PIA APIs",
-                    "type": "api"
-                },
-                {
-                    "identifier": "PIA VPN servers",
-                    "type": "other"
-                },
-                {
-                    "identifier": "PIA iOS application",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "PIA Android application",
-                    "type": "android"
-                },
-                {
-                    "identifier": "PIA Linux application",
-                    "type": "other"
-                },
-                {
-                    "identifier": "PIA macOS application",
-                    "type": "other"
-                },
-                {
-                    "identifier": "PIA Windows application",
-                    "type": "other"
-                },
-                {
-                    "identifier": "PIA Chrome extension",
-                    "type": "other"
-                },
-                {
-                    "identifier": "PIA Firefox extension",
-                    "type": "other"
-                },
-                {
-                    "identifier": "PIA Opera extension",
-                    "type": "other"
-                },
-                {
-                    "identifier": "polymoon.it",
-                    "type": "network"
-                },
-                {
-                    "identifier": "Employee Email",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Internal chat messages",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Source code hosting",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Vulnerabilities compromising the privacy of our employees",
-                    "type": "other"
                 }
             ],
             "out_of_scope": []
@@ -13814,6 +13577,259 @@
                 },
                 {
                     "identifier": "tabfulness.opera.com",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/privateinternetaccess",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.privateinternetaccess.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "privateinternetaccess.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "piaservers.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "piaservers.net",
+                    "type": "website"
+                },
+                {
+                    "identifier": "PIA APIs",
+                    "type": "api"
+                },
+                {
+                    "identifier": "PIA VPN servers",
+                    "type": "other"
+                },
+                {
+                    "identifier": "PIA iOS application",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "PIA Android application",
+                    "type": "android"
+                },
+                {
+                    "identifier": "PIA Linux application",
+                    "type": "other"
+                },
+                {
+                    "identifier": "PIA macOS application",
+                    "type": "other"
+                },
+                {
+                    "identifier": "PIA Windows application",
+                    "type": "other"
+                },
+                {
+                    "identifier": "PIA Chrome extension",
+                    "type": "other"
+                },
+                {
+                    "identifier": "PIA Firefox extension",
+                    "type": "other"
+                },
+                {
+                    "identifier": "PIA Opera extension",
+                    "type": "other"
+                },
+                {
+                    "identifier": "polymoon.it",
+                    "type": "network"
+                },
+                {
+                    "identifier": "Employee Email",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Internal chat messages",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Source code hosting",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Vulnerabilities compromising the privacy of our employees",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/underarmour-corp",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "apphouse.underarmour.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "ourhouse.underarmour.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "transfer.underarmour.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "vpe-us.underarmour.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "snc.underarmour.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "snctest-s.underarmour.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "snctest-c.underarmour.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "supplier.underarmour.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "vtxapp9p.underarmour.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "vtxapp9q.underarmour.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "vtxapp9d.underarmour.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "vtxappd.underarmour.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "204.29.196.0/23",
+                    "type": "other"
+                },
+                {
+                    "identifier": "3.223.149.182",
+                    "type": "other"
+                },
+                {
+                    "identifier": "3.230.219.249",
+                    "type": "other"
+                },
+                {
+                    "identifier": "34.237.130.2",
+                    "type": "other"
+                },
+                {
+                    "identifier": "34.239.5.227",
+                    "type": "other"
+                },
+                {
+                    "identifier": "52.220.158.49",
+                    "type": "other"
+                },
+                {
+                    "identifier": "52.76.174.107",
+                    "type": "other"
+                },
+                {
+                    "identifier": "52.67.69.35",
+                    "type": "other"
+                },
+                {
+                    "identifier": "52.44.176.187",
+                    "type": "website"
+                },
+                {
+                    "identifier": "52.86.17.52",
+                    "type": "other"
+                },
+                {
+                    "identifier": "54.83.32.16",
+                    "type": "other"
+                },
+                {
+                    "identifier": "13.58.121.166",
+                    "type": "other"
+                },
+                {
+                    "identifier": "3.133.230.28",
+                    "type": "other"
+                },
+                {
+                    "identifier": "3.19.172.158",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "investor.underarmour.com ",
+                    "type": "other"
+                },
+                {
+                    "identifier": "careers.underarmour.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "www.underarmour.<country> ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "www.underarmour.com/en-us/affiliate-home",
+                    "type": "website"
+                },
+                {
+                    "identifier": "www.uabiz.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "productsafety.underarmour.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "uabusiness.force.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "www.underarmour.jobs",
+                    "type": "website"
+                },
+                {
+                    "identifier": "blog.underarmour.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "www.uateamcatalogs.com ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "www.uaretail.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "uaallaccess.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "www.plankindustries.com",
                     "type": "website"
                 }
             ]
