@@ -2659,6 +2659,45 @@
         }
     },
     {
+        "handle": "engagements/clickhouse",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://clickhou.se/bugcrowd",
+                    "type": "website"
+                },
+                {
+                    "identifier": "ClickHouse Cloud environment hosted by ClickHouse",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://github.com/ClickHouse/ClickHouse",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "New support cases, Chat, Request new integration form",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Share feedback form",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Vulnerability scanners",
+                    "type": "website"
+                },
+                {
+                    "identifier": "learn.clickhouse.com",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
         "handle": "engagements/bitdefender",
         "bounty": 1,
         "active": 1,
@@ -2754,59 +2793,6 @@
         }
     },
     {
-        "handle": "engagements/clickhouse",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://clickhou.se/bugcrowd",
-                    "type": "website"
-                },
-                {
-                    "identifier": "ClickHouse Cloud environment hosted by ClickHouse",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://github.com/ClickHouse/ClickHouse",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "New support cases, Chat, Request new integration form",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Share feedback form",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Vulnerability scanners",
-                    "type": "website"
-                },
-                {
-                    "identifier": "learn.clickhouse.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/yieldstreet-bb",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "bc.yieldstreet.net",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/aruba-product-public",
         "bounty": 1,
         "active": 1,
@@ -2867,6 +2853,20 @@
                     "type": "website"
                 }
             ]
+        }
+    },
+    {
+        "handle": "engagements/yieldstreet-bb",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "bc.yieldstreet.net",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
         }
     },
     {
@@ -8030,73 +8030,6 @@
         }
     },
     {
-        "handle": "engagements/moneytreekkog",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Moneytree iOS Mobile Application (production; see below)",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "https://wwws-staging.moneytree.jp/link/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://vault-staging.getmoneytree.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://redash-staging.getmoneytree.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://app-staging.getmoneytree.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://wwws-staging.moneytree.jp/link/mobile/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://wwws-staging.moneytree.jp/link/mobile/#/signup?client_id=38d99a6e8e9fc87c866f5aa82bdc2569c464b2323a55e0b28f658efa678e9623&redirect_uri=https://wwws-staging.moneytree.jp/link/mobile/callback&response_type=token&scope=guest_read+accounts_read+transactions_read+request_refresh",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://myaccount-staging.getmoneytree.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://jp-api-staging.getmoneytree.com ",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://business-staging.getmoneytree.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Moneytree staging Android Mobile Application (see below)",
-                    "type": "android"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "moneytree.jp",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Any production asset of Moneytree KK (excepting the iOS app)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "getmoneytree.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/tidal-bugbounty",
         "bounty": 1,
         "active": 1,
@@ -9229,6 +9162,73 @@
         }
     },
     {
+        "handle": "engagements/moneytreekkog",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Moneytree iOS Mobile Application (production; see below)",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "https://wwws-staging.moneytree.jp/link/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://vault-staging.getmoneytree.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://redash-staging.getmoneytree.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://app-staging.getmoneytree.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://wwws-staging.moneytree.jp/link/mobile/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://wwws-staging.moneytree.jp/link/mobile/#/signup?client_id=38d99a6e8e9fc87c866f5aa82bdc2569c464b2323a55e0b28f658efa678e9623&redirect_uri=https://wwws-staging.moneytree.jp/link/mobile/callback&response_type=token&scope=guest_read+accounts_read+transactions_read+request_refresh",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://myaccount-staging.getmoneytree.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://jp-api-staging.getmoneytree.com ",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://business-staging.getmoneytree.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Moneytree staging Android Mobile Application (see below)",
+                    "type": "android"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "moneytree.jp",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Any production asset of Moneytree KK (excepting the iOS app)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "getmoneytree.com",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
         "handle": "engagements/smartmockups",
         "bounty": 1,
         "active": 1,
@@ -10250,157 +10250,6 @@
         }
     },
     {
-        "handle": "engagements/epam-mbb-og",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.epam.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.projects.epam.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.lab.epam.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.opensource.epam.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.emakina.nl ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.emakina.group",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.emakina.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.emakina.ch",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.emakina.fr",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.emakina.us",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.emakina.at",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Subdomain takeover",
-                    "type": "other"
-                },
-                {
-                    "identifier": "open redirect at *.epam.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Open redirect at *.projects.epam.com, *.lab.epam.com, *.opensource.epam.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "In Scope - Points only",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "ethics.epam.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "profile.epam.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "carbon.epam.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "infongen.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "ebn.epam.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "solutionshub.epam.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "telescopeai.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "wearecommunity.io",
-                    "type": "website"
-                },
-                {
-                    "identifier": "cami.lab.epam.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "ellie.lab.epam.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "apex.lab.epam.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "investors.epam.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "ecsd00300769.epam.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "display.epam.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "info.epam.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "admin-ui.preship.gcp.gnrg-osdu.projects.epam.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "support.epam.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "customersupport.epam.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "supportnow.epam.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "anywhere.epam.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/majidalfuttaim-loyalty",
         "bounty": 1,
         "active": 1,
@@ -10710,6 +10559,157 @@
                 },
                 {
                     "identifier": "moneybyafterpay.com",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/epam-mbb-og",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.epam.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.projects.epam.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.lab.epam.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.opensource.epam.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.emakina.nl ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.emakina.group",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.emakina.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.emakina.ch",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.emakina.fr",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.emakina.us",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.emakina.at",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Subdomain takeover",
+                    "type": "other"
+                },
+                {
+                    "identifier": "open redirect at *.epam.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Open redirect at *.projects.epam.com, *.lab.epam.com, *.opensource.epam.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "In Scope - Points only",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "ethics.epam.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "profile.epam.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "carbon.epam.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "infongen.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "ebn.epam.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "solutionshub.epam.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "telescopeai.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "wearecommunity.io",
+                    "type": "website"
+                },
+                {
+                    "identifier": "cami.lab.epam.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "ellie.lab.epam.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "apex.lab.epam.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "investors.epam.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "ecsd00300769.epam.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "display.epam.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "info.epam.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "admin-ui.preship.gcp.gnrg-osdu.projects.epam.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "support.epam.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "customersupport.epam.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "supportnow.epam.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "anywhere.epam.com",
                     "type": "website"
                 }
             ]
@@ -13388,6 +13388,199 @@
         }
     },
     {
+        "handle": "engagements/cyberghost",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.cyberghostvpn.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.cyberghost.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "cyberghost.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "cyberghost.app",
+                    "type": "website"
+                },
+                {
+                    "identifier": "CyberGhost VPN servers",
+                    "type": "other"
+                },
+                {
+                    "identifier": "CyberGhost APIs",
+                    "type": "api"
+                },
+                {
+                    "identifier": "CyberGhost iOS application",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "CyberGhost Android application",
+                    "type": "android"
+                },
+                {
+                    "identifier": "CyberGhost macOS application",
+                    "type": "other"
+                },
+                {
+                    "identifier": "CyberGhost Windows application",
+                    "type": "other"
+                },
+                {
+                    "identifier": "CyberGhost Linux application",
+                    "type": "other"
+                },
+                {
+                    "identifier": "CyberGhost Firefox extension",
+                    "type": "other"
+                },
+                {
+                    "identifier": "CyberGhost Chrome extension",
+                    "type": "other"
+                },
+                {
+                    "identifier": "polymoon.it",
+                    "type": "network"
+                },
+                {
+                    "identifier": "Employee Email",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Internal chat messages",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Vulnerabilities compromising the privacy of our employees",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Source code hosting",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/tesla",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.tesla.cn",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.tesla.services",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Official Tesla iOS apps",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "*.tesla.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.teslamotors.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Any host verified to be owned by Tesla Motors Inc. (domains/IP space/etc.)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.solarcity.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.teslainsuranceservices.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Official Tesla Android apps",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Tesla Energy hardware you own",
+                    "type": "hardware"
+                },
+                {
+                    "identifier": "Tesla vehicle hardware that you own",
+                    "type": "hardware"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "employeefeedback.tesla.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "energysupport.tesla.com (you can report vulnerabilities to bugbounty.zoho.com)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "engage.tesla.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.engage.tesla.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "feedback.tesla.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "feedback.teslamotors.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "ir.tesla.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "ir.teslamotors.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "mkto.teslamotors.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "shop.eu.teslamotors.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "service.tesla.com/docs/*",
+                    "type": "website"
+                },
+                {
+                    "identifier": "service.tesla.cn/docs/*",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Any domains from acquisitions, such as maxwell.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Any other third-party websites hosted by non-Tesla entities",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
         "handle": "engagements/binance",
         "bounty": 1,
         "active": 1,
@@ -13519,82 +13712,45 @@
         }
     },
     {
-        "handle": "engagements/cyberghost",
+        "handle": "engagements/jora",
         "bounty": 1,
         "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "*.cyberghostvpn.com",
+                    "identifier": "*.jora.com",
                     "type": "website"
                 },
                 {
-                    "identifier": "*.cyberghost.com",
+                    "identifier": "*.jora.xyz",
                     "type": "website"
                 },
                 {
-                    "identifier": "cyberghost.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "cyberghost.app",
-                    "type": "website"
-                },
-                {
-                    "identifier": "CyberGhost VPN servers",
-                    "type": "other"
-                },
-                {
-                    "identifier": "CyberGhost APIs",
-                    "type": "api"
-                },
-                {
-                    "identifier": "CyberGhost iOS application",
+                    "identifier": "https://apps.apple.com/us/app/jora-jobs-job-search-app/id917565665\t",
                     "type": "ios"
                 },
                 {
-                    "identifier": "CyberGhost Android application",
+                    "identifier": "https://play.google.com/store/apps/details?id=com.jora.android&hl=en_US\t",
                     "type": "android"
-                },
+                }
+            ],
+            "out_of_scope": [
                 {
-                    "identifier": "CyberGhost macOS application",
-                    "type": "other"
-                },
+                    "identifier": "*.joralocal.com.au\t",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/pexels",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
                 {
-                    "identifier": "CyberGhost Windows application",
-                    "type": "other"
-                },
-                {
-                    "identifier": "CyberGhost Linux application",
-                    "type": "other"
-                },
-                {
-                    "identifier": "CyberGhost Firefox extension",
-                    "type": "other"
-                },
-                {
-                    "identifier": "CyberGhost Chrome extension",
-                    "type": "other"
-                },
-                {
-                    "identifier": "polymoon.it",
-                    "type": "network"
-                },
-                {
-                    "identifier": "Employee Email",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Internal chat messages",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Vulnerabilities compromising the privacy of our employees",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Source code hosting",
-                    "type": "other"
+                    "identifier": "*.pexels.com",
+                    "type": "website"
                 }
             ],
             "out_of_scope": []
@@ -13738,162 +13894,6 @@
                 },
                 {
                     "identifier": "www.tube8vip.com ",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/pexels",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.pexels.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/jora",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.jora.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.jora.xyz",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://apps.apple.com/us/app/jora-jobs-job-search-app/id917565665\t",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "https://play.google.com/store/apps/details?id=com.jora.android&hl=en_US\t",
-                    "type": "android"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "*.joralocal.com.au\t",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/tesla",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.tesla.cn",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.tesla.services",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Official Tesla iOS apps",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "*.tesla.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.teslamotors.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Any host verified to be owned by Tesla Motors Inc. (domains/IP space/etc.)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.solarcity.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.teslainsuranceservices.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Official Tesla Android apps",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Tesla Energy hardware you own",
-                    "type": "hardware"
-                },
-                {
-                    "identifier": "Tesla vehicle hardware that you own",
-                    "type": "hardware"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "employeefeedback.tesla.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "energysupport.tesla.com (you can report vulnerabilities to bugbounty.zoho.com)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "engage.tesla.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.engage.tesla.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "feedback.tesla.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "feedback.teslamotors.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "ir.tesla.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "ir.teslamotors.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "mkto.teslamotors.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "shop.eu.teslamotors.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "service.tesla.com/docs/*",
-                    "type": "website"
-                },
-                {
-                    "identifier": "service.tesla.cn/docs/*",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Any domains from acquisitions, such as maxwell.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Any other third-party websites hosted by non-Tesla entities",
                     "type": "website"
                 }
             ]
