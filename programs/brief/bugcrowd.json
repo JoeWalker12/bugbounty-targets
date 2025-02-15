@@ -2698,6 +2698,20 @@
         }
     },
     {
+        "handle": "engagements/yieldstreet-bb",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "bc.yieldstreet.net",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
         "handle": "engagements/aruba-product-public",
         "bounty": 1,
         "active": 1,
@@ -2758,20 +2772,6 @@
                     "type": "website"
                 }
             ]
-        }
-    },
-    {
-        "handle": "engagements/yieldstreet-bb",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "bc.yieldstreet.net",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
         }
     },
     {
@@ -3396,105 +3396,6 @@
                 {
                     "identifier": "Any vulnerabilities found in Third-party software",
                     "type": "website"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/hubspot",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "app.hubspot.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "app-eu1.hubspot.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "api.hubspot.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "api.hubapi.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "chatspot.ai",
-                    "type": "website"
-                },
-                {
-                    "identifier": "connect.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.hubspotemail.net",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.hs-sites(-eu1)?.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.hubspotpagebuilder.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.hubspotpagebuilder.eu",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Customer Portal (1)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Customer connected domain (2)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "HubSpot Android Mobile App",
-                    "type": "android"
-                },
-                {
-                    "identifier": "HubSpot iOS Mobile App",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "HubSpot Sales Office 365 add-in",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Other HubSpot-owned (sub)domains not listed as Out of Scope . Please make sure to exercise due diligence before testing. You must include proof that the subdomain is registered to HubSpot to be eligible for a reward.",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Special Conditions",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "shop.hubspot.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "trust.hubspot.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "thespot.hubspot.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "ir.hubspot.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Out of Scope Vulnerabilities",
-                    "type": "other"
                 }
             ]
         }
@@ -4844,65 +4745,6 @@
         }
     },
     {
-        "handle": "engagements/nubank",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Nubank Android: Playstore",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Nubank iOS App",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "prod-*.nubank.com.br",
-                    "type": "api"
-                },
-                {
-                    "identifier": "prod-*.nu.com.mx",
-                    "type": "api"
-                },
-                {
-                    "identifier": "prod-*.nu.com.co",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*nubank.com.br",
-                    "type": "other"
-                },
-                {
-                    "identifier": "*nu.com.mx",
-                    "type": "other"
-                },
-                {
-                    "identifier": "*nu.com.co",
-                    "type": "other"
-                },
-                {
-                    "identifier": "*.nuinvest.com.br\t",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "*nuinternational.com\t",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*nat-a.nubank.com.br",
-                    "type": "other"
-                },
-                {
-                    "identifier": "international.nubank.com.br",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/atlassian",
         "bounty": 1,
         "active": 1,
@@ -5116,6 +4958,164 @@
                 },
                 {
                     "identifier": "Any repository that you are not an owner of - do not impact Atlassian customers in any way.",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/hubspot",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "app.hubspot.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "app-eu1.hubspot.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "api.hubspot.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "api.hubapi.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "chatspot.ai",
+                    "type": "website"
+                },
+                {
+                    "identifier": "connect.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.hubspotemail.net",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.hs-sites(-eu1)?.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.hubspotpagebuilder.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.hubspotpagebuilder.eu",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Customer Portal (1)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Customer connected domain (2)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "HubSpot Android Mobile App",
+                    "type": "android"
+                },
+                {
+                    "identifier": "HubSpot iOS Mobile App",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "HubSpot Sales Office 365 add-in",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Other HubSpot-owned (sub)domains not listed as Out of Scope . Please make sure to exercise due diligence before testing. You must include proof that the subdomain is registered to HubSpot to be eligible for a reward.",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Special Conditions",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "shop.hubspot.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "trust.hubspot.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "thespot.hubspot.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "ir.hubspot.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Out of Scope Vulnerabilities",
+                    "type": "other"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/nubank",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Nubank Android: Playstore",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Nubank iOS App",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "prod-*.nubank.com.br",
+                    "type": "api"
+                },
+                {
+                    "identifier": "prod-*.nu.com.mx",
+                    "type": "api"
+                },
+                {
+                    "identifier": "prod-*.nu.com.co",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*nubank.com.br",
+                    "type": "other"
+                },
+                {
+                    "identifier": "*nu.com.mx",
+                    "type": "other"
+                },
+                {
+                    "identifier": "*nu.com.co",
+                    "type": "other"
+                },
+                {
+                    "identifier": "*.nuinvest.com.br\t",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "*nuinternational.com\t",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*nat-a.nubank.com.br",
+                    "type": "other"
+                },
+                {
+                    "identifier": "international.nubank.com.br",
                     "type": "website"
                 }
             ]
@@ -6169,109 +6169,6 @@
         }
     },
     {
-        "handle": "engagements/linktree-mbb-og",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.linktr.ee",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.linktree.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.tr.ee",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.linktree-extensions.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.odesli.co",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.odesli.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.song.link",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.songlink.io",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.album.link",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.artist.link",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.pods.link",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.playlist.link",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.mylink.page",
-                    "type": "website"
-                },
-                {
-                    "identifier": "plannthat.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Linktree iOS app",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Linktree Android app",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Plann iOS app",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Plann Android app",
-                    "type": "android"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "*.filestack.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.freshdesk.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.blstr.xyz",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.blstr.co",
-                    "type": "website"
-                },
-                {
-                    "identifier": "community.linktr.ee",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/sendbird-mbb",
         "bounty": 1,
         "active": 0,
@@ -6864,32 +6761,6 @@
         }
     },
     {
-        "handle": "engagements/ultramobile-public-mbb-og",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "http://my.mintmobile.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "my.ultramobile.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://my.mintmobile.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://my.ultramobile.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/t-mobile",
         "bounty": 1,
         "active": 1,
@@ -7041,76 +6912,104 @@
         }
     },
     {
-        "handle": "engagements/ampol",
+        "handle": "engagements/linktree-mbb-og",
         "bounty": 1,
         "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "Ampol Website",
+                    "identifier": "*.linktr.ee",
                     "type": "website"
                 },
                 {
-                    "identifier": "Ampol iOS mobile app",
+                    "identifier": "*.linktree.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.tr.ee",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.linktree-extensions.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.odesli.co",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.odesli.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.song.link",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.songlink.io",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.album.link",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.artist.link",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.pods.link",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.playlist.link",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.mylink.page",
+                    "type": "website"
+                },
+                {
+                    "identifier": "plannthat.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Linktree iOS app",
                     "type": "ios"
                 },
                 {
-                    "identifier": "Ampol Android mobile app",
+                    "identifier": "Linktree Android app",
                     "type": "android"
                 },
                 {
-                    "identifier": "Ampcharge",
-                    "type": "website"
+                    "identifier": "Plann iOS app",
+                    "type": "ios"
                 },
                 {
-                    "identifier": "Ampol Energy",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Work@ampol",
+                    "identifier": "Plann Android app",
                     "type": "android"
-                },
-                {
-                    "identifier": "My Ampol",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Carbon Neutral Fuel",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Ampol Card",
-                    "type": "website"
                 }
             ],
             "out_of_scope": [
                 {
-                    "identifier": "Microsoft Azure B2C",
-                    "type": "api"
+                    "identifier": "*.filestack.com",
+                    "type": "website"
                 },
                 {
-                    "identifier": "Commonwealth Bank - CommWeb",
-                    "type": "api"
+                    "identifier": "*.freshdesk.com",
+                    "type": "website"
                 },
                 {
-                    "identifier": "MasterCard MPGS",
-                    "type": "api"
+                    "identifier": "*.blstr.xyz",
+                    "type": "website"
                 },
                 {
-                    "identifier": "First Data xTP",
-                    "type": "api"
+                    "identifier": "*.blstr.co",
+                    "type": "website"
                 },
                 {
-                    "identifier": "SendGrid",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Twilio",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Diebold Nixdorf Services - *.dieboldnixdorf.com ",
-                    "type": "api"
+                    "identifier": "community.linktr.ee",
+                    "type": "website"
                 }
             ]
         }
@@ -7216,6 +7115,107 @@
                     "type": "other"
                 }
             ]
+        }
+    },
+    {
+        "handle": "engagements/ampol",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Ampol Website",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Ampol iOS mobile app",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Ampol Android mobile app",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Ampcharge",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Ampol Energy",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Work@ampol",
+                    "type": "android"
+                },
+                {
+                    "identifier": "My Ampol",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Carbon Neutral Fuel",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Ampol Card",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "Microsoft Azure B2C",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Commonwealth Bank - CommWeb",
+                    "type": "api"
+                },
+                {
+                    "identifier": "MasterCard MPGS",
+                    "type": "api"
+                },
+                {
+                    "identifier": "First Data xTP",
+                    "type": "api"
+                },
+                {
+                    "identifier": "SendGrid",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Twilio",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Diebold Nixdorf Services - *.dieboldnixdorf.com ",
+                    "type": "api"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/ultramobile-public-mbb-og",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "http://my.mintmobile.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "my.ultramobile.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://my.mintmobile.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://my.ultramobile.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
         }
     },
     {
@@ -11038,85 +11038,6 @@
         }
     },
     {
-        "handle": "engagements/trello",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "trello.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "api.trello.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.trello.services",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Trello Desktop Client",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Trello Mobile App for Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Trello Mobile App for iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Butler for Trello",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Calendar Power-Up",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Card Aging Power-Up",
-                    "type": "website"
-                },
-                {
-                    "identifier": "List Limits Power-Up",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Voting Power-Up",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Microsoft Teams Integration",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Trello Third Party Powerups",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "First party (made-by-trello) power-ups other than those inscope are excluded from this program but can be reported to http://bugcrowd.com/atlassianapps",
-                    "type": "website"
-                },
-                {
-                    "identifier": "e.trello.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "help.trello.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "trello-attachments.s3.amazonaws.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/kucoin",
         "bounty": 1,
         "active": 1,
@@ -12549,6 +12470,33 @@
         }
     },
     {
+        "handle": "engagements/shoppingcart",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "1shoppingcart.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "mcssl.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.mcssl.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "*.1shoppingcart.com",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
         "handle": "engagements/verisign",
         "bounty": 1,
         "active": 1,
@@ -12667,33 +12615,6 @@
                 },
                 {
                     "identifier": "https://support.ynab.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/shoppingcart",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "1shoppingcart.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "mcssl.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.mcssl.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "*.1shoppingcart.com",
                     "type": "website"
                 }
             ]
@@ -13090,6 +13011,137 @@
         }
     },
     {
+        "handle": "engagements/binance",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "api.coinmarketcap.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "pro-api.coinmarketcap.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.binance.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Binance Desktop Application",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Binance Mobile Application for Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Binance Mobile Application for iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "api.binance.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Binance macOS Application",
+                    "type": "other"
+                },
+                {
+                    "identifier": "pro.coinmarketcap.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "CoinMarketCap Android app",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Trustwallet Android App",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Trustwallet iOS App",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "https://github.com/trustwallet/wallet-core/",
+                    "type": "other"
+                },
+                {
+                    "identifier": "CoinMarketCap iOS app",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "portal-api.coinmarketcap.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "coinmarketcap.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "3rdparty-apis.coinmarketcap.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.binance.us",
+                    "type": "website"
+                },
+                {
+                    "identifier": "binance.tr",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Trustwallet Chrome Extension",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "jobs.coinmarketcap.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "support.binance.*",
+                    "type": "website"
+                },
+                {
+                    "identifier": "binance.sg",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.trustwallet.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.trustwalletapp.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.binance.org",
+                    "type": "website"
+                },
+                {
+                    "identifier": "blog.coinmarketcap.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "support.coinmarketcap.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "blockchain.coinmarketcap.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.coinmarketcap.com",
+                    "type": "other"
+                }
+            ]
+        }
+    },
+    {
         "handle": "engagements/pexels",
         "bounty": 1,
         "active": 1,
@@ -13454,137 +13506,6 @@
         }
     },
     {
-        "handle": "engagements/binance",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "api.coinmarketcap.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "pro-api.coinmarketcap.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.binance.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Binance Desktop Application",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Binance Mobile Application for Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Binance Mobile Application for iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "api.binance.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Binance macOS Application",
-                    "type": "other"
-                },
-                {
-                    "identifier": "pro.coinmarketcap.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "CoinMarketCap Android app",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Trustwallet Android App",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Trustwallet iOS App",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "https://github.com/trustwallet/wallet-core/",
-                    "type": "other"
-                },
-                {
-                    "identifier": "CoinMarketCap iOS app",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "portal-api.coinmarketcap.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "coinmarketcap.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "3rdparty-apis.coinmarketcap.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.binance.us",
-                    "type": "website"
-                },
-                {
-                    "identifier": "binance.tr",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Trustwallet Chrome Extension",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "jobs.coinmarketcap.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "support.binance.*",
-                    "type": "website"
-                },
-                {
-                    "identifier": "binance.sg",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.trustwallet.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.trustwalletapp.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.binance.org",
-                    "type": "website"
-                },
-                {
-                    "identifier": "blog.coinmarketcap.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "support.coinmarketcap.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "blockchain.coinmarketcap.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.coinmarketcap.com",
-                    "type": "other"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/dell-com",
         "bounty": 1,
         "active": 1,
@@ -13897,6 +13818,85 @@
                 }
             ],
             "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/trello",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "trello.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "api.trello.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.trello.services",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Trello Desktop Client",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Trello Mobile App for Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Trello Mobile App for iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Butler for Trello",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Calendar Power-Up",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Card Aging Power-Up",
+                    "type": "website"
+                },
+                {
+                    "identifier": "List Limits Power-Up",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Voting Power-Up",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Microsoft Teams Integration",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Trello Third Party Powerups",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "First party (made-by-trello) power-ups other than those inscope are excluded from this program but can be reported to http://bugcrowd.com/atlassianapps",
+                    "type": "website"
+                },
+                {
+                    "identifier": "e.trello.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "help.trello.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "trello-attachments.s3.amazonaws.com",
+                    "type": "website"
+                }
+            ]
         }
     },
     {
