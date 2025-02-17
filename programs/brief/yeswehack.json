@@ -1,5 +1,163 @@
 [
     {
+        "handle": "swiss-post",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "(*.post.ch:80|*.post.ch:443) AND 194.41.128.0/17",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://account.post.ch",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://shop.post.ch/shop",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://service.post.ch/ekp-web/",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://service.post.ch/zopa/app/",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://play.google.com/store/apps/details?id=com.nth.swisspost&hl=de_CH&gl=US",
+                    "type": "mobile-application-android"
+                },
+                {
+                    "identifier": "https://apps.apple.com/ch/app/die-post/id378676700",
+                    "type": "mobile-application-ios"
+                },
+                {
+                    "identifier": "https://billingonline.post.ch/OnlinePayment/Web/v1/BOI",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://service.post.ch/ele-klp/ele/",
+                    "type": "web-application"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "otto-de-bug-bounty",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://www.otto.de",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://www.otto.de/jobs",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://play.google.com/store/apps/details?id=de.cellular.ottohybrid&hl=de",
+                    "type": "mobile-application-android"
+                },
+                {
+                    "identifier": "https://apps.apple.com/de/app/otto-shopping-m%C3%B6bel/id404844644",
+                    "type": "mobile-application-ios"
+                },
+                {
+                    "identifier": "https://www.lascana.de/",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://teleoptiprd.otto.de",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://mmp.otto.de",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://partnerprogramm.otto.de",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://orbidder.otto.de",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://supplier-connect.otto.de",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://retail-api.otto.de",
+                    "type": "web-application"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "dracoon-bug-bounty-program",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://bounty-cloud.dracoon.app/api",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://bounty-cloud.dracoon.app/oauth",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://0-2744452194.s3.nbg01.de.dracoon.io",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://bounty-cloud.dracoon.app/mediaserver",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://bounty-cloud.dracoon.app/reporting/api",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://bounty-cloud.dracoon.app/webdav",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://bounty-cloud.dracoon.app/",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://bounty-server.dracoon.app/api",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://bounty-server.dracoon.app/oauth",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://bounty-server.dracoon.app/reporting/api",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://bounty-server.dracoon.app/webdav",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://bounty-server.dracoon.app/",
+                    "type": "web-application"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
         "handle": "sequoia-pgp-bug-bounty-program",
         "bounty": 1,
         "active": 1,
@@ -92,60 +250,6 @@
                 {
                     "identifier": "chameleon",
                     "type": "other"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "otto-de-bug-bounty",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://www.otto.de",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://www.otto.de/jobs",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://play.google.com/store/apps/details?id=de.cellular.ottohybrid&hl=de",
-                    "type": "mobile-application-android"
-                },
-                {
-                    "identifier": "https://apps.apple.com/de/app/otto-shopping-m%C3%B6bel/id404844644",
-                    "type": "mobile-application-ios"
-                },
-                {
-                    "identifier": "https://www.lascana.de/",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://teleoptiprd.otto.de",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://mmp.otto.de",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://partnerprogramm.otto.de",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://orbidder.otto.de",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://supplier-connect.otto.de",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://retail-api.otto.de",
-                    "type": "web-application"
                 }
             ],
             "out_of_scope": []
@@ -291,52 +395,6 @@
             "in_scope": [
                 {
                     "identifier": "https://dojo-yeswehack.com/challenge-of-the-month/dojo-39",
-                    "type": "web-application"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "swiss-post",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "(*.post.ch:80|*.post.ch:443) AND 194.41.128.0/17",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://account.post.ch",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://shop.post.ch/shop",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://service.post.ch/ekp-web/",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://service.post.ch/zopa/app/",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://play.google.com/store/apps/details?id=com.nth.swisspost&hl=de_CH&gl=US",
-                    "type": "mobile-application-android"
-                },
-                {
-                    "identifier": "https://apps.apple.com/ch/app/die-post/id378676700",
-                    "type": "mobile-application-ios"
-                },
-                {
-                    "identifier": "https://billingonline.post.ch/OnlinePayment/Web/v1/BOI",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://service.post.ch/ele-klp/ele/",
                     "type": "web-application"
                 }
             ],
@@ -529,64 +587,6 @@
                 },
                 {
                     "identifier": "*.jbl.com.br",
-                    "type": "web-application"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "dracoon-bug-bounty-program",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://bounty-cloud.dracoon.app/api",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://bounty-cloud.dracoon.app/oauth",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://0-2744452194.s3.nbg01.de.dracoon.io",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://bounty-cloud.dracoon.app/mediaserver",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://bounty-cloud.dracoon.app/reporting/api",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://bounty-cloud.dracoon.app/webdav",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://bounty-cloud.dracoon.app/",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://bounty-server.dracoon.app/api",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://bounty-server.dracoon.app/oauth",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://bounty-server.dracoon.app/reporting/api",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://bounty-server.dracoon.app/webdav",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://bounty-server.dracoon.app/",
                     "type": "web-application"
                 }
             ],
