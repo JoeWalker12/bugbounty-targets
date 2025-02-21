@@ -4317,37 +4317,6 @@
         }
     },
     {
-        "handle": "engagements/carrefour",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Carrefour UAE iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Carrefour UAE Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "carrefouruae.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://api-prod.retailsso.com",
-                    "type": "api"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "https://cwingsfe.mafrservices.com/login",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/auth0-okta",
         "bounty": 1,
         "active": 1,
@@ -4497,6 +4466,37 @@
                 },
                 {
                     "identifier": "community.auth0.com",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/carrefour",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Carrefour UAE iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Carrefour UAE Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "carrefouruae.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://api-prod.retailsso.com",
+                    "type": "api"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "https://cwingsfe.mafrservices.com/login",
                     "type": "website"
                 }
             ]
@@ -4666,65 +4666,6 @@
                 },
                 {
                     "identifier": "demo.bitdefender.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/nubank",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Nubank Android: Playstore",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Nubank iOS App",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "prod-*.nubank.com.br",
-                    "type": "api"
-                },
-                {
-                    "identifier": "prod-*.nu.com.mx",
-                    "type": "api"
-                },
-                {
-                    "identifier": "prod-*.nu.com.co",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*nubank.com.br",
-                    "type": "other"
-                },
-                {
-                    "identifier": "*nu.com.mx",
-                    "type": "other"
-                },
-                {
-                    "identifier": "*nu.com.co",
-                    "type": "other"
-                },
-                {
-                    "identifier": "*.nuinvest.com.br\t",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "*nuinternational.com\t",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*nat-a.nubank.com.br",
-                    "type": "other"
-                },
-                {
-                    "identifier": "international.nubank.com.br",
                     "type": "website"
                 }
             ]
@@ -6668,6 +6609,65 @@
         }
     },
     {
+        "handle": "engagements/nubank",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Nubank Android: Playstore",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Nubank iOS App",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "prod-*.nubank.com.br",
+                    "type": "api"
+                },
+                {
+                    "identifier": "prod-*.nu.com.mx",
+                    "type": "api"
+                },
+                {
+                    "identifier": "prod-*.nu.com.co",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*nubank.com.br",
+                    "type": "other"
+                },
+                {
+                    "identifier": "*nu.com.mx",
+                    "type": "other"
+                },
+                {
+                    "identifier": "*nu.com.co",
+                    "type": "other"
+                },
+                {
+                    "identifier": "*.nuinvest.com.br\t",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "*nuinternational.com\t",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*nat-a.nubank.com.br",
+                    "type": "other"
+                },
+                {
+                    "identifier": "international.nubank.com.br",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
         "handle": "engagements/gopro-og-public",
         "bounty": 1,
         "active": 0,
@@ -7823,56 +7823,6 @@
         }
     },
     {
-        "handle": "engagements/sendbird-mbb",
-        "bounty": 1,
-        "active": 0,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://dashboard.sendbird.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://gate.sendbird.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://api-{app-id}.sendbird.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://ws-{app-id}.sendbird.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://desk-api-{region}.sendbird.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://ws-{app-id}.calls.sendbird.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://api-{app-id}.calls.sendbird.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://api-{app-id}.notifications.sendbird.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://sendbird.com/docs",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://sendbird.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/securityrocks",
         "bounty": 1,
         "active": 1,
@@ -8727,6 +8677,56 @@
                     "type": "website"
                 }
             ]
+        }
+    },
+    {
+        "handle": "engagements/sendbird-mbb",
+        "bounty": 1,
+        "active": 0,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://dashboard.sendbird.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://gate.sendbird.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://api-{app-id}.sendbird.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://ws-{app-id}.sendbird.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://desk-api-{region}.sendbird.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://ws-{app-id}.calls.sendbird.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://api-{app-id}.calls.sendbird.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://api-{app-id}.notifications.sendbird.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://sendbird.com/docs",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://sendbird.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
         }
     },
     {
@@ -9865,33 +9865,6 @@
         }
     },
     {
-        "handle": "engagements/codeorg",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "adhoc-bugcrowd.cdn-code.org",
-                    "type": "website"
-                },
-                {
-                    "identifier": "adhoc-bugcrowd-studio.cdn-code.org",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "hourofcode.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "advocacy.code.org",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/balsamiq",
         "bounty": 1,
         "active": 1,
@@ -9915,6 +9888,357 @@
                 }
             ],
             "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/opera",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "auth.opera.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "accounts.opera.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "flow.opera.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "autoupdate.geo.opera.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "net.geo.opera.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "download.opera.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "speeddials.opera.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "browser-notifications.opera.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "www.opera.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Opera PC",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Opera GX",
+                    "type": "other"
+                },
+                {
+                    "identifier": "get.geo.opera.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Opera for Android ",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Opera News",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Opera GX for Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Opera Mini",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Apex Football",
+                    "type": "android"
+                },
+                {
+                    "identifier": "cryptowallet.opera-api.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "suggestions.opera-api.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.opera.software",
+                    "type": "other"
+                },
+                {
+                    "identifier": "weather.opera-api.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "push.opera.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.osp.opera.software",
+                    "type": "api"
+                },
+                {
+                    "identifier": "bugs.opera.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.opera.technology",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://gx.games",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://create.gx.games",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Loomi.tv",
+                    "type": "website"
+                },
+                {
+                    "identifier": "features.opera-api.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "cdn-store.opera-api.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.sec-tunnel.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.opera.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "exchange.opera.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "merchandise.opera-api.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "blocklist.opera-api.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "gx.opera-api.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "37.228.104.0/21",
+                    "type": "api"
+                },
+                {
+                    "identifier": "77.111.244.0/22",
+                    "type": "api"
+                },
+                {
+                    "identifier": "82.145.208.0/20",
+                    "type": "api"
+                },
+                {
+                    "identifier": "91.203.96.0/22",
+                    "type": "api"
+                },
+                {
+                    "identifier": "102.23.96.0/22",
+                    "type": "api"
+                },
+                {
+                    "identifier": "103.83.120.0/22",
+                    "type": "api"
+                },
+                {
+                    "identifier": "107.167.96.0/19",
+                    "type": "api"
+                },
+                {
+                    "identifier": "141.0.8.0/21",
+                    "type": "api"
+                },
+                {
+                    "identifier": "185.26.180.0/22",
+                    "type": "api"
+                },
+                {
+                    "identifier": "195.189.143.0/24",
+                    "type": "api"
+                },
+                {
+                    "identifier": "203.89.100.0/22",
+                    "type": "api"
+                },
+                {
+                    "identifier": "marketplace.gamemaker.io",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.opera-mini.net",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.opera.news",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.operanewsapp.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "GameMaker Studio 2",
+                    "type": "other"
+                },
+                {
+                    "identifier": "*.yoyogames.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "www.gamemaker.io",
+                    "type": "website"
+                },
+                {
+                    "identifier": "cashback.opera.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.apex-football.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.operafootball.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.feednews.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.dailyadvent.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "api.gx.games/gxc",
+                    "type": "api"
+                },
+                {
+                    "identifier": "api.gx.games/dc",
+                    "type": "api"
+                },
+                {
+                    "identifier": "api.gx.games/dev ",
+                    "type": "api"
+                },
+                {
+                    "identifier": "api.gx.games/profile",
+                    "type": "api"
+                },
+                {
+                    "identifier": "api.gx.games/session",
+                    "type": "api"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "concurso.opera.com ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "investor.opera.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "help.yoyogames.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "bugs.yoyogames.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "admanager.opera.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "accountsstage.yoyogames.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "control.gx-servers.opera.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "help.gx-servers.opera.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "verizon-us-seattle.opera-mini.net",
+                    "type": "website"
+                },
+                {
+                    "identifier": "s2{1,2}-05-08-v09.opera-mini.net",
+                    "type": "website"
+                },
+                {
+                    "identifier": "verizon-us-lvs-seattle.opera-mini.net",
+                    "type": "website"
+                },
+                {
+                    "identifier": "107.167.127.4{0,1}",
+                    "type": "website"
+                },
+                {
+                    "identifier": "jobs.opera.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "verizon-us-lvs-ashburn.opera-mini.net",
+                    "type": "website"
+                },
+                {
+                    "identifier": "interstitial.opera-mini.net",
+                    "type": "api"
+                },
+                {
+                    "identifier": "certs.opera.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "checkout.opera.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "contest.opera.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "catch.opera.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "wallpaper.opera.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "tabfulness.opera.com",
+                    "type": "website"
+                }
+            ]
         }
     },
     {
@@ -10366,357 +10690,6 @@
         }
     },
     {
-        "handle": "engagements/opera",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "auth.opera.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "accounts.opera.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "flow.opera.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "autoupdate.geo.opera.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "net.geo.opera.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "download.opera.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "speeddials.opera.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "browser-notifications.opera.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "www.opera.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Opera PC",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Opera GX",
-                    "type": "other"
-                },
-                {
-                    "identifier": "get.geo.opera.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Opera for Android ",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Opera News",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Opera GX for Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Opera Mini",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Apex Football",
-                    "type": "android"
-                },
-                {
-                    "identifier": "cryptowallet.opera-api.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "suggestions.opera-api.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.opera.software",
-                    "type": "other"
-                },
-                {
-                    "identifier": "weather.opera-api.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "push.opera.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.osp.opera.software",
-                    "type": "api"
-                },
-                {
-                    "identifier": "bugs.opera.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.opera.technology",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://gx.games",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://create.gx.games",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Loomi.tv",
-                    "type": "website"
-                },
-                {
-                    "identifier": "features.opera-api.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "cdn-store.opera-api.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.sec-tunnel.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.opera.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "exchange.opera.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "merchandise.opera-api.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "blocklist.opera-api.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "gx.opera-api.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "37.228.104.0/21",
-                    "type": "api"
-                },
-                {
-                    "identifier": "77.111.244.0/22",
-                    "type": "api"
-                },
-                {
-                    "identifier": "82.145.208.0/20",
-                    "type": "api"
-                },
-                {
-                    "identifier": "91.203.96.0/22",
-                    "type": "api"
-                },
-                {
-                    "identifier": "102.23.96.0/22",
-                    "type": "api"
-                },
-                {
-                    "identifier": "103.83.120.0/22",
-                    "type": "api"
-                },
-                {
-                    "identifier": "107.167.96.0/19",
-                    "type": "api"
-                },
-                {
-                    "identifier": "141.0.8.0/21",
-                    "type": "api"
-                },
-                {
-                    "identifier": "185.26.180.0/22",
-                    "type": "api"
-                },
-                {
-                    "identifier": "195.189.143.0/24",
-                    "type": "api"
-                },
-                {
-                    "identifier": "203.89.100.0/22",
-                    "type": "api"
-                },
-                {
-                    "identifier": "marketplace.gamemaker.io",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.opera-mini.net",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.opera.news",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.operanewsapp.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "GameMaker Studio 2",
-                    "type": "other"
-                },
-                {
-                    "identifier": "*.yoyogames.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "www.gamemaker.io",
-                    "type": "website"
-                },
-                {
-                    "identifier": "cashback.opera.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.apex-football.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.operafootball.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.feednews.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.dailyadvent.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "api.gx.games/gxc",
-                    "type": "api"
-                },
-                {
-                    "identifier": "api.gx.games/dc",
-                    "type": "api"
-                },
-                {
-                    "identifier": "api.gx.games/dev ",
-                    "type": "api"
-                },
-                {
-                    "identifier": "api.gx.games/profile",
-                    "type": "api"
-                },
-                {
-                    "identifier": "api.gx.games/session",
-                    "type": "api"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "concurso.opera.com ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "investor.opera.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "help.yoyogames.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "bugs.yoyogames.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "admanager.opera.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "accountsstage.yoyogames.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "control.gx-servers.opera.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "help.gx-servers.opera.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "verizon-us-seattle.opera-mini.net",
-                    "type": "website"
-                },
-                {
-                    "identifier": "s2{1,2}-05-08-v09.opera-mini.net",
-                    "type": "website"
-                },
-                {
-                    "identifier": "verizon-us-lvs-seattle.opera-mini.net",
-                    "type": "website"
-                },
-                {
-                    "identifier": "107.167.127.4{0,1}",
-                    "type": "website"
-                },
-                {
-                    "identifier": "jobs.opera.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "verizon-us-lvs-ashburn.opera-mini.net",
-                    "type": "website"
-                },
-                {
-                    "identifier": "interstitial.opera-mini.net",
-                    "type": "api"
-                },
-                {
-                    "identifier": "certs.opera.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "checkout.opera.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "contest.opera.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "catch.opera.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "wallpaper.opera.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "tabfulness.opera.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/entain-public-mbb-og",
         "bounty": 1,
         "active": 1,
@@ -10798,6 +10771,33 @@
                 }
             ],
             "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/codeorg",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "adhoc-bugcrowd.cdn-code.org",
+                    "type": "website"
+                },
+                {
+                    "identifier": "adhoc-bugcrowd-studio.cdn-code.org",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "hourofcode.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "advocacy.code.org",
+                    "type": "website"
+                }
+            ]
         }
     },
     {
@@ -13684,137 +13684,6 @@
         }
     },
     {
-        "handle": "engagements/binance",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "api.coinmarketcap.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "pro-api.coinmarketcap.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.binance.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Binance Desktop Application",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Binance Mobile Application for Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Binance Mobile Application for iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "api.binance.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Binance macOS Application",
-                    "type": "other"
-                },
-                {
-                    "identifier": "pro.coinmarketcap.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "CoinMarketCap Android app",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Trustwallet Android App",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Trustwallet iOS App",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "https://github.com/trustwallet/wallet-core/",
-                    "type": "other"
-                },
-                {
-                    "identifier": "CoinMarketCap iOS app",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "portal-api.coinmarketcap.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "coinmarketcap.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "3rdparty-apis.coinmarketcap.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.binance.us",
-                    "type": "website"
-                },
-                {
-                    "identifier": "binance.tr",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Trustwallet Chrome Extension",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "jobs.coinmarketcap.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "support.binance.*",
-                    "type": "website"
-                },
-                {
-                    "identifier": "binance.sg",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.trustwallet.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.trustwalletapp.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.binance.org",
-                    "type": "website"
-                },
-                {
-                    "identifier": "blog.coinmarketcap.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "support.coinmarketcap.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "blockchain.coinmarketcap.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.coinmarketcap.com",
-                    "type": "other"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/dropbox",
         "bounty": 1,
         "active": 1,
@@ -13982,6 +13851,137 @@
                 }
             ],
             "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/binance",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "api.coinmarketcap.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "pro-api.coinmarketcap.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.binance.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Binance Desktop Application",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Binance Mobile Application for Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Binance Mobile Application for iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "api.binance.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Binance macOS Application",
+                    "type": "other"
+                },
+                {
+                    "identifier": "pro.coinmarketcap.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "CoinMarketCap Android app",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Trustwallet Android App",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Trustwallet iOS App",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "https://github.com/trustwallet/wallet-core/",
+                    "type": "other"
+                },
+                {
+                    "identifier": "CoinMarketCap iOS app",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "portal-api.coinmarketcap.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "coinmarketcap.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "3rdparty-apis.coinmarketcap.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.binance.us",
+                    "type": "website"
+                },
+                {
+                    "identifier": "binance.tr",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Trustwallet Chrome Extension",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "jobs.coinmarketcap.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "support.binance.*",
+                    "type": "website"
+                },
+                {
+                    "identifier": "binance.sg",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.trustwallet.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.trustwalletapp.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.binance.org",
+                    "type": "website"
+                },
+                {
+                    "identifier": "blog.coinmarketcap.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "support.coinmarketcap.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "blockchain.coinmarketcap.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.coinmarketcap.com",
+                    "type": "other"
+                }
+            ]
         }
     },
     {
