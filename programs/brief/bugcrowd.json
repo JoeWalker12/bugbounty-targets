@@ -2690,6 +2690,37 @@
         }
     },
     {
+        "handle": "engagements/carrefour",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Carrefour UAE iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Carrefour UAE Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "carrefouruae.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://api-prod.retailsso.com",
+                    "type": "api"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "https://cwingsfe.mafrservices.com/login",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
         "handle": "engagements/auth0-okta",
         "bounty": 1,
         "active": 1,
@@ -2839,37 +2870,6 @@
                 },
                 {
                     "identifier": "community.auth0.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/carrefour",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Carrefour UAE iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Carrefour UAE Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "carrefouruae.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://api-prod.retailsso.com",
-                    "type": "api"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "https://cwingsfe.mafrservices.com/login",
                     "type": "website"
                 }
             ]
@@ -3681,33 +3681,6 @@
                 {
                     "identifier": "Forms that you do not own",
                     "type": "other"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/aylo-trafficjunky-mbb-og",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.trafficjunky.com ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.adultforce.com ",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "https://www.trafficjunky.com/blog/ ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.adultforce.com/#/blog/ ",
-                    "type": "website"
                 }
             ]
         }
@@ -4533,65 +4506,6 @@
         }
     },
     {
-        "handle": "engagements/nubank",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Nubank Android: Playstore",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Nubank iOS App",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "prod-*.nubank.com.br",
-                    "type": "api"
-                },
-                {
-                    "identifier": "prod-*.nu.com.mx",
-                    "type": "api"
-                },
-                {
-                    "identifier": "prod-*.nu.com.co",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*nubank.com.br",
-                    "type": "other"
-                },
-                {
-                    "identifier": "*nu.com.mx",
-                    "type": "other"
-                },
-                {
-                    "identifier": "*nu.com.co",
-                    "type": "other"
-                },
-                {
-                    "identifier": "*.nuinvest.com.br\t",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "*nuinternational.com\t",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*nat-a.nubank.com.br",
-                    "type": "other"
-                },
-                {
-                    "identifier": "international.nubank.com.br",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/clickhouse",
         "bounty": 1,
         "active": 1,
@@ -5158,6 +5072,92 @@
         }
     },
     {
+        "handle": "engagements/nubank",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Nubank Android: Playstore",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Nubank iOS App",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "prod-*.nubank.com.br",
+                    "type": "api"
+                },
+                {
+                    "identifier": "prod-*.nu.com.mx",
+                    "type": "api"
+                },
+                {
+                    "identifier": "prod-*.nu.com.co",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*nubank.com.br",
+                    "type": "other"
+                },
+                {
+                    "identifier": "*nu.com.mx",
+                    "type": "other"
+                },
+                {
+                    "identifier": "*nu.com.co",
+                    "type": "other"
+                },
+                {
+                    "identifier": "*.nuinvest.com.br\t",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "*nuinternational.com\t",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*nat-a.nubank.com.br",
+                    "type": "other"
+                },
+                {
+                    "identifier": "international.nubank.com.br",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/aylo-trafficjunky-mbb-og",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.trafficjunky.com ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.adultforce.com ",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "https://www.trafficjunky.com/blog/ ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.adultforce.com/#/blog/ ",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
         "handle": "engagements/smartmockups",
         "bounty": 1,
         "active": 1,
@@ -5602,36 +5602,6 @@
         }
     },
     {
-        "handle": "engagements/planethosterinc",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "my.planethoster.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "api.planethoster.net",
-                    "type": "api"
-                },
-                {
-                    "identifier": " world.planethoster.net",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://mg.n0c.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "www.planethoster.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/epam-mbb-og",
         "bounty": 1,
         "active": 1,
@@ -5780,6 +5750,36 @@
                     "type": "website"
                 }
             ]
+        }
+    },
+    {
+        "handle": "engagements/planethosterinc",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "my.planethoster.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "api.planethoster.net",
+                    "type": "api"
+                },
+                {
+                    "identifier": " world.planethoster.net",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://mg.n0c.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "www.planethoster.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
         }
     },
     {
@@ -7565,109 +7565,6 @@
         }
     },
     {
-        "handle": "engagements/hutgroup-public",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://*.ameliorate.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.beautyexpert.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.cultbeauty.co.uk/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.dermstore.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.espaskincare.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.exantediet.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.eyeko.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.glossybox.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.growgorgeous.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.hqhair.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.illamasqua.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.mioskincare.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.mankind.co.uk/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.mybag.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.myvitamins.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.powerman.co.uk/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.skinstore.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.thehut.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://checkout.myvitamins.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://checkout.eyeko.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://checkout.glossybox.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "https://www.cultbeauty.co.uk/matchme",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://matchme.cultbeauty.co.uk/",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/originenergy-og1",
         "bounty": 1,
         "active": 1,
@@ -8765,6 +8662,109 @@
         }
     },
     {
+        "handle": "engagements/hutgroup-public",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://*.ameliorate.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.beautyexpert.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.cultbeauty.co.uk/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.dermstore.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.espaskincare.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.exantediet.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.eyeko.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.glossybox.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.growgorgeous.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.hqhair.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.illamasqua.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.mioskincare.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.mankind.co.uk/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.mybag.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.myvitamins.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.powerman.co.uk/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.skinstore.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.thehut.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://checkout.myvitamins.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://checkout.eyeko.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://checkout.glossybox.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "https://www.cultbeauty.co.uk/matchme",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://matchme.cultbeauty.co.uk/",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
         "handle": "engagements/kennasecurity",
         "bounty": 1,
         "active": 0,
@@ -8997,92 +8997,6 @@
                 {
                     "identifier": "https://identity.majidalfuttaim.com",
                     "type": "website"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/privateinternetaccess",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.privateinternetaccess.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "privateinternetaccess.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "piaservers.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "piaservers.net",
-                    "type": "website"
-                },
-                {
-                    "identifier": "PIA APIs",
-                    "type": "api"
-                },
-                {
-                    "identifier": "PIA VPN servers",
-                    "type": "other"
-                },
-                {
-                    "identifier": "PIA iOS application",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "PIA Android application",
-                    "type": "android"
-                },
-                {
-                    "identifier": "PIA Linux application",
-                    "type": "other"
-                },
-                {
-                    "identifier": "PIA macOS application",
-                    "type": "other"
-                },
-                {
-                    "identifier": "PIA Windows application",
-                    "type": "other"
-                },
-                {
-                    "identifier": "PIA Chrome extension",
-                    "type": "other"
-                },
-                {
-                    "identifier": "PIA Firefox extension",
-                    "type": "other"
-                },
-                {
-                    "identifier": "PIA Opera extension",
-                    "type": "other"
-                },
-                {
-                    "identifier": "polymoon.it",
-                    "type": "network"
-                },
-                {
-                    "identifier": "Employee Email",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Internal chat messages",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Source code hosting",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Vulnerabilities compromising the privacy of our employees",
-                    "type": "other"
                 }
             ],
             "out_of_scope": []
@@ -10015,6 +9929,84 @@
         }
     },
     {
+        "handle": "engagements/seek",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.seek.com.au",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://seekcdn.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "SEEK mobile app for iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "SEEK mobile app for Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "*.skinfra.xyz",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.outfra.xyz",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.sol-data.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.jobapi.net",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.seekpass.co",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.seekpass-staging.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.aips-internal.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.certsy.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.certsynonprod.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "SEEK Pass Mobile App for iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "SEEK Pass Mobile App for Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "graphql.seek.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "auth.seek.com",
+                    "type": "api"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
         "handle": "engagements/opera",
         "bounty": 1,
         "active": 1,
@@ -10388,84 +10380,6 @@
         }
     },
     {
-        "handle": "engagements/seek",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.seek.com.au",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://seekcdn.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "SEEK mobile app for iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "SEEK mobile app for Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "*.skinfra.xyz",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.outfra.xyz",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.sol-data.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.jobapi.net",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.seekpass.co",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.seekpass-staging.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.aips-internal.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.certsy.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.certsynonprod.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "SEEK Pass Mobile App for iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "SEEK Pass Mobile App for Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "graphql.seek.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "auth.seek.com",
-                    "type": "api"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/comcast-mbb",
         "bounty": 1,
         "active": 1,
@@ -10794,6 +10708,92 @@
                 },
                 {
                     "identifier": "https://marketplace.atlassian.com/apps/256/balsamiq-wireframes-for-confluence?hosting=datacenter&tab=overview",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/privateinternetaccess",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.privateinternetaccess.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "privateinternetaccess.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "piaservers.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "piaservers.net",
+                    "type": "website"
+                },
+                {
+                    "identifier": "PIA APIs",
+                    "type": "api"
+                },
+                {
+                    "identifier": "PIA VPN servers",
+                    "type": "other"
+                },
+                {
+                    "identifier": "PIA iOS application",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "PIA Android application",
+                    "type": "android"
+                },
+                {
+                    "identifier": "PIA Linux application",
+                    "type": "other"
+                },
+                {
+                    "identifier": "PIA macOS application",
+                    "type": "other"
+                },
+                {
+                    "identifier": "PIA Windows application",
+                    "type": "other"
+                },
+                {
+                    "identifier": "PIA Chrome extension",
+                    "type": "other"
+                },
+                {
+                    "identifier": "PIA Firefox extension",
+                    "type": "other"
+                },
+                {
+                    "identifier": "PIA Opera extension",
+                    "type": "other"
+                },
+                {
+                    "identifier": "polymoon.it",
+                    "type": "network"
+                },
+                {
+                    "identifier": "Employee Email",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Internal chat messages",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Source code hosting",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Vulnerabilities compromising the privacy of our employees",
                     "type": "other"
                 }
             ],
@@ -13515,45 +13515,6 @@
         }
     },
     {
-        "handle": "engagements/cloudinary",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://cloudinary.com/console",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://api.cloudinary.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://res.cloudinary.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "mediaflows.cloudinary.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "dimensions.cloudinary.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "https://support.cloudinary.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "wiki.cloudinary.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/elementor",
         "bounty": 1,
         "active": 1,
@@ -13597,149 +13558,6 @@
                 }
             ],
             "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/opensea",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "opensea.io",
-                    "type": "website"
-                },
-                {
-                    "identifier": "pro.opensea.io",
-                    "type": "website"
-                },
-                {
-                    "identifier": "http://wallets.opensea.io/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "io.opensea - Android App",
-                    "type": "android"
-                },
-                {
-                    "identifier": "io.opensea - iOS App",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "https://github.com/ProjectOpenSea/seaport#deployments",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://etherscan.io/address/0x0000a26b00c1F0DF003000390027140000fAa719",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://etherscan.io/address/0x00005EA00Ac477B1030CE78506496e8C2dE24bf5",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Broken Link",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/pexels",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.pexels.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/bitpanda-og-bb",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://web.bitpanda.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.bitpanda.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://api.bitpanda.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "wss://socket.bitpanda.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "All the Blockchain Infrastructure",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://account.bitpanda.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Bitpanda Broker Android App",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Bitpanda Broker iOS App",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "https://blog.bitpanda.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.bitpanda.com/academy/",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "https://support.bitpanda.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://maintenance.bitpanda.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://beta.bitpanda.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://developers.bitpanda.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "http://partners.whitelabel.bitpanda.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "http://status.bitpanda.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://requests.bitpanda.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.exchange.bitpanda.com",
-                    "type": "website"
-                }
-            ]
         }
     },
     {
@@ -13982,6 +13800,188 @@
                     "type": "other"
                 }
             ]
+        }
+    },
+    {
+        "handle": "engagements/bitpanda-og-bb",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://web.bitpanda.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.bitpanda.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://api.bitpanda.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "wss://socket.bitpanda.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "All the Blockchain Infrastructure",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://account.bitpanda.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Bitpanda Broker Android App",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Bitpanda Broker iOS App",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "https://blog.bitpanda.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.bitpanda.com/academy/",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "https://support.bitpanda.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://maintenance.bitpanda.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://beta.bitpanda.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://developers.bitpanda.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "http://partners.whitelabel.bitpanda.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "http://status.bitpanda.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://requests.bitpanda.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.exchange.bitpanda.com",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/pexels",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.pexels.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/cloudinary",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://cloudinary.com/console",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://api.cloudinary.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://res.cloudinary.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "mediaflows.cloudinary.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "dimensions.cloudinary.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "https://support.cloudinary.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "wiki.cloudinary.com",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/opensea",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "opensea.io",
+                    "type": "website"
+                },
+                {
+                    "identifier": "pro.opensea.io",
+                    "type": "website"
+                },
+                {
+                    "identifier": "http://wallets.opensea.io/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "io.opensea - Android App",
+                    "type": "android"
+                },
+                {
+                    "identifier": "io.opensea - iOS App",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "https://github.com/ProjectOpenSea/seaport#deployments",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://etherscan.io/address/0x0000a26b00c1F0DF003000390027140000fAa719",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://etherscan.io/address/0x00005EA00Ac477B1030CE78506496e8C2dE24bf5",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Broken Link",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
         }
     },
     {
