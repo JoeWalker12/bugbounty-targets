@@ -3238,6 +3238,53 @@
         }
     },
     {
+        "handle": "engagements/acorns",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.acorns.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Acorns for iOS",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://graphql.acorns.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Acorns for Android",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://www.gohenry.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.pixpay.fr/",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "share.acorns.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "grow.acorns.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "store.acorns.com",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
         "handle": "engagements/twilio",
         "bounty": 1,
         "active": 1,
@@ -3445,6 +3492,20 @@
         }
     },
     {
+        "handle": "engagements/pixabay",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.pixabay.com/",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
         "handle": "engagements/monash-mbb",
         "bounty": 1,
         "active": 1,
@@ -3629,20 +3690,6 @@
                 {
                     "identifier": "mix-dev.monash.edu/*",
                     "type": "api"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/pixabay",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.pixabay.com/",
-                    "type": "website"
                 }
             ],
             "out_of_scope": []
@@ -5374,161 +5421,6 @@
         }
     },
     {
-        "handle": "engagements/auth0-okta",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "config.cic-bug-bounty.auth0app.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "manage.cic-bug-bounty.auth0app.com (Management Dashboard)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.cic-bug-bounty.auth0app.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Auth0 Guardian Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Auth0 Guardian IoS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "marketplace.auth0.com (Auth0 Marketplace)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "MFA Integrations\t",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://github.com/auth0/auth0.js (Auth0 SDK for Web)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://github.com/auth0/lock (Lock for Web)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://github.com/auth0/auth0-spa-js (Auth0 Single Page App SDK)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://github.com/auth0/Auth0.Net (.NET SDK)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://github.com/auth0/nextjs-auth0 (Next.js SDK)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://github.com/auth0/auth0-java (Java SDK)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://github.com/auth0/react-native-auth0 (react-native SDK)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://github.com/auth0/auth0-php (PHP SDK)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://dashboard.fga.dev/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://api.us1.fga.dev/",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://customers.us1.fga.dev/",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://play.fga.dev/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "auth0.com\t",
-                    "type": "website"
-                },
-                {
-                    "identifier": "samltool.io\t",
-                    "type": "website"
-                },
-                {
-                    "identifier": "webauthn.me\t",
-                    "type": "website"
-                },
-                {
-                    "identifier": "openidconnect.net\t",
-                    "type": "website"
-                },
-                {
-                    "identifier": "jwt.io",
-                    "type": "website"
-                },
-                {
-                    "identifier": "auth0.net",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "auth0.auth0.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "manage.auth0.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "accounts.auth0.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "webtask.io\t",
-                    "type": "website"
-                },
-                {
-                    "identifier": "phenix.rocks\t",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Auth0 Docs (including quickstarts)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "sharelock.io",
-                    "type": "website"
-                },
-                {
-                    "identifier": "goextend.io\t",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://support.auth0.com/tickets/new",
-                    "type": "website"
-                },
-                {
-                    "identifier": "support.auth0.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "community.auth0.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/justeattakeaway",
         "bounty": 1,
         "active": 1,
@@ -6641,6 +6533,161 @@
                 },
                 {
                     "identifier": "https://www.lafourchette.com",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/auth0-okta",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "config.cic-bug-bounty.auth0app.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "manage.cic-bug-bounty.auth0app.com (Management Dashboard)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.cic-bug-bounty.auth0app.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Auth0 Guardian Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Auth0 Guardian IoS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "marketplace.auth0.com (Auth0 Marketplace)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "MFA Integrations\t",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://github.com/auth0/auth0.js (Auth0 SDK for Web)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://github.com/auth0/lock (Lock for Web)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://github.com/auth0/auth0-spa-js (Auth0 Single Page App SDK)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://github.com/auth0/Auth0.Net (.NET SDK)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://github.com/auth0/nextjs-auth0 (Next.js SDK)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://github.com/auth0/auth0-java (Java SDK)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://github.com/auth0/react-native-auth0 (react-native SDK)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://github.com/auth0/auth0-php (PHP SDK)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://dashboard.fga.dev/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://api.us1.fga.dev/",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://customers.us1.fga.dev/",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://play.fga.dev/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "auth0.com\t",
+                    "type": "website"
+                },
+                {
+                    "identifier": "samltool.io\t",
+                    "type": "website"
+                },
+                {
+                    "identifier": "webauthn.me\t",
+                    "type": "website"
+                },
+                {
+                    "identifier": "openidconnect.net\t",
+                    "type": "website"
+                },
+                {
+                    "identifier": "jwt.io",
+                    "type": "website"
+                },
+                {
+                    "identifier": "auth0.net",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "auth0.auth0.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "manage.auth0.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "accounts.auth0.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "webtask.io\t",
+                    "type": "website"
+                },
+                {
+                    "identifier": "phenix.rocks\t",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Auth0 Docs (including quickstarts)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "sharelock.io",
+                    "type": "website"
+                },
+                {
+                    "identifier": "goextend.io\t",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://support.auth0.com/tickets/new",
+                    "type": "website"
+                },
+                {
+                    "identifier": "support.auth0.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "community.auth0.com",
                     "type": "website"
                 }
             ]
@@ -9866,109 +9913,6 @@
         }
     },
     {
-        "handle": "engagements/linktree-mbb-og",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.linktr.ee",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.linktree.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.tr.ee",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.linktree-extensions.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.odesli.co",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.odesli.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.song.link",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.songlink.io",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.album.link",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.artist.link",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.pods.link",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.playlist.link",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.mylink.page",
-                    "type": "website"
-                },
-                {
-                    "identifier": "plannthat.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Linktree iOS app",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Linktree Android app",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Plann iOS app",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Plann Android app",
-                    "type": "android"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "*.filestack.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.freshdesk.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.blstr.xyz",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.blstr.co",
-                    "type": "website"
-                },
-                {
-                    "identifier": "community.linktr.ee",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/skyscanner",
         "bounty": 1,
         "active": 1,
@@ -10333,6 +10277,167 @@
         }
     },
     {
+        "handle": "engagements/openai",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "api.openai.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "ChatGPT",
+                    "type": "website"
+                },
+                {
+                    "identifier": "ChatGPT Plugins",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Third Party Targets",
+                    "type": "website"
+                },
+                {
+                    "identifier": "OpenAI API Keys",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://openai.org",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.openai.org",
+                    "type": "api"
+                },
+                {
+                    "identifier": "openai.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.openai.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Developer Platform Playground",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Other",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/underarmour",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "www.underarmour.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "www.underarmour.co.uk",
+                    "type": "website"
+                },
+                {
+                    "identifier": "UA Shop iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "UA Shop Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "https://api.shop.ua.com/graphql",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://www.underarmournext.co.uk/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://underarmournext.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.api.ua.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://consumer-sustainability.underarmour.com/en",
+                    "type": "website"
+                },
+                {
+                    "identifier": "vpe-us.underarmour.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "www.underarmour.com.sg",
+                    "type": "website"
+                },
+                {
+                    "identifier": "www.underarmour.cn",
+                    "type": "website"
+                },
+                {
+                    "identifier": "underarmour.co.kr",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://armourhouse.underarmour.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "www.underarmour.com/en-us/affiliate-home",
+                    "type": "website"
+                },
+                {
+                    "identifier": " www.uabiz.com,",
+                    "type": "website"
+                },
+                {
+                    "identifier": "investor.underarmour.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "productsafety.underarmour.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "uabusiness.force.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "www.underarmour.jobs",
+                    "type": "website"
+                },
+                {
+                    "identifier": "blog.underarmour.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "www.uateamcatalogs.com ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "www.uaretail.com ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "www.plankindustries.com",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
         "handle": "engagements/t-mobile",
         "bounty": 1,
         "active": 1,
@@ -10516,6 +10621,109 @@
         }
     },
     {
+        "handle": "engagements/linktree-mbb-og",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.linktr.ee",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.linktree.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.tr.ee",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.linktree-extensions.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.odesli.co",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.odesli.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.song.link",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.songlink.io",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.album.link",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.artist.link",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.pods.link",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.playlist.link",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.mylink.page",
+                    "type": "website"
+                },
+                {
+                    "identifier": "plannthat.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Linktree iOS app",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Linktree Android app",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Plann iOS app",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Plann Android app",
+                    "type": "android"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "*.filestack.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.freshdesk.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.blstr.xyz",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.blstr.co",
+                    "type": "website"
+                },
+                {
+                    "identifier": "community.linktr.ee",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
         "handle": "engagements/sendbird-mbb",
         "bounty": 1,
         "active": 0,
@@ -10619,167 +10827,6 @@
                 },
                 {
                     "identifier": "uat.accounts.coindesk.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/openai",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "api.openai.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "ChatGPT",
-                    "type": "website"
-                },
-                {
-                    "identifier": "ChatGPT Plugins",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Third Party Targets",
-                    "type": "website"
-                },
-                {
-                    "identifier": "OpenAI API Keys",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://openai.org",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.openai.org",
-                    "type": "api"
-                },
-                {
-                    "identifier": "openai.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.openai.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Developer Platform Playground",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Other",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/underarmour",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "www.underarmour.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "www.underarmour.co.uk",
-                    "type": "website"
-                },
-                {
-                    "identifier": "UA Shop iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "UA Shop Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "https://api.shop.ua.com/graphql",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://www.underarmournext.co.uk/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://underarmournext.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.api.ua.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://consumer-sustainability.underarmour.com/en",
-                    "type": "website"
-                },
-                {
-                    "identifier": "vpe-us.underarmour.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "www.underarmour.com.sg",
-                    "type": "website"
-                },
-                {
-                    "identifier": "www.underarmour.cn",
-                    "type": "website"
-                },
-                {
-                    "identifier": "underarmour.co.kr",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://armourhouse.underarmour.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "www.underarmour.com/en-us/affiliate-home",
-                    "type": "website"
-                },
-                {
-                    "identifier": " www.uabiz.com,",
-                    "type": "website"
-                },
-                {
-                    "identifier": "investor.underarmour.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "productsafety.underarmour.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "uabusiness.force.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "www.underarmour.jobs",
-                    "type": "website"
-                },
-                {
-                    "identifier": "blog.underarmour.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "www.uateamcatalogs.com ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "www.uaretail.com ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "www.plankindustries.com",
                     "type": "website"
                 }
             ]
@@ -12771,37 +12818,6 @@
         }
     },
     {
-        "handle": "engagements/jora",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.jora.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.jora.xyz",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://apps.apple.com/us/app/jora-jobs-job-search-app/id917565665\t",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "https://play.google.com/store/apps/details?id=com.jora.android&hl=en_US\t",
-                    "type": "android"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "*.joralocal.com.au\t",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/shoppingcart",
         "bounty": 1,
         "active": 1,
@@ -12826,28 +12842,6 @@
                     "type": "website"
                 }
             ]
-        }
-    },
-    {
-        "handle": "engagements/bitgo-mbb-og-public",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.bitgo.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "app.bitgo.com ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "app.bitgo-test.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
         }
     },
     {
@@ -13927,6 +13921,37 @@
         }
     },
     {
+        "handle": "engagements/jora",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.jora.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.jora.xyz",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://apps.apple.com/us/app/jora-jobs-job-search-app/id917565665\t",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "https://play.google.com/store/apps/details?id=com.jora.android&hl=en_US\t",
+                    "type": "android"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "*.joralocal.com.au\t",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
         "handle": "engagements/dropbox",
         "bounty": 1,
         "active": 1,
@@ -14029,50 +14054,25 @@
         }
     },
     {
-        "handle": "engagements/acorns",
+        "handle": "engagements/bitgo-mbb-og-public",
         "bounty": 1,
         "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "*.acorns.com/",
+                    "identifier": "*.bitgo.com",
                     "type": "website"
                 },
                 {
-                    "identifier": "Acorns for iOS",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://graphql.acorns.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Acorns for Android",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://www.gohenry.com/",
+                    "identifier": "app.bitgo.com ",
                     "type": "website"
                 },
                 {
-                    "identifier": "https://www.pixpay.fr/",
+                    "identifier": "app.bitgo-test.com",
                     "type": "website"
                 }
             ],
-            "out_of_scope": [
-                {
-                    "identifier": "share.acorns.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "grow.acorns.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "store.acorns.com",
-                    "type": "website"
-                }
-            ]
+            "out_of_scope": []
         }
     },
     {
