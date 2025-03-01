@@ -1,25 +1,129 @@
 [
     {
-        "handle": "alasco-gmbh-bug-bounty-program",
+        "handle": "deezer-bug-bounty-program-2019",
         "bounty": 1,
         "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "app.alasco.de",
+                    "identifier": "www.deezer.com",
                     "type": "web-application"
                 },
                 {
-                    "identifier": "api.alasco.de",
+                    "identifier": "connect.deezer.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "api.deezer.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "payment.deezer.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://play.google.com/store/apps/details?id=deezer.android.app",
+                    "type": "mobile-application-android"
+                },
+                {
+                    "identifier": "https://apps.apple.com/fr/app/deezer-musique-podcast/id292738169",
+                    "type": "mobile-application-ios"
+                },
+                {
+                    "identifier": "zen.deezer.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "wellbeing.deezer.com",
                     "type": "api"
                 },
                 {
-                    "identifier": "*.alasco.de",
+                    "identifier": "wellbeing.dzcdn.net",
                     "type": "other"
                 },
                 {
-                    "identifier": "*.alasco.rocks",
-                    "type": "other"
+                    "identifier": "https://play.google.com/store/apps/details?id=com.deezer.zen",
+                    "type": "mobile-application-android"
+                },
+                {
+                    "identifier": "https://apps.apple.com/be/app/zen-by-deezer-m%C3%A9ditation/id1597326355",
+                    "type": "mobile-application-ios"
+                },
+                {
+                    "identifier": "account.deezer.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "pipe.deezer.com",
+                    "type": "api"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "ovh",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "api.ovh.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "www.ovh.com/manager",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "www.ovh.com",
+                    "type": "web-application"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "doctolib-public-bug-bounty-program",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "www.doctolib.(fr|de|it)",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "pro.doctolib.(fr|de|it) (see \"Free features for healthcare professionals\"))",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "Special scenarios (see description)",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.doctolib.(fr|de|it|com|net)",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://apps.apple.com/fr/app/doctolib/id925339063",
+                    "type": "mobile-application-ios"
+                },
+                {
+                    "identifier": "http://play.google.com/store/apps/details?id=fr.doctolib.www",
+                    "type": "mobile-application-android"
+                },
+                {
+                    "identifier": "*.siilo.com",
+                    "type": "application"
+                },
+                {
+                    "identifier": "https://apps.apple.com/ie/app/doctolib-siilo/id1083002150",
+                    "type": "mobile-application-ios"
+                },
+                {
+                    "identifier": "https://play.google.com/store/apps/details?id=com.siilo.android&hl=en",
+                    "type": "mobile-application-android"
                 }
             ],
             "out_of_scope": []
@@ -50,6 +154,32 @@
                 {
                     "identifier": "Contentsquare SDK (cf : Program Description)",
                     "type": "application"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "alasco-gmbh-bug-bounty-program",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "app.alasco.de",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "api.alasco.de",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.alasco.de",
+                    "type": "other"
+                },
+                {
+                    "identifier": "*.alasco.rocks",
+                    "type": "other"
                 }
             ],
             "out_of_scope": []
@@ -216,52 +346,6 @@
                 {
                     "identifier": "https://doc.komoju.com/docs/fields-overview",
                     "type": "other"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "doctolib-public-bug-bounty-program",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "www.doctolib.(fr|de|it)",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "pro.doctolib.(fr|de|it) (see \"Free features for healthcare professionals\"))",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "Special scenarios (see description)",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.doctolib.(fr|de|it|com|net)",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://apps.apple.com/fr/app/doctolib/id925339063",
-                    "type": "mobile-application-ios"
-                },
-                {
-                    "identifier": "http://play.google.com/store/apps/details?id=fr.doctolib.www",
-                    "type": "mobile-application-android"
-                },
-                {
-                    "identifier": "*.siilo.com",
-                    "type": "application"
-                },
-                {
-                    "identifier": "https://apps.apple.com/ie/app/doctolib-siilo/id1083002150",
-                    "type": "mobile-application-ios"
-                },
-                {
-                    "identifier": "https://play.google.com/store/apps/details?id=com.siilo.android&hl=en",
-                    "type": "mobile-application-android"
                 }
             ],
             "out_of_scope": []
@@ -1053,68 +1137,6 @@
                 },
                 {
                     "identifier": "https://springboard.pinelabs.com",
-                    "type": "api"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "deezer-bug-bounty-program-2019",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "www.deezer.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "connect.deezer.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "api.deezer.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "payment.deezer.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://play.google.com/store/apps/details?id=deezer.android.app",
-                    "type": "mobile-application-android"
-                },
-                {
-                    "identifier": "https://apps.apple.com/fr/app/deezer-musique-podcast/id292738169",
-                    "type": "mobile-application-ios"
-                },
-                {
-                    "identifier": "zen.deezer.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "wellbeing.deezer.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "wellbeing.dzcdn.net",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://play.google.com/store/apps/details?id=com.deezer.zen",
-                    "type": "mobile-application-android"
-                },
-                {
-                    "identifier": "https://apps.apple.com/be/app/zen-by-deezer-m%C3%A9ditation/id1597326355",
-                    "type": "mobile-application-ios"
-                },
-                {
-                    "identifier": "account.deezer.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "pipe.deezer.com",
                     "type": "api"
                 }
             ],
@@ -1994,28 +2016,6 @@
                 {
                     "identifier": "MFA",
                     "type": "application"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "ovh",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "api.ovh.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "www.ovh.com/manager",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "www.ovh.com",
-                    "type": "web-application"
                 }
             ],
             "out_of_scope": []
