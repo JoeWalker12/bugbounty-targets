@@ -58,6 +58,108 @@
         }
     },
     {
+        "handle": "spacelift-io-bug-bounty-program",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://spacelift.dev/",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://*.app.spacelift.dev",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "Native K8S workers and operator",
+                    "type": "application"
+                },
+                {
+                    "identifier": "OIDC-based API keys",
+                    "type": "application"
+                },
+                {
+                    "identifier": "MFA",
+                    "type": "application"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "bug-bounty-sncf-connect-1",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://www.sncf-connect.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://sncf-connect.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https//monidentifiant.sncf",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://www.sncf-connect.com/bff",
+                    "type": "api"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "swiss-post",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "(*.post.ch:80|*.post.ch:443) AND 194.41.128.0/17",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://account.post.ch",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://shop.post.ch/shop",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://service.post.ch/ekp-web/",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://service.post.ch/zopa/app/",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://play.google.com/store/apps/details?id=com.nth.swisspost&hl=de_CH&gl=US",
+                    "type": "mobile-application-android"
+                },
+                {
+                    "identifier": "https://apps.apple.com/ch/app/die-post/id378676700",
+                    "type": "mobile-application-ios"
+                },
+                {
+                    "identifier": "https://billingonline.post.ch/OnlinePayment/Web/v1/BOI",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://service.post.ch/ele-klp/ele/",
+                    "type": "web-application"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
         "handle": "ooredoo-qpsc-bug-bounty-program",
         "bounty": 1,
         "active": 1,
@@ -142,32 +244,6 @@
                 {
                     "identifier": "https://www.kiwai-normandie.fr/",
                     "type": "web-application"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "bug-bounty-sncf-connect-1",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://www.sncf-connect.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://sncf-connect.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https//monidentifiant.sncf",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://www.sncf-connect.com/bff",
-                    "type": "api"
                 }
             ],
             "out_of_scope": []
@@ -908,36 +984,6 @@
         }
     },
     {
-        "handle": "spacelift-io-bug-bounty-program",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://spacelift.dev/",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://*.app.spacelift.dev",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "Native K8S workers and operator",
-                    "type": "application"
-                },
-                {
-                    "identifier": "OIDC-based API keys",
-                    "type": "application"
-                },
-                {
-                    "identifier": "MFA",
-                    "type": "application"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "toom-baumarkt-gmbh-bug-bounty-program",
         "bounty": 1,
         "active": 1,
@@ -1040,52 +1086,6 @@
                 {
                     "identifier": "Scanwatch",
                     "type": "other"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "swiss-post",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "(*.post.ch:80|*.post.ch:443) AND 194.41.128.0/17",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://account.post.ch",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://shop.post.ch/shop",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://service.post.ch/ekp-web/",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://service.post.ch/zopa/app/",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://play.google.com/store/apps/details?id=com.nth.swisspost&hl=de_CH&gl=US",
-                    "type": "mobile-application-android"
-                },
-                {
-                    "identifier": "https://apps.apple.com/ch/app/die-post/id378676700",
-                    "type": "mobile-application-ios"
-                },
-                {
-                    "identifier": "https://billingonline.post.ch/OnlinePayment/Web/v1/BOI",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://service.post.ch/ele-klp/ele/",
-                    "type": "web-application"
                 }
             ],
             "out_of_scope": []
