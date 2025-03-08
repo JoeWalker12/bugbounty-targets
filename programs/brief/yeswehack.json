@@ -1,5 +1,183 @@
 [
     {
+        "handle": "systemd-bug-bounty-program",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "systemd (the manager itself)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "systemd-boot",
+                    "type": "other"
+                },
+                {
+                    "identifier": "systemd-stub",
+                    "type": "other"
+                },
+                {
+                    "identifier": "systemd-udev",
+                    "type": "other"
+                },
+                {
+                    "identifier": "systemd-journald",
+                    "type": "other"
+                },
+                {
+                    "identifier": "systemd-logind",
+                    "type": "other"
+                },
+                {
+                    "identifier": "systemd-networkd",
+                    "type": "other"
+                },
+                {
+                    "identifier": "libsystemd",
+                    "type": "other"
+                },
+                {
+                    "identifier": "systemd-timesyncd",
+                    "type": "other"
+                },
+                {
+                    "identifier": "systemd-hostnamed",
+                    "type": "other"
+                },
+                {
+                    "identifier": "systemd-resolved",
+                    "type": "other"
+                },
+                {
+                    "identifier": "systemd-cryptenroll",
+                    "type": "other"
+                },
+                {
+                    "identifier": "systemd-cryptsetup",
+                    "type": "other"
+                },
+                {
+                    "identifier": "systemd-veritysetup",
+                    "type": "other"
+                },
+                {
+                    "identifier": "systemd-fstab-generator",
+                    "type": "other"
+                },
+                {
+                    "identifier": "systemd-gpt-auto-generator",
+                    "type": "other"
+                },
+                {
+                    "identifier": "systemd-ask-password",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "bug-bounty-program-blablacar",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://edge.blablacar.(fr|de|co.uk|in|es|mx|be|hr|hu|it|nl|pl|br|pt|ro|ru|com|tr|com.ua))",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://auth.blablacar.(fr|de|co.uk|in|es|mx|be|hr|hu|it|nl|pl|br|pt|ro|ru|com|tr|com.ua)",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://www.blablacar.(fr|de|co.uk|in|es|mx|be|hr|hu|it|nl|pl|br|pt|ro|ru|com|tr|com.ua)",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://m.blablacar.(fr|de|co.uk|in|es|mx|be|hr|hu|it|nl|pl|br|pt|ro|ru|com|tr|com.ua)",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://play.google.com/store/apps/details?id=com.comuto&hl=en",
+                    "type": "mobile-application-android"
+                },
+                {
+                    "identifier": "https://itunes.apple.com/fr/app/blablacar-trusted-carpooling/id341329033?l=en&mt=8",
+                    "type": "mobile-application-ios"
+                },
+                {
+                    "identifier": "https://api.blablalines.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://daily.blablacar.fr",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://blablacardaily.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://play.google.com/store/apps/details?id=com.blablalines",
+                    "type": "mobile-application-android"
+                },
+                {
+                    "identifier": "https://apps.apple.com/fr/app/blablalines-covoiturage/id1225543288",
+                    "type": "mobile-application-ios"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "swiss-post",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "(*.post.ch:80|*.post.ch:443) AND 194.41.128.0/17",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://account.post.ch",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://shop.post.ch/shop",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://service.post.ch/ekp-web/",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://service.post.ch/zopa/app/",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://play.google.com/store/apps/details?id=com.nth.swisspost&hl=de_CH&gl=US",
+                    "type": "mobile-application-android"
+                },
+                {
+                    "identifier": "https://apps.apple.com/ch/app/die-post/id378676700",
+                    "type": "mobile-application-ios"
+                },
+                {
+                    "identifier": "https://billingonline.post.ch/OnlinePayment/Web/v1/BOI",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://service.post.ch/ele-klp/ele/",
+                    "type": "web-application"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
         "handle": "yes-we-hack",
         "bounty": 1,
         "active": 1,
@@ -513,52 +691,6 @@
             "in_scope": [
                 {
                     "identifier": "https://dojo-yeswehack.com/challenge-of-the-month/dojo-39",
-                    "type": "web-application"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "swiss-post",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "(*.post.ch:80|*.post.ch:443) AND 194.41.128.0/17",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://account.post.ch",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://shop.post.ch/shop",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://service.post.ch/ekp-web/",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://service.post.ch/zopa/app/",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://play.google.com/store/apps/details?id=com.nth.swisspost&hl=de_CH&gl=US",
-                    "type": "mobile-application-android"
-                },
-                {
-                    "identifier": "https://apps.apple.com/ch/app/die-post/id378676700",
-                    "type": "mobile-application-ios"
-                },
-                {
-                    "identifier": "https://billingonline.post.ch/OnlinePayment/Web/v1/BOI",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://service.post.ch/ele-klp/ele/",
                     "type": "web-application"
                 }
             ],
@@ -1654,60 +1786,6 @@
         }
     },
     {
-        "handle": "bug-bounty-program-blablacar",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://edge.blablacar.(fr|de|co.uk|in|es|mx|be|hr|hu|it|nl|pl|br|pt|ro|ru|com|tr|com.ua))",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://auth.blablacar.(fr|de|co.uk|in|es|mx|be|hr|hu|it|nl|pl|br|pt|ro|ru|com|tr|com.ua)",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://www.blablacar.(fr|de|co.uk|in|es|mx|be|hr|hu|it|nl|pl|br|pt|ro|ru|com|tr|com.ua)",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://m.blablacar.(fr|de|co.uk|in|es|mx|be|hr|hu|it|nl|pl|br|pt|ro|ru|com|tr|com.ua)",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://play.google.com/store/apps/details?id=com.comuto&hl=en",
-                    "type": "mobile-application-android"
-                },
-                {
-                    "identifier": "https://itunes.apple.com/fr/app/blablacar-trusted-carpooling/id341329033?l=en&mt=8",
-                    "type": "mobile-application-ios"
-                },
-                {
-                    "identifier": "https://api.blablalines.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://daily.blablacar.fr",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://blablacardaily.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://play.google.com/store/apps/details?id=com.blablalines",
-                    "type": "mobile-application-android"
-                },
-                {
-                    "identifier": "https://apps.apple.com/fr/app/blablalines-covoiturage/id1225543288",
-                    "type": "mobile-application-ios"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "matrixalm",
         "bounty": 1,
         "active": 1,
@@ -1758,84 +1836,6 @@
                 {
                     "identifier": "*.vimla.io",
                     "type": "web-application"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "systemd-bug-bounty-program",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "systemd (the manager itself)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "systemd-boot",
-                    "type": "other"
-                },
-                {
-                    "identifier": "systemd-stub",
-                    "type": "other"
-                },
-                {
-                    "identifier": "systemd-udev",
-                    "type": "other"
-                },
-                {
-                    "identifier": "systemd-journald",
-                    "type": "other"
-                },
-                {
-                    "identifier": "systemd-logind",
-                    "type": "other"
-                },
-                {
-                    "identifier": "systemd-networkd",
-                    "type": "other"
-                },
-                {
-                    "identifier": "libsystemd",
-                    "type": "other"
-                },
-                {
-                    "identifier": "systemd-timesyncd",
-                    "type": "other"
-                },
-                {
-                    "identifier": "systemd-hostnamed",
-                    "type": "other"
-                },
-                {
-                    "identifier": "systemd-resolved",
-                    "type": "other"
-                },
-                {
-                    "identifier": "systemd-cryptenroll",
-                    "type": "other"
-                },
-                {
-                    "identifier": "systemd-cryptsetup",
-                    "type": "other"
-                },
-                {
-                    "identifier": "systemd-veritysetup",
-                    "type": "other"
-                },
-                {
-                    "identifier": "systemd-fstab-generator",
-                    "type": "other"
-                },
-                {
-                    "identifier": "systemd-gpt-auto-generator",
-                    "type": "other"
-                },
-                {
-                    "identifier": "systemd-ask-password",
-                    "type": "other"
                 }
             ],
             "out_of_scope": []
