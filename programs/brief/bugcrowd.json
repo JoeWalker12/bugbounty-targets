@@ -5255,6 +5255,73 @@
         }
     },
     {
+        "handle": "engagements/dell-com",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.dell.com/*",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.delltechnologies.com/* ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://console.delltechnologies.com/nav/administration",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://console.delltechnologies.com/nav/invoice",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://console.delltechnologies.com/nav/billing",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Any Verified Dell-Controlled Endpoint (domains/IP space/etc.)\t",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "https://console.delltechnologies.com/ ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://console.delltechnologies.com/nav/catalog",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://console.delltechnologies.com/nav/support",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://console.delltechnologies.com/nav/subscriptions",
+                    "type": "website"
+                },
+                {
+                    "identifier": "educate.dell.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "console.dell.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "console-test.dell.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "salesproductivity.dell.com",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
         "handle": "engagements/tesla",
         "bounty": 1,
         "active": 1,
@@ -5360,73 +5427,6 @@
                 },
                 {
                     "identifier": "Any other third-party websites hosted by non-Tesla entities",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/dell-com",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.dell.com/*",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.delltechnologies.com/* ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://console.delltechnologies.com/nav/administration",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://console.delltechnologies.com/nav/invoice",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://console.delltechnologies.com/nav/billing",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Any Verified Dell-Controlled Endpoint (domains/IP space/etc.)\t",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "https://console.delltechnologies.com/ ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://console.delltechnologies.com/nav/catalog",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://console.delltechnologies.com/nav/support",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://console.delltechnologies.com/nav/subscriptions",
-                    "type": "website"
-                },
-                {
-                    "identifier": "educate.dell.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "console.dell.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "console-test.dell.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "salesproductivity.dell.com",
                     "type": "website"
                 }
             ]
@@ -13483,45 +13483,6 @@
         }
     },
     {
-        "handle": "engagements/imperva-mbb",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://*.imperva.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.cloudvector.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.incapsula.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://supportportal.thalesgroup.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "PTaaS Reference",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "http://docs.imperva.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "http://docs-be.imperva.com/",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/underarmour-corp",
         "bounty": 1,
         "active": 1,
@@ -14157,6 +14118,45 @@
                 },
                 {
                     "identifier": "Payment APIs",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/imperva-mbb",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://*.imperva.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.cloudvector.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.incapsula.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://supportportal.thalesgroup.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "PTaaS Reference",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "http://docs.imperva.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "http://docs-be.imperva.com/",
                     "type": "website"
                 }
             ]
