@@ -5559,41 +5559,6 @@
         }
     },
     {
-        "handle": "engagements/braze-bb",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://bug-bounty-api.k8s.tools-001.d-use-1.braze-dev.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://bug-bounty-dashboard.k8s.tools-001.d-use-1.braze-dev.com/",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "*.appboy.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "*.braze.eu",
-                    "type": "other"
-                },
-                {
-                    "identifier": "*.braze.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Any Braze Owned Host not listed as in Scope",
-                    "type": "other"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/bitdefenderbox2",
         "bounty": 1,
         "active": 1,
@@ -7016,20 +6981,6 @@
         }
     },
     {
-        "handle": "engagements/personalcapital",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://devstaging.pcapcloud.com/*",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/immutable",
         "bounty": 1,
         "active": 1,
@@ -7130,6 +7081,20 @@
                     "type": "other"
                 }
             ]
+        }
+    },
+    {
+        "handle": "engagements/personalcapital",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://devstaging.pcapcloud.com/*",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
         }
     },
     {
@@ -7583,6 +7548,41 @@
                 }
             ],
             "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/braze-bb",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://bug-bounty-api.k8s.tools-001.d-use-1.braze-dev.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://bug-bounty-dashboard.k8s.tools-001.d-use-1.braze-dev.com/",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "*.appboy.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "*.braze.eu",
+                    "type": "other"
+                },
+                {
+                    "identifier": "*.braze.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Any Braze Owned Host not listed as in Scope",
+                    "type": "other"
+                }
+            ]
         }
     },
     {
@@ -11053,28 +11053,6 @@
         }
     },
     {
-        "handle": "engagements/tyler-tech-data-insights",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://opendata-demo.test-socrata.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://opendata.test-socrata.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://opendata.test-socrata.com/admin/gateway",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/vox",
         "bounty": 1,
         "active": 1,
@@ -11958,6 +11936,68 @@
         }
     },
     {
+        "handle": "engagements/spacex",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "SpaceX and Starlink assets (target information and rewards detailed above on the brief)",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/pixabay",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.pixabay.com/",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/entain-glf-mbb-og",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://casino.partycasino.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://casino.bwin.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://casino.sportingbet.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.ladbrokes.com/en/games",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.coral.co.uk/en/games",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://casino.*.betmgm.com/en/games (read \"Find a Game to test on our targets\")",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
         "handle": "engagements/indeed",
         "bounty": 1,
         "active": 1,
@@ -12032,61 +12072,21 @@
         }
     },
     {
-        "handle": "engagements/spacex",
+        "handle": "engagements/tyler-tech-data-insights",
         "bounty": 1,
         "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "SpaceX and Starlink assets (target information and rewards detailed above on the brief)",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/pixabay",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.pixabay.com/",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/entain-glf-mbb-og",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://casino.partycasino.com",
-                    "type": "website"
+                    "identifier": "https://opendata-demo.test-socrata.com",
+                    "type": "other"
                 },
                 {
-                    "identifier": "https://casino.bwin.com",
-                    "type": "website"
+                    "identifier": "https://opendata.test-socrata.com",
+                    "type": "other"
                 },
                 {
-                    "identifier": "https://casino.sportingbet.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.ladbrokes.com/en/games",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.coral.co.uk/en/games",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://casino.*.betmgm.com/en/games (read \"Find a Game to test on our targets\")",
+                    "identifier": "https://opendata.test-socrata.com/admin/gateway",
                     "type": "website"
                 }
             ],
