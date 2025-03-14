@@ -4228,73 +4228,6 @@
         }
     },
     {
-        "handle": "engagements/dell-com",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.dell.com/*",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.delltechnologies.com/* ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://console.delltechnologies.com/nav/administration",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://console.delltechnologies.com/nav/invoice",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://console.delltechnologies.com/nav/billing",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Any Verified Dell-Controlled Endpoint (domains/IP space/etc.)\t",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "https://console.delltechnologies.com/ ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://console.delltechnologies.com/nav/catalog",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://console.delltechnologies.com/nav/support",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://console.delltechnologies.com/nav/subscriptions",
-                    "type": "website"
-                },
-                {
-                    "identifier": "educate.dell.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "console.dell.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "console-test.dell.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "salesproductivity.dell.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/statuspage",
         "bounty": 1,
         "active": 1,
@@ -5027,93 +4960,6 @@
         }
     },
     {
-        "handle": "engagements/bugcrowd",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "docs.bugcrowd.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "bugcrowd.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Crowdcontrol",
-                    "type": "api"
-                },
-                {
-                    "identifier": "api.bugcrowd.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://identity.bugcrowd.com/ ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.bugcrowd.com/auth/*",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "bugcrowd*.freshdesk.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "www.bugcrowd.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "blog.bugcrowd.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "researcherdocs.bugcrowd.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "pages.bugcrowd.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "forum.bugcrowd.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "email.bugcrowd.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "email.forum.bugcrowd.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "go.bugcrowd.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "events.bugcrowd.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "assetinventory.bugcrowd.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "community.bugcrowd.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "trust.bugcrowd.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/hotdoc",
         "bounty": 1,
         "active": 1,
@@ -5431,6 +5277,160 @@
                 },
                 {
                     "identifier": "trello-attachments.s3.amazonaws.com",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/dell-com",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.dell.com/*",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.delltechnologies.com/* ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://console.delltechnologies.com/nav/administration",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://console.delltechnologies.com/nav/invoice",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://console.delltechnologies.com/nav/billing",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Any Verified Dell-Controlled Endpoint (domains/IP space/etc.)\t",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "https://console.delltechnologies.com/ ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://console.delltechnologies.com/nav/catalog",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://console.delltechnologies.com/nav/support",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://console.delltechnologies.com/nav/subscriptions",
+                    "type": "website"
+                },
+                {
+                    "identifier": "educate.dell.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "console.dell.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "console-test.dell.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "salesproductivity.dell.com",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/bugcrowd",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "docs.bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Crowdcontrol",
+                    "type": "api"
+                },
+                {
+                    "identifier": "api.bugcrowd.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://identity.bugcrowd.com/ ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.bugcrowd.com/auth/*",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "bugcrowd*.freshdesk.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "www.bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "blog.bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "researcherdocs.bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "pages.bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "forum.bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "email.bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "email.forum.bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "go.bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "events.bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "assetinventory.bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "community.bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "trust.bugcrowd.com",
                     "type": "website"
                 }
             ]
@@ -6782,113 +6782,6 @@
         }
     },
     {
-        "handle": "engagements/underarmour",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "www.underarmour.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "www.underarmour.co.uk",
-                    "type": "website"
-                },
-                {
-                    "identifier": "UA Shop iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "UA Shop Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "https://api.shop.ua.com/graphql",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://www.underarmournext.co.uk/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://underarmournext.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.api.ua.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://consumer-sustainability.underarmour.com/en",
-                    "type": "website"
-                },
-                {
-                    "identifier": "vpe-us.underarmour.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "www.underarmour.com.sg",
-                    "type": "website"
-                },
-                {
-                    "identifier": "www.underarmour.cn",
-                    "type": "website"
-                },
-                {
-                    "identifier": "underarmour.co.kr",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://armourhouse.underarmour.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "www.underarmour.com/en-us/affiliate-home",
-                    "type": "website"
-                },
-                {
-                    "identifier": " www.uabiz.com,",
-                    "type": "website"
-                },
-                {
-                    "identifier": "investor.underarmour.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "productsafety.underarmour.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "uabusiness.force.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "www.underarmour.jobs",
-                    "type": "website"
-                },
-                {
-                    "identifier": "blog.underarmour.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "www.uateamcatalogs.com ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "www.uaretail.com ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "www.plankindustries.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/skyscanner",
         "bounty": 1,
         "active": 1,
@@ -7429,6 +7322,60 @@
         }
     },
     {
+        "handle": "engagements/openai",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "api.openai.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "ChatGPT",
+                    "type": "website"
+                },
+                {
+                    "identifier": "ChatGPT Plugins",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Third Party Targets",
+                    "type": "website"
+                },
+                {
+                    "identifier": "OpenAI API Keys",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://openai.org",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.openai.org",
+                    "type": "api"
+                },
+                {
+                    "identifier": "openai.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.openai.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Developer Platform Playground",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Other",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
         "handle": "engagements/linktree-mbb-og",
         "bounty": 1,
         "active": 1,
@@ -7532,57 +7479,110 @@
         }
     },
     {
-        "handle": "engagements/openai",
+        "handle": "engagements/underarmour",
         "bounty": 1,
         "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "api.openai.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "ChatGPT",
+                    "identifier": "www.underarmour.com",
                     "type": "website"
                 },
                 {
-                    "identifier": "ChatGPT Plugins",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Third Party Targets",
+                    "identifier": "www.underarmour.co.uk",
                     "type": "website"
                 },
                 {
-                    "identifier": "OpenAI API Keys",
+                    "identifier": "UA Shop iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "UA Shop Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "https://api.shop.ua.com/graphql",
                     "type": "api"
                 },
                 {
-                    "identifier": "https://openai.org",
+                    "identifier": "https://www.underarmournext.co.uk/",
                     "type": "website"
                 },
                 {
-                    "identifier": "*.openai.org",
-                    "type": "api"
-                },
-                {
-                    "identifier": "openai.com",
+                    "identifier": "https://underarmournext.com/",
                     "type": "website"
                 },
                 {
-                    "identifier": "*.openai.com",
+                    "identifier": "*.api.ua.com",
                     "type": "other"
                 },
                 {
-                    "identifier": "Developer Platform Playground",
+                    "identifier": "https://consumer-sustainability.underarmour.com/en",
                     "type": "website"
                 },
                 {
-                    "identifier": "Other",
-                    "type": "other"
+                    "identifier": "vpe-us.underarmour.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "www.underarmour.com.sg",
+                    "type": "website"
+                },
+                {
+                    "identifier": "www.underarmour.cn",
+                    "type": "website"
+                },
+                {
+                    "identifier": "underarmour.co.kr",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://armourhouse.underarmour.com",
+                    "type": "website"
                 }
             ],
-            "out_of_scope": []
+            "out_of_scope": [
+                {
+                    "identifier": "www.underarmour.com/en-us/affiliate-home",
+                    "type": "website"
+                },
+                {
+                    "identifier": " www.uabiz.com,",
+                    "type": "website"
+                },
+                {
+                    "identifier": "investor.underarmour.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "productsafety.underarmour.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "uabusiness.force.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "www.underarmour.jobs",
+                    "type": "website"
+                },
+                {
+                    "identifier": "blog.underarmour.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "www.uateamcatalogs.com ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "www.uaretail.com ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "www.plankindustries.com",
+                    "type": "website"
+                }
+            ]
         }
     },
     {
@@ -10300,89 +10300,6 @@
         }
     },
     {
-        "handle": "engagements/thefork-b2c-wng",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://www.thefork.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://m.thefork.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://blog.thefork.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://api.thefork.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://api.lafourchette.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://review-api.lafourchette.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://google-reserve-api.thefork.io ",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://m-api.lafourchette.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "The Fork Android App",
-                    "type": "android"
-                },
-                {
-                    "identifier": "The Fork iOS App",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "*.tools.thefork.tech",
-                    "type": "website"
-                },
-                {
-                    "identifier": "www.restaurant-information.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "widget.thefork.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "https://*.eltenedor.*",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.thefork.*",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Customer semi-login / PartialLogin feature",
-                    "type": "website"
-                },
-                {
-                    "identifier": "module.thefork.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.lafourchette.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/expressvpn",
         "bounty": 1,
         "active": 1,
@@ -10578,6 +10495,89 @@
                 },
                 {
                     "identifier": "partner.viator.com",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/thefork-b2c-wng",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://www.thefork.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://m.thefork.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://blog.thefork.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://api.thefork.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://api.lafourchette.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://review-api.lafourchette.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://google-reserve-api.thefork.io ",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://m-api.lafourchette.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "The Fork Android App",
+                    "type": "android"
+                },
+                {
+                    "identifier": "The Fork iOS App",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "*.tools.thefork.tech",
+                    "type": "website"
+                },
+                {
+                    "identifier": "www.restaurant-information.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "widget.thefork.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "https://*.eltenedor.*",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.thefork.*",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Customer semi-login / PartialLogin feature",
+                    "type": "website"
+                },
+                {
+                    "identifier": "module.thefork.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.lafourchette.com",
                     "type": "website"
                 }
             ]
