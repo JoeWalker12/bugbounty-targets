@@ -6983,6 +6983,41 @@
         }
     },
     {
+        "handle": "engagements/braze-bb",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://bug-bounty-api.k8s.tools-001.d-use-1.braze-dev.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://bug-bounty-dashboard.k8s.tools-001.d-use-1.braze-dev.com/",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "*.appboy.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "*.braze.eu",
+                    "type": "other"
+                },
+                {
+                    "identifier": "*.braze.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Any Braze Owned Host not listed as in Scope",
+                    "type": "other"
+                }
+            ]
+        }
+    },
+    {
         "handle": "engagements/maffashion",
         "bounty": 1,
         "active": 1,
@@ -7224,41 +7259,6 @@
                 },
                 {
                     "identifier": "Gestor de Pedidos - Desktop Client",
-                    "type": "other"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/braze-bb",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://bug-bounty-api.k8s.tools-001.d-use-1.braze-dev.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://bug-bounty-dashboard.k8s.tools-001.d-use-1.braze-dev.com/",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "*.appboy.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "*.braze.eu",
-                    "type": "other"
-                },
-                {
-                    "identifier": "*.braze.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Any Braze Owned Host not listed as in Scope",
                     "type": "other"
                 }
             ]
@@ -13723,99 +13723,6 @@
         }
     },
     {
-        "handle": "engagements/tidal-bugbounty",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.tidal.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.wimpmusic.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.tidalhifi.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "api.tidal.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*tidalhi.fi",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.tdl.sh",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Tidal Client for iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Tidal Client for Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Tidal Desktop Client",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Tidal Official Clients (e.g. Sonos integration, Tesla integration, etc.)",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "developer.tidal.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "embed.tidal.com",
-                    "type": "other"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/mallofemirates",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://www.malloftheemirates.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://play.google.com/store/apps/details?id=com.belongi.moe",
-                    "type": "android"
-                },
-                {
-                    "identifier": "https://apps.apple.com/app/mall-of-the-emirates-moe/id1449578693",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "https://api.mafshoppingmalls.com/",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://www.premogiftcards.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://identity.majidalfuttaim.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/opera",
         "bounty": 1,
         "active": 1,
@@ -14164,6 +14071,99 @@
                     "type": "website"
                 }
             ]
+        }
+    },
+    {
+        "handle": "engagements/tidal-bugbounty",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.tidal.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.wimpmusic.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.tidalhifi.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "api.tidal.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*tidalhi.fi",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.tdl.sh",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Tidal Client for iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Tidal Client for Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Tidal Desktop Client",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Tidal Official Clients (e.g. Sonos integration, Tesla integration, etc.)",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "developer.tidal.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "embed.tidal.com",
+                    "type": "other"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/mallofemirates",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://www.malloftheemirates.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://play.google.com/store/apps/details?id=com.belongi.moe",
+                    "type": "android"
+                },
+                {
+                    "identifier": "https://apps.apple.com/app/mall-of-the-emirates-moe/id1449578693",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "https://api.mafshoppingmalls.com/",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://www.premogiftcards.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://identity.majidalfuttaim.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
         }
     },
     {
