@@ -6983,6 +6983,41 @@
         }
     },
     {
+        "handle": "engagements/braze-bb",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://bug-bounty-api.k8s.tools-001.d-use-1.braze-dev.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://bug-bounty-dashboard.k8s.tools-001.d-use-1.braze-dev.com/",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "*.appboy.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "*.braze.eu",
+                    "type": "other"
+                },
+                {
+                    "identifier": "*.braze.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Any Braze Owned Host not listed as in Scope",
+                    "type": "other"
+                }
+            ]
+        }
+    },
+    {
         "handle": "engagements/maffashion",
         "bounty": 1,
         "active": 1,
@@ -7224,41 +7259,6 @@
                 },
                 {
                     "identifier": "Gestor de Pedidos - Desktop Client",
-                    "type": "other"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/braze-bb",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://bug-bounty-api.k8s.tools-001.d-use-1.braze-dev.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://bug-bounty-dashboard.k8s.tools-001.d-use-1.braze-dev.com/",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "*.appboy.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "*.braze.eu",
-                    "type": "other"
-                },
-                {
-                    "identifier": "*.braze.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Any Braze Owned Host not listed as in Scope",
                     "type": "other"
                 }
             ]
@@ -10251,89 +10251,6 @@
         }
     },
     {
-        "handle": "engagements/thefork-b2c-wng",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://www.thefork.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://m.thefork.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://blog.thefork.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://api.thefork.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://api.lafourchette.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://review-api.lafourchette.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://google-reserve-api.thefork.io ",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://m-api.lafourchette.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "The Fork Android App",
-                    "type": "android"
-                },
-                {
-                    "identifier": "The Fork iOS App",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "*.tools.thefork.tech",
-                    "type": "website"
-                },
-                {
-                    "identifier": "www.restaurant-information.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "widget.thefork.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "https://*.eltenedor.*",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.thefork.*",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Customer semi-login / PartialLogin feature",
-                    "type": "website"
-                },
-                {
-                    "identifier": "module.thefork.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.lafourchette.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/carrefour",
         "bounty": 1,
         "active": 1,
@@ -10578,6 +10495,89 @@
                 },
                 {
                     "identifier": "Any repository that you are not an owner of - do not impact Atlassian customers in any way.",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/thefork-b2c-wng",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://www.thefork.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://m.thefork.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://blog.thefork.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://api.thefork.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://api.lafourchette.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://review-api.lafourchette.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://google-reserve-api.thefork.io ",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://m-api.lafourchette.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "The Fork Android App",
+                    "type": "android"
+                },
+                {
+                    "identifier": "The Fork iOS App",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "*.tools.thefork.tech",
+                    "type": "website"
+                },
+                {
+                    "identifier": "www.restaurant-information.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "widget.thefork.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "https://*.eltenedor.*",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.thefork.*",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Customer semi-login / PartialLogin feature",
+                    "type": "website"
+                },
+                {
+                    "identifier": "module.thefork.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.lafourchette.com",
                     "type": "website"
                 }
             ]
