@@ -4821,73 +4821,6 @@
         }
     },
     {
-        "handle": "engagements/dell-com",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.dell.com/*",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.delltechnologies.com/* ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://console.delltechnologies.com/nav/administration",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://console.delltechnologies.com/nav/invoice",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://console.delltechnologies.com/nav/billing",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Any Verified Dell-Controlled Endpoint (domains/IP space/etc.)\t",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "https://console.delltechnologies.com/ ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://console.delltechnologies.com/nav/catalog",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://console.delltechnologies.com/nav/support",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://console.delltechnologies.com/nav/subscriptions",
-                    "type": "website"
-                },
-                {
-                    "identifier": "educate.dell.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "console.dell.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "console-test.dell.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "salesproductivity.dell.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/ciscomeraki",
         "bounty": 1,
         "active": 1,
@@ -5431,6 +5364,73 @@
             "out_of_scope": [
                 {
                     "identifier": "*.joralocal.com.au\t",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/dell-com",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.dell.com/*",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.delltechnologies.com/* ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://console.delltechnologies.com/nav/administration",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://console.delltechnologies.com/nav/invoice",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://console.delltechnologies.com/nav/billing",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Any Verified Dell-Controlled Endpoint (domains/IP space/etc.)\t",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "https://console.delltechnologies.com/ ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://console.delltechnologies.com/nav/catalog",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://console.delltechnologies.com/nav/support",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://console.delltechnologies.com/nav/subscriptions",
+                    "type": "website"
+                },
+                {
+                    "identifier": "educate.dell.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "console.dell.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "console-test.dell.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "salesproductivity.dell.com",
                     "type": "website"
                 }
             ]
@@ -6983,41 +6983,6 @@
         }
     },
     {
-        "handle": "engagements/braze-bb",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://bug-bounty-api.k8s.tools-001.d-use-1.braze-dev.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://bug-bounty-dashboard.k8s.tools-001.d-use-1.braze-dev.com/",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "*.appboy.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "*.braze.eu",
-                    "type": "other"
-                },
-                {
-                    "identifier": "*.braze.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Any Braze Owned Host not listed as in Scope",
-                    "type": "other"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/maffashion",
         "bounty": 1,
         "active": 1,
@@ -7259,6 +7224,41 @@
                 },
                 {
                     "identifier": "Gestor de Pedidos - Desktop Client",
+                    "type": "other"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/braze-bb",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://bug-bounty-api.k8s.tools-001.d-use-1.braze-dev.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://bug-bounty-dashboard.k8s.tools-001.d-use-1.braze-dev.com/",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "*.appboy.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "*.braze.eu",
+                    "type": "other"
+                },
+                {
+                    "identifier": "*.braze.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Any Braze Owned Host not listed as in Scope",
                     "type": "other"
                 }
             ]
