@@ -6734,41 +6734,6 @@
         }
     },
     {
-        "handle": "engagements/braze-bb",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://bug-bounty-api.k8s.tools-001.d-use-1.braze-dev.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://bug-bounty-dashboard.k8s.tools-001.d-use-1.braze-dev.com/",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "*.appboy.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "*.braze.eu",
-                    "type": "other"
-                },
-                {
-                    "identifier": "*.braze.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Any Braze Owned Host not listed as in Scope",
-                    "type": "other"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/stellantis",
         "bounty": 1,
         "active": 1,
@@ -6954,109 +6919,6 @@
         }
     },
     {
-        "handle": "engagements/hutgroup-public",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://*.ameliorate.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.beautyexpert.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.cultbeauty.co.uk/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.dermstore.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.espaskincare.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.exantediet.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.eyeko.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.glossybox.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.growgorgeous.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.hqhair.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.illamasqua.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.mioskincare.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.mankind.co.uk/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.mybag.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.myvitamins.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.powerman.co.uk/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.skinstore.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.thehut.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://checkout.myvitamins.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://checkout.eyeko.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://checkout.glossybox.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "https://www.cultbeauty.co.uk/matchme",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://matchme.cultbeauty.co.uk/",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/flourish",
         "bounty": 1,
         "active": 1,
@@ -7093,6 +6955,56 @@
                     "type": "website"
                 }
             ]
+        }
+    },
+    {
+        "handle": "engagements/sendbird-mbb",
+        "bounty": 1,
+        "active": 0,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://dashboard.sendbird.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://gate.sendbird.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://api-{app-id}.sendbird.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://ws-{app-id}.sendbird.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://desk-api-{region}.sendbird.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://ws-{app-id}.calls.sendbird.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://api-{app-id}.calls.sendbird.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://api-{app-id}.notifications.sendbird.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://sendbird.com/docs",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://sendbird.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
         }
     },
     {
@@ -7162,60 +7074,6 @@
                 {
                     "identifier": "https://my.ultramobile.com",
                     "type": "website"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/openai",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "api.openai.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "ChatGPT",
-                    "type": "website"
-                },
-                {
-                    "identifier": "ChatGPT Plugins",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Third Party Targets",
-                    "type": "website"
-                },
-                {
-                    "identifier": "OpenAI API Keys",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://openai.org",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.openai.org",
-                    "type": "api"
-                },
-                {
-                    "identifier": "openai.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.openai.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Developer Platform Playground",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Other",
-                    "type": "other"
                 }
             ],
             "out_of_scope": []
@@ -7330,56 +7188,6 @@
                     "type": "website"
                 }
             ]
-        }
-    },
-    {
-        "handle": "engagements/sendbird-mbb",
-        "bounty": 1,
-        "active": 0,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://dashboard.sendbird.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://gate.sendbird.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://api-{app-id}.sendbird.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://ws-{app-id}.sendbird.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://desk-api-{region}.sendbird.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://ws-{app-id}.calls.sendbird.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://api-{app-id}.calls.sendbird.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://api-{app-id}.notifications.sendbird.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://sendbird.com/docs",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://sendbird.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
         }
     },
     {
@@ -7580,6 +7388,95 @@
                 },
                 {
                     "identifier": "Any domain, property, product, protocol, or service of the app/hardware/software version not explicitly listed in the In-Scope section is out of scope; submissions are welcome but not guaranteed for the bounty/bonus.",
+                    "type": "other"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/openai",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "api.openai.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "ChatGPT",
+                    "type": "website"
+                },
+                {
+                    "identifier": "ChatGPT Plugins",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Third Party Targets",
+                    "type": "website"
+                },
+                {
+                    "identifier": "OpenAI API Keys",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://openai.org",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.openai.org",
+                    "type": "api"
+                },
+                {
+                    "identifier": "openai.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.openai.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Developer Platform Playground",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Other",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/braze-bb",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://bug-bounty-api.k8s.tools-001.d-use-1.braze-dev.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://bug-bounty-dashboard.k8s.tools-001.d-use-1.braze-dev.com/",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "*.appboy.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "*.braze.eu",
+                    "type": "other"
+                },
+                {
+                    "identifier": "*.braze.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Any Braze Owned Host not listed as in Scope",
                     "type": "other"
                 }
             ]
@@ -11772,53 +11669,6 @@
         }
     },
     {
-        "handle": "engagements/acorns",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.acorns.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Acorns for iOS",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://graphql.acorns.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Acorns for Android",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://www.gohenry.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.pixpay.fr/",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "share.acorns.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "grow.acorns.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "store.acorns.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/spacex",
         "bounty": 1,
         "active": 1,
@@ -12091,6 +11941,53 @@
                 }
             ],
             "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/acorns",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.acorns.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Acorns for iOS",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://graphql.acorns.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Acorns for Android",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://www.gohenry.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.pixpay.fr/",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "share.acorns.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "grow.acorns.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "store.acorns.com",
+                    "type": "website"
+                }
+            ]
         }
     },
     {
@@ -14161,6 +14058,109 @@
                 },
                 {
                     "identifier": "Payment APIs",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/hutgroup-public",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://*.ameliorate.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.beautyexpert.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.cultbeauty.co.uk/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.dermstore.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.espaskincare.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.exantediet.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.eyeko.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.glossybox.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.growgorgeous.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.hqhair.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.illamasqua.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.mioskincare.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.mankind.co.uk/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.mybag.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.myvitamins.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.powerman.co.uk/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.skinstore.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.thehut.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://checkout.myvitamins.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://checkout.eyeko.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://checkout.glossybox.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "https://www.cultbeauty.co.uk/matchme",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://matchme.cultbeauty.co.uk/",
                     "type": "website"
                 }
             ]
