@@ -4735,104 +4735,6 @@
         }
     },
     {
-        "handle": "engagements/thousandeyes-og",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://api.thousandeyes.com/",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://app.thousandeyes.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.thousandeyes.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "ThousandEyes Enterprise Agent",
-                    "type": "other"
-                },
-                {
-                    "identifier": "ThousandEyes Endpoint Agent ",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "https://blog.thousandeyes.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://app.thousandeyes.com/sfdc/community",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/nubank",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Nubank Android: Playstore",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Nubank iOS App",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "prod-*.nubank.com.br",
-                    "type": "api"
-                },
-                {
-                    "identifier": "prod-*.nu.com.mx",
-                    "type": "api"
-                },
-                {
-                    "identifier": "prod-*.nu.com.co",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*nubank.com.br",
-                    "type": "other"
-                },
-                {
-                    "identifier": "*nu.com.mx",
-                    "type": "other"
-                },
-                {
-                    "identifier": "*nu.com.co",
-                    "type": "other"
-                },
-                {
-                    "identifier": "*.nuinvest.com.br\t",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "*nuinternational.com\t",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*nat-a.nubank.com.br",
-                    "type": "other"
-                },
-                {
-                    "identifier": "international.nubank.com.br",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/thefork-b2c-wng",
         "bounty": 1,
         "active": 1,
@@ -4916,81 +4818,102 @@
         }
     },
     {
-        "handle": "engagements/neohrms",
+        "handle": "engagements/hubspot",
         "bounty": 1,
         "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "https://secure.neogov.com",
+                    "identifier": "app.hubspot.com",
                     "type": "website"
                 },
                 {
-                    "identifier": "https://login.neogov.com",
+                    "identifier": "app-eu1.hubspot.com",
                     "type": "website"
                 },
                 {
-                    "identifier": "https://performance.neogov.com",
+                    "identifier": "api.hubspot.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "api.hubapi.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "chatspot.ai",
                     "type": "website"
                 },
                 {
-                    "identifier": "https://learn.neogov.com",
+                    "identifier": "connect.com",
                     "type": "website"
                 },
                 {
-                    "identifier": "https://api.neogov.com",
+                    "identifier": "*.hubspotemail.net",
                     "type": "website"
                 },
                 {
-                    "identifier": "https://onboard.neogov.com",
+                    "identifier": "*.hs-sites(-eu1)?.com",
                     "type": "website"
                 },
                 {
-                    "identifier": "https://unified.neogov.com",
+                    "identifier": "*.hubspotpagebuilder.com",
                     "type": "website"
                 },
                 {
-                    "identifier": "https://eforms.neogov.com",
+                    "identifier": "*.hubspotpagebuilder.eu",
                     "type": "website"
                 },
                 {
-                    "identifier": "https://cdn.neogov.com",
+                    "identifier": "Customer Portal (1)",
                     "type": "website"
                 },
                 {
-                    "identifier": "https://www.governmentjobs.com",
+                    "identifier": "Customer connected domain (2)",
                     "type": "website"
                 },
                 {
-                    "identifier": "https://analytics.neogov.com",
-                    "type": "website"
+                    "identifier": "HubSpot Android Mobile App",
+                    "type": "android"
                 },
                 {
-                    "identifier": "https://powerdms.com/",
-                    "type": "website"
+                    "identifier": "HubSpot iOS Mobile App",
+                    "type": "ios"
                 },
                 {
-                    "identifier": "https://secure.cuehit.net/",
-                    "type": "website"
+                    "identifier": "HubSpot Sales Office 365 add-in",
+                    "type": "other"
                 },
                 {
-                    "identifier": "https://app.agency360.com/",
-                    "type": "website"
+                    "identifier": "Other HubSpot-owned (sub)domains not listed as Out of Scope . Please make sure to exercise due diligence before testing. You must include proof that the subdomain is registered to HubSpot to be eligible for a reward.",
+                    "type": "other"
                 },
                 {
-                    "identifier": "https://securesignin.neogov.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://securesignin.powerdms.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://hr.neogov.com",
-                    "type": "website"
+                    "identifier": "Special Conditions",
+                    "type": "other"
                 }
             ],
-            "out_of_scope": []
+            "out_of_scope": [
+                {
+                    "identifier": "shop.hubspot.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "trust.hubspot.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "thespot.hubspot.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "ir.hubspot.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Out of Scope Vulnerabilities",
+                    "type": "other"
+                }
+            ]
         }
     },
     {
@@ -5188,105 +5111,6 @@
         }
     },
     {
-        "handle": "engagements/hubspot",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "app.hubspot.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "app-eu1.hubspot.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "api.hubspot.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "api.hubapi.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "chatspot.ai",
-                    "type": "website"
-                },
-                {
-                    "identifier": "connect.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.hubspotemail.net",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.hs-sites(-eu1)?.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.hubspotpagebuilder.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.hubspotpagebuilder.eu",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Customer Portal (1)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Customer connected domain (2)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "HubSpot Android Mobile App",
-                    "type": "android"
-                },
-                {
-                    "identifier": "HubSpot iOS Mobile App",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "HubSpot Sales Office 365 add-in",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Other HubSpot-owned (sub)domains not listed as Out of Scope . Please make sure to exercise due diligence before testing. You must include proof that the subdomain is registered to HubSpot to be eligible for a reward.",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Special Conditions",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "shop.hubspot.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "trust.hubspot.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "thespot.hubspot.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "ir.hubspot.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Out of Scope Vulnerabilities",
-                    "type": "other"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/opsgenie",
         "bounty": 1,
         "active": 1,
@@ -5359,6 +5183,182 @@
                 },
                 {
                     "identifier": "learn.clickhouse.com",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/neohrms",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://secure.neogov.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://login.neogov.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://performance.neogov.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://learn.neogov.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://api.neogov.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://onboard.neogov.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://unified.neogov.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://eforms.neogov.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://cdn.neogov.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.governmentjobs.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://analytics.neogov.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://powerdms.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://secure.cuehit.net/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://app.agency360.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://securesignin.neogov.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://securesignin.powerdms.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://hr.neogov.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/thousandeyes-og",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://api.thousandeyes.com/",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://app.thousandeyes.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.thousandeyes.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "ThousandEyes Enterprise Agent",
+                    "type": "other"
+                },
+                {
+                    "identifier": "ThousandEyes Endpoint Agent ",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "https://blog.thousandeyes.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://app.thousandeyes.com/sfdc/community",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/nubank",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Nubank Android: Playstore",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Nubank iOS App",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "prod-*.nubank.com.br",
+                    "type": "api"
+                },
+                {
+                    "identifier": "prod-*.nu.com.mx",
+                    "type": "api"
+                },
+                {
+                    "identifier": "prod-*.nu.com.co",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*nubank.com.br",
+                    "type": "other"
+                },
+                {
+                    "identifier": "*nu.com.mx",
+                    "type": "other"
+                },
+                {
+                    "identifier": "*nu.com.co",
+                    "type": "other"
+                },
+                {
+                    "identifier": "*.nuinvest.com.br\t",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "*nuinternational.com\t",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*nat-a.nubank.com.br",
+                    "type": "other"
+                },
+                {
+                    "identifier": "international.nubank.com.br",
                     "type": "website"
                 }
             ]
@@ -9153,6 +9153,44 @@
         }
     },
     {
+        "handle": "engagements/intercom",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "iOS SDK",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "https://api.intercom.io",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://app.intercom.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.intercomassets.com / *.intercomcdn.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://app.intercom.io",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Android SDK",
+                    "type": "android"
+                },
+                {
+                    "identifier": "https://www.intercom.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
         "handle": "engagements/cyberghost",
         "bounty": 1,
         "active": 1,
@@ -9229,6 +9267,52 @@
                 {
                     "identifier": "Source code hosting",
                     "type": "other"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/opensea",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "opensea.io",
+                    "type": "website"
+                },
+                {
+                    "identifier": "pro.opensea.io",
+                    "type": "website"
+                },
+                {
+                    "identifier": "http://wallets.opensea.io/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "io.opensea - Android App",
+                    "type": "android"
+                },
+                {
+                    "identifier": "io.opensea - iOS App",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "https://github.com/ProjectOpenSea/seaport#deployments",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://etherscan.io/address/0x0000a26b00c1F0DF003000390027140000fAa719",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://etherscan.io/address/0x00005EA00Ac477B1030CE78506496e8C2dE24bf5",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Broken Link",
+                    "type": "website"
                 }
             ],
             "out_of_scope": []
@@ -9322,44 +9406,6 @@
         }
     },
     {
-        "handle": "engagements/intercom",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "iOS SDK",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "https://api.intercom.io",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://app.intercom.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.intercomassets.com / *.intercomcdn.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://app.intercom.io",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Android SDK",
-                    "type": "android"
-                },
-                {
-                    "identifier": "https://www.intercom.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/octopus-og",
         "bounty": 1,
         "active": 1,
@@ -9423,49 +9469,138 @@
         }
     },
     {
-        "handle": "engagements/opensea",
+        "handle": "engagements/hotdoc",
         "bounty": 1,
         "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "opensea.io",
+                    "identifier": "https://bugcrowd.hotdoc.com.au (Patients)",
                     "type": "website"
                 },
                 {
-                    "identifier": "pro.opensea.io",
-                    "type": "website"
+                    "identifier": "https://bugcrowd.hotdoc.com.au/api",
+                    "type": "api"
                 },
                 {
-                    "identifier": "http://wallets.opensea.io/",
+                    "identifier": "https://bugcrowd.hotdoc.com.au/dashboard (Clinic Dashboard)",
                     "type": "website"
-                },
+                }
+            ],
+            "out_of_scope": [
                 {
-                    "identifier": "io.opensea - Android App",
+                    "identifier": "Android App",
                     "type": "android"
                 },
                 {
-                    "identifier": "io.opensea - iOS App",
+                    "identifier": "IoS App",
                     "type": "ios"
                 },
                 {
-                    "identifier": "https://github.com/ProjectOpenSea/seaport#deployments",
-                    "type": "other"
+                    "identifier": " https://try.hotdoc.com.au/hotdoc-profiles",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/bitgo-mbb-og-public",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.bitgo.com",
+                    "type": "website"
                 },
                 {
-                    "identifier": "https://etherscan.io/address/0x0000a26b00c1F0DF003000390027140000fAa719",
-                    "type": "other"
+                    "identifier": "app.bitgo.com ",
+                    "type": "website"
                 },
                 {
-                    "identifier": "https://etherscan.io/address/0x00005EA00Ac477B1030CE78506496e8C2dE24bf5",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Broken Link",
+                    "identifier": "app.bitgo-test.com",
                     "type": "website"
                 }
             ],
             "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/consensus-mbb-og",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Consensus Sandbox Site",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "uat.coindesk.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "CoinDesk Indices",
+                    "type": "website"
+                },
+                {
+                    "identifier": "CoinDesk Events",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Production CoinDesk Events",
+                    "type": "website"
+                },
+                {
+                    "identifier": "uat.accounts.coindesk.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Consensus HK Site",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Consensus2023 Site",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Consensus2024 Site",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Consensus2025 Site",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/lightspeed-hospitality",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://manager.trial.lsk.lightspeed.app/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://hq.breadcrumb.com/hq/restaurants/bounty-cafe-2/",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "lightspeedhq.com/trial ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "pos-admin.trial.lsk.lightspeed.app",
+                    "type": "other"
+                }
+            ]
         }
     },
     {
@@ -9571,159 +9706,6 @@
         }
     },
     {
-        "handle": "engagements/unity",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "id.unity.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "api.unity.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "cloud.unity.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "store.unity.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "pay.unity.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "syncsketch.dev",
-                    "type": "website"
-                },
-                {
-                    "identifier": "player-login.unity.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Latest Supported LTS versions of the Unity Editor ( 2020.x / 2021.x / 2022.x ) ",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Unity Hub",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/hotdoc",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://bugcrowd.hotdoc.com.au (Patients)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://bugcrowd.hotdoc.com.au/api",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://bugcrowd.hotdoc.com.au/dashboard (Clinic Dashboard)",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "Android App",
-                    "type": "android"
-                },
-                {
-                    "identifier": "IoS App",
-                    "type": "ios"
-                },
-                {
-                    "identifier": " https://try.hotdoc.com.au/hotdoc-profiles",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/snapnames",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://snapnames.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.namejet.com/",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "Anything not explicitly listed as \"In Scope\".",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/bitgo-mbb-og-public",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.bitgo.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "app.bitgo.com ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "app.bitgo-test.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/lightspeed-hospitality",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://manager.trial.lsk.lightspeed.app/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://hq.breadcrumb.com/hq/restaurants/bounty-cafe-2/",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "lightspeedhq.com/trial ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "pos-admin.trial.lsk.lightspeed.app",
-                    "type": "other"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/kucoin",
         "bounty": 1,
         "active": 1,
@@ -9783,51 +9765,23 @@
         }
     },
     {
-        "handle": "engagements/consensus-mbb-og",
+        "handle": "engagements/snapnames",
         "bounty": 1,
         "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "Consensus Sandbox Site",
+                    "identifier": "https://snapnames.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.namejet.com/",
                     "type": "website"
                 }
             ],
             "out_of_scope": [
                 {
-                    "identifier": "uat.coindesk.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "CoinDesk Indices",
-                    "type": "website"
-                },
-                {
-                    "identifier": "CoinDesk Events",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Production CoinDesk Events",
-                    "type": "website"
-                },
-                {
-                    "identifier": "uat.accounts.coindesk.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Consensus HK Site",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Consensus2023 Site",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Consensus2024 Site",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Consensus2025 Site",
+                    "identifier": "Anything not explicitly listed as \"In Scope\".",
                     "type": "website"
                 }
             ]
@@ -10036,6 +9990,52 @@
                     "type": "website"
                 }
             ]
+        }
+    },
+    {
+        "handle": "engagements/unity",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "id.unity.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "api.unity.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "cloud.unity.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "store.unity.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "pay.unity.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "syncsketch.dev",
+                    "type": "website"
+                },
+                {
+                    "identifier": "player-login.unity.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Latest Supported LTS versions of the Unity Editor ( 2020.x / 2021.x / 2022.x ) ",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Unity Hub",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": []
         }
     },
     {
@@ -13539,117 +13539,6 @@
         }
     },
     {
-        "handle": "engagements/soundcloud",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "SoundCloud Android app",
-                    "type": "android"
-                },
-                {
-                    "identifier": "soundcloud.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.soundcloud.org",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.s-cloud.net",
-                    "type": "website"
-                },
-                {
-                    "identifier": "SoundCloud iOS app",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "*.soundcloud.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.services.repostnetwork.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "api-*.soundcloud.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "artists.soundcloud.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "soundcloud.org",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "blog.soundcloud.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "status.soundcloud.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "help.soundcloud.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": " community.soundcloud.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "copyright.soundcloud.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "advertising.soundcloud.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "soundcloudmail.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "press.soundcloud.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "scdrops.soundcloud.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "promote.soundcloud.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "contest.soundcloud.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "playback.soundcloud.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "jobs.soundcloud.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "playerone.soundcloud.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "support.soundcloud.org",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/stellantis",
         "bounty": 1,
         "active": 1,
@@ -13749,6 +13638,52 @@
                     "type": "other"
                 }
             ]
+        }
+    },
+    {
+        "handle": "engagements/backblaze",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Backblaze Android mobile application",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Backblaze iOS mobile application",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Mac Personal Backup Clients",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Windows Personal Backup Clients",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Mac Restore Downloaders",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Windows Restore Downloaders",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Git Repositories (b2-sdk-java & B2 Command Line Tool)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "B2 APIs (*.backblazeb2.com)",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Backblaze Website (*.backblaze.com)",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
         }
     },
     {
@@ -13972,60 +13907,6 @@
         }
     },
     {
-        "handle": "engagements/openai",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "api.openai.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "ChatGPT",
-                    "type": "website"
-                },
-                {
-                    "identifier": "ChatGPT Plugins",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Third Party Targets",
-                    "type": "website"
-                },
-                {
-                    "identifier": "OpenAI API Keys",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://openai.org",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.openai.org",
-                    "type": "api"
-                },
-                {
-                    "identifier": "openai.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.openai.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Developer Platform Playground",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Other",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/webdotcom",
         "bounty": 1,
         "active": 1,
@@ -14087,6 +13968,117 @@
                 },
                 {
                     "identifier": "app.web.com",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/soundcloud",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "SoundCloud Android app",
+                    "type": "android"
+                },
+                {
+                    "identifier": "soundcloud.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.soundcloud.org",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.s-cloud.net",
+                    "type": "website"
+                },
+                {
+                    "identifier": "SoundCloud iOS app",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "*.soundcloud.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.services.repostnetwork.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "api-*.soundcloud.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "artists.soundcloud.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "soundcloud.org",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "blog.soundcloud.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "status.soundcloud.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "help.soundcloud.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": " community.soundcloud.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "copyright.soundcloud.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "advertising.soundcloud.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "soundcloudmail.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "press.soundcloud.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "scdrops.soundcloud.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "promote.soundcloud.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "contest.soundcloud.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "playback.soundcloud.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "jobs.soundcloud.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "playerone.soundcloud.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "support.soundcloud.org",
                     "type": "website"
                 }
             ]
@@ -14196,46 +14188,54 @@
         }
     },
     {
-        "handle": "engagements/backblaze",
+        "handle": "engagements/openai",
         "bounty": 1,
         "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "Backblaze Android mobile application",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Backblaze iOS mobile application",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Mac Personal Backup Clients",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Windows Personal Backup Clients",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Mac Restore Downloaders",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Windows Restore Downloaders",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Git Repositories (b2-sdk-java & B2 Command Line Tool)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "B2 APIs (*.backblazeb2.com)",
+                    "identifier": "api.openai.com",
                     "type": "api"
                 },
                 {
-                    "identifier": "Backblaze Website (*.backblaze.com)",
+                    "identifier": "ChatGPT",
                     "type": "website"
+                },
+                {
+                    "identifier": "ChatGPT Plugins",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Third Party Targets",
+                    "type": "website"
+                },
+                {
+                    "identifier": "OpenAI API Keys",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://openai.org",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.openai.org",
+                    "type": "api"
+                },
+                {
+                    "identifier": "openai.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.openai.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Developer Platform Playground",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Other",
+                    "type": "other"
                 }
             ],
             "out_of_scope": []
