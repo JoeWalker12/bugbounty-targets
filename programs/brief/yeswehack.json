@@ -1,20 +1,20 @@
 [
     {
-        "handle": "gnome-bug-bounty-program",
+        "handle": "komoju-public-bug-bounty-program",
         "bounty": 1,
         "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "GLib",
+                    "identifier": "https://yeswehack.staging.komoju.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://multipay-staging.test.komoju.com",
                     "type": "other"
                 },
                 {
-                    "identifier": "glib-networking",
-                    "type": "other"
-                },
-                {
-                    "identifier": "libsoup",
+                    "identifier": "https://doc.komoju.com/docs/fields-overview",
                     "type": "other"
                 }
             ],
@@ -54,6 +54,70 @@
                 {
                     "identifier": "*.vimla.io",
                     "type": "web-application"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "gnome-bug-bounty-program",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "GLib",
+                    "type": "other"
+                },
+                {
+                    "identifier": "glib-networking",
+                    "type": "other"
+                },
+                {
+                    "identifier": "libsoup",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "outscale",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://cockpit-eu-west-2.outscale.com/",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://fcu.eu-west-2.outscale.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://lbu.eu-west-2.outscale.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://osu.eu-west-2.outscale.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://eim.eu-west-2.outscale.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://icu.eu-west-2.outscale.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://directlink.eu-west-2.outscale.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Any resource created or accessed with the Outscale Cloud, on all regions",
+                    "type": "other"
                 }
             ],
             "out_of_scope": []
@@ -156,28 +220,6 @@
                 {
                     "identifier": "https://springboard.pinelabs.com",
                     "type": "api"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "komoju-public-bug-bounty-program",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://yeswehack.staging.komoju.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://multipay-staging.test.komoju.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://doc.komoju.com/docs/fields-overview",
-                    "type": "other"
                 }
             ],
             "out_of_scope": []
@@ -2536,48 +2578,6 @@
                 {
                     "identifier": "https://pprd.cybermalveillance.gouv.fr",
                     "type": "web-application"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "outscale",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://cockpit-eu-west-2.outscale.com/",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://fcu.eu-west-2.outscale.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://lbu.eu-west-2.outscale.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://osu.eu-west-2.outscale.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://eim.eu-west-2.outscale.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://icu.eu-west-2.outscale.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://directlink.eu-west-2.outscale.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Any resource created or accessed with the Outscale Cloud, on all regions",
-                    "type": "other"
                 }
             ],
             "out_of_scope": []
