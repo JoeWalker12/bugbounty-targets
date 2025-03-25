@@ -6991,6 +6991,29 @@
         }
     },
     {
+        "handle": "engagements/snapnames",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://snapnames.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.namejet.com/",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "Anything not explicitly listed as \"In Scope\".",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
         "handle": "engagements/consensus-mbb-og",
         "bounty": 1,
         "active": 1,
@@ -7085,29 +7108,6 @@
                 }
             ],
             "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/snapnames",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://snapnames.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.namejet.com/",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "Anything not explicitly listed as \"In Scope\".",
-                    "type": "website"
-                }
-            ]
         }
     },
     {
@@ -7263,33 +7263,6 @@
         }
     },
     {
-        "handle": "engagements/lightspeed-hospitality",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://manager.trial.lsk.lightspeed.app/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://hq.breadcrumb.com/hq/restaurants/bounty-cafe-2/",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "lightspeedhq.com/trial ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "pos-admin.trial.lsk.lightspeed.app",
-                    "type": "other"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/dell-product",
         "bounty": 1,
         "active": 1,
@@ -7329,60 +7302,28 @@
         }
     },
     {
-        "handle": "engagements/kucoin",
+        "handle": "engagements/lightspeed-hospitality",
         "bounty": 1,
         "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "https://kucoin.com",
+                    "identifier": "https://manager.trial.lsk.lightspeed.app/",
                     "type": "website"
                 },
                 {
-                    "identifier": "Kucoin IOS App",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Kucoin Android",
-                    "type": "android"
+                    "identifier": "https://hq.breadcrumb.com/hq/restaurants/bounty-cafe-2/",
+                    "type": "website"
                 }
             ],
             "out_of_scope": [
                 {
-                    "identifier": "support.kucoin.plus",
+                    "identifier": "lightspeedhq.com/trial ",
                     "type": "website"
                 },
                 {
-                    "identifier": "store.kucoin.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "docs.kucoin.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "intro.kucoin.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "cert.kucoin.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "sandbox.kucoin.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "passport.kucoin.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*-sdb.kucoin.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*-sandbox.kucoin.com",
-                    "type": "website"
+                    "identifier": "pos-admin.trial.lsk.lightspeed.app",
+                    "type": "other"
                 }
             ]
         }
@@ -7469,6 +7410,65 @@
                 },
                 {
                     "identifier": "trust.bugcrowd.com",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/kucoin",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://kucoin.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Kucoin IOS App",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Kucoin Android",
+                    "type": "android"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "support.kucoin.plus",
+                    "type": "website"
+                },
+                {
+                    "identifier": "store.kucoin.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "docs.kucoin.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "intro.kucoin.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "cert.kucoin.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "sandbox.kucoin.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "passport.kucoin.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*-sdb.kucoin.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*-sandbox.kucoin.com",
                     "type": "website"
                 }
             ]
@@ -7580,6 +7580,99 @@
                 },
                 {
                     "identifier": "Any other third-party websites hosted by non-Tesla entities",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/verisign",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "epptool-ctld.verisign-grs.com (EPP service; DNS related)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "a.root-servers.net (DNS service; DNS related)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "j.root-servers.net (DNS service; DNS related)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "*.gtld-servers.net (DNS service; DNS related)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "www.verisign.com (Website; non-DNS related)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.youcouldbe.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "blog.verisign.com (Website; non-DNS related)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.namestudioforsocial.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.namestudio.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.verisign.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "*.verisign-grs.com (DNS service; DNS related)",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/cloudinary",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://cloudinary.com/console",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://api.cloudinary.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://res.cloudinary.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "mediaflows.cloudinary.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "dimensions.cloudinary.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "https://support.cloudinary.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "wiki.cloudinary.com",
                     "type": "website"
                 }
             ]
@@ -7868,60 +7961,6 @@
         }
     },
     {
-        "handle": "engagements/verisign",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "epptool-ctld.verisign-grs.com (EPP service; DNS related)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "a.root-servers.net (DNS service; DNS related)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "j.root-servers.net (DNS service; DNS related)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "*.gtld-servers.net (DNS service; DNS related)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "www.verisign.com (Website; non-DNS related)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.youcouldbe.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "blog.verisign.com (Website; non-DNS related)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.namestudioforsocial.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.namestudio.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.verisign.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "*.verisign-grs.com (DNS service; DNS related)",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/opensea",
         "bounty": 1,
         "active": 1,
@@ -8134,42 +8173,41 @@
         }
     },
     {
-        "handle": "engagements/cloudinary",
+        "handle": "engagements/intercom",
         "bounty": 1,
         "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "https://cloudinary.com/console",
-                    "type": "website"
+                    "identifier": "iOS SDK",
+                    "type": "ios"
                 },
                 {
-                    "identifier": "https://api.cloudinary.com",
+                    "identifier": "https://api.intercom.io",
                     "type": "api"
                 },
                 {
-                    "identifier": "https://res.cloudinary.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "mediaflows.cloudinary.com",
+                    "identifier": "https://app.intercom.com",
                     "type": "website"
                 },
                 {
-                    "identifier": "dimensions.cloudinary.com",
+                    "identifier": "*.intercomassets.com / *.intercomcdn.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://app.intercom.io",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Android SDK",
+                    "type": "android"
+                },
+                {
+                    "identifier": "https://www.intercom.com",
                     "type": "website"
                 }
             ],
-            "out_of_scope": [
-                {
-                    "identifier": "https://support.cloudinary.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "wiki.cloudinary.com",
-                    "type": "website"
-                }
-            ]
+            "out_of_scope": []
         }
     },
     {
@@ -8246,138 +8284,6 @@
                 },
                 {
                     "identifier": "trello-attachments.s3.amazonaws.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/intercom",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "iOS SDK",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "https://api.intercom.io",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://app.intercom.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.intercomassets.com / *.intercomcdn.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://app.intercom.io",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Android SDK",
-                    "type": "android"
-                },
-                {
-                    "identifier": "https://www.intercom.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/shoppingcart",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "1shoppingcart.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "mcssl.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.mcssl.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "*.1shoppingcart.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/dell-com",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.dell.com/*",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.delltechnologies.com/* ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://console.delltechnologies.com/nav/administration",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://console.delltechnologies.com/nav/invoice",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://console.delltechnologies.com/nav/billing",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Any Verified Dell-Controlled Endpoint (domains/IP space/etc.)\t",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "https://console.delltechnologies.com/ ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://console.delltechnologies.com/nav/catalog",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://console.delltechnologies.com/nav/support",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://console.delltechnologies.com/nav/subscriptions",
-                    "type": "website"
-                },
-                {
-                    "identifier": "educate.dell.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "console.dell.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "console-test.dell.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "salesproductivity.dell.com",
                     "type": "website"
                 }
             ]
@@ -8510,6 +8416,100 @@
                 {
                     "identifier": "*.coinmarketcap.com",
                     "type": "other"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/dell-com",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.dell.com/*",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.delltechnologies.com/* ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://console.delltechnologies.com/nav/administration",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://console.delltechnologies.com/nav/invoice",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://console.delltechnologies.com/nav/billing",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Any Verified Dell-Controlled Endpoint (domains/IP space/etc.)\t",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "https://console.delltechnologies.com/ ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://console.delltechnologies.com/nav/catalog",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://console.delltechnologies.com/nav/support",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://console.delltechnologies.com/nav/subscriptions",
+                    "type": "website"
+                },
+                {
+                    "identifier": "educate.dell.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "console.dell.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "console-test.dell.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "salesproductivity.dell.com",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/shoppingcart",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "1shoppingcart.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "mcssl.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.mcssl.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "*.1shoppingcart.com",
+                    "type": "website"
                 }
             ]
         }
