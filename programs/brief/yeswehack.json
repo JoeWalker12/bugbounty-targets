@@ -1,5 +1,123 @@
 [
     {
+        "handle": "ezviz-bug-bounty-program",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Hardware found on https://www.ezviz.com/category/security-wifi-cameras",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Hardware found on https://www.ezviz.com/category/smart-home",
+                    "type": "other"
+                },
+                {
+                    "identifier": "i.ys7.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "open.ys7.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "auth.ys7.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "api.ys7.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "api.ezvizlife.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "usauth.ezvizlife.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "ius.ezvizlife.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.ys7.com",
+                    "type": "web-application"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "demarches-simplifiees-public",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://www.demarches-simplifiees.fr",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://www.demarches-simplifiees.fr/graphql",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://www.demarches-simplifiees.fr/api/v2/graphql",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://static.demarches-simplifiees.fr",
+                    "type": "api"
+                },
+                {
+                    "identifier": "DS proxy (see https://github.com/demarches-simplifiees/ds_proxy)",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "atg-public-bug-bounty-program",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.atg.se",
+                    "type": "other"
+                },
+                {
+                    "identifier": "www.atg.se",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "api.atg.se",
+                    "type": "api"
+                },
+                {
+                    "identifier": "iam.atg.se",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://apps.apple.com/se/app/atg/id1434660322",
+                    "type": "mobile-application-ios"
+                },
+                {
+                    "identifier": "https://apps.apple.com/se/app/atg-live/id1608156355",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://play.google.com/store/apps/details?id=se.atg.live&hl=en&gl=SE",
+                    "type": "mobile-application-android"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
         "handle": "spacelift-io-bug-bounty-program",
         "bounty": 1,
         "active": 1,
@@ -428,36 +546,6 @@
                 {
                     "identifier": "https://pprd.cybermalveillance.gouv.fr",
                     "type": "web-application"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "demarches-simplifiees-public",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://www.demarches-simplifiees.fr",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://www.demarches-simplifiees.fr/graphql",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://www.demarches-simplifiees.fr/api/v2/graphql",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://static.demarches-simplifiees.fr",
-                    "type": "api"
-                },
-                {
-                    "identifier": "DS proxy (see https://github.com/demarches-simplifiees/ds_proxy)",
-                    "type": "other"
                 }
             ],
             "out_of_scope": []
@@ -1102,44 +1190,6 @@
                 {
                     "identifier": "https://pbgq-pes.deontologie-policiere.gouv.qc.ca/reponses-questions/",
                     "type": "web-application"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "atg-public-bug-bounty-program",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.atg.se",
-                    "type": "other"
-                },
-                {
-                    "identifier": "www.atg.se",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "api.atg.se",
-                    "type": "api"
-                },
-                {
-                    "identifier": "iam.atg.se",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://apps.apple.com/se/app/atg/id1434660322",
-                    "type": "mobile-application-ios"
-                },
-                {
-                    "identifier": "https://apps.apple.com/se/app/atg-live/id1608156355",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://play.google.com/store/apps/details?id=se.atg.live&hl=en&gl=SE",
-                    "type": "mobile-application-android"
                 }
             ],
             "out_of_scope": []
@@ -2058,56 +2108,6 @@
                 {
                     "identifier": "PowerDNS authoritative server, recursor and DNSdist (see \"Software packages\" and \"Source-code\")",
                     "type": "other"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "ezviz-bug-bounty-program",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Hardware found on https://www.ezviz.com/category/security-wifi-cameras",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Hardware found on https://www.ezviz.com/category/smart-home",
-                    "type": "other"
-                },
-                {
-                    "identifier": "i.ys7.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "open.ys7.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "auth.ys7.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "api.ys7.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "api.ezvizlife.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "usauth.ezvizlife.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "ius.ezvizlife.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.ys7.com",
-                    "type": "web-application"
                 }
             ],
             "out_of_scope": []
