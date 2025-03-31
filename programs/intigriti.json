@@ -15398,11 +15398,11 @@
         "name": "InnoGames",
         "following": false,
         "minBounty": {
-            "value": 100.0,
+            "value": 50.0,
             "currency": "EUR"
         },
         "maxBounty": {
-            "value": 2000.0,
+            "value": 4500.0,
             "currency": "EUR"
         },
         "confidentialityLevel": {
@@ -15424,101 +15424,75 @@
             {
                 "id": "ba93b440-be0c-408c-a326-028e088cf372",
                 "type": {
-                    "id": 7,
-                    "value": "Wildcard"
+                    "id": 6,
+                    "value": "Other"
                 },
-                "endpoint": "*.igpayment.com",
+                "endpoint": "Backend/Non-Game",
                 "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
+                    "id": 4,
+                    "value": "Tier 1"
                 },
-                "description": "This is our payment environment used in all of our games.\n\n**Note for automated-scanning:**\nWe are happy that you are as enthusiastic as we are about this program!\nTo not impact our live-systems and other researchers too much, we ask you to keep your automated scanners on a scan rate of 1 request/s. "
+                "description": "* *.igpayment.com\nThis is our payment environment used in all of our games.\n\n* *.innogames.de\nThis is our central login and account management tool. We do not provide accounts for this service and there are no registration pages available. \n\n* *.innogames.com\n\n* www.innogames.com\n***Please do not send applications through the application form. This is a 3rd party tool and out-of-scope.***\n\n* support.innogames.com\n***Please avoid creating many new tickets, but instead concentrate your testing on the ticket contents.***\n\n**Note for automated-scanning:**\nWe are happy that you are as enthusiastic as we are about this program!\nTo not impact our live-systems and other researchers too much, we ask you to keep your automated scanners on a scan rate of 1 request/s. "
             },
             {
-                "id": "3035bb95-cee1-4b62-9641-ed74eb9fd790",
+                "id": "d9cd8e9f-771f-4624-8984-49f25c452f08",
                 "type": {
-                    "id": 7,
-                    "value": "Wildcard"
+                    "id": 6,
+                    "value": "Other"
                 },
-                "endpoint": "*.innogames.de",
+                "endpoint": "Elvenar",
                 "tier": {
                     "id": 3,
                     "value": "Tier 2"
                 },
-                "description": "**Notes for login.innogames.de** \nThis is our central login and account management tool. We do not provide accounts for this service and there are no registration pages available. \n\n**Note for automated-scanning:**\nWe are happy that you are as enthusiastic as we are about this program!\nTo not impact our live-systems and other researchers too much, we ask you to keep your automated scanners on a scan rate of 1 request/s. "
+                "description": "* xs.elvenar.com\nThe landing page for the game login.\n\n* xs0.elvenar.com\nThe master server, which performs authentication and holds inventory of \"game-world-wide\" player data.\n\n* xs1.elvenar.com\nThis is the actual game world, where the game takes place.\n"
             },
             {
-                "id": "77b4deae-2a19-4561-9fea-baaa12c9d90d",
+                "id": "a25bb1db-4c17-4343-b5e4-722cf2c0d263",
                 "type": {
-                    "id": 1,
-                    "value": "Url"
+                    "id": 6,
+                    "value": "Other"
                 },
-                "endpoint": "support.innogames.com",
+                "endpoint": "Forge of Empires",
                 "tier": {
                     "id": 3,
                     "value": "Tier 2"
                 },
-                "description": "* Please avoid creating many new tickets, but instead concentrate your testing on the ticket contents."
-            },
-            {
-                "id": "91991f57-d304-44b6-b4d3-3f6b249da892",
-                "type": {
-                    "id": 7,
-                    "value": "Wildcard"
-                },
-                "endpoint": "*.innogames.com",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": "**Note for automated-scanning:**\nWe are happy that you are as enthusiastic as we are about this program!\nTo not impact our live-systems and other researchers too much, we ask you to keep your automated scanners on a scan rate of 1 request/s. "
-            },
-            {
-                "id": "fbdf3fb4-edb3-43e4-b4c4-1d8f1d582be7",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "innogames.com",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": "* Zero days are not covered by this program.\n* Bugs are considered valid after a new version has been released for more than 30 days\n\nPlease do not send applications through the application form. This is a 3rd party tool and out-of-scope."
+                "description": "* xs.forgeofempires.com\nThe landing page for the game login.\n\n* xs0.forgeofempires.com\nThe master server, which performs authentication and holds inventory of \"game-world-wide\" player data.\n\n* xs1.forgeofempires.com\nThis is the actual game world, where the game takes place."
             },
             {
                 "id": "d5174881-0e43-4332-b231-415bd293e0e2",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "Grepolis",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "* xs.grepolis.com\nThe landing page for the game login.\n\n* xs0.grepolis.com\nThe master server, which performs authentication and holds inventory of \"game-world-wide\" player data.\n\n* xs1.grepolis.com\nThis is the actual game world, where the game takes place.\n"
+            },
+            {
+                "id": "902d11ee-8abb-4115-bdf2-851aeaf47c1a",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "Tribal Wars",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "* tribalwars.cash / xs0.tribalwars.cash\nThe master server, which performs authentication and holds inventory of \"game-world-wide\" player data..\n\n* xs(1-3).tribalwars.cash\nThese are the actual game worlds, where the game takes place.\n"
+            },
+            {
+                "id": "3094d0c0-9186-4e6e-bf6f-ae0f18ba24b5",
                 "type": {
                     "id": 1,
                     "value": "Url"
                 },
                 "endpoint": "autodiscover.innogames.de",
-                "tier": {
-                    "id": 5,
-                    "value": "Out Of Scope"
-                },
-                "description": null
-            },
-            {
-                "id": "02cd73a7-e44b-4019-88da-a7b1e08812db",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "call.innogames.com",
-                "tier": {
-                    "id": 5,
-                    "value": "Out Of Scope"
-                },
-                "description": null
-            },
-            {
-                "id": "b981b557-05da-47ac-aa42-a2e798466191",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "conferencing.innogames.com",
                 "tier": {
                     "id": 5,
                     "value": "Out Of Scope"
@@ -15565,77 +15539,12 @@
                 "description": null
             },
             {
-                "id": "a93b5ce6-242e-4b94-84e6-f51f32d2e5ec",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "lyncdiscover.innogames.de",
-                "tier": {
-                    "id": 5,
-                    "value": "Out Of Scope"
-                },
-                "description": null
-            },
-            {
                 "id": "800538d6-91f8-45fa-b521-4dc86b92f573",
                 "type": {
                     "id": 1,
                     "value": "Url"
                 },
                 "endpoint": "mail.innogames.com",
-                "tier": {
-                    "id": 5,
-                    "value": "Out Of Scope"
-                },
-                "description": null
-            },
-            {
-                "id": "113a9a24-3f5f-4c5e-bca2-90a40142b6fd",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "mail.innogames.de",
-                "tier": {
-                    "id": 5,
-                    "value": "Out Of Scope"
-                },
-                "description": null
-            },
-            {
-                "id": "177db03f-fff0-4576-8f5e-b9cd50228347",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "mailout.innogames.de",
-                "tier": {
-                    "id": 5,
-                    "value": "Out Of Scope"
-                },
-                "description": null
-            },
-            {
-                "id": "bc95b31f-5e5e-4237-ae21-3b6a654fc38e",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "meet.innogames.com",
-                "tier": {
-                    "id": 5,
-                    "value": "Out Of Scope"
-                },
-                "description": null
-            },
-            {
-                "id": "80326eeb-f7d2-4d59-8aaf-eb3f2027f1db",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "mra.innogames.com",
                 "tier": {
                     "id": 5,
                     "value": "Out Of Scope"
@@ -15656,51 +15565,12 @@
                 "description": null
             },
             {
-                "id": "dad9c735-364c-42df-ba9b-8287c25e6891",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "om-cdn.innogames.de",
-                "tier": {
-                    "id": 5,
-                    "value": "Out Of Scope"
-                },
-                "description": null
-            },
-            {
                 "id": "668306dc-7934-413c-87af-af096a6bef1f",
                 "type": {
                     "id": 1,
                     "value": "Url"
                 },
                 "endpoint": "pn.innogames.com",
-                "tier": {
-                    "id": 5,
-                    "value": "Out Of Scope"
-                },
-                "description": null
-            },
-            {
-                "id": "fa4aaf4d-00b7-4bde-a314-9d7810d1832b",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "sip.innogames.com",
-                "tier": {
-                    "id": 5,
-                    "value": "Out Of Scope"
-                },
-                "description": null
-            },
-            {
-                "id": "6c0379de-6753-4ce9-bbd2-8ce71270d8bd",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "sip.innogames.de",
                 "tier": {
                     "id": 5,
                     "value": "Out Of Scope"
@@ -19831,76 +19701,6 @@
                     "value": "Out Of Scope"
                 },
                 "description": "## In Scope\n* [Yahoo TW Store Android](https://play.google.com/store/apps/details?id=com.yahoo.mobile.client.android.ecstore)\n* [Yahoo TW Store iOS](https://itunes.apple.com/tw/app/yahoo%E5%A5%87%E6%91%A9%E8%B6%85%E7%B4%9A%E5%95%86%E5%9F%8E/id778296354?mt=8)\n* Yahoo TW Store\n  * *.tw.mall.yahoo.com\n  * m.mall.yahoo.com\n  * Web: https://tw.mall.yahoo.com/\n  * Mobile Web: https://m.tw.mall.yahoo.com/\n  * API: https://tw.ews.mall.yahooapis.com/\n* Search API: tw.search.ec.yahoo.com\n\n## Out of Scope\n* *.yahoo.com.tw"
-            }
-        ]
-    },
-    {
-        "id": "dbfd672a-b4ea-4be0-9753-f4082e5cc595",
-        "handle": "vdp",
-        "name": "Stravito VDP",
-        "following": false,
-        "minBounty": {
-            "value": 0.0,
-            "currency": "EUR"
-        },
-        "maxBounty": {
-            "value": 0.0,
-            "currency": "EUR"
-        },
-        "confidentialityLevel": {
-            "id": 4,
-            "value": "Public"
-        },
-        "status": {
-            "id": 4,
-            "value": "Suspended"
-        },
-        "type": {
-            "id": 1,
-            "value": "Bug Bounty"
-        },
-        "webLinks": {
-            "detail": "https://app.intigriti.com/auth/dashboard?redirect=/programs/stravito/vdp/detail"
-        },
-        "domains": [
-            {
-                "id": "9e46f52e-c870-4e8c-8c7a-3b7517416055",
-                "type": {
-                    "id": 6,
-                    "value": "Other"
-                },
-                "endpoint": "Publicly Facing Assets Related to Stravito",
-                "tier": {
-                    "id": 1,
-                    "value": "No Bounty"
-                },
-                "description": "Researchers are welcome to submit reports on any publicly facing asset(s) attributed to Stravito, **except ones explicitly out of scope**.\n\n*.stravito.com"
-            },
-            {
-                "id": "b8f66ca9-c294-45d0-ac26-cfa225d9ef19",
-                "type": {
-                    "id": 6,
-                    "value": "Other"
-                },
-                "endpoint": "Assets that allow end user input (other than login)",
-                "tier": {
-                    "id": 5,
-                    "value": "Out Of Scope"
-                },
-                "description": "Assets that allow input from end users are out of scope, such as:\n\n- Contact forms\n- Customer support chat\n- Newsletter subscriptions"
-            },
-            {
-                "id": "18d23511-1508-44cc-9551-2309cc15d2f0",
-                "type": {
-                    "id": 6,
-                    "value": "Other"
-                },
-                "endpoint": "Stravito branded sites provided by partners or service providers",
-                "tier": {
-                    "id": 5,
-                    "value": "Out Of Scope"
-                },
-                "description": "In some cases we have Stravito branded sites provided by a partner or service provider. Such sites are out of scope.\n\nhttps://careers.stravito.com/\nhttps://trust.stravito.com/"
             }
         ]
     },
