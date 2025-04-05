@@ -4213,45 +4213,6 @@
         }
     },
     {
-        "handle": "engagements/ynab",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "staging-app.bany.dev",
-                    "type": "website"
-                },
-                {
-                    "identifier": "staging-api.ynab.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "www.ynab.com",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "https://app.ynab.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Any previous version of the desktop apps: YNAB 4, YNAB 3, YNAB Pro, YNAB Basic (Spreadsheet)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://support.ynab.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://develop-app.ynab.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/lightspeed-hospitality",
         "bounty": 1,
         "active": 1,
@@ -7106,6 +7067,45 @@
                 },
                 {
                     "identifier": "salesproductivity.dell.com",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/ynab",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "staging-app.bany.dev",
+                    "type": "website"
+                },
+                {
+                    "identifier": "staging-api.ynab.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "www.ynab.com",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "https://app.ynab.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Any previous version of the desktop apps: YNAB 4, YNAB 3, YNAB Pro, YNAB Basic (Spreadsheet)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://support.ynab.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://develop-app.ynab.com",
                     "type": "website"
                 }
             ]
@@ -10044,6 +10044,41 @@
         }
     },
     {
+        "handle": "engagements/directly",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "app.sandbox.directly.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.sandbox.directly.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://sandbox.directly.com/dashboard/index",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "www.directly.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "resources.directly.com/*",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.sandbox.directly.com/schedule-a-demo/* OR /product/* OR /careers/* OR /about/* OR /legal/* OR /trust/*",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
         "handle": "engagements/ifood-og",
         "bounty": 1,
         "active": 1,
@@ -10134,41 +10169,6 @@
                 {
                     "identifier": "Gestor de Pedidos - Desktop Client",
                     "type": "other"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/directly",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "app.sandbox.directly.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.sandbox.directly.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://sandbox.directly.com/dashboard/index",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "www.directly.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "resources.directly.com/*",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.sandbox.directly.com/schedule-a-demo/* OR /product/* OR /careers/* OR /about/* OR /legal/* OR /trust/*",
-                    "type": "website"
                 }
             ]
         }
@@ -10299,6 +10299,109 @@
                 {
                     "identifier": "https://forums.lastpass.com",
                     "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/twentyminuten",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://www.20min.ch",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://cm.20min.ch/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://api.20min.ch/",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://videoplayer.20min.ch",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://partner-feeds.20min.ch",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://screenplayer.20min.ch",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://audio.20min.ch",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "https://tgt.tamedia.ch",
+                    "type": "api"
+                },
+                {
+                    "identifier": "http://auth.20min.ch",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://cre-api.tamedia.ch",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://track.20min.ch",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Social Media Links (older than 2 years)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Subdomain Takeover ",
+                    "type": "other"
+                },
+                {
+                    "identifier": "DMARC, SPF, DKIM",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://*.connect.ringier.ch",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.onelog.ch",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.20min-tv.ch",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.newsnetz.tv",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.appuser.ch",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.iagentur.ch",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.streamboat.ch",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.streamboatserver.ch",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Other Domains and Subdomains not specifically in scope",
+                    "type": "other"
                 }
             ]
         }
@@ -10565,212 +10668,6 @@
         }
     },
     {
-        "handle": "engagements/twentyminuten",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://www.20min.ch",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://cm.20min.ch/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://api.20min.ch/",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://videoplayer.20min.ch",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://partner-feeds.20min.ch",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://screenplayer.20min.ch",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://audio.20min.ch",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "https://tgt.tamedia.ch",
-                    "type": "api"
-                },
-                {
-                    "identifier": "http://auth.20min.ch",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://cre-api.tamedia.ch",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://track.20min.ch",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Social Media Links (older than 2 years)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Subdomain Takeover ",
-                    "type": "other"
-                },
-                {
-                    "identifier": "DMARC, SPF, DKIM",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://*.connect.ringier.ch",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.onelog.ch",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.20min-tv.ch",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.newsnetz.tv",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.appuser.ch",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.iagentur.ch",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.streamboat.ch",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.streamboatserver.ch",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Other Domains and Subdomains not specifically in scope",
-                    "type": "other"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/hutgroup-public",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://*.ameliorate.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.beautyexpert.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.cultbeauty.co.uk/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.dermstore.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.espaskincare.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.exantediet.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.eyeko.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.glossybox.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.growgorgeous.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.hqhair.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.illamasqua.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.mioskincare.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.mankind.co.uk/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.mybag.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.myvitamins.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.powerman.co.uk/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.skinstore.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.thehut.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://checkout.myvitamins.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://checkout.eyeko.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://checkout.glossybox.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "https://www.cultbeauty.co.uk/matchme",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://matchme.cultbeauty.co.uk/",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/t-mobile",
         "bounty": 1,
         "active": 1,
@@ -10974,49 +10871,106 @@
         }
     },
     {
-        "handle": "engagements/pinterest",
+        "handle": "engagements/hutgroup-public",
         "bounty": 1,
         "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "api.pinterest.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.pinterest.com Web Apps",
+                    "identifier": "https://*.ameliorate.com/",
                     "type": "website"
                 },
                 {
-                    "identifier": "Pinterest iOS Mobile Application",
-                    "type": "ios"
+                    "identifier": "https://*.beautyexpert.com/",
+                    "type": "website"
                 },
                 {
-                    "identifier": "Pinterest Android Mobile Application",
-                    "type": "android"
+                    "identifier": "https://www.cultbeauty.co.uk/",
+                    "type": "website"
                 },
                 {
-                    "identifier": "Pinterest Lite Android Mobile Application",
-                    "type": "android"
+                    "identifier": "https://*.dermstore.com",
+                    "type": "website"
                 },
                 {
-                    "identifier": "Edge extension (download at: ms-windows-store://pdp/?productid=9nblggh4v89b )",
-                    "type": "other"
+                    "identifier": "https://*.espaskincare.com/",
+                    "type": "website"
                 },
                 {
-                    "identifier": "Chrome extension (download at: chrome.google.com/webstore/detail/pinterest-save-button/gpdjojdkbbmdfjfahjcgigfpmkopogic?hl=en)",
-                    "type": "other"
+                    "identifier": "https://*.exantediet.com/",
+                    "type": "website"
                 },
                 {
-                    "identifier": "Firefox extension (download at:   https://addons.mozilla.org/firefox/addon/pinterest/)",
-                    "type": "other"
+                    "identifier": "https://*.eyeko.com/",
+                    "type": "website"
                 },
                 {
-                    "identifier": "Open source projects(non-forked) listed at github.com/pinterest/",
-                    "type": "other"
+                    "identifier": "https://*.glossybox.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.growgorgeous.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.hqhair.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.illamasqua.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.mioskincare.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.mankind.co.uk/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.mybag.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.myvitamins.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.powerman.co.uk/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.skinstore.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.thehut.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://checkout.myvitamins.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://checkout.eyeko.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://checkout.glossybox.com",
+                    "type": "website"
                 }
             ],
-            "out_of_scope": []
+            "out_of_scope": [
+                {
+                    "identifier": "https://www.cultbeauty.co.uk/matchme",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://matchme.cultbeauty.co.uk/",
+                    "type": "website"
+                }
+            ]
         }
     },
     {
@@ -11123,131 +11077,49 @@
         }
     },
     {
-        "handle": "engagements/quizlet",
+        "handle": "engagements/pinterest",
         "bounty": 1,
         "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "https://*.quizlet.com",
+                    "identifier": "api.pinterest.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.pinterest.com Web Apps",
                     "type": "website"
                 },
                 {
-                    "identifier": "IoS",
+                    "identifier": "Pinterest iOS Mobile Application",
                     "type": "ios"
                 },
                 {
-                    "identifier": "Android",
+                    "identifier": "Pinterest Android Mobile Application",
                     "type": "android"
                 },
                 {
-                    "identifier": "3.0 API",
-                    "type": "api"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "2.0 API",
-                    "type": "api"
+                    "identifier": "Pinterest Lite Android Mobile Application",
+                    "type": "android"
                 },
                 {
-                    "identifier": " help.quizlet.com (zendesk)",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/openai",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "api.openai.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "ChatGPT",
-                    "type": "website"
-                },
-                {
-                    "identifier": "ChatGPT Plugins",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Third Party Targets",
-                    "type": "website"
-                },
-                {
-                    "identifier": "OpenAI API Keys",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://openai.org",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.openai.org",
-                    "type": "api"
-                },
-                {
-                    "identifier": "openai.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.openai.com",
+                    "identifier": "Edge extension (download at: ms-windows-store://pdp/?productid=9nblggh4v89b )",
                     "type": "other"
                 },
                 {
-                    "identifier": "Developer Platform Playground",
-                    "type": "website"
+                    "identifier": "Chrome extension (download at: chrome.google.com/webstore/detail/pinterest-save-button/gpdjojdkbbmdfjfahjcgigfpmkopogic?hl=en)",
+                    "type": "other"
                 },
                 {
-                    "identifier": "Other",
+                    "identifier": "Firefox extension (download at:   https://addons.mozilla.org/firefox/addon/pinterest/)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Open source projects(non-forked) listed at github.com/pinterest/",
                     "type": "other"
                 }
             ],
             "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/flourish",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "flo.uri.sh",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.flourish.studio",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.xyzbmojn.net",
-                    "type": "website"
-                },
-                {
-                    "identifier": "flourish-user-templates.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "flourish-user-preview.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.kiln.it",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "training.flourish.studio",
-                    "type": "website"
-                }
-            ]
         }
     },
     {
@@ -11362,6 +11234,80 @@
         }
     },
     {
+        "handle": "engagements/quizlet",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://*.quizlet.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "IoS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "3.0 API",
+                    "type": "api"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "2.0 API",
+                    "type": "api"
+                },
+                {
+                    "identifier": " help.quizlet.com (zendesk)",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/flourish",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "flo.uri.sh",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.flourish.studio",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.xyzbmojn.net",
+                    "type": "website"
+                },
+                {
+                    "identifier": "flourish-user-templates.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "flourish-user-preview.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.kiln.it",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "training.flourish.studio",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
         "handle": "engagements/coindesk-mbb-og",
         "bounty": 1,
         "active": 1,
@@ -11418,6 +11364,60 @@
                     "type": "website"
                 }
             ]
+        }
+    },
+    {
+        "handle": "engagements/openai",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "api.openai.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "ChatGPT",
+                    "type": "website"
+                },
+                {
+                    "identifier": "ChatGPT Plugins",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Third Party Targets",
+                    "type": "website"
+                },
+                {
+                    "identifier": "OpenAI API Keys",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://openai.org",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.openai.org",
+                    "type": "api"
+                },
+                {
+                    "identifier": "openai.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.openai.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Developer Platform Playground",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Other",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": []
         }
     },
     {
