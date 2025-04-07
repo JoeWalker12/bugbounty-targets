@@ -1,12 +1,36 @@
 [
     {
-        "handle": "decathlon",
+        "handle": "telenor-sweden-public-bug-bounty-program",
         "bounty": 1,
         "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "https://www.decathlon.(be|ch|es|fr|hu|pl|pt|ro|cz|com.tr)/",
+                    "identifier": "*.telenor.se",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.bredbandsbolaget.se",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.europolitan.se",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.ownit.se",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.vimla.se",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.vimla.work",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.vimla.io",
                     "type": "web-application"
                 }
             ],
@@ -150,6 +174,70 @@
                 {
                     "identifier": "https://cdn.unicdn.net/apk/UnibetCasino.apk",
                     "type": "mobile-application-android"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "tchap-public",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://www.tchap.gouv.fr",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://matrix.agent.tchap.gouv.fr",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://matrix.agent.*.tchap.gouv.fr",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://github.com/tchapgouv",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://play.google.com/store/apps/details?id=fr.gouv.tchap.a&hl=fr",
+                    "type": "mobile-application-android"
+                },
+                {
+                    "identifier": "https://apps.apple.com/fr/app/tchap/id1446253779",
+                    "type": "mobile-application-ios"
+                },
+                {
+                    "identifier": "https://www.beta.tchap.gouv.fr",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://matrix.i.tchap.gouv.fr",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://matrix.e.tchap.gouv.fr",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Specific scenarios (see program description)",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "decathlon",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://www.decathlon.(be|ch|es|fr|hu|pl|pt|ro|cz|com.tr)/",
+                    "type": "web-application"
                 }
             ],
             "out_of_scope": []
@@ -816,44 +904,6 @@
         }
     },
     {
-        "handle": "telenor-sweden-public-bug-bounty-program",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.telenor.se",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.bredbandsbolaget.se",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.europolitan.se",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.ownit.se",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.vimla.se",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.vimla.work",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.vimla.io",
-                    "type": "web-application"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "komoju-public-bug-bounty-program",
         "bounty": 1,
         "active": 1,
@@ -1210,56 +1260,6 @@
                 {
                     "identifier": "itmss://apps.apple.com/us/app/id1510360750?ign-mscache=1",
                     "type": "mobile-application-ios"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "tchap-public",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://www.tchap.gouv.fr",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://matrix.agent.tchap.gouv.fr",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://matrix.agent.*.tchap.gouv.fr",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://github.com/tchapgouv",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://play.google.com/store/apps/details?id=fr.gouv.tchap.a&hl=fr",
-                    "type": "mobile-application-android"
-                },
-                {
-                    "identifier": "https://apps.apple.com/fr/app/tchap/id1446253779",
-                    "type": "mobile-application-ios"
-                },
-                {
-                    "identifier": "https://www.beta.tchap.gouv.fr",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://matrix.i.tchap.gouv.fr",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://matrix.e.tchap.gouv.fr",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Specific scenarios (see program description)",
-                    "type": "other"
                 }
             ],
             "out_of_scope": []
