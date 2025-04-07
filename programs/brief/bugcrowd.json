@@ -9895,6 +9895,41 @@
         }
     },
     {
+        "handle": "engagements/directly",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "app.sandbox.directly.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.sandbox.directly.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://sandbox.directly.com/dashboard/index",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "www.directly.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "resources.directly.com/*",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.sandbox.directly.com/schedule-a-demo/* OR /product/* OR /careers/* OR /about/* OR /legal/* OR /trust/*",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
         "handle": "engagements/ifood-og",
         "bounty": 1,
         "active": 1,
@@ -9985,41 +10020,6 @@
                 {
                     "identifier": "Gestor de Pedidos - Desktop Client",
                     "type": "other"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/directly",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "app.sandbox.directly.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.sandbox.directly.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://sandbox.directly.com/dashboard/index",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "www.directly.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "resources.directly.com/*",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.sandbox.directly.com/schedule-a-demo/* OR /product/* OR /careers/* OR /about/* OR /legal/* OR /trust/*",
-                    "type": "website"
                 }
             ]
         }
@@ -10150,6 +10150,109 @@
                 {
                     "identifier": "https://forums.lastpass.com",
                     "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/twentyminuten",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://www.20min.ch",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://cm.20min.ch/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://api.20min.ch/",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://videoplayer.20min.ch",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://partner-feeds.20min.ch",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://screenplayer.20min.ch",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://audio.20min.ch",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "https://tgt.tamedia.ch",
+                    "type": "api"
+                },
+                {
+                    "identifier": "http://auth.20min.ch",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://cre-api.tamedia.ch",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://track.20min.ch",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Social Media Links (older than 2 years)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Subdomain Takeover ",
+                    "type": "other"
+                },
+                {
+                    "identifier": "DMARC, SPF, DKIM",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://*.connect.ringier.ch",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.onelog.ch",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.20min-tv.ch",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.newsnetz.tv",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.appuser.ch",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.iagentur.ch",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.streamboat.ch",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.streamboatserver.ch",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Other Domains and Subdomains not specifically in scope",
+                    "type": "other"
                 }
             ]
         }
@@ -10309,109 +10412,6 @@
         }
     },
     {
-        "handle": "engagements/twentyminuten",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://www.20min.ch",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://cm.20min.ch/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://api.20min.ch/",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://videoplayer.20min.ch",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://partner-feeds.20min.ch",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://screenplayer.20min.ch",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://audio.20min.ch",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "https://tgt.tamedia.ch",
-                    "type": "api"
-                },
-                {
-                    "identifier": "http://auth.20min.ch",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://cre-api.tamedia.ch",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://track.20min.ch",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Social Media Links (older than 2 years)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Subdomain Takeover ",
-                    "type": "other"
-                },
-                {
-                    "identifier": "DMARC, SPF, DKIM",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://*.connect.ringier.ch",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.onelog.ch",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.20min-tv.ch",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.newsnetz.tv",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.appuser.ch",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.iagentur.ch",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.streamboat.ch",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.streamboatserver.ch",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Other Domains and Subdomains not specifically in scope",
-                    "type": "other"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/soundcloud",
         "bounty": 1,
         "active": 1,
@@ -10523,61 +10523,6 @@
         }
     },
     {
-        "handle": "engagements/skyscanner",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Skyscanner iOS App",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Skyscanner Android App",
-                    "type": "android"
-                },
-                {
-                    "identifier": "gateway.skyscanner.net/*",
-                    "type": "api"
-                },
-                {
-                    "identifier": "skyscanner.net/hotels/book/*",
-                    "type": "website"
-                },
-                {
-                    "identifier": "skyscanner.net/*",
-                    "type": "website"
-                },
-                {
-                    "identifier": "partnerportal.skyscanner.net/*",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.skyscanner.net",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Skyscanner Android app",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Skyscanner iOS app",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "AWS Infrastructure",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "Corporate Email (*@skyscanner.net)",
-                    "type": "other"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/quizlet",
         "bounty": 1,
         "active": 1,
@@ -10647,6 +10592,61 @@
                 {
                     "identifier": "training.flourish.studio",
                     "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/skyscanner",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Skyscanner iOS App",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Skyscanner Android App",
+                    "type": "android"
+                },
+                {
+                    "identifier": "gateway.skyscanner.net/*",
+                    "type": "api"
+                },
+                {
+                    "identifier": "skyscanner.net/hotels/book/*",
+                    "type": "website"
+                },
+                {
+                    "identifier": "skyscanner.net/*",
+                    "type": "website"
+                },
+                {
+                    "identifier": "partnerportal.skyscanner.net/*",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.skyscanner.net",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Skyscanner Android app",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Skyscanner iOS app",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "AWS Infrastructure",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "Corporate Email (*@skyscanner.net)",
+                    "type": "other"
                 }
             ]
         }
@@ -10855,113 +10855,6 @@
         }
     },
     {
-        "handle": "engagements/underarmour",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "www.underarmour.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "www.underarmour.co.uk",
-                    "type": "website"
-                },
-                {
-                    "identifier": "UA Shop iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "UA Shop Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "https://api.shop.ua.com/graphql",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://www.underarmournext.co.uk/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://underarmournext.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.api.ua.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://consumer-sustainability.underarmour.com/en",
-                    "type": "website"
-                },
-                {
-                    "identifier": "vpe-us.underarmour.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "www.underarmour.com.sg",
-                    "type": "website"
-                },
-                {
-                    "identifier": "www.underarmour.cn",
-                    "type": "website"
-                },
-                {
-                    "identifier": "underarmour.co.kr",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://armourhouse.underarmour.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "www.underarmour.com/en-us/affiliate-home",
-                    "type": "website"
-                },
-                {
-                    "identifier": " www.uabiz.com,",
-                    "type": "website"
-                },
-                {
-                    "identifier": "investor.underarmour.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "productsafety.underarmour.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "uabusiness.force.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "www.underarmour.jobs",
-                    "type": "website"
-                },
-                {
-                    "identifier": "blog.underarmour.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "www.uateamcatalogs.com ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "www.uaretail.com ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "www.plankindustries.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/hutgroup-public",
         "bounty": 1,
         "active": 1,
@@ -11118,6 +11011,113 @@
                 },
                 {
                     "identifier": "uat.accounts.coindesk.com",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/underarmour",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "www.underarmour.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "www.underarmour.co.uk",
+                    "type": "website"
+                },
+                {
+                    "identifier": "UA Shop iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "UA Shop Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "https://api.shop.ua.com/graphql",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://www.underarmournext.co.uk/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://underarmournext.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.api.ua.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://consumer-sustainability.underarmour.com/en",
+                    "type": "website"
+                },
+                {
+                    "identifier": "vpe-us.underarmour.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "www.underarmour.com.sg",
+                    "type": "website"
+                },
+                {
+                    "identifier": "www.underarmour.cn",
+                    "type": "website"
+                },
+                {
+                    "identifier": "underarmour.co.kr",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://armourhouse.underarmour.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "www.underarmour.com/en-us/affiliate-home",
+                    "type": "website"
+                },
+                {
+                    "identifier": " www.uabiz.com,",
+                    "type": "website"
+                },
+                {
+                    "identifier": "investor.underarmour.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "productsafety.underarmour.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "uabusiness.force.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "www.underarmour.jobs",
+                    "type": "website"
+                },
+                {
+                    "identifier": "blog.underarmour.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "www.uateamcatalogs.com ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "www.uaretail.com ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "www.plankindustries.com",
                     "type": "website"
                 }
             ]
@@ -11323,6 +11323,25 @@
         }
     },
     {
+        "handle": "engagements/navan",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://staging-prime.navan.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "tripactions.com",
+                    "type": "other"
+                }
+            ]
+        }
+    },
+    {
         "handle": "engagements/openai",
         "bounty": 1,
         "active": 1,
@@ -11374,25 +11393,6 @@
                 }
             ],
             "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/navan",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://staging-prime.navan.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "tripactions.com",
-                    "type": "other"
-                }
-            ]
         }
     },
     {
@@ -13694,121 +13694,6 @@
         }
     },
     {
-        "handle": "engagements/bitso-mbb-og",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "bitso.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://nvio.mx/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://nvio.ar/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Mobile App Bitso Wallet iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Mobile App Bitso Alpha iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Mobile App Bitso Wallet Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Mobile App Bitso Alpha Android",
-                    "type": "android"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "help.bitso.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "status.bitso.com\t",
-                    "type": "website"
-                },
-                {
-                    "identifier": "dev.bitso.com\t",
-                    "type": "website"
-                },
-                {
-                    "identifier": "blog.bitso.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "stage.bitso.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "landing.bitso.com\t",
-                    "type": "website"
-                },
-                {
-                    "identifier": "devmalta.bitso.com\t",
-                    "type": "website"
-                },
-                {
-                    "identifier": "edu.bitso.com\t",
-                    "type": "website"
-                },
-                {
-                    "identifier": "sandbox.bitso.com\t",
-                    "type": "website"
-                },
-                {
-                    "identifier": "api-dev.bitso.com\t",
-                    "type": "api"
-                },
-                {
-                    "identifier": "api-stage.bitso.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "api-sandbox.bitso.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "stagemalta.bitso.com\t",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.otc.bitso.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.efx.bitso.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "quetzal.bitso.com\t",
-                    "type": "website"
-                },
-                {
-                    "identifier": "login.bitso.io",
-                    "type": "website"
-                },
-                {
-                    "identifier": "bitsohelp.zendesk.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "support.bitso.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/atlassian",
         "bounty": 1,
         "active": 1,
@@ -14519,6 +14404,121 @@
             "out_of_scope": [
                 {
                     "identifier": "Reference above out of scope targets",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/bitso-mbb-og",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "bitso.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://nvio.mx/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://nvio.ar/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Mobile App Bitso Wallet iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Mobile App Bitso Alpha iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Mobile App Bitso Wallet Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Mobile App Bitso Alpha Android",
+                    "type": "android"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "help.bitso.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "status.bitso.com\t",
+                    "type": "website"
+                },
+                {
+                    "identifier": "dev.bitso.com\t",
+                    "type": "website"
+                },
+                {
+                    "identifier": "blog.bitso.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "stage.bitso.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "landing.bitso.com\t",
+                    "type": "website"
+                },
+                {
+                    "identifier": "devmalta.bitso.com\t",
+                    "type": "website"
+                },
+                {
+                    "identifier": "edu.bitso.com\t",
+                    "type": "website"
+                },
+                {
+                    "identifier": "sandbox.bitso.com\t",
+                    "type": "website"
+                },
+                {
+                    "identifier": "api-dev.bitso.com\t",
+                    "type": "api"
+                },
+                {
+                    "identifier": "api-stage.bitso.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "api-sandbox.bitso.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "stagemalta.bitso.com\t",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.otc.bitso.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.efx.bitso.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "quetzal.bitso.com\t",
+                    "type": "website"
+                },
+                {
+                    "identifier": "login.bitso.io",
+                    "type": "website"
+                },
+                {
+                    "identifier": "bitsohelp.zendesk.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "support.bitso.com",
                     "type": "website"
                 }
             ]
