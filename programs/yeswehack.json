@@ -1,9 +1,9 @@
 [
     {
-        "title": "DECATHLON",
-        "slug": "decathlon",
-        "country": "FR",
-        "activity_area": "Retail",
+        "title": "Coindcx - Bug Bounty Program",
+        "slug": "coindcx-bug-bounty-program",
+        "country": "IN",
+        "activity_area": "Finance/Assurance",
         "average_first_response_time": 1,
         "type": "bug-bounty",
         "status": "V",
@@ -19,24 +19,24 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 36,
+        "reports_count": 173,
         "bounty_reward_min": 50,
-        "bounty_reward_max": 2500,
-        "scopes_count": 1,
+        "bounty_reward_max": 2000,
+        "scopes_count": 4,
         "pentest_campaign_status": null,
         "thumbnail": {
-            "name": "1a97a63d-ff3e-4d3a-b211-cfe24770d671",
-            "original_name": "2025-LOGO DKT - YWH.png",
+            "name": "7a463f4d-61ce-4bdf-8a7e-62b7ca14df72",
+            "original_name": "coindcx.png",
             "mime_type": "image/png",
-            "size": 33901,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/1a97a63d-ff3e-4d3a-b211-cfe24770d671"
+            "size": 3849,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/7a463f4d-61ce-4bdf-8a7e-62b7ca14df72"
         },
         "event": null,
         "business_unit": {
-            "name": "Decathlon",
-            "slug": "decathlon",
-            "description": "Decathlon",
-            "currency": "EUR",
+            "name": "Coindcx",
+            "slug": "coindcx",
+            "description": "CoinDCX is India\u2019s largest and safest cryptocurrency exchange. Our exchange is built with user experience and security in mind. The KYC and Bank Account verification are done within a few minutes and give users a smooth onboarding experience. We provide users single-point access to a diverse suite of crypto-based financial products and services that are backed by security processes and insurance.",
+            "currency": "USD",
             "already_activate_product": true,
             "logo": {
                 "name": null,
@@ -50,10 +50,31 @@
         "scopes_enabled": null,
         "scopes": [
             {
-                "scope": "https://www.decathlon.(be|ch|es|fr|hu|pl|pt|ro|cz|com.tr)/",
+                "scope": "*.coindcx.com",
                 "scope_type": "web-application",
                 "scope_type_name": "Web application",
-                "asset_value": "MEDIUM",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "api.coindcx.com",
+                "scope_type": "api",
+                "scope_type_name": "API",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "https://play.google.com/store/apps/details?id=com.coindcx.btc",
+                "scope_type": "mobile-application-android",
+                "scope_type_name": "Mobile application Android",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "https://apps.apple.com/in/app/coindcx-trade-bitcoin-crypto/id1517787269",
+                "scope_type": "mobile-application-ios",
+                "scope_type_name": "Mobile application IOS",
+                "asset_value": "CRITICAL",
                 "report_count": null
             }
         ]
@@ -78,7 +99,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 28,
+        "reports_count": 29,
         "bounty_reward_min": 50,
         "bounty_reward_max": 4000,
         "scopes_count": 4,
@@ -134,6 +155,65 @@
                 "scope_type": "api",
                 "scope_type_name": "API",
                 "asset_value": "CRITICAL",
+                "report_count": null
+            }
+        ]
+    },
+    {
+        "title": "DECATHLON",
+        "slug": "decathlon",
+        "country": "FR",
+        "activity_area": "Retail",
+        "average_first_response_time": 1,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": true,
+        "gift": false,
+        "hall_of_fame": true,
+        "hacktivity": false,
+        "report_collaboration_active": true,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 36,
+        "bounty_reward_min": 50,
+        "bounty_reward_max": 2500,
+        "scopes_count": 1,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "1a97a63d-ff3e-4d3a-b211-cfe24770d671",
+            "original_name": "2025-LOGO DKT - YWH.png",
+            "mime_type": "image/png",
+            "size": 33901,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/1a97a63d-ff3e-4d3a-b211-cfe24770d671"
+        },
+        "event": null,
+        "business_unit": {
+            "name": "Decathlon",
+            "slug": "decathlon",
+            "description": "Decathlon",
+            "currency": "EUR",
+            "already_activate_product": true,
+            "logo": {
+                "name": null,
+                "original_name": null,
+                "mime_type": null,
+                "size": null,
+                "url": null
+            }
+        },
+        "hunter_audience": null,
+        "scopes_enabled": null,
+        "scopes": [
+            {
+                "scope": "https://www.decathlon.(be|ch|es|fr|hu|pl|pt|ro|cz|com.tr)/",
+                "scope_type": "web-application",
+                "scope_type_name": "Web application",
+                "asset_value": "MEDIUM",
                 "report_count": null
             }
         ]
@@ -423,86 +503,6 @@
                 "scope_type": "application",
                 "scope_type_name": "Application",
                 "asset_value": "LOW",
-                "report_count": null
-            }
-        ]
-    },
-    {
-        "title": "Coindcx - Bug Bounty Program",
-        "slug": "coindcx-bug-bounty-program",
-        "country": "IN",
-        "activity_area": "Finance/Assurance",
-        "average_first_response_time": 1,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": true,
-        "gift": false,
-        "hall_of_fame": true,
-        "hacktivity": false,
-        "report_collaboration_active": true,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 171,
-        "bounty_reward_min": 50,
-        "bounty_reward_max": 2000,
-        "scopes_count": 4,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "7a463f4d-61ce-4bdf-8a7e-62b7ca14df72",
-            "original_name": "coindcx.png",
-            "mime_type": "image/png",
-            "size": 3849,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/7a463f4d-61ce-4bdf-8a7e-62b7ca14df72"
-        },
-        "event": null,
-        "business_unit": {
-            "name": "Coindcx",
-            "slug": "coindcx",
-            "description": "CoinDCX is India\u2019s largest and safest cryptocurrency exchange. Our exchange is built with user experience and security in mind. The KYC and Bank Account verification are done within a few minutes and give users a smooth onboarding experience. We provide users single-point access to a diverse suite of crypto-based financial products and services that are backed by security processes and insurance.",
-            "currency": "USD",
-            "already_activate_product": true,
-            "logo": {
-                "name": null,
-                "original_name": null,
-                "mime_type": null,
-                "size": null,
-                "url": null
-            }
-        },
-        "hunter_audience": null,
-        "scopes_enabled": null,
-        "scopes": [
-            {
-                "scope": "*.coindcx.com",
-                "scope_type": "web-application",
-                "scope_type_name": "Web application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "api.coindcx.com",
-                "scope_type": "api",
-                "scope_type_name": "API",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "https://play.google.com/store/apps/details?id=com.coindcx.btc",
-                "scope_type": "mobile-application-android",
-                "scope_type_name": "Mobile application Android",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "https://apps.apple.com/in/app/coindcx-trade-bitcoin-crypto/id1517787269",
-                "scope_type": "mobile-application-ios",
-                "scope_type_name": "Mobile application IOS",
-                "asset_value": "CRITICAL",
                 "report_count": null
             }
         ]
@@ -4527,7 +4527,7 @@
         "slug": "ezviz-bug-bounty-program",
         "country": "CN",
         "activity_area": "Tech - Other",
-        "average_first_response_time": 3,
+        "average_first_response_time": 4,
         "type": "bug-bounty",
         "status": "V",
         "demo": false,
