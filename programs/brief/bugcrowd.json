@@ -238,6 +238,60 @@
         }
     },
     {
+        "handle": "engagements/verisign",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "epptool-ctld.verisign-grs.com (EPP service; DNS related)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "a.root-servers.net (DNS service; DNS related)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "j.root-servers.net (DNS service; DNS related)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "*.gtld-servers.net (DNS service; DNS related)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "www.verisign.com (Website; non-DNS related)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.youcouldbe.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "blog.verisign.com (Website; non-DNS related)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.namestudioforsocial.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.namestudio.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.verisign.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "*.verisign-grs.com (DNS service; DNS related)",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
         "handle": "engagements/optus-mbb-og",
         "bounty": 1,
         "active": 1,
@@ -3452,41 +3506,6 @@
         }
     },
     {
-        "handle": "engagements/moovit-mbb-og",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Moovit Android App",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Moovit iOS App",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "WayFinder - Augmented Reality helper to find your stop",
-                    "type": "ios"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "Every Web App is Out Of Scope.",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Every app not related to the Moovit mobile application.",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Any WebView sources or web application rendered within the mobile applications",
-                    "type": "other"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/backblaze",
         "bounty": 1,
         "active": 1,
@@ -3530,6 +3549,41 @@
                 }
             ],
             "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/moovit-mbb-og",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Moovit Android App",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Moovit iOS App",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "WayFinder - Augmented Reality helper to find your stop",
+                    "type": "ios"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "Every Web App is Out Of Scope.",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Every app not related to the Moovit mobile application.",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Any WebView sources or web application rendered within the mobile applications",
+                    "type": "other"
+                }
+            ]
         }
     },
     {
@@ -4483,6 +4537,56 @@
         }
     },
     {
+        "handle": "engagements/sendbird-mbb",
+        "bounty": 1,
+        "active": 0,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://dashboard.sendbird.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://gate.sendbird.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://api-{app-id}.sendbird.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://ws-{app-id}.sendbird.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://desk-api-{region}.sendbird.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://ws-{app-id}.calls.sendbird.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://api-{app-id}.calls.sendbird.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://api-{app-id}.notifications.sendbird.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://sendbird.com/docs",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://sendbird.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
         "handle": "engagements/hutgroup-public",
         "bounty": 1,
         "active": 1,
@@ -4660,56 +4764,6 @@
                 {
                     "identifier": "Other",
                     "type": "other"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/sendbird-mbb",
-        "bounty": 1,
-        "active": 0,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://dashboard.sendbird.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://gate.sendbird.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://api-{app-id}.sendbird.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://ws-{app-id}.sendbird.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://desk-api-{region}.sendbird.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://ws-{app-id}.calls.sendbird.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://api-{app-id}.calls.sendbird.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://api-{app-id}.notifications.sendbird.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://sendbird.com/docs",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://sendbird.com",
-                    "type": "website"
                 }
             ],
             "out_of_scope": []
@@ -6563,60 +6617,6 @@
         }
     },
     {
-        "handle": "engagements/verisign",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "epptool-ctld.verisign-grs.com (EPP service; DNS related)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "a.root-servers.net (DNS service; DNS related)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "j.root-servers.net (DNS service; DNS related)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "*.gtld-servers.net (DNS service; DNS related)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "www.verisign.com (Website; non-DNS related)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.youcouldbe.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "blog.verisign.com (Website; non-DNS related)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.namestudioforsocial.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.namestudio.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.verisign.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "*.verisign-grs.com (DNS service; DNS related)",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/barracuda",
         "bounty": 1,
         "active": 1,
@@ -7834,137 +7834,6 @@
                 {
                     "identifier": "Any other third-party websites hosted by non-Tesla entities",
                     "type": "website"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/binance",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "api.coinmarketcap.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "pro-api.coinmarketcap.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.binance.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Binance Desktop Application",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Binance Mobile Application for Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Binance Mobile Application for iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "api.binance.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Binance macOS Application",
-                    "type": "other"
-                },
-                {
-                    "identifier": "pro.coinmarketcap.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "CoinMarketCap Android app",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Trustwallet Android App",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Trustwallet iOS App",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "https://github.com/trustwallet/wallet-core/",
-                    "type": "other"
-                },
-                {
-                    "identifier": "CoinMarketCap iOS app",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "portal-api.coinmarketcap.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "coinmarketcap.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "3rdparty-apis.coinmarketcap.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.binance.us",
-                    "type": "website"
-                },
-                {
-                    "identifier": "binance.tr",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Trustwallet Chrome Extension",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "jobs.coinmarketcap.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "support.binance.*",
-                    "type": "website"
-                },
-                {
-                    "identifier": "binance.sg",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.trustwallet.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.trustwalletapp.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.binance.org",
-                    "type": "website"
-                },
-                {
-                    "identifier": "blog.coinmarketcap.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "support.coinmarketcap.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "blockchain.coinmarketcap.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.coinmarketcap.com",
-                    "type": "other"
                 }
             ]
         }
@@ -9334,52 +9203,6 @@
         }
     },
     {
-        "handle": "engagements/elementor",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://elementor.com/*",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://my.elementor.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://go.elementor.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://translate.elementor.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://developers.elementor.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://he.elementor.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://code.elementor.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://library.elementor.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": " app.strattic.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/bugcrowd",
         "bounty": 1,
         "active": 1,
@@ -9462,6 +9285,137 @@
                 {
                     "identifier": "trust.bugcrowd.com",
                     "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/binance",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "api.coinmarketcap.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "pro-api.coinmarketcap.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.binance.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Binance Desktop Application",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Binance Mobile Application for Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Binance Mobile Application for iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "api.binance.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Binance macOS Application",
+                    "type": "other"
+                },
+                {
+                    "identifier": "pro.coinmarketcap.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "CoinMarketCap Android app",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Trustwallet Android App",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Trustwallet iOS App",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "https://github.com/trustwallet/wallet-core/",
+                    "type": "other"
+                },
+                {
+                    "identifier": "CoinMarketCap iOS app",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "portal-api.coinmarketcap.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "coinmarketcap.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "3rdparty-apis.coinmarketcap.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.binance.us",
+                    "type": "website"
+                },
+                {
+                    "identifier": "binance.tr",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Trustwallet Chrome Extension",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "jobs.coinmarketcap.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "support.binance.*",
+                    "type": "website"
+                },
+                {
+                    "identifier": "binance.sg",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.trustwallet.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.trustwalletapp.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.binance.org",
+                    "type": "website"
+                },
+                {
+                    "identifier": "blog.coinmarketcap.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "support.coinmarketcap.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "blockchain.coinmarketcap.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.coinmarketcap.com",
+                    "type": "other"
                 }
             ]
         }
@@ -9567,6 +9521,52 @@
                     "type": "website"
                 }
             ]
+        }
+    },
+    {
+        "handle": "engagements/elementor",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://elementor.com/*",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://my.elementor.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://go.elementor.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://translate.elementor.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://developers.elementor.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://he.elementor.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://code.elementor.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://library.elementor.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": " app.strattic.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
         }
     },
     {
