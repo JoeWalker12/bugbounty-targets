@@ -3065,6 +3065,41 @@
         }
     },
     {
+        "handle": "engagements/braze-bb",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://bug-bounty-api.k8s.tools-001.d-use-1.braze-dev.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://bug-bounty-dashboard.k8s.tools-001.d-use-1.braze-dev.com/",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "*.appboy.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "*.braze.eu",
+                    "type": "other"
+                },
+                {
+                    "identifier": "*.braze.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Any Braze Owned Host not listed as in Scope",
+                    "type": "other"
+                }
+            ]
+        }
+    },
+    {
         "handle": "engagements/twentyminuten",
         "bounty": 1,
         "active": 1,
@@ -3162,41 +3197,6 @@
                 },
                 {
                     "identifier": "Other Domains and Subdomains not specifically in scope",
-                    "type": "other"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/braze-bb",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://bug-bounty-api.k8s.tools-001.d-use-1.braze-dev.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://bug-bounty-dashboard.k8s.tools-001.d-use-1.braze-dev.com/",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "*.appboy.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "*.braze.eu",
-                    "type": "other"
-                },
-                {
-                    "identifier": "*.braze.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Any Braze Owned Host not listed as in Scope",
                     "type": "other"
                 }
             ]
@@ -5253,108 +5253,6 @@
         }
     },
     {
-        "handle": "engagements/mastercard",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Simplify Commerce - www.simplify.com/commerce/ ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "MasterCard.us - www.mastercard.us/en-us.html",
-                    "type": "website"
-                },
-                {
-                    "identifier": "MasterCard.ch - (German) - www.mastercard.ch/de-ch.html",
-                    "type": "website"
-                },
-                {
-                    "identifier": "MasterCard.ch - (French) - www.mastercard.ch/fr-ch.html",
-                    "type": "website"
-                },
-                {
-                    "identifier": "MasterCard.com.au - www.mastercard.com.au/en-au.html",
-                    "type": "website"
-                },
-                {
-                    "identifier": "MasterCard.nl - www.mastercard.nl/nl-nl.html",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://developer.mastercard.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "donate.mastercard.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Core Priceless.com - demo.priceless.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://priceless.com/golf/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://performancemarketing.mastercard.com/portal/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://src.mastercard.com/profile/enroll",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://src.mastercard.com/*",
-                    "type": "website"
-                },
-                {
-                    "identifier": "SRC integration on https://masterpassteststore.com/. Only the Masterpass checkout functionality is in scope",
-                    "type": "website"
-                },
-                {
-                    "identifier": " Finicity Connect",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Finicity- Data Services",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Finicity Decisioning",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://www.finicity.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://consumer.finicityreports.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Finicity- Open Banking Payment History application",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Finicity - OBB (Open Banking Business Service) ",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://pioneer.truata.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Public Others Target",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/canva",
         "bounty": 1,
         "active": 1,
@@ -6406,6 +6304,108 @@
         }
     },
     {
+        "handle": "engagements/mastercard",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Simplify Commerce - www.simplify.com/commerce/ ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "MasterCard.us - www.mastercard.us/en-us.html",
+                    "type": "website"
+                },
+                {
+                    "identifier": "MasterCard.ch - (German) - www.mastercard.ch/de-ch.html",
+                    "type": "website"
+                },
+                {
+                    "identifier": "MasterCard.ch - (French) - www.mastercard.ch/fr-ch.html",
+                    "type": "website"
+                },
+                {
+                    "identifier": "MasterCard.com.au - www.mastercard.com.au/en-au.html",
+                    "type": "website"
+                },
+                {
+                    "identifier": "MasterCard.nl - www.mastercard.nl/nl-nl.html",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://developer.mastercard.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "donate.mastercard.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Core Priceless.com - demo.priceless.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://priceless.com/golf/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://performancemarketing.mastercard.com/portal/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://src.mastercard.com/profile/enroll",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://src.mastercard.com/*",
+                    "type": "website"
+                },
+                {
+                    "identifier": "SRC integration on https://masterpassteststore.com/. Only the Masterpass checkout functionality is in scope",
+                    "type": "website"
+                },
+                {
+                    "identifier": " Finicity Connect",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Finicity- Data Services",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Finicity Decisioning",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://www.finicity.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://consumer.finicityreports.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Finicity- Open Banking Payment History application",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Finicity - OBB (Open Banking Business Service) ",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://pioneer.truata.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Public Others Target",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
         "handle": "engagements/nextupai",
         "bounty": 1,
         "active": 0,
@@ -6800,52 +6800,6 @@
                 {
                     "identifier": "Source code hosting",
                     "type": "other"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/elementor",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://elementor.com/*",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://my.elementor.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://go.elementor.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://translate.elementor.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://developers.elementor.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://he.elementor.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://code.elementor.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://library.elementor.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": " app.strattic.com",
-                    "type": "website"
                 }
             ],
             "out_of_scope": []
@@ -7404,6 +7358,966 @@
                 }
             ],
             "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/octopus-og",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.octopus.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Octopus Deploy Git Repo",
+                    "type": "other"
+                },
+                {
+                    "identifier": "octopus.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "*.octopus.app",
+                    "type": "website"
+                },
+                {
+                    "identifier": "artifactorysample.octopus.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "bamboosample.octopus.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "jenkinssample.octopus.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "teamcitysample.octopus.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "nexussample.octopus.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "myget.octopus.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": " partners.octopus.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "trust.octopus.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "i.octopus.com",
+                    "type": "other"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/prosus-og",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "dealflow.prosus.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "dealflowapi.prosus.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "analytics-admin.prosus.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "analytics.prosus.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "data.prosus.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "hr.prosus.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "tracker.naspers.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "cfc.naspers.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "peopleview.naspers.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "nav.naspers.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/bugcrowd",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "docs.bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Crowdcontrol",
+                    "type": "api"
+                },
+                {
+                    "identifier": "api.bugcrowd.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://identity.bugcrowd.com/ ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.bugcrowd.com/auth/*",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "bugcrowd*.freshdesk.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "www.bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "blog.bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "researcherdocs.bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "pages.bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "forum.bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "email.bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "email.forum.bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "go.bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "events.bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "assetinventory.bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "community.bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "trust.bugcrowd.com",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/arlo",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Arlo Safe Android App",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Arlo Safe iOS App",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Arlo Secure Android App",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Arlo Secure iOS App",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Arlo",
+                    "type": "iot"
+                },
+                {
+                    "identifier": "Arlo All-In-One Sensor (Home Security System)",
+                    "type": "iot"
+                },
+                {
+                    "identifier": "Arlo Baby",
+                    "type": "iot"
+                },
+                {
+                    "identifier": "Arlo Base Station",
+                    "type": "iot"
+                },
+                {
+                    "identifier": "Arlo Bridge",
+                    "type": "iot"
+                },
+                {
+                    "identifier": "Arlo Cellular & Battery Backup (Home Security System)",
+                    "type": "iot"
+                },
+                {
+                    "identifier": "Arlo Chime / Chime 2",
+                    "type": "iot"
+                },
+                {
+                    "identifier": "Arlo Essential",
+                    "type": "iot"
+                },
+                {
+                    "identifier": "Arlo Floodlight",
+                    "type": "iot"
+                },
+                {
+                    "identifier": "Arlo Go / Go 2",
+                    "type": "iot"
+                },
+                {
+                    "identifier": "Arlo Home Security System",
+                    "type": "iot"
+                },
+                {
+                    "identifier": "Arlo Pro",
+                    "type": "iot"
+                },
+                {
+                    "identifier": "Arlo Pro 2",
+                    "type": "iot"
+                },
+                {
+                    "identifier": "Arlo Pro 3",
+                    "type": "iot"
+                },
+                {
+                    "identifier": "Arlo Pro 4",
+                    "type": "iot"
+                },
+                {
+                    "identifier": "Arlo Pro 5S",
+                    "type": "iot"
+                },
+                {
+                    "identifier": "Arlo Q / Q+",
+                    "type": "iot"
+                },
+                {
+                    "identifier": "Arlo Safe Button",
+                    "type": "iot"
+                },
+                {
+                    "identifier": "Arlo Security Light",
+                    "type": "iot"
+                },
+                {
+                    "identifier": "Arlo Ultra",
+                    "type": "iot"
+                },
+                {
+                    "identifier": "Arlo Video Doorbell",
+                    "type": "iot"
+                },
+                {
+                    "identifier": "Arlo Wireless Video Doorbell",
+                    "type": "iot"
+                },
+                {
+                    "identifier": "Arlo Wire-Free Outdoor Siren (Home Security System)",
+                    "type": "iot"
+                },
+                {
+                    "identifier": "*.arlo.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "*.arloxcld.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://*-prod.arlo.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://arlo-device.messaging.netgear.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://beta.arlo.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://community.arlo.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://downloads.arlo.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://mcs.arlo.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://my.arlo.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://myapi.arlo.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://www.arlo.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://updates.arlo.com",
+                    "type": "api"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/cloudinary",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://cloudinary.com/console",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://api.cloudinary.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://res.cloudinary.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "mediaflows.cloudinary.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "dimensions.cloudinary.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "https://support.cloudinary.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "wiki.cloudinary.com",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/trello",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "trello.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "api.trello.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.trello.services",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Trello Desktop Client",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Trello Mobile App for Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Trello Mobile App for iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Butler for Trello",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Calendar Power-Up",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Card Aging Power-Up",
+                    "type": "website"
+                },
+                {
+                    "identifier": "List Limits Power-Up",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Voting Power-Up",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Microsoft Teams Integration",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Trello Third Party Powerups",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "First party (made-by-trello) power-ups other than those inscope are excluded from this program but can be reported to http://bugcrowd.com/atlassianapps",
+                    "type": "website"
+                },
+                {
+                    "identifier": "e.trello.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "help.trello.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "trello-attachments.s3.amazonaws.com",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/pexels",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.pexels.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/kucoin",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://kucoin.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Kucoin IOS App",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Kucoin Android",
+                    "type": "android"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "support.kucoin.plus",
+                    "type": "website"
+                },
+                {
+                    "identifier": "store.kucoin.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "docs.kucoin.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "intro.kucoin.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "cert.kucoin.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "sandbox.kucoin.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "passport.kucoin.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*-sdb.kucoin.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*-sandbox.kucoin.com",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/tesla",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.tesla.cn",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.tesla.services",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Official Tesla iOS apps",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "*.tesla.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.teslamotors.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Any host verified to be owned by Tesla Motors Inc. (domains/IP space/etc.)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.solarcity.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.teslainsuranceservices.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Official Tesla Android apps",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Tesla Energy hardware you own",
+                    "type": "hardware"
+                },
+                {
+                    "identifier": "Tesla vehicle hardware that you own",
+                    "type": "hardware"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "employeefeedback.tesla.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "energysupport.tesla.com (you can report vulnerabilities to bugbounty.zoho.com)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "engage.tesla.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.engage.tesla.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "feedback.tesla.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "feedback.teslamotors.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "ir.tesla.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "ir.teslamotors.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "mkto.teslamotors.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "shop.eu.teslamotors.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "service.tesla.com/docs/*",
+                    "type": "website"
+                },
+                {
+                    "identifier": "service.tesla.cn/docs/*",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Any domains from acquisitions, such as maxwell.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Any other third-party websites hosted by non-Tesla entities",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/binance",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "api.coinmarketcap.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "pro-api.coinmarketcap.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.binance.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Binance Desktop Application",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Binance Mobile Application for Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Binance Mobile Application for iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "api.binance.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Binance macOS Application",
+                    "type": "other"
+                },
+                {
+                    "identifier": "pro.coinmarketcap.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "CoinMarketCap Android app",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Trustwallet Android App",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Trustwallet iOS App",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "https://github.com/trustwallet/wallet-core/",
+                    "type": "other"
+                },
+                {
+                    "identifier": "CoinMarketCap iOS app",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "portal-api.coinmarketcap.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "coinmarketcap.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "3rdparty-apis.coinmarketcap.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.binance.us",
+                    "type": "website"
+                },
+                {
+                    "identifier": "binance.tr",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Trustwallet Chrome Extension",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "jobs.coinmarketcap.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "support.binance.*",
+                    "type": "website"
+                },
+                {
+                    "identifier": "binance.sg",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.trustwallet.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.trustwalletapp.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.binance.org",
+                    "type": "website"
+                },
+                {
+                    "identifier": "blog.coinmarketcap.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "support.coinmarketcap.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "blockchain.coinmarketcap.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.coinmarketcap.com",
+                    "type": "other"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/statuspage",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "manage.statuspage.io",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.statuspage.io",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/aylo-mbb-og",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://www.pornhub.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://mobile.pornhub.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://api.pornhub.com/",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://www.pornhubpremium.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.redtube.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.redtubepremium.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.youporn.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.youpornpremium.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://pornhub.mainhub.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*. tube8.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.thumbzilla.com/",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "https://www.youporn.com/information/#support",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.pornhub.com/live ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.pornhub.com/insights ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.pronstore.com ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.pornhub.com/jobs ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.pornhub.com/sex ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.redtube.com ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.redtubepremium.com ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.pornhub.com ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.pornhubpremium.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "cms.pornhub.com ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "cms.redtube.com ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.youporn.com ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.youpornpremium.com ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "http://*.pornmd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.youporn.com/world ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "blog.tube8.com ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "http://www.tube8.com/contact.html ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.thumbzilla.com ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.pornhubapparel.com ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.pornhub.org ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "www.tube8vip.com ",
+                    "type": "website"
+                }
+            ]
         }
     },
     {
@@ -8610,963 +9524,49 @@
         }
     },
     {
-        "handle": "engagements/octopus-og",
+        "handle": "engagements/elementor",
         "bounty": 1,
         "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "*.octopus.com",
+                    "identifier": "https://elementor.com/*",
                     "type": "website"
                 },
                 {
-                    "identifier": "Octopus Deploy Git Repo",
-                    "type": "other"
-                },
-                {
-                    "identifier": "octopus.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "*.octopus.app",
+                    "identifier": "https://my.elementor.com/",
                     "type": "website"
                 },
                 {
-                    "identifier": "artifactorysample.octopus.com",
+                    "identifier": "https://go.elementor.com/",
                     "type": "website"
                 },
                 {
-                    "identifier": "bamboosample.octopus.com",
+                    "identifier": "https://translate.elementor.com/",
                     "type": "website"
                 },
                 {
-                    "identifier": "jenkinssample.octopus.com",
+                    "identifier": "https://developers.elementor.com/",
                     "type": "website"
                 },
                 {
-                    "identifier": "teamcitysample.octopus.com",
+                    "identifier": "https://he.elementor.com/",
                     "type": "website"
                 },
                 {
-                    "identifier": "nexussample.octopus.com",
+                    "identifier": "https://code.elementor.com/",
                     "type": "website"
                 },
                 {
-                    "identifier": "myget.octopus.com",
+                    "identifier": "https://library.elementor.com/",
                     "type": "website"
                 },
                 {
-                    "identifier": " partners.octopus.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "trust.octopus.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "i.octopus.com",
-                    "type": "other"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/prosus-og",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "dealflow.prosus.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "dealflowapi.prosus.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "analytics-admin.prosus.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "analytics.prosus.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "data.prosus.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "hr.prosus.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "tracker.naspers.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "cfc.naspers.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "peopleview.naspers.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "nav.naspers.com",
+                    "identifier": " app.strattic.com",
                     "type": "website"
                 }
             ],
             "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/bugcrowd",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "docs.bugcrowd.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "bugcrowd.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Crowdcontrol",
-                    "type": "api"
-                },
-                {
-                    "identifier": "api.bugcrowd.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://identity.bugcrowd.com/ ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.bugcrowd.com/auth/*",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "bugcrowd*.freshdesk.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "www.bugcrowd.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "blog.bugcrowd.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "researcherdocs.bugcrowd.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "pages.bugcrowd.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "forum.bugcrowd.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "email.bugcrowd.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "email.forum.bugcrowd.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "go.bugcrowd.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "events.bugcrowd.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "assetinventory.bugcrowd.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "community.bugcrowd.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "trust.bugcrowd.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/arlo",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Arlo Safe Android App",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Arlo Safe iOS App",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Arlo Secure Android App",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Arlo Secure iOS App",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Arlo",
-                    "type": "iot"
-                },
-                {
-                    "identifier": "Arlo All-In-One Sensor (Home Security System)",
-                    "type": "iot"
-                },
-                {
-                    "identifier": "Arlo Baby",
-                    "type": "iot"
-                },
-                {
-                    "identifier": "Arlo Base Station",
-                    "type": "iot"
-                },
-                {
-                    "identifier": "Arlo Bridge",
-                    "type": "iot"
-                },
-                {
-                    "identifier": "Arlo Cellular & Battery Backup (Home Security System)",
-                    "type": "iot"
-                },
-                {
-                    "identifier": "Arlo Chime / Chime 2",
-                    "type": "iot"
-                },
-                {
-                    "identifier": "Arlo Essential",
-                    "type": "iot"
-                },
-                {
-                    "identifier": "Arlo Floodlight",
-                    "type": "iot"
-                },
-                {
-                    "identifier": "Arlo Go / Go 2",
-                    "type": "iot"
-                },
-                {
-                    "identifier": "Arlo Home Security System",
-                    "type": "iot"
-                },
-                {
-                    "identifier": "Arlo Pro",
-                    "type": "iot"
-                },
-                {
-                    "identifier": "Arlo Pro 2",
-                    "type": "iot"
-                },
-                {
-                    "identifier": "Arlo Pro 3",
-                    "type": "iot"
-                },
-                {
-                    "identifier": "Arlo Pro 4",
-                    "type": "iot"
-                },
-                {
-                    "identifier": "Arlo Pro 5S",
-                    "type": "iot"
-                },
-                {
-                    "identifier": "Arlo Q / Q+",
-                    "type": "iot"
-                },
-                {
-                    "identifier": "Arlo Safe Button",
-                    "type": "iot"
-                },
-                {
-                    "identifier": "Arlo Security Light",
-                    "type": "iot"
-                },
-                {
-                    "identifier": "Arlo Ultra",
-                    "type": "iot"
-                },
-                {
-                    "identifier": "Arlo Video Doorbell",
-                    "type": "iot"
-                },
-                {
-                    "identifier": "Arlo Wireless Video Doorbell",
-                    "type": "iot"
-                },
-                {
-                    "identifier": "Arlo Wire-Free Outdoor Siren (Home Security System)",
-                    "type": "iot"
-                },
-                {
-                    "identifier": "*.arlo.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "*.arloxcld.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://*-prod.arlo.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://arlo-device.messaging.netgear.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://beta.arlo.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://community.arlo.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://downloads.arlo.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://mcs.arlo.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://my.arlo.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://myapi.arlo.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://www.arlo.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://updates.arlo.com",
-                    "type": "api"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/cloudinary",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://cloudinary.com/console",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://api.cloudinary.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://res.cloudinary.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "mediaflows.cloudinary.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "dimensions.cloudinary.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "https://support.cloudinary.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "wiki.cloudinary.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/trello",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "trello.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "api.trello.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.trello.services",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Trello Desktop Client",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Trello Mobile App for Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Trello Mobile App for iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Butler for Trello",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Calendar Power-Up",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Card Aging Power-Up",
-                    "type": "website"
-                },
-                {
-                    "identifier": "List Limits Power-Up",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Voting Power-Up",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Microsoft Teams Integration",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Trello Third Party Powerups",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "First party (made-by-trello) power-ups other than those inscope are excluded from this program but can be reported to http://bugcrowd.com/atlassianapps",
-                    "type": "website"
-                },
-                {
-                    "identifier": "e.trello.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "help.trello.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "trello-attachments.s3.amazonaws.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/pexels",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.pexels.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/kucoin",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://kucoin.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Kucoin IOS App",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Kucoin Android",
-                    "type": "android"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "support.kucoin.plus",
-                    "type": "website"
-                },
-                {
-                    "identifier": "store.kucoin.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "docs.kucoin.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "intro.kucoin.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "cert.kucoin.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "sandbox.kucoin.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "passport.kucoin.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*-sdb.kucoin.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*-sandbox.kucoin.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/aylo-mbb-og",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://www.pornhub.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://mobile.pornhub.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://api.pornhub.com/",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://www.pornhubpremium.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.redtube.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.redtubepremium.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.youporn.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.youpornpremium.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://pornhub.mainhub.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*. tube8.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.thumbzilla.com/",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "https://www.youporn.com/information/#support",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.pornhub.com/live ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.pornhub.com/insights ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.pronstore.com ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.pornhub.com/jobs ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.pornhub.com/sex ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.redtube.com ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.redtubepremium.com ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.pornhub.com ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.pornhubpremium.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "cms.pornhub.com ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "cms.redtube.com ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.youporn.com ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.youpornpremium.com ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "http://*.pornmd.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.youporn.com/world ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "blog.tube8.com ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "http://www.tube8.com/contact.html ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.thumbzilla.com ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.pornhubapparel.com ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.pornhub.org ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "www.tube8vip.com ",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/statuspage",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "manage.statuspage.io",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.statuspage.io",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/binance",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "api.coinmarketcap.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "pro-api.coinmarketcap.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.binance.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Binance Desktop Application",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Binance Mobile Application for Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Binance Mobile Application for iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "api.binance.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Binance macOS Application",
-                    "type": "other"
-                },
-                {
-                    "identifier": "pro.coinmarketcap.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "CoinMarketCap Android app",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Trustwallet Android App",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Trustwallet iOS App",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "https://github.com/trustwallet/wallet-core/",
-                    "type": "other"
-                },
-                {
-                    "identifier": "CoinMarketCap iOS app",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "portal-api.coinmarketcap.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "coinmarketcap.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "3rdparty-apis.coinmarketcap.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.binance.us",
-                    "type": "website"
-                },
-                {
-                    "identifier": "binance.tr",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Trustwallet Chrome Extension",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "jobs.coinmarketcap.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "support.binance.*",
-                    "type": "website"
-                },
-                {
-                    "identifier": "binance.sg",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.trustwallet.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.trustwalletapp.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.binance.org",
-                    "type": "website"
-                },
-                {
-                    "identifier": "blog.coinmarketcap.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "support.coinmarketcap.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "blockchain.coinmarketcap.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.coinmarketcap.com",
-                    "type": "other"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/tesla",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.tesla.cn",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.tesla.services",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Official Tesla iOS apps",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "*.tesla.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.teslamotors.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Any host verified to be owned by Tesla Motors Inc. (domains/IP space/etc.)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.solarcity.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.teslainsuranceservices.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Official Tesla Android apps",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Tesla Energy hardware you own",
-                    "type": "hardware"
-                },
-                {
-                    "identifier": "Tesla vehicle hardware that you own",
-                    "type": "hardware"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "employeefeedback.tesla.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "energysupport.tesla.com (you can report vulnerabilities to bugbounty.zoho.com)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "engage.tesla.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.engage.tesla.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "feedback.tesla.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "feedback.teslamotors.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "ir.tesla.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "ir.teslamotors.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "mkto.teslamotors.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "shop.eu.teslamotors.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "service.tesla.com/docs/*",
-                    "type": "website"
-                },
-                {
-                    "identifier": "service.tesla.cn/docs/*",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Any domains from acquisitions, such as maxwell.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Any other third-party websites hosted by non-Tesla entities",
-                    "type": "website"
-                }
-            ]
         }
     },
     {
