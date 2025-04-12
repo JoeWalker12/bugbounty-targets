@@ -4100,65 +4100,6 @@
         }
     },
     {
-        "handle": "engagements/coindesk-mbb-og",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "staging.coindesk.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "staging.auth.coindesk.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "coindesk.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "CoinDesk Indices",
-                    "type": "website"
-                },
-                {
-                    "identifier": "CoinDesk Events",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Production CoinDesk Events",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Consensus2023 Site",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Consensus2024 Site",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Consensus2025 Site",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Consensus HK Site",
-                    "type": "website"
-                },
-                {
-                    "identifier": "uat.coindesk.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "uat.accounts.coindesk.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/soundcloud",
         "bounty": 1,
         "active": 1,
@@ -4264,6 +4205,100 @@
                 },
                 {
                     "identifier": "support.soundcloud.org",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/braze-bb",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://bug-bounty-api.k8s.tools-001.d-use-1.braze-dev.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://bug-bounty-dashboard.k8s.tools-001.d-use-1.braze-dev.com/",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "*.appboy.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "*.braze.eu",
+                    "type": "other"
+                },
+                {
+                    "identifier": "*.braze.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Any Braze Owned Host not listed as in Scope",
+                    "type": "other"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/coindesk-mbb-og",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "staging.coindesk.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "staging.auth.coindesk.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "coindesk.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "CoinDesk Indices",
+                    "type": "website"
+                },
+                {
+                    "identifier": "CoinDesk Events",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Production CoinDesk Events",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Consensus2023 Site",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Consensus2024 Site",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Consensus2025 Site",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Consensus HK Site",
+                    "type": "website"
+                },
+                {
+                    "identifier": "uat.coindesk.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "uat.accounts.coindesk.com",
                     "type": "website"
                 }
             ]
@@ -4489,194 +4524,6 @@
         }
     },
     {
-        "handle": "engagements/braze-bb",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://bug-bounty-api.k8s.tools-001.d-use-1.braze-dev.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://bug-bounty-dashboard.k8s.tools-001.d-use-1.braze-dev.com/",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "*.appboy.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "*.braze.eu",
-                    "type": "other"
-                },
-                {
-                    "identifier": "*.braze.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Any Braze Owned Host not listed as in Scope",
-                    "type": "other"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/underarmour",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "www.underarmour.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "www.underarmour.co.uk",
-                    "type": "website"
-                },
-                {
-                    "identifier": "UA Shop iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "UA Shop Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "https://api.shop.ua.com/graphql",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://www.underarmournext.co.uk/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://underarmournext.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.api.ua.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://consumer-sustainability.underarmour.com/en",
-                    "type": "website"
-                },
-                {
-                    "identifier": "vpe-us.underarmour.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "www.underarmour.com.sg",
-                    "type": "website"
-                },
-                {
-                    "identifier": "www.underarmour.cn",
-                    "type": "website"
-                },
-                {
-                    "identifier": "underarmour.co.kr",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://armourhouse.underarmour.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "www.underarmour.com/en-us/affiliate-home",
-                    "type": "website"
-                },
-                {
-                    "identifier": " www.uabiz.com,",
-                    "type": "website"
-                },
-                {
-                    "identifier": "investor.underarmour.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "productsafety.underarmour.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "uabusiness.force.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "www.underarmour.jobs",
-                    "type": "website"
-                },
-                {
-                    "identifier": "blog.underarmour.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "www.uateamcatalogs.com ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "www.uaretail.com ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "www.plankindustries.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/backblaze",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Backblaze Android mobile application",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Backblaze iOS mobile application",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Mac Personal Backup Clients",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Windows Personal Backup Clients",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Mac Restore Downloaders",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Windows Restore Downloaders",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Git Repositories (b2-sdk-java & B2 Command Line Tool)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "B2 APIs (*.backblazeb2.com)",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Backblaze Website (*.backblaze.com)",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/flourish",
         "bounty": 1,
         "active": 1,
@@ -4820,45 +4667,6 @@
         }
     },
     {
-        "handle": "engagements/comcastvdp",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.sys.comcast.net",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://business.comcast.com/account",
-                    "type": "website"
-                },
-                {
-                    "identifier": "TV - Xfinity hardware and services",
-                    "type": "hardware"
-                },
-                {
-                    "identifier": "Flex - Xfinity hardware and services",
-                    "type": "hardware"
-                },
-                {
-                    "identifier": "Voice - Hardware and service",
-                    "type": "hardware"
-                },
-                {
-                    "identifier": "Mobile Apps\tiOS and Android",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "Comcastbiz.net",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/pinterest",
         "bounty": 1,
         "active": 1,
@@ -4899,6 +4707,198 @@
                 {
                     "identifier": "Open source projects(non-forked) listed at github.com/pinterest/",
                     "type": "other"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/underarmour",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "www.underarmour.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "www.underarmour.co.uk",
+                    "type": "website"
+                },
+                {
+                    "identifier": "UA Shop iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "UA Shop Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "https://api.shop.ua.com/graphql",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://www.underarmournext.co.uk/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://underarmournext.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.api.ua.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://consumer-sustainability.underarmour.com/en",
+                    "type": "website"
+                },
+                {
+                    "identifier": "vpe-us.underarmour.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "www.underarmour.com.sg",
+                    "type": "website"
+                },
+                {
+                    "identifier": "www.underarmour.cn",
+                    "type": "website"
+                },
+                {
+                    "identifier": "underarmour.co.kr",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://armourhouse.underarmour.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "www.underarmour.com/en-us/affiliate-home",
+                    "type": "website"
+                },
+                {
+                    "identifier": " www.uabiz.com,",
+                    "type": "website"
+                },
+                {
+                    "identifier": "investor.underarmour.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "productsafety.underarmour.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "uabusiness.force.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "www.underarmour.jobs",
+                    "type": "website"
+                },
+                {
+                    "identifier": "blog.underarmour.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "www.uateamcatalogs.com ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "www.uaretail.com ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "www.plankindustries.com",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/comcastvdp",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.sys.comcast.net",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://business.comcast.com/account",
+                    "type": "website"
+                },
+                {
+                    "identifier": "TV - Xfinity hardware and services",
+                    "type": "hardware"
+                },
+                {
+                    "identifier": "Flex - Xfinity hardware and services",
+                    "type": "hardware"
+                },
+                {
+                    "identifier": "Voice - Hardware and service",
+                    "type": "hardware"
+                },
+                {
+                    "identifier": "Mobile Apps\tiOS and Android",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "Comcastbiz.net",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/backblaze",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Backblaze Android mobile application",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Backblaze iOS mobile application",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Mac Personal Backup Clients",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Windows Personal Backup Clients",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Mac Restore Downloaders",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Windows Restore Downloaders",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Git Repositories (b2-sdk-java & B2 Command Line Tool)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "B2 APIs (*.backblazeb2.com)",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Backblaze Website (*.backblaze.com)",
+                    "type": "website"
                 }
             ],
             "out_of_scope": []
@@ -7395,20 +7395,6 @@
         }
     },
     {
-        "handle": "engagements/pexels",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.pexels.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/tesla",
         "bounty": 1,
         "active": 1,
@@ -8884,137 +8870,6 @@
         }
     },
     {
-        "handle": "engagements/binance",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "api.coinmarketcap.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "pro-api.coinmarketcap.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.binance.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Binance Desktop Application",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Binance Mobile Application for Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Binance Mobile Application for iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "api.binance.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Binance macOS Application",
-                    "type": "other"
-                },
-                {
-                    "identifier": "pro.coinmarketcap.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "CoinMarketCap Android app",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Trustwallet Android App",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Trustwallet iOS App",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "https://github.com/trustwallet/wallet-core/",
-                    "type": "other"
-                },
-                {
-                    "identifier": "CoinMarketCap iOS app",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "portal-api.coinmarketcap.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "coinmarketcap.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "3rdparty-apis.coinmarketcap.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.binance.us",
-                    "type": "website"
-                },
-                {
-                    "identifier": "binance.tr",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Trustwallet Chrome Extension",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "jobs.coinmarketcap.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "support.binance.*",
-                    "type": "website"
-                },
-                {
-                    "identifier": "binance.sg",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.trustwallet.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.trustwalletapp.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.binance.org",
-                    "type": "website"
-                },
-                {
-                    "identifier": "blog.coinmarketcap.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "support.coinmarketcap.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "blockchain.coinmarketcap.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.coinmarketcap.com",
-                    "type": "other"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/jora",
         "bounty": 1,
         "active": 1,
@@ -9477,28 +9332,6 @@
         }
     },
     {
-        "handle": "engagements/bitgo-mbb-og-public",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.bitgo.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "app.bitgo.com ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "app.bitgo-test.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/bugcrowd",
         "bounty": 1,
         "active": 1,
@@ -9583,6 +9416,173 @@
                     "type": "website"
                 }
             ]
+        }
+    },
+    {
+        "handle": "engagements/binance",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "api.coinmarketcap.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "pro-api.coinmarketcap.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.binance.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Binance Desktop Application",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Binance Mobile Application for Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Binance Mobile Application for iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "api.binance.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Binance macOS Application",
+                    "type": "other"
+                },
+                {
+                    "identifier": "pro.coinmarketcap.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "CoinMarketCap Android app",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Trustwallet Android App",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Trustwallet iOS App",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "https://github.com/trustwallet/wallet-core/",
+                    "type": "other"
+                },
+                {
+                    "identifier": "CoinMarketCap iOS app",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "portal-api.coinmarketcap.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "coinmarketcap.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "3rdparty-apis.coinmarketcap.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.binance.us",
+                    "type": "website"
+                },
+                {
+                    "identifier": "binance.tr",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Trustwallet Chrome Extension",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "jobs.coinmarketcap.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "support.binance.*",
+                    "type": "website"
+                },
+                {
+                    "identifier": "binance.sg",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.trustwallet.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.trustwalletapp.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.binance.org",
+                    "type": "website"
+                },
+                {
+                    "identifier": "blog.coinmarketcap.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "support.coinmarketcap.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "blockchain.coinmarketcap.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.coinmarketcap.com",
+                    "type": "other"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/pexels",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.pexels.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/bitgo-mbb-og-public",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.bitgo.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "app.bitgo.com ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "app.bitgo-test.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
         }
     },
     {
@@ -14548,84 +14548,6 @@
         }
     },
     {
-        "handle": "engagements/seek",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.seek.com.au",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://seekcdn.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "SEEK mobile app for iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "SEEK mobile app for Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "*.skinfra.xyz",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.outfra.xyz",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.sol-data.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.jobapi.net",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.seekpass.co",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.seekpass-staging.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.aips-internal.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.certsy.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.certsynonprod.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "SEEK Pass Mobile App for iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "SEEK Pass Mobile App for Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "graphql.seek.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "auth.seek.com",
-                    "type": "api"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/latitude-financial-service-bugbounty",
         "bounty": 1,
         "active": 1,
@@ -14877,6 +14799,84 @@
                 {
                     "identifier": "https://dashboard.pantheon.io",
                     "type": "other"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/seek",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.seek.com.au",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://seekcdn.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "SEEK mobile app for iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "SEEK mobile app for Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "*.skinfra.xyz",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.outfra.xyz",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.sol-data.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.jobapi.net",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.seekpass.co",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.seekpass-staging.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.aips-internal.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.certsy.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.certsynonprod.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "SEEK Pass Mobile App for iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "SEEK Pass Mobile App for Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "graphql.seek.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "auth.seek.com",
+                    "type": "api"
                 }
             ],
             "out_of_scope": []
