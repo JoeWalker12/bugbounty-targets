@@ -3591,41 +3591,6 @@
         }
     },
     {
-        "handle": "engagements/quizlet",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://*.quizlet.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "IoS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "3.0 API",
-                    "type": "api"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "2.0 API",
-                    "type": "api"
-                },
-                {
-                    "identifier": " help.quizlet.com (zendesk)",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/twentyminuten",
         "bounty": 1,
         "active": 1,
@@ -4465,60 +4430,6 @@
         }
     },
     {
-        "handle": "engagements/openai",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "api.openai.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "ChatGPT",
-                    "type": "website"
-                },
-                {
-                    "identifier": "ChatGPT Plugins",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Third Party Targets",
-                    "type": "website"
-                },
-                {
-                    "identifier": "OpenAI API Keys",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://openai.org",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.openai.org",
-                    "type": "api"
-                },
-                {
-                    "identifier": "openai.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.openai.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Developer Platform Playground",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Other",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/soundcloud",
         "bounty": 1,
         "active": 1,
@@ -4959,6 +4870,95 @@
                 },
                 {
                     "identifier": "Open source projects(non-forked) listed at github.com/pinterest/",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/quizlet",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://*.quizlet.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "IoS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "3.0 API",
+                    "type": "api"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "2.0 API",
+                    "type": "api"
+                },
+                {
+                    "identifier": " help.quizlet.com (zendesk)",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/openai",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "api.openai.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "ChatGPT",
+                    "type": "website"
+                },
+                {
+                    "identifier": "ChatGPT Plugins",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Third Party Targets",
+                    "type": "website"
+                },
+                {
+                    "identifier": "OpenAI API Keys",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://openai.org",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.openai.org",
+                    "type": "api"
+                },
+                {
+                    "identifier": "openai.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.openai.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Developer Platform Playground",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Other",
                     "type": "other"
                 }
             ],
@@ -8469,97 +8469,6 @@
         }
     },
     {
-        "handle": "engagements/comcast-mbb",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.xfinity.com\t",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.comcast.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.xcal.tv",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Staging, QA, Dev, and Test Environments",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "*.hfc.comcastbusiness.net",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.hsd1.*.comcast.net",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*business.comcast.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "10.0.0.0/8",
-                    "type": "network"
-                },
-                {
-                    "identifier": "50.128.0.0/12",
-                    "type": "network"
-                },
-                {
-                    "identifier": "50.152.0.0/13",
-                    "type": "network"
-                },
-                {
-                    "identifier": "96.201.0.0/16",
-                    "type": "network"
-                },
-                {
-                    "identifier": "96.202.128.0/17",
-                    "type": "network"
-                },
-                {
-                    "identifier": "96.203.0.0/16",
-                    "type": "network"
-                },
-                {
-                    "identifier": "172.26.128.0/18",
-                    "type": "network"
-                },
-                {
-                    "identifier": "184.112.0.0/13",
-                    "type": "network"
-                },
-                {
-                    "identifier": "184.122.0.0/15",
-                    "type": "network"
-                },
-                {
-                    "identifier": "NBC Universal",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Sky",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.sys.comcast.net",
-                    "type": "website"
-                },
-                {
-                    "identifier": "admin.selectwifi.xfinity.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/imperva-mbb",
         "bounty": 1,
         "active": 1,
@@ -8714,6 +8623,97 @@
                 }
             ],
             "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/comcast-mbb",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.xfinity.com\t",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.comcast.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.xcal.tv",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Staging, QA, Dev, and Test Environments",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "*.hfc.comcastbusiness.net",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.hsd1.*.comcast.net",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*business.comcast.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "10.0.0.0/8",
+                    "type": "network"
+                },
+                {
+                    "identifier": "50.128.0.0/12",
+                    "type": "network"
+                },
+                {
+                    "identifier": "50.152.0.0/13",
+                    "type": "network"
+                },
+                {
+                    "identifier": "96.201.0.0/16",
+                    "type": "network"
+                },
+                {
+                    "identifier": "96.202.128.0/17",
+                    "type": "network"
+                },
+                {
+                    "identifier": "96.203.0.0/16",
+                    "type": "network"
+                },
+                {
+                    "identifier": "172.26.128.0/18",
+                    "type": "network"
+                },
+                {
+                    "identifier": "184.112.0.0/13",
+                    "type": "network"
+                },
+                {
+                    "identifier": "184.122.0.0/15",
+                    "type": "network"
+                },
+                {
+                    "identifier": "NBC Universal",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Sky",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.sys.comcast.net",
+                    "type": "website"
+                },
+                {
+                    "identifier": "admin.selectwifi.xfinity.com",
+                    "type": "website"
+                }
+            ]
         }
     },
     {
@@ -11586,69 +11586,6 @@
         }
     },
     {
-        "handle": "engagements/octopus-og",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.octopus.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Octopus Deploy Git Repo",
-                    "type": "other"
-                },
-                {
-                    "identifier": "octopus.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "*.octopus.app",
-                    "type": "website"
-                },
-                {
-                    "identifier": "artifactorysample.octopus.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "bamboosample.octopus.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "jenkinssample.octopus.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "teamcitysample.octopus.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "nexussample.octopus.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "myget.octopus.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": " partners.octopus.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "trust.octopus.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "i.octopus.com",
-                    "type": "other"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/opensea",
         "bounty": 1,
         "active": 1,
@@ -11818,6 +11755,69 @@
                 {
                     "identifier": "trello-attachments.s3.amazonaws.com",
                     "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/octopus-og",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.octopus.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Octopus Deploy Git Repo",
+                    "type": "other"
+                },
+                {
+                    "identifier": "octopus.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "*.octopus.app",
+                    "type": "website"
+                },
+                {
+                    "identifier": "artifactorysample.octopus.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "bamboosample.octopus.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "jenkinssample.octopus.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "teamcitysample.octopus.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "nexussample.octopus.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "myget.octopus.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": " partners.octopus.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "trust.octopus.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "i.octopus.com",
+                    "type": "other"
                 }
             ]
         }
@@ -13701,61 +13701,6 @@
         }
     },
     {
-        "handle": "engagements/etsy",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "www.etsy.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Etsy Mobile Application (Android)",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Etsy Mobile Application (iPhone)",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Etsy API (see documentation below)",
-                    "type": "api"
-                },
-                {
-                    "identifier": "etsypayments.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "blog.etsy.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "careers.etsy.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "help.etsy.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "community.etsy.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.etsy.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "icht.etsysecure.com",
-                    "type": "api"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/hubspot",
         "bounty": 1,
         "active": 1,
@@ -14852,6 +14797,61 @@
                 {
                     "identifier": "international.nubank.com.br",
                     "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/etsy",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "www.etsy.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Etsy Mobile Application (Android)",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Etsy Mobile Application (iPhone)",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Etsy API (see documentation below)",
+                    "type": "api"
+                },
+                {
+                    "identifier": "etsypayments.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "blog.etsy.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "careers.etsy.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "help.etsy.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "community.etsy.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.etsy.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "icht.etsysecure.com",
+                    "type": "api"
                 }
             ]
         }
