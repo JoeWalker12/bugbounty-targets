@@ -4733,54 +4733,50 @@
         }
     },
     {
-        "handle": "engagements/openai",
+        "handle": "engagements/sendbird-mbb",
         "bounty": 1,
-        "active": 1,
+        "active": 0,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "api.openai.com",
+                    "identifier": "https://dashboard.sendbird.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://gate.sendbird.com",
                     "type": "api"
                 },
                 {
-                    "identifier": "ChatGPT",
-                    "type": "website"
-                },
-                {
-                    "identifier": "ChatGPT Plugins",
+                    "identifier": "https://api-{app-id}.sendbird.com",
                     "type": "api"
                 },
                 {
-                    "identifier": "Third Party Targets",
-                    "type": "website"
-                },
-                {
-                    "identifier": "OpenAI API Keys",
+                    "identifier": "https://ws-{app-id}.sendbird.com",
                     "type": "api"
                 },
                 {
-                    "identifier": "https://openai.org",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.openai.org",
+                    "identifier": "https://desk-api-{region}.sendbird.com",
                     "type": "api"
                 },
                 {
-                    "identifier": "openai.com",
+                    "identifier": "https://ws-{app-id}.calls.sendbird.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://api-{app-id}.calls.sendbird.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://api-{app-id}.notifications.sendbird.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://sendbird.com/docs",
                     "type": "website"
                 },
                 {
-                    "identifier": "*.openai.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Developer Platform Playground",
+                    "identifier": "https://sendbird.com",
                     "type": "website"
-                },
-                {
-                    "identifier": "Other",
-                    "type": "other"
                 }
             ],
             "out_of_scope": []
@@ -4916,50 +4912,54 @@
         }
     },
     {
-        "handle": "engagements/sendbird-mbb",
+        "handle": "engagements/openai",
         "bounty": 1,
-        "active": 0,
+        "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "https://dashboard.sendbird.com",
+                    "identifier": "api.openai.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "ChatGPT",
                     "type": "website"
                 },
                 {
-                    "identifier": "https://gate.sendbird.com",
+                    "identifier": "ChatGPT Plugins",
                     "type": "api"
                 },
                 {
-                    "identifier": "https://api-{app-id}.sendbird.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://ws-{app-id}.sendbird.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://desk-api-{region}.sendbird.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://ws-{app-id}.calls.sendbird.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://api-{app-id}.calls.sendbird.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://api-{app-id}.notifications.sendbird.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://sendbird.com/docs",
+                    "identifier": "Third Party Targets",
                     "type": "website"
                 },
                 {
-                    "identifier": "https://sendbird.com",
+                    "identifier": "OpenAI API Keys",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://openai.org",
                     "type": "website"
+                },
+                {
+                    "identifier": "*.openai.org",
+                    "type": "api"
+                },
+                {
+                    "identifier": "openai.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.openai.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Developer Platform Playground",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Other",
+                    "type": "other"
                 }
             ],
             "out_of_scope": []
@@ -5829,274 +5829,6 @@
         }
     },
     {
-        "handle": "engagements/monash-mbb",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "  identity.monash.edu",
-                    "type": "website"
-                },
-                {
-                    "identifier": " mix.monash.edu ",
-                    "type": "api"
-                },
-                {
-                    "identifier": "connect.monash.edu",
-                    "type": "website"
-                },
-                {
-                    "identifier": "identity.monash.edu",
-                    "type": "website"
-                },
-                {
-                    "identifier": "monash.edu",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Staff.monash",
-                    "type": "website"
-                },
-                {
-                    "identifier": "apps.connect.monash.edu/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "VPN: vpn.monash.edu",
-                    "type": "website"
-                },
-                {
-                    "identifier": "eassessment.monash.edu",
-                    "type": "website"
-                },
-                {
-                    "identifier": "fileshare.ze.monash.edu",
-                    "type": "website"
-                },
-                {
-                    "identifier": "cms.mobile.monash",
-                    "type": "website"
-                },
-                {
-                    "identifier": "mobile.monash",
-                    "type": "website"
-                },
-                {
-                    "identifier": "status.mobile.monash",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://monashcollege.edu.au",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://online.monash.edu/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Monash Study iOS App",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Monash Study Android app",
-                    "type": "android"
-                },
-                {
-                    "identifier": "https://myapp.monash.edu/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://alumni-friends.monash.edu",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://agent.apps.monash.edu/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://compulsoryunits.monash.edu/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "monash.app.nutrip.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "studentplacements.monash.edu",
-                    "type": "website"
-                },
-                {
-                    "identifier": "unihub.monash.edu",
-                    "type": "website"
-                },
-                {
-                    "identifier": "interviews.monash.edu",
-                    "type": "website"
-                },
-                {
-                    "identifier": "shop.monash.edu",
-                    "type": "website"
-                },
-                {
-                    "identifier": "mlivetickets.monash.edu",
-                    "type": "website"
-                },
-                {
-                    "identifier": "partner.apps.monash.edu",
-                    "type": "website"
-                },
-                {
-                    "identifier": "bSafe Android App",
-                    "type": "android"
-                },
-                {
-                    "identifier": "bSafe iPhone App",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "forms.apps.monash.edu",
-                    "type": "website"
-                },
-                {
-                    "identifier": "formative.eassessment.monas.edu",
-                    "type": "website"
-                },
-                {
-                    "identifier": "monashprofessional.edu.au",
-                    "type": "website"
-                },
-                {
-                    "identifier": "account-registration.monash.edu",
-                    "type": "website"
-                },
-                {
-                    "identifier": "pay.monashcollege.edu.au",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Monash e-Vigilation",
-                    "type": "website"
-                },
-                {
-                    "identifier": "student.monash",
-                    "type": "website"
-                },
-                {
-                    "identifier": "mids.monash.edu",
-                    "type": "website"
-                },
-                {
-                    "identifier": "ims.monash.edu",
-                    "type": "website"
-                },
-                {
-                    "identifier": "research.monash.edu",
-                    "type": "website"
-                },
-                {
-                    "identifier": "researchmgt.monash.edu",
-                    "type": "website"
-                },
-                {
-                    "identifier": "move.monash.edu",
-                    "type": "website"
-                },
-                {
-                    "identifier": "mix-qat.monash.edu/*",
-                    "type": "api"
-                },
-                {
-                    "identifier": "mix-dev.monash.edu/*",
-                    "type": "api"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/canva",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "www.canva.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Canva Developer Portal",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Apps SDK Sandboxing",
-                    "type": "other"
-                },
-                {
-                    "identifier": "api.canva.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.canva.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.canva-apps.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.canva.tech",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Canva for ChatGPT",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Canva for Slack",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Canva Desktop (macOS / Windows)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Canva (iOS)",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Canva (Android)",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Canva (Chrome Extension)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "*.canva.cn",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.canva-apps.cn",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Leaked Credentials and Secrets (Canva Employee/Contractor)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Leaked Credentials and Secrets (Canva User)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "3rd-Party Provider Vulnerability",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/lululemon",
         "bounty": 1,
         "active": 0,
@@ -6263,6 +5995,88 @@
                 },
                 {
                     "identifier": "Any host/web property/mobile app verified to be owned by Indeed",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/canva",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "www.canva.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Canva Developer Portal",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Apps SDK Sandboxing",
+                    "type": "other"
+                },
+                {
+                    "identifier": "api.canva.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.canva.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.canva-apps.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.canva.tech",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Canva for ChatGPT",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Canva for Slack",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Canva Desktop (macOS / Windows)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Canva (iOS)",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Canva (Android)",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Canva (Chrome Extension)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "*.canva.cn",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.canva-apps.cn",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Leaked Credentials and Secrets (Canva Employee/Contractor)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Leaked Credentials and Secrets (Canva User)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "3rd-Party Provider Vulnerability",
                     "type": "other"
                 }
             ],
@@ -6537,6 +6351,192 @@
         }
     },
     {
+        "handle": "engagements/monash-mbb",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "  identity.monash.edu",
+                    "type": "website"
+                },
+                {
+                    "identifier": " mix.monash.edu ",
+                    "type": "api"
+                },
+                {
+                    "identifier": "connect.monash.edu",
+                    "type": "website"
+                },
+                {
+                    "identifier": "identity.monash.edu",
+                    "type": "website"
+                },
+                {
+                    "identifier": "monash.edu",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Staff.monash",
+                    "type": "website"
+                },
+                {
+                    "identifier": "apps.connect.monash.edu/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "VPN: vpn.monash.edu",
+                    "type": "website"
+                },
+                {
+                    "identifier": "eassessment.monash.edu",
+                    "type": "website"
+                },
+                {
+                    "identifier": "fileshare.ze.monash.edu",
+                    "type": "website"
+                },
+                {
+                    "identifier": "cms.mobile.monash",
+                    "type": "website"
+                },
+                {
+                    "identifier": "mobile.monash",
+                    "type": "website"
+                },
+                {
+                    "identifier": "status.mobile.monash",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://monashcollege.edu.au",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://online.monash.edu/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Monash Study iOS App",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Monash Study Android app",
+                    "type": "android"
+                },
+                {
+                    "identifier": "https://myapp.monash.edu/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://alumni-friends.monash.edu",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://agent.apps.monash.edu/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://compulsoryunits.monash.edu/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "monash.app.nutrip.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "studentplacements.monash.edu",
+                    "type": "website"
+                },
+                {
+                    "identifier": "unihub.monash.edu",
+                    "type": "website"
+                },
+                {
+                    "identifier": "interviews.monash.edu",
+                    "type": "website"
+                },
+                {
+                    "identifier": "shop.monash.edu",
+                    "type": "website"
+                },
+                {
+                    "identifier": "mlivetickets.monash.edu",
+                    "type": "website"
+                },
+                {
+                    "identifier": "partner.apps.monash.edu",
+                    "type": "website"
+                },
+                {
+                    "identifier": "bSafe Android App",
+                    "type": "android"
+                },
+                {
+                    "identifier": "bSafe iPhone App",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "forms.apps.monash.edu",
+                    "type": "website"
+                },
+                {
+                    "identifier": "formative.eassessment.monas.edu",
+                    "type": "website"
+                },
+                {
+                    "identifier": "monashprofessional.edu.au",
+                    "type": "website"
+                },
+                {
+                    "identifier": "account-registration.monash.edu",
+                    "type": "website"
+                },
+                {
+                    "identifier": "pay.monashcollege.edu.au",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Monash e-Vigilation",
+                    "type": "website"
+                },
+                {
+                    "identifier": "student.monash",
+                    "type": "website"
+                },
+                {
+                    "identifier": "mids.monash.edu",
+                    "type": "website"
+                },
+                {
+                    "identifier": "ims.monash.edu",
+                    "type": "website"
+                },
+                {
+                    "identifier": "research.monash.edu",
+                    "type": "website"
+                },
+                {
+                    "identifier": "researchmgt.monash.edu",
+                    "type": "website"
+                },
+                {
+                    "identifier": "move.monash.edu",
+                    "type": "website"
+                },
+                {
+                    "identifier": "mix-qat.monash.edu/*",
+                    "type": "api"
+                },
+                {
+                    "identifier": "mix-dev.monash.edu/*",
+                    "type": "api"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
         "handle": "engagements/kennasecurity",
         "bounty": 1,
         "active": 0,
@@ -6655,92 +6655,6 @@
                 },
                 {
                     "identifier": "Octopus Server",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/privateinternetaccess",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.privateinternetaccess.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "privateinternetaccess.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "piaservers.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "piaservers.net",
-                    "type": "website"
-                },
-                {
-                    "identifier": "PIA APIs",
-                    "type": "api"
-                },
-                {
-                    "identifier": "PIA VPN servers",
-                    "type": "other"
-                },
-                {
-                    "identifier": "PIA iOS application",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "PIA Android application",
-                    "type": "android"
-                },
-                {
-                    "identifier": "PIA Linux application",
-                    "type": "other"
-                },
-                {
-                    "identifier": "PIA macOS application",
-                    "type": "other"
-                },
-                {
-                    "identifier": "PIA Windows application",
-                    "type": "other"
-                },
-                {
-                    "identifier": "PIA Chrome extension",
-                    "type": "other"
-                },
-                {
-                    "identifier": "PIA Firefox extension",
-                    "type": "other"
-                },
-                {
-                    "identifier": "PIA Opera extension",
-                    "type": "other"
-                },
-                {
-                    "identifier": "polymoon.it",
-                    "type": "network"
-                },
-                {
-                    "identifier": "Employee Email",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Internal chat messages",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Source code hosting",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Vulnerabilities compromising the privacy of our employees",
                     "type": "other"
                 }
             ],
@@ -7976,20 +7890,6 @@
         }
     },
     {
-        "handle": "engagements/pantheon",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://dashboard.pantheon.io",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/tripadvisor-bb-og",
         "bounty": 1,
         "active": 1,
@@ -8714,6 +8614,106 @@
                     "type": "other"
                 }
             ]
+        }
+    },
+    {
+        "handle": "engagements/pantheon",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://dashboard.pantheon.io",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/privateinternetaccess",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.privateinternetaccess.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "privateinternetaccess.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "piaservers.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "piaservers.net",
+                    "type": "website"
+                },
+                {
+                    "identifier": "PIA APIs",
+                    "type": "api"
+                },
+                {
+                    "identifier": "PIA VPN servers",
+                    "type": "other"
+                },
+                {
+                    "identifier": "PIA iOS application",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "PIA Android application",
+                    "type": "android"
+                },
+                {
+                    "identifier": "PIA Linux application",
+                    "type": "other"
+                },
+                {
+                    "identifier": "PIA macOS application",
+                    "type": "other"
+                },
+                {
+                    "identifier": "PIA Windows application",
+                    "type": "other"
+                },
+                {
+                    "identifier": "PIA Chrome extension",
+                    "type": "other"
+                },
+                {
+                    "identifier": "PIA Firefox extension",
+                    "type": "other"
+                },
+                {
+                    "identifier": "PIA Opera extension",
+                    "type": "other"
+                },
+                {
+                    "identifier": "polymoon.it",
+                    "type": "network"
+                },
+                {
+                    "identifier": "Employee Email",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Internal chat messages",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Source code hosting",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Vulnerabilities compromising the privacy of our employees",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": []
         }
     },
     {
@@ -10892,20 +10892,6 @@
         }
     },
     {
-        "handle": "engagements/pexels",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.pexels.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/consensus-mbb-og",
         "bounty": 1,
         "active": 1,
@@ -11820,6 +11806,20 @@
                     "type": "website"
                 }
             ]
+        }
+    },
+    {
+        "handle": "engagements/pexels",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.pexels.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
         }
     },
     {
@@ -13882,61 +13882,6 @@
         }
     },
     {
-        "handle": "engagements/etsy",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "www.etsy.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Etsy Mobile Application (Android)",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Etsy Mobile Application (iPhone)",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Etsy API (see documentation below)",
-                    "type": "api"
-                },
-                {
-                    "identifier": "etsypayments.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "blog.etsy.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "careers.etsy.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "help.etsy.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "community.etsy.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.etsy.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "icht.etsysecure.com",
-                    "type": "api"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/fis",
         "bounty": 1,
         "active": 1,
@@ -13951,81 +13896,6 @@
                 {
                     "identifier": "Reference above out of scope targets",
                     "type": "website"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/asana",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "app.asana.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "asana.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.asana.plus",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Asana Desktop App",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Asana iOS app",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Asana Android app",
-                    "type": "android"
-                },
-                {
-                    "identifier": "form.asana.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.app.asana.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.asana.biz",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Subdomain takeover at *asana.biz",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "Other subdomains of asana.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Social engineering against Asana Support or Asana Employees",
-                    "type": "other"
-                },
-                {
-                    "identifier": "jira*.integrations.asana.plus",
-                    "type": "website"
-                },
-                {
-                    "identifier": "asana.okta.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "assets.asana.biz",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Forms that you do not own",
-                    "type": "other"
                 }
             ]
         }
@@ -14133,115 +14003,219 @@
         }
     },
     {
-        "handle": "engagements/bitso-mbb-og",
+        "handle": "engagements/atlassian",
         "bounty": 1,
         "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "bitso.com",
+                    "identifier": "Atlassian Guard Standard and Premium (https://admin.atlassian.com/atlassian-guard)",
                     "type": "website"
                 },
                 {
-                    "identifier": "https://nvio.mx/",
+                    "identifier": "Atlassian Admin (https://admin.atlassian.com/)",
                     "type": "website"
                 },
                 {
-                    "identifier": "https://nvio.ar/",
+                    "identifier": "Atlassian Identity (https://id.atlassian.com/login)",
                     "type": "website"
                 },
                 {
-                    "identifier": "Mobile App Bitso Wallet iOS",
-                    "type": "ios"
+                    "identifier": "Atlassian Start (https://start.atlassian.com)",
+                    "type": "website"
                 },
                 {
-                    "identifier": "Mobile App Bitso Alpha iOS",
-                    "type": "ios"
+                    "identifier": "Bitbucket Cloud including Bitbucket Pipelines (https://bitbucket.org)",
+                    "type": "website"
                 },
                 {
-                    "identifier": "Mobile App Bitso Wallet Android",
+                    "identifier": "Confluence Cloud (bugbounty-test-<bugcrowd-name>.atlassian.net/wiki)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Confluence Cloud Premium (bugbounty-test-<bugcrowd-name>.atlassian.net/wiki)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Confluence Cloud Mobile App for Android",
                     "type": "android"
                 },
                 {
-                    "identifier": "Mobile App Bitso Alpha Android",
+                    "identifier": "Confluence Cloud Mobile App for iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Jira Cloud Mobile App for Android",
                     "type": "android"
+                },
+                {
+                    "identifier": "Jira Cloud Mobile App for iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Jira Service Management Cloud (bugbounty-test-<bugcrowd-name>.atlassian.net)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Jira Software Cloud (bugbounty-test-<bugcrowd-name>.atlassian.net)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Jira Work Management Cloud formerly Jira Core (bugbounty-test-<bugcrowd-name>.atlassian.net)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Any associated *.atlassian.com or *.atl-paas.net domain that can be exploited DIRECTLY from the *.atlassian.net instance",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Rovo",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Atlassian Compass",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Atlassian Marketplace (https://marketplace.atlassian.com)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Atlassian Atlas",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Bitbucket Data Center",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Confluence Data Center",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Crowd",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Jira Core Data Center",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Jira Service Management Data Center",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Jira Software Data Center",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.atlastunnel.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Any other *.atlassian.com or *.atl-paas.net domain that cannot be exploited directly from a *.atlassian.net instance",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Bamboo",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Confluence Companion App for macOS and Windows",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Confluence Data Center Mobile App for Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Confluence Data Center Mobile App for iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Crucible",
+                    "type": "website"
+                },
+                {
+                    "identifier": "FishEye",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Jira Data Center Mobile App for Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Jira Data Center Mobile App for iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Sourcetree for macOS and Windows (https://www.sourcetreeapp.com/)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Other - (all other Atlassian targets)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Jira Product Discovery",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Forge Platform",
+                    "type": "other"
+                },
+                {
+                    "identifier": "GraphQL API (bugbounty-test-<bugcrowd-name>.atlassian.net/gateway/api/graphql)",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://www.npmjs.com/package/@forge/cli",
+                    "type": "other"
                 }
             ],
             "out_of_scope": [
                 {
-                    "identifier": "help.bitso.com",
+                    "identifier": "Any internal or development services.",
                     "type": "website"
                 },
                 {
-                    "identifier": "status.bitso.com\t",
+                    "identifier": "First and third party apps and plugins from the marketplace are excluded from this bounty but may be in scope for https://bugcrowd.com/atlassianapps",
                     "type": "website"
                 },
                 {
-                    "identifier": "dev.bitso.com\t",
+                    "identifier": "shop.atlassian.com",
                     "type": "website"
                 },
                 {
-                    "identifier": "blog.bitso.com",
+                    "identifier": " bytebucket.org",
                     "type": "website"
                 },
                 {
-                    "identifier": "stage.bitso.com",
+                    "identifier": "*.bitbucket.io",
                     "type": "website"
                 },
                 {
-                    "identifier": "landing.bitso.com\t",
+                    "identifier": "https://blog.bitbucket.org",
                     "type": "website"
                 },
                 {
-                    "identifier": "devmalta.bitso.com\t",
+                    "identifier": "HipChat (inc. HipChat Data Center, HipChat Desktop, HipChat Mobile)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Stride (inc. Stride Video, Stride Desktop, Stride Mobile)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "support.atlassian.com",
                     "type": "website"
                 },
                 {
-                    "identifier": "edu.bitso.com\t",
+                    "identifier": "Any customer instance. Do not test customer instances or affect customer data. Customer cloud instances may be in the form of <customer>.atlassian.net or <customer>.jira.com. Test only your own instances.",
                     "type": "website"
                 },
                 {
-                    "identifier": "sandbox.bitso.com\t",
-                    "type": "website"
-                },
-                {
-                    "identifier": "api-dev.bitso.com\t",
-                    "type": "api"
-                },
-                {
-                    "identifier": "api-stage.bitso.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "api-sandbox.bitso.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "stagemalta.bitso.com\t",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.otc.bitso.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.efx.bitso.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "quetzal.bitso.com\t",
-                    "type": "website"
-                },
-                {
-                    "identifier": "login.bitso.io",
-                    "type": "website"
-                },
-                {
-                    "identifier": "bitsohelp.zendesk.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "support.bitso.com",
+                    "identifier": "Any repository that you are not an owner of - do not impact Atlassian customers in any way.",
                     "type": "website"
                 }
             ]
@@ -14579,6 +14553,136 @@
         }
     },
     {
+        "handle": "engagements/etsy",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "www.etsy.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Etsy Mobile Application (Android)",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Etsy Mobile Application (iPhone)",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Etsy API (see documentation below)",
+                    "type": "api"
+                },
+                {
+                    "identifier": "etsypayments.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "blog.etsy.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "careers.etsy.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "help.etsy.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "community.etsy.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.etsy.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "icht.etsysecure.com",
+                    "type": "api"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/asana",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "app.asana.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "asana.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.asana.plus",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Asana Desktop App",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Asana iOS app",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Asana Android app",
+                    "type": "android"
+                },
+                {
+                    "identifier": "form.asana.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.app.asana.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.asana.biz",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Subdomain takeover at *asana.biz",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "Other subdomains of asana.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Social engineering against Asana Support or Asana Employees",
+                    "type": "other"
+                },
+                {
+                    "identifier": "jira*.integrations.asana.plus",
+                    "type": "website"
+                },
+                {
+                    "identifier": "asana.okta.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "assets.asana.biz",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Forms that you do not own",
+                    "type": "other"
+                }
+            ]
+        }
+    },
+    {
         "handle": "engagements/nubank",
         "bounty": 1,
         "active": 1,
@@ -14638,219 +14742,115 @@
         }
     },
     {
-        "handle": "engagements/atlassian",
+        "handle": "engagements/bitso-mbb-og",
         "bounty": 1,
         "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "Atlassian Guard Standard and Premium (https://admin.atlassian.com/atlassian-guard)",
+                    "identifier": "bitso.com",
                     "type": "website"
                 },
                 {
-                    "identifier": "Atlassian Admin (https://admin.atlassian.com/)",
+                    "identifier": "https://nvio.mx/",
                     "type": "website"
                 },
                 {
-                    "identifier": "Atlassian Identity (https://id.atlassian.com/login)",
+                    "identifier": "https://nvio.ar/",
                     "type": "website"
                 },
                 {
-                    "identifier": "Atlassian Start (https://start.atlassian.com)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Bitbucket Cloud including Bitbucket Pipelines (https://bitbucket.org)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Confluence Cloud (bugbounty-test-<bugcrowd-name>.atlassian.net/wiki)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Confluence Cloud Premium (bugbounty-test-<bugcrowd-name>.atlassian.net/wiki)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Confluence Cloud Mobile App for Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Confluence Cloud Mobile App for iOS",
+                    "identifier": "Mobile App Bitso Wallet iOS",
                     "type": "ios"
                 },
                 {
-                    "identifier": "Jira Cloud Mobile App for Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Jira Cloud Mobile App for iOS",
+                    "identifier": "Mobile App Bitso Alpha iOS",
                     "type": "ios"
                 },
                 {
-                    "identifier": "Jira Service Management Cloud (bugbounty-test-<bugcrowd-name>.atlassian.net)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Jira Software Cloud (bugbounty-test-<bugcrowd-name>.atlassian.net)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Jira Work Management Cloud formerly Jira Core (bugbounty-test-<bugcrowd-name>.atlassian.net)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Any associated *.atlassian.com or *.atl-paas.net domain that can be exploited DIRECTLY from the *.atlassian.net instance",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Rovo",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Atlassian Compass",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Atlassian Marketplace (https://marketplace.atlassian.com)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Atlassian Atlas",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Bitbucket Data Center",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Confluence Data Center",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Crowd",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Jira Core Data Center",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Jira Service Management Data Center",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Jira Software Data Center",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.atlastunnel.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Any other *.atlassian.com or *.atl-paas.net domain that cannot be exploited directly from a *.atlassian.net instance",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Bamboo",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Confluence Companion App for macOS and Windows",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Confluence Data Center Mobile App for Android",
+                    "identifier": "Mobile App Bitso Wallet Android",
                     "type": "android"
                 },
                 {
-                    "identifier": "Confluence Data Center Mobile App for iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Crucible",
-                    "type": "website"
-                },
-                {
-                    "identifier": "FishEye",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Jira Data Center Mobile App for Android",
+                    "identifier": "Mobile App Bitso Alpha Android",
                     "type": "android"
-                },
-                {
-                    "identifier": "Jira Data Center Mobile App for iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Sourcetree for macOS and Windows (https://www.sourcetreeapp.com/)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Other - (all other Atlassian targets)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Jira Product Discovery",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Forge Platform",
-                    "type": "other"
-                },
-                {
-                    "identifier": "GraphQL API (bugbounty-test-<bugcrowd-name>.atlassian.net/gateway/api/graphql)",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://www.npmjs.com/package/@forge/cli",
-                    "type": "other"
                 }
             ],
             "out_of_scope": [
                 {
-                    "identifier": "Any internal or development services.",
+                    "identifier": "help.bitso.com",
                     "type": "website"
                 },
                 {
-                    "identifier": "First and third party apps and plugins from the marketplace are excluded from this bounty but may be in scope for https://bugcrowd.com/atlassianapps",
+                    "identifier": "status.bitso.com\t",
                     "type": "website"
                 },
                 {
-                    "identifier": "shop.atlassian.com",
+                    "identifier": "dev.bitso.com\t",
                     "type": "website"
                 },
                 {
-                    "identifier": " bytebucket.org",
+                    "identifier": "blog.bitso.com",
                     "type": "website"
                 },
                 {
-                    "identifier": "*.bitbucket.io",
+                    "identifier": "stage.bitso.com",
                     "type": "website"
                 },
                 {
-                    "identifier": "https://blog.bitbucket.org",
+                    "identifier": "landing.bitso.com\t",
                     "type": "website"
                 },
                 {
-                    "identifier": "HipChat (inc. HipChat Data Center, HipChat Desktop, HipChat Mobile)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Stride (inc. Stride Video, Stride Desktop, Stride Mobile)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "support.atlassian.com",
+                    "identifier": "devmalta.bitso.com\t",
                     "type": "website"
                 },
                 {
-                    "identifier": "Any customer instance. Do not test customer instances or affect customer data. Customer cloud instances may be in the form of <customer>.atlassian.net or <customer>.jira.com. Test only your own instances.",
+                    "identifier": "edu.bitso.com\t",
                     "type": "website"
                 },
                 {
-                    "identifier": "Any repository that you are not an owner of - do not impact Atlassian customers in any way.",
+                    "identifier": "sandbox.bitso.com\t",
+                    "type": "website"
+                },
+                {
+                    "identifier": "api-dev.bitso.com\t",
+                    "type": "api"
+                },
+                {
+                    "identifier": "api-stage.bitso.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "api-sandbox.bitso.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "stagemalta.bitso.com\t",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.otc.bitso.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.efx.bitso.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "quetzal.bitso.com\t",
+                    "type": "website"
+                },
+                {
+                    "identifier": "login.bitso.io",
+                    "type": "website"
+                },
+                {
+                    "identifier": "bitsohelp.zendesk.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "support.bitso.com",
                     "type": "website"
                 }
             ]
