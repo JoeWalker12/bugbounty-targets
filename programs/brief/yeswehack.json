@@ -1,45 +1,57 @@
 [
     {
-        "handle": "swiss-post",
+        "handle": "swapcard",
         "bounty": 1,
         "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "(*.post.ch:80|*.post.ch:443) AND 194.41.128.0/17",
-                    "type": "other"
+                    "identifier": "api.swapcard.com",
+                    "type": "api"
                 },
                 {
-                    "identifier": "https://account.post.ch",
+                    "identifier": "chat-api.swapcard.com/graphql",
+                    "type": "api"
+                },
+                {
+                    "identifier": "developer.swapcard.com/event-admin/graphql",
+                    "type": "api"
+                },
+                {
+                    "identifier": "login.swapcard.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "studio-api.swapcard.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "app.swapcard.com",
                     "type": "web-application"
                 },
                 {
-                    "identifier": "https://shop.post.ch/shop",
+                    "identifier": "studio.swapcard.com",
                     "type": "web-application"
                 },
                 {
-                    "identifier": "https://service.post.ch/ekp-web/",
+                    "identifier": "team.swapcard.com",
                     "type": "web-application"
                 },
                 {
-                    "identifier": "https://service.post.ch/zopa/app/",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://play.google.com/store/apps/details?id=com.nth.swisspost&hl=de_CH&gl=US",
-                    "type": "mobile-application-android"
-                },
-                {
-                    "identifier": "https://apps.apple.com/ch/app/die-post/id378676700",
+                    "identifier": "https://apps.apple.com/fr/app/swapcard/id879488719",
                     "type": "mobile-application-ios"
                 },
                 {
-                    "identifier": "https://billingonline.post.ch/OnlinePayment/Web/v1/BOI",
-                    "type": "web-application"
+                    "identifier": "https://play.google.com/store/apps/details?id=com.swapcard.apps.android&hl=fr",
+                    "type": "mobile-application-android"
                 },
                 {
-                    "identifier": "https://service.post.ch/ele-klp/ele/",
-                    "type": "web-application"
+                    "identifier": "img.swapcard.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "t.swapcard.com",
+                    "type": "api"
                 }
             ],
             "out_of_scope": []
@@ -93,6 +105,86 @@
                 },
                 {
                     "identifier": "*.jbl.com.br",
+                    "type": "web-application"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "qwant",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "www.qwant.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "api.qwant.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "s.qwant.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "s1.qwant.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "s2.qwant.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "qwantjunior.com",
+                    "type": "web-application"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "swiss-post",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "(*.post.ch:80|*.post.ch:443) AND 194.41.128.0/17",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://account.post.ch",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://shop.post.ch/shop",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://service.post.ch/ekp-web/",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://service.post.ch/zopa/app/",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://play.google.com/store/apps/details?id=com.nth.swisspost&hl=de_CH&gl=US",
+                    "type": "mobile-application-android"
+                },
+                {
+                    "identifier": "https://apps.apple.com/ch/app/die-post/id378676700",
+                    "type": "mobile-application-ios"
+                },
+                {
+                    "identifier": "https://billingonline.post.ch/OnlinePayment/Web/v1/BOI",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://service.post.ch/ele-klp/ele/",
                     "type": "web-application"
                 }
             ],
@@ -1596,40 +1688,6 @@
         }
     },
     {
-        "handle": "qwant",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "www.qwant.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "api.qwant.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "s.qwant.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "s1.qwant.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "s2.qwant.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "qwantjunior.com",
-                    "type": "web-application"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "toom-baumarkt-gmbh-bug-bounty-program",
         "bounty": 1,
         "active": 1,
@@ -1942,64 +2000,6 @@
                 {
                     "identifier": "https://telehealth.onedoc.ch",
                     "type": "web-application"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "swapcard",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "api.swapcard.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "chat-api.swapcard.com/graphql",
-                    "type": "api"
-                },
-                {
-                    "identifier": "developer.swapcard.com/event-admin/graphql",
-                    "type": "api"
-                },
-                {
-                    "identifier": "login.swapcard.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "studio-api.swapcard.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "app.swapcard.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "studio.swapcard.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "team.swapcard.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://apps.apple.com/fr/app/swapcard/id879488719",
-                    "type": "mobile-application-ios"
-                },
-                {
-                    "identifier": "https://play.google.com/store/apps/details?id=com.swapcard.apps.android&hl=fr",
-                    "type": "mobile-application-android"
-                },
-                {
-                    "identifier": "img.swapcard.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "t.swapcard.com",
-                    "type": "api"
                 }
             ],
             "out_of_scope": []
