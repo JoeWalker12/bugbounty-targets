@@ -2952,25 +2952,6 @@
         }
     },
     {
-        "handle": "engagements/kiteworks-public",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://kw-bugcrowd-pub.bounty.kiteworks.dev/",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "https://bugcrowd-pub.bounty.kiteworks.dev",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/plugin-people",
         "bounty": 1,
         "active": 1,
@@ -4615,29 +4596,38 @@
         }
     },
     {
-        "handle": "engagements/ultramobile-public-mbb-og",
+        "handle": "engagements/directly",
         "bounty": 1,
         "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "http://my.mintmobile.com/",
+                    "identifier": "app.sandbox.directly.com",
                     "type": "website"
                 },
                 {
-                    "identifier": "my.ultramobile.com",
+                    "identifier": "*.sandbox.directly.com/",
                     "type": "website"
                 },
                 {
-                    "identifier": "https://my.mintmobile.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://my.ultramobile.com",
+                    "identifier": "https://sandbox.directly.com/dashboard/index",
                     "type": "website"
                 }
             ],
-            "out_of_scope": []
+            "out_of_scope": [
+                {
+                    "identifier": "www.directly.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "resources.directly.com/*",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.sandbox.directly.com/schedule-a-demo/* OR /product/* OR /careers/* OR /about/* OR /legal/* OR /trust/*",
+                    "type": "website"
+                }
+            ]
         }
     },
     {
@@ -4819,6 +4809,25 @@
         }
     },
     {
+        "handle": "engagements/kiteworks-public",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://kw-bugcrowd-pub.bounty.kiteworks.dev/",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "https://bugcrowd-pub.bounty.kiteworks.dev",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
         "handle": "engagements/moovit-mbb-og",
         "bounty": 1,
         "active": 1,
@@ -4854,38 +4863,29 @@
         }
     },
     {
-        "handle": "engagements/directly",
+        "handle": "engagements/ultramobile-public-mbb-og",
         "bounty": 1,
         "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "app.sandbox.directly.com",
+                    "identifier": "http://my.mintmobile.com/",
                     "type": "website"
                 },
                 {
-                    "identifier": "*.sandbox.directly.com/",
+                    "identifier": "my.ultramobile.com",
                     "type": "website"
                 },
                 {
-                    "identifier": "https://sandbox.directly.com/dashboard/index",
+                    "identifier": "https://my.mintmobile.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://my.ultramobile.com",
                     "type": "website"
                 }
             ],
-            "out_of_scope": [
-                {
-                    "identifier": "www.directly.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "resources.directly.com/*",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.sandbox.directly.com/schedule-a-demo/* OR /product/* OR /careers/* OR /about/* OR /legal/* OR /trust/*",
-                    "type": "website"
-                }
-            ]
+            "out_of_scope": []
         }
     },
     {
