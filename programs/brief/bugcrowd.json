@@ -4596,38 +4596,57 @@
         }
     },
     {
-        "handle": "engagements/quizlet",
+        "handle": "engagements/openai",
         "bounty": 1,
         "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "https://*.quizlet.com",
+                    "identifier": "api.openai.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "ChatGPT",
                     "type": "website"
                 },
                 {
-                    "identifier": "IoS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "3.0 API",
+                    "identifier": "ChatGPT Plugins",
                     "type": "api"
+                },
+                {
+                    "identifier": "Third Party Targets",
+                    "type": "website"
+                },
+                {
+                    "identifier": "OpenAI API Keys",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://openai.org",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.openai.org",
+                    "type": "api"
+                },
+                {
+                    "identifier": "openai.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.openai.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Developer Platform Playground",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Other",
+                    "type": "other"
                 }
             ],
-            "out_of_scope": [
-                {
-                    "identifier": "2.0 API",
-                    "type": "api"
-                },
-                {
-                    "identifier": " help.quizlet.com (zendesk)",
-                    "type": "website"
-                }
-            ]
+            "out_of_scope": []
         }
     },
     {
@@ -4823,57 +4842,38 @@
         }
     },
     {
-        "handle": "engagements/openai",
+        "handle": "engagements/quizlet",
         "bounty": 1,
         "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "api.openai.com",
+                    "identifier": "https://*.quizlet.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "IoS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "3.0 API",
                     "type": "api"
-                },
-                {
-                    "identifier": "ChatGPT",
-                    "type": "website"
-                },
-                {
-                    "identifier": "ChatGPT Plugins",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Third Party Targets",
-                    "type": "website"
-                },
-                {
-                    "identifier": "OpenAI API Keys",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://openai.org",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.openai.org",
-                    "type": "api"
-                },
-                {
-                    "identifier": "openai.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.openai.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Developer Platform Playground",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Other",
-                    "type": "other"
                 }
             ],
-            "out_of_scope": []
+            "out_of_scope": [
+                {
+                    "identifier": "2.0 API",
+                    "type": "api"
+                },
+                {
+                    "identifier": " help.quizlet.com (zendesk)",
+                    "type": "website"
+                }
+            ]
         }
     },
     {
@@ -6032,213 +6032,6 @@
         }
     },
     {
-        "handle": "engagements/twilio",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "api.twilio.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Twilio APIs",
-                    "type": "api"
-                },
-                {
-                    "identifier": " tsock.us1.twilio.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": " *.sip.*.twilio.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": " Twilio WebRTC Client",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Twilio SDKs",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Twilio Console",
-                    "type": "website"
-                },
-                {
-                    "identifier": " Twilio CDNs (static*.twilio.com)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "twilio.com/blog",
-                    "type": "website"
-                },
-                {
-                    "identifier": "sendgrid.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "app.sendgrid.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "signup.sendgrid.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "api.sendgrid.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "mc.sendgrid.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "smtp.sendgrid.net",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Authy Android App",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Authy iOS app",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Twilio Verify",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Twilio Authy API",
-                    "type": "api"
-                },
-                {
-                    "identifier": "app.segment.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "api.segment.io",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Source code of Website, Mobile, or Server Libraries (https://segment.com/docs/sources/)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Any host/web property verified to be owned by Twilio et al.",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "All Twilio acquisitions until explicitly noted under the in-scope targets",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Third-party services",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Ytica and its assets ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "TwimlBins",
-                    "type": "other"
-                },
-                {
-                    "identifier": "All Kurento domains",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Twilio Quest",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Twilio Wireless",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Demo websites e.g. lab.authy.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "zipwhip.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "twil.io",
-                    "type": "website"
-                },
-                {
-                    "identifier": "support.twilio.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "support.sendgrid.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "segment.com/contact",
-                    "type": "website"
-                },
-                {
-                    "identifier": "status.sendgrid.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "status.twilio.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "status.segment.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "signal.twilio.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "twilio.com/labs",
-                    "type": "website"
-                },
-                {
-                    "identifier": "twiliotraining.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "surveys.twilio.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "community.segment.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "segment.com/jobs\t",
-                    "type": "website"
-                },
-                {
-                    "identifier": "twilio.com/en-us/company/jobs",
-                    "type": "website"
-                },
-                {
-                    "identifier": "talks.twilio.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "webinars.segment.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "transform.twilio.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/spacex",
         "bounty": 1,
         "active": 1,
@@ -6445,6 +6238,213 @@
                 }
             ],
             "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/twilio",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "api.twilio.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Twilio APIs",
+                    "type": "api"
+                },
+                {
+                    "identifier": " tsock.us1.twilio.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": " *.sip.*.twilio.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": " Twilio WebRTC Client",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Twilio SDKs",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Twilio Console",
+                    "type": "website"
+                },
+                {
+                    "identifier": " Twilio CDNs (static*.twilio.com)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "twilio.com/blog",
+                    "type": "website"
+                },
+                {
+                    "identifier": "sendgrid.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "app.sendgrid.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "signup.sendgrid.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "api.sendgrid.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "mc.sendgrid.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "smtp.sendgrid.net",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Authy Android App",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Authy iOS app",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Twilio Verify",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Twilio Authy API",
+                    "type": "api"
+                },
+                {
+                    "identifier": "app.segment.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "api.segment.io",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Source code of Website, Mobile, or Server Libraries (https://segment.com/docs/sources/)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Any host/web property verified to be owned by Twilio et al.",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "All Twilio acquisitions until explicitly noted under the in-scope targets",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Third-party services",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Ytica and its assets ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "TwimlBins",
+                    "type": "other"
+                },
+                {
+                    "identifier": "All Kurento domains",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Twilio Quest",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Twilio Wireless",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Demo websites e.g. lab.authy.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "zipwhip.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "twil.io",
+                    "type": "website"
+                },
+                {
+                    "identifier": "support.twilio.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "support.sendgrid.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "segment.com/contact",
+                    "type": "website"
+                },
+                {
+                    "identifier": "status.sendgrid.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "status.twilio.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "status.segment.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "signal.twilio.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "twilio.com/labs",
+                    "type": "website"
+                },
+                {
+                    "identifier": "twiliotraining.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "surveys.twilio.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "community.segment.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "segment.com/jobs\t",
+                    "type": "website"
+                },
+                {
+                    "identifier": "twilio.com/en-us/company/jobs",
+                    "type": "website"
+                },
+                {
+                    "identifier": "talks.twilio.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "webinars.segment.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "transform.twilio.com",
+                    "type": "website"
+                }
+            ]
         }
     },
     {
@@ -6664,45 +6664,6 @@
                 },
                 {
                     "identifier": " https://try.hotdoc.com.au/hotdoc-profiles",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/cloudinary",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://cloudinary.com/console",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://api.cloudinary.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://res.cloudinary.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "mediaflows.cloudinary.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "dimensions.cloudinary.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "https://support.cloudinary.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "wiki.cloudinary.com",
                     "type": "website"
                 }
             ]
@@ -9215,25 +9176,90 @@
         }
     },
     {
-        "handle": "engagements/bitgo-mbb-og-public",
+        "handle": "engagements/bugcrowd",
         "bounty": 1,
         "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "*.bitgo.com",
+                    "identifier": "docs.bugcrowd.com",
                     "type": "website"
                 },
                 {
-                    "identifier": "app.bitgo.com ",
+                    "identifier": "bugcrowd.com",
                     "type": "website"
                 },
                 {
-                    "identifier": "app.bitgo-test.com",
+                    "identifier": "Crowdcontrol",
+                    "type": "api"
+                },
+                {
+                    "identifier": "api.bugcrowd.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://identity.bugcrowd.com/ ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.bugcrowd.com/auth/*",
                     "type": "website"
                 }
             ],
-            "out_of_scope": []
+            "out_of_scope": [
+                {
+                    "identifier": "bugcrowd*.freshdesk.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "www.bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "blog.bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "researcherdocs.bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "pages.bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "forum.bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "email.bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "email.forum.bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "go.bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "events.bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "assetinventory.bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "community.bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "trust.bugcrowd.com",
+                    "type": "website"
+                }
+            ]
         }
     },
     {
@@ -9403,6 +9429,28 @@
         }
     },
     {
+        "handle": "engagements/bitgo-mbb-og-public",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.bitgo.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "app.bitgo.com ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "app.bitgo-test.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
         "handle": "engagements/unity",
         "bounty": 1,
         "active": 1,
@@ -9449,87 +9497,39 @@
         }
     },
     {
-        "handle": "engagements/bugcrowd",
+        "handle": "engagements/cloudinary",
         "bounty": 1,
         "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "docs.bugcrowd.com",
+                    "identifier": "https://cloudinary.com/console",
                     "type": "website"
                 },
                 {
-                    "identifier": "bugcrowd.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Crowdcontrol",
+                    "identifier": "https://api.cloudinary.com",
                     "type": "api"
                 },
                 {
-                    "identifier": "api.bugcrowd.com",
+                    "identifier": "https://res.cloudinary.com",
                     "type": "api"
                 },
                 {
-                    "identifier": "https://identity.bugcrowd.com/ ",
+                    "identifier": "mediaflows.cloudinary.com",
                     "type": "website"
                 },
                 {
-                    "identifier": "*.bugcrowd.com/auth/*",
+                    "identifier": "dimensions.cloudinary.com",
                     "type": "website"
                 }
             ],
             "out_of_scope": [
                 {
-                    "identifier": "bugcrowd*.freshdesk.com",
+                    "identifier": "https://support.cloudinary.com",
                     "type": "website"
                 },
                 {
-                    "identifier": "www.bugcrowd.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "blog.bugcrowd.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "researcherdocs.bugcrowd.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "pages.bugcrowd.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "forum.bugcrowd.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "email.bugcrowd.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "email.forum.bugcrowd.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "go.bugcrowd.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "events.bugcrowd.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "assetinventory.bugcrowd.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "community.bugcrowd.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "trust.bugcrowd.com",
+                    "identifier": "wiki.cloudinary.com",
                     "type": "website"
                 }
             ]
@@ -9711,165 +9711,6 @@
             "out_of_scope": [
                 {
                     "identifier": "Anything not explicitly listed as \"In Scope\".",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/latitude-financial-service-bugbounty",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://api.test.latitudefinancial.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://master.servicecentre.digitalservicing-np.lfscnp.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://master.servicecentre-nz.digitalservicing-np.lfscnp.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.28degreescard.com.au",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.buyersedge.com.au",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.carecredit.com.au",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.gemcreditline.co.nz",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.gemfinance.co.nz",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.gemvisa.com.au",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.genoapay.co.nz",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.genoapay.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.gomastercard.com.au",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.interestfree.com.au",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.latitudefinancial.co.nz",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.latitudefinancial.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.latitudefinancial.com.au",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.latitudeinfinity.com.au",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.latitudepay.com.au",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.latitudepay.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.umiloans.com.au",
-                    "type": "website"
-                },
-                {
-                    "identifier": "images.latitudepayapps.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "app.latitudepayapps.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": " *.test.*.lfscnp.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.dev.*.lfscnp.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.sandbox.*.lfscnp.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.-np.*.lfscnp.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "https://investors.latitudefinancial.com.au",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://auth.latitudefinancial.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://auth.*.latitudefinancial.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "*.latitudefs.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://*.my.latitudepay.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.sg.latitudepay.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://my.latitudepay.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://sg.latitudepay.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://t.latitudefinancial.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://p.latitudefinancial.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Payment APIs",
                     "type": "website"
                 }
             ]
@@ -10835,64 +10676,6 @@
         }
     },
     {
-        "handle": "engagements/entain-public-mbb-og",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Partypoker Website (and all its subdomains)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Ladbrokes Digital  (and all its subdomains)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Coral Sports  (and all its subdomains)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Gala Bingo (and all its subdomains)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Partycasino Website (and all its subdomains)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Bwin Website (and all its subdomains)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Partycasino APK",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Bwin Poker-Casino iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Bwin Sports iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Partycasino iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Partypoker iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Gala Casino Website (and all its subdomains)",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/comcast-mbb",
         "bounty": 1,
         "active": 1,
@@ -11704,6 +11487,223 @@
                     "type": "website"
                 }
             ]
+        }
+    },
+    {
+        "handle": "engagements/latitude-financial-service-bugbounty",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://api.test.latitudefinancial.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://master.servicecentre.digitalservicing-np.lfscnp.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://master.servicecentre-nz.digitalservicing-np.lfscnp.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.28degreescard.com.au",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.buyersedge.com.au",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.carecredit.com.au",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.gemcreditline.co.nz",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.gemfinance.co.nz",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.gemvisa.com.au",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.genoapay.co.nz",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.genoapay.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.gomastercard.com.au",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.interestfree.com.au",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.latitudefinancial.co.nz",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.latitudefinancial.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.latitudefinancial.com.au",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.latitudeinfinity.com.au",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.latitudepay.com.au",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.latitudepay.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.umiloans.com.au",
+                    "type": "website"
+                },
+                {
+                    "identifier": "images.latitudepayapps.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "app.latitudepayapps.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": " *.test.*.lfscnp.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.dev.*.lfscnp.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.sandbox.*.lfscnp.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.-np.*.lfscnp.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "https://investors.latitudefinancial.com.au",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://auth.latitudefinancial.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://auth.*.latitudefinancial.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "*.latitudefs.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://*.my.latitudepay.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.sg.latitudepay.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://my.latitudepay.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://sg.latitudepay.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://t.latitudefinancial.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://p.latitudefinancial.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Payment APIs",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/entain-public-mbb-og",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Partypoker Website (and all its subdomains)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Ladbrokes Digital  (and all its subdomains)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Coral Sports  (and all its subdomains)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Gala Bingo (and all its subdomains)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Partycasino Website (and all its subdomains)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Bwin Website (and all its subdomains)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Partycasino APK",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Bwin Poker-Casino iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Bwin Sports iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Partycasino iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Partypoker iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Gala Casino Website (and all its subdomains)",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
         }
     },
     {
@@ -14007,121 +14007,6 @@
         }
     },
     {
-        "handle": "engagements/bitso-mbb-og",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "bitso.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://nvio.mx/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://nvio.ar/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Mobile App Bitso Wallet iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Mobile App Bitso Alpha iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Mobile App Bitso Wallet Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Mobile App Bitso Alpha Android",
-                    "type": "android"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "help.bitso.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "status.bitso.com\t",
-                    "type": "website"
-                },
-                {
-                    "identifier": "dev.bitso.com\t",
-                    "type": "website"
-                },
-                {
-                    "identifier": "blog.bitso.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "stage.bitso.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "landing.bitso.com\t",
-                    "type": "website"
-                },
-                {
-                    "identifier": "devmalta.bitso.com\t",
-                    "type": "website"
-                },
-                {
-                    "identifier": "edu.bitso.com\t",
-                    "type": "website"
-                },
-                {
-                    "identifier": "sandbox.bitso.com\t",
-                    "type": "website"
-                },
-                {
-                    "identifier": "api-dev.bitso.com\t",
-                    "type": "api"
-                },
-                {
-                    "identifier": "api-stage.bitso.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "api-sandbox.bitso.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "stagemalta.bitso.com\t",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.otc.bitso.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.efx.bitso.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "quetzal.bitso.com\t",
-                    "type": "website"
-                },
-                {
-                    "identifier": "login.bitso.io",
-                    "type": "website"
-                },
-                {
-                    "identifier": "bitsohelp.zendesk.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "support.bitso.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/usaa",
         "bounty": 1,
         "active": 1,
@@ -14736,6 +14621,121 @@
                 {
                     "identifier": "icht.etsysecure.com",
                     "type": "api"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/bitso-mbb-og",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "bitso.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://nvio.mx/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://nvio.ar/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Mobile App Bitso Wallet iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Mobile App Bitso Alpha iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Mobile App Bitso Wallet Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Mobile App Bitso Alpha Android",
+                    "type": "android"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "help.bitso.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "status.bitso.com\t",
+                    "type": "website"
+                },
+                {
+                    "identifier": "dev.bitso.com\t",
+                    "type": "website"
+                },
+                {
+                    "identifier": "blog.bitso.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "stage.bitso.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "landing.bitso.com\t",
+                    "type": "website"
+                },
+                {
+                    "identifier": "devmalta.bitso.com\t",
+                    "type": "website"
+                },
+                {
+                    "identifier": "edu.bitso.com\t",
+                    "type": "website"
+                },
+                {
+                    "identifier": "sandbox.bitso.com\t",
+                    "type": "website"
+                },
+                {
+                    "identifier": "api-dev.bitso.com\t",
+                    "type": "api"
+                },
+                {
+                    "identifier": "api-stage.bitso.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "api-sandbox.bitso.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "stagemalta.bitso.com\t",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.otc.bitso.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.efx.bitso.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "quetzal.bitso.com\t",
+                    "type": "website"
+                },
+                {
+                    "identifier": "login.bitso.io",
+                    "type": "website"
+                },
+                {
+                    "identifier": "bitsohelp.zendesk.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "support.bitso.com",
+                    "type": "website"
                 }
             ]
         }
