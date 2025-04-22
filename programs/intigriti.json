@@ -7783,8 +7783,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 4,
-            "value": "Suspended"
+            "id": 3,
+            "value": "Open"
         },
         "type": {
             "id": 1,
@@ -8288,6 +8288,19 @@
                 "description": "Some assets under this wildcard is protected by Embark auth."
             },
             {
+                "id": "3416e5f7-60e3-457b-bdbc-0b6584205824",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.es-pio.net",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "Some assets under this wildcard is protected by Embark auth."
+            },
+            {
                 "id": "22d2dc6e-4255-47d9-a886-086c9305afc3",
                 "type": {
                     "id": 1,
@@ -8298,7 +8311,7 @@
                     "id": 4,
                     "value": "Tier 1"
                 },
-                "description": "Embark auth is a critical service at Embark Studios.\n\nIt handles authentication for Embark end-users. It's a OAuth2 standard and for authentication it uses third-party login methods (steam, epic, etc). The service has both HTTP and gRPC endpoints available for the players access.\n\nAuthentication can either be done by the service triggering an oauth or similar flow for the third party login method or by handing a third party access token and swapping it for a embark access token."
+                "description": "Embark auth is a critical service at Embark Studios.\n\nIt handles authentication for Embark end-users. It's a OAuth2 standard and for authentication it uses third-party login methods (steam, epic, etc). The service has both HTTP and gRPC endpoints available for the players access.\n\nAuthentication can either be done by the service triggering an oauth or similar flow for the third party login method or by handing a third party access token and swapping it for an embark access token."
             },
             {
                 "id": "7ecd5de5-d7b7-4f07-b7d4-e06dcaf0208b",
@@ -8312,19 +8325,6 @@
                     "value": "Tier 1"
                 },
                 "description": "Pre-production frontend for authentication. Similar functionality to auth.embark.net. Critical service that uses Oauth2 and third-party login methods to authenticate users."
-            },
-            {
-                "id": "3416e5f7-60e3-457b-bdbc-0b6584205824",
-                "type": {
-                    "id": 7,
-                    "value": "Wildcard"
-                },
-                "endpoint": "*.es-pio.net",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": null
             },
             {
                 "id": "c4c637e8-3550-4bc6-b6b9-eb128f14d9a9",
