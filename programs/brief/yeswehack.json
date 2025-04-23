@@ -1,5 +1,133 @@
 [
     {
+        "handle": "coindcx-bug-bounty-program",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.coindcx.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "api.coindcx.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://play.google.com/store/apps/details?id=com.coindcx.btc",
+                    "type": "mobile-application-android"
+                },
+                {
+                    "identifier": "https://apps.apple.com/in/app/coindcx-trade-bitcoin-crypto/id1517787269",
+                    "type": "mobile-application-ios"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "louis-vuitton-malletier-public-bug-bounty-program",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://[it | fr | us | sg | \u2026].louisvuitton.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "http://api.louisvuitton.com/eco-eu/*",
+                    "type": "api"
+                },
+                {
+                    "identifier": "http://api.louisvuitton.com/eco-as/*",
+                    "type": "api"
+                },
+                {
+                    "identifier": "http://api.louisvuitton.com/eco-us/*",
+                    "type": "api"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "decathlon",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://www.decathlon.(be|ch|es|fr|hu|pl|pt|ro|cz|com.tr)/",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://www.decathlon.(co.uk|it|nl|de)/",
+                    "type": "web-application"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "paddle-com-public-bug-bounty-program",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://vendors.paddle.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://sandbox-vendors.paddle.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://api.paddle.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://sandbox-api.paddle.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://sandbox-checkout-service.paddle.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://sandbox-buy.paddle.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://paddle.net",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://customer-portal.paddle.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://login.paddle.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://sandbox-login.paddle.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://www.paddle.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://developer.paddle.com",
+                    "type": "web-application"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
         "handle": "vfs-global-bug-bounty-program",
         "bounty": 1,
         "active": 1,
@@ -135,64 +263,6 @@
                 },
                 {
                     "identifier": "https://cicforms.mioot.com/forms/PS/",
-                    "type": "web-application"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "paddle-com-public-bug-bounty-program",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://vendors.paddle.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://sandbox-vendors.paddle.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://api.paddle.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://sandbox-api.paddle.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://sandbox-checkout-service.paddle.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://sandbox-buy.paddle.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://paddle.net",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://customer-portal.paddle.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://login.paddle.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://sandbox-login.paddle.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://www.paddle.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://developer.paddle.com",
                     "type": "web-application"
                 }
             ],
@@ -384,24 +454,6 @@
         }
     },
     {
-        "handle": "decathlon",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://www.decathlon.(be|ch|es|fr|hu|pl|pt|ro|cz|com.tr)/",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://www.decathlon.(co.uk|it|nl|de)/",
-                    "type": "web-application"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "withings-public-program",
         "bounty": 1,
         "active": 1,
@@ -526,32 +578,6 @@
                 {
                     "identifier": "https://telehealth.onedoc.ch",
                     "type": "web-application"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "louis-vuitton-malletier-public-bug-bounty-program",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://[it | fr | us | sg | \u2026].louisvuitton.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "http://api.louisvuitton.com/eco-eu/*",
-                    "type": "api"
-                },
-                {
-                    "identifier": "http://api.louisvuitton.com/eco-as/*",
-                    "type": "api"
-                },
-                {
-                    "identifier": "http://api.louisvuitton.com/eco-us/*",
-                    "type": "api"
                 }
             ],
             "out_of_scope": []
@@ -1484,32 +1510,6 @@
                 {
                     "identifier": "DS proxy (see https://github.com/demarches-simplifiees/ds_proxy)",
                     "type": "other"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "coindcx-bug-bounty-program",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.coindcx.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "api.coindcx.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://play.google.com/store/apps/details?id=com.coindcx.btc",
-                    "type": "mobile-application-android"
-                },
-                {
-                    "identifier": "https://apps.apple.com/in/app/coindcx-trade-bitcoin-crypto/id1517787269",
-                    "type": "mobile-application-ios"
                 }
             ],
             "out_of_scope": []
