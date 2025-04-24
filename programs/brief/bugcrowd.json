@@ -3618,6 +3618,29 @@
         }
     },
     {
+        "handle": "engagements/bullish-exchange",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://simnext.bullish-test.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://api.simnext.bullish-test.com",
+                    "type": "api"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "*.bullish.com/",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
         "handle": "engagements/lastpass",
         "bounty": 1,
         "active": 1,
@@ -3744,29 +3767,6 @@
                 }
             ],
             "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/bullish-exchange",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://simnext.bullish-test.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://api.simnext.bullish-test.com",
-                    "type": "api"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "*.bullish.com/",
-                    "type": "website"
-                }
-            ]
         }
     },
     {
@@ -4428,99 +4428,6 @@
         }
     },
     {
-        "handle": "engagements/openai",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "api.openai.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "ChatGPT",
-                    "type": "website"
-                },
-                {
-                    "identifier": "ChatGPT Plugins",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Third Party Targets",
-                    "type": "website"
-                },
-                {
-                    "identifier": "OpenAI API Keys",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://openai.org",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.openai.org",
-                    "type": "api"
-                },
-                {
-                    "identifier": "openai.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.openai.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Developer Platform Playground",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Other",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/comcastvdp",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.sys.comcast.net",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://business.comcast.com/account",
-                    "type": "website"
-                },
-                {
-                    "identifier": "TV - Xfinity hardware and services",
-                    "type": "hardware"
-                },
-                {
-                    "identifier": "Flex - Xfinity hardware and services",
-                    "type": "hardware"
-                },
-                {
-                    "identifier": "Voice - Hardware and service",
-                    "type": "hardware"
-                },
-                {
-                    "identifier": "Mobile Apps\tiOS and Android",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "Comcastbiz.net",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/t-mobile",
         "bounty": 1,
         "active": 1,
@@ -4744,6 +4651,83 @@
         }
     },
     {
+        "handle": "engagements/eazybi",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/1211051/eazybi-reports-and-charts-for-jira?hosting=cloud",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/1211051/eazybi-reports-and-charts-for-jira?hosting=server",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/1211051/eazybi-reports-and-charts-for-jira?hosting=datacenter",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/1219504/eazybi-reports-and-charts-for-confluence?hosting=cloud",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/1219504/eazybi-reports-and-charts-for-confluence?hosting=server",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/1219504/eazybi-reports-and-charts-for-confluence?hosting=datacenter",
+                    "type": "website"
+                },
+                {
+                    "identifier": "docs.eazybi.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/comcastvdp",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.sys.comcast.net",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://business.comcast.com/account",
+                    "type": "website"
+                },
+                {
+                    "identifier": "TV - Xfinity hardware and services",
+                    "type": "hardware"
+                },
+                {
+                    "identifier": "Flex - Xfinity hardware and services",
+                    "type": "hardware"
+                },
+                {
+                    "identifier": "Voice - Hardware and service",
+                    "type": "hardware"
+                },
+                {
+                    "identifier": "Mobile Apps\tiOS and Android",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "Comcastbiz.net",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
         "handle": "engagements/ifood-og",
         "bounty": 1,
         "active": 1,
@@ -4839,38 +4823,54 @@
         }
     },
     {
-        "handle": "engagements/eazybi",
+        "handle": "engagements/openai",
         "bounty": 1,
         "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "https://marketplace.atlassian.com/apps/1211051/eazybi-reports-and-charts-for-jira?hosting=cloud",
+                    "identifier": "api.openai.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "ChatGPT",
+                    "type": "website"
+                },
+                {
+                    "identifier": "ChatGPT Plugins",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Third Party Targets",
+                    "type": "website"
+                },
+                {
+                    "identifier": "OpenAI API Keys",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://openai.org",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.openai.org",
+                    "type": "api"
+                },
+                {
+                    "identifier": "openai.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.openai.com",
                     "type": "other"
                 },
                 {
-                    "identifier": "https://marketplace.atlassian.com/apps/1211051/eazybi-reports-and-charts-for-jira?hosting=server",
+                    "identifier": "Developer Platform Playground",
                     "type": "website"
                 },
                 {
-                    "identifier": "https://marketplace.atlassian.com/apps/1211051/eazybi-reports-and-charts-for-jira?hosting=datacenter",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://marketplace.atlassian.com/apps/1219504/eazybi-reports-and-charts-for-confluence?hosting=cloud",
+                    "identifier": "Other",
                     "type": "other"
-                },
-                {
-                    "identifier": "https://marketplace.atlassian.com/apps/1219504/eazybi-reports-and-charts-for-confluence?hosting=server",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://marketplace.atlassian.com/apps/1219504/eazybi-reports-and-charts-for-confluence?hosting=datacenter",
-                    "type": "website"
-                },
-                {
-                    "identifier": "docs.eazybi.com",
-                    "type": "website"
                 }
             ],
             "out_of_scope": []
@@ -12104,133 +12104,87 @@
         }
     },
     {
-        "handle": "engagements/dropbox",
+        "handle": "engagements/bugcrowd",
         "bounty": 1,
         "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "api.dropboxapi.com",
+                    "identifier": "docs.bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Crowdcontrol",
                     "type": "api"
                 },
                 {
-                    "identifier": "*.dropbox.com    ",
+                    "identifier": "api.bugcrowd.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://identity.bugcrowd.com/ ",
                     "type": "website"
                 },
                 {
-                    "identifier": "*.hellosign.com",
+                    "identifier": "*.bugcrowd.com/auth/*",
                     "type": "website"
-                },
-                {
-                    "identifier": "*.helloworks.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.hellofax.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.dropboxforum.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.docsend.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.dropboxer.net",
-                    "type": "website"
-                },
-                {
-                    "identifier": "dash.ai",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.dropboxpartners.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.reclaim.ai",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Dropbox Paper Android App",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Dropbox iOS app",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Dropbox Paper iOS app",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Dropbox EMM iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Dropbox Desktop Application",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Dropbox Capture Windows Desktop App ",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Dropbox Capture macOS Desktop App",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Dropbox Android App",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Dropbox Sign (formerly HelloSign) Android App",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Paper Desktop Application",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Dropbox Dash App",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Reclaim.ai App",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/jora",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.jora.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.jora.xyz",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://apps.apple.com/us/app/jora-jobs-job-search-app/id917565665\t",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "https://play.google.com/store/apps/details?id=com.jora.android&hl=en_US\t",
-                    "type": "android"
                 }
             ],
             "out_of_scope": [
                 {
-                    "identifier": "*.joralocal.com.au\t",
+                    "identifier": "bugcrowd*.freshdesk.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "www.bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "blog.bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "researcherdocs.bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "pages.bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "forum.bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "email.bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "email.forum.bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "go.bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "events.bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "assetinventory.bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "community.bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "trust.bugcrowd.com",
                     "type": "website"
                 }
             ]
@@ -12375,124 +12329,136 @@
         }
     },
     {
-        "handle": "engagements/barracuda",
+        "handle": "engagements/jora",
         "bounty": 1,
         "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "Barracuda Message Archiver",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Barracuda Web Security Gateway",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Barracuda ADC",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Barracuda Web Application Firewall",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Barracuda Email Security Gateway",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Barracuda CloudGen Firewall",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/bugcrowd",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "docs.bugcrowd.com",
+                    "identifier": "*.jora.com",
                     "type": "website"
                 },
                 {
-                    "identifier": "bugcrowd.com",
+                    "identifier": "*.jora.xyz",
                     "type": "website"
                 },
                 {
-                    "identifier": "Crowdcontrol",
-                    "type": "api"
+                    "identifier": "https://apps.apple.com/us/app/jora-jobs-job-search-app/id917565665\t",
+                    "type": "ios"
                 },
                 {
-                    "identifier": "api.bugcrowd.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://identity.bugcrowd.com/ ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.bugcrowd.com/auth/*",
-                    "type": "website"
+                    "identifier": "https://play.google.com/store/apps/details?id=com.jora.android&hl=en_US\t",
+                    "type": "android"
                 }
             ],
             "out_of_scope": [
                 {
-                    "identifier": "bugcrowd*.freshdesk.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "www.bugcrowd.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "blog.bugcrowd.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "researcherdocs.bugcrowd.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "pages.bugcrowd.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "forum.bugcrowd.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "email.bugcrowd.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "email.forum.bugcrowd.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "go.bugcrowd.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "events.bugcrowd.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "assetinventory.bugcrowd.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "community.bugcrowd.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "trust.bugcrowd.com",
+                    "identifier": "*.joralocal.com.au\t",
                     "type": "website"
                 }
             ]
+        }
+    },
+    {
+        "handle": "engagements/dropbox",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "api.dropboxapi.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.dropbox.com    ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.hellosign.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.helloworks.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.hellofax.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.dropboxforum.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.docsend.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.dropboxer.net",
+                    "type": "website"
+                },
+                {
+                    "identifier": "dash.ai",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.dropboxpartners.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.reclaim.ai",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Dropbox Paper Android App",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Dropbox iOS app",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Dropbox Paper iOS app",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Dropbox EMM iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Dropbox Desktop Application",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Dropbox Capture Windows Desktop App ",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Dropbox Capture macOS Desktop App",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Dropbox Android App",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Dropbox Sign (formerly HelloSign) Android App",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Paper Desktop Application",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Dropbox Dash App",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Reclaim.ai App",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
         }
     },
     {
@@ -12535,6 +12501,40 @@
                 },
                 {
                     "identifier": "Unity Hub",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/barracuda",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Barracuda Message Archiver",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Barracuda Web Security Gateway",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Barracuda ADC",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Barracuda Web Application Firewall",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Barracuda Email Security Gateway",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Barracuda CloudGen Firewall",
                     "type": "other"
                 }
             ],
