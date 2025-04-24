@@ -2969,41 +2969,6 @@
         }
     },
     {
-        "handle": "engagements/directly",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "app.sandbox.directly.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.sandbox.directly.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://sandbox.directly.com/dashboard/index",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "www.directly.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "resources.directly.com/*",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.sandbox.directly.com/schedule-a-demo/* OR /product/* OR /careers/* OR /about/* OR /legal/* OR /trust/*",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/kiteworks-public",
         "bounty": 1,
         "active": 1,
@@ -4624,122 +4589,6 @@
         }
     },
     {
-        "handle": "engagements/ultramobile-public-mbb-og",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "http://my.mintmobile.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "my.ultramobile.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://my.mintmobile.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://my.ultramobile.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/skyscanner",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Skyscanner iOS App",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Skyscanner Android App",
-                    "type": "android"
-                },
-                {
-                    "identifier": "gateway.skyscanner.net/*",
-                    "type": "api"
-                },
-                {
-                    "identifier": "skyscanner.net/hotels/book/*",
-                    "type": "website"
-                },
-                {
-                    "identifier": "skyscanner.net/*",
-                    "type": "website"
-                },
-                {
-                    "identifier": "partnerportal.skyscanner.net/*",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.skyscanner.net",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Skyscanner Android app",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Skyscanner iOS app",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "AWS Infrastructure",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "Corporate Email (*@skyscanner.net)",
-                    "type": "other"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/quizlet",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://*.quizlet.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "IoS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "3.0 API",
-                    "type": "api"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "2.0 API",
-                    "type": "api"
-                },
-                {
-                    "identifier": " help.quizlet.com (zendesk)",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/openai",
         "bounty": 1,
         "active": 1,
@@ -4874,6 +4723,157 @@
                     "type": "website"
                 }
             ]
+        }
+    },
+    {
+        "handle": "engagements/skyscanner",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Skyscanner iOS App",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Skyscanner Android App",
+                    "type": "android"
+                },
+                {
+                    "identifier": "gateway.skyscanner.net/*",
+                    "type": "api"
+                },
+                {
+                    "identifier": "skyscanner.net/hotels/book/*",
+                    "type": "website"
+                },
+                {
+                    "identifier": "skyscanner.net/*",
+                    "type": "website"
+                },
+                {
+                    "identifier": "partnerportal.skyscanner.net/*",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.skyscanner.net",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Skyscanner Android app",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Skyscanner iOS app",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "AWS Infrastructure",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "Corporate Email (*@skyscanner.net)",
+                    "type": "other"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/quizlet",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://*.quizlet.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "IoS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "3.0 API",
+                    "type": "api"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "2.0 API",
+                    "type": "api"
+                },
+                {
+                    "identifier": " help.quizlet.com (zendesk)",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/directly",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "app.sandbox.directly.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.sandbox.directly.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://sandbox.directly.com/dashboard/index",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "www.directly.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "resources.directly.com/*",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.sandbox.directly.com/schedule-a-demo/* OR /product/* OR /careers/* OR /about/* OR /legal/* OR /trust/*",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/ultramobile-public-mbb-og",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "http://my.mintmobile.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "my.ultramobile.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://my.mintmobile.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://my.ultramobile.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
         }
     },
     {
@@ -5133,192 +5133,6 @@
                     "type": "website"
                 }
             ]
-        }
-    },
-    {
-        "handle": "engagements/monash-mbb",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "  identity.monash.edu",
-                    "type": "website"
-                },
-                {
-                    "identifier": " mix.monash.edu ",
-                    "type": "api"
-                },
-                {
-                    "identifier": "connect.monash.edu",
-                    "type": "website"
-                },
-                {
-                    "identifier": "identity.monash.edu",
-                    "type": "website"
-                },
-                {
-                    "identifier": "monash.edu",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Staff.monash",
-                    "type": "website"
-                },
-                {
-                    "identifier": "apps.connect.monash.edu/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "VPN: vpn.monash.edu",
-                    "type": "website"
-                },
-                {
-                    "identifier": "eassessment.monash.edu",
-                    "type": "website"
-                },
-                {
-                    "identifier": "fileshare.ze.monash.edu",
-                    "type": "website"
-                },
-                {
-                    "identifier": "cms.mobile.monash",
-                    "type": "website"
-                },
-                {
-                    "identifier": "mobile.monash",
-                    "type": "website"
-                },
-                {
-                    "identifier": "status.mobile.monash",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://monashcollege.edu.au",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://online.monash.edu/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Monash Study iOS App",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Monash Study Android app",
-                    "type": "android"
-                },
-                {
-                    "identifier": "https://myapp.monash.edu/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://alumni-friends.monash.edu",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://agent.apps.monash.edu/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://compulsoryunits.monash.edu/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "monash.app.nutrip.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "studentplacements.monash.edu",
-                    "type": "website"
-                },
-                {
-                    "identifier": "unihub.monash.edu",
-                    "type": "website"
-                },
-                {
-                    "identifier": "interviews.monash.edu",
-                    "type": "website"
-                },
-                {
-                    "identifier": "shop.monash.edu",
-                    "type": "website"
-                },
-                {
-                    "identifier": "mlivetickets.monash.edu",
-                    "type": "website"
-                },
-                {
-                    "identifier": "partner.apps.monash.edu",
-                    "type": "website"
-                },
-                {
-                    "identifier": "bSafe Android App",
-                    "type": "android"
-                },
-                {
-                    "identifier": "bSafe iPhone App",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "forms.apps.monash.edu",
-                    "type": "website"
-                },
-                {
-                    "identifier": "formative.eassessment.monas.edu",
-                    "type": "website"
-                },
-                {
-                    "identifier": "monashprofessional.edu.au",
-                    "type": "website"
-                },
-                {
-                    "identifier": "account-registration.monash.edu",
-                    "type": "website"
-                },
-                {
-                    "identifier": "pay.monashcollege.edu.au",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Monash e-Vigilation",
-                    "type": "website"
-                },
-                {
-                    "identifier": "student.monash",
-                    "type": "website"
-                },
-                {
-                    "identifier": "mids.monash.edu",
-                    "type": "website"
-                },
-                {
-                    "identifier": "ims.monash.edu",
-                    "type": "website"
-                },
-                {
-                    "identifier": "research.monash.edu",
-                    "type": "website"
-                },
-                {
-                    "identifier": "researchmgt.monash.edu",
-                    "type": "website"
-                },
-                {
-                    "identifier": "move.monash.edu",
-                    "type": "website"
-                },
-                {
-                    "identifier": "mix-qat.monash.edu/*",
-                    "type": "api"
-                },
-                {
-                    "identifier": "mix-dev.monash.edu/*",
-                    "type": "api"
-                }
-            ],
-            "out_of_scope": []
         }
     },
     {
@@ -6001,20 +5815,6 @@
         }
     },
     {
-        "handle": "engagements/spacex",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "SpaceX and Starlink assets (target information and rewards detailed above on the brief)",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/indeed",
         "bounty": 1,
         "active": 1,
@@ -6327,34 +6127,186 @@
         }
     },
     {
-        "handle": "engagements/entain-glf-mbb-og",
+        "handle": "engagements/monash-mbb",
         "bounty": 1,
         "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "https://casino.partycasino.com",
+                    "identifier": "  identity.monash.edu",
                     "type": "website"
                 },
                 {
-                    "identifier": "https://casino.bwin.com",
+                    "identifier": " mix.monash.edu ",
+                    "type": "api"
+                },
+                {
+                    "identifier": "connect.monash.edu",
                     "type": "website"
                 },
                 {
-                    "identifier": "https://casino.sportingbet.com",
+                    "identifier": "identity.monash.edu",
                     "type": "website"
                 },
                 {
-                    "identifier": "https://www.ladbrokes.com/en/games",
+                    "identifier": "monash.edu",
                     "type": "website"
                 },
                 {
-                    "identifier": "https://www.coral.co.uk/en/games",
+                    "identifier": "Staff.monash",
                     "type": "website"
                 },
                 {
-                    "identifier": "https://casino.*.betmgm.com/en/games (read \"Find a Game to test on our targets\")",
+                    "identifier": "apps.connect.monash.edu/",
                     "type": "website"
+                },
+                {
+                    "identifier": "VPN: vpn.monash.edu",
+                    "type": "website"
+                },
+                {
+                    "identifier": "eassessment.monash.edu",
+                    "type": "website"
+                },
+                {
+                    "identifier": "fileshare.ze.monash.edu",
+                    "type": "website"
+                },
+                {
+                    "identifier": "cms.mobile.monash",
+                    "type": "website"
+                },
+                {
+                    "identifier": "mobile.monash",
+                    "type": "website"
+                },
+                {
+                    "identifier": "status.mobile.monash",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://monashcollege.edu.au",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://online.monash.edu/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Monash Study iOS App",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Monash Study Android app",
+                    "type": "android"
+                },
+                {
+                    "identifier": "https://myapp.monash.edu/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://alumni-friends.monash.edu",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://agent.apps.monash.edu/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://compulsoryunits.monash.edu/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "monash.app.nutrip.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "studentplacements.monash.edu",
+                    "type": "website"
+                },
+                {
+                    "identifier": "unihub.monash.edu",
+                    "type": "website"
+                },
+                {
+                    "identifier": "interviews.monash.edu",
+                    "type": "website"
+                },
+                {
+                    "identifier": "shop.monash.edu",
+                    "type": "website"
+                },
+                {
+                    "identifier": "mlivetickets.monash.edu",
+                    "type": "website"
+                },
+                {
+                    "identifier": "partner.apps.monash.edu",
+                    "type": "website"
+                },
+                {
+                    "identifier": "bSafe Android App",
+                    "type": "android"
+                },
+                {
+                    "identifier": "bSafe iPhone App",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "forms.apps.monash.edu",
+                    "type": "website"
+                },
+                {
+                    "identifier": "formative.eassessment.monas.edu",
+                    "type": "website"
+                },
+                {
+                    "identifier": "monashprofessional.edu.au",
+                    "type": "website"
+                },
+                {
+                    "identifier": "account-registration.monash.edu",
+                    "type": "website"
+                },
+                {
+                    "identifier": "pay.monashcollege.edu.au",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Monash e-Vigilation",
+                    "type": "website"
+                },
+                {
+                    "identifier": "student.monash",
+                    "type": "website"
+                },
+                {
+                    "identifier": "mids.monash.edu",
+                    "type": "website"
+                },
+                {
+                    "identifier": "ims.monash.edu",
+                    "type": "website"
+                },
+                {
+                    "identifier": "research.monash.edu",
+                    "type": "website"
+                },
+                {
+                    "identifier": "researchmgt.monash.edu",
+                    "type": "website"
+                },
+                {
+                    "identifier": "move.monash.edu",
+                    "type": "website"
+                },
+                {
+                    "identifier": "mix-qat.monash.edu/*",
+                    "type": "api"
+                },
+                {
+                    "identifier": "mix-dev.monash.edu/*",
+                    "type": "api"
                 }
             ],
             "out_of_scope": []
@@ -6445,6 +6397,54 @@
                     "type": "website"
                 }
             ]
+        }
+    },
+    {
+        "handle": "engagements/entain-glf-mbb-og",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://casino.partycasino.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://casino.bwin.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://casino.sportingbet.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.ladbrokes.com/en/games",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.coral.co.uk/en/games",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://casino.*.betmgm.com/en/games (read \"Find a Game to test on our targets\")",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/spacex",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "SpaceX and Starlink assets (target information and rewards detailed above on the brief)",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
         }
     },
     {
@@ -7298,108 +7298,6 @@
                 {
                     "identifier": "*.dojo.me",
                     "type": "api"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/expressvpn",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.expressvpn.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.xvtest.net",
-                    "type": "other"
-                },
-                {
-                    "identifier": "*.xvservice.net",
-                    "type": "other"
-                },
-                {
-                    "identifier": "www.expressvpn.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "ExpressVPN APIs",
-                    "type": "api"
-                },
-                {
-                    "identifier": "VPN servers",
-                    "type": "other"
-                },
-                {
-                    "identifier": "ExpressVPN Router",
-                    "type": "other"
-                },
-                {
-                    "identifier": "MediaStreamer DNS servers",
-                    "type": "other"
-                },
-                {
-                    "identifier": "ExpressVPN iOS application",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "ExpressVPN Android application",
-                    "type": "android"
-                },
-                {
-                    "identifier": "ExpressVPN Linux Application",
-                    "type": "other"
-                },
-                {
-                    "identifier": "ExpressVPN MacOS Application",
-                    "type": "other"
-                },
-                {
-                    "identifier": "ExpressVPN Windows Application",
-                    "type": "other"
-                },
-                {
-                    "identifier": "ExpressVPN Chrome extension",
-                    "type": "other"
-                },
-                {
-                    "identifier": "ExpressVPN Firefox extension",
-                    "type": "other"
-                },
-                {
-                    "identifier": "ExpressVPN Keys Browser Extension",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Lightway Core (C)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Lightway (Rust)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "polymoon.it",
-                    "type": "network"
-                },
-                {
-                    "identifier": "Employee Email",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Internal chat messages",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Source code hosting",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Vulnerabilities compromising the privacy of our employees",
-                    "type": "other"
                 }
             ],
             "out_of_scope": []
@@ -8840,81 +8738,6 @@
         }
     },
     {
-        "handle": "engagements/square",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.square.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.squareup.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "square.online",
-                    "type": "website"
-                },
-                {
-                    "identifier": "weebly.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Square Point of Sale Mobile Application for Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Square Point of Sale Mobile Application for iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Square Register",
-                    "type": "hardware"
-                },
-                {
-                    "identifier": "Square Terminal",
-                    "type": "hardware"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "*.afterpay.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.cash.me",
-                    "type": "website"
-                },
-                {
-                    "identifier": "designers.weebly.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.tidal.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": " community.squareup.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Cash App Mobile Application for Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Cash App Mobile Application for iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Any vulnerabilities found in Third-party software",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/viator",
         "bounty": 1,
         "active": 1,
@@ -9009,6 +8832,143 @@
                 {
                     "identifier": "partner.viator.com",
                     "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/hubspot",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "app.hubspot.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "app-eu1.hubspot.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "api.hubspot.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "api.hubapi.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "chatspot.ai",
+                    "type": "website"
+                },
+                {
+                    "identifier": "connect.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.hubspotemail.net",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.hs-sites(-eu1)?.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.hubspotpagebuilder.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.hubspotpagebuilder.eu",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Customer Portal (1)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Customer connected domain (2)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "HubSpot Android Mobile App",
+                    "type": "android"
+                },
+                {
+                    "identifier": "HubSpot iOS Mobile App",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "HubSpot Sales Office 365 add-in",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Other HubSpot-owned (sub)domains not listed as Out of Scope . Please make sure to exercise due diligence before testing. You must include proof that the subdomain is registered to HubSpot to be eligible for a reward.",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Special Conditions",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "shop.hubspot.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "trust.hubspot.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "thespot.hubspot.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "ir.hubspot.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Out of Scope Vulnerabilities",
+                    "type": "other"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/fis",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Any FIS asset is in scope",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "Reference above out of scope targets",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/motorolamobility-iot",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "All Motorola Devices running Android 13 and above. ",
+                    "type": "android"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "Vulnerabilities related to web-app related issues",
+                    "type": "other"
                 }
             ]
         }
@@ -9345,138 +9305,178 @@
         }
     },
     {
-        "handle": "engagements/hubspot",
+        "handle": "engagements/expressvpn",
         "bounty": 1,
         "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "app.hubspot.com",
+                    "identifier": "*.expressvpn.com",
                     "type": "website"
                 },
                 {
-                    "identifier": "app-eu1.hubspot.com",
+                    "identifier": "*.xvtest.net",
+                    "type": "other"
+                },
+                {
+                    "identifier": "*.xvservice.net",
+                    "type": "other"
+                },
+                {
+                    "identifier": "www.expressvpn.com",
                     "type": "website"
                 },
                 {
-                    "identifier": "api.hubspot.com",
+                    "identifier": "ExpressVPN APIs",
                     "type": "api"
                 },
                 {
-                    "identifier": "api.hubapi.com",
-                    "type": "api"
+                    "identifier": "VPN servers",
+                    "type": "other"
                 },
                 {
-                    "identifier": "chatspot.ai",
-                    "type": "website"
+                    "identifier": "ExpressVPN Router",
+                    "type": "other"
                 },
                 {
-                    "identifier": "connect.com",
-                    "type": "website"
+                    "identifier": "MediaStreamer DNS servers",
+                    "type": "other"
                 },
                 {
-                    "identifier": "*.hubspotemail.net",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.hs-sites(-eu1)?.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.hubspotpagebuilder.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.hubspotpagebuilder.eu",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Customer Portal (1)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Customer connected domain (2)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "HubSpot Android Mobile App",
-                    "type": "android"
-                },
-                {
-                    "identifier": "HubSpot iOS Mobile App",
+                    "identifier": "ExpressVPN iOS application",
                     "type": "ios"
                 },
                 {
-                    "identifier": "HubSpot Sales Office 365 add-in",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Other HubSpot-owned (sub)domains not listed as Out of Scope . Please make sure to exercise due diligence before testing. You must include proof that the subdomain is registered to HubSpot to be eligible for a reward.",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Special Conditions",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "shop.hubspot.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "trust.hubspot.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "thespot.hubspot.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "ir.hubspot.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Out of Scope Vulnerabilities",
-                    "type": "other"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/fis",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Any FIS asset is in scope",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "Reference above out of scope targets",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/motorolamobility-iot",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "All Motorola Devices running Android 13 and above. ",
+                    "identifier": "ExpressVPN Android application",
                     "type": "android"
+                },
+                {
+                    "identifier": "ExpressVPN Linux Application",
+                    "type": "other"
+                },
+                {
+                    "identifier": "ExpressVPN MacOS Application",
+                    "type": "other"
+                },
+                {
+                    "identifier": "ExpressVPN Windows Application",
+                    "type": "other"
+                },
+                {
+                    "identifier": "ExpressVPN Chrome extension",
+                    "type": "other"
+                },
+                {
+                    "identifier": "ExpressVPN Firefox extension",
+                    "type": "other"
+                },
+                {
+                    "identifier": "ExpressVPN Keys Browser Extension",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Lightway Core (C)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Lightway (Rust)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "polymoon.it",
+                    "type": "network"
+                },
+                {
+                    "identifier": "Employee Email",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Internal chat messages",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Source code hosting",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Vulnerabilities compromising the privacy of our employees",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/square",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.square.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.squareup.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "square.online",
+                    "type": "website"
+                },
+                {
+                    "identifier": "weebly.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Square Point of Sale Mobile Application for Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Square Point of Sale Mobile Application for iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Square Register",
+                    "type": "hardware"
+                },
+                {
+                    "identifier": "Square Terminal",
+                    "type": "hardware"
                 }
             ],
             "out_of_scope": [
                 {
-                    "identifier": "Vulnerabilities related to web-app related issues",
+                    "identifier": "*.afterpay.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.cash.me",
+                    "type": "website"
+                },
+                {
+                    "identifier": "designers.weebly.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.tidal.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": " community.squareup.com",
                     "type": "other"
+                },
+                {
+                    "identifier": "Cash App Mobile Application for Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Cash App Mobile Application for iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Any vulnerabilities found in Third-party software",
+                    "type": "website"
                 }
             ]
         }
@@ -12124,144 +12124,6 @@
         }
     },
     {
-        "handle": "engagements/arlo",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Arlo Safe Android App",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Arlo Safe iOS App",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Arlo Secure Android App",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Arlo Secure iOS App",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Arlo All-In-One Sensor (Home Security System)",
-                    "type": "iot"
-                },
-                {
-                    "identifier": "Arlo Base Station",
-                    "type": "iot"
-                },
-                {
-                    "identifier": "Arlo Cellular & Battery Backup (Home Security System)",
-                    "type": "iot"
-                },
-                {
-                    "identifier": "Arlo Chime 2",
-                    "type": "iot"
-                },
-                {
-                    "identifier": "Arlo Essential",
-                    "type": "iot"
-                },
-                {
-                    "identifier": "Arlo Essential 2 (indoor & outdoor camera, doorbell)",
-                    "type": "iot"
-                },
-                {
-                    "identifier": "Arlo Pro 3 Floodlight",
-                    "type": "iot"
-                },
-                {
-                    "identifier": "Arlo Wired Floodlight",
-                    "type": "iot"
-                },
-                {
-                    "identifier": "Arlo Go / Go 2",
-                    "type": "iot"
-                },
-                {
-                    "identifier": "Arlo Home Security System",
-                    "type": "iot"
-                },
-                {
-                    "identifier": "Arlo Pro SmartHub",
-                    "type": "iot"
-                },
-                {
-                    "identifier": "Arlo Pro 5S",
-                    "type": "iot"
-                },
-                {
-                    "identifier": "Arlo Safe Button",
-                    "type": "iot"
-                },
-                {
-                    "identifier": "Arlo Ultra 2",
-                    "type": "iot"
-                },
-                {
-                    "identifier": "Arlo Wireless Video Doorbell",
-                    "type": "iot"
-                },
-                {
-                    "identifier": "Arlo Wire-Free Outdoor Siren (Home Security System)",
-                    "type": "iot"
-                },
-                {
-                    "identifier": "*.arlo.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "*.arloxcld.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://*-prod.arlo.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://arlo-device.messaging.netgear.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://beta.arlo.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://community.arlo.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://downloads.arlo.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://mcs.arlo.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://my.arlo.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://myapi.arlo.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://www.arlo.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://updates.arlo.com",
-                    "type": "api"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/jora",
         "bounty": 1,
         "active": 1,
@@ -12539,6 +12401,144 @@
                     "type": "website"
                 }
             ]
+        }
+    },
+    {
+        "handle": "engagements/arlo",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Arlo Safe Android App",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Arlo Safe iOS App",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Arlo Secure Android App",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Arlo Secure iOS App",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Arlo All-In-One Sensor (Home Security System)",
+                    "type": "iot"
+                },
+                {
+                    "identifier": "Arlo Base Station",
+                    "type": "iot"
+                },
+                {
+                    "identifier": "Arlo Cellular & Battery Backup (Home Security System)",
+                    "type": "iot"
+                },
+                {
+                    "identifier": "Arlo Chime 2",
+                    "type": "iot"
+                },
+                {
+                    "identifier": "Arlo Essential",
+                    "type": "iot"
+                },
+                {
+                    "identifier": "Arlo Essential 2 (indoor & outdoor camera, doorbell)",
+                    "type": "iot"
+                },
+                {
+                    "identifier": "Arlo Pro 3 Floodlight",
+                    "type": "iot"
+                },
+                {
+                    "identifier": "Arlo Wired Floodlight",
+                    "type": "iot"
+                },
+                {
+                    "identifier": "Arlo Go / Go 2",
+                    "type": "iot"
+                },
+                {
+                    "identifier": "Arlo Home Security System",
+                    "type": "iot"
+                },
+                {
+                    "identifier": "Arlo Pro SmartHub",
+                    "type": "iot"
+                },
+                {
+                    "identifier": "Arlo Pro 5S",
+                    "type": "iot"
+                },
+                {
+                    "identifier": "Arlo Safe Button",
+                    "type": "iot"
+                },
+                {
+                    "identifier": "Arlo Ultra 2",
+                    "type": "iot"
+                },
+                {
+                    "identifier": "Arlo Wireless Video Doorbell",
+                    "type": "iot"
+                },
+                {
+                    "identifier": "Arlo Wire-Free Outdoor Siren (Home Security System)",
+                    "type": "iot"
+                },
+                {
+                    "identifier": "*.arlo.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "*.arloxcld.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://*-prod.arlo.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://arlo-device.messaging.netgear.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://beta.arlo.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://community.arlo.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://downloads.arlo.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://mcs.arlo.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://my.arlo.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://myapi.arlo.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://www.arlo.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://updates.arlo.com",
+                    "type": "api"
+                }
+            ],
+            "out_of_scope": []
         }
     },
     {
