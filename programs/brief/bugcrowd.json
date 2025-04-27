@@ -4747,62 +4747,57 @@
         }
     },
     {
-        "handle": "engagements/coindesk-mbb-og",
+        "handle": "engagements/openai",
         "bounty": 1,
         "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "staging.coindesk.com",
+                    "identifier": "api.openai.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "ChatGPT",
                     "type": "website"
                 },
                 {
-                    "identifier": "staging.auth.coindesk.com",
+                    "identifier": "ChatGPT Plugins",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Third Party Targets",
                     "type": "website"
+                },
+                {
+                    "identifier": "OpenAI API Keys",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://openai.org",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.openai.org",
+                    "type": "api"
+                },
+                {
+                    "identifier": "openai.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.openai.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Developer Platform Playground",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Other",
+                    "type": "other"
                 }
             ],
-            "out_of_scope": [
-                {
-                    "identifier": "coindesk.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "CoinDesk Indices",
-                    "type": "website"
-                },
-                {
-                    "identifier": "CoinDesk Events",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Production CoinDesk Events",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Consensus2023 Site",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Consensus2024 Site",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Consensus2025 Site",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Consensus HK Site",
-                    "type": "website"
-                },
-                {
-                    "identifier": "uat.coindesk.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "uat.accounts.coindesk.com",
-                    "type": "website"
-                }
-            ]
+            "out_of_scope": []
         }
     },
     {
@@ -5016,57 +5011,62 @@
         }
     },
     {
-        "handle": "engagements/openai",
+        "handle": "engagements/coindesk-mbb-og",
         "bounty": 1,
         "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "api.openai.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "ChatGPT",
+                    "identifier": "staging.coindesk.com",
                     "type": "website"
                 },
                 {
-                    "identifier": "ChatGPT Plugins",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Third Party Targets",
+                    "identifier": "staging.auth.coindesk.com",
                     "type": "website"
-                },
-                {
-                    "identifier": "OpenAI API Keys",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://openai.org",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.openai.org",
-                    "type": "api"
-                },
-                {
-                    "identifier": "openai.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.openai.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Developer Platform Playground",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Other",
-                    "type": "other"
                 }
             ],
-            "out_of_scope": []
+            "out_of_scope": [
+                {
+                    "identifier": "coindesk.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "CoinDesk Indices",
+                    "type": "website"
+                },
+                {
+                    "identifier": "CoinDesk Events",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Production CoinDesk Events",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Consensus2023 Site",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Consensus2024 Site",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Consensus2025 Site",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Consensus HK Site",
+                    "type": "website"
+                },
+                {
+                    "identifier": "uat.coindesk.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "uat.accounts.coindesk.com",
+                    "type": "website"
+                }
+            ]
         }
     },
     {
@@ -5238,32 +5238,6 @@
         }
     },
     {
-        "handle": "engagements/woox",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://api.woox.io/",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://woox.io/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "WOO X: Buy Crypto & BTC (Android)",
-                    "type": "android"
-                },
-                {
-                    "identifier": "WOO X: Buy Crypto & BTC (IOS)",
-                    "type": "ios"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/vox",
         "bounty": 1,
         "active": 1,
@@ -5296,6 +5270,32 @@
                     "type": "website"
                 }
             ]
+        }
+    },
+    {
+        "handle": "engagements/woox",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://api.woox.io/",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://woox.io/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "WOO X: Buy Crypto & BTC (Android)",
+                    "type": "android"
+                },
+                {
+                    "identifier": "WOO X: Buy Crypto & BTC (IOS)",
+                    "type": "ios"
+                }
+            ],
+            "out_of_scope": []
         }
     },
     {
@@ -7057,80 +7057,6 @@
                     "type": "website"
                 }
             ]
-        }
-    },
-    {
-        "handle": "engagements/keepersecurity",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Keeper Browser Extension (Chrome, Safari, Firefox, Edge)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Keeper for iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "KeeperChat for Windows",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Keeper Security Website",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Keeper for Mac, PC, Linux",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Keeper Web Vault (US, EU, AU, CA, JP, GovCloud)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Keeper AD / LDAP Bridge",
-                    "type": "api"
-                },
-                {
-                    "identifier": "KeeperChat for iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "KeeperChat for Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "KeeperChat for Mac",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Keeper for Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Keeper Connection Manager (KCM)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Keeper Admin Console (US, EU, AU, CA, JP, GovCloud)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Keeper Secrets Manager and Keeper Commander APIs",
-                    "type": "api"
-                },
-                {
-                    "identifier": "SSO Connect On-Prem",
-                    "type": "api"
-                },
-                {
-                    "identifier": "SSO Connect Cloud and Automator Service",
-                    "type": "api"
-                }
-            ],
-            "out_of_scope": []
         }
     },
     {
@@ -9132,44 +9058,76 @@
         }
     },
     {
-        "handle": "engagements/cfr",
+        "handle": "engagements/asana",
         "bounty": 1,
         "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "https://www.foreignaffairs.com/",
+                    "identifier": "app.asana.com",
                     "type": "website"
                 },
                 {
-                    "identifier": "https://www.cfr.org/",
+                    "identifier": "asana.com",
                     "type": "website"
                 },
                 {
-                    "identifier": "https://thinkglobalhealth.org",
+                    "identifier": "*.asana.plus",
                     "type": "website"
                 },
                 {
-                    "identifier": "https://education.cfr.org/",
+                    "identifier": "Asana Desktop App",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Asana iOS app",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Asana Android app",
+                    "type": "android"
+                },
+                {
+                    "identifier": "form.asana.com",
                     "type": "website"
+                },
+                {
+                    "identifier": "*.app.asana.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.asana.biz",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Subdomain takeover at *asana.biz",
+                    "type": "other"
                 }
             ],
             "out_of_scope": [
                 {
-                    "identifier": "https://subs.foreignaffairs.com",
+                    "identifier": "Other subdomains of asana.com",
                     "type": "website"
                 },
                 {
-                    "identifier": "https://subscribe.foreignaffairs.com ",
+                    "identifier": "Social engineering against Asana Support or Asana Employees",
+                    "type": "other"
+                },
+                {
+                    "identifier": "jira*.integrations.asana.plus",
                     "type": "website"
                 },
                 {
-                    "identifier": "https://world101.cfr.org/",
+                    "identifier": "asana.okta.com",
                     "type": "website"
                 },
                 {
-                    "identifier": "https://modeldiplomacy.cfr.org",
+                    "identifier": "assets.asana.biz",
                     "type": "website"
+                },
+                {
+                    "identifier": "Forms that you do not own",
+                    "type": "other"
                 }
             ]
         }
@@ -9250,76 +9208,118 @@
         }
     },
     {
-        "handle": "engagements/asana",
+        "handle": "engagements/keepersecurity",
         "bounty": 1,
         "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "app.asana.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "asana.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.asana.plus",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Asana Desktop App",
+                    "identifier": "Keeper Browser Extension (Chrome, Safari, Firefox, Edge)",
                     "type": "other"
                 },
                 {
-                    "identifier": "Asana iOS app",
+                    "identifier": "Keeper for iOS",
                     "type": "ios"
                 },
                 {
-                    "identifier": "Asana Android app",
+                    "identifier": "KeeperChat for Windows",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Keeper Security Website",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Keeper for Mac, PC, Linux",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Keeper Web Vault (US, EU, AU, CA, JP, GovCloud)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Keeper AD / LDAP Bridge",
+                    "type": "api"
+                },
+                {
+                    "identifier": "KeeperChat for iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "KeeperChat for Android",
                     "type": "android"
                 },
                 {
-                    "identifier": "form.asana.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.app.asana.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.asana.biz",
+                    "identifier": "KeeperChat for Mac",
                     "type": "other"
                 },
                 {
-                    "identifier": "Subdomain takeover at *asana.biz",
+                    "identifier": "Keeper for Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Keeper Connection Manager (KCM)",
                     "type": "other"
+                },
+                {
+                    "identifier": "Keeper Admin Console (US, EU, AU, CA, JP, GovCloud)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Keeper Secrets Manager and Keeper Commander APIs",
+                    "type": "api"
+                },
+                {
+                    "identifier": "SSO Connect On-Prem",
+                    "type": "api"
+                },
+                {
+                    "identifier": "SSO Connect Cloud and Automator Service",
+                    "type": "api"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/cfr",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://www.foreignaffairs.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.cfr.org/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://thinkglobalhealth.org",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://education.cfr.org/",
+                    "type": "website"
                 }
             ],
             "out_of_scope": [
                 {
-                    "identifier": "Other subdomains of asana.com",
+                    "identifier": "https://subs.foreignaffairs.com",
                     "type": "website"
                 },
                 {
-                    "identifier": "Social engineering against Asana Support or Asana Employees",
-                    "type": "other"
-                },
-                {
-                    "identifier": "jira*.integrations.asana.plus",
+                    "identifier": "https://subscribe.foreignaffairs.com ",
                     "type": "website"
                 },
                 {
-                    "identifier": "asana.okta.com",
+                    "identifier": "https://world101.cfr.org/",
                     "type": "website"
                 },
                 {
-                    "identifier": "assets.asana.biz",
+                    "identifier": "https://modeldiplomacy.cfr.org",
                     "type": "website"
-                },
-                {
-                    "identifier": "Forms that you do not own",
-                    "type": "other"
                 }
             ]
         }
