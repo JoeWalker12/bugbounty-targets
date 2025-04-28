@@ -3623,6 +3623,41 @@
         }
     },
     {
+        "handle": "engagements/directly",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "app.sandbox.directly.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.sandbox.directly.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://sandbox.directly.com/dashboard/index",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "www.directly.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "resources.directly.com/*",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.sandbox.directly.com/schedule-a-demo/* OR /product/* OR /careers/* OR /about/* OR /legal/* OR /trust/*",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
         "handle": "engagements/soundcloud",
         "bounty": 1,
         "active": 1,
@@ -3734,41 +3769,6 @@
         }
     },
     {
-        "handle": "engagements/directly",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "app.sandbox.directly.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.sandbox.directly.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://sandbox.directly.com/dashboard/index",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "www.directly.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "resources.directly.com/*",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.sandbox.directly.com/schedule-a-demo/* OR /product/* OR /careers/* OR /about/* OR /legal/* OR /trust/*",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/immutable",
         "bounty": 1,
         "active": 1,
@@ -3873,52 +3873,6 @@
                     "type": "other"
                 }
             ]
-        }
-    },
-    {
-        "handle": "engagements/pinterest",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "api.pinterest.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.pinterest.com Web Apps",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Pinterest iOS Mobile Application",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Pinterest Android Mobile Application",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Pinterest Lite Android Mobile Application",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Edge extension (download at: ms-windows-store://pdp/?productid=9nblggh4v89b )",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Chrome extension (download at: chrome.google.com/webstore/detail/pinterest-save-button/gpdjojdkbbmdfjfahjcgigfpmkopogic?hl=en)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Firefox extension (download at:   https://addons.mozilla.org/firefox/addon/pinterest/)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Open source projects(non-forked) listed at github.com/pinterest/",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": []
         }
     },
     {
@@ -4117,6 +4071,52 @@
                     "type": "other"
                 }
             ]
+        }
+    },
+    {
+        "handle": "engagements/pinterest",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "api.pinterest.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.pinterest.com Web Apps",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Pinterest iOS Mobile Application",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Pinterest Android Mobile Application",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Pinterest Lite Android Mobile Application",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Edge extension (download at: ms-windows-store://pdp/?productid=9nblggh4v89b )",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Chrome extension (download at: chrome.google.com/webstore/detail/pinterest-save-button/gpdjojdkbbmdfjfahjcgigfpmkopogic?hl=en)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Firefox extension (download at:   https://addons.mozilla.org/firefox/addon/pinterest/)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Open source projects(non-forked) listed at github.com/pinterest/",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": []
         }
     },
     {
@@ -6208,105 +6208,6 @@
         }
     },
     {
-        "handle": "engagements/lululemon",
-        "bounty": 1,
-        "active": 0,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "shop.lululemon.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.lululemon.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Lululemon Mobile App - iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "https://www.lululemon.com.au",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.lululemon.de",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.lululemon.es",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.eu.lululemon.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.lululemon.fr",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.lululemon.com.hk",
-                    "type": "website"
-                },
-                {
-                    "identifier": "http://www.lululemon.co.jp",
-                    "type": "website"
-                },
-                {
-                    "identifier": "http://www.lululemon.co.kr",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.lululemon.co.nz",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.lululemon.co.uk",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "*.lululemon.cn",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://fr.shop.lululemon.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.lululemon.me",
-                    "type": "website"
-                },
-                {
-                    "identifier": "careers.lululemon.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://info.lululemon.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://pnimages.lululemon.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "AEM - Assets",
-                    "type": "website"
-                },
-                {
-                    "identifier": "AEM - Sites",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.mirror.co",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/tyler-tech-data-insights",
         "bounty": 1,
         "active": 1,
@@ -6638,6 +6539,105 @@
                 }
             ],
             "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/lululemon",
+        "bounty": 1,
+        "active": 0,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "shop.lululemon.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.lululemon.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Lululemon Mobile App - iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "https://www.lululemon.com.au",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.lululemon.de",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.lululemon.es",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.eu.lululemon.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.lululemon.fr",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.lululemon.com.hk",
+                    "type": "website"
+                },
+                {
+                    "identifier": "http://www.lululemon.co.jp",
+                    "type": "website"
+                },
+                {
+                    "identifier": "http://www.lululemon.co.kr",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.lululemon.co.nz",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.lululemon.co.uk",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "*.lululemon.cn",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://fr.shop.lululemon.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.lululemon.me",
+                    "type": "website"
+                },
+                {
+                    "identifier": "careers.lululemon.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://info.lululemon.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://pnimages.lululemon.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "AEM - Assets",
+                    "type": "website"
+                },
+                {
+                    "identifier": "AEM - Sites",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.mirror.co",
+                    "type": "website"
+                }
+            ]
         }
     },
     {
@@ -9485,98 +9485,6 @@
         }
     },
     {
-        "handle": "engagements/prosus-og",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "dealflow.prosus.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "dealflowapi.prosus.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "analytics-admin.prosus.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "analytics.prosus.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "data.prosus.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "hr.prosus.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "tracker.naspers.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "cfc.naspers.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "peopleview.naspers.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "nav.naspers.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/opensea",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "opensea.io",
-                    "type": "website"
-                },
-                {
-                    "identifier": "http://wallets.opensea.io/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "io.opensea - Android App",
-                    "type": "android"
-                },
-                {
-                    "identifier": "io.opensea - iOS App",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "https://github.com/ProjectOpenSea/seaport#deployments",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://etherscan.io/address/0x0000a26b00c1F0DF003000390027140000fAa719",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://etherscan.io/address/0x00005EA00Ac477B1030CE78506496e8C2dE24bf5",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Broken Link",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/intercom",
         "bounty": 1,
         "active": 1,
@@ -11197,85 +11105,6 @@
         }
     },
     {
-        "handle": "engagements/trello",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "trello.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "api.trello.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.trello.services",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Trello Desktop Client",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Trello Mobile App for Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Trello Mobile App for iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Butler for Trello",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Calendar Power-Up",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Card Aging Power-Up",
-                    "type": "website"
-                },
-                {
-                    "identifier": "List Limits Power-Up",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Voting Power-Up",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Microsoft Teams Integration",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Trello Third Party Powerups",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "First party (made-by-trello) power-ups other than those inscope are excluded from this program but can be reported to http://bugcrowd.com/atlassianapps",
-                    "type": "website"
-                },
-                {
-                    "identifier": "e.trello.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "help.trello.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "trello-attachments.s3.amazonaws.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/aylo-mbb-og",
         "bounty": 1,
         "active": 1,
@@ -12385,6 +12214,177 @@
         }
     },
     {
+        "handle": "engagements/prosus-og",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "dealflow.prosus.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "dealflowapi.prosus.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "analytics-admin.prosus.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "analytics.prosus.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "data.prosus.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "hr.prosus.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "tracker.naspers.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "cfc.naspers.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "peopleview.naspers.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "nav.naspers.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/trello",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "trello.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "api.trello.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.trello.services",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Trello Desktop Client",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Trello Mobile App for Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Trello Mobile App for iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Butler for Trello",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Calendar Power-Up",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Card Aging Power-Up",
+                    "type": "website"
+                },
+                {
+                    "identifier": "List Limits Power-Up",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Voting Power-Up",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Microsoft Teams Integration",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Trello Third Party Powerups",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "First party (made-by-trello) power-ups other than those inscope are excluded from this program but can be reported to http://bugcrowd.com/atlassianapps",
+                    "type": "website"
+                },
+                {
+                    "identifier": "e.trello.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "help.trello.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "trello-attachments.s3.amazonaws.com",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/opensea",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "opensea.io",
+                    "type": "website"
+                },
+                {
+                    "identifier": "http://wallets.opensea.io/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "io.opensea - Android App",
+                    "type": "android"
+                },
+                {
+                    "identifier": "io.opensea - iOS App",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "https://github.com/ProjectOpenSea/seaport#deployments",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://etherscan.io/address/0x0000a26b00c1F0DF003000390027140000fAa719",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://etherscan.io/address/0x00005EA00Ac477B1030CE78506496e8C2dE24bf5",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Broken Link",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
         "handle": "engagements/kennasecurity",
         "bounty": 1,
         "active": 0,
@@ -13395,165 +13395,6 @@
         }
     },
     {
-        "handle": "engagements/latitude-financial-service-bugbounty",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://api.test.latitudefinancial.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://master.servicecentre.digitalservicing-np.lfscnp.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://master.servicecentre-nz.digitalservicing-np.lfscnp.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.28degreescard.com.au",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.buyersedge.com.au",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.carecredit.com.au",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.gemcreditline.co.nz",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.gemfinance.co.nz",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.gemvisa.com.au",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.genoapay.co.nz",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.genoapay.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.gomastercard.com.au",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.interestfree.com.au",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.latitudefinancial.co.nz",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.latitudefinancial.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.latitudefinancial.com.au",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.latitudeinfinity.com.au",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.latitudepay.com.au",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.latitudepay.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.umiloans.com.au",
-                    "type": "website"
-                },
-                {
-                    "identifier": "images.latitudepayapps.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "app.latitudepayapps.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": " *.test.*.lfscnp.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.dev.*.lfscnp.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.sandbox.*.lfscnp.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.-np.*.lfscnp.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "https://investors.latitudefinancial.com.au",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://auth.latitudefinancial.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://auth.*.latitudefinancial.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "*.latitudefs.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://*.my.latitudepay.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.sg.latitudepay.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://my.latitudepay.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://sg.latitudepay.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://t.latitudefinancial.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://p.latitudefinancial.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Payment APIs",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/aylo-mydirtyhobby-mbb-og",
         "bounty": 1,
         "active": 1,
@@ -14161,65 +14002,6 @@
         }
     },
     {
-        "handle": "engagements/tidal-bugbounty",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.tidal.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.wimpmusic.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.tidalhifi.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "api.tidal.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*tidalhi.fi",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.tdl.sh",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Tidal Client for iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Tidal Client for Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Tidal Desktop Client",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Tidal Official Clients (e.g. Sonos integration, Tesla integration, etc.)",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "developer.tidal.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "embed.tidal.com",
-                    "type": "other"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/underarmour-corp",
         "bounty": 1,
         "active": 1,
@@ -14387,37 +14169,62 @@
         }
     },
     {
-        "handle": "engagements/mallofemirates",
+        "handle": "engagements/tidal-bugbounty",
         "bounty": 1,
         "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "https://www.malloftheemirates.com",
+                    "identifier": "*.tidal.com",
                     "type": "website"
                 },
                 {
-                    "identifier": "https://play.google.com/store/apps/details?id=com.belongi.moe",
-                    "type": "android"
+                    "identifier": "*.wimpmusic.com",
+                    "type": "website"
                 },
                 {
-                    "identifier": "https://apps.apple.com/app/mall-of-the-emirates-moe/id1449578693",
-                    "type": "ios"
+                    "identifier": "*.tidalhifi.com",
+                    "type": "website"
                 },
                 {
-                    "identifier": "https://api.mafshoppingmalls.com/",
+                    "identifier": "api.tidal.com",
                     "type": "api"
                 },
                 {
-                    "identifier": "https://www.premogiftcards.com/",
+                    "identifier": "*tidalhi.fi",
                     "type": "website"
                 },
                 {
-                    "identifier": "https://identity.majidalfuttaim.com",
+                    "identifier": "*.tdl.sh",
                     "type": "website"
+                },
+                {
+                    "identifier": "Tidal Client for iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Tidal Client for Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Tidal Desktop Client",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Tidal Official Clients (e.g. Sonos integration, Tesla integration, etc.)",
+                    "type": "other"
                 }
             ],
-            "out_of_scope": []
+            "out_of_scope": [
+                {
+                    "identifier": "developer.tidal.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "embed.tidal.com",
+                    "type": "other"
+                }
+            ]
         }
     },
     {
@@ -14557,6 +14364,199 @@
                     "type": "website"
                 }
             ]
+        }
+    },
+    {
+        "handle": "engagements/latitude-financial-service-bugbounty",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://api.test.latitudefinancial.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://master.servicecentre.digitalservicing-np.lfscnp.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://master.servicecentre-nz.digitalservicing-np.lfscnp.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.28degreescard.com.au",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.buyersedge.com.au",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.carecredit.com.au",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.gemcreditline.co.nz",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.gemfinance.co.nz",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.gemvisa.com.au",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.genoapay.co.nz",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.genoapay.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.gomastercard.com.au",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.interestfree.com.au",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.latitudefinancial.co.nz",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.latitudefinancial.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.latitudefinancial.com.au",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.latitudeinfinity.com.au",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.latitudepay.com.au",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.latitudepay.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.umiloans.com.au",
+                    "type": "website"
+                },
+                {
+                    "identifier": "images.latitudepayapps.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "app.latitudepayapps.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": " *.test.*.lfscnp.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.dev.*.lfscnp.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.sandbox.*.lfscnp.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.-np.*.lfscnp.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "https://investors.latitudefinancial.com.au",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://auth.latitudefinancial.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://auth.*.latitudefinancial.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "*.latitudefs.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://*.my.latitudepay.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.sg.latitudepay.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://my.latitudepay.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://sg.latitudepay.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://t.latitudefinancial.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://p.latitudefinancial.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Payment APIs",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/mallofemirates",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://www.malloftheemirates.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://play.google.com/store/apps/details?id=com.belongi.moe",
+                    "type": "android"
+                },
+                {
+                    "identifier": "https://apps.apple.com/app/mall-of-the-emirates-moe/id1449578693",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "https://api.mafshoppingmalls.com/",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://www.premogiftcards.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://identity.majidalfuttaim.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
         }
     },
     {
