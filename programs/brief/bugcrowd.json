@@ -3588,6 +3588,41 @@
         }
     },
     {
+        "handle": "engagements/directly",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "app.sandbox.directly.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.sandbox.directly.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://sandbox.directly.com/dashboard/index",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "www.directly.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "resources.directly.com/*",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.sandbox.directly.com/schedule-a-demo/* OR /product/* OR /careers/* OR /about/* OR /legal/* OR /trust/*",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
         "handle": "engagements/soundcloud",
         "bounty": 1,
         "active": 1,
@@ -3699,41 +3734,6 @@
         }
     },
     {
-        "handle": "engagements/directly",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "app.sandbox.directly.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.sandbox.directly.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://sandbox.directly.com/dashboard/index",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "www.directly.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "resources.directly.com/*",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.sandbox.directly.com/schedule-a-demo/* OR /product/* OR /careers/* OR /about/* OR /legal/* OR /trust/*",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/immutable",
         "bounty": 1,
         "active": 1,
@@ -3838,52 +3838,6 @@
                     "type": "other"
                 }
             ]
-        }
-    },
-    {
-        "handle": "engagements/pinterest",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "api.pinterest.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.pinterest.com Web Apps",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Pinterest iOS Mobile Application",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Pinterest Android Mobile Application",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Pinterest Lite Android Mobile Application",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Edge extension (download at: ms-windows-store://pdp/?productid=9nblggh4v89b )",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Chrome extension (download at: chrome.google.com/webstore/detail/pinterest-save-button/gpdjojdkbbmdfjfahjcgigfpmkopogic?hl=en)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Firefox extension (download at:   https://addons.mozilla.org/firefox/addon/pinterest/)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Open source projects(non-forked) listed at github.com/pinterest/",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": []
         }
     },
     {
@@ -4082,6 +4036,52 @@
                     "type": "other"
                 }
             ]
+        }
+    },
+    {
+        "handle": "engagements/pinterest",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "api.pinterest.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.pinterest.com Web Apps",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Pinterest iOS Mobile Application",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Pinterest Android Mobile Application",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Pinterest Lite Android Mobile Application",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Edge extension (download at: ms-windows-store://pdp/?productid=9nblggh4v89b )",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Chrome extension (download at: chrome.google.com/webstore/detail/pinterest-save-button/gpdjojdkbbmdfjfahjcgigfpmkopogic?hl=en)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Firefox extension (download at:   https://addons.mozilla.org/firefox/addon/pinterest/)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Open source projects(non-forked) listed at github.com/pinterest/",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": []
         }
     },
     {
@@ -4427,60 +4427,6 @@
                     "type": "website"
                 }
             ]
-        }
-    },
-    {
-        "handle": "engagements/openai",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "api.openai.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "ChatGPT",
-                    "type": "website"
-                },
-                {
-                    "identifier": "ChatGPT Plugins",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Third Party Targets",
-                    "type": "website"
-                },
-                {
-                    "identifier": "OpenAI API Keys",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://openai.org",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.openai.org",
-                    "type": "api"
-                },
-                {
-                    "identifier": "openai.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.openai.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Developer Platform Playground",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Other",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": []
         }
     },
     {
@@ -4932,6 +4878,109 @@
         }
     },
     {
+        "handle": "engagements/linktree-mbb-og",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.linktr.ee",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.linktree.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.tr.ee",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.linktree-extensions.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.odesli.co",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.odesli.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.song.link",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.songlink.io",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.album.link",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.artist.link",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.pods.link",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.playlist.link",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.mylink.page",
+                    "type": "website"
+                },
+                {
+                    "identifier": "plannthat.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Linktree iOS app",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Linktree Android app",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Plann iOS app",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Plann Android app",
+                    "type": "android"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "*.filestack.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.freshdesk.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.blstr.xyz",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.blstr.co",
+                    "type": "website"
+                },
+                {
+                    "identifier": "community.linktr.ee",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
         "handle": "engagements/quizlet",
         "bounty": 1,
         "active": 1,
@@ -4964,6 +5013,60 @@
                     "type": "website"
                 }
             ]
+        }
+    },
+    {
+        "handle": "engagements/openai",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "api.openai.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "ChatGPT",
+                    "type": "website"
+                },
+                {
+                    "identifier": "ChatGPT Plugins",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Third Party Targets",
+                    "type": "website"
+                },
+                {
+                    "identifier": "OpenAI API Keys",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://openai.org",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.openai.org",
+                    "type": "api"
+                },
+                {
+                    "identifier": "openai.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.openai.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Developer Platform Playground",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Other",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": []
         }
     },
     {
@@ -6920,37 +7023,6 @@
                 },
                 {
                     "identifier": "admin.selectwifi.xfinity.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/carrefour",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Carrefour UAE iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Carrefour UAE Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "carrefouruae.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://api-prod.retailsso.com",
-                    "type": "api"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "https://cwingsfe.mafrservices.com/login",
                     "type": "website"
                 }
             ]
@@ -9222,6 +9294,37 @@
         }
     },
     {
+        "handle": "engagements/carrefour",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Carrefour UAE iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Carrefour UAE Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "carrefouruae.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://api-prod.retailsso.com",
+                    "type": "api"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "https://cwingsfe.mafrservices.com/login",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
         "handle": "engagements/nextupai",
         "bounty": 1,
         "active": 0,
@@ -9284,32 +9387,6 @@
                 {
                     "identifier": "Mint Mobile Android Phone App",
                     "type": "android"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/cashapp",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Cash App Mobile Application for iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Cash App Mobile Application for Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "*.cash.app",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.cashstaging.app",
-                    "type": "website"
                 }
             ],
             "out_of_scope": []
@@ -12190,6 +12267,74 @@
         }
     },
     {
+        "handle": "engagements/cashapp",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Cash App Mobile Application for iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Cash App Mobile Application for Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "*.cash.app",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.cashstaging.app",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/opensea",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "opensea.io",
+                    "type": "website"
+                },
+                {
+                    "identifier": "http://wallets.opensea.io/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "io.opensea - Android App",
+                    "type": "android"
+                },
+                {
+                    "identifier": "io.opensea - iOS App",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "https://github.com/ProjectOpenSea/seaport#deployments",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://etherscan.io/address/0x0000a26b00c1F0DF003000390027140000fAa719",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://etherscan.io/address/0x00005EA00Ac477B1030CE78506496e8C2dE24bf5",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Broken Link",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
         "handle": "engagements/prosus-og",
         "bounty": 1,
         "active": 1,
@@ -12233,48 +12378,6 @@
                 },
                 {
                     "identifier": "nav.naspers.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/opensea",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "opensea.io",
-                    "type": "website"
-                },
-                {
-                    "identifier": "http://wallets.opensea.io/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "io.opensea - Android App",
-                    "type": "android"
-                },
-                {
-                    "identifier": "io.opensea - iOS App",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "https://github.com/ProjectOpenSea/seaport#deployments",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://etherscan.io/address/0x0000a26b00c1F0DF003000390027140000fAa719",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://etherscan.io/address/0x00005EA00Ac477B1030CE78506496e8C2dE24bf5",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Broken Link",
                     "type": "website"
                 }
             ],
@@ -13647,304 +13750,6 @@
         }
     },
     {
-        "handle": "engagements/comcast-mbb",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.xfinity.com\t",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.comcast.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.xcal.tv",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Staging, QA, Dev, and Test Environments",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "*.hfc.comcastbusiness.net",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.hsd1.*.comcast.net",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*business.comcast.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "10.0.0.0/8",
-                    "type": "network"
-                },
-                {
-                    "identifier": "50.128.0.0/12",
-                    "type": "network"
-                },
-                {
-                    "identifier": "50.152.0.0/13",
-                    "type": "network"
-                },
-                {
-                    "identifier": "96.201.0.0/16",
-                    "type": "network"
-                },
-                {
-                    "identifier": "96.202.128.0/17",
-                    "type": "network"
-                },
-                {
-                    "identifier": "96.203.0.0/16",
-                    "type": "network"
-                },
-                {
-                    "identifier": "172.26.128.0/18",
-                    "type": "network"
-                },
-                {
-                    "identifier": "184.112.0.0/13",
-                    "type": "network"
-                },
-                {
-                    "identifier": "184.122.0.0/15",
-                    "type": "network"
-                },
-                {
-                    "identifier": "NBC Universal",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Sky",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.sys.comcast.net",
-                    "type": "website"
-                },
-                {
-                    "identifier": "admin.selectwifi.xfinity.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/tripadvisor-bb-og",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "api.production.cde.tamg.cloud",
-                    "type": "api"
-                },
-                {
-                    "identifier": "partnerapi.tapayments.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "partnerapi1.tapayments.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "partnerapi2.tapayments.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "walletproxy.tapayments.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "walletproxy1.tapayments.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "walletproxy2.tapayments.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "www.tripadvisor.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Localized versions of www.tripadvisor.com available from the site's header or footer",
-                    "type": "website"
-                },
-                {
-                    "identifier": "api.tripadvisor.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "service.platform.tripadvisor.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "gwapi.tripadvisor.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "gwapi1.tripadvisor.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "gwapi2.tripadvisor.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Any publicly accessible Tripadvisor web asset or host (domains, ip space, etc) - except for assets listed as Out-of-Scope below. ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Tripadvisor Android App",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Tripadvisor iOS App",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "rentals.tripadvisor.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.vacationhomerentals.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.holidaylettings.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.flipkey.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.niumba.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.housetrip.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Tripadvisor Owner APP (https://itunes.apple.com/us/app/vacation-rentals-owner-app-by-tripadvisor/id1045663228?mt=8)",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "marlo.ext.tripadvisor.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.bokundemo.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.bokuntest.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": " ir.tripadvisor.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.tripadviser.at",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.tripadvisor.cn",
-                    "type": "website"
-                },
-                {
-                    "identifier": "www.tripadvisor.*/Trips",
-                    "type": "website"
-                },
-                {
-                    "identifier": "www.tripadvisor.*/Mobile*",
-                    "type": "website"
-                },
-                {
-                    "identifier": "www.tripadvisor.*/engineering",
-                    "type": "website"
-                },
-                {
-                    "identifier": "www.tripadvisor.*/WidgetEmbed-*",
-                    "type": "website"
-                },
-                {
-                    "identifier": "spotlight-dev.tripadvisor.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "spotlight.tripadvisor.*",
-                    "type": "website"
-                },
-                {
-                    "identifier": "careers.tripadvisor.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.tripadvisoradexpress.*",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.tripadvisorwifi.*",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.bokun.io",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.bokun.is",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.bokun.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.bokun.app",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.bokun.eu",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.bokun.team",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.bokun.tools",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.bokun.website",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.bokunmobile.website",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.experiences.zone",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/kohls",
         "bounty": 1,
         "active": 1,
@@ -14457,103 +14262,298 @@
         }
     },
     {
-        "handle": "engagements/linktree-mbb-og",
+        "handle": "engagements/comcast-mbb",
         "bounty": 1,
         "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "*.linktr.ee",
+                    "identifier": "*.xfinity.com\t",
                     "type": "website"
                 },
                 {
-                    "identifier": "*.linktree.com",
+                    "identifier": "*.comcast.com",
                     "type": "website"
                 },
                 {
-                    "identifier": "*.tr.ee",
+                    "identifier": "*.xcal.tv",
                     "type": "website"
                 },
                 {
-                    "identifier": "*.linktree-extensions.com",
+                    "identifier": "Staging, QA, Dev, and Test Environments",
                     "type": "website"
-                },
-                {
-                    "identifier": "*.odesli.co",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.odesli.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.song.link",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.songlink.io",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.album.link",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.artist.link",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.pods.link",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.playlist.link",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.mylink.page",
-                    "type": "website"
-                },
-                {
-                    "identifier": "plannthat.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Linktree iOS app",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Linktree Android app",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Plann iOS app",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Plann Android app",
-                    "type": "android"
                 }
             ],
             "out_of_scope": [
                 {
-                    "identifier": "*.filestack.com",
+                    "identifier": "*.hfc.comcastbusiness.net",
                     "type": "website"
                 },
                 {
-                    "identifier": "*.freshdesk.com",
+                    "identifier": "*.hsd1.*.comcast.net",
                     "type": "website"
                 },
                 {
-                    "identifier": "*.blstr.xyz",
+                    "identifier": "*business.comcast.com",
                     "type": "website"
                 },
                 {
-                    "identifier": "*.blstr.co",
+                    "identifier": "10.0.0.0/8",
+                    "type": "network"
+                },
+                {
+                    "identifier": "50.128.0.0/12",
+                    "type": "network"
+                },
+                {
+                    "identifier": "50.152.0.0/13",
+                    "type": "network"
+                },
+                {
+                    "identifier": "96.201.0.0/16",
+                    "type": "network"
+                },
+                {
+                    "identifier": "96.202.128.0/17",
+                    "type": "network"
+                },
+                {
+                    "identifier": "96.203.0.0/16",
+                    "type": "network"
+                },
+                {
+                    "identifier": "172.26.128.0/18",
+                    "type": "network"
+                },
+                {
+                    "identifier": "184.112.0.0/13",
+                    "type": "network"
+                },
+                {
+                    "identifier": "184.122.0.0/15",
+                    "type": "network"
+                },
+                {
+                    "identifier": "NBC Universal",
                     "type": "website"
                 },
                 {
-                    "identifier": "community.linktr.ee",
+                    "identifier": "Sky",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.sys.comcast.net",
+                    "type": "website"
+                },
+                {
+                    "identifier": "admin.selectwifi.xfinity.com",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/tripadvisor-bb-og",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "api.production.cde.tamg.cloud",
+                    "type": "api"
+                },
+                {
+                    "identifier": "partnerapi.tapayments.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "partnerapi1.tapayments.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "partnerapi2.tapayments.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "walletproxy.tapayments.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "walletproxy1.tapayments.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "walletproxy2.tapayments.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "www.tripadvisor.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Localized versions of www.tripadvisor.com available from the site's header or footer",
+                    "type": "website"
+                },
+                {
+                    "identifier": "api.tripadvisor.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "service.platform.tripadvisor.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "gwapi.tripadvisor.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "gwapi1.tripadvisor.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "gwapi2.tripadvisor.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Any publicly accessible Tripadvisor web asset or host (domains, ip space, etc) - except for assets listed as Out-of-Scope below. ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Tripadvisor Android App",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Tripadvisor iOS App",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "rentals.tripadvisor.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.vacationhomerentals.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.holidaylettings.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.flipkey.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.niumba.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.housetrip.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Tripadvisor Owner APP (https://itunes.apple.com/us/app/vacation-rentals-owner-app-by-tripadvisor/id1045663228?mt=8)",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "marlo.ext.tripadvisor.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.bokundemo.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.bokuntest.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": " ir.tripadvisor.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.tripadviser.at",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.tripadvisor.cn",
+                    "type": "website"
+                },
+                {
+                    "identifier": "www.tripadvisor.*/Trips",
+                    "type": "website"
+                },
+                {
+                    "identifier": "www.tripadvisor.*/Mobile*",
+                    "type": "website"
+                },
+                {
+                    "identifier": "www.tripadvisor.*/engineering",
+                    "type": "website"
+                },
+                {
+                    "identifier": "www.tripadvisor.*/WidgetEmbed-*",
+                    "type": "website"
+                },
+                {
+                    "identifier": "spotlight-dev.tripadvisor.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "spotlight.tripadvisor.*",
+                    "type": "website"
+                },
+                {
+                    "identifier": "careers.tripadvisor.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.tripadvisoradexpress.*",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.tripadvisorwifi.*",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.bokun.io",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.bokun.is",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.bokun.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.bokun.app",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.bokun.eu",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.bokun.team",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.bokun.tools",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.bokun.website",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.bokunmobile.website",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.experiences.zone",
                     "type": "website"
                 }
             ]
