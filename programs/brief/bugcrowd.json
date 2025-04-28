@@ -3623,41 +3623,6 @@
         }
     },
     {
-        "handle": "engagements/directly",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "app.sandbox.directly.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.sandbox.directly.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://sandbox.directly.com/dashboard/index",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "www.directly.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "resources.directly.com/*",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.sandbox.directly.com/schedule-a-demo/* OR /product/* OR /careers/* OR /about/* OR /legal/* OR /trust/*",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/soundcloud",
         "bounty": 1,
         "active": 1,
@@ -3769,6 +3734,41 @@
         }
     },
     {
+        "handle": "engagements/directly",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "app.sandbox.directly.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.sandbox.directly.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://sandbox.directly.com/dashboard/index",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "www.directly.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "resources.directly.com/*",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.sandbox.directly.com/schedule-a-demo/* OR /product/* OR /careers/* OR /about/* OR /legal/* OR /trust/*",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
         "handle": "engagements/immutable",
         "bounty": 1,
         "active": 1,
@@ -3873,6 +3873,52 @@
                     "type": "other"
                 }
             ]
+        }
+    },
+    {
+        "handle": "engagements/pinterest",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "api.pinterest.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.pinterest.com Web Apps",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Pinterest iOS Mobile Application",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Pinterest Android Mobile Application",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Pinterest Lite Android Mobile Application",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Edge extension (download at: ms-windows-store://pdp/?productid=9nblggh4v89b )",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Chrome extension (download at: chrome.google.com/webstore/detail/pinterest-save-button/gpdjojdkbbmdfjfahjcgigfpmkopogic?hl=en)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Firefox extension (download at:   https://addons.mozilla.org/firefox/addon/pinterest/)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Open source projects(non-forked) listed at github.com/pinterest/",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": []
         }
     },
     {
@@ -4071,52 +4117,6 @@
                     "type": "other"
                 }
             ]
-        }
-    },
-    {
-        "handle": "engagements/pinterest",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "api.pinterest.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.pinterest.com Web Apps",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Pinterest iOS Mobile Application",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Pinterest Android Mobile Application",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Pinterest Lite Android Mobile Application",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Edge extension (download at: ms-windows-store://pdp/?productid=9nblggh4v89b )",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Chrome extension (download at: chrome.google.com/webstore/detail/pinterest-save-button/gpdjojdkbbmdfjfahjcgigfpmkopogic?hl=en)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Firefox extension (download at:   https://addons.mozilla.org/firefox/addon/pinterest/)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Open source projects(non-forked) listed at github.com/pinterest/",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": []
         }
     },
     {
@@ -4620,60 +4620,6 @@
         }
     },
     {
-        "handle": "engagements/openai",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "api.openai.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "ChatGPT",
-                    "type": "website"
-                },
-                {
-                    "identifier": "ChatGPT Plugins",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Third Party Targets",
-                    "type": "website"
-                },
-                {
-                    "identifier": "OpenAI API Keys",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://openai.org",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.openai.org",
-                    "type": "api"
-                },
-                {
-                    "identifier": "openai.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.openai.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Developer Platform Playground",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Other",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/underarmour",
         "bounty": 1,
         "active": 1,
@@ -5067,6 +5013,60 @@
                     "type": "website"
                 }
             ]
+        }
+    },
+    {
+        "handle": "engagements/openai",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "api.openai.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "ChatGPT",
+                    "type": "website"
+                },
+                {
+                    "identifier": "ChatGPT Plugins",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Third Party Targets",
+                    "type": "website"
+                },
+                {
+                    "identifier": "OpenAI API Keys",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://openai.org",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.openai.org",
+                    "type": "api"
+                },
+                {
+                    "identifier": "openai.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.openai.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Developer Platform Playground",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Other",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": []
         }
     },
     {
@@ -5610,53 +5610,6 @@
                 }
             ],
             "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/acorns",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.acorns.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Acorns for iOS",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://graphql.acorns.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Acorns for Android",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://www.gohenry.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.pixpay.fr/",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "share.acorns.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "grow.acorns.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "store.acorns.com",
-                    "type": "website"
-                }
-            ]
         }
     },
     {
@@ -6635,6 +6588,53 @@
                 },
                 {
                     "identifier": "https://www.mirror.co",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/acorns",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.acorns.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Acorns for iOS",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://graphql.acorns.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Acorns for Android",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://www.gohenry.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.pixpay.fr/",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "share.acorns.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "grow.acorns.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "store.acorns.com",
                     "type": "website"
                 }
             ]
@@ -12214,56 +12214,6 @@
         }
     },
     {
-        "handle": "engagements/prosus-og",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "dealflow.prosus.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "dealflowapi.prosus.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "analytics-admin.prosus.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "analytics.prosus.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "data.prosus.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "hr.prosus.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "tracker.naspers.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "cfc.naspers.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "peopleview.naspers.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "nav.naspers.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/trello",
         "bounty": 1,
         "active": 1,
@@ -12378,6 +12328,56 @@
                 },
                 {
                     "identifier": "Broken Link",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/prosus-og",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "dealflow.prosus.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "dealflowapi.prosus.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "analytics-admin.prosus.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "analytics.prosus.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "data.prosus.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "hr.prosus.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "tracker.naspers.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "cfc.naspers.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "peopleview.naspers.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "nav.naspers.com",
                     "type": "website"
                 }
             ],
@@ -14228,145 +14228,6 @@
         }
     },
     {
-        "handle": "engagements/kohls",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Kohl\u2019s entire public digital footprint that is not Out-Of-Scope(See list below)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "www.kohls.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Kohl's Mobile Application for iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Kohl's Mobile Application for Android",
-                    "type": "android"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "apply.kohls.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*kohls.com/kohlscredit/prequal",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*kohlsecommerce.com/kohlscredit/prequal",
-                    "type": "other"
-                },
-                {
-                    "identifier": "corporate.kohls.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "productchampions.kohls.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "link-preprod.kohls.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "developer.kohls.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "lclive.kohls.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "author-mykohls.kohls.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "mykohls-origin.kohls.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "origin-stage65-corporate.kohls.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "origin-stage65-mykohls.kohls.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "author-stage65-mykohls.kohls.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "stage65-corporate.kohls.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "stage65-mykohls.kohls.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "author-qa65-mykohls.kohls.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "mykohls.kohls.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "any domain with archaius.json endoint is out of scope",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*kohls.com/feature/pre-qual/prequal_inquiry.jsp?icid=prequalfooter",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*kohls.com/checkout/prequal_inquiry.jsp#/preQualEligible",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*kohlsecommerce.com/feature/pre-qual/prequal_inquiry.jsp?icid=prequalfooter",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*kohlsecommerce.com/checkout/prequal_inquiry.jsp#/preQualEligible",
-                    "type": "website"
-                },
-                {
-                    "identifier": "vp-*.kohls.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*qa*.kohls.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "wfh*.kohls.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "kconnect.kohls.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "connection.kohls.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "kohlsmerch.kohls.com/",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/latitude-financial-service-bugbounty",
         "bounty": 1,
         "active": 1,
@@ -14557,6 +14418,145 @@
                 }
             ],
             "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/kohls",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Kohl\u2019s entire public digital footprint that is not Out-Of-Scope(See list below)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "www.kohls.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Kohl's Mobile Application for iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Kohl's Mobile Application for Android",
+                    "type": "android"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "apply.kohls.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*kohls.com/kohlscredit/prequal",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*kohlsecommerce.com/kohlscredit/prequal",
+                    "type": "other"
+                },
+                {
+                    "identifier": "corporate.kohls.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "productchampions.kohls.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "link-preprod.kohls.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "developer.kohls.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "lclive.kohls.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "author-mykohls.kohls.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "mykohls-origin.kohls.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "origin-stage65-corporate.kohls.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "origin-stage65-mykohls.kohls.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "author-stage65-mykohls.kohls.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "stage65-corporate.kohls.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "stage65-mykohls.kohls.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "author-qa65-mykohls.kohls.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "mykohls.kohls.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "any domain with archaius.json endoint is out of scope",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*kohls.com/feature/pre-qual/prequal_inquiry.jsp?icid=prequalfooter",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*kohls.com/checkout/prequal_inquiry.jsp#/preQualEligible",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*kohlsecommerce.com/feature/pre-qual/prequal_inquiry.jsp?icid=prequalfooter",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*kohlsecommerce.com/checkout/prequal_inquiry.jsp#/preQualEligible",
+                    "type": "website"
+                },
+                {
+                    "identifier": "vp-*.kohls.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*qa*.kohls.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "wfh*.kohls.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "kconnect.kohls.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "connection.kohls.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "kohlsmerch.kohls.com/",
+                    "type": "website"
+                }
+            ]
         }
     },
     {
