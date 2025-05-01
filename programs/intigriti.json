@@ -19984,19 +19984,6 @@
                 "description": "## Requirements\n* Account in question has posted content within 365 days of report submission\n* Account in question is related to a company, brand, or product\n* Exposed (valid/functional/active) credentials that allow login to an account\n\n## In Scope \n* Bounty: **Must meet all** `Requirements` above\n* Reputation: Meets at least one of the `Requirements` above\n* Note: \u201cAccount in question\u201d means the account you are reporting as \"vulnerable.\"\n\n## Out of Scope\n* Account in question is related to an individual (employee, freelancer or otherwise)\n* Brute forcing account credentials"
             },
             {
-                "id": "55ddae83-bf1e-4439-9948-930ea1829f74",
-                "type": {
-                    "id": 6,
-                    "value": "Other"
-                },
-                "endpoint": "Techcrunch",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": "## In Scope\n* *.techcrunch.com\n* Custom endpoints: `https://techcrunch.com/wp-json/tc/v1/*` -- These are custom endpoints that use the WordPress architecture and output methods but modified for our uses with custom data.\n* Custom mobile endpoints: `https://techcrunch.com/wp-json/tc/mobile/v2/*` -- These are the endpoints that are used by the mobile apps to retrieve posts for the apps.\n* Default WordPress: `https://techcrunch.com/wp-json/wp/v2/*` -- We also leverage most of WordPress' out of the box endpoints with added custom data to augment the output.\n\n## Out of Scope\n* *.crunchbase.com (3rd party, Crunchbase)\n* *.tc-appunite.herokuapp.com (3rd party, Heroku now closed)\n* *.parsely.com (3rd party, Parse.ly)\n* *.swiftype.com (3rd party, Swiftype now closed)\n* *.marketo.com (3rd party, Marketo)\n* *.urbanairship.com (3rd party, Urban Airship)\n* *.sailthru.com (3rd party, Sailthru)\n* *.spot.im (3rd party, Spot.IM)\n* *.tcdisrupt.com (3rd party, App)\n* *.bit.ly (3rd party, Bit.ly)\n* *.thomsonreuters.com (3rd party, Open Calais)\n* *.tinypass.com (3rd party, Piano/Tinypass)"
-            },
-            {
                 "id": "7e2dae2a-cb2d-40a3-a06b-193e3bb20904",
                 "type": {
                     "id": 6,
