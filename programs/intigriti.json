@@ -2346,19 +2346,6 @@
         "industry": "Software",
         "domains": [
             {
-                "id": "1622c3ab-c2eb-4688-ab6d-728beb18ad7e",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "photoservice.stage.vismaonline.com",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": "**Visma Scanner**\n\nBackend service for Visma Scanner mobile app, see instructions for domain \"com.visma.blue\" or \u201c564141518\u201d\n\n"
-            },
-            {
                 "id": "d8cbda39-b3e1-45f3-8b7f-032b8a3f187e",
                 "type": {
                     "id": 3,
@@ -2447,7 +2434,7 @@
                     "id": 3,
                     "value": "Tier 2"
                 },
-                "description": "**Dinero**\nDinero is an accounting software for sole traders and micro businesses based out of Denmark. Our only target group is danish companies and therefore the interface is in danish only. The application is a SaaS application hosted in the cloud and consists of a main application and a number of supportive microservices.\n\nSee the getting started document here: https://vismabugbountyprod.z16.web.core.windows.net/VismaDinero-37UeRwujIXh7r9n3Wol6-getting-started.pdf\n\n**Out of scope:**\n* Issues related to login /user creation / forgot-password and /profile page\n* The Cookie \".AspNet.Cookies\" is not set with HttpOnly which is a known vulnerability - please do not report it.\n* Session invalidation issues (e.g. logout, password change, email change, role change, user deletion, etc).\n* Getting access to Pro features as Free user.\n\n\n"
+                "description": "**Dinero**\nDinero is an accounting software for sole traders and micro businesses based out of Denmark. Our only target group is danish companies and therefore the interface is in danish only. The application is a SaaS application hosted in the cloud and consists of a main application and a number of supportive microservices.\n\nSee the getting started document here: https://vismabugbountyprod.z16.web.core.windows.net/VismaDinero-37UeRwujIXh7r9n3Wol6-getting-started.pdf\n\n**Out of scope:**\n* Issues related to login /user creation / forgot-password and /profile page\n* The Cookie \".AspNet.Cookies\" is not set with HttpOnly which is a known vulnerability - please do not report it.\n* Session invalidation issues (e.g. logout, password change, email change, role change, user deletion, etc).\n* Getting access to Pro features as Free user.\n* cvrservice.workbox.dk, this endpoint is used for searches of publicly available data\n\n"
             },
             {
                 "id": "adaff973-0976-488e-b439-d3fedd1bac3a",
@@ -2591,6 +2578,19 @@
                     "value": "Tier 2"
                 },
                 "description": "**Visma Developer Portal**\nVisma Developer Portal is used both internally and externally by developers for registering OAuth 2.0/OpenID Connect applications for Single-Sign-On with Visma (Visma Connect) and/or API integration.\n\nExisting Visma Connect users accounts can be used for testing. We also allow registration of new users if needed.\n\nUsers need to register an organization as part of the sign-in or to be added (invite) to an existing organization by organization's manager. The user which registers the organization also gets manager role assigned.\n\nEach organization has its own set of OAuth 2.0/OpenID Connect applications.\n\nPlease read the Getting Started Instructions here: https://vismabugbountyprod.z16.web.core.windows.net/VismaDeveloperPortal-Ze8WD6GFaIFdLvE2ekbN-getting-started.pdf\n\n\n\n**Out of scope:**\n* session invalidation across browsers/devices - this is how it is intended to work by design\n* issues related to other APIs except DevPortal Bug Bounty Interactive and DevPortal Bug Bounty Non-Interactive"
+            },
+            {
+                "id": "1622c3ab-c2eb-4688-ab6d-728beb18ad7e",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "photoservice.stage.vismaonline.com",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "**Visma Scanner**\n\nBackend service for Visma Scanner mobile app, see instructions for domain \"com.visma.blue\" or \u201c564141518\u201d\n\n"
             },
             {
                 "id": "3e251e38-8683-4a01-8b33-79a6a5756b79",
