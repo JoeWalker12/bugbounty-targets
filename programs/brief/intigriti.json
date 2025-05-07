@@ -5572,10 +5572,6 @@
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "*.joinbonnet.com",
-                    "type": "Wildcard"
-                },
-                {
                     "identifier": "*.bonnetapps.com",
                     "type": "Wildcard"
                 },
@@ -5597,6 +5593,10 @@
                 },
                 {
                     "identifier": "*.gridsvc.net",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "*.joinbonnet.com",
                     "type": "Wildcard"
                 },
                 {
@@ -5625,6 +5625,10 @@
                 }
             ],
             "out_of_scope": [
+                {
+                    "identifier": "http://vp-alexandria.gridsvc.net/",
+                    "type": "Url"
+                },
                 {
                     "identifier": "*.oisl.gg",
                     "type": "Wildcard"
