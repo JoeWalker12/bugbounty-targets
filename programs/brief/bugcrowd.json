@@ -4765,20 +4765,6 @@
         }
     },
     {
-        "handle": "engagements/fivetran-mbb-og",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Fivetran Dashboard",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/acorns",
         "bounty": 1,
         "active": 1,
@@ -4874,6 +4860,20 @@
                 {
                     "identifier": "https://apigw.prod.quintoandar.com.br/rental-guarantee-api/*",
                     "type": "api"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/fivetran-mbb-og",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Fivetran Dashboard",
+                    "type": "website"
                 }
             ],
             "out_of_scope": []
@@ -5076,45 +5076,6 @@
                 }
             ],
             "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/thousandeyes-og",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://api.thousandeyes.com/",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://app.thousandeyes.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.thousandeyes.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "ThousandEyes Enterprise Agent",
-                    "type": "other"
-                },
-                {
-                    "identifier": "ThousandEyes Endpoint Agent ",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "https://blog.thousandeyes.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://app.thousandeyes.com/sfdc/community",
-                    "type": "website"
-                }
-            ]
         }
     },
     {
@@ -5860,65 +5821,6 @@
                 }
             ],
             "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/nubank",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Nubank Android: Playstore",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Nubank iOS App",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "prod-*.nubank.com.br",
-                    "type": "api"
-                },
-                {
-                    "identifier": "prod-*.nu.com.mx",
-                    "type": "api"
-                },
-                {
-                    "identifier": "prod-*.nu.com.co",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*nubank.com.br",
-                    "type": "other"
-                },
-                {
-                    "identifier": "*nu.com.mx",
-                    "type": "other"
-                },
-                {
-                    "identifier": "*nu.com.co",
-                    "type": "other"
-                },
-                {
-                    "identifier": "*.nuinvest.com.br\t",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "*nuinternational.com\t",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*nat-a.nubank.com.br",
-                    "type": "other"
-                },
-                {
-                    "identifier": "international.nubank.com.br",
-                    "type": "website"
-                }
-            ]
         }
     },
     {
@@ -7555,12 +7457,101 @@
         }
     },
     {
-        "handle": "engagements/gopro-og-public",
+        "handle": "engagements/nubank",
         "bounty": 1,
-        "active": 0,
+        "active": 1,
         "assets": {
-            "in_scope": [],
-            "out_of_scope": []
+            "in_scope": [
+                {
+                    "identifier": "Nubank Android: Playstore",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Nubank iOS App",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "prod-*.nubank.com.br",
+                    "type": "api"
+                },
+                {
+                    "identifier": "prod-*.nu.com.mx",
+                    "type": "api"
+                },
+                {
+                    "identifier": "prod-*.nu.com.co",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*nubank.com.br",
+                    "type": "other"
+                },
+                {
+                    "identifier": "*nu.com.mx",
+                    "type": "other"
+                },
+                {
+                    "identifier": "*nu.com.co",
+                    "type": "other"
+                },
+                {
+                    "identifier": "*.nuinvest.com.br\t",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "*nuinternational.com\t",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*nat-a.nubank.com.br",
+                    "type": "other"
+                },
+                {
+                    "identifier": "international.nubank.com.br",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/thousandeyes-og",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://api.thousandeyes.com/",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://app.thousandeyes.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.thousandeyes.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "ThousandEyes Enterprise Agent",
+                    "type": "other"
+                },
+                {
+                    "identifier": "ThousandEyes Endpoint Agent ",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "https://blog.thousandeyes.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://app.thousandeyes.com/sfdc/community",
+                    "type": "website"
+                }
+            ]
         }
     },
     {
@@ -11482,20 +11473,6 @@
         }
     },
     {
-        "handle": "engagements/pantheon",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://dashboard.pantheon.io",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/zola-mbb-og",
         "bounty": 1,
         "active": 0,
@@ -11561,6 +11538,20 @@
                     "type": "website"
                 }
             ]
+        }
+    },
+    {
+        "handle": "engagements/pantheon",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://dashboard.pantheon.io",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": []
         }
     },
     {
@@ -15049,6 +15040,25 @@
                 {
                     "identifier": "Any other third-party websites hosted by non-Tesla entities",
                     "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/gopro-og-public",
+        "bounty": 1,
+        "active": 0,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "GoPro Awards",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "Everything Else",
+                    "type": "other"
                 }
             ]
         }
