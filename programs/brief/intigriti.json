@@ -164,6 +164,10 @@
                     "type": "Url"
                 },
                 {
+                    "identifier": "api.staging-enviso.io/systemcenterapi",
+                    "type": "Url"
+                },
+                {
                     "identifier": "booking.staging-enviso.io",
                     "type": "Url"
                 },
@@ -205,10 +209,6 @@
                 },
                 {
                     "identifier": "api.staging-enviso.io/ordercenterapi",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "api.staging-enviso.io/systemcenterapi",
                     "type": "Url"
                 },
                 {
@@ -270,6 +270,10 @@
                     "type": "Url"
                 },
                 {
+                    "identifier": "Modernized Discovery",
+                    "type": "Url"
+                },
+                {
                     "identifier": "app.lansweeper.com/trial",
                     "type": "Url"
                 },
@@ -283,10 +287,6 @@
                 },
                 {
                     "identifier": "login.lansweeper.com",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "Modernized Discovery",
                     "type": "Url"
                 },
                 {
@@ -815,10 +815,6 @@
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "rancher.ninjakiwi.me",
-                    "type": "Url"
-                },
-                {
                     "identifier": "analytics.ninjakiwi.com",
                     "type": "Url"
                 },
@@ -881,6 +877,10 @@
                 {
                     "identifier": "*.souparea.com",
                     "type": "Wildcard"
+                },
+                {
+                    "identifier": "rancher.ninjakiwi.me",
+                    "type": "Url"
                 }
             ],
             "out_of_scope": [
@@ -932,7 +932,7 @@
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "blog.cybersecuritycoalition.be",
+                    "identifier": "annualreport.cybersecuritycoalition.be",
                     "type": "Url"
                 },
                 {
@@ -940,7 +940,7 @@
                     "type": "Url"
                 },
                 {
-                    "identifier": "annualreport.cybersecuritycoalition.be",
+                    "identifier": "blog.cybersecuritycoalition.be",
                     "type": "Url"
                 },
                 {
@@ -1050,8 +1050,16 @@
         "assets": {
             "in_scope": [
                 {
+                    "identifier": "1076840480",
+                    "type": "iOS"
+                },
+                {
                     "identifier": "1079537578",
                     "type": "iOS"
+                },
+                {
+                    "identifier": "https://mathem.se",
+                    "type": "Url"
                 },
                 {
                     "identifier": "https://oda.com",
@@ -1062,24 +1070,16 @@
                     "type": "Android"
                 },
                 {
+                    "identifier": "se.mathem.mathem",
+                    "type": "Android"
+                },
+                {
                     "identifier": "*.oda.com",
                     "type": "Wildcard"
                 },
                 {
                     "identifier": "*.prod.nube.tech",
                     "type": "Wildcard"
-                },
-                {
-                    "identifier": "1076840480",
-                    "type": "iOS"
-                },
-                {
-                    "identifier": "https://mathem.se",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "se.mathem.mathem",
-                    "type": "Android"
                 }
             ],
             "out_of_scope": []
@@ -1142,10 +1142,6 @@
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "Mobile apps owned by DHL Group companies",
-                    "type": "Other"
-                },
-                {
                     "identifier": "*.deutschepost.de",
                     "type": "Wildcard"
                 },
@@ -1167,6 +1163,10 @@
                 },
                 {
                     "identifier": "Any other domain from DHL Group companies",
+                    "type": "Other"
+                },
+                {
+                    "identifier": "Mobile apps owned by DHL Group companies",
                     "type": "Other"
                 }
             ],
@@ -1347,23 +1347,11 @@
             ],
             "out_of_scope": [
                 {
-                    "identifier": "*.probes.atlas.ripe.net",
-                    "type": "Wildcard"
-                },
-                {
                     "identifier": "*.anchors.atlas.ripe.net",
                     "type": "Wildcard"
                 },
                 {
-                    "identifier": "RIPE Meeting network (2001:67c:64::/48 and 193.0.24.0/21)",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "Any of the beta/dev environments",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "Any *.ripe.net host that is located outside of the in-scope IP ranges ",
+                    "identifier": "*.probes.atlas.ripe.net",
                     "type": "Wildcard"
                 },
                 {
@@ -1375,11 +1363,23 @@
                     "type": "Url"
                 },
                 {
-                    "identifier": "ripe(1to87).ripe.net",
+                    "identifier": "Any *.ripe.net host that is located outside of the in-scope IP ranges ",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "Any of the beta/dev environments",
                     "type": "Url"
                 },
                 {
                     "identifier": "exams.ripe.net",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "RIPE Meeting network (2001:67c:64::/48 and 193.0.24.0/21)",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "ripe(1to87).ripe.net",
                     "type": "Url"
                 }
             ]
@@ -1428,15 +1428,15 @@
             ],
             "out_of_scope": [
                 {
-                    "identifier": "monzo.me/",
-                    "type": "Url"
-                },
-                {
                     "identifier": "community.monzo.com",
                     "type": "Url"
                 },
                 {
                     "identifier": "login.internal.monzo.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "monzo.me/",
                     "type": "Url"
                 }
             ]
@@ -1567,6 +1567,10 @@
             ],
             "out_of_scope": [
                 {
+                    "identifier": "api.topperpay.com",
+                    "type": "Url"
+                },
+                {
                     "identifier": "api.uphold.com",
                     "type": "Url"
                 },
@@ -1575,15 +1579,11 @@
                     "type": "Url"
                 },
                 {
-                    "identifier": "wallet.uphold.com",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "api.topperpay.com",
-                    "type": "Url"
-                },
-                {
                     "identifier": "app.topperpay.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "cms.optimuscards.com",
                     "type": "Url"
                 },
                 {
@@ -1599,7 +1599,7 @@
                     "type": "Url"
                 },
                 {
-                    "identifier": "cms.optimuscards.com",
+                    "identifier": "wallet.uphold.com",
                     "type": "Url"
                 }
             ]
@@ -1750,11 +1750,11 @@
             ],
             "out_of_scope": [
                 {
-                    "identifier": "uzleuven.atlassian.net",
+                    "identifier": "jobs.uzleuven.be",
                     "type": "Url"
                 },
                 {
-                    "identifier": "jobs.uzleuven.be",
+                    "identifier": "uzleuven.atlassian.net",
                     "type": "Url"
                 },
                 {
@@ -2099,14 +2099,6 @@
             ],
             "out_of_scope": [
                 {
-                    "identifier": "abonnement.parool.nl",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "* parool.nl/service",
-                    "type": "Wildcard"
-                },
-                {
                     "identifier": "* parool.nl/inloggen",
                     "type": "Wildcard"
                 },
@@ -2117,6 +2109,14 @@
                 {
                     "identifier": "* parool.nl/registreren",
                     "type": "Wildcard"
+                },
+                {
+                    "identifier": "* parool.nl/service",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "abonnement.parool.nl",
+                    "type": "Url"
                 }
             ]
         }
@@ -2156,10 +2156,6 @@
             ],
             "out_of_scope": [
                 {
-                    "identifier": "* libelle.nl/service",
-                    "type": "Wildcard"
-                },
-                {
                     "identifier": "* libelle.nl/inloggen",
                     "type": "Wildcard"
                 },
@@ -2169,6 +2165,10 @@
                 },
                 {
                     "identifier": "* libelle.nl/registreren",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "* libelle.nl/service",
                     "type": "Wildcard"
                 }
             ]
@@ -2207,18 +2207,6 @@
             ],
             "out_of_scope": [
                 {
-                    "identifier": "https://www.vlaanderen.be/vlaamse-overheid/contact/stuur-een-e-mail",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "https://www.vlaanderen.be/aanmelden/help/mail.html",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "https://www.vlaanderen.be/aanmelden/help/mail.html?*",
-                    "type": "Wildcard"
-                },
-                {
                     "identifier": "bibis*.vlaanderen.be",
                     "type": "Wildcard"
                 },
@@ -2233,6 +2221,18 @@
                 {
                     "identifier": "ets*.omgeving.vlaanderen.be",
                     "type": "Wildcard"
+                },
+                {
+                    "identifier": "https://www.vlaanderen.be/aanmelden/help/mail.html",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "https://www.vlaanderen.be/aanmelden/help/mail.html?*",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "https://www.vlaanderen.be/vlaamse-overheid/contact/stuur-een-e-mail",
+                    "type": "Url"
                 },
                 {
                     "identifier": "natura2000.vlaanderen.be",
@@ -2252,11 +2252,11 @@
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "https://*.say.rocks",
+                    "identifier": "https://*.saytechnologies.com",
                     "type": "Wildcard"
                 },
                 {
-                    "identifier": "https://*.saytechnologies.com",
+                    "identifier": "https://*.say.rocks",
                     "type": "Wildcard"
                 }
             ],
@@ -2412,10 +2412,6 @@
             ],
             "out_of_scope": [
                 {
-                    "identifier": "help.capital.com",
-                    "type": "Url"
-                },
-                {
                     "identifier": "*affiliates.backend-capital.com",
                     "type": "Wildcard"
                 },
@@ -2426,6 +2422,10 @@
                 {
                     "identifier": "*education.backend-capital.com",
                     "type": "Wildcard"
+                },
+                {
+                    "identifier": "help.capital.com",
+                    "type": "Url"
                 }
             ]
         }
@@ -2512,10 +2512,6 @@
             ],
             "out_of_scope": [
                 {
-                    "identifier": "gitlab.buhler-datascience.ch/api/v4/projects",
-                    "type": "Url"
-                },
-                {
                     "identifier": "*.info.buhlergroup.com",
                     "type": "Wildcard"
                 },
@@ -2541,6 +2537,10 @@
                 },
                 {
                     "identifier": "channel.buhlergroup.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "gitlab.buhler-datascience.ch/api/v4/projects",
                     "type": "Url"
                 },
                 {
@@ -2710,6 +2710,14 @@
                     "type": "Wildcard"
                 },
                 {
+                    "identifier": "*.moralis-internal.io",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "*.moralis-streams.com",
+                    "type": "Wildcard"
+                },
+                {
                     "identifier": "*.moralis.io ",
                     "type": "Wildcard"
                 },
@@ -2722,23 +2730,15 @@
                     "type": "Wildcard"
                 },
                 {
+                    "identifier": "*.moralismoney.com",
+                    "type": "Wildcard"
+                },
+                {
                     "identifier": "*.moralisweb3.com",
                     "type": "Wildcard"
                 },
                 {
                     "identifier": "*.usemoralis.com",
-                    "type": "Wildcard"
-                },
-                {
-                    "identifier": "*.moralis-internal.io",
-                    "type": "Wildcard"
-                },
-                {
-                    "identifier": "*.moralis-streams.com",
-                    "type": "Wildcard"
-                },
-                {
-                    "identifier": "*.moralismoney.com",
                     "type": "Wildcard"
                 }
             ],
@@ -2797,10 +2797,6 @@
                     "type": "Url"
                 },
                 {
-                    "identifier": "mgm.mobilevikings.be",
-                    "type": "Url"
-                },
-                {
                     "identifier": "uwa.mobilevikings.be",
                     "type": "Url"
                 },
@@ -2823,6 +2819,10 @@
                 {
                     "identifier": "*.prd.mobilevikings.be",
                     "type": "Wildcard"
+                },
+                {
+                    "identifier": "mgm.mobilevikings.be",
+                    "type": "Url"
                 },
                 {
                     "identifier": "vikingco.be",
@@ -2906,10 +2906,6 @@
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "https://reportinguiintigrititestmt.earnieapp.be/",
-                    "type": "Url"
-                },
-                {
                     "identifier": "https://azuregateway.prato.be/RDWeb",
                     "type": "Url"
                 },
@@ -2931,6 +2927,10 @@
                 },
                 {
                     "identifier": "https://intigrititestmt.prato.be",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "https://reportinguiintigrititestmt.earnieapp.be/",
                     "type": "Url"
                 },
                 {
@@ -2994,7 +2994,7 @@
             ],
             "out_of_scope": [
                 {
-                    "identifier": "booking.*.sqills.com",
+                    "identifier": "*.red.sqills.team",
                     "type": "Wildcard"
                 },
                 {
@@ -3002,12 +3002,12 @@
                     "type": "Wildcard"
                 },
                 {
-                    "identifier": "careers.sqills.com",
-                    "type": "Url"
+                    "identifier": "booking.*.sqills.com",
+                    "type": "Wildcard"
                 },
                 {
-                    "identifier": "*.red.sqills.team",
-                    "type": "Wildcard"
+                    "identifier": "careers.sqills.com",
+                    "type": "Url"
                 }
             ]
         }
@@ -3018,10 +3018,6 @@
         "active": 1,
         "assets": {
             "in_scope": [
-                {
-                    "identifier": "*.stbpost.be",
-                    "type": "Wildcard"
-                },
                 {
                     "identifier": "imove.bpost.cloud",
                     "type": "Url"
@@ -3040,6 +3036,10 @@
                 },
                 {
                     "identifier": "*.landmarkglobal-group.com",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "*.stbpost.be",
                     "type": "Wildcard"
                 },
                 {
@@ -3152,10 +3152,6 @@
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "Non Altera Products",
-                    "type": "Other"
-                },
-                {
                     "identifier": "Firmware",
                     "type": "Device"
                 },
@@ -3164,11 +3160,15 @@
                     "type": "Device"
                 },
                 {
+                    "identifier": "FPGA Solution Development Tools and Utilities",
+                    "type": "Other"
+                },
+                {
                     "identifier": "Software",
                     "type": "Other"
                 },
                 {
-                    "identifier": "FPGA Solution Development Tools and Utilities",
+                    "identifier": "Non Altera Products",
                     "type": "Other"
                 }
             ],
@@ -3186,6 +3186,10 @@
                     "type": "iOS"
                 },
                 {
+                    "identifier": "accept.delijn.be",
+                    "type": "Url"
+                },
+                {
                     "identifier": "api-a.delijn.be",
                     "type": "Url"
                 },
@@ -3196,10 +3200,6 @@
                 {
                     "identifier": "com.themobilecompany.delijn",
                     "type": "Android"
-                },
-                {
-                    "identifier": "accept.delijn.be",
-                    "type": "Url"
                 },
                 {
                     "identifier": "www.delijn.be",
@@ -3275,15 +3275,15 @@
                     "type": "Url"
                 },
                 {
+                    "identifier": "https://detect.pdq.tools/ ",
+                    "type": "Url"
+                },
+                {
                     "identifier": "https://houston-staging.pdq.tools",
                     "type": "Url"
                 },
                 {
                     "identifier": "https://portal-staging.pdq.tools/ ",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "https://detect.pdq.tools/ ",
                     "type": "Url"
                 }
             ],
@@ -3486,20 +3486,20 @@
             ],
             "out_of_scope": [
                 {
-                    "identifier": "abonnement.humo.be",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "* humo.be/service",
-                    "type": "Wildcard"
-                },
-                {
                     "identifier": "* humo.be/inloggen",
                     "type": "Wildcard"
                 },
                 {
                     "identifier": "* humo.be/login",
                     "type": "Wildcard"
+                },
+                {
+                    "identifier": "* humo.be/service",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "abonnement.humo.be",
+                    "type": "Url"
                 }
             ]
         }
@@ -3511,16 +3511,16 @@
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "Any IoT device sold by Nestl\u00e9 Brands",
-                    "type": "Device"
-                },
-                {
                     "identifier": "*.nestle.com",
                     "type": "Wildcard"
                 },
                 {
                     "identifier": "Any domain related to Nestl\u00e9 brands",
                     "type": "Url"
+                },
+                {
+                    "identifier": "Any IoT device sold by Nestl\u00e9 Brands",
+                    "type": "Device"
                 }
             ],
             "out_of_scope": []
@@ -3624,6 +3624,10 @@
         "assets": {
             "in_scope": [
                 {
+                    "identifier": "*.sqills-bugbounty-test.cloud.sqills.com",
+                    "type": "Wildcard"
+                },
+                {
                     "identifier": "admin.sqills-bugbounty-test.cloud.sqills.com",
                     "type": "Url"
                 },
@@ -3633,10 +3637,6 @@
                 },
                 {
                     "identifier": "sqills-*.*.s3p.cloud",
-                    "type": "Wildcard"
-                },
-                {
-                    "identifier": "*.sqills-bugbounty-test.cloud.sqills.com",
                     "type": "Wildcard"
                 }
             ],
@@ -3856,15 +3856,15 @@
             ],
             "out_of_scope": [
                 {
-                    "identifier": "helpdesk.landmarkcinemas.com",
-                    "type": "Url"
-                },
-                {
                     "identifier": "*.cineramabios.nl",
                     "type": "Wildcard"
                 },
                 {
                     "identifier": "dev.kinepolis.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "helpdesk.landmarkcinemas.com",
                     "type": "Url"
                 },
                 {
@@ -3984,16 +3984,16 @@
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "de.bmw.connected.mobile20.row",
-                    "type": "Android"
+                    "identifier": "Functions dealing with vehicle access and immobilizer",
+                    "type": "Device"
                 },
                 {
                     "identifier": "1519034860",
                     "type": "iOS"
                 },
                 {
-                    "identifier": "Functions dealing with vehicle access and immobilizer",
-                    "type": "Device"
+                    "identifier": "de.bmw.connected.mobile20.row",
+                    "type": "Android"
                 },
                 {
                     "identifier": "Remaining functions",
@@ -4107,14 +4107,6 @@
             ],
             "out_of_scope": [
                 {
-                    "identifier": "abonnement.demorgen.be",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "* demorgen.be/service",
-                    "type": "Wildcard"
-                },
-                {
                     "identifier": "* demorgen.be/inloggen",
                     "type": "Wildcard"
                 },
@@ -4125,6 +4117,14 @@
                 {
                     "identifier": "* demorgen.be/registreren",
                     "type": "Wildcard"
+                },
+                {
+                    "identifier": "* demorgen.be/service",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "abonnement.demorgen.be",
+                    "type": "Url"
                 }
             ]
         }
@@ -4136,14 +4136,6 @@
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "nl.speakap.speakap",
-                    "type": "Android"
-                },
-                {
-                    "identifier": "https://apps.apple.com/nl/app/speakap/id713925262",
-                    "type": "iOS"
-                },
-                {
                     "identifier": "*.speakap.com",
                     "type": "Wildcard"
                 },
@@ -4154,6 +4146,14 @@
                 {
                     "identifier": "Any related Speakap domain",
                     "type": "Url"
+                },
+                {
+                    "identifier": "https://apps.apple.com/nl/app/speakap/id713925262",
+                    "type": "iOS"
+                },
+                {
+                    "identifier": "nl.speakap.speakap",
+                    "type": "Android"
                 }
             ],
             "out_of_scope": []
@@ -4429,14 +4429,6 @@
             ],
             "out_of_scope": [
                 {
-                    "identifier": "31.31.132.0/24",
-                    "type": "IpRange"
-                },
-                {
-                    "identifier": "31.31.141.0/26",
-                    "type": "IpRange"
-                },
-                {
                     "identifier": "*.citymesh.recruitee.com",
                     "type": "Wildcard"
                 },
@@ -4465,6 +4457,10 @@
                     "type": "IpRange"
                 },
                 {
+                    "identifier": "31.31.132.0/24",
+                    "type": "IpRange"
+                },
+                {
                     "identifier": "31.31.134.0/23",
                     "type": "IpRange"
                 },
@@ -4478,6 +4474,10 @@
                 },
                 {
                     "identifier": "31.31.140.92-254",
+                    "type": "IpRange"
+                },
+                {
+                    "identifier": "31.31.141.0/26",
                     "type": "IpRange"
                 },
                 {
@@ -4516,14 +4516,6 @@
             ],
             "out_of_scope": [
                 {
-                    "identifier": "shop.vtm.be",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "* vtmgo.be/service",
-                    "type": "Wildcard"
-                },
-                {
                     "identifier": "* vtmgo.be/inloggen",
                     "type": "Wildcard"
                 },
@@ -4534,6 +4526,14 @@
                 {
                     "identifier": "* vtmgo.be/registreren",
                     "type": "Wildcard"
+                },
+                {
+                    "identifier": "* vtmgo.be/service",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "shop.vtm.be",
+                    "type": "Url"
                 }
             ]
         }
@@ -4673,7 +4673,7 @@
     {
         "handle": "aikidoruntime",
         "bounty": 1,
-        "active": 0,
+        "active": 1,
         "assets": {
             "in_scope": [
                 {
@@ -4778,7 +4778,7 @@
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "https://rivian.com/api/gql/orders/graphql",
+                    "identifier": "https://business.rivian.com/api",
                     "type": "Url"
                 },
                 {
@@ -4786,11 +4786,11 @@
                     "type": "Url"
                 },
                 {
-                    "identifier": "https://business.rivian.com/api",
+                    "identifier": "https://rivian.com/api/gql/gateway/graphql",
                     "type": "Url"
                 },
                 {
-                    "identifier": "https://rivian.com/api/gql/gateway/graphql",
+                    "identifier": "https://rivian.com/api/gql/orders/graphql",
                     "type": "Url"
                 },
                 {
@@ -5066,36 +5066,12 @@
             ],
             "out_of_scope": [
                 {
-                    "identifier": "https://sixt-leasing",
-                    "type": "Url"
+                    "identifier": "185.97.224.12",
+                    "type": "IpRange"
                 },
                 {
-                    "identifier": "https://siemens.smc.sixt.com/",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "https://s004-px01.s004.smc.sixt.com/",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "https://s004-px02.s004.smc.sixt.com/",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "https://p001-slweb-px.p001.slweb.smc.sixt.com",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "s003-lb-siemens-stage.s003.smc.sixt.com",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "s002-lb-siemens-test.s002.smc.sixt.com",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "s004-lb-siemens.s004.smc.sixt.com",
-                    "type": "Url"
+                    "identifier": "185.97.224.13",
+                    "type": "IpRange"
                 },
                 {
                     "identifier": "app.rental-images.sixt.com",
@@ -5114,7 +5090,31 @@
                     "type": "Url"
                 },
                 {
+                    "identifier": "drying-little-tears.org",
+                    "type": "Url"
+                },
+                {
                     "identifier": "fleetcheck.sixt.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "https://p001-slweb-px.p001.slweb.smc.sixt.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "https://s004-px01.s004.smc.sixt.com/",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "https://s004-px02.s004.smc.sixt.com/",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "https://siemens.smc.sixt.com/",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "https://sixt-leasing",
                     "type": "Url"
                 },
                 {
@@ -5166,24 +5166,24 @@
                     "type": "Url"
                 },
                 {
+                    "identifier": "s002-lb-siemens-test.s002.smc.sixt.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "s003-lb-siemens-stage.s003.smc.sixt.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "s004-lb-siemens.s004.smc.sixt.com",
+                    "type": "Url"
+                },
+                {
                     "identifier": "sixtbook.sixt.com",
                     "type": "Url"
                 },
                 {
                     "identifier": "webservices.sixt.com",
                     "type": "Url"
-                },
-                {
-                    "identifier": "drying-little-tears.org",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "185.97.224.12",
-                    "type": "IpRange"
-                },
-                {
-                    "identifier": "185.97.224.13",
-                    "type": "IpRange"
                 }
             ]
         }
@@ -5213,15 +5213,15 @@
             ],
             "out_of_scope": [
                 {
-                    "identifier": "workplace.randstad.in",
-                    "type": "Url"
-                },
-                {
                     "identifier": "apps.randstad.in",
                     "type": "Url"
                 },
                 {
                     "identifier": "cz.randstad.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "workplace.randstad.in",
                     "type": "Url"
                 }
             ]
@@ -5248,15 +5248,11 @@
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "*.kiwa.fi",
-                    "type": "Wildcard"
-                },
-                {
-                    "identifier": "*.kiwa.no",
-                    "type": "Wildcard"
-                },
-                {
                     "identifier": "*.kiwa.com",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "*.kiwa.fi",
                     "type": "Wildcard"
                 },
                 {
@@ -5265,6 +5261,10 @@
                 },
                 {
                     "identifier": "*.kiwa.nl",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "*.kiwa.no",
                     "type": "Wildcard"
                 },
                 {
@@ -5323,15 +5323,15 @@
             ],
             "out_of_scope": [
                 {
-                    "identifier": "*.allegro.sk",
-                    "type": "Wildcard"
-                },
-                {
                     "identifier": "*.allegro.cz",
                     "type": "Wildcard"
                 },
                 {
                     "identifier": "*.allegro.pl",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "*.allegro.sk",
                     "type": "Wildcard"
                 },
                 {
@@ -5424,10 +5424,6 @@
             ],
             "out_of_scope": [
                 {
-                    "identifier": "dccertified.datacamp.com",
-                    "type": "Url"
-                },
-                {
                     "identifier": "*.it.datacamp.com",
                     "type": "Wildcard"
                 },
@@ -5441,6 +5437,10 @@
                 },
                 {
                     "identifier": "confluence.datacamp.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "dccertified.datacamp.com",
                     "type": "Url"
                 },
                 {
@@ -5626,10 +5626,6 @@
             ],
             "out_of_scope": [
                 {
-                    "identifier": "http://vp-alexandria.gridsvc.net/",
-                    "type": "Url"
-                },
-                {
                     "identifier": "*.oisl.gg",
                     "type": "Wildcard"
                 },
@@ -5691,6 +5687,10 @@
                 },
                 {
                     "identifier": "hackable-woody.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "http://vp-alexandria.gridsvc.net/",
                     "type": "Url"
                 },
                 {
@@ -5914,10 +5914,6 @@
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "www.delen.bank",
-                    "type": "Url"
-                },
-                {
                     "identifier": "api.digital.delen.be ",
                     "type": "Url"
                 },
@@ -5986,6 +5982,10 @@
                     "type": "Url"
                 },
                 {
+                    "identifier": "www.delen.bank",
+                    "type": "Url"
+                },
+                {
                     "identifier": "www.delen.be/en ",
                     "type": "Url"
                 }
@@ -6046,10 +6046,6 @@
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "redcare-apotheke.ch",
-                    "type": "Url"
-                },
-                {
                     "identifier": "*.sa-tech.de",
                     "type": "Wildcard"
                 },
@@ -6067,6 +6063,14 @@
                 },
                 {
                     "identifier": "payment.shop-apotheke.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "redcare-apotheke.ch",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "redcare-pharmacie.fr",
                     "type": "Url"
                 },
                 {
@@ -6107,10 +6111,6 @@
                 },
                 {
                     "identifier": "www.shop-apotheke.com",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "redcare-pharmacie.fr",
                     "type": "Url"
                 },
                 {
@@ -6702,15 +6702,15 @@
             ],
             "out_of_scope": [
                 {
-                    "identifier": "links.wolt.com",
-                    "type": "Url"
-                },
-                {
                     "identifier": "blog.wolt.com",
                     "type": "Url"
                 },
                 {
                     "identifier": "gettest.wolt.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "links.wolt.com",
                     "type": "Url"
                 },
                 {
@@ -6737,11 +6737,11 @@
             ],
             "out_of_scope": [
                 {
-                    "identifier": "suppliers-ivalua.ubisoft.com",
+                    "identifier": "ivalua.ubisoft.com",
                     "type": "Url"
                 },
                 {
-                    "identifier": "ivalua.ubisoft.com",
+                    "identifier": "suppliers-ivalua.ubisoft.com",
                     "type": "Url"
                 }
             ]
@@ -6753,30 +6753,6 @@
         "active": 1,
         "assets": {
             "in_scope": [
-                {
-                    "identifier": "https://www.joico.ca/",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "https://www.joico.com/",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "https://www.joico.eu/",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "https://www.joico.lat/",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "https://www.joico.com.br/",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "https://www.joico.com.au/",
-                    "type": "Url"
-                },
                 {
                     "identifier": "*.donnad.it ",
                     "type": "Other"
@@ -6844,6 +6820,30 @@
                 {
                     "identifier": "Ceresit scope including any TLD:*.ceresit.*",
                     "type": "Other"
+                },
+                {
+                    "identifier": "https://www.joico.ca/",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "https://www.joico.com.au/",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "https://www.joico.com.br/",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "https://www.joico.com/",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "https://www.joico.eu/",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "https://www.joico.lat/",
+                    "type": "Url"
                 },
                 {
                     "identifier": "Indola scope including any TLD: *.indola.*",
@@ -7195,10 +7195,6 @@
             ],
             "out_of_scope": [
                 {
-                    "identifier": "ok.truelayer.com",
-                    "type": "Url"
-                },
-                {
                     "identifier": "banks.truelayer.com",
                     "type": "Url"
                 },
@@ -7220,6 +7216,10 @@
                 },
                 {
                     "identifier": "info.truelayer.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "ok.truelayer.com",
                     "type": "Url"
                 },
                 {
@@ -7362,10 +7362,6 @@
             ],
             "out_of_scope": [
                 {
-                    "identifier": "Everything related to configurators, both on primary as other domains",
-                    "type": "Other"
-                },
-                {
                     "identifier": "*.configuratoren.nl/*",
                     "type": "Wildcard"
                 },
@@ -7384,6 +7380,10 @@
                 {
                     "identifier": "api.maakafspraak.karwei.nl",
                     "type": "Url"
+                },
+                {
+                    "identifier": "Everything related to configurators, both on primary as other domains",
+                    "type": "Other"
                 },
                 {
                     "identifier": "horrenconfigurator-fr.gamma.be",
@@ -7453,14 +7453,6 @@
             ],
             "out_of_scope": [
                 {
-                    "identifier": "abonnement.trouw.nl",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "* trouw.nl/service",
-                    "type": "Wildcard"
-                },
-                {
                     "identifier": "* trouw.nl/inloggen",
                     "type": "Wildcard"
                 },
@@ -7471,6 +7463,14 @@
                 {
                     "identifier": "* trouw.nl/registreren",
                     "type": "Wildcard"
+                },
+                {
+                    "identifier": "* trouw.nl/service",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "abonnement.trouw.nl",
+                    "type": "Url"
                 }
             ]
         }
@@ -7481,10 +7481,6 @@
         "active": 1,
         "assets": {
             "in_scope": [
-                {
-                    "identifier": "https://github.com/cmdotcom",
-                    "type": "Other"
-                },
                 {
                     "identifier": "login.cm.com",
                     "type": "Url"
@@ -7560,6 +7556,10 @@
                 {
                     "identifier": "demo.globalticket.com/*",
                     "type": "Wildcard"
+                },
+                {
+                    "identifier": "https://github.com/cmdotcom",
+                    "type": "Other"
                 }
             ],
             "out_of_scope": []
@@ -7572,11 +7572,7 @@
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "https://tuer.de",
-                    "type": "Url"
-                },
-                {
-                    "identifier": "https://tuerenhandbuch.garant.de",
+                    "identifier": "https://arbonia-doors.ch",
                     "type": "Url"
                 },
                 {
@@ -7584,7 +7580,11 @@
                     "type": "Url"
                 },
                 {
-                    "identifier": "https://arbonia-doors.ch",
+                    "identifier": "https://tuer.de",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "https://tuerenhandbuch.garant.de",
                     "type": "Url"
                 }
             ],
@@ -7598,16 +7598,16 @@
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "https://my.vlerick.com/ ",
-                    "type": "Url"
-                },
-                {
                     "identifier": "*.vlerick.com",
                     "type": "Wildcard"
                 },
                 {
                     "identifier": "193.190.150.0/24",
                     "type": "IpRange"
+                },
+                {
+                    "identifier": "https://my.vlerick.com/ ",
+                    "type": "Url"
                 },
                 {
                     "identifier": "https://viper.uat.vlerick.com/",
@@ -7711,12 +7711,12 @@
                     "type": "IpRange"
                 },
                 {
-                    "identifier": "zabka-snrs.zabka.pl",
-                    "type": "Url"
-                },
-                {
                     "identifier": "\u017babka Nano stores",
                     "type": "Other"
+                },
+                {
+                    "identifier": "zabka-snrs.zabka.pl",
+                    "type": "Url"
                 }
             ]
         }
