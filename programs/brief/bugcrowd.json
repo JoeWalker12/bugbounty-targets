@@ -4611,82 +4611,36 @@
         }
     },
     {
-        "handle": "engagements/canva",
+        "handle": "engagements/pixabay",
         "bounty": 1,
         "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "www.canva.com",
+                    "identifier": "*.pixabay.com/",
                     "type": "website"
-                },
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/tyler-tech-data-insights",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
                 {
-                    "identifier": "Canva Developer Portal",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Apps SDK Sandboxing",
+                    "identifier": "https://opendata-demo.test-socrata.com",
                     "type": "other"
                 },
                 {
-                    "identifier": "api.canva.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.canva.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.canva-apps.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.canva.tech",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Canva for ChatGPT",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Canva for Slack",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Canva Desktop (macOS / Windows)",
+                    "identifier": "https://opendata.test-socrata.com",
                     "type": "other"
                 },
                 {
-                    "identifier": "Canva (iOS)",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Canva (Android)",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Canva (Chrome Extension)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "*.canva.cn",
+                    "identifier": "https://opendata.test-socrata.com/admin/gateway",
                     "type": "website"
-                },
-                {
-                    "identifier": "*.canva-apps.cn",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Leaked Credentials and Secrets (Canva Employee/Contractor)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Leaked Credentials and Secrets (Canva User)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "3rd-Party Provider Vulnerability",
-                    "type": "other"
                 }
             ],
             "out_of_scope": []
@@ -4737,42 +4691,6 @@
                     "type": "website"
                 }
             ]
-        }
-    },
-    {
-        "handle": "engagements/pixabay",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.pixabay.com/",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/tyler-tech-data-insights",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://opendata-demo.test-socrata.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://opendata.test-socrata.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://opendata.test-socrata.com/admin/gateway",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
         }
     },
     {
@@ -4911,6 +4829,88 @@
                 {
                     "identifier": "https://apigw.prod.quintoandar.com.br/rental-guarantee-api/*",
                     "type": "api"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/canva",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "www.canva.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Canva Developer Portal",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Apps SDK Sandboxing",
+                    "type": "other"
+                },
+                {
+                    "identifier": "api.canva.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.canva.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.canva-apps.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.canva.tech",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Canva for ChatGPT",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Canva for Slack",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Canva Desktop (macOS / Windows)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Canva (iOS)",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Canva (Android)",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Canva (Chrome Extension)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "*.canva.cn",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.canva-apps.cn",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Leaked Credentials and Secrets (Canva Employee/Contractor)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Leaked Credentials and Secrets (Canva User)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "3rd-Party Provider Vulnerability",
+                    "type": "other"
                 }
             ],
             "out_of_scope": []
@@ -5100,73 +5100,6 @@
             "out_of_scope": [
                 {
                     "identifier": "https://cwingsfe.mafrservices.com/login",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/stiltsoft",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://marketplace.atlassian.com/apps/27447/table-filter-and-charts-for-confluence?hosting=cloud",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://marketplace.atlassian.com/apps/1214110/courses-and-quizzes-lms-for-confluence?hosting=cloud",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://marketplace.atlassian.com/apps/1210934/awesome-graphs-for-bitbucket?hosting=cloud",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://marketplace.atlassian.com/apps/1210934/awesome-graphs-for-bitbucket?hosting=datacenter",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://marketplace.atlassian.com/apps/1222084/spreadsheet-issue-field-editor?hosting=cloud",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://marketplace.atlassian.com/apps/27447/table-filter-and-charts-for-confluence?hosting=datacenter",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://marketplace.atlassian.com/apps/1212507/smart-attachments-for-jira?hosting=cloud",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://marketplace.atlassian.com/apps/1210766/teamcity-integration-for-jira?hosting=cloud",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://marketplace.atlassian.com/apps/1214971/handy-macros-for-confluence?hosting=cloud",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://marketplace.atlassian.com/apps/1222102/webhook-manager-for-confluence-cloud?hosting=cloud",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://marketplace.atlassian.com/apps/1224994/poll-maker-for-confluence?hosting=cloud",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://marketplace.atlassian.com/apps/1237512/latex-math-for-confluence?hosting=cloud",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://marketplace.atlassian.com/apps/1237729/checklist-for-jira-cloud-smart-todo-lists?hosting=cloud",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "*.atlassian.com",
                     "type": "website"
                 }
             ]
@@ -7592,6 +7525,73 @@
         }
     },
     {
+        "handle": "engagements/stiltsoft",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/27447/table-filter-and-charts-for-confluence?hosting=cloud",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/1214110/courses-and-quizzes-lms-for-confluence?hosting=cloud",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/1210934/awesome-graphs-for-bitbucket?hosting=cloud",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/1210934/awesome-graphs-for-bitbucket?hosting=datacenter",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/1222084/spreadsheet-issue-field-editor?hosting=cloud",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/27447/table-filter-and-charts-for-confluence?hosting=datacenter",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/1212507/smart-attachments-for-jira?hosting=cloud",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/1210766/teamcity-integration-for-jira?hosting=cloud",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/1214971/handy-macros-for-confluence?hosting=cloud",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/1222102/webhook-manager-for-confluence-cloud?hosting=cloud",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/1224994/poll-maker-for-confluence?hosting=cloud",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/1237512/latex-math-for-confluence?hosting=cloud",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/1237729/checklist-for-jira-cloud-smart-todo-lists?hosting=cloud",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "*.atlassian.com",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
         "handle": "engagements/bitdefenderbox2",
         "bounty": 1,
         "active": 1,
@@ -9738,56 +9738,6 @@
         }
     },
     {
-        "handle": "engagements/sendbird-mbb",
-        "bounty": 1,
-        "active": 0,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://dashboard.sendbird.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://gate.sendbird.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://api-{app-id}.sendbird.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://ws-{app-id}.sendbird.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://desk-api-{region}.sendbird.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://ws-{app-id}.calls.sendbird.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://api-{app-id}.calls.sendbird.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://api-{app-id}.notifications.sendbird.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://sendbird.com/docs",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://sendbird.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/openai",
         "bounty": 1,
         "active": 1,
@@ -9836,6 +9786,56 @@
                 {
                     "identifier": "Other",
                     "type": "other"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/sendbird-mbb",
+        "bounty": 1,
+        "active": 0,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://dashboard.sendbird.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://gate.sendbird.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://api-{app-id}.sendbird.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://ws-{app-id}.sendbird.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://desk-api-{region}.sendbird.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://ws-{app-id}.calls.sendbird.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://api-{app-id}.calls.sendbird.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://api-{app-id}.notifications.sendbird.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://sendbird.com/docs",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://sendbird.com",
+                    "type": "website"
                 }
             ],
             "out_of_scope": []
@@ -12492,20 +12492,6 @@
         }
     },
     {
-        "handle": "engagements/pexels",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.pexels.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/cyberghost",
         "bounty": 1,
         "active": 1,
@@ -12899,6 +12885,20 @@
                     "type": "website"
                 }
             ]
+        }
+    },
+    {
+        "handle": "engagements/pexels",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.pexels.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
         }
     },
     {
@@ -14731,32 +14731,6 @@
         }
     },
     {
-        "handle": "engagements/wyze",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://auth.wyze.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://my.wyze.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://api.wyzecam.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Wyze Cam V3",
-                    "type": "hardware"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/ultramobile",
         "bounty": 1,
         "active": 1,
@@ -15100,6 +15074,32 @@
                     "type": "website"
                 }
             ]
+        }
+    },
+    {
+        "handle": "engagements/wyze",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://auth.wyze.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://my.wyze.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://api.wyzecam.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Wyze Cam V3",
+                    "type": "hardware"
+                }
+            ],
+            "out_of_scope": []
         }
     },
     {
