@@ -4628,88 +4628,6 @@
         }
     },
     {
-        "handle": "engagements/canva",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "www.canva.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Canva Developer Portal",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Apps SDK Sandboxing",
-                    "type": "other"
-                },
-                {
-                    "identifier": "api.canva.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.canva.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.canva-apps.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.canva.tech",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Canva for ChatGPT",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Canva for Slack",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Canva Desktop (macOS / Windows)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Canva (iOS)",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Canva (Android)",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Canva (Chrome Extension)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "*.canva.cn",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.canva-apps.cn",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Leaked Credentials and Secrets (Canva Employee/Contractor)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Leaked Credentials and Secrets (Canva User)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "3rd-Party Provider Vulnerability",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/twilio",
         "bounty": 1,
         "active": 1,
@@ -4914,6 +4832,88 @@
                     "type": "website"
                 }
             ]
+        }
+    },
+    {
+        "handle": "engagements/canva",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "www.canva.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Canva Developer Portal",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Apps SDK Sandboxing",
+                    "type": "other"
+                },
+                {
+                    "identifier": "api.canva.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.canva.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.canva-apps.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.canva.tech",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Canva for ChatGPT",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Canva for Slack",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Canva Desktop (macOS / Windows)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Canva (iOS)",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Canva (Android)",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Canva (Chrome Extension)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "*.canva.cn",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.canva-apps.cn",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Leaked Credentials and Secrets (Canva Employee/Contractor)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Leaked Credentials and Secrets (Canva User)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "3rd-Party Provider Vulnerability",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": []
         }
     },
     {
@@ -9738,6 +9738,56 @@
         }
     },
     {
+        "handle": "engagements/sendbird-mbb",
+        "bounty": 1,
+        "active": 0,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://dashboard.sendbird.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://gate.sendbird.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://api-{app-id}.sendbird.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://ws-{app-id}.sendbird.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://desk-api-{region}.sendbird.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://ws-{app-id}.calls.sendbird.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://api-{app-id}.calls.sendbird.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://api-{app-id}.notifications.sendbird.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://sendbird.com/docs",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://sendbird.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
         "handle": "engagements/openai",
         "bounty": 1,
         "active": 1,
@@ -9786,56 +9836,6 @@
                 {
                     "identifier": "Other",
                     "type": "other"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/sendbird-mbb",
-        "bounty": 1,
-        "active": 0,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://dashboard.sendbird.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://gate.sendbird.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://api-{app-id}.sendbird.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://ws-{app-id}.sendbird.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://desk-api-{region}.sendbird.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://ws-{app-id}.calls.sendbird.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://api-{app-id}.calls.sendbird.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://api-{app-id}.notifications.sendbird.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://sendbird.com/docs",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://sendbird.com",
-                    "type": "website"
                 }
             ],
             "out_of_scope": []
@@ -10683,117 +10683,6 @@
                 {
                     "identifier": "Dell Digital Delivery",
                     "type": "other"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/tesla",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.tesla.cn",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.tesla.services",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Official Tesla iOS apps",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "*.tesla.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.teslamotors.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Any host verified to be owned by Tesla Motors Inc. (domains/IP space/etc.)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.solarcity.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.teslainsuranceservices.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Official Tesla Android apps",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Tesla Energy hardware you own",
-                    "type": "hardware"
-                },
-                {
-                    "identifier": "Tesla vehicle hardware that you own",
-                    "type": "hardware"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "employeefeedback.tesla.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "energysupport.tesla.com (you can report vulnerabilities to bugbounty.zoho.com)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "engage.tesla.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.engage.tesla.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "feedback.tesla.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "feedback.teslamotors.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "ir.tesla.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "ir.teslamotors.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "mkto.teslamotors.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "shop.eu.teslamotors.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "service.tesla.com/docs/*",
-                    "type": "website"
-                },
-                {
-                    "identifier": "service.tesla.cn/docs/*",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Any domains from acquisitions, such as maxwell.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Any other third-party websites hosted by non-Tesla entities",
-                    "type": "website"
                 }
             ]
         }
@@ -12896,6 +12785,117 @@
                 },
                 {
                     "identifier": "trust.bugcrowd.com",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/tesla",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.tesla.cn",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.tesla.services",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Official Tesla iOS apps",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "*.tesla.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.teslamotors.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Any host verified to be owned by Tesla Motors Inc. (domains/IP space/etc.)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.solarcity.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.teslainsuranceservices.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Official Tesla Android apps",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Tesla Energy hardware you own",
+                    "type": "hardware"
+                },
+                {
+                    "identifier": "Tesla vehicle hardware that you own",
+                    "type": "hardware"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "employeefeedback.tesla.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "energysupport.tesla.com (you can report vulnerabilities to bugbounty.zoho.com)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "engage.tesla.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.engage.tesla.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "feedback.tesla.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "feedback.teslamotors.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "ir.tesla.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "ir.teslamotors.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "mkto.teslamotors.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "shop.eu.teslamotors.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "service.tesla.com/docs/*",
+                    "type": "website"
+                },
+                {
+                    "identifier": "service.tesla.cn/docs/*",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Any domains from acquisitions, such as maxwell.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Any other third-party websites hosted by non-Tesla entities",
                     "type": "website"
                 }
             ]
@@ -15051,32 +15051,6 @@
         }
     },
     {
-        "handle": "engagements/wyze",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://auth.wyze.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://my.wyze.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://api.wyzecam.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Wyze Cam V3",
-                    "type": "hardware"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/kaleido",
         "bounty": 1,
         "active": 1,
@@ -15097,6 +15071,32 @@
                 {
                     "identifier": "*.unscreen.com",
                     "type": "website"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/wyze",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://auth.wyze.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://my.wyze.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://api.wyzecam.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Wyze Cam V3",
+                    "type": "hardware"
                 }
             ],
             "out_of_scope": []
