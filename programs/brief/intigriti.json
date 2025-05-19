@@ -3019,6 +3019,10 @@
         "assets": {
             "in_scope": [
                 {
+                    "identifier": "www.bpost2.be",
+                    "type": "Url"
+                },
+                {
                     "identifier": "imove.bpost.cloud",
                     "type": "Url"
                 },
@@ -3972,6 +3976,41 @@
                 },
                 {
                     "identifier": "https://wl_dev.water-link.be/",
+                    "type": "Url"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "admissions-for-students",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://webwsp.aps.kuleuven.be/sap/bc/ui5_ui5/sap/zc_ad_appl/*",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "https://webwsp.aps.kuleuven.be/sap/opu/odata/sap/ ZC_AD_APPLICANT_SRV/*",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "https://www.kuleuven.be/sapredir/admissions_50000050",
+                    "type": "Url"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "https://secure.ogone.com",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "https://idp.kuleuven.be/idp/",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "https://account.kuleuven.be/",
                     "type": "Url"
                 }
             ]

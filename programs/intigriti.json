@@ -9715,6 +9715,19 @@
         "industry": "Financial Services & Insurance",
         "domains": [
             {
+                "id": "6328658f-2840-4ebe-a53f-79e47cbd6de1",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "www.bpost2.be",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "Some of the entry points :\n\nac2 versions of bpi & bpostinternational T&T\thttps://www.bpost2.be/ac2/bpi/track_trace/find.php\nInternational T&T\thttps://www.bpost2.be/bpi/track_trace/find.php \nInternational T&T\thttp://www.bpost2.be/bpostinternational/track_trace/find.php?lng=en & http://www.bpost2.be/bpostinternational/track_trace/find.php?search=s&lng=en&trackcode=1000\n\tCollect & stamp demo's\thttps://www.bpost2.be/collectandstamp/demo/nl/story_html5.html?lms=1\n\tStatic html library of Drupal components\thttp://bpost2.be/components/\n\tPOS locator - Still active : POS by ID & MP/HMP centres\thttps://www.bpost2.be/locations/etr/nl/map_id.php?id=002500 & https://www.bpost2.be/locations/business/nl/both.php\n\tOnline version of MP guide\thttps://www.bpost2.be/masspost/guide/nl/"
+            },
+            {
                 "id": "10e7ca70-bae1-4259-8da2-70564cabc5db",
                 "type": {
                     "id": 1,
@@ -12781,6 +12794,116 @@
                     "value": "Out Of Scope"
                 },
                 "description": "dev environment for our public website"
+            }
+        ]
+    },
+    {
+        "id": "7e3ebdf6-3679-418d-b3e6-faa1fc6344bb",
+        "handle": "admissions-for-students",
+        "name": "Admissions for Students",
+        "following": false,
+        "minBounty": {
+            "value": 100.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 2500.0,
+            "currency": "EUR"
+        },
+        "confidentialityLevel": {
+            "id": 3,
+            "value": "Registered"
+        },
+        "status": {
+            "id": 3,
+            "value": "Open"
+        },
+        "type": {
+            "id": 1,
+            "value": "Bug Bounty"
+        },
+        "webLinks": {
+            "detail": "https://app.intigriti.com/auth/dashboard?redirect=/programs/kuleuven/admissions-for-students/detail"
+        },
+        "industry": "Education",
+        "domains": [
+            {
+                "id": "b679c09e-279b-466f-be21-6ac58fb3900c",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "https://webwsp.aps.kuleuven.be/sap/bc/ui5_ui5/sap/zc_ad_appl/*",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "Admissions for Students Application."
+            },
+            {
+                "id": "e621dac8-3ef5-421d-849a-0d4f4c407150",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "https://webwsp.aps.kuleuven.be/sap/opu/odata/sap/ ZC_AD_APPLICANT_SRV/*",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "OData service for querying and updating data in SAP."
+            },
+            {
+                "id": "b0f7b440-cf54-4bd6-85e9-80a880dab2b7",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://www.kuleuven.be/sapredir/admissions_50000050",
+                "tier": {
+                    "id": 1,
+                    "value": "No Bounty"
+                },
+                "description": "Account creation and application login. The registration/login part on `idp.kuleuven.be` itself is out of scope for the program."
+            },
+            {
+                "id": "fcc9c61c-7d1d-4040-bf0b-b29d511102da",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://secure.ogone.com",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
+                "id": "7f6910fe-7ee1-4e0d-857b-d90d4737dd69",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://idp.kuleuven.be/idp/",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
+            },
+            {
+                "id": "35977e50-774f-44bb-b578-5ae81f849dd2",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://account.kuleuven.be/",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null
             }
         ]
     },
