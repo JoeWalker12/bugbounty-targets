@@ -1855,11 +1855,15 @@
             ],
             "out_of_scope": [
                 {
-                    "identifier": "community.li.me",
+                    "identifier": "community.li.me (bevy)",
                     "type": "api"
                 },
                 {
-                    "identifier": "https://help.li.me (zendesk)",
+                    "identifier": "*.airflow.limeinternal.com (legacy domain)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://help.li.me (Zendesk)",
                     "type": "website"
                 },
                 {
@@ -1871,7 +1875,7 @@
                     "type": "api"
                 },
                 {
-                    "identifier": "https://li.me (hubspot)",
+                    "identifier": "https://li.me (HubSpot)",
                     "type": "website"
                 }
             ]
@@ -3902,88 +3906,6 @@
         }
     },
     {
-        "handle": "engagements/canva",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "www.canva.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Canva Developer Portal",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Apps SDK Sandboxing",
-                    "type": "other"
-                },
-                {
-                    "identifier": "api.canva.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.canva.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.canva-apps.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.canva.tech",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Canva for ChatGPT",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Canva for Slack",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Canva Desktop (macOS / Windows)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Canva (iOS)",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Canva (Android)",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Canva (Chrome Extension)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "*.canva.cn",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.canva-apps.cn",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Leaked Credentials and Secrets (Canva Employee/Contractor)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Leaked Credentials and Secrets (Canva User)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "3rd-Party Provider Vulnerability",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/woox",
         "bounty": 1,
         "active": 1,
@@ -4642,74 +4564,6 @@
         }
     },
     {
-        "handle": "engagements/electroneum",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://my.electroneum.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://electroneum.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://api.electroneum.com/",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Electroneum Android App",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Electroneum iOS App",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "https://api.anytask.com/",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://www.anytask.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Smartchain Blockchain",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Smartchain Block Explorer",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://my.thesecurityteam.rocks/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://anytask.thesecurityteam.rocks/",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/fivetran-mbb-og",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Fivetran Dashboard",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/twilio",
         "bounty": 1,
         "active": 1,
@@ -4914,6 +4768,156 @@
                     "type": "website"
                 }
             ]
+        }
+    },
+    {
+        "handle": "engagements/canva",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "www.canva.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Canva Developer Portal",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Apps SDK Sandboxing",
+                    "type": "other"
+                },
+                {
+                    "identifier": "api.canva.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.canva.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.canva-apps.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.canva.tech",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Canva for ChatGPT",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Canva for Slack",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Canva Desktop (macOS / Windows)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Canva (iOS)",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Canva (Android)",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Canva (Chrome Extension)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "*.canva.cn",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.canva-apps.cn",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Leaked Credentials and Secrets (Canva Employee/Contractor)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Leaked Credentials and Secrets (Canva User)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "3rd-Party Provider Vulnerability",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/electroneum",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://my.electroneum.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://electroneum.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://api.electroneum.com/",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Electroneum Android App",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Electroneum iOS App",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "https://api.anytask.com/",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://www.anytask.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Smartchain Blockchain",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Smartchain Block Explorer",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://my.thesecurityteam.rocks/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://anytask.thesecurityteam.rocks/",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/fivetran-mbb-og",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Fivetran Dashboard",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
         }
     },
     {
@@ -9048,182 +9052,6 @@
         }
     },
     {
-        "handle": "engagements/hutgroup-public",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://*.ameliorate.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.beautyexpert.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.cultbeauty.co.uk/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.dermstore.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.espaskincare.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.exantediet.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.eyeko.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.glossybox.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.growgorgeous.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.hqhair.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.illamasqua.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.mioskincare.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.mankind.co.uk/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.mybag.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.myvitamins.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.powerman.co.uk/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.skinstore.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.thehut.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://checkout.myvitamins.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://checkout.eyeko.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://checkout.glossybox.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "https://www.cultbeauty.co.uk/matchme",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://matchme.cultbeauty.co.uk/",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/navan",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://staging-prime.navan.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "tripactions.com",
-                    "type": "other"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/openai",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "api.openai.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "ChatGPT",
-                    "type": "website"
-                },
-                {
-                    "identifier": "ChatGPT Plugins",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Third Party Targets",
-                    "type": "website"
-                },
-                {
-                    "identifier": "OpenAI API Keys",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://openai.org",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.openai.org",
-                    "type": "api"
-                },
-                {
-                    "identifier": "openai.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.openai.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Developer Platform Playground",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Other",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/t-mobile",
         "bounty": 1,
         "active": 1,
@@ -9441,6 +9269,128 @@
                 },
                 {
                     "identifier": "Any domain, property, product, protocol, or service of the app/hardware/software version not explicitly listed in the In-Scope section is out of scope; submissions are welcome but not guaranteed for the bounty/bonus.",
+                    "type": "other"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/hutgroup-public",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://*.ameliorate.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.beautyexpert.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.cultbeauty.co.uk/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.dermstore.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.espaskincare.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.exantediet.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.eyeko.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.glossybox.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.growgorgeous.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.hqhair.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.illamasqua.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.mioskincare.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.mankind.co.uk/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.mybag.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.myvitamins.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.powerman.co.uk/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.skinstore.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.thehut.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://checkout.myvitamins.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://checkout.eyeko.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://checkout.glossybox.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "https://www.cultbeauty.co.uk/matchme",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://matchme.cultbeauty.co.uk/",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/navan",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://staging-prime.navan.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "tripactions.com",
                     "type": "other"
                 }
             ]
@@ -9746,6 +9696,60 @@
                 {
                     "identifier": "https://sendbird.com",
                     "type": "website"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/openai",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "api.openai.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "ChatGPT",
+                    "type": "website"
+                },
+                {
+                    "identifier": "ChatGPT Plugins",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Third Party Targets",
+                    "type": "website"
+                },
+                {
+                    "identifier": "OpenAI API Keys",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://openai.org",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.openai.org",
+                    "type": "api"
+                },
+                {
+                    "identifier": "openai.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.openai.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Developer Platform Playground",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Other",
+                    "type": "other"
                 }
             ],
             "out_of_scope": []
@@ -14166,97 +14170,6 @@
         }
     },
     {
-        "handle": "engagements/comcast-mbb",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.xfinity.com\t",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.comcast.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.xcal.tv",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Staging, QA, Dev, and Test Environments",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "*.hfc.comcastbusiness.net",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.hsd1.*.comcast.net",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*business.comcast.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "10.0.0.0/8",
-                    "type": "network"
-                },
-                {
-                    "identifier": "50.128.0.0/12",
-                    "type": "network"
-                },
-                {
-                    "identifier": "50.152.0.0/13",
-                    "type": "network"
-                },
-                {
-                    "identifier": "96.201.0.0/16",
-                    "type": "network"
-                },
-                {
-                    "identifier": "96.202.128.0/17",
-                    "type": "network"
-                },
-                {
-                    "identifier": "96.203.0.0/16",
-                    "type": "network"
-                },
-                {
-                    "identifier": "172.26.128.0/18",
-                    "type": "network"
-                },
-                {
-                    "identifier": "184.112.0.0/13",
-                    "type": "network"
-                },
-                {
-                    "identifier": "184.122.0.0/15",
-                    "type": "network"
-                },
-                {
-                    "identifier": "NBC Universal",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Sky",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.sys.comcast.net",
-                    "type": "website"
-                },
-                {
-                    "identifier": "admin.selectwifi.xfinity.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/zola-mbb-og",
         "bounty": 1,
         "active": 0,
@@ -14949,6 +14862,97 @@
                 },
                 {
                     "identifier": "32s.opera.com",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/comcast-mbb",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.xfinity.com\t",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.comcast.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.xcal.tv",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Staging, QA, Dev, and Test Environments",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "*.hfc.comcastbusiness.net",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.hsd1.*.comcast.net",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*business.comcast.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "10.0.0.0/8",
+                    "type": "network"
+                },
+                {
+                    "identifier": "50.128.0.0/12",
+                    "type": "network"
+                },
+                {
+                    "identifier": "50.152.0.0/13",
+                    "type": "network"
+                },
+                {
+                    "identifier": "96.201.0.0/16",
+                    "type": "network"
+                },
+                {
+                    "identifier": "96.202.128.0/17",
+                    "type": "network"
+                },
+                {
+                    "identifier": "96.203.0.0/16",
+                    "type": "network"
+                },
+                {
+                    "identifier": "172.26.128.0/18",
+                    "type": "network"
+                },
+                {
+                    "identifier": "184.112.0.0/13",
+                    "type": "network"
+                },
+                {
+                    "identifier": "184.122.0.0/15",
+                    "type": "network"
+                },
+                {
+                    "identifier": "NBC Universal",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Sky",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.sys.comcast.net",
+                    "type": "website"
+                },
+                {
+                    "identifier": "admin.selectwifi.xfinity.com",
                     "type": "website"
                 }
             ]
