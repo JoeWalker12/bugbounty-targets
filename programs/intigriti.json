@@ -692,6 +692,19 @@
                 "description": "The Order Center API is used by our different Web Apps and microservice to manage Orders."
             },
             {
+                "id": "1138349a-d7a8-46b4-8849-3c87b7cea94a",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://api.staging-enviso.io/reportingcenterapi ",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": "The Reporting Center API is used by our different Web Apps and microservices to manage reports"
+            },
+            {
                 "id": "1999ea0a-7a7d-414a-b821-9bccec69f5f0",
                 "type": {
                     "id": 6,
@@ -718,6 +731,19 @@
                 "description": "\n* [Documentation: eLoxx API](https://help.gantner.com/eloxx-365/developers/eloxx-api/en/index-en.html)\n\nCalls\n-----\n\n* POST https://api.staging-enviso.io/eloxxapi/v1/devices/\n* GET https://api.staging-enviso.io/eloxxapi/v1/devices/firmwareversions\n* GET https://api.staging-enviso.io/eloxxapi/v1/devices/{deviceid}\n* PUT https://api.staging-enviso.io/eloxxapi/v1/devices/{deviceid}\n* DELETE https://api.staging-enviso.io/eloxxapi/v1/devices/{deviceid}\n* GET https://api.staging-enviso.io/eloxxapi/v1/devices/{deviceid}/subdevices\n* GET https://api.staging-enviso.io/eloxxapi/v1/devices/{deviceid}/mastercardset\n\n* GET https://api.staging-enviso.io/eloxxapi/v1/mastercards/\n* POST https://api.staging-enviso.io/eloxxapi/v1/mastercards/\n* PUT https://api.staging-enviso.io/eloxxapi/v1/mastercards/{mastercardsetid}\n\n*Note: Other calls/methods on the same microservice are not part of the same tier*"
             },
             {
+                "id": "44e5ad4f-891c-4c45-a8c9-d59951ca63fa",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "trade.staging-enviso.io",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": "Enviso Trade is a cloud portal to let venues and resellers connect as partners for reselling venue tickets.\n* [Documentation: Trade for Resellers App](https://help.vintia.com/enviso/help/en/136047-136212-trade-for-resellers.html)\n* [Documentation: Trade for Venues App](https://help.vintia.com/enviso/help/en/136639-136836-trade-for-venues.html)"
+            },
+            {
                 "id": "76174014-3cad-4ccc-97e8-62897f887f8a",
                 "type": {
                     "id": 6,
@@ -742,19 +768,6 @@
                     "value": "Tier 3"
                 },
                 "description": "* [Documentation: eLoxx API](https://help.gantner.com/eloxx-365/developers/eloxx-api/en/index-en.html)\n\nCalls\n-----\n\n* GET https://api.staging-enviso.io/eloxxapi/v1/datacarriers/\n\n* GET https://api.staging-enviso.io/eloxxapi/v1/datacarriertypes/\n\n* GET https://api.staging-enviso.io/eloxxapi/v1/lockerusers/{lockeruserid}/datacarriers\n* GET https://api.staging-enviso.io/eloxxapi/v1/lockerusers/{lockeruserid}/maintenancedatacarriers\n* POST https://api.staging-enviso.io/eloxxapi/v1/lockerusers/\n* GET https://api.staging-enviso.io/eloxxapi/v1/lockerusers/\n* GET https://api.staging-enviso.io/eloxxapi/v1/lockerusers/{lockeruserid}\n* GET https://api.staging-enviso.io/eloxxapi/v1/lockerusers/byuid\n* GET https://api.staging-enviso.io/eloxxapi/v1/lockerusers/{lockeruserid}/image\n* PUT https://api.staging-enviso.io/eloxxapi/v1/lockerusers/{lockeruserid}/image\n* POST https://api.staging-enviso.io/eloxxapi/v1/lockerusers/search\n\n*Note: Other calls/methods on the same microservice are not part of the same tier*"
-            },
-            {
-                "id": "44e5ad4f-891c-4c45-a8c9-d59951ca63fa",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "trade.staging-enviso.io",
-                "tier": {
-                    "id": 2,
-                    "value": "Tier 3"
-                },
-                "description": "Enviso Trade is a cloud portal to let venues and resellers connect as partners for reselling venue tickets.\n* [Documentation: Trade for Resellers App](https://help.vintia.com/enviso/help/en/136047-136212-trade-for-resellers.html)\n* [Documentation: Trade for Venues App](https://help.vintia.com/enviso/help/en/136639-136836-trade-for-venues.html)"
             },
             {
                 "id": "ca19d16a-78e5-4437-8291-8944d1edb733",
@@ -2625,8 +2638,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 4,
-            "value": "Suspended"
+            "id": 3,
+            "value": "Open"
         },
         "type": {
             "id": 1,
