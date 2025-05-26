@@ -9317,25 +9317,6 @@
         }
     },
     {
-        "handle": "engagements/navan",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://staging-prime.navan.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "tripactions.com",
-                    "type": "other"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/t-mobile",
         "bounty": 1,
         "active": 1,
@@ -9609,26 +9590,54 @@
         }
     },
     {
-        "handle": "engagements/ultramobile-public-mbb-og",
+        "handle": "engagements/openai",
         "bounty": 1,
         "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "http://my.mintmobile.com/",
+                    "identifier": "api.openai.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "ChatGPT",
                     "type": "website"
                 },
                 {
-                    "identifier": "my.ultramobile.com",
+                    "identifier": "ChatGPT Plugins",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Third Party Targets",
                     "type": "website"
                 },
                 {
-                    "identifier": "https://my.mintmobile.com",
+                    "identifier": "OpenAI API Keys",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://openai.org",
                     "type": "website"
                 },
                 {
-                    "identifier": "https://my.ultramobile.com",
+                    "identifier": "*.openai.org",
+                    "type": "api"
+                },
+                {
+                    "identifier": "openai.com",
                     "type": "website"
+                },
+                {
+                    "identifier": "*.openai.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Developer Platform Playground",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Other",
+                    "type": "other"
                 }
             ],
             "out_of_scope": []
@@ -9721,54 +9730,45 @@
         }
     },
     {
-        "handle": "engagements/openai",
+        "handle": "engagements/navan",
         "bounty": 1,
         "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "api.openai.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "ChatGPT",
+                    "identifier": "https://staging-prime.navan.com",
                     "type": "website"
-                },
+                }
+            ],
+            "out_of_scope": [
                 {
-                    "identifier": "ChatGPT Plugins",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Third Party Targets",
-                    "type": "website"
-                },
-                {
-                    "identifier": "OpenAI API Keys",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://openai.org",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.openai.org",
-                    "type": "api"
-                },
-                {
-                    "identifier": "openai.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.openai.com",
+                    "identifier": "tripactions.com",
                     "type": "other"
-                },
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/ultramobile-public-mbb-og",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
                 {
-                    "identifier": "Developer Platform Playground",
+                    "identifier": "http://my.mintmobile.com/",
                     "type": "website"
                 },
                 {
-                    "identifier": "Other",
-                    "type": "other"
+                    "identifier": "my.ultramobile.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://my.mintmobile.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://my.ultramobile.com",
+                    "type": "website"
                 }
             ],
             "out_of_scope": []
@@ -11633,73 +11633,6 @@
         }
     },
     {
-        "handle": "engagements/dell-com",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.dell.com/*",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.delltechnologies.com/* ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://console.delltechnologies.com/nav/administration",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://console.delltechnologies.com/nav/invoice",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://console.delltechnologies.com/nav/billing",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Any Verified Dell-Controlled Endpoint (domains/IP space/etc.)\t",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "https://console.delltechnologies.com/ ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://console.delltechnologies.com/nav/catalog",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://console.delltechnologies.com/nav/support",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://console.delltechnologies.com/nav/subscriptions",
-                    "type": "website"
-                },
-                {
-                    "identifier": "educate.dell.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "console.dell.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "console-test.dell.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "salesproductivity.dell.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/unity",
         "bounty": 1,
         "active": 1,
@@ -12839,6 +12772,73 @@
         }
     },
     {
+        "handle": "engagements/dell-com",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.dell.com/*",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.delltechnologies.com/* ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://console.delltechnologies.com/nav/administration",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://console.delltechnologies.com/nav/invoice",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://console.delltechnologies.com/nav/billing",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Any Verified Dell-Controlled Endpoint (domains/IP space/etc.)\t",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "https://console.delltechnologies.com/ ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://console.delltechnologies.com/nav/catalog",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://console.delltechnologies.com/nav/support",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://console.delltechnologies.com/nav/subscriptions",
+                    "type": "website"
+                },
+                {
+                    "identifier": "educate.dell.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "console.dell.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "console-test.dell.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "salesproductivity.dell.com",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
         "handle": "engagements/shipwire",
         "bounty": 1,
         "active": 0,
@@ -13706,81 +13706,6 @@
         }
     },
     {
-        "handle": "engagements/optimizely",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://app.optimizely.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://cdn.optimizely.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://cdn-pci.optimizely.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://optimizely-edge.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://api.optimizely.com/",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://dxc.episerver.net/ ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://paasportal.episerver.net/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://paasportal.episerver.net/api/v1.0/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://app.welcomesoftware.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://accounts.welcomesoftware.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://api.welcomesoftware.com/ ",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://cdn-app.welcomesoftware.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://analytics.welcomesoftware.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://flags.expeng.optimizely.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://accounts.cmp.optimizely.com/",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "https://www.optimizely.com/",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/underarmour-corp",
         "bounty": 1,
         "active": 1,
@@ -13942,6 +13867,81 @@
                 },
                 {
                     "identifier": "www.plankindustries.com",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/optimizely",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://app.optimizely.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://cdn.optimizely.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://cdn-pci.optimizely.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://optimizely-edge.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://api.optimizely.com/",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://dxc.episerver.net/ ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://paasportal.episerver.net/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://paasportal.episerver.net/api/v1.0/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://app.welcomesoftware.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://accounts.welcomesoftware.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://api.welcomesoftware.com/ ",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://cdn-app.welcomesoftware.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://analytics.welcomesoftware.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://flags.expeng.optimizely.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://accounts.cmp.optimizely.com/",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "https://www.optimizely.com/",
                     "type": "website"
                 }
             ]
@@ -14152,32 +14152,6 @@
                     "type": "website"
                 }
             ]
-        }
-    },
-    {
-        "handle": "engagements/kaleido",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.remove.bg",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.designify.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.kaleido.ai",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.unscreen.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
         }
     },
     {
@@ -14399,6 +14373,97 @@
         }
     },
     {
+        "handle": "engagements/comcast-mbb",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.xfinity.com\t",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.comcast.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.xcal.tv",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Staging, QA, Dev, and Test Environments",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "*.hfc.comcastbusiness.net",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.hsd1.*.comcast.net",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*business.comcast.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "10.0.0.0/8",
+                    "type": "network"
+                },
+                {
+                    "identifier": "50.128.0.0/12",
+                    "type": "network"
+                },
+                {
+                    "identifier": "50.152.0.0/13",
+                    "type": "network"
+                },
+                {
+                    "identifier": "96.201.0.0/16",
+                    "type": "network"
+                },
+                {
+                    "identifier": "96.202.128.0/17",
+                    "type": "network"
+                },
+                {
+                    "identifier": "96.203.0.0/16",
+                    "type": "network"
+                },
+                {
+                    "identifier": "172.26.128.0/18",
+                    "type": "network"
+                },
+                {
+                    "identifier": "184.112.0.0/13",
+                    "type": "network"
+                },
+                {
+                    "identifier": "184.122.0.0/15",
+                    "type": "network"
+                },
+                {
+                    "identifier": "NBC Universal",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Sky",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.sys.comcast.net",
+                    "type": "website"
+                },
+                {
+                    "identifier": "admin.selectwifi.xfinity.com",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
         "handle": "engagements/tidal-bugbounty",
         "bounty": 1,
         "active": 1,
@@ -14455,6 +14520,32 @@
                     "type": "other"
                 }
             ]
+        }
+    },
+    {
+        "handle": "engagements/kaleido",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.remove.bg",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.designify.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.kaleido.ai",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.unscreen.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
         }
     },
     {
@@ -14631,45 +14722,6 @@
         }
     },
     {
-        "handle": "engagements/zola-mbb-og",
-        "bounty": 1,
-        "active": 0,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://baby.zola.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Zola Baby Registry iOS App",
-                    "type": "ios"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "https://www.zola.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://homestore.zola.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Zola Wedding Planner iOS App",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "https://vendor.zola.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://baby.zola.com/order-status/lookup",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/privateinternetaccess",
         "bounty": 1,
         "active": 1,
@@ -14753,6 +14805,45 @@
                 }
             ],
             "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/zola-mbb-og",
+        "bounty": 1,
+        "active": 0,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://baby.zola.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Zola Baby Registry iOS App",
+                    "type": "ios"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "https://www.zola.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://homestore.zola.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Zola Wedding Planner iOS App",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "https://vendor.zola.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://baby.zola.com/order-status/lookup",
+                    "type": "website"
+                }
+            ]
         }
     },
     {
@@ -14885,97 +14976,6 @@
                 },
                 {
                     "identifier": "ads.*.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/comcast-mbb",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.xfinity.com\t",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.comcast.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.xcal.tv",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Staging, QA, Dev, and Test Environments",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "*.hfc.comcastbusiness.net",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.hsd1.*.comcast.net",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*business.comcast.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "10.0.0.0/8",
-                    "type": "network"
-                },
-                {
-                    "identifier": "50.128.0.0/12",
-                    "type": "network"
-                },
-                {
-                    "identifier": "50.152.0.0/13",
-                    "type": "network"
-                },
-                {
-                    "identifier": "96.201.0.0/16",
-                    "type": "network"
-                },
-                {
-                    "identifier": "96.202.128.0/17",
-                    "type": "network"
-                },
-                {
-                    "identifier": "96.203.0.0/16",
-                    "type": "network"
-                },
-                {
-                    "identifier": "172.26.128.0/18",
-                    "type": "network"
-                },
-                {
-                    "identifier": "184.112.0.0/13",
-                    "type": "network"
-                },
-                {
-                    "identifier": "184.122.0.0/15",
-                    "type": "network"
-                },
-                {
-                    "identifier": "NBC Universal",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Sky",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.sys.comcast.net",
-                    "type": "website"
-                },
-                {
-                    "identifier": "admin.selectwifi.xfinity.com",
                     "type": "website"
                 }
             ]
