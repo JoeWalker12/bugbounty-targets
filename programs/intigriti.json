@@ -2892,7 +2892,7 @@
         "name": "Intel\u00ae",
         "following": false,
         "minBounty": {
-            "value": 500.0,
+            "value": 250.0,
             "currency": "USD"
         },
         "maxBounty": {
@@ -2956,19 +2956,6 @@
                 "description": null
             },
             {
-                "id": "9898bc2c-6e8f-4d11-af00-5072e77c15f8",
-                "type": {
-                    "id": 7,
-                    "value": "Wildcard"
-                },
-                "endpoint": "*.intel.com",
-                "tier": {
-                    "id": 1,
-                    "value": "No Bounty"
-                },
-                "description": "**Intel's Web Infrastructure, i.e.`*.intel.com`**\nIntel\u2019s web infrastructure, i.e., website domains owned and/or operated by Intel, fall **Out of Scope**. These reports are not eligible for rewards of any kind. \nPlease send security vulnerability reports against intel.com and/or related web presence to external.security.research@intel.com\n\nPlease select this domain when submitting  **credentials** of any kind."
-            },
-            {
                 "id": "f246e6df-7e3b-44d1-8d51-845ccbbf8916",
                 "type": {
                     "id": 6,
@@ -2976,10 +2963,23 @@
                 },
                 "endpoint": "Services",
                 "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": "Intel Cloud Service offerings are a wide range of services delivered on demand to companies and customers over the internet."
+            },
+            {
+                "id": "9898bc2c-6e8f-4d11-af00-5072e77c15f8",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "IT Infrastructure",
+                "tier": {
                     "id": 1,
                     "value": "No Bounty"
                 },
-                "description": "Intel Cloud Service offerings are a wide range of services delivered on demand to companies and customers over the internet. These services are designed to provide easy, affordable access to applications, resources, and software products."
+                "description": "IT Infrastructure at Intel falls out of Scope of the Intel\u00ae Bug Bounty Program. For issues related to Intel's IT infrastructure (services or systems that are not customer-facing), please contact Intel's [External Security Research](mailto:external.security.research@intel.com) team. Any submissions to the Intel\u00ae Bug Bounty Program in this category will be forwarded internally to the appropriate team and closed with a neutral rating to researcher profile statistics wherever possible.\n"
             }
         ]
     },
