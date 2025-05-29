@@ -1074,6 +1074,14 @@
                     "type": "other"
                 },
                 {
+                    "identifier": "198.142.65.253",
+                    "type": "network"
+                },
+                {
+                    "identifier": "vpn01.syd.optusnet.com.au",
+                    "type": "network"
+                },
+                {
                     "identifier": "Naasapi.optus.com.au",
                     "type": "api"
                 },
@@ -1111,14 +1119,6 @@
                 },
                 {
                     "identifier": "172.24.250.128",
-                    "type": "network"
-                },
-                {
-                    "identifier": "198.142.65.253",
-                    "type": "network"
-                },
-                {
-                    "identifier": "vpn01.syd.optusnet.com.au",
                     "type": "network"
                 },
                 {
@@ -1271,6 +1271,14 @@
                 },
                 {
                     "identifier": "203.16.76.96/27",
+                    "type": "network"
+                },
+                {
+                    "identifier": "203.16.76.30",
+                    "type": "network"
+                },
+                {
+                    "identifier": "203.16.78.30",
                     "type": "network"
                 }
             ],
@@ -3877,6 +3885,84 @@
         }
     },
     {
+        "handle": "engagements/indeed",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.indeed.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.indeedflex.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://apis.indeed.com/graphql",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Indeed Job Search Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Indeed Job Search iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Android Indeed Flex App",
+                    "type": "android"
+                },
+                {
+                    "identifier": "iOS Indeed Flex App",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Career Scout",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.indeed.tech",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.indeed.net",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://resume.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://wowjobs.ca",
+                    "type": "website"
+                },
+                {
+                    "identifier": "\u5c65\u6b74\u66f8\u4f5c\u6210 (Universal Resume) iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "\u5c65\u6b74\u66f8\u4f5c\u6210 (Universal Resume) Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Indeed Connect for Employers",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Indeed Recruiter Extension (Chrome)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Any host/web property/mobile app verified to be owned by Indeed",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
         "handle": "engagements/lululemon",
         "bounty": 1,
         "active": 0,
@@ -4181,78 +4267,22 @@
         }
     },
     {
-        "handle": "engagements/indeed",
+        "handle": "engagements/tyler-tech-data-insights",
         "bounty": 1,
         "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "*.indeed.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.indeedflex.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://apis.indeed.com/graphql",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Indeed Job Search Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Indeed Job Search iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Android Indeed Flex App",
-                    "type": "android"
-                },
-                {
-                    "identifier": "iOS Indeed Flex App",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Career Scout",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.indeed.tech",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.indeed.net",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://resume.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://wowjobs.ca",
-                    "type": "website"
-                },
-                {
-                    "identifier": "\u5c65\u6b74\u66f8\u4f5c\u6210 (Universal Resume) iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "\u5c65\u6b74\u66f8\u4f5c\u6210 (Universal Resume) Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Indeed Connect for Employers",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Indeed Recruiter Extension (Chrome)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Any host/web property/mobile app verified to be owned by Indeed",
+                    "identifier": "https://opendata-demo.test-socrata.com",
                     "type": "other"
+                },
+                {
+                    "identifier": "https://opendata.test-socrata.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://opendata.test-socrata.com/admin/gateway",
+                    "type": "website"
                 }
             ],
             "out_of_scope": []
@@ -4407,110 +4437,6 @@
                     "type": "website"
                 }
             ]
-        }
-    },
-    {
-        "handle": "engagements/tyler-tech-data-insights",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://opendata-demo.test-socrata.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://opendata.test-socrata.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://opendata.test-socrata.com/admin/gateway",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/canva",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "www.canva.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Canva Developer Portal",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Apps SDK Sandboxing",
-                    "type": "other"
-                },
-                {
-                    "identifier": "api.canva.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.canva.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.canva-apps.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.canva.tech",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Canva for ChatGPT",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Canva for Slack",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Canva Desktop (macOS / Windows)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Canva (iOS)",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Canva (Android)",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Canva (Chrome Extension)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "*.canva.cn",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.canva-apps.cn",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Leaked Credentials and Secrets (Canva Employee/Contractor)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Leaked Credentials and Secrets (Canva User)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "3rd-Party Provider Vulnerability",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": []
         }
     },
     {
@@ -4703,60 +4629,82 @@
         }
     },
     {
-        "handle": "engagements/woox",
+        "handle": "engagements/canva",
         "bounty": 1,
         "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "https://api.woox.io/",
+                    "identifier": "www.canva.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Canva Developer Portal",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Apps SDK Sandboxing",
+                    "type": "other"
+                },
+                {
+                    "identifier": "api.canva.com",
                     "type": "api"
                 },
                 {
-                    "identifier": "https://woox.io/",
+                    "identifier": "*.canva.com",
                     "type": "website"
                 },
                 {
-                    "identifier": "WOO X: Buy Crypto & BTC (Android)",
+                    "identifier": "*.canva-apps.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.canva.tech",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Canva for ChatGPT",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Canva for Slack",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Canva Desktop (macOS / Windows)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Canva (iOS)",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Canva (Android)",
                     "type": "android"
                 },
                 {
-                    "identifier": "WOO X: Buy Crypto & BTC (IOS)",
-                    "type": "ios"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/entain-glf-mbb-og",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
+                    "identifier": "Canva (Chrome Extension)",
+                    "type": "other"
+                },
                 {
-                    "identifier": "https://casino.partycasino.com",
+                    "identifier": "*.canva.cn",
                     "type": "website"
                 },
                 {
-                    "identifier": "https://casino.bwin.com",
+                    "identifier": "*.canva-apps.cn",
                     "type": "website"
                 },
                 {
-                    "identifier": "https://casino.sportingbet.com",
-                    "type": "website"
+                    "identifier": "Leaked Credentials and Secrets (Canva Employee/Contractor)",
+                    "type": "other"
                 },
                 {
-                    "identifier": "https://www.ladbrokes.com/en/games",
-                    "type": "website"
+                    "identifier": "Leaked Credentials and Secrets (Canva User)",
+                    "type": "other"
                 },
                 {
-                    "identifier": "https://www.coral.co.uk/en/games",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://casino.*.betmgm.com/en/games (read \"Find a Game to test on our targets\")",
-                    "type": "website"
+                    "identifier": "3rd-Party Provider Vulnerability",
+                    "type": "other"
                 }
             ],
             "out_of_scope": []
@@ -4943,6 +4891,66 @@
                 {
                     "identifier": "mix-dev.monash.edu/*",
                     "type": "api"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/woox",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://api.woox.io/",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://woox.io/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "WOO X: Buy Crypto & BTC (Android)",
+                    "type": "android"
+                },
+                {
+                    "identifier": "WOO X: Buy Crypto & BTC (IOS)",
+                    "type": "ios"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/entain-glf-mbb-og",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://casino.partycasino.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://casino.bwin.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://casino.sportingbet.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.ladbrokes.com/en/games",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.coral.co.uk/en/games",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://casino.*.betmgm.com/en/games (read \"Find a Game to test on our targets\")",
+                    "type": "website"
                 }
             ],
             "out_of_scope": []
@@ -7832,109 +7840,6 @@
         }
     },
     {
-        "handle": "engagements/twentyminuten",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://www.20min.ch",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://cm.20min.ch/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://api.20min.ch/",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://videoplayer.20min.ch",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://partner-feeds.20min.ch",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://screenplayer.20min.ch",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://audio.20min.ch",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "https://tgt.tamedia.ch",
-                    "type": "api"
-                },
-                {
-                    "identifier": "http://auth.20min.ch",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://cre-api.tamedia.ch",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://track.20min.ch",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Social Media Links (older than 2 years)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Subdomain Takeover ",
-                    "type": "other"
-                },
-                {
-                    "identifier": "DMARC, SPF, DKIM",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://*.connect.ringier.ch",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.onelog.ch",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.20min-tv.ch",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.newsnetz.tv",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.appuser.ch",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.iagentur.ch",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.streamboat.ch",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.streamboatserver.ch",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Other Domains and Subdomains not specifically in scope",
-                    "type": "other"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/maffashion",
         "bounty": 1,
         "active": 1,
@@ -9781,6 +9686,109 @@
                 },
                 {
                     "identifier": "Gestor de Pedidos - Desktop Client",
+                    "type": "other"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/twentyminuten",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://www.20min.ch",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://cm.20min.ch/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://api.20min.ch/",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://videoplayer.20min.ch",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://partner-feeds.20min.ch",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://screenplayer.20min.ch",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://audio.20min.ch",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "https://tgt.tamedia.ch",
+                    "type": "api"
+                },
+                {
+                    "identifier": "http://auth.20min.ch",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://cre-api.tamedia.ch",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://track.20min.ch",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Social Media Links (older than 2 years)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Subdomain Takeover ",
+                    "type": "other"
+                },
+                {
+                    "identifier": "DMARC, SPF, DKIM",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://*.connect.ringier.ch",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.onelog.ch",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.20min-tv.ch",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.newsnetz.tv",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.appuser.ch",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.iagentur.ch",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.streamboat.ch",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.streamboatserver.ch",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Other Domains and Subdomains not specifically in scope",
                     "type": "other"
                 }
             ]
