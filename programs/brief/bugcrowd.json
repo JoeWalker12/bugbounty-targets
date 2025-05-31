@@ -3382,102 +3382,81 @@
         }
     },
     {
-        "handle": "engagements/lululemon",
+        "handle": "engagements/indeed",
         "bounty": 1,
-        "active": 0,
+        "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "shop.lululemon.com",
+                    "identifier": "*.indeed.com",
                     "type": "website"
                 },
                 {
-                    "identifier": "*.lululemon.com",
-                    "type": "other"
+                    "identifier": "https://*.indeedflex.com",
+                    "type": "website"
                 },
                 {
-                    "identifier": "Lululemon Mobile App - iOS",
+                    "identifier": "https://apis.indeed.com/graphql",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Indeed Job Search Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Indeed Job Search iOS",
                     "type": "ios"
                 },
                 {
-                    "identifier": "https://www.lululemon.com.au",
+                    "identifier": "Android Indeed Flex App",
+                    "type": "android"
+                },
+                {
+                    "identifier": "iOS Indeed Flex App",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Career Scout",
                     "type": "website"
                 },
                 {
-                    "identifier": "https://www.lululemon.de",
+                    "identifier": "https://*.indeed.tech",
                     "type": "website"
                 },
                 {
-                    "identifier": "https://www.lululemon.es",
+                    "identifier": "https://*.indeed.net",
                     "type": "website"
                 },
                 {
-                    "identifier": "https://www.eu.lululemon.com",
+                    "identifier": "https://resume.com",
                     "type": "website"
                 },
                 {
-                    "identifier": "https://www.lululemon.fr",
+                    "identifier": "https://wowjobs.ca",
                     "type": "website"
                 },
                 {
-                    "identifier": "https://www.lululemon.com.hk",
+                    "identifier": "\u5c65\u6b74\u66f8\u4f5c\u6210 (Universal Resume) iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "\u5c65\u6b74\u66f8\u4f5c\u6210 (Universal Resume) Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Indeed Connect for Employers",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Indeed Recruiter Extension (Chrome)",
                     "type": "website"
                 },
                 {
-                    "identifier": "http://www.lululemon.co.jp",
-                    "type": "website"
-                },
-                {
-                    "identifier": "http://www.lululemon.co.kr",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.lululemon.co.nz",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.lululemon.co.uk",
-                    "type": "website"
+                    "identifier": "Any host/web property/mobile app verified to be owned by Indeed",
+                    "type": "other"
                 }
             ],
-            "out_of_scope": [
-                {
-                    "identifier": "*.lululemon.cn",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://fr.shop.lululemon.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.lululemon.me",
-                    "type": "website"
-                },
-                {
-                    "identifier": "careers.lululemon.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://info.lululemon.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://pnimages.lululemon.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "AEM - Assets",
-                    "type": "website"
-                },
-                {
-                    "identifier": "AEM - Sites",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.mirror.co",
-                    "type": "website"
-                }
-            ]
+            "out_of_scope": []
         }
     },
     {
@@ -3658,166 +3637,6 @@
         }
     },
     {
-        "handle": "engagements/indeed",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.indeed.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.indeedflex.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://apis.indeed.com/graphql",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Indeed Job Search Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Indeed Job Search iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Android Indeed Flex App",
-                    "type": "android"
-                },
-                {
-                    "identifier": "iOS Indeed Flex App",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Career Scout",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.indeed.tech",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.indeed.net",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://resume.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://wowjobs.ca",
-                    "type": "website"
-                },
-                {
-                    "identifier": "\u5c65\u6b74\u66f8\u4f5c\u6210 (Universal Resume) iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "\u5c65\u6b74\u66f8\u4f5c\u6210 (Universal Resume) Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Indeed Connect for Employers",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Indeed Recruiter Extension (Chrome)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Any host/web property/mobile app verified to be owned by Indeed",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/canva",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "www.canva.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Canva Developer Portal",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Apps SDK Sandboxing",
-                    "type": "other"
-                },
-                {
-                    "identifier": "api.canva.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.canva.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.canva-apps.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.canva.tech",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Canva for ChatGPT",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Canva for Slack",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Canva Desktop (macOS / Windows)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Canva (iOS)",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Canva (Android)",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Canva (Chrome Extension)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "*.canva.cn",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.canva-apps.cn",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Leaked Credentials and Secrets (Canva Employee/Contractor)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Leaked Credentials and Secrets (Canva User)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "3rd-Party Provider Vulnerability",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/afterpay",
         "bounty": 1,
         "active": 1,
@@ -3905,161 +3724,81 @@
         }
     },
     {
-        "handle": "engagements/woox",
+        "handle": "engagements/canva",
         "bounty": 1,
         "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "https://api.woox.io/",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://woox.io/",
+                    "identifier": "www.canva.com",
                     "type": "website"
                 },
                 {
-                    "identifier": "WOO X: Buy Crypto & BTC (Android)",
+                    "identifier": "Canva Developer Portal",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Apps SDK Sandboxing",
+                    "type": "other"
+                },
+                {
+                    "identifier": "api.canva.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.canva.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.canva-apps.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.canva.tech",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Canva for ChatGPT",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Canva for Slack",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Canva Desktop (macOS / Windows)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Canva (iOS)",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Canva (Android)",
                     "type": "android"
                 },
                 {
-                    "identifier": "WOO X: Buy Crypto & BTC (IOS)",
-                    "type": "ios"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/entain-glf-mbb-og",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
+                    "identifier": "Canva (Chrome Extension)",
+                    "type": "other"
+                },
                 {
-                    "identifier": "https://casino.partycasino.com",
+                    "identifier": "*.canva.cn",
                     "type": "website"
                 },
                 {
-                    "identifier": "https://casino.bwin.com",
+                    "identifier": "*.canva-apps.cn",
                     "type": "website"
                 },
                 {
-                    "identifier": "https://casino.sportingbet.com",
-                    "type": "website"
+                    "identifier": "Leaked Credentials and Secrets (Canva Employee/Contractor)",
+                    "type": "other"
                 },
                 {
-                    "identifier": "https://www.ladbrokes.com/en/games",
-                    "type": "website"
+                    "identifier": "Leaked Credentials and Secrets (Canva User)",
+                    "type": "other"
                 },
                 {
-                    "identifier": "https://www.coral.co.uk/en/games",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://casino.*.betmgm.com/en/games (read \"Find a Game to test on our targets\")",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/mastercard",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Simplify Commerce - www.simplify.com/commerce/ ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "MasterCard.us - www.mastercard.us/en-us.html",
-                    "type": "website"
-                },
-                {
-                    "identifier": "MasterCard.ch - (German) - www.mastercard.ch/de-ch.html",
-                    "type": "website"
-                },
-                {
-                    "identifier": "MasterCard.ch - (French) - www.mastercard.ch/fr-ch.html",
-                    "type": "website"
-                },
-                {
-                    "identifier": "MasterCard.com.au - www.mastercard.com.au/en-au.html",
-                    "type": "website"
-                },
-                {
-                    "identifier": "MasterCard.nl - www.mastercard.nl/nl-nl.html",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://developer.mastercard.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "donate.mastercard.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Core Priceless.com - demo.priceless.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://priceless.com/golf/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://performancemarketing.mastercard.com/portal/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://src.mastercard.com/profile/enroll",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://src.mastercard.com/*",
-                    "type": "website"
-                },
-                {
-                    "identifier": "SRC integration on https://masterpassteststore.com/. Only the Masterpass checkout functionality is in scope",
-                    "type": "website"
-                },
-                {
-                    "identifier": " Finicity Connect",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Finicity- Data Services",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Finicity Decisioning",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://www.finicity.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://consumer.finicityreports.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Finicity- Open Banking Payment History application",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Finicity - OBB (Open Banking Business Service) ",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://pioneer.truata.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Public Others Target",
+                    "identifier": "3rd-Party Provider Vulnerability",
                     "type": "other"
                 }
             ],
@@ -4247,6 +3986,134 @@
                 {
                     "identifier": "mix-dev.monash.edu/*",
                     "type": "api"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/woox",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://api.woox.io/",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://woox.io/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "WOO X: Buy Crypto & BTC (Android)",
+                    "type": "android"
+                },
+                {
+                    "identifier": "WOO X: Buy Crypto & BTC (IOS)",
+                    "type": "ios"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/mastercard",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Simplify Commerce - www.simplify.com/commerce/ ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "MasterCard.us - www.mastercard.us/en-us.html",
+                    "type": "website"
+                },
+                {
+                    "identifier": "MasterCard.ch - (German) - www.mastercard.ch/de-ch.html",
+                    "type": "website"
+                },
+                {
+                    "identifier": "MasterCard.ch - (French) - www.mastercard.ch/fr-ch.html",
+                    "type": "website"
+                },
+                {
+                    "identifier": "MasterCard.com.au - www.mastercard.com.au/en-au.html",
+                    "type": "website"
+                },
+                {
+                    "identifier": "MasterCard.nl - www.mastercard.nl/nl-nl.html",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://developer.mastercard.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "donate.mastercard.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Core Priceless.com - demo.priceless.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://priceless.com/golf/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://performancemarketing.mastercard.com/portal/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://src.mastercard.com/profile/enroll",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://src.mastercard.com/*",
+                    "type": "website"
+                },
+                {
+                    "identifier": "SRC integration on https://masterpassteststore.com/. Only the Masterpass checkout functionality is in scope",
+                    "type": "website"
+                },
+                {
+                    "identifier": " Finicity Connect",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Finicity- Data Services",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Finicity Decisioning",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://www.finicity.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://consumer.finicityreports.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Finicity- Open Banking Payment History application",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Finicity - OBB (Open Banking Business Service) ",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://pioneer.truata.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Public Others Target",
+                    "type": "other"
                 }
             ],
             "out_of_scope": []
@@ -4858,6 +4725,105 @@
                 },
                 {
                     "identifier": "anywhere.epam.com",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/lululemon",
+        "bounty": 1,
+        "active": 0,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "shop.lululemon.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.lululemon.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Lululemon Mobile App - iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "https://www.lululemon.com.au",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.lululemon.de",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.lululemon.es",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.eu.lululemon.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.lululemon.fr",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.lululemon.com.hk",
+                    "type": "website"
+                },
+                {
+                    "identifier": "http://www.lululemon.co.jp",
+                    "type": "website"
+                },
+                {
+                    "identifier": "http://www.lululemon.co.kr",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.lululemon.co.nz",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.lululemon.co.uk",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "*.lululemon.cn",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://fr.shop.lululemon.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.lululemon.me",
+                    "type": "website"
+                },
+                {
+                    "identifier": "careers.lululemon.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://info.lululemon.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://pnimages.lululemon.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "AEM - Assets",
+                    "type": "website"
+                },
+                {
+                    "identifier": "AEM - Sites",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.mirror.co",
                     "type": "website"
                 }
             ]
@@ -7261,6 +7227,81 @@
         }
     },
     {
+        "handle": "engagements/square",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.square.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.squareup.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "square.online",
+                    "type": "website"
+                },
+                {
+                    "identifier": "weebly.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Square Point of Sale Mobile Application for Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Square Point of Sale Mobile Application for iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Square Register",
+                    "type": "hardware"
+                },
+                {
+                    "identifier": "Square Terminal",
+                    "type": "hardware"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "*.afterpay.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.cash.me",
+                    "type": "website"
+                },
+                {
+                    "identifier": "designers.weebly.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.tidal.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": " community.squareup.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Cash App Mobile Application for Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Cash App Mobile Application for iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Any vulnerabilities found in Third-party software",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
         "handle": "engagements/usaa",
         "bounty": 1,
         "active": 1,
@@ -7464,81 +7505,6 @@
                 }
             ],
             "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/square",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.square.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.squareup.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "square.online",
-                    "type": "website"
-                },
-                {
-                    "identifier": "weebly.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Square Point of Sale Mobile Application for Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Square Point of Sale Mobile Application for iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Square Register",
-                    "type": "hardware"
-                },
-                {
-                    "identifier": "Square Terminal",
-                    "type": "hardware"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "*.afterpay.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.cash.me",
-                    "type": "website"
-                },
-                {
-                    "identifier": "designers.weebly.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.tidal.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": " community.squareup.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Cash App Mobile Application for Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Cash App Mobile Application for iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Any vulnerabilities found in Third-party software",
-                    "type": "website"
-                }
-            ]
         }
     },
     {
@@ -12067,52 +12033,6 @@
         }
     },
     {
-        "handle": "engagements/elementor",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://elementor.com/*",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://my.elementor.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://go.elementor.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://translate.elementor.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://developers.elementor.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://he.elementor.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://code.elementor.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://library.elementor.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": " app.strattic.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/prosus-og",
         "bounty": 1,
         "active": 1,
@@ -12669,89 +12589,6 @@
         }
     },
     {
-        "handle": "engagements/bitgo-mbb-og-public",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.bitgo.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "app.bitgo.com ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "app.bitgo-test.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/ynab",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "staging-app.bany.dev",
-                    "type": "website"
-                },
-                {
-                    "identifier": "staging-api.ynab.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "www.ynab.com",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "https://app.ynab.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Any previous version of the desktop apps: YNAB 4, YNAB 3, YNAB Pro, YNAB Basic (Spreadsheet)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://support.ynab.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://develop-app.ynab.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://learn.ynab.com/",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/statuspage",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "manage.statuspage.io",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.statuspage.io",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/trello",
         "bounty": 1,
         "active": 1,
@@ -12828,6 +12665,135 @@
                     "type": "website"
                 }
             ]
+        }
+    },
+    {
+        "handle": "engagements/statuspage",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "manage.statuspage.io",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.statuspage.io",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/ynab",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "staging-app.bany.dev",
+                    "type": "website"
+                },
+                {
+                    "identifier": "staging-api.ynab.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "www.ynab.com",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "https://app.ynab.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Any previous version of the desktop apps: YNAB 4, YNAB 3, YNAB Pro, YNAB Basic (Spreadsheet)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://support.ynab.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://develop-app.ynab.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://learn.ynab.com/",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/bitgo-mbb-og-public",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.bitgo.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "app.bitgo.com ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "app.bitgo-test.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/elementor",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://elementor.com/*",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://my.elementor.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://go.elementor.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://translate.elementor.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://developers.elementor.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://he.elementor.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://code.elementor.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://library.elementor.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": " app.strattic.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
         }
     },
     {
@@ -14971,6 +14937,40 @@
                     "type": "website"
                 }
             ]
+        }
+    },
+    {
+        "handle": "engagements/entain-glf-mbb-og",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://casino.partycasino.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://casino.bwin.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://casino.sportingbet.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.ladbrokes.com/en/games",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.coral.co.uk/en/games",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://casino.*.betmgm.com/en/games (read \"Find a Game to test on our targets\")",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
         }
     },
     {
