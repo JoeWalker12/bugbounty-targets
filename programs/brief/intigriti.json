@@ -4255,8 +4255,28 @@
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "*.bild.de",
+                    "identifier": "m.bild.de",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "https://hey.bild.de",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "https://*.hey.bild.de",
                     "type": "Wildcard"
+                },
+                {
+                    "identifier": "bild.de",
+                    "type": "Url"
+                },
+                {
+                    "identifier": "*.auth.bild.de",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "meinkonto.bild.de",
+                    "type": "Url"
                 },
                 {
                     "identifier": "*.bild.tv",
@@ -4284,6 +4304,10 @@
                 },
                 {
                     "identifier": "https://dealer.prod.ps.axelspringer.de/purchases/004/welt/*",
+                    "type": "Wildcard"
+                },
+                {
+                    "identifier": "*.bild.de",
                     "type": "Wildcard"
                 },
                 {

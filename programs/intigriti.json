@@ -13682,17 +13682,82 @@
         "industry": "Media & Entertainment",
         "domains": [
             {
-                "id": "35e82459-6f6f-4293-bfc1-8e8ace40e710",
+                "id": "12f2ced0-71dd-4f84-b53f-fde54fab4f17",
                 "type": {
-                    "id": 7,
-                    "value": "Wildcard"
+                    "id": 1,
+                    "value": "Url"
                 },
-                "endpoint": "*.bild.de",
+                "endpoint": "m.bild.de",
                 "tier": {
                     "id": 4,
                     "value": "Tier 1"
                 },
-                "description": "Bild is the largest German tabloid newspaper. \nSome examples of subdomains are \n- meinkonto.bild.de (user settings)\n- signin.auth.bild.de (login)\n- hey.bild.de (AI chat assistant)\n- angebot.bild.de (offers)\n- m.bild.de (mobile  version)\n\nYou are also welcome to create your own account to test our system. "
+                "description": "The mobile version of BILD."
+            },
+            {
+                "id": "bb24a313-4cf5-4ad8-b8d6-322ac20c8997",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://hey.bild.de",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "Hey_ is a Chat Assistent offered by BILD."
+            },
+            {
+                "id": "c6a39f65-45ac-4a4a-91e0-3156a373bf72",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "https://*.hey.bild.de",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": null
+            },
+            {
+                "id": "97b66fcc-282f-4730-80f1-f84b8434750d",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "bild.de",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "BILD is Germany's largest tabloid newspaper.\nYou can find Tier 1 subdomains, as well as a Tier 2 wildcard subdomain.\nYou are welcome to create your own account and test our system."
+            },
+            {
+                "id": "284b646f-5255-4eb3-ac4e-fa7356faa379",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.auth.bild.de",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "Login/registration for BILD."
+            },
+            {
+                "id": "e6414760-d6d0-4843-9c4c-0530b64a8265",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "meinkonto.bild.de",
+                "tier": {
+                    "id": 4,
+                    "value": "Tier 1"
+                },
+                "description": "The account setting of a BILD user. "
             },
             {
                 "id": "cf707b15-9ae1-44dc-ba0c-1f137a918780",
@@ -13784,6 +13849,19 @@
                     "value": "Tier 1"
                 },
                 "description": "Documentation: https://dealer-docs.prod.ps.axelspringer.de/"
+            },
+            {
+                "id": "35e82459-6f6f-4293-bfc1-8e8ace40e710",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.bild.de",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "Bild is the largest German tabloid newspaper. \nSome examples of subdomains are \n- angebot.bild.de (offers)\n\nYou are also welcome to create your own account to test our system. "
             },
             {
                 "id": "f909bba1-c151-4536-a9b6-1f213f498a6b",
