@@ -7461,61 +7461,6 @@
         }
     },
     {
-        "handle": "engagements/skyscanner",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Skyscanner iOS App",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Skyscanner Android App",
-                    "type": "android"
-                },
-                {
-                    "identifier": "gateway.skyscanner.net/*",
-                    "type": "api"
-                },
-                {
-                    "identifier": "skyscanner.net/hotels/book/*",
-                    "type": "website"
-                },
-                {
-                    "identifier": "skyscanner.net/*",
-                    "type": "website"
-                },
-                {
-                    "identifier": "partnerportal.skyscanner.net/*",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.skyscanner.net",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Skyscanner Android app",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Skyscanner iOS app",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "AWS Infrastructure",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "Corporate Email (*@skyscanner.net)",
-                    "type": "other"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/lastpass",
         "bounty": 1,
         "active": 1,
@@ -8969,6 +8914,95 @@
         }
     },
     {
+        "handle": "engagements/quizlet",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://*.quizlet.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "IoS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "3.0 API",
+                    "type": "api"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "2.0 API",
+                    "type": "api"
+                },
+                {
+                    "identifier": " help.quizlet.com (zendesk)",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/openai",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "api.openai.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "ChatGPT",
+                    "type": "website"
+                },
+                {
+                    "identifier": "ChatGPT Plugins",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Third Party Targets",
+                    "type": "website"
+                },
+                {
+                    "identifier": "OpenAI API Keys",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://openai.org",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.openai.org",
+                    "type": "api"
+                },
+                {
+                    "identifier": "openai.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.openai.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Developer Platform Playground",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Other",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
         "handle": "engagements/t-mobile",
         "bounty": 1,
         "active": 1,
@@ -9196,90 +9230,56 @@
         }
     },
     {
-        "handle": "engagements/openai",
+        "handle": "engagements/skyscanner",
         "bounty": 1,
         "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "api.openai.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "ChatGPT",
-                    "type": "website"
-                },
-                {
-                    "identifier": "ChatGPT Plugins",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Third Party Targets",
-                    "type": "website"
-                },
-                {
-                    "identifier": "OpenAI API Keys",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://openai.org",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.openai.org",
-                    "type": "api"
-                },
-                {
-                    "identifier": "openai.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.openai.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Developer Platform Playground",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Other",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/quizlet",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://*.quizlet.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "IoS",
+                    "identifier": "Skyscanner iOS App",
                     "type": "ios"
                 },
                 {
-                    "identifier": "Android",
+                    "identifier": "Skyscanner Android App",
                     "type": "android"
                 },
                 {
-                    "identifier": "3.0 API",
+                    "identifier": "gateway.skyscanner.net/*",
                     "type": "api"
+                },
+                {
+                    "identifier": "skyscanner.net/hotels/book/*",
+                    "type": "website"
+                },
+                {
+                    "identifier": "skyscanner.net/*",
+                    "type": "website"
+                },
+                {
+                    "identifier": "partnerportal.skyscanner.net/*",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.skyscanner.net",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Skyscanner Android app",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Skyscanner iOS app",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "AWS Infrastructure",
+                    "type": "other"
                 }
             ],
             "out_of_scope": [
                 {
-                    "identifier": "2.0 API",
-                    "type": "api"
-                },
-                {
-                    "identifier": " help.quizlet.com (zendesk)",
-                    "type": "website"
+                    "identifier": "Corporate Email (*@skyscanner.net)",
+                    "type": "other"
                 }
             ]
         }
@@ -11275,97 +11275,6 @@
         }
     },
     {
-        "handle": "engagements/bugcrowd",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "docs.bugcrowd.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "bugcrowd.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Crowdcontrol",
-                    "type": "api"
-                },
-                {
-                    "identifier": "api.bugcrowd.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://identity.bugcrowd.com/ ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.bugcrowd.com/auth/*",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "bugcrowd*.freshdesk.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "www.bugcrowd.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "blog.bugcrowd.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "researcherdocs.bugcrowd.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "pages.bugcrowd.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "forum.bugcrowd.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "email.bugcrowd.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "email.forum.bugcrowd.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "go.bugcrowd.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "events.bugcrowd.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "assetinventory.bugcrowd.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "community.bugcrowd.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "trust.bugcrowd.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Social Engineering",
-                    "type": "other"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/CCData-mbb-og",
         "bounty": 1,
         "active": 1,
@@ -12114,6 +12023,97 @@
                 {
                     "identifier": "*-sandbox.kucoin.com",
                     "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/bugcrowd",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "docs.bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Crowdcontrol",
+                    "type": "api"
+                },
+                {
+                    "identifier": "api.bugcrowd.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://identity.bugcrowd.com/ ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.bugcrowd.com/auth/*",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "bugcrowd*.freshdesk.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "www.bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "blog.bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "researcherdocs.bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "pages.bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "forum.bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "email.bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "email.forum.bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "go.bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "events.bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "assetinventory.bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "community.bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "trust.bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Social Engineering",
+                    "type": "other"
                 }
             ]
         }
@@ -14929,65 +14929,6 @@
         }
     },
     {
-        "handle": "engagements/nubank",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Nubank Android: Playstore",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Nubank iOS App",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "prod-*.nubank.com.br",
-                    "type": "api"
-                },
-                {
-                    "identifier": "prod-*.nu.com.mx",
-                    "type": "api"
-                },
-                {
-                    "identifier": "prod-*.nu.com.co",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*nubank.com.br",
-                    "type": "other"
-                },
-                {
-                    "identifier": "*nu.com.mx",
-                    "type": "other"
-                },
-                {
-                    "identifier": "*nu.com.co",
-                    "type": "other"
-                },
-                {
-                    "identifier": "*.nuinvest.com.br\t",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "*nuinternational.com\t",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*nat-a.nubank.com.br",
-                    "type": "other"
-                },
-                {
-                    "identifier": "international.nubank.com.br",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/bitdefender",
         "bounty": 1,
         "active": 1,
@@ -15081,6 +15022,65 @@
                 },
                 {
                     "identifier": "translate.bitdefender.com",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/nubank",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Nubank Android: Playstore",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Nubank iOS App",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "prod-*.nubank.com.br",
+                    "type": "api"
+                },
+                {
+                    "identifier": "prod-*.nu.com.mx",
+                    "type": "api"
+                },
+                {
+                    "identifier": "prod-*.nu.com.co",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*nubank.com.br",
+                    "type": "other"
+                },
+                {
+                    "identifier": "*nu.com.mx",
+                    "type": "other"
+                },
+                {
+                    "identifier": "*nu.com.co",
+                    "type": "other"
+                },
+                {
+                    "identifier": "*.nuinvest.com.br\t",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "*nuinternational.com\t",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*nat-a.nubank.com.br",
+                    "type": "other"
+                },
+                {
+                    "identifier": "international.nubank.com.br",
                     "type": "website"
                 }
             ]
