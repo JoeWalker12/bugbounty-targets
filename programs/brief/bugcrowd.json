@@ -5214,50 +5214,54 @@
         }
     },
     {
-        "handle": "engagements/sendbird-mbb",
+        "handle": "engagements/openai",
         "bounty": 1,
-        "active": 0,
+        "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "https://dashboard.sendbird.com",
+                    "identifier": "api.openai.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "ChatGPT",
                     "type": "website"
                 },
                 {
-                    "identifier": "https://gate.sendbird.com",
+                    "identifier": "ChatGPT Plugins",
                     "type": "api"
                 },
                 {
-                    "identifier": "https://api-{app-id}.sendbird.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://ws-{app-id}.sendbird.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://desk-api-{region}.sendbird.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://ws-{app-id}.calls.sendbird.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://api-{app-id}.calls.sendbird.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://api-{app-id}.notifications.sendbird.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://sendbird.com/docs",
+                    "identifier": "Third Party Targets",
                     "type": "website"
                 },
                 {
-                    "identifier": "https://sendbird.com",
+                    "identifier": "OpenAI API Keys",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://openai.org",
                     "type": "website"
+                },
+                {
+                    "identifier": "*.openai.org",
+                    "type": "api"
+                },
+                {
+                    "identifier": "openai.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.openai.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Developer Platform Playground",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Other",
+                    "type": "other"
                 }
             ],
             "out_of_scope": []
@@ -5537,54 +5541,50 @@
         }
     },
     {
-        "handle": "engagements/openai",
+        "handle": "engagements/sendbird-mbb",
         "bounty": 1,
-        "active": 1,
+        "active": 0,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "api.openai.com",
+                    "identifier": "https://dashboard.sendbird.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://gate.sendbird.com",
                     "type": "api"
                 },
                 {
-                    "identifier": "ChatGPT",
-                    "type": "website"
-                },
-                {
-                    "identifier": "ChatGPT Plugins",
+                    "identifier": "https://api-{app-id}.sendbird.com",
                     "type": "api"
                 },
                 {
-                    "identifier": "Third Party Targets",
-                    "type": "website"
-                },
-                {
-                    "identifier": "OpenAI API Keys",
+                    "identifier": "https://ws-{app-id}.sendbird.com",
                     "type": "api"
                 },
                 {
-                    "identifier": "https://openai.org",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.openai.org",
+                    "identifier": "https://desk-api-{region}.sendbird.com",
                     "type": "api"
                 },
                 {
-                    "identifier": "openai.com",
+                    "identifier": "https://ws-{app-id}.calls.sendbird.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://api-{app-id}.calls.sendbird.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://api-{app-id}.notifications.sendbird.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://sendbird.com/docs",
                     "type": "website"
                 },
                 {
-                    "identifier": "*.openai.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Developer Platform Playground",
+                    "identifier": "https://sendbird.com",
                     "type": "website"
-                },
-                {
-                    "identifier": "Other",
-                    "type": "other"
                 }
             ],
             "out_of_scope": []
@@ -9770,53 +9770,6 @@
         }
     },
     {
-        "handle": "engagements/CCData-mbb-og",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "CoinDesk Data - Data API",
-                    "type": "api"
-                },
-                {
-                    "identifier": "CoinDesk Data - Tools API",
-                    "type": "api"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "coindesk.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "uat.coindesk.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Production CoinDesk Events",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Consensus2025 Site",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Consensus HK Site",
-                    "type": "website"
-                },
-                {
-                    "identifier": "data.coindesk.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "developers.coindesk.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/arlo",
         "bounty": 1,
         "active": 1,
@@ -12578,6 +12531,53 @@
                 }
             ],
             "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/CCData-mbb-og",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "CoinDesk Data - Data API",
+                    "type": "api"
+                },
+                {
+                    "identifier": "CoinDesk Data - Tools API",
+                    "type": "api"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "coindesk.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "uat.coindesk.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Production CoinDesk Events",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Consensus2025 Site",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Consensus HK Site",
+                    "type": "website"
+                },
+                {
+                    "identifier": "data.coindesk.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "developers.coindesk.com",
+                    "type": "website"
+                }
+            ]
         }
     },
     {
