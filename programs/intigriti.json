@@ -3515,8 +3515,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 3,
-            "value": "Open"
+            "id": 4,
+            "value": "Suspended"
         },
         "type": {
             "id": 1,
@@ -5672,34 +5672,6 @@
         "industry": "Hospitals & Healthcare",
         "domains": [
             {
-                "id": "4fe80617-7f85-456c-a5b2-e5bab8d946d6",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "wp5-truststroke.uzleuven.be",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": "* access to /api/ should only work from BE or NL ip's\n* access to other paths or / should not work",
-                "requiredSkills": []
-            },
-            {
-                "id": "e2e54a98-1a71-4313-907c-79cb6b5216f5",
-                "type": {
-                    "id": 4,
-                    "value": "IpRange"
-                },
-                "endpoint": "134.58.179.102-103",
-                "tier": {
-                    "id": 4,
-                    "value": "Tier 1"
-                },
-                "description": null,
-                "requiredSkills": []
-            },
-            {
                 "id": "b070af79-3cd3-4a18-a1a8-cdc959cb230d",
                 "type": {
                     "id": 1,
@@ -5854,31 +5826,45 @@
                 "requiredSkills": []
             },
             {
-                "id": "d06e13da-3d57-438e-bd11-548b1273bef1",
+                "id": "6113cc6c-ffb4-41fe-9733-6d858f1e449a",
                 "type": {
-                    "id": 1,
-                    "value": "Url"
+                    "id": 4,
+                    "value": "IpRange"
                 },
-                "endpoint": "dns1.uzleuven.be",
+                "endpoint": "193.58.149.121,193.58.149.98,193.58.149.82,193.58.149.101,193.58.149.107,193.58.149.108,193.58.149.111",
                 "tier": {
                     "id": 3,
                     "value": "Tier 2"
                 },
-                "description": null,
+                "description": "These are the ip's used by our reverse proxy.\nThe Host header will determine the bounty tier.\nIf a report is submitted where the Host header is not used we will default to Tier 2. ",
                 "requiredSkills": []
             },
             {
-                "id": "1e469c62-06a6-4498-bdd9-e1c2c26e5e64",
+                "id": "4fe80617-7f85-456c-a5b2-e5bab8d946d6",
                 "type": {
                     "id": 1,
                     "value": "Url"
                 },
-                "endpoint": "dns2.uzleuven.be",
+                "endpoint": "wp5-truststroke.uzleuven.be",
                 "tier": {
                     "id": 3,
                     "value": "Tier 2"
                 },
-                "description": null,
+                "description": "* access to /api/ should only work from BE or NL ip's\n* access to other paths or / should not work",
+                "requiredSkills": []
+            },
+            {
+                "id": "06218499-54dd-49a9-b7f2-7834a5c9872e",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "cardsonline.azdiest.be",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "This webapp should return a http 403 error due to ip whitelisting.",
                 "requiredSkills": []
             },
             {
@@ -5924,20 +5910,6 @@
                 "requiredSkills": []
             },
             {
-                "id": "124e3415-e36f-41ef-840d-d3e1317756bc",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "uzlcm12cmg1.uzleuven.be",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": null,
-                "requiredSkills": []
-            },
-            {
                 "id": "5bae08cf-755f-478c-8ad4-e8a30a8a8781",
                 "type": {
                     "id": 1,
@@ -5949,6 +5921,20 @@
                     "value": "Tier 2"
                 },
                 "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "3af10de8-c59e-4e1a-948a-85048701f246",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "cardsonlinetst.azdiest.be",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": "This webapp should return a http 403 error due to ip whitelisting.",
                 "requiredSkills": []
             },
             {
@@ -24605,8 +24591,8 @@
                 },
                 "endpoint": "1584170510",
                 "tier": {
-                    "id": 1,
-                    "value": "No Bounty"
+                    "id": 5,
+                    "value": "Out Of Scope"
                 },
                 "description": null,
                 "requiredSkills": []
@@ -24689,8 +24675,8 @@
                 },
                 "endpoint": "com.loyaltyworks.wavinapp",
                 "tier": {
-                    "id": 1,
-                    "value": "No Bounty"
+                    "id": 5,
+                    "value": "Out Of Scope"
                 },
                 "description": null,
                 "requiredSkills": []
