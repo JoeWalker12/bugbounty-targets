@@ -5400,46 +5400,54 @@
         }
     },
     {
-        "handle": "engagements/backblaze",
+        "handle": "engagements/openai",
         "bounty": 1,
         "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "Backblaze Android mobile application",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Backblaze iOS mobile application",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Mac Personal Backup Clients",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Windows Personal Backup Clients",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Mac Restore Downloaders",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Windows Restore Downloaders",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Git Repositories (b2-sdk-java & B2 Command Line Tool)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "B2 APIs (*.backblazeb2.com)",
+                    "identifier": "api.openai.com",
                     "type": "api"
                 },
                 {
-                    "identifier": "Backblaze Website (*.backblaze.com)",
+                    "identifier": "ChatGPT Agent",
                     "type": "website"
+                },
+                {
+                    "identifier": "ChatGPT Plugins",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Third Party Targets",
+                    "type": "website"
+                },
+                {
+                    "identifier": "OpenAI API Keys",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://openai.org",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.openai.org",
+                    "type": "api"
+                },
+                {
+                    "identifier": "openai.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.openai.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Developer Platform Playground",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Other",
+                    "type": "other"
                 }
             ],
             "out_of_scope": []
@@ -5689,54 +5697,46 @@
         }
     },
     {
-        "handle": "engagements/openai",
+        "handle": "engagements/backblaze",
         "bounty": 1,
         "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "api.openai.com",
-                    "type": "api"
+                    "identifier": "Backblaze Android mobile application",
+                    "type": "android"
                 },
                 {
-                    "identifier": "ChatGPT Agent",
-                    "type": "website"
+                    "identifier": "Backblaze iOS mobile application",
+                    "type": "ios"
                 },
                 {
-                    "identifier": "ChatGPT Plugins",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Third Party Targets",
-                    "type": "website"
-                },
-                {
-                    "identifier": "OpenAI API Keys",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://openai.org",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.openai.org",
-                    "type": "api"
-                },
-                {
-                    "identifier": "openai.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.openai.com",
+                    "identifier": "Mac Personal Backup Clients",
                     "type": "other"
                 },
                 {
-                    "identifier": "Developer Platform Playground",
-                    "type": "website"
+                    "identifier": "Windows Personal Backup Clients",
+                    "type": "other"
                 },
                 {
-                    "identifier": "Other",
+                    "identifier": "Mac Restore Downloaders",
                     "type": "other"
+                },
+                {
+                    "identifier": "Windows Restore Downloaders",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Git Repositories (b2-sdk-java & B2 Command Line Tool)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "B2 APIs (*.backblazeb2.com)",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Backblaze Website (*.backblaze.com)",
+                    "type": "website"
                 }
             ],
             "out_of_scope": []
@@ -6569,6 +6569,88 @@
         }
     },
     {
+        "handle": "engagements/canva",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "www.canva.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Canva Developer Portal",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Apps SDK Sandboxing",
+                    "type": "other"
+                },
+                {
+                    "identifier": "api.canva.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.canva.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.canva-apps.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.canva.tech",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Canva for ChatGPT",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Canva for Slack",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Canva Desktop (macOS / Windows)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Canva (iOS)",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Canva (Android)",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Canva (Chrome Extension)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "*.canva.cn",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.canva-apps.cn",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Leaked Credentials and Secrets (Canva Employee/Contractor)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Leaked Credentials and Secrets (Canva User)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "3rd-Party Provider Vulnerability",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
         "handle": "engagements/lululemon",
         "bounty": 1,
         "active": 0,
@@ -6665,88 +6747,6 @@
                     "type": "website"
                 }
             ]
-        }
-    },
-    {
-        "handle": "engagements/canva",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "www.canva.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Canva Developer Portal",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Apps SDK Sandboxing",
-                    "type": "other"
-                },
-                {
-                    "identifier": "api.canva.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.canva.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.canva-apps.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.canva.tech",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Canva for ChatGPT",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Canva for Slack",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Canva Desktop (macOS / Windows)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Canva (iOS)",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Canva (Android)",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Canva (Chrome Extension)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "*.canva.cn",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.canva-apps.cn",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Leaked Credentials and Secrets (Canva Employee/Contractor)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Leaked Credentials and Secrets (Canva User)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "3rd-Party Provider Vulnerability",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": []
         }
     },
     {
@@ -7278,6 +7278,84 @@
         }
     },
     {
+        "handle": "engagements/indeed",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.indeed.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.indeedflex.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://apis.indeed.com/graphql",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Indeed Job Search Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Indeed Job Search iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Android Indeed Flex App",
+                    "type": "android"
+                },
+                {
+                    "identifier": "iOS Indeed Flex App",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Career Scout",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.indeed.tech",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.indeed.net",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://resume.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://wowjobs.ca",
+                    "type": "website"
+                },
+                {
+                    "identifier": "\u5c65\u6b74\u66f8\u4f5c\u6210 (Universal Resume) iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "\u5c65\u6b74\u66f8\u4f5c\u6210 (Universal Resume) Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Indeed Connect for Employers",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Indeed Recruiter Extension (Chrome)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Any host/web property/mobile app verified to be owned by Indeed",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
         "handle": "engagements/pixabay",
         "bounty": 1,
         "active": 1,
@@ -7587,84 +7665,6 @@
         }
     },
     {
-        "handle": "engagements/indeed",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.indeed.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.indeedflex.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://apis.indeed.com/graphql",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Indeed Job Search Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Indeed Job Search iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Android Indeed Flex App",
-                    "type": "android"
-                },
-                {
-                    "identifier": "iOS Indeed Flex App",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Career Scout",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.indeed.tech",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.indeed.net",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://resume.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://wowjobs.ca",
-                    "type": "website"
-                },
-                {
-                    "identifier": "\u5c65\u6b74\u66f8\u4f5c\u6210 (Universal Resume) iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "\u5c65\u6b74\u66f8\u4f5c\u6210 (Universal Resume) Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Indeed Connect for Employers",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Indeed Recruiter Extension (Chrome)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Any host/web property/mobile app verified to be owned by Indeed",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/shipwire",
         "bounty": 1,
         "active": 0,
@@ -7684,15 +7684,6 @@
     },
     {
         "handle": "engagements/orderlynetwork-mbb-og",
-        "bounty": 1,
-        "active": 0,
-        "assets": {
-            "in_scope": [],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/privateinternetaccess",
         "bounty": 1,
         "active": 0,
         "assets": {
@@ -9771,32 +9762,6 @@
         }
     },
     {
-        "handle": "engagements/balsamiq",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://marketplace.atlassian.com/apps/1213404/balsamiq-wireframes-for-confluence-cloud?hosting=cloud&tab=overview",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://marketplace.atlassian.com/apps/1212796/balsamiq-wireframes-for-jira-cloud?hosting=cloud&tab=overview",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://marketplace.atlassian.com/apps/5161/balsamiq-wireframes-for-jira?hosting=datacenter&tab=overview",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://marketplace.atlassian.com/apps/256/balsamiq-wireframes-for-confluence?hosting=datacenter&tab=overview",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/plusgrade-mbb-public",
         "bounty": 1,
         "active": 0,
@@ -9937,6 +9902,32 @@
                 {
                     "identifier": "anytask.thesecurityteam.rocks",
                     "type": "website"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/balsamiq",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/1213404/balsamiq-wireframes-for-confluence-cloud?hosting=cloud&tab=overview",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/1212796/balsamiq-wireframes-for-jira-cloud?hosting=cloud&tab=overview",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/5161/balsamiq-wireframes-for-jira?hosting=datacenter&tab=overview",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/256/balsamiq-wireframes-for-confluence?hosting=datacenter&tab=overview",
+                    "type": "other"
                 }
             ],
             "out_of_scope": []
@@ -10100,15 +10091,6 @@
                     "type": "other"
                 }
             ]
-        }
-    },
-    {
-        "handle": "engagements/cyberghost",
-        "bounty": 1,
-        "active": 0,
-        "assets": {
-            "in_scope": [],
-            "out_of_scope": []
         }
     },
     {
@@ -11538,41 +11520,6 @@
         }
     },
     {
-        "handle": "engagements/hotdoc",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://bugcrowd.hotdoc.com.au (Patients)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://bugcrowd.hotdoc.com.au/api",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://bugcrowd.hotdoc.com.au/dashboard (Clinic Dashboard)",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "Android App",
-                    "type": "android"
-                },
-                {
-                    "identifier": "IoS App",
-                    "type": "ios"
-                },
-                {
-                    "identifier": " https://try.hotdoc.com.au/hotdoc-profiles",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/cashapp",
         "bounty": 1,
         "active": 1,
@@ -11933,48 +11880,6 @@
                     "type": "website"
                 }
             ]
-        }
-    },
-    {
-        "handle": "engagements/opensea",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "opensea.io",
-                    "type": "website"
-                },
-                {
-                    "identifier": "http://wallet.opensea.io/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "io.opensea - Android App",
-                    "type": "android"
-                },
-                {
-                    "identifier": "io.opensea - iOS App",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "https://github.com/ProjectOpenSea/seaport#deployments",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://etherscan.io/address/0x0000a26b00c1F0DF003000390027140000fAa719",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://etherscan.io/address/0x00005EA00Ac477B1030CE78506496e8C2dE24bf5",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Broken Link",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
         }
     },
     {
@@ -13163,16 +13068,84 @@
         }
     },
     {
-        "handle": "engagements/tamedia",
+        "handle": "engagements/opensea",
         "bounty": 1,
-        "active": 0,
+        "active": 1,
         "assets": {
-            "in_scope": [],
+            "in_scope": [
+                {
+                    "identifier": "opensea.io",
+                    "type": "website"
+                },
+                {
+                    "identifier": "http://wallet.opensea.io/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "io.opensea - Android App",
+                    "type": "android"
+                },
+                {
+                    "identifier": "io.opensea - iOS App",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "https://github.com/ProjectOpenSea/seaport#deployments",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://etherscan.io/address/0x0000a26b00c1F0DF003000390027140000fAa719",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://etherscan.io/address/0x00005EA00Ac477B1030CE78506496e8C2dE24bf5",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Broken Link",
+                    "type": "website"
+                }
+            ],
             "out_of_scope": []
         }
     },
     {
-        "handle": "engagements/expressvpn",
+        "handle": "engagements/hotdoc",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://bugcrowd.hotdoc.com.au (Patients)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://bugcrowd.hotdoc.com.au/api",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://bugcrowd.hotdoc.com.au/dashboard (Clinic Dashboard)",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "Android App",
+                    "type": "android"
+                },
+                {
+                    "identifier": "IoS App",
+                    "type": "ios"
+                },
+                {
+                    "identifier": " https://try.hotdoc.com.au/hotdoc-profiles",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/tamedia",
         "bounty": 1,
         "active": 0,
         "assets": {
@@ -15737,6 +15710,276 @@
                 {
                     "identifier": "https://www.skroutz.gr",
                     "type": "website"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/privateinternetaccess",
+        "bounty": 1,
+        "active": 0,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.privateinternetaccess.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "privateinternetaccess.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "piaservers.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "piaservers.net",
+                    "type": "website"
+                },
+                {
+                    "identifier": "PIA APIs",
+                    "type": "api"
+                },
+                {
+                    "identifier": "PIA VPN servers",
+                    "type": "other"
+                },
+                {
+                    "identifier": "PIA iOS application",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "PIA Android application",
+                    "type": "android"
+                },
+                {
+                    "identifier": "PIA Linux application",
+                    "type": "other"
+                },
+                {
+                    "identifier": "PIA macOS application",
+                    "type": "other"
+                },
+                {
+                    "identifier": "PIA Windows application",
+                    "type": "other"
+                },
+                {
+                    "identifier": "PIA Chrome extension",
+                    "type": "other"
+                },
+                {
+                    "identifier": "PIA Firefox extension",
+                    "type": "other"
+                },
+                {
+                    "identifier": "PIA Opera extension",
+                    "type": "other"
+                },
+                {
+                    "identifier": "polymoon.it",
+                    "type": "network"
+                },
+                {
+                    "identifier": "Employee Email",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Internal chat messages",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Source code hosting",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Vulnerabilities compromising the privacy of our employees",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/cyberghost",
+        "bounty": 1,
+        "active": 0,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.cyberghostvpn.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.cyberghost.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "cyberghost.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "cyberghost.app",
+                    "type": "website"
+                },
+                {
+                    "identifier": "CyberGhost VPN servers",
+                    "type": "other"
+                },
+                {
+                    "identifier": "CyberGhost APIs",
+                    "type": "api"
+                },
+                {
+                    "identifier": "CyberGhost iOS application",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "CyberGhost Android application",
+                    "type": "android"
+                },
+                {
+                    "identifier": "CyberGhost macOS application",
+                    "type": "other"
+                },
+                {
+                    "identifier": "CyberGhost Windows application",
+                    "type": "other"
+                },
+                {
+                    "identifier": "CyberGhost Linux application",
+                    "type": "other"
+                },
+                {
+                    "identifier": "CyberGhost Firefox extension",
+                    "type": "other"
+                },
+                {
+                    "identifier": "CyberGhost Chrome extension",
+                    "type": "other"
+                },
+                {
+                    "identifier": "polymoon.it",
+                    "type": "network"
+                },
+                {
+                    "identifier": "Employee Email",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Internal chat messages",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Vulnerabilities compromising the privacy of our employees",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Source code hosting",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/expressvpn",
+        "bounty": 1,
+        "active": 0,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.expressvpn.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.xvtest.net",
+                    "type": "other"
+                },
+                {
+                    "identifier": "*.xvservice.net",
+                    "type": "other"
+                },
+                {
+                    "identifier": "www.expressvpn.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "ExpressVPN APIs",
+                    "type": "api"
+                },
+                {
+                    "identifier": "VPN servers",
+                    "type": "other"
+                },
+                {
+                    "identifier": "ExpressVPN Router",
+                    "type": "other"
+                },
+                {
+                    "identifier": "MediaStreamer DNS servers",
+                    "type": "other"
+                },
+                {
+                    "identifier": "ExpressVPN iOS application",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "ExpressVPN Android application",
+                    "type": "android"
+                },
+                {
+                    "identifier": "ExpressVPN Linux Application",
+                    "type": "other"
+                },
+                {
+                    "identifier": "ExpressVPN MacOS Application",
+                    "type": "other"
+                },
+                {
+                    "identifier": "ExpressVPN Windows Application",
+                    "type": "other"
+                },
+                {
+                    "identifier": "ExpressVPN Chrome extension",
+                    "type": "other"
+                },
+                {
+                    "identifier": "ExpressVPN Firefox extension",
+                    "type": "other"
+                },
+                {
+                    "identifier": "ExpressVPN Keys Browser Extension",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Lightway Core (C)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Lightway (Rust)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "polymoon.it",
+                    "type": "network"
+                },
+                {
+                    "identifier": "Employee Email",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Internal chat messages",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Source code hosting",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Vulnerabilities compromising the privacy of our employees",
+                    "type": "other"
                 }
             ],
             "out_of_scope": []
