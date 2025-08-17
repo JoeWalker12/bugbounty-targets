@@ -5902,28 +5902,6 @@
         }
     },
     {
-        "handle": "engagements/tyler-tech-data-insights",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://opendata.test-socrata.com/admin/gateway",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://opendata-demo.test-socrata.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://opendata.test-socrata.com",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/aruba-public",
         "bounty": 1,
         "active": 1,
@@ -7604,14 +7582,22 @@
         }
     },
     {
-        "handle": "engagements/pixabay",
+        "handle": "engagements/tyler-tech-data-insights",
         "bounty": 1,
         "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "*.pixabay.com/",
+                    "identifier": "https://opendata.test-socrata.com/admin/gateway",
                     "type": "website"
+                },
+                {
+                    "identifier": "https://opendata-demo.test-socrata.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://opendata.test-socrata.com",
+                    "type": "other"
                 }
             ],
             "out_of_scope": []
@@ -7662,6 +7648,20 @@
                     "type": "website"
                 }
             ]
+        }
+    },
+    {
+        "handle": "engagements/pixabay",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.pixabay.com/",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
         }
     },
     {
@@ -13580,37 +13580,6 @@
         }
     },
     {
-        "handle": "engagements/carrefour",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Carrefour UAE iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Carrefour UAE Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "carrefouruae.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://api-prod.retailsso.com",
-                    "type": "api"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "https://cwingsfe.mafrservices.com/login",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/keepersecurity",
         "bounty": 1,
         "active": 1,
@@ -15389,61 +15358,6 @@
         }
     },
     {
-        "handle": "engagements/etsy",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "www.etsy.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Etsy Mobile Application (Android)",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Etsy Mobile Application (iPhone)",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Etsy API (see documentation below)",
-                    "type": "api"
-                },
-                {
-                    "identifier": "etsypayments.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "blog.etsy.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "careers.etsy.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "help.etsy.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "community.etsy.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.etsy.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "icht.etsysecure.com",
-                    "type": "api"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/wise",
         "bounty": 1,
         "active": 1,
@@ -15713,6 +15627,92 @@
                 }
             ],
             "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/carrefour",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Carrefour UAE iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Carrefour UAE Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "carrefouruae.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://api-prod.retailsso.com",
+                    "type": "api"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "https://cwingsfe.mafrservices.com/login",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/etsy",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "www.etsy.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Etsy Mobile Application (Android)",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Etsy Mobile Application (iPhone)",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Etsy API (see documentation below)",
+                    "type": "api"
+                },
+                {
+                    "identifier": "etsypayments.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "blog.etsy.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "careers.etsy.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "help.etsy.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "community.etsy.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.etsy.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "icht.etsysecure.com",
+                    "type": "api"
+                }
+            ]
         }
     },
     {
