@@ -1,5 +1,39 @@
 [
     {
+        "handle": "imou-public-bug-bounty-program",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://app.easy4ipcloud.com",
+                    "type": "application"
+                },
+                {
+                    "identifier": "https://app-*.easy4ipcloud.com",
+                    "type": "application"
+                },
+                {
+                    "identifier": "https://partnerapi.imoulife.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://www.imou.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://glow.imoulife.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://hg.easy4ipcloud.com",
+                    "type": "web-application"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
         "handle": "gojek-bug-bounty-program",
         "bounty": 1,
         "active": 1,
@@ -2943,6 +2977,28 @@
                 },
                 {
                     "identifier": "Log4net",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "proconnect-identite",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://identite-sandbox.proconnect.gouv.fr",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "Authentication workflow through ProConnect Identity (you may test it thanks to https://test.identite.proconnect.gouv.fr, see program description)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://github.com/numerique-gouv/proconnect-identite",
                     "type": "other"
                 }
             ],
