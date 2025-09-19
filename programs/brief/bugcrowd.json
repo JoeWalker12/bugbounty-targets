@@ -7142,25 +7142,6 @@
         }
     },
     {
-        "handle": "engagements/volkswagen-og",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.volkswagen.de",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "erwin.volkswagen.de",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/indeed",
         "bounty": 1,
         "active": 1,
@@ -8242,6 +8223,25 @@
                 },
                 {
                     "identifier": "https://www.mirror.co",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/volkswagen-og",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.volkswagen.de",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "erwin.volkswagen.de",
                     "type": "website"
                 }
             ]
@@ -9920,81 +9920,6 @@
         }
     },
     {
-        "handle": "engagements/optimizely",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://app.optimizely.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://cdn.optimizely.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://cdn-pci.optimizely.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://optimizely-edge.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://api.optimizely.com/",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://dxc.episerver.net/ ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://paasportal.episerver.net/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://paasportal.episerver.net/api/v1.0/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://app.welcomesoftware.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://accounts.welcomesoftware.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://api.welcomesoftware.com/ ",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://cdn-app.welcomesoftware.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://analytics.welcomesoftware.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://flags.expeng.optimizely.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://accounts.cmp.optimizely.com/",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "https://www.optimizely.com/",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/tidal-bugbounty",
         "bounty": 1,
         "active": 1,
@@ -10049,6 +9974,136 @@
                 {
                     "identifier": "embed.tidal.com",
                     "type": "other"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/comcast-mbb",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.xfinity.com\t",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.comcast.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.xcal.tv",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Staging, QA, Dev, and Test Environments",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "*.hfc.comcastbusiness.net",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.hsd1.*.comcast.net",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*business.comcast.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "10.0.0.0/8",
+                    "type": "network"
+                },
+                {
+                    "identifier": "50.128.0.0/12",
+                    "type": "network"
+                },
+                {
+                    "identifier": "50.152.0.0/13",
+                    "type": "network"
+                },
+                {
+                    "identifier": "96.201.0.0/16",
+                    "type": "network"
+                },
+                {
+                    "identifier": "96.202.128.0/17",
+                    "type": "network"
+                },
+                {
+                    "identifier": "96.203.0.0/16",
+                    "type": "network"
+                },
+                {
+                    "identifier": "172.26.128.0/18",
+                    "type": "network"
+                },
+                {
+                    "identifier": "184.112.0.0/13",
+                    "type": "network"
+                },
+                {
+                    "identifier": "184.122.0.0/15",
+                    "type": "network"
+                },
+                {
+                    "identifier": "NBC Universal",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Sky",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.sys.comcast.net",
+                    "type": "website"
+                },
+                {
+                    "identifier": "admin.selectwifi.xfinity.com",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/imperva-mbb",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://*.imperva.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.cloudvector.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.incapsula.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://supportportal.thalesgroup.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "PTaaS Reference",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "http://docs.imperva.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "http://docs-be.imperva.com/",
+                    "type": "website"
                 }
             ]
         }
@@ -10124,45 +10179,6 @@
                 }
             ],
             "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/imperva-mbb",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://*.imperva.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.cloudvector.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.incapsula.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://supportportal.thalesgroup.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "PTaaS Reference",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "http://docs.imperva.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "http://docs-be.imperva.com/",
-                    "type": "website"
-                }
-            ]
         }
     },
     {
@@ -10333,91 +10349,75 @@
         }
     },
     {
-        "handle": "engagements/comcast-mbb",
+        "handle": "engagements/optimizely",
         "bounty": 1,
         "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "*.xfinity.com\t",
+                    "identifier": "https://app.optimizely.com/",
                     "type": "website"
                 },
                 {
-                    "identifier": "*.comcast.com",
+                    "identifier": "https://cdn.optimizely.com/",
                     "type": "website"
                 },
                 {
-                    "identifier": "*.xcal.tv",
+                    "identifier": "https://cdn-pci.optimizely.com/",
                     "type": "website"
                 },
                 {
-                    "identifier": "Staging, QA, Dev, and Test Environments",
+                    "identifier": "https://optimizely-edge.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://api.optimizely.com/",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://dxc.episerver.net/ ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://paasportal.episerver.net/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://paasportal.episerver.net/api/v1.0/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://app.welcomesoftware.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://accounts.welcomesoftware.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://api.welcomesoftware.com/ ",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://cdn-app.welcomesoftware.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://analytics.welcomesoftware.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://flags.expeng.optimizely.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://accounts.cmp.optimizely.com/",
                     "type": "website"
                 }
             ],
             "out_of_scope": [
                 {
-                    "identifier": "*.hfc.comcastbusiness.net",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.hsd1.*.comcast.net",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*business.comcast.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "10.0.0.0/8",
-                    "type": "network"
-                },
-                {
-                    "identifier": "50.128.0.0/12",
-                    "type": "network"
-                },
-                {
-                    "identifier": "50.152.0.0/13",
-                    "type": "network"
-                },
-                {
-                    "identifier": "96.201.0.0/16",
-                    "type": "network"
-                },
-                {
-                    "identifier": "96.202.128.0/17",
-                    "type": "network"
-                },
-                {
-                    "identifier": "96.203.0.0/16",
-                    "type": "network"
-                },
-                {
-                    "identifier": "172.26.128.0/18",
-                    "type": "network"
-                },
-                {
-                    "identifier": "184.112.0.0/13",
-                    "type": "network"
-                },
-                {
-                    "identifier": "184.122.0.0/15",
-                    "type": "network"
-                },
-                {
-                    "identifier": "NBC Universal",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Sky",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.sys.comcast.net",
-                    "type": "website"
-                },
-                {
-                    "identifier": "admin.selectwifi.xfinity.com",
+                    "identifier": "https://www.optimizely.com/",
                     "type": "website"
                 }
             ]
@@ -12856,228 +12856,6 @@
         }
     },
     {
-        "handle": "engagements/bugcrowd",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "docs.bugcrowd.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "bugcrowd.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Crowdcontrol",
-                    "type": "api"
-                },
-                {
-                    "identifier": "api.bugcrowd.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://identity.bugcrowd.com/ ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.bugcrowd.com/auth/*",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "bugcrowd*.freshdesk.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "www.bugcrowd.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "blog.bugcrowd.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "researcherdocs.bugcrowd.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "pages.bugcrowd.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "forum.bugcrowd.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "email.bugcrowd.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "email.forum.bugcrowd.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "go.bugcrowd.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "events.bugcrowd.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "assetinventory.bugcrowd.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "community.bugcrowd.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "trust.bugcrowd.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Social Engineering",
-                    "type": "other"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/binance",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "api.coinmarketcap.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "pro-api.coinmarketcap.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.binance.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Binance Desktop Application",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Binance Mobile Application for Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Binance Mobile Application for iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "api.binance.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Binance macOS Application",
-                    "type": "other"
-                },
-                {
-                    "identifier": "pro.coinmarketcap.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "CoinMarketCap Android app",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Trustwallet Android App",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Trustwallet iOS App",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "https://github.com/trustwallet/wallet-core/",
-                    "type": "other"
-                },
-                {
-                    "identifier": "CoinMarketCap iOS app",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "portal-api.coinmarketcap.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "coinmarketcap.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "3rdparty-apis.coinmarketcap.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.binance.us",
-                    "type": "website"
-                },
-                {
-                    "identifier": "binance.tr",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Trustwallet Chrome Extension",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "jobs.coinmarketcap.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "support.binance.*",
-                    "type": "website"
-                },
-                {
-                    "identifier": "binance.sg",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.trustwallet.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.trustwalletapp.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.binance.org",
-                    "type": "website"
-                },
-                {
-                    "identifier": "blog.coinmarketcap.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "support.coinmarketcap.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "blockchain.coinmarketcap.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.coinmarketcap.com",
-                    "type": "other"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/ciscomeraki",
         "bounty": 1,
         "active": 1,
@@ -13551,6 +13329,228 @@
                 }
             ],
             "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/binance",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "api.coinmarketcap.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "pro-api.coinmarketcap.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.binance.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Binance Desktop Application",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Binance Mobile Application for Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Binance Mobile Application for iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "api.binance.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Binance macOS Application",
+                    "type": "other"
+                },
+                {
+                    "identifier": "pro.coinmarketcap.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "CoinMarketCap Android app",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Trustwallet Android App",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Trustwallet iOS App",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "https://github.com/trustwallet/wallet-core/",
+                    "type": "other"
+                },
+                {
+                    "identifier": "CoinMarketCap iOS app",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "portal-api.coinmarketcap.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "coinmarketcap.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "3rdparty-apis.coinmarketcap.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.binance.us",
+                    "type": "website"
+                },
+                {
+                    "identifier": "binance.tr",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Trustwallet Chrome Extension",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "jobs.coinmarketcap.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "support.binance.*",
+                    "type": "website"
+                },
+                {
+                    "identifier": "binance.sg",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.trustwallet.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.trustwalletapp.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.binance.org",
+                    "type": "website"
+                },
+                {
+                    "identifier": "blog.coinmarketcap.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "support.coinmarketcap.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "blockchain.coinmarketcap.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.coinmarketcap.com",
+                    "type": "other"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/bugcrowd",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "docs.bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Crowdcontrol",
+                    "type": "api"
+                },
+                {
+                    "identifier": "api.bugcrowd.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://identity.bugcrowd.com/ ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.bugcrowd.com/auth/*",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "bugcrowd*.freshdesk.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "www.bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "blog.bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "researcherdocs.bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "pages.bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "forum.bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "email.bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "email.forum.bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "go.bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "events.bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "assetinventory.bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "community.bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "trust.bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Social Engineering",
+                    "type": "other"
+                }
+            ]
         }
     },
     {
@@ -15300,25 +15300,6 @@
         }
     },
     {
-        "handle": "engagements/fis",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Any FIS asset is in scope",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "Reference above out of scope targets",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/usaa",
         "bounty": 1,
         "active": 1,
@@ -15559,81 +15540,6 @@
                 {
                     "identifier": "learn.clickhouse.com",
                     "type": "website"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/asana",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "app.asana.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "asana.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.asana.plus",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Asana Desktop App",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Asana iOS app",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Asana Android app",
-                    "type": "android"
-                },
-                {
-                    "identifier": "form.asana.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.app.asana.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.asana.biz",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Subdomain takeover at *asana.biz",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "Other subdomains of asana.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Social engineering against Asana Support or Asana Employees",
-                    "type": "other"
-                },
-                {
-                    "identifier": "jira*.integrations.asana.plus",
-                    "type": "website"
-                },
-                {
-                    "identifier": "asana.okta.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "assets.asana.biz",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Forms that you do not own",
-                    "type": "other"
                 }
             ]
         }
@@ -15885,6 +15791,100 @@
                 {
                     "identifier": "info.loom.com",
                     "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/fis",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Any FIS asset is in scope",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "Reference above out of scope targets",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/asana",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "app.asana.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "asana.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.asana.plus",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Asana Desktop App",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Asana iOS app",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Asana Android app",
+                    "type": "android"
+                },
+                {
+                    "identifier": "form.asana.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.app.asana.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.asana.biz",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Subdomain takeover at *asana.biz",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "Other subdomains of asana.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Social engineering against Asana Support or Asana Employees",
+                    "type": "other"
+                },
+                {
+                    "identifier": "jira*.integrations.asana.plus",
+                    "type": "website"
+                },
+                {
+                    "identifier": "asana.okta.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "assets.asana.biz",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Forms that you do not own",
+                    "type": "other"
                 }
             ]
         }
