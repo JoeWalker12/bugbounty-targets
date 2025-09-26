@@ -6340,45 +6340,6 @@
         }
     },
     {
-        "handle": "engagements/quizlet",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://*.quizlet.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Quizlet iOS App",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Quizlet Android App",
-                    "type": "android"
-                },
-                {
-                    "identifier": "3.0 API",
-                    "type": "api"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "api.quizlet.com/2.0",
-                    "type": "api"
-                },
-                {
-                    "identifier": " help.quizlet.com (zendesk)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "get.quizlet.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/backblaze",
         "bounty": 1,
         "active": 1,
@@ -6441,6 +6402,60 @@
                     "type": "website"
                 }
             ]
+        }
+    },
+    {
+        "handle": "engagements/openai",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "api.openai.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "ChatGPT",
+                    "type": "website"
+                },
+                {
+                    "identifier": "ChatGPT Plugins",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Third Party Targets",
+                    "type": "website"
+                },
+                {
+                    "identifier": "OpenAI API Keys",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://openai.org",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.openai.org",
+                    "type": "api"
+                },
+                {
+                    "identifier": "openai.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.openai.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Developer Platform Playground",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Other",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": []
         }
     },
     {
@@ -6579,57 +6594,42 @@
         }
     },
     {
-        "handle": "engagements/openai",
+        "handle": "engagements/quizlet",
         "bounty": 1,
         "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "api.openai.com",
+                    "identifier": "https://*.quizlet.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Quizlet iOS App",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Quizlet Android App",
+                    "type": "android"
+                },
+                {
+                    "identifier": "3.0 API",
                     "type": "api"
-                },
-                {
-                    "identifier": "ChatGPT",
-                    "type": "website"
-                },
-                {
-                    "identifier": "ChatGPT Plugins",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Third Party Targets",
-                    "type": "website"
-                },
-                {
-                    "identifier": "OpenAI API Keys",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://openai.org",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.openai.org",
-                    "type": "api"
-                },
-                {
-                    "identifier": "openai.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.openai.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Developer Platform Playground",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Other",
-                    "type": "other"
                 }
             ],
-            "out_of_scope": []
+            "out_of_scope": [
+                {
+                    "identifier": "api.quizlet.com/2.0",
+                    "type": "api"
+                },
+                {
+                    "identifier": " help.quizlet.com (zendesk)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "get.quizlet.com",
+                    "type": "website"
+                }
+            ]
         }
     },
     {
@@ -8631,32 +8631,6 @@
         }
     },
     {
-        "handle": "engagements/kaleido",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.remove.bg",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.designify.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.kaleido.ai",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.unscreen.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/kohls",
         "bounty": 1,
         "active": 1,
@@ -10588,6 +10562,32 @@
                 },
                 {
                     "identifier": "https://identity.majidalfuttaim.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/kaleido",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.remove.bg",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.designify.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.kaleido.ai",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.unscreen.com",
                     "type": "website"
                 }
             ],
@@ -13240,240 +13240,6 @@
         }
     },
     {
-        "handle": "engagements/bugcrowd",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "docs.bugcrowd.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "bugcrowd.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Crowdcontrol",
-                    "type": "api"
-                },
-                {
-                    "identifier": "api.bugcrowd.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://identity.bugcrowd.com/ ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.bugcrowd.com/auth/*",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "bugcrowd*.freshdesk.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "www.bugcrowd.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "blog.bugcrowd.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "researcherdocs.bugcrowd.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "pages.bugcrowd.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "forum.bugcrowd.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "email.bugcrowd.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "email.forum.bugcrowd.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "go.bugcrowd.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "events.bugcrowd.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "assetinventory.bugcrowd.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "community.bugcrowd.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "trust.bugcrowd.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Social Engineering",
-                    "type": "other"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/aylo-mbb-og",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://www.pornhub.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://mobile.pornhub.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://api.pornhub.com/",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://www.pornhubpremium.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.redtube.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.redtubepremium.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.youporn.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.youpornpremium.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://pornhub.mainhub.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*. tube8.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.thumbzilla.com/",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "https://www.youporn.com/information/#support",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.pornhub.com/live ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.pornhub.com/insights ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.pronstore.com ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.pornhub.com/jobs ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.pornhub.com/sex ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.redtube.com ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.redtubepremium.com ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.pornhub.com ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.pornhubpremium.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "cms.pornhub.com ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "cms.redtube.com ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.youporn.com ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.youpornpremium.com ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "http://*.pornmd.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.youporn.com/world ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "blog.tube8.com ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "http://www.tube8.com/contact.html ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.thumbzilla.com ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.pornhubapparel.com ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.pornhub.org ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "www.tube8vip.com ",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/bitgo-mbb-og-public",
         "bounty": 1,
         "active": 1,
@@ -13719,6 +13485,240 @@
                 },
                 {
                     "identifier": "wiki.cloudinary.com",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/bugcrowd",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "docs.bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Crowdcontrol",
+                    "type": "api"
+                },
+                {
+                    "identifier": "api.bugcrowd.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://identity.bugcrowd.com/ ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.bugcrowd.com/auth/*",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "bugcrowd*.freshdesk.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "www.bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "blog.bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "researcherdocs.bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "pages.bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "forum.bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "email.bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "email.forum.bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "go.bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "events.bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "assetinventory.bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "community.bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "trust.bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Social Engineering",
+                    "type": "other"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/aylo-mbb-og",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://www.pornhub.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://mobile.pornhub.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://api.pornhub.com/",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://www.pornhubpremium.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.redtube.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.redtubepremium.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.youporn.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.youpornpremium.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://pornhub.mainhub.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*. tube8.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.thumbzilla.com/",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "https://www.youporn.com/information/#support",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.pornhub.com/live ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.pornhub.com/insights ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.pronstore.com ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.pornhub.com/jobs ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.pornhub.com/sex ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.redtube.com ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.redtubepremium.com ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.pornhub.com ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.pornhubpremium.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "cms.pornhub.com ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "cms.redtube.com ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.youporn.com ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.youpornpremium.com ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "http://*.pornmd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.youporn.com/world ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "blog.tube8.com ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "http://www.tube8.com/contact.html ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.thumbzilla.com ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.pornhubapparel.com ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.pornhub.org ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "www.tube8vip.com ",
                     "type": "website"
                 }
             ]
