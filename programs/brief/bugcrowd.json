@@ -1781,84 +1781,10 @@
     {
         "handle": "engagements/exoscale",
         "bounty": 1,
-        "active": 1,
+        "active": 0,
         "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Web Portal",
-                    "type": "website"
-                },
-                {
-                    "identifier": "API",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Simple Object Storage (SOS)",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Internal Web services - https://*.internal.exoscale.ch",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Managed Scalable Kubernetes Service (SKS)",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Database as a Service (DBaaS)",
-                    "type": "api"
-                },
-                {
-                    "identifier": "SKS Clusters",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Virtualisation layer",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "Public Website",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Public Documentation Website",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Marketplace products",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Exoscale Academy",
-                    "type": "website"
-                },
-                {
-                    "identifier": "CDN service",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Job Board",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Changelog",
-                    "type": "website"
-                },
-                {
-                    "identifier": "OpenAPI V2 Documentation",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Zammad",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Runstatus",
-                    "type": "api"
-                }
-            ]
+            "in_scope": [],
+            "out_of_scope": []
         }
     },
     {
@@ -6016,138 +5942,103 @@
         }
     },
     {
-        "handle": "engagements/simplisafe-mbb-og",
+        "handle": "engagements/openai",
         "bounty": 1,
         "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "bb1.simplisafe.com",
+                    "identifier": "api.openai.com",
                     "type": "api"
                 },
                 {
-                    "identifier": "bb2.simplisafe.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "cb.simplisafe.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "api.simplisafe.com (HSP Endpoints)",
-                    "type": "api"
-                },
-                {
-                    "identifier": "api.services.simplisafe.com (HSP Endpoints)",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.prd.cam.simplisafe.com (HSP Endpoints)",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.prd.platform.simplisafe.com (HSP Endpoints)",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.prd.services.simplisafe.com (HSP Endpoints)",
-                    "type": "api"
-                },
-                {
-                    "identifier": "SimpliSafe Customer Webapp - US",
+                    "identifier": "ChatGPT",
                     "type": "website"
                 },
                 {
-                    "identifier": "SimpliSafe Customer Webapp - UK",
+                    "identifier": "ChatGPT Plugins",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Third Party Targets",
                     "type": "website"
                 },
                 {
-                    "identifier": "SimpliSafe Customer iOS App",
+                    "identifier": "OpenAI API Keys",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://openai.org",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.openai.org",
+                    "type": "api"
+                },
+                {
+                    "identifier": "openai.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.openai.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Developer Platform Playground",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Other",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/pinterest",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "api.pinterest.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.pinterest.com Web Apps",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Pinterest iOS Mobile Application",
                     "type": "ios"
                 },
                 {
-                    "identifier": "SimpliSafe Customer Android App",
+                    "identifier": "Pinterest Android Mobile Application",
                     "type": "android"
                 },
                 {
-                    "identifier": "mfa.simplisafe.com",
-                    "type": "api"
+                    "identifier": "Pinterest Lite Android Mobile Application",
+                    "type": "android"
                 },
                 {
-                    "identifier": "*.prd.aser.simplisafe.com",
-                    "type": "api"
+                    "identifier": "Edge extension (download at: ms-windows-store://pdp/?productid=9nblggh4v89b )",
+                    "type": "other"
                 },
                 {
-                    "identifier": "*.prd.webapps.simplisafe.com",
-                    "type": "api"
+                    "identifier": "Chrome extension (download at: chrome.google.com/webstore/detail/pinterest-save-button/gpdjojdkbbmdfjfahjcgigfpmkopogic?hl=en)",
+                    "type": "other"
                 },
                 {
-                    "identifier": "api.simplisafe.com (App Endpoints)",
-                    "type": "api"
+                    "identifier": "Firefox extension (download at:   https://addons.mozilla.org/firefox/addon/pinterest/)",
+                    "type": "other"
                 },
                 {
-                    "identifier": "api.services.simplisafe.com (App Endpoints)",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.prd.services.simplisafe.com (App Endpoints)",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.prd.platform.simplisafe.com (App Endpoints)",
-                    "type": "api"
-                },
-                {
-                    "identifier": "media.simplisafe.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.prd.cam.simplisafe.com (App Endpoints)",
-                    "type": "api"
-                },
-                {
-                    "identifier": "SimpliSafe Website - US",
-                    "type": "website"
-                },
-                {
-                    "identifier": "SimpliSafe Website - UK",
-                    "type": "website"
-                },
-                {
-                    "identifier": "api.prd.commerce.simplisafe.com",
-                    "type": "api"
+                    "identifier": "Open source projects(non-forked) listed at github.com/pinterest/",
+                    "type": "other"
                 }
             ],
-            "out_of_scope": [
-                {
-                    "identifier": "auth.simplisafe.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "careers.simplisafe.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "clicks.simplisafe.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "library.simplisafe.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "livechat.simplisafe.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "press.simplisafe.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "support.simplisafe.com",
-                    "type": "website"
-                }
-            ]
+            "out_of_scope": []
         }
     },
     {
@@ -6496,103 +6387,138 @@
         }
     },
     {
-        "handle": "engagements/openai",
+        "handle": "engagements/simplisafe-mbb-og",
         "bounty": 1,
         "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "api.openai.com",
+                    "identifier": "bb1.simplisafe.com",
                     "type": "api"
                 },
                 {
-                    "identifier": "ChatGPT",
-                    "type": "website"
-                },
-                {
-                    "identifier": "ChatGPT Plugins",
+                    "identifier": "bb2.simplisafe.com",
                     "type": "api"
                 },
                 {
-                    "identifier": "Third Party Targets",
-                    "type": "website"
-                },
-                {
-                    "identifier": "OpenAI API Keys",
+                    "identifier": "cb.simplisafe.com",
                     "type": "api"
                 },
                 {
-                    "identifier": "https://openai.org",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.openai.org",
+                    "identifier": "api.simplisafe.com (HSP Endpoints)",
                     "type": "api"
                 },
                 {
-                    "identifier": "openai.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.openai.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Developer Platform Playground",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Other",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/pinterest",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "api.pinterest.com",
+                    "identifier": "api.services.simplisafe.com (HSP Endpoints)",
                     "type": "api"
                 },
                 {
-                    "identifier": "*.pinterest.com Web Apps",
+                    "identifier": "*.prd.cam.simplisafe.com (HSP Endpoints)",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.prd.platform.simplisafe.com (HSP Endpoints)",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.prd.services.simplisafe.com (HSP Endpoints)",
+                    "type": "api"
+                },
+                {
+                    "identifier": "SimpliSafe Customer Webapp - US",
                     "type": "website"
                 },
                 {
-                    "identifier": "Pinterest iOS Mobile Application",
+                    "identifier": "SimpliSafe Customer Webapp - UK",
+                    "type": "website"
+                },
+                {
+                    "identifier": "SimpliSafe Customer iOS App",
                     "type": "ios"
                 },
                 {
-                    "identifier": "Pinterest Android Mobile Application",
+                    "identifier": "SimpliSafe Customer Android App",
                     "type": "android"
                 },
                 {
-                    "identifier": "Pinterest Lite Android Mobile Application",
-                    "type": "android"
+                    "identifier": "mfa.simplisafe.com",
+                    "type": "api"
                 },
                 {
-                    "identifier": "Edge extension (download at: ms-windows-store://pdp/?productid=9nblggh4v89b )",
-                    "type": "other"
+                    "identifier": "*.prd.aser.simplisafe.com",
+                    "type": "api"
                 },
                 {
-                    "identifier": "Chrome extension (download at: chrome.google.com/webstore/detail/pinterest-save-button/gpdjojdkbbmdfjfahjcgigfpmkopogic?hl=en)",
-                    "type": "other"
+                    "identifier": "*.prd.webapps.simplisafe.com",
+                    "type": "api"
                 },
                 {
-                    "identifier": "Firefox extension (download at:   https://addons.mozilla.org/firefox/addon/pinterest/)",
-                    "type": "other"
+                    "identifier": "api.simplisafe.com (App Endpoints)",
+                    "type": "api"
                 },
                 {
-                    "identifier": "Open source projects(non-forked) listed at github.com/pinterest/",
-                    "type": "other"
+                    "identifier": "api.services.simplisafe.com (App Endpoints)",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.prd.services.simplisafe.com (App Endpoints)",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.prd.platform.simplisafe.com (App Endpoints)",
+                    "type": "api"
+                },
+                {
+                    "identifier": "media.simplisafe.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.prd.cam.simplisafe.com (App Endpoints)",
+                    "type": "api"
+                },
+                {
+                    "identifier": "SimpliSafe Website - US",
+                    "type": "website"
+                },
+                {
+                    "identifier": "SimpliSafe Website - UK",
+                    "type": "website"
+                },
+                {
+                    "identifier": "api.prd.commerce.simplisafe.com",
+                    "type": "api"
                 }
             ],
-            "out_of_scope": []
+            "out_of_scope": [
+                {
+                    "identifier": "auth.simplisafe.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "careers.simplisafe.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "clicks.simplisafe.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "library.simplisafe.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "livechat.simplisafe.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "press.simplisafe.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "support.simplisafe.com",
+                    "type": "website"
+                }
+            ]
         }
     },
     {
@@ -9205,41 +9131,6 @@
         }
     },
     {
-        "handle": "engagements/aylo-probiller-mbb-og",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "http://mgpg2.probiller.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "http://mgpg.probiller.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "www.probiller.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "probiller.*.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "manage.probiller.com ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.probiller.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/aylo-mydirtyhobby-mbb-og",
         "bounty": 1,
         "active": 1,
@@ -10331,107 +10222,6 @@
         }
     },
     {
-        "handle": "engagements/anytask-mbb-og",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://api.anytask.com/",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://www.anytask.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "AnyTask Android app",
-                    "type": "android"
-                },
-                {
-                    "identifier": "AnyTask iOS app",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "api.anytask.thesecurityteam.rocks",
-                    "type": "api"
-                },
-                {
-                    "identifier": "anytask.thesecurityteam.rocks",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/moneytreekkog",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Moneytree Web for Web",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Moneytree Universal Vault",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Moneytree Internal Redash",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://app-staging.getmoneytree.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Moneytree Web for Mobile",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Moneytree Web for Mobile (with Oauth)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Moneytree MyAccount",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Moneytree Business",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Moneytree API",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Moneytree Android Mobile Application (staging; see below)",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Moneytree iOS Mobile Application (production; see below)",
-                    "type": "ios"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "moneytree.jp",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Any production asset of Moneytree KK (excepting the iOS app)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "getmoneytree.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/comcast-mbb",
         "bounty": 1,
         "active": 1,
@@ -10523,6 +10313,73 @@
         }
     },
     {
+        "handle": "engagements/moneytreekkog",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Moneytree Web for Web",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Moneytree Universal Vault",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Moneytree Internal Redash",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://app-staging.getmoneytree.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Moneytree Web for Mobile",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Moneytree Web for Mobile (with Oauth)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Moneytree MyAccount",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Moneytree Business",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Moneytree API",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Moneytree Android Mobile Application (staging; see below)",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Moneytree iOS Mobile Application (production; see below)",
+                    "type": "ios"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "moneytree.jp",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Any production asset of Moneytree KK (excepting the iOS app)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "getmoneytree.com",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
         "handle": "engagements/imperva-mbb",
         "bounty": 1,
         "active": 1,
@@ -10559,6 +10416,75 @@
                     "type": "website"
                 }
             ]
+        }
+    },
+    {
+        "handle": "engagements/aylo-probiller-mbb-og",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "http://mgpg2.probiller.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "http://mgpg.probiller.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "www.probiller.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "probiller.*.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "manage.probiller.com ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.probiller.com",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/anytask-mbb-og",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://api.anytask.com/",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://www.anytask.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "AnyTask Android app",
+                    "type": "android"
+                },
+                {
+                    "identifier": "AnyTask iOS app",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "api.anytask.thesecurityteam.rocks",
+                    "type": "api"
+                },
+                {
+                    "identifier": "anytask.thesecurityteam.rocks",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
         }
     },
     {
