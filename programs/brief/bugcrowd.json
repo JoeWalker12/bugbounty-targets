@@ -15470,25 +15470,6 @@
         }
     },
     {
-        "handle": "engagements/fis",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Any FIS asset is in scope",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "Reference above out of scope targets",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/square",
         "bounty": 1,
         "active": 1,
@@ -15894,6 +15875,64 @@
         }
     },
     {
+        "handle": "engagements/aylo-trafficjunky-mbb-og",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.trafficjunky.com ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.adultforce.com ",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "https://www.trafficjunky.com/blog/ ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.adultforce.com/#/blog/ ",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/carrefour",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Carrefour UAE iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Carrefour UAE Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "carrefouruae.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://api-prod.retailsso.com",
+                    "type": "api"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "https://cwingsfe.mafrservices.com/login",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
         "handle": "engagements/etsy",
         "bounty": 1,
         "active": 1,
@@ -15949,58 +15988,19 @@
         }
     },
     {
-        "handle": "engagements/aylo-trafficjunky-mbb-og",
+        "handle": "engagements/fis",
         "bounty": 1,
         "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "*.trafficjunky.com ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.adultforce.com ",
+                    "identifier": "Any FIS asset is in scope",
                     "type": "website"
                 }
             ],
             "out_of_scope": [
                 {
-                    "identifier": "https://www.trafficjunky.com/blog/ ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.adultforce.com/#/blog/ ",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/carrefour",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Carrefour UAE iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Carrefour UAE Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "carrefouruae.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://api-prod.retailsso.com",
-                    "type": "api"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "https://cwingsfe.mafrservices.com/login",
+                    "identifier": "Reference above out of scope targets",
                     "type": "website"
                 }
             ]
