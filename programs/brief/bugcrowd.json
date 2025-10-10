@@ -9667,6 +9667,33 @@
         }
     },
     {
+        "handle": "engagements/bullish",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://bullish.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://investor.bullish.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "*.bullish.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://simnext.bullish-test.com",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
         "handle": "engagements/irobot",
         "bounty": 1,
         "active": 0,
@@ -9786,33 +9813,6 @@
                 }
             ],
             "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/bullish",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://bullish.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://investor.bullish.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "*.bullish.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://simnext.bullish-test.com",
-                    "type": "website"
-                }
-            ]
         }
     },
     {
@@ -10207,40 +10207,6 @@
         }
     },
     {
-        "handle": "engagements/anytask-mbb-og",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://api.anytask.com/",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://www.anytask.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "AnyTask Android app",
-                    "type": "android"
-                },
-                {
-                    "identifier": "AnyTask iOS app",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "api.anytask.thesecurityteam.rocks",
-                    "type": "api"
-                },
-                {
-                    "identifier": "anytask.thesecurityteam.rocks",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/latitude-financial-service-bugbounty",
         "bounty": 1,
         "active": 1,
@@ -10552,6 +10518,40 @@
                     "type": "website"
                 }
             ]
+        }
+    },
+    {
+        "handle": "engagements/anytask-mbb-og",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://api.anytask.com/",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://www.anytask.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "AnyTask Android app",
+                    "type": "android"
+                },
+                {
+                    "identifier": "AnyTask iOS app",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "api.anytask.thesecurityteam.rocks",
+                    "type": "api"
+                },
+                {
+                    "identifier": "anytask.thesecurityteam.rocks",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
         }
     },
     {
@@ -13093,48 +13093,6 @@
         }
     },
     {
-        "handle": "engagements/opensea",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "opensea.io",
-                    "type": "website"
-                },
-                {
-                    "identifier": "http://wallet.opensea.io/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "io.opensea - Android App",
-                    "type": "android"
-                },
-                {
-                    "identifier": "io.opensea - iOS App",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "https://github.com/ProjectOpenSea/seaport#deployments",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://etherscan.io/address/0x0000a26b00c1F0DF003000390027140000fAa719",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://etherscan.io/address/0x00005EA00Ac477B1030CE78506496e8C2dE24bf5",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Broken Link",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/elementor",
         "bounty": 1,
         "active": 1,
@@ -13171,24 +13129,6 @@
                 {
                     "identifier": "https://send2.co/",
                     "type": "website"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/trm-labs-public-mbb",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "chainabuse-staging.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "api.chainabuse-staging.com",
-                    "type": "api"
                 }
             ],
             "out_of_scope": []
@@ -13682,6 +13622,66 @@
                     "type": "other"
                 }
             ]
+        }
+    },
+    {
+        "handle": "engagements/opensea",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "opensea.io",
+                    "type": "website"
+                },
+                {
+                    "identifier": "http://wallet.opensea.io/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "io.opensea - Android App",
+                    "type": "android"
+                },
+                {
+                    "identifier": "io.opensea - iOS App",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "https://github.com/ProjectOpenSea/seaport#deployments",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://etherscan.io/address/0x0000a26b00c1F0DF003000390027140000fAa719",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://etherscan.io/address/0x00005EA00Ac477B1030CE78506496e8C2dE24bf5",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Broken Link",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/trm-labs-public-mbb",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "chainabuse-staging.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "api.chainabuse-staging.com",
+                    "type": "api"
+                }
+            ],
+            "out_of_scope": []
         }
     },
     {
@@ -14996,85 +14996,6 @@
         }
     },
     {
-        "handle": "engagements/square",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.square.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.squareup.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "square.online",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Square Point of Sale Mobile Application for Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Square Point of Sale Mobile Application for iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Square Register",
-                    "type": "hardware"
-                },
-                {
-                    "identifier": "Square Terminal",
-                    "type": "hardware"
-                },
-                {
-                    "identifier": "weebly.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "*.afterpay.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.cash.me",
-                    "type": "website"
-                },
-                {
-                    "identifier": "designers.weebly.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.tidal.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "app.squareupstaging.com/v1/ask-ai/copilot/spotlight/query",
-                    "type": "other"
-                },
-                {
-                    "identifier": " community.squareup.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Cash App Mobile Application for Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Cash App Mobile Application for iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Any vulnerabilities found in Third-party software",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/keepersecurity",
         "bounty": 1,
         "active": 1,
@@ -16146,6 +16067,85 @@
                 },
                 {
                     "identifier": "admin.selectwifi.xfinity.com",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/square",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.square.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.squareup.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "square.online",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Square Point of Sale Mobile Application for Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Square Point of Sale Mobile Application for iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Square Register",
+                    "type": "hardware"
+                },
+                {
+                    "identifier": "Square Terminal",
+                    "type": "hardware"
+                },
+                {
+                    "identifier": "weebly.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "*.afterpay.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.cash.me",
+                    "type": "website"
+                },
+                {
+                    "identifier": "designers.weebly.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.tidal.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "app.squareupstaging.com/v1/ask-ai/copilot/spotlight/query",
+                    "type": "other"
+                },
+                {
+                    "identifier": " community.squareup.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Cash App Mobile Application for Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Cash App Mobile Application for iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Any vulnerabilities found in Third-party software",
                     "type": "website"
                 }
             ]
