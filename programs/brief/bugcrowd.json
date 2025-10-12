@@ -6492,6 +6492,45 @@
         }
     },
     {
+        "handle": "engagements/quizlet",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://*.quizlet.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Quizlet iOS App",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Quizlet Android App",
+                    "type": "android"
+                },
+                {
+                    "identifier": "3.0 API",
+                    "type": "api"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "api.quizlet.com/2.0",
+                    "type": "api"
+                },
+                {
+                    "identifier": " help.quizlet.com (zendesk)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "get.quizlet.com",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
         "handle": "engagements/openai",
         "bounty": 1,
         "active": 1,
@@ -6551,45 +6590,6 @@
                 }
             ],
             "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/quizlet",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://*.quizlet.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Quizlet iOS App",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Quizlet Android App",
-                    "type": "android"
-                },
-                {
-                    "identifier": "3.0 API",
-                    "type": "api"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "api.quizlet.com/2.0",
-                    "type": "api"
-                },
-                {
-                    "identifier": " help.quizlet.com (zendesk)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "get.quizlet.com",
-                    "type": "website"
-                }
-            ]
         }
     },
     {
@@ -15609,61 +15609,6 @@
         }
     },
     {
-        "handle": "engagements/etsy",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "www.etsy.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Etsy Mobile Application (Android)",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Etsy Mobile Application (iPhone)",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Etsy API (see documentation below)",
-                    "type": "api"
-                },
-                {
-                    "identifier": "etsypayments.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "blog.etsy.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "careers.etsy.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "help.etsy.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "community.etsy.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.etsy.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "icht.etsysecure.com",
-                    "type": "api"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/bitdefender",
         "bounty": 1,
         "active": 1,
@@ -16147,6 +16092,61 @@
                 {
                     "identifier": "Creation of support tickets",
                     "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/etsy",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "www.etsy.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Etsy Mobile Application (Android)",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Etsy Mobile Application (iPhone)",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Etsy API (see documentation below)",
+                    "type": "api"
+                },
+                {
+                    "identifier": "etsypayments.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "blog.etsy.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "careers.etsy.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "help.etsy.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "community.etsy.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.etsy.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "icht.etsysecure.com",
+                    "type": "api"
                 }
             ]
         }
