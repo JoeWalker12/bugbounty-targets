@@ -6707,6 +6707,37 @@
         }
     },
     {
+        "handle": "engagements/carrefour",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Carrefour UAE iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Carrefour UAE Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "carrefouruae.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://api-prod.retailsso.com",
+                    "type": "api"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "https://cwingsfe.mafrservices.com/login",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
         "handle": "engagements/asana",
         "bounty": 1,
         "active": 1,
@@ -6861,85 +6892,6 @@
         }
     },
     {
-        "handle": "engagements/aruba-product-public",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "HPE Aruba Networking Wireless \u2013 AOS-10.7 and later",
-                    "type": "network"
-                },
-                {
-                    "identifier": "HPE Aruba Networking Central - New UI (see Scope Details)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "ArubaOS-CX Switches",
-                    "type": "other"
-                },
-                {
-                    "identifier": "HPE Aruba Networking Wireless \u2013 AOS-8 and AOS-8 Instant",
-                    "type": "other"
-                },
-                {
-                    "identifier": "HPE Aruba Networking ClearPass Policy Manager",
-                    "type": "other"
-                },
-                {
-                    "identifier": "HPE Aruba Networking EdgeConnect SD-WAN Orchestrator",
-                    "type": "other"
-                },
-                {
-                    "identifier": "HPE Networking Instant On APs and supporting backend infrastructure",
-                    "type": "other"
-                },
-                {
-                    "identifier": "HPE Aruba Networking Fabric Composer",
-                    "type": "network"
-                },
-                {
-                    "identifier": "HPE Aruba Networking NetEdit",
-                    "type": "network"
-                },
-                {
-                    "identifier": "HPE Aruba Networking Private 5G",
-                    "type": "website"
-                },
-                {
-                    "identifier": "HPE Aruba Networking SSE",
-                    "type": "other"
-                },
-                {
-                    "identifier": "*.central.arubanetworks.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Aruba AirWave AMP",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Aruba InstantOn Switches",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Aruba User Experience Insight Sensors",
-                    "type": "hardware"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "*.arubanetworks.com not in scope above - see in scope",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.hpe.com",
-                    "type": "other"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/bitso-mbb-og",
         "bounty": 1,
         "active": 1,
@@ -7050,6 +7002,85 @@
                 {
                     "identifier": "support.bitso.com",
                     "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/aruba-product-public",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "HPE Aruba Networking Wireless \u2013 AOS-10.7 and later",
+                    "type": "network"
+                },
+                {
+                    "identifier": "HPE Aruba Networking Central - New UI (see Scope Details)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "ArubaOS-CX Switches",
+                    "type": "other"
+                },
+                {
+                    "identifier": "HPE Aruba Networking Wireless \u2013 AOS-8 and AOS-8 Instant",
+                    "type": "other"
+                },
+                {
+                    "identifier": "HPE Aruba Networking ClearPass Policy Manager",
+                    "type": "other"
+                },
+                {
+                    "identifier": "HPE Aruba Networking EdgeConnect SD-WAN Orchestrator",
+                    "type": "other"
+                },
+                {
+                    "identifier": "HPE Networking Instant On APs and supporting backend infrastructure",
+                    "type": "other"
+                },
+                {
+                    "identifier": "HPE Aruba Networking Fabric Composer",
+                    "type": "network"
+                },
+                {
+                    "identifier": "HPE Aruba Networking NetEdit",
+                    "type": "network"
+                },
+                {
+                    "identifier": "HPE Aruba Networking Private 5G",
+                    "type": "website"
+                },
+                {
+                    "identifier": "HPE Aruba Networking SSE",
+                    "type": "other"
+                },
+                {
+                    "identifier": "*.central.arubanetworks.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Aruba AirWave AMP",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Aruba InstantOn Switches",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Aruba User Experience Insight Sensors",
+                    "type": "hardware"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "*.arubanetworks.com not in scope above - see in scope",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.hpe.com",
+                    "type": "other"
                 }
             ]
         }
@@ -7708,6 +7739,56 @@
         }
     },
     {
+        "handle": "engagements/sendbird-mbb",
+        "bounty": 1,
+        "active": 0,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://dashboard.sendbird.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://gate.sendbird.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://api-{app-id}.sendbird.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://ws-{app-id}.sendbird.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://desk-api-{region}.sendbird.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://ws-{app-id}.calls.sendbird.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://api-{app-id}.calls.sendbird.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://api-{app-id}.notifications.sendbird.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://sendbird.com/docs",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://sendbird.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
         "handle": "engagements/soundcloud",
         "bounty": 1,
         "active": 1,
@@ -7827,56 +7908,6 @@
         }
     },
     {
-        "handle": "engagements/sendbird-mbb",
-        "bounty": 1,
-        "active": 0,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://dashboard.sendbird.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://gate.sendbird.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://api-{app-id}.sendbird.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://ws-{app-id}.sendbird.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://desk-api-{region}.sendbird.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://ws-{app-id}.calls.sendbird.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://api-{app-id}.calls.sendbird.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://api-{app-id}.notifications.sendbird.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://sendbird.com/docs",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://sendbird.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/navan",
         "bounty": 1,
         "active": 1,
@@ -7932,64 +7963,6 @@
                     "type": "other"
                 }
             ]
-        }
-    },
-    {
-        "handle": "engagements/pinterest",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "api.pinterest.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.pinterest.com Web Apps",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Pinterest iOS Mobile Application",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Pinterest Android Mobile Application",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Pinterest Lite Android Mobile Application",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Edge extension (download at: ms-windows-store://pdp/?productid=9nblggh4v89b )",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Chrome extension (download at: chrome.google.com/webstore/detail/pinterest-save-button/gpdjojdkbbmdfjfahjcgigfpmkopogic?hl=en)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Firefox extension (download at:   https://addons.mozilla.org/firefox/addon/pinterest/)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Open source projects(non-forked) listed at github.com/pinterest/",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://www.shffls.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Shuffles App for Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Shuffles App for iOS",
-                    "type": "ios"
-                }
-            ],
-            "out_of_scope": []
         }
     },
     {
@@ -8521,138 +8494,123 @@
         }
     },
     {
-        "handle": "engagements/simplisafe",
+        "handle": "engagements/openai",
         "bounty": 1,
         "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "bb1.simplisafe.com",
+                    "identifier": "api.openai.com",
                     "type": "api"
                 },
                 {
-                    "identifier": "bb2.simplisafe.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "cb.simplisafe.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "api.simplisafe.com (HSP Endpoints)",
-                    "type": "api"
-                },
-                {
-                    "identifier": "api.services.simplisafe.com (HSP Endpoints)",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.prd.cam.simplisafe.com (HSP Endpoints)",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.prd.platform.simplisafe.com (HSP Endpoints)",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.prd.services.simplisafe.com (HSP Endpoints)",
-                    "type": "api"
-                },
-                {
-                    "identifier": "SimpliSafe Customer Webapp - US",
+                    "identifier": "ChatGPT",
                     "type": "website"
                 },
                 {
-                    "identifier": "SimpliSafe Customer Webapp - UK",
+                    "identifier": "ChatGPT Plugins",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Third Party Targets",
                     "type": "website"
                 },
                 {
-                    "identifier": "SimpliSafe Customer iOS App",
+                    "identifier": "OpenAI API Keys",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://openai.org",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.openai.org",
+                    "type": "api"
+                },
+                {
+                    "identifier": "openai.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.openai.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Developer Platform Playground",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Other",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Sora App",
                     "type": "ios"
                 },
                 {
-                    "identifier": "SimpliSafe Customer Android App",
+                    "identifier": "Sora",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/pinterest",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "api.pinterest.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.pinterest.com Web Apps",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Pinterest iOS Mobile Application",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Pinterest Android Mobile Application",
                     "type": "android"
                 },
                 {
-                    "identifier": "mfa.simplisafe.com",
-                    "type": "api"
+                    "identifier": "Pinterest Lite Android Mobile Application",
+                    "type": "android"
                 },
                 {
-                    "identifier": "*.prd.aser.simplisafe.com",
-                    "type": "api"
+                    "identifier": "Edge extension (download at: ms-windows-store://pdp/?productid=9nblggh4v89b )",
+                    "type": "other"
                 },
                 {
-                    "identifier": "*.prd.webapps.simplisafe.com",
-                    "type": "api"
+                    "identifier": "Chrome extension (download at: chrome.google.com/webstore/detail/pinterest-save-button/gpdjojdkbbmdfjfahjcgigfpmkopogic?hl=en)",
+                    "type": "other"
                 },
                 {
-                    "identifier": "api.simplisafe.com (App Endpoints)",
-                    "type": "api"
+                    "identifier": "Firefox extension (download at:   https://addons.mozilla.org/firefox/addon/pinterest/)",
+                    "type": "other"
                 },
                 {
-                    "identifier": "api.services.simplisafe.com (App Endpoints)",
-                    "type": "api"
+                    "identifier": "Open source projects(non-forked) listed at github.com/pinterest/",
+                    "type": "other"
                 },
                 {
-                    "identifier": "*.prd.services.simplisafe.com (App Endpoints)",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.prd.platform.simplisafe.com (App Endpoints)",
-                    "type": "api"
-                },
-                {
-                    "identifier": "media.simplisafe.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.prd.cam.simplisafe.com (App Endpoints)",
-                    "type": "api"
-                },
-                {
-                    "identifier": "SimpliSafe Website - US",
+                    "identifier": "https://www.shffls.com",
                     "type": "website"
                 },
                 {
-                    "identifier": "SimpliSafe Website - UK",
-                    "type": "website"
+                    "identifier": "Shuffles App for Android",
+                    "type": "android"
                 },
                 {
-                    "identifier": "api.prd.commerce.simplisafe.com",
-                    "type": "api"
+                    "identifier": "Shuffles App for iOS",
+                    "type": "ios"
                 }
             ],
-            "out_of_scope": [
-                {
-                    "identifier": "auth.simplisafe.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "careers.simplisafe.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "clicks.simplisafe.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "library.simplisafe.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "livechat.simplisafe.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "press.simplisafe.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "support.simplisafe.com",
-                    "type": "website"
-                }
-            ]
+            "out_of_scope": []
         }
     },
     {
@@ -9021,65 +8979,138 @@
         }
     },
     {
-        "handle": "engagements/openai",
+        "handle": "engagements/simplisafe",
         "bounty": 1,
         "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "api.openai.com",
+                    "identifier": "bb1.simplisafe.com",
                     "type": "api"
                 },
                 {
-                    "identifier": "ChatGPT",
-                    "type": "website"
-                },
-                {
-                    "identifier": "ChatGPT Plugins",
+                    "identifier": "bb2.simplisafe.com",
                     "type": "api"
                 },
                 {
-                    "identifier": "Third Party Targets",
-                    "type": "website"
-                },
-                {
-                    "identifier": "OpenAI API Keys",
+                    "identifier": "cb.simplisafe.com",
                     "type": "api"
                 },
                 {
-                    "identifier": "https://openai.org",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.openai.org",
+                    "identifier": "api.simplisafe.com (HSP Endpoints)",
                     "type": "api"
                 },
                 {
-                    "identifier": "openai.com",
+                    "identifier": "api.services.simplisafe.com (HSP Endpoints)",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.prd.cam.simplisafe.com (HSP Endpoints)",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.prd.platform.simplisafe.com (HSP Endpoints)",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.prd.services.simplisafe.com (HSP Endpoints)",
+                    "type": "api"
+                },
+                {
+                    "identifier": "SimpliSafe Customer Webapp - US",
                     "type": "website"
                 },
                 {
-                    "identifier": "*.openai.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Developer Platform Playground",
+                    "identifier": "SimpliSafe Customer Webapp - UK",
                     "type": "website"
                 },
                 {
-                    "identifier": "Other",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Sora App",
+                    "identifier": "SimpliSafe Customer iOS App",
                     "type": "ios"
                 },
                 {
-                    "identifier": "Sora",
+                    "identifier": "SimpliSafe Customer Android App",
+                    "type": "android"
+                },
+                {
+                    "identifier": "mfa.simplisafe.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.prd.aser.simplisafe.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.prd.webapps.simplisafe.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "api.simplisafe.com (App Endpoints)",
+                    "type": "api"
+                },
+                {
+                    "identifier": "api.services.simplisafe.com (App Endpoints)",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.prd.services.simplisafe.com (App Endpoints)",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.prd.platform.simplisafe.com (App Endpoints)",
+                    "type": "api"
+                },
+                {
+                    "identifier": "media.simplisafe.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.prd.cam.simplisafe.com (App Endpoints)",
+                    "type": "api"
+                },
+                {
+                    "identifier": "SimpliSafe Website - US",
                     "type": "website"
+                },
+                {
+                    "identifier": "SimpliSafe Website - UK",
+                    "type": "website"
+                },
+                {
+                    "identifier": "api.prd.commerce.simplisafe.com",
+                    "type": "api"
                 }
             ],
-            "out_of_scope": []
+            "out_of_scope": [
+                {
+                    "identifier": "auth.simplisafe.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "careers.simplisafe.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "clicks.simplisafe.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "library.simplisafe.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "livechat.simplisafe.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "press.simplisafe.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "support.simplisafe.com",
+                    "type": "website"
+                }
+            ]
         }
     },
     {
@@ -9235,53 +9266,6 @@
                 }
             ],
             "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/acorns",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.acorns.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Acorns for iOS",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://graphql.acorns.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Acorns for Android",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://www.gohenry.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.pixpay.fr/",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "share.acorns.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "grow.acorns.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "store.acorns.com",
-                    "type": "website"
-                }
-            ]
         }
     },
     {
@@ -11025,6 +11009,53 @@
                 }
             ],
             "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/acorns",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.acorns.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Acorns for iOS",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://graphql.acorns.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Acorns for Android",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://www.gohenry.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.pixpay.fr/",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "share.acorns.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "grow.acorns.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "store.acorns.com",
+                    "type": "website"
+                }
+            ]
         }
     },
     {
@@ -15957,24 +15988,6 @@
         }
     },
     {
-        "handle": "engagements/trm-labs-public-mbb",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "chainabuse-staging.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "api.chainabuse-staging.com",
-                    "type": "api"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/smartchain-mbb-og",
         "bounty": 1,
         "active": 1,
@@ -16187,34 +16200,21 @@
         }
     },
     {
-        "handle": "engagements/carrefour",
+        "handle": "engagements/trm-labs-public-mbb",
         "bounty": 1,
         "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "Carrefour UAE iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Carrefour UAE Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "carrefouruae.com",
+                    "identifier": "chainabuse-staging.com",
                     "type": "website"
                 },
                 {
-                    "identifier": "https://api-prod.retailsso.com",
+                    "identifier": "api.chainabuse-staging.com",
                     "type": "api"
                 }
             ],
-            "out_of_scope": [
-                {
-                    "identifier": "https://cwingsfe.mafrservices.com/login",
-                    "type": "website"
-                }
-            ]
+            "out_of_scope": []
         }
     },
     {
