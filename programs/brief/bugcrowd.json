@@ -6041,6 +6041,45 @@
         }
     },
     {
+        "handle": "engagements/opsgenie",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "app.opsgenie.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "mobileapp.opsgenie.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.opsgenie.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Opsgenie (IoS)",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Opsgenie (Android)",
+                    "type": "android"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "Opsgenie Production (billing systems, third parties)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Any internal or development services.",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
         "handle": "engagements/neohrms",
         "bounty": 1,
         "active": 1,
@@ -6116,45 +6155,6 @@
                 }
             ],
             "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/opsgenie",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "app.opsgenie.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "mobileapp.opsgenie.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.opsgenie.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Opsgenie (IoS)",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Opsgenie (Android)",
-                    "type": "android"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "Opsgenie Production (billing systems, third parties)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Any internal or development services.",
-                    "type": "website"
-                }
-            ]
         }
     },
     {
@@ -6365,6 +6365,85 @@
         }
     },
     {
+        "handle": "engagements/aruba-product-public",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "HPE Aruba Networking Wireless \u2013 AOS-10.7 and later",
+                    "type": "network"
+                },
+                {
+                    "identifier": "HPE Aruba Networking Central - New UI (see Scope Details)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "ArubaOS-CX Switches",
+                    "type": "other"
+                },
+                {
+                    "identifier": "HPE Aruba Networking Wireless \u2013 AOS-8 and AOS-8 Instant",
+                    "type": "other"
+                },
+                {
+                    "identifier": "HPE Aruba Networking ClearPass Policy Manager",
+                    "type": "other"
+                },
+                {
+                    "identifier": "HPE Aruba Networking EdgeConnect SD-WAN Orchestrator",
+                    "type": "other"
+                },
+                {
+                    "identifier": "HPE Networking Instant On APs and supporting backend infrastructure",
+                    "type": "other"
+                },
+                {
+                    "identifier": "HPE Aruba Networking Fabric Composer",
+                    "type": "network"
+                },
+                {
+                    "identifier": "HPE Aruba Networking NetEdit",
+                    "type": "network"
+                },
+                {
+                    "identifier": "HPE Aruba Networking Private 5G",
+                    "type": "website"
+                },
+                {
+                    "identifier": "HPE Aruba Networking SSE",
+                    "type": "other"
+                },
+                {
+                    "identifier": "*.central.arubanetworks.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Aruba AirWave AMP",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Aruba InstantOn Switches",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Aruba User Experience Insight Sensors",
+                    "type": "hardware"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "*.arubanetworks.com not in scope above - see in scope",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.hpe.com",
+                    "type": "other"
+                }
+            ]
+        }
+    },
+    {
         "handle": "engagements/lightspeed-retail",
         "bounty": 1,
         "active": 1,
@@ -6444,80 +6523,40 @@
         }
     },
     {
-        "handle": "engagements/aruba-product-public",
+        "handle": "engagements/tamedia",
         "bounty": 1,
-        "active": 1,
+        "active": 0,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "HPE Aruba Networking Wireless \u2013 AOS-10.7 and later",
-                    "type": "network"
-                },
-                {
-                    "identifier": "HPE Aruba Networking Central - New UI (see Scope Details)",
+                    "identifier": "https://www.tagesanzeiger.ch",
                     "type": "website"
                 },
                 {
-                    "identifier": "ArubaOS-CX Switches",
-                    "type": "other"
-                },
-                {
-                    "identifier": "HPE Aruba Networking Wireless \u2013 AOS-8 and AOS-8 Instant",
-                    "type": "other"
-                },
-                {
-                    "identifier": "HPE Aruba Networking ClearPass Policy Manager",
-                    "type": "other"
-                },
-                {
-                    "identifier": "HPE Aruba Networking EdgeConnect SD-WAN Orchestrator",
-                    "type": "other"
-                },
-                {
-                    "identifier": "HPE Networking Instant On APs and supporting backend infrastructure",
-                    "type": "other"
-                },
-                {
-                    "identifier": "HPE Aruba Networking Fabric Composer",
-                    "type": "network"
-                },
-                {
-                    "identifier": "HPE Aruba Networking NetEdit",
-                    "type": "network"
-                },
-                {
-                    "identifier": "HPE Aruba Networking Private 5G",
-                    "type": "website"
-                },
-                {
-                    "identifier": "HPE Aruba Networking SSE",
-                    "type": "other"
-                },
-                {
-                    "identifier": "*.central.arubanetworks.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Aruba AirWave AMP",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Aruba InstantOn Switches",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Aruba User Experience Insight Sensors",
-                    "type": "hardware"
+                    "identifier": "API calls going to disco-api from https://www.tagesanzeiger.ch ",
+                    "type": "api"
                 }
             ],
             "out_of_scope": [
                 {
-                    "identifier": "*.arubanetworks.com not in scope above - see in scope",
+                    "identifier": "https://abo.inscopedomain.ch",
                     "type": "website"
                 },
                 {
-                    "identifier": "*.hpe.com",
-                    "type": "other"
+                    "identifier": "https://login.inscopedomain.ch/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://auth.inscopedomain.ch/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://tgt.inscopedomain.ch/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://shop.inscopedomain.ch/",
+                    "type": "website"
                 }
             ]
         }
@@ -6774,153 +6813,6 @@
         }
     },
     {
-        "handle": "engagements/aiven-mbb-og",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Aiven for Clickhouse",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Aiven for Metrics",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Aiven for Valkey",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Aiven for Apache Kafka",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Aiven for AlloyDB Omni",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Aiven for OpenSearch",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Aiven for Grafana",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Aiven for PostgreSQL",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Aiven for Caching",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Aiven for MySQL",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Aiven for Apache Flink",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Aiven for Dragonfly",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Aiven for Apache Cassandra",
-                    "type": "other"
-                },
-                {
-                    "identifier": "regatta.aiven.io",
-                    "type": "website"
-                },
-                {
-                    "identifier": "aiven.io",
-                    "type": "website"
-                },
-                {
-                    "identifier": "console.aiven.io",
-                    "type": "website"
-                },
-                {
-                    "identifier": "api.aiven.io",
-                    "type": "api"
-                },
-                {
-                    "identifier": "github.com/Aiven-Open",
-                    "type": "other"
-                },
-                {
-                    "identifier": "github.com/Aiven",
-                    "type": "other"
-                },
-                {
-                    "identifier": "falcon-bug-bounty-flag-pgsql-dev-sandbox.aivencloud.com",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "aquarium.aiven.io\t",
-                    "type": "website"
-                },
-                {
-                    "identifier": "uptime.aiven.io\t",
-                    "type": "website"
-                },
-                {
-                    "identifier": "video.aiven.io\t",
-                    "type": "website"
-                },
-                {
-                    "identifier": "aiven.io/community",
-                    "type": "website"
-                },
-                {
-                    "identifier": "aiven.io/contact",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Customer services you did not create",
-                    "type": "other"
-                },
-                {
-                    "identifier": "*.aiven.fi",
-                    "type": "other"
-                },
-                {
-                    "identifier": "github.com/Aiven-Labs",
-                    "type": "other"
-                },
-                {
-                    "identifier": "*.avns.net",
-                    "type": "other"
-                },
-                {
-                    "identifier": "events.aiven.io",
-                    "type": "website"
-                },
-                {
-                    "identifier": "ideas.aiven.io",
-                    "type": "other"
-                },
-                {
-                    "identifier": "aivenhelp.zendesk.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "support.aiven.io",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Creation of support tickets",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/aylo-trafficjunky-mbb-og",
         "bounty": 1,
         "active": 1,
@@ -6942,45 +6834,6 @@
                 },
                 {
                     "identifier": "https://www.adultforce.com/#/blog/ ",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/tamedia",
-        "bounty": 1,
-        "active": 0,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://www.tagesanzeiger.ch",
-                    "type": "website"
-                },
-                {
-                    "identifier": "API calls going to disco-api from https://www.tagesanzeiger.ch ",
-                    "type": "api"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "https://abo.inscopedomain.ch",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://login.inscopedomain.ch/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://auth.inscopedomain.ch/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://tgt.inscopedomain.ch/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://shop.inscopedomain.ch/",
                     "type": "website"
                 }
             ]
@@ -7123,6 +6976,153 @@
                 },
                 {
                     "identifier": "seems.gravityzone.bitdefender.com",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/aiven-mbb-og",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Aiven for Clickhouse",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Aiven for Metrics",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Aiven for Valkey",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Aiven for Apache Kafka",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Aiven for AlloyDB Omni",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Aiven for OpenSearch",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Aiven for Grafana",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Aiven for PostgreSQL",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Aiven for Caching",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Aiven for MySQL",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Aiven for Apache Flink",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Aiven for Dragonfly",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Aiven for Apache Cassandra",
+                    "type": "other"
+                },
+                {
+                    "identifier": "regatta.aiven.io",
+                    "type": "website"
+                },
+                {
+                    "identifier": "aiven.io",
+                    "type": "website"
+                },
+                {
+                    "identifier": "console.aiven.io",
+                    "type": "website"
+                },
+                {
+                    "identifier": "api.aiven.io",
+                    "type": "api"
+                },
+                {
+                    "identifier": "github.com/Aiven-Open",
+                    "type": "other"
+                },
+                {
+                    "identifier": "github.com/Aiven",
+                    "type": "other"
+                },
+                {
+                    "identifier": "falcon-bug-bounty-flag-pgsql-dev-sandbox.aivencloud.com",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "aquarium.aiven.io\t",
+                    "type": "website"
+                },
+                {
+                    "identifier": "uptime.aiven.io\t",
+                    "type": "website"
+                },
+                {
+                    "identifier": "video.aiven.io\t",
+                    "type": "website"
+                },
+                {
+                    "identifier": "aiven.io/community",
+                    "type": "website"
+                },
+                {
+                    "identifier": "aiven.io/contact",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Customer services you did not create",
+                    "type": "other"
+                },
+                {
+                    "identifier": "*.aiven.fi",
+                    "type": "other"
+                },
+                {
+                    "identifier": "github.com/Aiven-Labs",
+                    "type": "other"
+                },
+                {
+                    "identifier": "*.avns.net",
+                    "type": "other"
+                },
+                {
+                    "identifier": "events.aiven.io",
+                    "type": "website"
+                },
+                {
+                    "identifier": "ideas.aiven.io",
+                    "type": "other"
+                },
+                {
+                    "identifier": "aivenhelp.zendesk.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "support.aiven.io",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Creation of support tickets",
                     "type": "website"
                 }
             ]
@@ -8213,177 +8213,6 @@
         }
     },
     {
-        "handle": "engagements/originenergy-og1",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://www.originenergy.com.au/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.origindigital-pac.com.au",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.odcdn.com.au",
-                    "type": "website"
-                },
-                {
-                    "identifier": "dataportal.originenergy.com.au",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.support.originenergy.com.au",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.api.originenergy.com.au",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.download.originenergy.com.au",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://api.rx.originenergy.com.au/v1/gateway/schema/graphql",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://api.rx.originenergy.com.au/v1/gateway/schema/kraken/graphql",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://api.rx.originenergy.com.au/v1/lpg/graphql",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://www.winconnect.com.au/moving-out/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.winconnect.com.au/get-connected/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://customerportal.winconnect.com.au/login",
-                    "type": "website"
-                },
-                {
-                    "identifier": "signup.myconnect.com.au",
-                    "type": "website"
-                },
-                {
-                    "identifier": "portal.myconnect.com.au",
-                    "type": "website"
-                },
-                {
-                    "identifier": "myconnect.com.au",
-                    "type": "website"
-                },
-                {
-                    "identifier": "portal.myconnect.com.au/new-connection",
-                    "type": "website"
-                },
-                {
-                    "identifier": "ssu.myconnect.com.au/signup/get-connected ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "hub.myconnect.com.au",
-                    "type": "website"
-                },
-                {
-                    "identifier": "portal.anz.kinergysolutions.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "portal-api.anz.kinergysolutions.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "portal.originzero.com.au",
-                    "type": "website"
-                },
-                {
-                    "identifier": "api-portal.originzero.com.au",
-                    "type": "api"
-                },
-                {
-                    "identifier": "sign.originzero.com.au",
-                    "type": "website"
-                },
-                {
-                    "identifier": "businessportal.origin.com.au",
-                    "type": "website"
-                },
-                {
-                    "identifier": "api-businessportal.origin.com.au",
-                    "type": "api"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "https://www.originenergy.com.au/moving/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://auth.api.originenergy.com.au/**",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://origin-energy.formstack.com/**",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.compareandconnect.com.au/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://agent.compareandconnect.com.au/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://fastconnect.co.nz",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://Yourporter.com.au",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://raywhitehomenow.com/ ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "solarquotes.com.au/leads",
-                    "type": "website"
-                },
-                {
-                    "identifier": "solarquotes.com.au/suppliers",
-                    "type": "website"
-                },
-                {
-                    "identifier": "solarquotes.com.au/wp-admin",
-                    "type": "website"
-                },
-                {
-                    "identifier": "manufacturers.solarquotes.com.au",
-                    "type": "website"
-                },
-                {
-                    "identifier": "solarquotes.com.au/quote/start",
-                    "type": "website"
-                },
-                {
-                    "identifier": "solarquotes.com.au/quotesv2",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/navan",
         "bounty": 1,
         "active": 1,
@@ -9090,6 +8919,177 @@
                 {
                     "identifier": "Any domain, property, product, protocol, or service of the app/hardware/software version not explicitly listed in the In-Scope section is out of scope; submissions are welcome but not guaranteed for the bounty/bonus.",
                     "type": "other"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/originenergy-og1",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://www.originenergy.com.au/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.origindigital-pac.com.au",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.odcdn.com.au",
+                    "type": "website"
+                },
+                {
+                    "identifier": "dataportal.originenergy.com.au",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.support.originenergy.com.au",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.api.originenergy.com.au",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.download.originenergy.com.au",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://api.rx.originenergy.com.au/v1/gateway/schema/graphql",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://api.rx.originenergy.com.au/v1/gateway/schema/kraken/graphql",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://api.rx.originenergy.com.au/v1/lpg/graphql",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://www.winconnect.com.au/moving-out/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.winconnect.com.au/get-connected/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://customerportal.winconnect.com.au/login",
+                    "type": "website"
+                },
+                {
+                    "identifier": "signup.myconnect.com.au",
+                    "type": "website"
+                },
+                {
+                    "identifier": "portal.myconnect.com.au",
+                    "type": "website"
+                },
+                {
+                    "identifier": "myconnect.com.au",
+                    "type": "website"
+                },
+                {
+                    "identifier": "portal.myconnect.com.au/new-connection",
+                    "type": "website"
+                },
+                {
+                    "identifier": "ssu.myconnect.com.au/signup/get-connected ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "hub.myconnect.com.au",
+                    "type": "website"
+                },
+                {
+                    "identifier": "portal.anz.kinergysolutions.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "portal-api.anz.kinergysolutions.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "portal.originzero.com.au",
+                    "type": "website"
+                },
+                {
+                    "identifier": "api-portal.originzero.com.au",
+                    "type": "api"
+                },
+                {
+                    "identifier": "sign.originzero.com.au",
+                    "type": "website"
+                },
+                {
+                    "identifier": "businessportal.origin.com.au",
+                    "type": "website"
+                },
+                {
+                    "identifier": "api-businessportal.origin.com.au",
+                    "type": "api"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "https://www.originenergy.com.au/moving/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://auth.api.originenergy.com.au/**",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://origin-energy.formstack.com/**",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.compareandconnect.com.au/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://agent.compareandconnect.com.au/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://fastconnect.co.nz",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://Yourporter.com.au",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://raywhitehomenow.com/ ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "solarquotes.com.au/leads",
+                    "type": "website"
+                },
+                {
+                    "identifier": "solarquotes.com.au/suppliers",
+                    "type": "website"
+                },
+                {
+                    "identifier": "solarquotes.com.au/wp-admin",
+                    "type": "website"
+                },
+                {
+                    "identifier": "manufacturers.solarquotes.com.au",
+                    "type": "website"
+                },
+                {
+                    "identifier": "solarquotes.com.au/quote/start",
+                    "type": "website"
+                },
+                {
+                    "identifier": "solarquotes.com.au/quotesv2",
+                    "type": "website"
                 }
             ]
         }
@@ -10620,55 +10620,6 @@
         }
     },
     {
-        "handle": "engagements/spacex",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "SpaceX and Starlink assets (target information and rewards detailed above on the brief)",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/vox",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Vox Cinemas iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Vox Cinemas Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "https://uae.voxcinemas.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.skidxb.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.magicplanetmena.com/",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "http://www.theplaymania.com/",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/acorns",
         "bounty": 1,
         "active": 1,
@@ -10713,6 +10664,20 @@
                     "type": "website"
                 }
             ]
+        }
+    },
+    {
+        "handle": "engagements/spacex",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "SpaceX and Starlink assets (target information and rewards detailed above on the brief)",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
         }
     },
     {
@@ -10765,6 +10730,148 @@
                 },
                 {
                     "identifier": "trust.fivetran.com",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/vox",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Vox Cinemas iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Vox Cinemas Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "https://uae.voxcinemas.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.skidxb.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.magicplanetmena.com/",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "http://www.theplaymania.com/",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/k15t",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/1215199/backbone-issue-sync-for-jira?hosting=cloud",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/1217608/scroll-documents-for-confluence?hosting=cloud",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/7019/scroll-pdf-exporter-for-confluence?hosting=cloud",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/24982/scroll-word-exporter-for-confluence?hosting=cloud",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/1217037/scroll-exporter-extensions?hosting=cloud",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/253/scroll-imagemap-for-confluence?hosting=cloud",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/1211636/scroll-viewport-for-confluence?hosting=cloud",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/1226295/variants-for-scroll-documents?hosting=cloud",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/7019/scroll-pdf-exporter-for-confluence?hosting=datacenter",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/24982/scroll-word-exporter-for-confluence?hosting=datacenter",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/420604/scroll-html-exporter-for-confluence?hosting=datacenter",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/1210818/scroll-versions-for-confluence?hosting=datacenter",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/1211616/scroll-translations-for-confluence?hosting=datacenter",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/253/scroll-imagemap-for-confluence?hosting=datacenter&tab=overview",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/1215199/backbone-issue-sync-for-jira?hosting=datacenter&tab=overview",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/1217608/scroll-documents-for-confluence?hosting=datacenter&tab=overview",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/1226295/variants-for-scroll-documents?hosting=datacenter",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/1211636/scroll-viewport-for-confluence?hosting=datacenter",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/1227238/translations-for-scroll-documents?hosting=cloud",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/1227238/translations-for-scroll-documents?hosting=datacenter",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/420604/scroll-html-exporter-for-confluence?hosting=cloud&tab=overview",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/1224799/scroll-content-quality-for-confluence?hosting=cloud",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "Any other subdomains of k15t.com, including but not limited to www.k15t.com, www.k15t.de and help.k15t.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://marketplace.atlassian.com/*",
                     "type": "website"
                 }
             ]
@@ -10988,113 +11095,6 @@
                 }
             ],
             "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/k15t",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://marketplace.atlassian.com/apps/1215199/backbone-issue-sync-for-jira?hosting=cloud",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://marketplace.atlassian.com/apps/1217608/scroll-documents-for-confluence?hosting=cloud",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://marketplace.atlassian.com/apps/7019/scroll-pdf-exporter-for-confluence?hosting=cloud",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://marketplace.atlassian.com/apps/24982/scroll-word-exporter-for-confluence?hosting=cloud",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://marketplace.atlassian.com/apps/1217037/scroll-exporter-extensions?hosting=cloud",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://marketplace.atlassian.com/apps/253/scroll-imagemap-for-confluence?hosting=cloud",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://marketplace.atlassian.com/apps/1211636/scroll-viewport-for-confluence?hosting=cloud",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://marketplace.atlassian.com/apps/1226295/variants-for-scroll-documents?hosting=cloud",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://marketplace.atlassian.com/apps/7019/scroll-pdf-exporter-for-confluence?hosting=datacenter",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://marketplace.atlassian.com/apps/24982/scroll-word-exporter-for-confluence?hosting=datacenter",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://marketplace.atlassian.com/apps/420604/scroll-html-exporter-for-confluence?hosting=datacenter",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://marketplace.atlassian.com/apps/1210818/scroll-versions-for-confluence?hosting=datacenter",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://marketplace.atlassian.com/apps/1211616/scroll-translations-for-confluence?hosting=datacenter",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://marketplace.atlassian.com/apps/253/scroll-imagemap-for-confluence?hosting=datacenter&tab=overview",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://marketplace.atlassian.com/apps/1215199/backbone-issue-sync-for-jira?hosting=datacenter&tab=overview",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://marketplace.atlassian.com/apps/1217608/scroll-documents-for-confluence?hosting=datacenter&tab=overview",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://marketplace.atlassian.com/apps/1226295/variants-for-scroll-documents?hosting=datacenter",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://marketplace.atlassian.com/apps/1211636/scroll-viewport-for-confluence?hosting=datacenter",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://marketplace.atlassian.com/apps/1227238/translations-for-scroll-documents?hosting=cloud",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://marketplace.atlassian.com/apps/1227238/translations-for-scroll-documents?hosting=datacenter",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://marketplace.atlassian.com/apps/420604/scroll-html-exporter-for-confluence?hosting=cloud&tab=overview",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://marketplace.atlassian.com/apps/1224799/scroll-content-quality-for-confluence?hosting=cloud",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "Any other subdomains of k15t.com, including but not limited to www.k15t.com, www.k15t.de and help.k15t.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://marketplace.atlassian.com/*",
-                    "type": "website"
-                }
-            ]
         }
     },
     {
@@ -12198,439 +12198,6 @@
         }
     },
     {
-        "handle": "engagements/seek",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.seek.com.au",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://seekcdn.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "SEEK mobile app for iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "SEEK mobile app for Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "*.skinfra.xyz",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.outfra.xyz",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.sol-data.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.jobapi.net",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.seekpass.co",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.seekpass-staging.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.aips-internal.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.certsy.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.certsynonprod.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "SEEK Pass Mobile App for iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "SEEK Pass Mobile App for Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "graphql.seek.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "auth.seek.com",
-                    "type": "api"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/opera",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "auth.opera.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "accounts.opera.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "flow.opera.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "autoupdate.geo.opera.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "net.geo.opera.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "download.opera.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "speeddials.opera.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "browser-notifications.opera.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "www.opera.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Opera PC",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Opera GX",
-                    "type": "other"
-                },
-                {
-                    "identifier": "get.geo.opera.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Opera for Android ",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Opera News",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Opera GX for Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Opera Mini",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Apex Football",
-                    "type": "android"
-                },
-                {
-                    "identifier": "cryptowallet.opera-api.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "suggestions.opera-api.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.opera.software",
-                    "type": "other"
-                },
-                {
-                    "identifier": "weather.opera-api.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "push.opera.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.osp.opera.software",
-                    "type": "api"
-                },
-                {
-                    "identifier": "bugs.opera.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.opera.technology",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://gx.games",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://create.gx.games",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Loomi.tv",
-                    "type": "website"
-                },
-                {
-                    "identifier": "features.opera-api.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "cdn-store.opera-api.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.sec-tunnel.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.opera.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "exchange.opera.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "merchandise.opera-api.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "blocklist.opera-api.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "gx.opera-api.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "37.228.104.0/21",
-                    "type": "api"
-                },
-                {
-                    "identifier": "77.111.244.0/22",
-                    "type": "api"
-                },
-                {
-                    "identifier": "82.145.208.0/20",
-                    "type": "api"
-                },
-                {
-                    "identifier": "91.203.96.0/22",
-                    "type": "api"
-                },
-                {
-                    "identifier": "102.23.96.0/22",
-                    "type": "api"
-                },
-                {
-                    "identifier": "103.83.120.0/22",
-                    "type": "api"
-                },
-                {
-                    "identifier": "107.167.96.0/19",
-                    "type": "api"
-                },
-                {
-                    "identifier": "141.0.8.0/21",
-                    "type": "api"
-                },
-                {
-                    "identifier": "185.26.180.0/22",
-                    "type": "api"
-                },
-                {
-                    "identifier": "195.189.143.0/24",
-                    "type": "api"
-                },
-                {
-                    "identifier": "203.89.100.0/22",
-                    "type": "api"
-                },
-                {
-                    "identifier": "marketplace.gamemaker.io",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.opera-mini.net",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.opera.news",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.operanewsapp.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "GameMaker Studio 2",
-                    "type": "other"
-                },
-                {
-                    "identifier": "*.yoyogames.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "www.gamemaker.io",
-                    "type": "website"
-                },
-                {
-                    "identifier": "cashback.opera.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.apex-football.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.operafootball.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.feednews.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.dailyadvent.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "api.gx.games/gxc",
-                    "type": "api"
-                },
-                {
-                    "identifier": "api.gx.games/dc",
-                    "type": "api"
-                },
-                {
-                    "identifier": "api.gx.games/dev ",
-                    "type": "api"
-                },
-                {
-                    "identifier": "api.gx.games/profile",
-                    "type": "api"
-                },
-                {
-                    "identifier": "api.gx.games/session",
-                    "type": "api"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "concurso.opera.com ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "investor.opera.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "help.yoyogames.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "bugs.yoyogames.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "admanager.opera.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "accountsstage.yoyogames.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "control.gx-servers.opera.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "help.gx-servers.opera.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "verizon-us-seattle.opera-mini.net",
-                    "type": "website"
-                },
-                {
-                    "identifier": "s2{1,2}-05-08-v09.opera-mini.net",
-                    "type": "website"
-                },
-                {
-                    "identifier": "verizon-us-lvs-seattle.opera-mini.net",
-                    "type": "website"
-                },
-                {
-                    "identifier": "107.167.127.4{0,1}",
-                    "type": "website"
-                },
-                {
-                    "identifier": "jobs.opera.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "verizon-us-lvs-ashburn.opera-mini.net",
-                    "type": "website"
-                },
-                {
-                    "identifier": "interstitial.opera-mini.net",
-                    "type": "api"
-                },
-                {
-                    "identifier": "certs.opera.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "checkout.opera.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "contest.opera.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "catch.opera.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "wallpaper.opera.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "tabfulness.opera.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "32s.opera.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/optimizely",
         "bounty": 1,
         "active": 1,
@@ -13109,6 +12676,439 @@
                 {
                     "identifier": "https://github.com/freedomofpress/securedrop-client",
                     "type": "other"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/opera",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "auth.opera.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "accounts.opera.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "flow.opera.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "autoupdate.geo.opera.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "net.geo.opera.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "download.opera.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "speeddials.opera.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "browser-notifications.opera.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "www.opera.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Opera PC",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Opera GX",
+                    "type": "other"
+                },
+                {
+                    "identifier": "get.geo.opera.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Opera for Android ",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Opera News",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Opera GX for Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Opera Mini",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Apex Football",
+                    "type": "android"
+                },
+                {
+                    "identifier": "cryptowallet.opera-api.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "suggestions.opera-api.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.opera.software",
+                    "type": "other"
+                },
+                {
+                    "identifier": "weather.opera-api.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "push.opera.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.osp.opera.software",
+                    "type": "api"
+                },
+                {
+                    "identifier": "bugs.opera.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.opera.technology",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://gx.games",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://create.gx.games",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Loomi.tv",
+                    "type": "website"
+                },
+                {
+                    "identifier": "features.opera-api.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "cdn-store.opera-api.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.sec-tunnel.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.opera.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "exchange.opera.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "merchandise.opera-api.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "blocklist.opera-api.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "gx.opera-api.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "37.228.104.0/21",
+                    "type": "api"
+                },
+                {
+                    "identifier": "77.111.244.0/22",
+                    "type": "api"
+                },
+                {
+                    "identifier": "82.145.208.0/20",
+                    "type": "api"
+                },
+                {
+                    "identifier": "91.203.96.0/22",
+                    "type": "api"
+                },
+                {
+                    "identifier": "102.23.96.0/22",
+                    "type": "api"
+                },
+                {
+                    "identifier": "103.83.120.0/22",
+                    "type": "api"
+                },
+                {
+                    "identifier": "107.167.96.0/19",
+                    "type": "api"
+                },
+                {
+                    "identifier": "141.0.8.0/21",
+                    "type": "api"
+                },
+                {
+                    "identifier": "185.26.180.0/22",
+                    "type": "api"
+                },
+                {
+                    "identifier": "195.189.143.0/24",
+                    "type": "api"
+                },
+                {
+                    "identifier": "203.89.100.0/22",
+                    "type": "api"
+                },
+                {
+                    "identifier": "marketplace.gamemaker.io",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.opera-mini.net",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.opera.news",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.operanewsapp.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "GameMaker Studio 2",
+                    "type": "other"
+                },
+                {
+                    "identifier": "*.yoyogames.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "www.gamemaker.io",
+                    "type": "website"
+                },
+                {
+                    "identifier": "cashback.opera.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.apex-football.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.operafootball.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.feednews.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.dailyadvent.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "api.gx.games/gxc",
+                    "type": "api"
+                },
+                {
+                    "identifier": "api.gx.games/dc",
+                    "type": "api"
+                },
+                {
+                    "identifier": "api.gx.games/dev ",
+                    "type": "api"
+                },
+                {
+                    "identifier": "api.gx.games/profile",
+                    "type": "api"
+                },
+                {
+                    "identifier": "api.gx.games/session",
+                    "type": "api"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "concurso.opera.com ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "investor.opera.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "help.yoyogames.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "bugs.yoyogames.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "admanager.opera.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "accountsstage.yoyogames.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "control.gx-servers.opera.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "help.gx-servers.opera.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "verizon-us-seattle.opera-mini.net",
+                    "type": "website"
+                },
+                {
+                    "identifier": "s2{1,2}-05-08-v09.opera-mini.net",
+                    "type": "website"
+                },
+                {
+                    "identifier": "verizon-us-lvs-seattle.opera-mini.net",
+                    "type": "website"
+                },
+                {
+                    "identifier": "107.167.127.4{0,1}",
+                    "type": "website"
+                },
+                {
+                    "identifier": "jobs.opera.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "verizon-us-lvs-ashburn.opera-mini.net",
+                    "type": "website"
+                },
+                {
+                    "identifier": "interstitial.opera-mini.net",
+                    "type": "api"
+                },
+                {
+                    "identifier": "certs.opera.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "checkout.opera.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "contest.opera.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "catch.opera.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "wallpaper.opera.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "tabfulness.opera.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "32s.opera.com",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/seek",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.seek.com.au",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://seekcdn.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "SEEK mobile app for iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "SEEK mobile app for Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "*.skinfra.xyz",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.outfra.xyz",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.sol-data.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.jobapi.net",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.seekpass.co",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.seekpass-staging.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.aips-internal.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.certsy.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.certsynonprod.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "SEEK Pass Mobile App for iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "SEEK Pass Mobile App for Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "graphql.seek.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "auth.seek.com",
+                    "type": "api"
                 }
             ],
             "out_of_scope": []
@@ -13838,44 +13838,6 @@
         }
     },
     {
-        "handle": "engagements/unity",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "id.unity.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "api.unity.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "cloud.unity.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "store.unity.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "pay.unity.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "player-login.unity.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Latest Supported LTS Versions of the Unity Editor - Unity 6.x.x Standard LTS, Unity 2022.3.x / 2021.3.x xLTS (enterprise license)",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/pexels",
         "bounty": 1,
         "active": 1,
@@ -14286,37 +14248,6 @@
                 }
             ],
             "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/jora",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.jora.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.jora.xyz",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://apps.apple.com/us/app/jora-jobs-job-search-app/id917565665\t",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "https://play.google.com/store/apps/details?id=com.jora.android&hl=en_US\t",
-                    "type": "android"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "*.joralocal.com.au\t",
-                    "type": "website"
-                }
-            ]
         }
     },
     {
@@ -16208,6 +16139,75 @@
                 },
                 {
                     "identifier": "https://www.nutaku.net/desktop-app-download/ ",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/unity",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "id.unity.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "api.unity.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "cloud.unity.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "store.unity.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "pay.unity.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "player-login.unity.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Latest Supported LTS Versions of the Unity Editor - Unity 6.x.x Standard LTS, Unity 2022.3.x / 2021.3.x xLTS (enterprise license)",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/jora",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.jora.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.jora.xyz",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://apps.apple.com/us/app/jora-jobs-job-search-app/id917565665\t",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "https://play.google.com/store/apps/details?id=com.jora.android&hl=en_US\t",
+                    "type": "android"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "*.joralocal.com.au\t",
                     "type": "website"
                 }
             ]
