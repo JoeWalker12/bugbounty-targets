@@ -6041,45 +6041,6 @@
         }
     },
     {
-        "handle": "engagements/opsgenie",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "app.opsgenie.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "mobileapp.opsgenie.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.opsgenie.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Opsgenie (IoS)",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Opsgenie (Android)",
-                    "type": "android"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "Opsgenie Production (billing systems, third parties)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Any internal or development services.",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/neohrms",
         "bounty": 1,
         "active": 1,
@@ -6155,6 +6116,45 @@
                 }
             ],
             "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/opsgenie",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "app.opsgenie.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "mobileapp.opsgenie.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.opsgenie.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Opsgenie (IoS)",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Opsgenie (Android)",
+                    "type": "android"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "Opsgenie Production (billing systems, third parties)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Any internal or development services.",
+                    "type": "website"
+                }
+            ]
         }
     },
     {
@@ -6365,196 +6365,6 @@
         }
     },
     {
-        "handle": "engagements/aruba-product-public",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "HPE Aruba Networking Wireless \u2013 AOS-10.7 and later",
-                    "type": "network"
-                },
-                {
-                    "identifier": "HPE Aruba Networking Central - New UI (see Scope Details)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "ArubaOS-CX Switches",
-                    "type": "other"
-                },
-                {
-                    "identifier": "HPE Aruba Networking Wireless \u2013 AOS-8 and AOS-8 Instant",
-                    "type": "other"
-                },
-                {
-                    "identifier": "HPE Aruba Networking ClearPass Policy Manager",
-                    "type": "other"
-                },
-                {
-                    "identifier": "HPE Aruba Networking EdgeConnect SD-WAN Orchestrator",
-                    "type": "other"
-                },
-                {
-                    "identifier": "HPE Networking Instant On APs and supporting backend infrastructure",
-                    "type": "other"
-                },
-                {
-                    "identifier": "HPE Aruba Networking Fabric Composer",
-                    "type": "network"
-                },
-                {
-                    "identifier": "HPE Aruba Networking NetEdit",
-                    "type": "network"
-                },
-                {
-                    "identifier": "HPE Aruba Networking Private 5G",
-                    "type": "website"
-                },
-                {
-                    "identifier": "HPE Aruba Networking SSE",
-                    "type": "other"
-                },
-                {
-                    "identifier": "*.central.arubanetworks.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Aruba AirWave AMP",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Aruba InstantOn Switches",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Aruba User Experience Insight Sensors",
-                    "type": "hardware"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "*.arubanetworks.com not in scope above - see in scope",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.hpe.com",
-                    "type": "other"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/bitdefender",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Bitdefender Total Security",
-                    "type": "other"
-                },
-                {
-                    "identifier": "*.bitdefender.net",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Bitdefender Antimalware Engines",
-                    "type": "other"
-                },
-                {
-                    "identifier": "*.bitdefender.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Bitdefender GravityZone Business Security ",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "businessinsights.bitdefender.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "businessemail.bitdefender.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "businessresources.bitdefender.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "oemhub.bitdefender.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "oemresources.bitdefender.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "community.bitdefender.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "resellerportal.bitdefender.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "brand.bitdefender.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "stats.bitdefender.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "sstats.bitdefender.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "lsems.gravityzone.bitdefender.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "ssems.gravityzone.bitdefender.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "crp.bitdefender.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "telcosuccess.bitdefender.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "demo.bitdefender.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "translate.bitdefender.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "explore.bitdefender.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "explore-lb.bitdefender.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "partner-marketing.bitdefender.com ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "seems.gravityzone.bitdefender.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/lightspeed-retail",
         "bounty": 1,
         "active": 1,
@@ -6629,6 +6439,85 @@
                 {
                     "identifier": "https://www.ecwid.com/",
                     "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/aruba-product-public",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "HPE Aruba Networking Wireless \u2013 AOS-10.7 and later",
+                    "type": "network"
+                },
+                {
+                    "identifier": "HPE Aruba Networking Central - New UI (see Scope Details)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "ArubaOS-CX Switches",
+                    "type": "other"
+                },
+                {
+                    "identifier": "HPE Aruba Networking Wireless \u2013 AOS-8 and AOS-8 Instant",
+                    "type": "other"
+                },
+                {
+                    "identifier": "HPE Aruba Networking ClearPass Policy Manager",
+                    "type": "other"
+                },
+                {
+                    "identifier": "HPE Aruba Networking EdgeConnect SD-WAN Orchestrator",
+                    "type": "other"
+                },
+                {
+                    "identifier": "HPE Networking Instant On APs and supporting backend infrastructure",
+                    "type": "other"
+                },
+                {
+                    "identifier": "HPE Aruba Networking Fabric Composer",
+                    "type": "network"
+                },
+                {
+                    "identifier": "HPE Aruba Networking NetEdit",
+                    "type": "network"
+                },
+                {
+                    "identifier": "HPE Aruba Networking Private 5G",
+                    "type": "website"
+                },
+                {
+                    "identifier": "HPE Aruba Networking SSE",
+                    "type": "other"
+                },
+                {
+                    "identifier": "*.central.arubanetworks.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Aruba AirWave AMP",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Aruba InstantOn Switches",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Aruba User Experience Insight Sensors",
+                    "type": "hardware"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "*.arubanetworks.com not in scope above - see in scope",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.hpe.com",
+                    "type": "other"
                 }
             ]
         }
@@ -7123,6 +7012,117 @@
             "out_of_scope": [
                 {
                     "identifier": "https://cwingsfe.mafrservices.com/login",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/bitdefender",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Bitdefender Total Security",
+                    "type": "other"
+                },
+                {
+                    "identifier": "*.bitdefender.net",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Bitdefender Antimalware Engines",
+                    "type": "other"
+                },
+                {
+                    "identifier": "*.bitdefender.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Bitdefender GravityZone Business Security ",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "businessinsights.bitdefender.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "businessemail.bitdefender.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "businessresources.bitdefender.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "oemhub.bitdefender.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "oemresources.bitdefender.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "community.bitdefender.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "resellerportal.bitdefender.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "brand.bitdefender.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "stats.bitdefender.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "sstats.bitdefender.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "lsems.gravityzone.bitdefender.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "ssems.gravityzone.bitdefender.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "crp.bitdefender.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "telcosuccess.bitdefender.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "demo.bitdefender.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "translate.bitdefender.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "explore.bitdefender.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "explore-lb.bitdefender.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "partner-marketing.bitdefender.com ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "seems.gravityzone.bitdefender.com",
                     "type": "website"
                 }
             ]
@@ -8135,265 +8135,6 @@
         }
     },
     {
-        "handle": "engagements/t-mobile",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Self Register Account on T-Mobile Microsoft Entra ID",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Cellular Network Auth Bypass via Web/Mobile App",
-                    "type": "network"
-                },
-                {
-                    "identifier": "T&P Servers",
-                    "type": "network"
-                },
-                {
-                    "identifier": "Internal Server via Internet Network",
-                    "type": "network"
-                },
-                {
-                    "identifier": "portal.lrs.t-mobile.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "account.t-mobile.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "metrobyt-mobile.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "sprint.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "t-mobile.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.api.t-mobile.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "tfb.t-mobile.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "devedge.t-mobile.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "tess.service-now.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "digits.t-mobile.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.t-mobile.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.metrobyt-mobile.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.sprint.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "api.vistarmedia.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "packages.cortexpowered.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "api.vistarmedia.eu",
-                    "type": "website"
-                },
-                {
-                    "identifier": "production-dynam-creative.vistarmedia.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "storybook.vistarmedia.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "creatives.vistarmedia.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "sflower.cortexpowered.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "production-delivery-metrics-svc.vistarmedia.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "maps.vistarmedia.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "transcodes-cdn.vistarmedia.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "assets-cdn.vistarmedia.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "docker-staging.adstruc.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "staging-trafficking.vistarmedia.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "job-svc-b.vistarmedia.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "docsite.vistarmedia.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "sfleet.cortexpowered.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "audience-builder.vistarmedia.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "staging-login.vistarmedia.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "clients.adstruc.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "demo.adstruc.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.uscc.net",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.uscc.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.uscellular.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "dashboard-04.moengage.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "assurancewireless.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Assets labeled as in-scope",
-                    "type": "other"
-                },
-                {
-                    "identifier": "T-Mobile - iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "T-Mobile - Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "SyncUP DRIVE - iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "SyncUP DRIVE - Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "SyncUP KIDS - iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "SyncUP KIDS - Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "SyncUP TRACKER - iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "SyncUP TRACKER - Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "DIGITS - Mobile & Desktop",
-                    "type": "other"
-                },
-                {
-                    "identifier": "T-Life - iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "T-Life - Android",
-                    "type": "android"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "*.sprint.net",
-                    "type": "website"
-                },
-                {
-                    "identifier": "/self-service-*",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.mobile.uscc.net",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.mobile.uscc.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "eventmanager.uscellular.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "global.eventmanager.uscellular.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "events.eventmanager.uscellular.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Any domain, property, product, protocol, or service of the app/hardware/software version not explicitly listed in the In-Scope section is out of scope; submissions are welcome but not guaranteed for the bounty/bonus.",
-                    "type": "other"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/quizlet",
         "bounty": 1,
         "active": 1,
@@ -8873,6 +8614,109 @@
         }
     },
     {
+        "handle": "engagements/twentyminuten",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://www.20min.ch",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://cm.20min.ch/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://api.20min.ch/",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://videoplayer.20min.ch",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://partner-feeds.20min.ch",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://screenplayer.20min.ch",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://audio.20min.ch",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "https://tgt.tamedia.ch",
+                    "type": "api"
+                },
+                {
+                    "identifier": "http://auth.20min.ch",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://cre-api.tamedia.ch",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://track.20min.ch",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Social Media Links (older than 2 years)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Subdomain Takeover ",
+                    "type": "other"
+                },
+                {
+                    "identifier": "DMARC, SPF, DKIM",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://*.connect.ringier.ch",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.onelog.ch",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.20min-tv.ch",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.newsnetz.tv",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.appuser.ch",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.iagentur.ch",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.streamboat.ch",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.streamboatserver.ch",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Other Domains and Subdomains not specifically in scope",
+                    "type": "other"
+                }
+            ]
+        }
+    },
+    {
         "handle": "engagements/soundcloud",
         "bounty": 1,
         "active": 1,
@@ -8992,103 +8836,259 @@
         }
     },
     {
-        "handle": "engagements/twentyminuten",
+        "handle": "engagements/t-mobile",
         "bounty": 1,
         "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "https://www.20min.ch",
+                    "identifier": "Self Register Account on T-Mobile Microsoft Entra ID",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Cellular Network Auth Bypass via Web/Mobile App",
+                    "type": "network"
+                },
+                {
+                    "identifier": "T&P Servers",
+                    "type": "network"
+                },
+                {
+                    "identifier": "Internal Server via Internet Network",
+                    "type": "network"
+                },
+                {
+                    "identifier": "portal.lrs.t-mobile.com",
                     "type": "website"
                 },
                 {
-                    "identifier": "https://cm.20min.ch/",
+                    "identifier": "account.t-mobile.com",
                     "type": "website"
                 },
                 {
-                    "identifier": "https://api.20min.ch/",
+                    "identifier": "metrobyt-mobile.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "sprint.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "t-mobile.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.api.t-mobile.com",
                     "type": "api"
                 },
                 {
-                    "identifier": "https://videoplayer.20min.ch",
+                    "identifier": "tfb.t-mobile.com",
                     "type": "website"
                 },
                 {
-                    "identifier": "https://partner-feeds.20min.ch",
+                    "identifier": "devedge.t-mobile.com",
                     "type": "website"
                 },
                 {
-                    "identifier": "https://screenplayer.20min.ch",
+                    "identifier": "tess.service-now.com",
                     "type": "website"
                 },
                 {
-                    "identifier": "https://audio.20min.ch",
+                    "identifier": "digits.t-mobile.com",
                     "type": "website"
+                },
+                {
+                    "identifier": "*.t-mobile.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.metrobyt-mobile.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.sprint.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "api.vistarmedia.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "packages.cortexpowered.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "api.vistarmedia.eu",
+                    "type": "website"
+                },
+                {
+                    "identifier": "production-dynam-creative.vistarmedia.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "storybook.vistarmedia.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "creatives.vistarmedia.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "sflower.cortexpowered.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "production-delivery-metrics-svc.vistarmedia.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "maps.vistarmedia.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "transcodes-cdn.vistarmedia.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "assets-cdn.vistarmedia.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "docker-staging.adstruc.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "staging-trafficking.vistarmedia.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "job-svc-b.vistarmedia.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "docsite.vistarmedia.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "sfleet.cortexpowered.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "audience-builder.vistarmedia.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "staging-login.vistarmedia.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "clients.adstruc.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "demo.adstruc.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.uscc.net",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.uscc.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.uscellular.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "dashboard-04.moengage.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "assurancewireless.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Assets labeled as in-scope",
+                    "type": "other"
+                },
+                {
+                    "identifier": "T-Mobile - iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "T-Mobile - Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "SyncUP DRIVE - iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "SyncUP DRIVE - Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "SyncUP KIDS - iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "SyncUP KIDS - Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "SyncUP TRACKER - iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "SyncUP TRACKER - Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "DIGITS - Mobile & Desktop",
+                    "type": "other"
+                },
+                {
+                    "identifier": "T-Life - iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "T-Life - Android",
+                    "type": "android"
                 }
             ],
             "out_of_scope": [
                 {
-                    "identifier": "https://tgt.tamedia.ch",
-                    "type": "api"
-                },
-                {
-                    "identifier": "http://auth.20min.ch",
+                    "identifier": "*.sprint.net",
                     "type": "website"
                 },
                 {
-                    "identifier": "https://cre-api.tamedia.ch",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://track.20min.ch",
+                    "identifier": "/self-service-*",
                     "type": "website"
                 },
                 {
-                    "identifier": "Social Media Links (older than 2 years)",
+                    "identifier": "*.mobile.uscc.net",
                     "type": "website"
                 },
                 {
-                    "identifier": "Subdomain Takeover ",
-                    "type": "other"
-                },
-                {
-                    "identifier": "DMARC, SPF, DKIM",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://*.connect.ringier.ch",
+                    "identifier": "*.mobile.uscc.com",
                     "type": "website"
                 },
                 {
-                    "identifier": "*.onelog.ch",
+                    "identifier": "eventmanager.uscellular.com",
                     "type": "website"
                 },
                 {
-                    "identifier": "*.20min-tv.ch",
+                    "identifier": "global.eventmanager.uscellular.com",
                     "type": "website"
                 },
                 {
-                    "identifier": "*.newsnetz.tv",
+                    "identifier": "events.eventmanager.uscellular.com",
                     "type": "website"
                 },
                 {
-                    "identifier": "*.appuser.ch",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.iagentur.ch",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.streamboat.ch",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.streamboatserver.ch",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Other Domains and Subdomains not specifically in scope",
+                    "identifier": "Any domain, property, product, protocol, or service of the app/hardware/software version not explicitly listed in the In-Scope section is out of scope; submissions are welcome but not guaranteed for the bounty/bonus.",
                     "type": "other"
                 }
             ]
@@ -10620,6 +10620,55 @@
         }
     },
     {
+        "handle": "engagements/spacex",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "SpaceX and Starlink assets (target information and rewards detailed above on the brief)",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/vox",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Vox Cinemas iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Vox Cinemas Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "https://uae.voxcinemas.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.skidxb.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.magicplanetmena.com/",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "http://www.theplaymania.com/",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
         "handle": "engagements/acorns",
         "bounty": 1,
         "active": 1,
@@ -10664,20 +10713,6 @@
                     "type": "website"
                 }
             ]
-        }
-    },
-    {
-        "handle": "engagements/spacex",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "SpaceX and Starlink assets (target information and rewards detailed above on the brief)",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
         }
     },
     {
@@ -10733,178 +10768,6 @@
                     "type": "website"
                 }
             ]
-        }
-    },
-    {
-        "handle": "engagements/vox",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Vox Cinemas iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Vox Cinemas Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "https://uae.voxcinemas.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.skidxb.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.magicplanetmena.com/",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "http://www.theplaymania.com/",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/k15t",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://marketplace.atlassian.com/apps/1215199/backbone-issue-sync-for-jira?hosting=cloud",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://marketplace.atlassian.com/apps/1217608/scroll-documents-for-confluence?hosting=cloud",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://marketplace.atlassian.com/apps/7019/scroll-pdf-exporter-for-confluence?hosting=cloud",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://marketplace.atlassian.com/apps/24982/scroll-word-exporter-for-confluence?hosting=cloud",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://marketplace.atlassian.com/apps/1217037/scroll-exporter-extensions?hosting=cloud",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://marketplace.atlassian.com/apps/253/scroll-imagemap-for-confluence?hosting=cloud",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://marketplace.atlassian.com/apps/1211636/scroll-viewport-for-confluence?hosting=cloud",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://marketplace.atlassian.com/apps/1226295/variants-for-scroll-documents?hosting=cloud",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://marketplace.atlassian.com/apps/7019/scroll-pdf-exporter-for-confluence?hosting=datacenter",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://marketplace.atlassian.com/apps/24982/scroll-word-exporter-for-confluence?hosting=datacenter",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://marketplace.atlassian.com/apps/420604/scroll-html-exporter-for-confluence?hosting=datacenter",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://marketplace.atlassian.com/apps/1210818/scroll-versions-for-confluence?hosting=datacenter",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://marketplace.atlassian.com/apps/1211616/scroll-translations-for-confluence?hosting=datacenter",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://marketplace.atlassian.com/apps/253/scroll-imagemap-for-confluence?hosting=datacenter&tab=overview",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://marketplace.atlassian.com/apps/1215199/backbone-issue-sync-for-jira?hosting=datacenter&tab=overview",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://marketplace.atlassian.com/apps/1217608/scroll-documents-for-confluence?hosting=datacenter&tab=overview",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://marketplace.atlassian.com/apps/1226295/variants-for-scroll-documents?hosting=datacenter",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://marketplace.atlassian.com/apps/1211636/scroll-viewport-for-confluence?hosting=datacenter",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://marketplace.atlassian.com/apps/1227238/translations-for-scroll-documents?hosting=cloud",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://marketplace.atlassian.com/apps/1227238/translations-for-scroll-documents?hosting=datacenter",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://marketplace.atlassian.com/apps/420604/scroll-html-exporter-for-confluence?hosting=cloud&tab=overview",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://marketplace.atlassian.com/apps/1224799/scroll-content-quality-for-confluence?hosting=cloud",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "Any other subdomains of k15t.com, including but not limited to www.k15t.com, www.k15t.de and help.k15t.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://marketplace.atlassian.com/*",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/planethosterinc",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "my.planethoster.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "api.planethoster.net",
-                    "type": "api"
-                },
-                {
-                    "identifier": " world.planethoster.net",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://mg.n0c.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "www.planethoster.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
         }
     },
     {
@@ -11095,6 +10958,143 @@
                 }
             ],
             "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/planethosterinc",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "my.planethoster.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "api.planethoster.net",
+                    "type": "api"
+                },
+                {
+                    "identifier": " world.planethoster.net",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://mg.n0c.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "www.planethoster.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/k15t",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/1215199/backbone-issue-sync-for-jira?hosting=cloud",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/1217608/scroll-documents-for-confluence?hosting=cloud",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/7019/scroll-pdf-exporter-for-confluence?hosting=cloud",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/24982/scroll-word-exporter-for-confluence?hosting=cloud",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/1217037/scroll-exporter-extensions?hosting=cloud",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/253/scroll-imagemap-for-confluence?hosting=cloud",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/1211636/scroll-viewport-for-confluence?hosting=cloud",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/1226295/variants-for-scroll-documents?hosting=cloud",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/7019/scroll-pdf-exporter-for-confluence?hosting=datacenter",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/24982/scroll-word-exporter-for-confluence?hosting=datacenter",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/420604/scroll-html-exporter-for-confluence?hosting=datacenter",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/1210818/scroll-versions-for-confluence?hosting=datacenter",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/1211616/scroll-translations-for-confluence?hosting=datacenter",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/253/scroll-imagemap-for-confluence?hosting=datacenter&tab=overview",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/1215199/backbone-issue-sync-for-jira?hosting=datacenter&tab=overview",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/1217608/scroll-documents-for-confluence?hosting=datacenter&tab=overview",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/1226295/variants-for-scroll-documents?hosting=datacenter",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/1211636/scroll-viewport-for-confluence?hosting=datacenter",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/1227238/translations-for-scroll-documents?hosting=cloud",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/1227238/translations-for-scroll-documents?hosting=datacenter",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/420604/scroll-html-exporter-for-confluence?hosting=cloud&tab=overview",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/1224799/scroll-content-quality-for-confluence?hosting=cloud",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "Any other subdomains of k15t.com, including but not limited to www.k15t.com, www.k15t.de and help.k15t.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://marketplace.atlassian.com/*",
+                    "type": "website"
+                }
+            ]
         }
     },
     {
@@ -11389,73 +11389,6 @@
                 },
                 {
                     "identifier": "Payment APIs",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/moneytreekkog",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Moneytree Web for Web",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Moneytree Universal Vault",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Moneytree Internal Redash",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://app-staging.getmoneytree.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Moneytree Web for Mobile",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Moneytree Web for Mobile (with Oauth)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Moneytree MyAccount",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Moneytree Business",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Moneytree API",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Moneytree Android Mobile Application (staging; see below)",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Moneytree iOS Mobile Application (production; see below)",
-                    "type": "ios"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "moneytree.jp",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Any production asset of Moneytree KK (excepting the iOS app)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "getmoneytree.com",
                     "type": "website"
                 }
             ]
@@ -12265,150 +12198,6 @@
         }
     },
     {
-        "handle": "engagements/freedomofpress",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://github.com/freedomofpress/securedrop",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://github.com/freedomofpress/securedrop-workstation",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://github.com/freedomofpress/securedrop-client",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/irobot",
-        "bounty": 1,
-        "active": 0,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "iRobot Romoba\u2122 105",
-                    "type": "hardware"
-                },
-                {
-                    "identifier": "iRobot Romoba\u2122 205",
-                    "type": "hardware"
-                },
-                {
-                    "identifier": "iRobot Romoba\u2122 405",
-                    "type": "hardware"
-                },
-                {
-                    "identifier": "iRobot Romoba\u2122 505",
-                    "type": "hardware"
-                },
-                {
-                    "identifier": "iRobot Romoba\u2122 705",
-                    "type": "hardware"
-                },
-                {
-                    "identifier": "https://apps.apple.com/us/app/roomba-home/id6504274697",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "https://play.google.com/store/apps/details?id=com.irobot.home.prime",
-                    "type": "android"
-                },
-                {
-                    "identifier": "https://aspen-ecommerce-prod.iot.irobotapi.com/dev/v1/ecommerce/entitlements/{entitlement_id}",
-                    "type": "api"
-                },
-                {
-                    "identifier": "iRobot API Endpoint",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://zuora-ecommerce-prod.iot.irobotapi.com/dev/v1/ecommerce/notifications/raas",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://aspen-ecommerce-prod.iot.irobotapi.com/dev/v1/ecommerce/robots/{robot_id}/entitlements",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://aspen-ecommerce-prod.iot.irobotapi.com/dev/v1/ecommerce/users/{user_id}/entitlements",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://www.irobot.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.irobot.ca/en_CA",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.irobot.ca/fr_CA/home",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.irobot.at/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.irobot.be/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.irobot.de/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.irobot.es/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.irobot.fr/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.irobot.co.uk/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.irobot.ie/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.irobot.nl/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.irobot.pt/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.homesupport.irobot.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://media.irobot.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://investor.irobot.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://answers.irobot.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/seek",
         "bounty": 1,
         "active": 1,
@@ -12965,6 +12754,268 @@
         }
     },
     {
+        "handle": "engagements/moneytreekkog",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Moneytree Web for Web",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Moneytree Universal Vault",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Moneytree Internal Redash",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://app-staging.getmoneytree.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Moneytree Web for Mobile",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Moneytree Web for Mobile (with Oauth)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Moneytree MyAccount",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Moneytree Business",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Moneytree API",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Moneytree Android Mobile Application (staging; see below)",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Moneytree iOS Mobile Application (production; see below)",
+                    "type": "ios"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "moneytree.jp",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Any production asset of Moneytree KK (excepting the iOS app)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "getmoneytree.com",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/irobot",
+        "bounty": 1,
+        "active": 0,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "iRobot Romoba\u2122 105",
+                    "type": "hardware"
+                },
+                {
+                    "identifier": "iRobot Romoba\u2122 205",
+                    "type": "hardware"
+                },
+                {
+                    "identifier": "iRobot Romoba\u2122 405",
+                    "type": "hardware"
+                },
+                {
+                    "identifier": "iRobot Romoba\u2122 505",
+                    "type": "hardware"
+                },
+                {
+                    "identifier": "iRobot Romoba\u2122 705",
+                    "type": "hardware"
+                },
+                {
+                    "identifier": "https://apps.apple.com/us/app/roomba-home/id6504274697",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "https://play.google.com/store/apps/details?id=com.irobot.home.prime",
+                    "type": "android"
+                },
+                {
+                    "identifier": "https://aspen-ecommerce-prod.iot.irobotapi.com/dev/v1/ecommerce/entitlements/{entitlement_id}",
+                    "type": "api"
+                },
+                {
+                    "identifier": "iRobot API Endpoint",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://zuora-ecommerce-prod.iot.irobotapi.com/dev/v1/ecommerce/notifications/raas",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://aspen-ecommerce-prod.iot.irobotapi.com/dev/v1/ecommerce/robots/{robot_id}/entitlements",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://aspen-ecommerce-prod.iot.irobotapi.com/dev/v1/ecommerce/users/{user_id}/entitlements",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://www.irobot.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.irobot.ca/en_CA",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.irobot.ca/fr_CA/home",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.irobot.at/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.irobot.be/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.irobot.de/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.irobot.es/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.irobot.fr/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.irobot.co.uk/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.irobot.ie/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.irobot.nl/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.irobot.pt/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.homesupport.irobot.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://media.irobot.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://investor.irobot.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://answers.irobot.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/imperva-mbb",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://*.imperva.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.cloudvector.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.incapsula.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://supportportal.thalesgroup.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "PTaaS Reference",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "http://docs.imperva.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "http://docs-be.imperva.com/",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/anytask-mbb-og",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://api.anytask.com/",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://www.anytask.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "AnyTask Android app",
+                    "type": "android"
+                },
+                {
+                    "identifier": "AnyTask iOS app",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "api.anytask.thesecurityteam.rocks",
+                    "type": "api"
+                },
+                {
+                    "identifier": "anytask.thesecurityteam.rocks",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
         "handle": "engagements/zola-mbb-og",
         "bounty": 1,
         "active": 0,
@@ -13042,73 +13093,22 @@
         }
     },
     {
-        "handle": "engagements/imperva-mbb",
+        "handle": "engagements/freedomofpress",
         "bounty": 1,
         "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "https://*.imperva.com",
-                    "type": "website"
+                    "identifier": "https://github.com/freedomofpress/securedrop",
+                    "type": "other"
                 },
                 {
-                    "identifier": "https://*.cloudvector.com/",
-                    "type": "website"
+                    "identifier": "https://github.com/freedomofpress/securedrop-workstation",
+                    "type": "other"
                 },
                 {
-                    "identifier": "https://*.incapsula.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://supportportal.thalesgroup.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "PTaaS Reference",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "http://docs.imperva.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "http://docs-be.imperva.com/",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/anytask-mbb-og",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://api.anytask.com/",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://www.anytask.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "AnyTask Android app",
-                    "type": "android"
-                },
-                {
-                    "identifier": "AnyTask iOS app",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "api.anytask.thesecurityteam.rocks",
-                    "type": "api"
-                },
-                {
-                    "identifier": "anytask.thesecurityteam.rocks",
-                    "type": "website"
+                    "identifier": "https://github.com/freedomofpress/securedrop-client",
+                    "type": "other"
                 }
             ],
             "out_of_scope": []
