@@ -7082,45 +7082,6 @@
         }
     },
     {
-        "handle": "engagements/tamedia",
-        "bounty": 1,
-        "active": 0,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://www.tagesanzeiger.ch",
-                    "type": "website"
-                },
-                {
-                    "identifier": "API calls going to disco-api from https://www.tagesanzeiger.ch ",
-                    "type": "api"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "https://abo.inscopedomain.ch",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://login.inscopedomain.ch/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://auth.inscopedomain.ch/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://tgt.inscopedomain.ch/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://shop.inscopedomain.ch/",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/wise",
         "bounty": 1,
         "active": 1,
@@ -7238,6 +7199,45 @@
                 },
                 {
                     "identifier": "tech.transferwise.com",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/tamedia",
+        "bounty": 1,
+        "active": 0,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://www.tagesanzeiger.ch",
+                    "type": "website"
+                },
+                {
+                    "identifier": "API calls going to disco-api from https://www.tagesanzeiger.ch ",
+                    "type": "api"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "https://abo.inscopedomain.ch",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://login.inscopedomain.ch/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://auth.inscopedomain.ch/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://tgt.inscopedomain.ch/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://shop.inscopedomain.ch/",
                     "type": "website"
                 }
             ]
@@ -7502,25 +7502,6 @@
         }
     },
     {
-        "handle": "engagements/navan",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://staging-prime.navan.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "tripactions.com",
-                    "type": "other"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/bullish-exchange",
         "bounty": 1,
         "active": 1,
@@ -7638,6 +7619,89 @@
         }
     },
     {
+        "handle": "engagements/lastpass",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://lastpass.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "LastPass browser extensions (Chrome / Safari / Edge / Firefox)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Local computer apps (UWP application / Windows installer (MSI) / MacOS)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://support.lastpass.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Workstation MFA (WMFA)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://blog.lastpass.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://admin.lastpass.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://auth.lastpass.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://accounts.lastpass.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.lastpass.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "LastPass Password Manager (Android)",
+                    "type": "android"
+                },
+                {
+                    "identifier": "LastPass Authenticator (Android)",
+                    "type": "android"
+                },
+                {
+                    "identifier": "LastPass Password Manager (iOS)",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "LastPass Authenticator (iOS)",
+                    "type": "ios"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "https://identity.lastpass.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Lastpass CLI tool",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://info.lastpass.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://forums.lastpass.com",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
         "handle": "engagements/twentyminuten",
         "bounty": 1,
         "active": 1,
@@ -7736,89 +7800,6 @@
                 {
                     "identifier": "Other Domains and Subdomains not specifically in scope",
                     "type": "other"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/lastpass",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://lastpass.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "LastPass browser extensions (Chrome / Safari / Edge / Firefox)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Local computer apps (UWP application / Windows installer (MSI) / MacOS)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://support.lastpass.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Workstation MFA (WMFA)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://blog.lastpass.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://admin.lastpass.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://auth.lastpass.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://accounts.lastpass.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.lastpass.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "LastPass Password Manager (Android)",
-                    "type": "android"
-                },
-                {
-                    "identifier": "LastPass Authenticator (Android)",
-                    "type": "android"
-                },
-                {
-                    "identifier": "LastPass Password Manager (iOS)",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "LastPass Authenticator (iOS)",
-                    "type": "ios"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "https://identity.lastpass.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Lastpass CLI tool",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://info.lastpass.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://forums.lastpass.com",
-                    "type": "website"
                 }
             ]
         }
@@ -9104,6 +9085,91 @@
         }
     },
     {
+        "handle": "engagements/openai",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "api.openai.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "ChatGPT",
+                    "type": "website"
+                },
+                {
+                    "identifier": "ChatGPT Plugins",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Third Party Targets",
+                    "type": "website"
+                },
+                {
+                    "identifier": "OpenAI API Keys",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://openai.org",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.openai.org",
+                    "type": "api"
+                },
+                {
+                    "identifier": "openai.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.openai.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Developer Platform Playground",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Other",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Sora App",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Sora",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Atlas",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/navan",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://staging-prime.navan.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "tripactions.com",
+                    "type": "other"
+                }
+            ]
+        }
+    },
+    {
         "handle": "engagements/seek-com",
         "bounty": 1,
         "active": 1,
@@ -9200,72 +9266,6 @@
                 {
                     "identifier": "hk.staging.jobsdb.com",
                     "type": "website"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/openai",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "api.openai.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "ChatGPT",
-                    "type": "website"
-                },
-                {
-                    "identifier": "ChatGPT Plugins",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Third Party Targets",
-                    "type": "website"
-                },
-                {
-                    "identifier": "OpenAI API Keys",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://openai.org",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.openai.org",
-                    "type": "api"
-                },
-                {
-                    "identifier": "openai.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.openai.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Developer Platform Playground",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Other",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Sora App",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Sora",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Atlas",
-                    "type": "other"
                 }
             ],
             "out_of_scope": []
@@ -12183,149 +12183,6 @@
         }
     },
     {
-        "handle": "engagements/kohls",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Kohl\u2019s entire public digital footprint that is not Out-Of-Scope(See list below)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "www.kohls.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Kohl's Mobile Application for iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Kohl's Mobile Application for Android",
-                    "type": "android"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "apply.kohls.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*kohls.com/kohlscredit/prequal",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*kohlsecommerce.com/kohlscredit/prequal",
-                    "type": "other"
-                },
-                {
-                    "identifier": "corporate.kohls.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "productchampions.kohls.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "link-preprod.kohls.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "developer.kohls.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "lclive.kohls.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "author-mykohls.kohls.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "mykohls-origin.kohls.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "origin-stage65-corporate.kohls.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "origin-stage65-mykohls.kohls.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "author-stage65-mykohls.kohls.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "stage65-corporate.kohls.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "stage65-mykohls.kohls.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "author-qa65-mykohls.kohls.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "mykohls.kohls.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "any domain with archaius.json endoint is out of scope",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*kohls.com/feature/pre-qual/prequal_inquiry.jsp?icid=prequalfooter",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*kohls.com/checkout/prequal_inquiry.jsp#/preQualEligible",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*kohlsecommerce.com/feature/pre-qual/prequal_inquiry.jsp?icid=prequalfooter",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*kohlsecommerce.com/checkout/prequal_inquiry.jsp#/preQualEligible",
-                    "type": "website"
-                },
-                {
-                    "identifier": "vp-*.kohls.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*qa*.kohls.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "wfh*.kohls.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "kconnect.kohls.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "connection.kohls.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "kohlsmerch.kohls.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "b2b.kohls.com/",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/aylo-mydirtyhobby-mbb-og",
         "bounty": 1,
         "active": 1,
@@ -12760,20 +12617,6 @@
         }
     },
     {
-        "handle": "engagements/pantheon",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://dashboard.pantheon.io",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/hostgator-latam-bb",
         "bounty": 1,
         "active": 1,
@@ -13179,67 +13022,6 @@
         }
     },
     {
-        "handle": "engagements/anytask-mbb-og",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://api.anytask.com/",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://www.anytask.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "AnyTask Android app",
-                    "type": "android"
-                },
-                {
-                    "identifier": "AnyTask iOS app",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "api.anytask.thesecurityteam.rocks",
-                    "type": "api"
-                },
-                {
-                    "identifier": "anytask.thesecurityteam.rocks",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/bullish",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://bullish.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://investor.bullish.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "*.bullish.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://simnext.bullish-test.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/optimizely",
         "bounty": 1,
         "active": 1,
@@ -13312,6 +13094,224 @@
                     "type": "website"
                 }
             ]
+        }
+    },
+    {
+        "handle": "engagements/kohls",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Kohl\u2019s entire public digital footprint that is not Out-Of-Scope(See list below)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "www.kohls.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Kohl's Mobile Application for iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Kohl's Mobile Application for Android",
+                    "type": "android"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "apply.kohls.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*kohls.com/kohlscredit/prequal",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*kohlsecommerce.com/kohlscredit/prequal",
+                    "type": "other"
+                },
+                {
+                    "identifier": "corporate.kohls.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "productchampions.kohls.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "link-preprod.kohls.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "developer.kohls.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "lclive.kohls.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "author-mykohls.kohls.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "mykohls-origin.kohls.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "origin-stage65-corporate.kohls.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "origin-stage65-mykohls.kohls.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "author-stage65-mykohls.kohls.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "stage65-corporate.kohls.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "stage65-mykohls.kohls.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "author-qa65-mykohls.kohls.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "mykohls.kohls.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "any domain with archaius.json endoint is out of scope",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*kohls.com/feature/pre-qual/prequal_inquiry.jsp?icid=prequalfooter",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*kohls.com/checkout/prequal_inquiry.jsp#/preQualEligible",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*kohlsecommerce.com/feature/pre-qual/prequal_inquiry.jsp?icid=prequalfooter",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*kohlsecommerce.com/checkout/prequal_inquiry.jsp#/preQualEligible",
+                    "type": "website"
+                },
+                {
+                    "identifier": "vp-*.kohls.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*qa*.kohls.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "wfh*.kohls.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "kconnect.kohls.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "connection.kohls.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "kohlsmerch.kohls.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "b2b.kohls.com/",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/anytask-mbb-og",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://api.anytask.com/",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://www.anytask.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "AnyTask Android app",
+                    "type": "android"
+                },
+                {
+                    "identifier": "AnyTask iOS app",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "api.anytask.thesecurityteam.rocks",
+                    "type": "api"
+                },
+                {
+                    "identifier": "anytask.thesecurityteam.rocks",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/bullish",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://bullish.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://investor.bullish.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "*.bullish.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://simnext.bullish-test.com",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/pantheon",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://dashboard.pantheon.io",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": []
         }
     },
     {
@@ -14782,180 +14782,6 @@
         }
     },
     {
-        "handle": "engagements/jora",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.jora.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.jora.xyz",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://apps.apple.com/us/app/jora-jobs-job-search-app/id917565665\t",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "https://play.google.com/store/apps/details?id=com.jora.android&hl=en_US\t",
-                    "type": "android"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "*.joralocal.com.au\t",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/aylo-mbb-og",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://www.pornhub.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://mobile.pornhub.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://api.pornhub.com/",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://www.pornhubpremium.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.redtube.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.redtubepremium.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.youporn.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.youpornpremium.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://pornhub.mainhub.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*. tube8.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.thumbzilla.com/",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "https://www.youporn.com/information/#support",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.pornhub.com/live ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.pornhub.com/insights ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.pronstore.com ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.pornhub.com/jobs ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.pornhub.com/sex ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.redtube.com ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.redtubepremium.com ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.pornhub.com ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.pornhubpremium.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "cms.pornhub.com ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "cms.redtube.com ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.youporn.com ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.youpornpremium.com ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "http://*.pornmd.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.youporn.com/world ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "blog.tube8.com ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "http://www.tube8.com/contact.html ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.thumbzilla.com ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.pornhubapparel.com ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.pornhub.org ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "www.tube8vip.com ",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/prosus-og",
         "bounty": 1,
         "active": 1,
@@ -15392,157 +15218,6 @@
         }
     },
     {
-        "handle": "engagements/arlo",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Arlo Safe Android App",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Arlo Safe iOS App",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Arlo Secure Android App",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Arlo Secure iOS App",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Arlo All-In-One Sensor (Home Security System)",
-                    "type": "iot"
-                },
-                {
-                    "identifier": "Arlo Base Station",
-                    "type": "iot"
-                },
-                {
-                    "identifier": "Arlo Cellular & Battery Backup (Home Security System)",
-                    "type": "iot"
-                },
-                {
-                    "identifier": "Arlo Chime 2",
-                    "type": "iot"
-                },
-                {
-                    "identifier": "Arlo Essential",
-                    "type": "iot"
-                },
-                {
-                    "identifier": "Arlo Essential 2 (indoor & outdoor camera, doorbell)",
-                    "type": "iot"
-                },
-                {
-                    "identifier": "Arlo Pro 3 Floodlight",
-                    "type": "iot"
-                },
-                {
-                    "identifier": "Arlo Wired Floodlight",
-                    "type": "iot"
-                },
-                {
-                    "identifier": "Arlo Go v2",
-                    "type": "iot"
-                },
-                {
-                    "identifier": "Arlo Home Security System",
-                    "type": "iot"
-                },
-                {
-                    "identifier": "Arlo Pro SmartHub",
-                    "type": "iot"
-                },
-                {
-                    "identifier": "Arlo Pro 5S",
-                    "type": "iot"
-                },
-                {
-                    "identifier": "Arlo Safe Button",
-                    "type": "iot"
-                },
-                {
-                    "identifier": "Arlo Ultra 2",
-                    "type": "iot"
-                },
-                {
-                    "identifier": "Arlo Wireless Video Doorbell",
-                    "type": "iot"
-                },
-                {
-                    "identifier": "Arlo Wire-Free Outdoor Siren (Home Security System)",
-                    "type": "iot"
-                },
-                {
-                    "identifier": "*.arlo.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "*.arloxcld.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://*-prod.arlo.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://arlo-device.messaging.netgear.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://beta.arlo.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://downloads.arlo.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://mcs.arlo.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://my.arlo.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://myapi.arlo.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://www.arlo.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://updates.arlo.com",
-                    "type": "api"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "http://community.arlo.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "http://survey.arlo.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "http://research.arlo.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://investor.arlo.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/trm-labs-public-mbb",
         "bounty": 1,
         "active": 1,
@@ -15555,6 +15230,20 @@
                 {
                     "identifier": "api.chainabuse-staging.com",
                     "type": "api"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/pexels",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.pexels.com",
+                    "type": "website"
                 }
             ],
             "out_of_scope": []
@@ -15621,20 +15310,6 @@
                     "type": "other"
                 }
             ]
-        }
-    },
-    {
-        "handle": "engagements/pexels",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.pexels.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
         }
     },
     {
@@ -16035,204 +15710,6 @@
         }
     },
     {
-        "handle": "engagements/cloudinary",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://cloudinary.com/console",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://api.cloudinary.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://res.cloudinary.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "mediaflows.cloudinary.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "dimensions.cloudinary.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "https://support.cloudinary.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "wiki.cloudinary.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/aylo-nutaku-mbb-og",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://www.nutaku.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.nutaku.net",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://xnxx.nutaku.net",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://xvideos.nutaku.net",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://osapi.nutaku.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://mobileapi.nutaku.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://gateway-api.nutaku.net",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.nutakupublishing.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "https://www.nutaku.net/mobile-app-download/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://xnxx.nutaku.net/mobile-app-download/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://xvideos.nutaku.net/mobile-app-download/ ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "http://www.nutaku.net/blog ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "brazzers-waifu-go.nutaku.net ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "merge-nymphs.nutaku.net ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "sacred-sword-sfw.nutaku.net ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "shelter-69.nutaku.net ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "cdn-cosmic-shock-league.nutaku.net ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "cdn-cross-promotions.nutaku.net ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "cdn-crystal-maidens-test.nutaku.net ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "cdn-fapceo.nutaku.net ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "cdn-publishing.nutaku.net ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "cdn.crushcrush.nutaku.net ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "cdn.crystal-maidens-staging.nutaku.net ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "cdn.flowerknight.nutaku.net ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "college-life.nutaku.net ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "heavy-metal-babes.nutaku.net ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "pocket-waifu.nutaku.net ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "sacred-sword-nsfw.nutaku.net ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.cross-promotion.nutaku.net ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.nutaku.net/support ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.nutaku.com/support/ ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.nutaku.com/members/support-tickets/ ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.nutaku.net/members/support-tickets/ ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "play.nutaku.net ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "sbox-*.*.nutaku.net ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Pf.nutaku.com ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.nutaku.net/desktop-app-download/ ",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/binance",
         "bounty": 1,
         "active": 1,
@@ -16411,6 +15888,529 @@
                 }
             ],
             "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/aylo-mbb-og",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://www.pornhub.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://mobile.pornhub.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://api.pornhub.com/",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://www.pornhubpremium.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.redtube.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.redtubepremium.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.youporn.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.youpornpremium.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://pornhub.mainhub.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*. tube8.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.thumbzilla.com/",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "https://www.youporn.com/information/#support",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.pornhub.com/live ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.pornhub.com/insights ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.pronstore.com ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.pornhub.com/jobs ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.pornhub.com/sex ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.redtube.com ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.redtubepremium.com ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.pornhub.com ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.pornhubpremium.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "cms.pornhub.com ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "cms.redtube.com ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.youporn.com ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.youpornpremium.com ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "http://*.pornmd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.youporn.com/world ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "blog.tube8.com ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "http://www.tube8.com/contact.html ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.thumbzilla.com ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.pornhubapparel.com ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.pornhub.org ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "www.tube8vip.com ",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/aylo-nutaku-mbb-og",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://www.nutaku.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.nutaku.net",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://xnxx.nutaku.net",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://xvideos.nutaku.net",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://osapi.nutaku.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://mobileapi.nutaku.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://gateway-api.nutaku.net",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.nutakupublishing.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "https://www.nutaku.net/mobile-app-download/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://xnxx.nutaku.net/mobile-app-download/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://xvideos.nutaku.net/mobile-app-download/ ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "http://www.nutaku.net/blog ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "brazzers-waifu-go.nutaku.net ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "merge-nymphs.nutaku.net ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "sacred-sword-sfw.nutaku.net ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "shelter-69.nutaku.net ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "cdn-cosmic-shock-league.nutaku.net ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "cdn-cross-promotions.nutaku.net ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "cdn-crystal-maidens-test.nutaku.net ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "cdn-fapceo.nutaku.net ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "cdn-publishing.nutaku.net ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "cdn.crushcrush.nutaku.net ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "cdn.crystal-maidens-staging.nutaku.net ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "cdn.flowerknight.nutaku.net ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "college-life.nutaku.net ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "heavy-metal-babes.nutaku.net ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "pocket-waifu.nutaku.net ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "sacred-sword-nsfw.nutaku.net ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.cross-promotion.nutaku.net ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.nutaku.net/support ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.nutaku.com/support/ ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.nutaku.com/members/support-tickets/ ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.nutaku.net/members/support-tickets/ ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "play.nutaku.net ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "sbox-*.*.nutaku.net ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Pf.nutaku.com ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.nutaku.net/desktop-app-download/ ",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/arlo",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Arlo Safe Android App",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Arlo Safe iOS App",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Arlo Secure Android App",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Arlo Secure iOS App",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Arlo All-In-One Sensor (Home Security System)",
+                    "type": "iot"
+                },
+                {
+                    "identifier": "Arlo Base Station",
+                    "type": "iot"
+                },
+                {
+                    "identifier": "Arlo Cellular & Battery Backup (Home Security System)",
+                    "type": "iot"
+                },
+                {
+                    "identifier": "Arlo Chime 2",
+                    "type": "iot"
+                },
+                {
+                    "identifier": "Arlo Essential",
+                    "type": "iot"
+                },
+                {
+                    "identifier": "Arlo Essential 2 (indoor & outdoor camera, doorbell)",
+                    "type": "iot"
+                },
+                {
+                    "identifier": "Arlo Pro 3 Floodlight",
+                    "type": "iot"
+                },
+                {
+                    "identifier": "Arlo Wired Floodlight",
+                    "type": "iot"
+                },
+                {
+                    "identifier": "Arlo Go v2",
+                    "type": "iot"
+                },
+                {
+                    "identifier": "Arlo Home Security System",
+                    "type": "iot"
+                },
+                {
+                    "identifier": "Arlo Pro SmartHub",
+                    "type": "iot"
+                },
+                {
+                    "identifier": "Arlo Pro 5S",
+                    "type": "iot"
+                },
+                {
+                    "identifier": "Arlo Safe Button",
+                    "type": "iot"
+                },
+                {
+                    "identifier": "Arlo Ultra 2",
+                    "type": "iot"
+                },
+                {
+                    "identifier": "Arlo Wireless Video Doorbell",
+                    "type": "iot"
+                },
+                {
+                    "identifier": "Arlo Wire-Free Outdoor Siren (Home Security System)",
+                    "type": "iot"
+                },
+                {
+                    "identifier": "*.arlo.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "*.arloxcld.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://*-prod.arlo.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://arlo-device.messaging.netgear.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://beta.arlo.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://downloads.arlo.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://mcs.arlo.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://my.arlo.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://myapi.arlo.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://www.arlo.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://updates.arlo.com",
+                    "type": "api"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "http://community.arlo.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "http://survey.arlo.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "http://research.arlo.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://investor.arlo.com",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/jora",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.jora.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.jora.xyz",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://apps.apple.com/us/app/jora-jobs-job-search-app/id917565665\t",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "https://play.google.com/store/apps/details?id=com.jora.android&hl=en_US\t",
+                    "type": "android"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "*.joralocal.com.au\t",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/cloudinary",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://cloudinary.com/console",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://api.cloudinary.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://res.cloudinary.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "mediaflows.cloudinary.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "dimensions.cloudinary.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "https://support.cloudinary.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "wiki.cloudinary.com",
+                    "type": "website"
+                }
+            ]
         }
     },
     {
