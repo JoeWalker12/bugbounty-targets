@@ -6590,6 +6590,380 @@
         }
     },
     {
+        "handle": "engagements/atlassian",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Atlassian Guard Standard and Premium (https://admin.atlassian.com/atlassian-guard)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Atlassian Admin (https://admin.atlassian.com/)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Atlassian Identity (https://id.atlassian.com/login)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Atlassian Start (https://start.atlassian.com)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Bitbucket Cloud including Bitbucket Pipelines (https://bitbucket.org)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Confluence Cloud (bugbounty-test-<bugcrowd-name>.atlassian.net/wiki)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Confluence Cloud Premium (bugbounty-test-<bugcrowd-name>.atlassian.net/wiki)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Confluence Cloud Mobile App for Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Confluence Cloud Mobile App for iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Jira Cloud Mobile App for Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Jira Cloud Mobile App for iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Jira Service Management Cloud (bugbounty-test-<bugcrowd-name>.atlassian.net)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Jira Software Cloud (bugbounty-test-<bugcrowd-name>.atlassian.net)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Jira Work Management Cloud formerly Jira Core (bugbounty-test-<bugcrowd-name>.atlassian.net)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Any associated *.atlassian.com or *.atl-paas.net domain that can be exploited DIRECTLY from the *.atlassian.net instance",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Rovo",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Atlassian Compass",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Atlassian Marketplace (https://marketplace.atlassian.com)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Atlassian Atlas",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Bitbucket Data Center",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Confluence Data Center",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Crowd",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Jira Core Data Center",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Jira Service Management Data Center",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Jira Software Data Center",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.atlastunnel.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Any other *.atlassian.com or *.atl-paas.net domain that cannot be exploited directly from a *.atlassian.net instance",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.loom.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Loom Desktop App (Windows)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Loom Desktop App (macOS)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Loom for Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Loom for iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Loom Chrome Extension",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Bamboo",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Confluence Companion App for macOS and Windows",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Confluence Data Center Mobile App for Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Confluence Data Center Mobile App for iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Crucible",
+                    "type": "website"
+                },
+                {
+                    "identifier": "FishEye",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Jira Data Center Mobile App for Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Jira Data Center Mobile App for iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Sourcetree for macOS and Windows (https://www.sourcetreeapp.com/)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Other - (all other Atlassian targets)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Jira Product Discovery",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Forge Platform",
+                    "type": "other"
+                },
+                {
+                    "identifier": "GraphQL API (bugbounty-test-<bugcrowd-name>.atlassian.net/gateway/api/graphql)",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://www.npmjs.com/package/@forge/cli",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "Any internal or development services.",
+                    "type": "website"
+                },
+                {
+                    "identifier": "First and third party apps and plugins from the marketplace are excluded from this bounty but may be in scope for https://bugcrowd.com/atlassianapps",
+                    "type": "website"
+                },
+                {
+                    "identifier": "shop.atlassian.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": " bytebucket.org",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.bitbucket.io",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://blog.bitbucket.org",
+                    "type": "website"
+                },
+                {
+                    "identifier": "HipChat (inc. HipChat Data Center, HipChat Desktop, HipChat Mobile)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Stride (inc. Stride Video, Stride Desktop, Stride Mobile)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "support.atlassian.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Any customer instance. Do not test customer instances or affect customer data. Customer cloud instances may be in the form of <customer>.atlassian.net or <customer>.jira.com. Test only your own instances.",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Any repository that you are not an owner of - do not impact Atlassian customers in any way.",
+                    "type": "website"
+                },
+                {
+                    "identifier": "support.loom.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "info.loom.com",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/wise",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "transferwise.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.transferwise.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "wise.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.wise.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Latest version of Wise iOS App",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Latest version of Wise Android App",
+                    "type": "android"
+                },
+                {
+                    "identifier": "AWS infrastructure and services in use by Wise (eg: S3 buckets)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "github.com/transferwise/*",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "Wise Affiliate Program",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Third party services not hosted by Wise",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Any Github asset not under the \u201ctransferwise\u201d organization",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Third party authentication services (eg: Facebook and Google)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://transferwise.com/help/contact",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://wise.com/help/contact",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.tw.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.tw.ee",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Non-current version of the Android app",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Non-current version of the iOS app",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "*.transferwise.tech",
+                    "type": "website"
+                },
+                {
+                    "identifier": "brand.wise.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "links.wise.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "widgets.transferwise.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "brand.transferwise.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "bootstrap.transferwise.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "links.transferwise.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "status.wise.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "status.transferwise.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "tech.transferwise.com",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
         "handle": "engagements/usaa",
         "bounty": 1,
         "active": 1,
@@ -6867,380 +7241,6 @@
                 }
             ],
             "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/wise",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "transferwise.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.transferwise.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "wise.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.wise.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Latest version of Wise iOS App",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Latest version of Wise Android App",
-                    "type": "android"
-                },
-                {
-                    "identifier": "AWS infrastructure and services in use by Wise (eg: S3 buckets)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "github.com/transferwise/*",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "Wise Affiliate Program",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Third party services not hosted by Wise",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Any Github asset not under the \u201ctransferwise\u201d organization",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Third party authentication services (eg: Facebook and Google)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://transferwise.com/help/contact",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://wise.com/help/contact",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.tw.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.tw.ee",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Non-current version of the Android app",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Non-current version of the iOS app",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "*.transferwise.tech",
-                    "type": "website"
-                },
-                {
-                    "identifier": "brand.wise.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "links.wise.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "widgets.transferwise.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "brand.transferwise.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "bootstrap.transferwise.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "links.transferwise.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "status.wise.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "status.transferwise.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "tech.transferwise.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/atlassian",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Atlassian Guard Standard and Premium (https://admin.atlassian.com/atlassian-guard)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Atlassian Admin (https://admin.atlassian.com/)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Atlassian Identity (https://id.atlassian.com/login)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Atlassian Start (https://start.atlassian.com)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Bitbucket Cloud including Bitbucket Pipelines (https://bitbucket.org)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Confluence Cloud (bugbounty-test-<bugcrowd-name>.atlassian.net/wiki)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Confluence Cloud Premium (bugbounty-test-<bugcrowd-name>.atlassian.net/wiki)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Confluence Cloud Mobile App for Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Confluence Cloud Mobile App for iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Jira Cloud Mobile App for Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Jira Cloud Mobile App for iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Jira Service Management Cloud (bugbounty-test-<bugcrowd-name>.atlassian.net)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Jira Software Cloud (bugbounty-test-<bugcrowd-name>.atlassian.net)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Jira Work Management Cloud formerly Jira Core (bugbounty-test-<bugcrowd-name>.atlassian.net)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Any associated *.atlassian.com or *.atl-paas.net domain that can be exploited DIRECTLY from the *.atlassian.net instance",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Rovo",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Atlassian Compass",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Atlassian Marketplace (https://marketplace.atlassian.com)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Atlassian Atlas",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Bitbucket Data Center",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Confluence Data Center",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Crowd",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Jira Core Data Center",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Jira Service Management Data Center",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Jira Software Data Center",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.atlastunnel.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Any other *.atlassian.com or *.atl-paas.net domain that cannot be exploited directly from a *.atlassian.net instance",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.loom.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Loom Desktop App (Windows)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Loom Desktop App (macOS)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Loom for Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Loom for iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Loom Chrome Extension",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Bamboo",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Confluence Companion App for macOS and Windows",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Confluence Data Center Mobile App for Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Confluence Data Center Mobile App for iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Crucible",
-                    "type": "website"
-                },
-                {
-                    "identifier": "FishEye",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Jira Data Center Mobile App for Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Jira Data Center Mobile App for iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Sourcetree for macOS and Windows (https://www.sourcetreeapp.com/)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Other - (all other Atlassian targets)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Jira Product Discovery",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Forge Platform",
-                    "type": "other"
-                },
-                {
-                    "identifier": "GraphQL API (bugbounty-test-<bugcrowd-name>.atlassian.net/gateway/api/graphql)",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://www.npmjs.com/package/@forge/cli",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "Any internal or development services.",
-                    "type": "website"
-                },
-                {
-                    "identifier": "First and third party apps and plugins from the marketplace are excluded from this bounty but may be in scope for https://bugcrowd.com/atlassianapps",
-                    "type": "website"
-                },
-                {
-                    "identifier": "shop.atlassian.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": " bytebucket.org",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.bitbucket.io",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://blog.bitbucket.org",
-                    "type": "website"
-                },
-                {
-                    "identifier": "HipChat (inc. HipChat Data Center, HipChat Desktop, HipChat Mobile)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Stride (inc. Stride Video, Stride Desktop, Stride Mobile)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "support.atlassian.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Any customer instance. Do not test customer instances or affect customer data. Customer cloud instances may be in the form of <customer>.atlassian.net or <customer>.jira.com. Test only your own instances.",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Any repository that you are not an owner of - do not impact Atlassian customers in any way.",
-                    "type": "website"
-                },
-                {
-                    "identifier": "support.loom.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "info.loom.com",
-                    "type": "website"
-                }
-            ]
         }
     },
     {
@@ -10273,161 +10273,6 @@
         }
     },
     {
-        "handle": "engagements/epam-mbb-og",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Subdomain takeover",
-                    "type": "other"
-                },
-                {
-                    "identifier": "*.epam.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.projects.epam.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.lab.epam.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.opensource.epam.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.emakina.nl ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.emakina.group",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.emakina.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.emakina.ch",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.emakina.fr",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.emakina.us",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.emakina.at",
-                    "type": "website"
-                },
-                {
-                    "identifier": "open redirect at *.epam.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Open redirect at *.projects.epam.com, *.lab.epam.com, *.opensource.epam.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "In Scope - Points only",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "ethics.epam.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "profile.epam.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "carbon.epam.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "infongen.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "ebn.epam.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "solutionshub.epam.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "telescopeai.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "wearecommunity.io",
-                    "type": "website"
-                },
-                {
-                    "identifier": "cami.lab.epam.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "ellie.lab.epam.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "apex.lab.epam.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "investors.epam.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "ecsd00300769.epam.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "display.epam.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "info.epam.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "admin-ui.preship.gcp.gnrg-osdu.projects.epam.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "support.epam.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "customersupport.epam.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "supportnow.epam.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "anywhere.epam.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.buddybot.lab.epam.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/pixabay",
         "bounty": 1,
         "active": 1,
@@ -11299,6 +11144,161 @@
                 }
             ],
             "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/epam-mbb-og",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Subdomain takeover",
+                    "type": "other"
+                },
+                {
+                    "identifier": "*.epam.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.projects.epam.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.lab.epam.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.opensource.epam.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.emakina.nl ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.emakina.group",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.emakina.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.emakina.ch",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.emakina.fr",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.emakina.us",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.emakina.at",
+                    "type": "website"
+                },
+                {
+                    "identifier": "open redirect at *.epam.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Open redirect at *.projects.epam.com, *.lab.epam.com, *.opensource.epam.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "In Scope - Points only",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "ethics.epam.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "profile.epam.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "carbon.epam.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "infongen.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "ebn.epam.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "solutionshub.epam.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "telescopeai.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "wearecommunity.io",
+                    "type": "website"
+                },
+                {
+                    "identifier": "cami.lab.epam.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "ellie.lab.epam.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "apex.lab.epam.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "investors.epam.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "ecsd00300769.epam.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "display.epam.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "info.epam.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "admin-ui.preship.gcp.gnrg-osdu.projects.epam.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "support.epam.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "customersupport.epam.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "supportnow.epam.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "anywhere.epam.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.buddybot.lab.epam.com",
+                    "type": "website"
+                }
+            ]
         }
     },
     {
@@ -15151,73 +15151,6 @@
         }
     },
     {
-        "handle": "engagements/dell-com",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.dell.com/*",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.delltechnologies.com/* ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://console.delltechnologies.com/nav/administration",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://console.delltechnologies.com/nav/invoice",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://console.delltechnologies.com/nav/billing",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Any Verified Dell-Controlled Endpoint (domains/IP space/etc.)\t",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "https://console.delltechnologies.com/ ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://console.delltechnologies.com/nav/catalog",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://console.delltechnologies.com/nav/support",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://console.delltechnologies.com/nav/subscriptions",
-                    "type": "website"
-                },
-                {
-                    "identifier": "educate.dell.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "console.dell.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "console-test.dell.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "salesproductivity.dell.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/statuspage",
         "bounty": 1,
         "active": 1,
@@ -15778,52 +15711,6 @@
         }
     },
     {
-        "handle": "engagements/opensea",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "opensea.io",
-                    "type": "website"
-                },
-                {
-                    "identifier": "http://wallet.opensea.io/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "io.opensea - Android App",
-                    "type": "android"
-                },
-                {
-                    "identifier": "io.opensea - iOS App",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "OpenSea MCP",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://github.com/ProjectOpenSea/seaport#deployments",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://etherscan.io/address/0x0000a26b00c1F0DF003000390027140000fAa719",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://etherscan.io/address/0x00005EA00Ac477B1030CE78506496e8C2dE24bf5",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Broken Link",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/intercom",
         "bounty": 1,
         "active": 1,
@@ -16043,6 +15930,105 @@
                 {
                     "identifier": "www.tube8vip.com ",
                     "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/bugcrowd",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "docs.bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Crowdcontrol",
+                    "type": "api"
+                },
+                {
+                    "identifier": "api.bugcrowd.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "gov.bugcrowd.net",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.gov.bugcrowd.net",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://identity.bugcrowd.com/ ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.bugcrowd.com/auth/*",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "bugcrowd*.freshdesk.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "www.bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "blog.bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "researcherdocs.bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "pages.bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "forum.bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "email.bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "email.forum.bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "go.bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "events.bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "assetinventory.bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "community.bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "trust.bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Social Engineering",
+                    "type": "other"
                 }
             ]
         }
@@ -16297,6 +16283,52 @@
         }
     },
     {
+        "handle": "engagements/opensea",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "opensea.io",
+                    "type": "website"
+                },
+                {
+                    "identifier": "http://wallet.opensea.io/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "io.opensea - Android App",
+                    "type": "android"
+                },
+                {
+                    "identifier": "io.opensea - iOS App",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "OpenSea MCP",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://github.com/ProjectOpenSea/seaport#deployments",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://etherscan.io/address/0x0000a26b00c1F0DF003000390027140000fAa719",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://etherscan.io/address/0x00005EA00Ac477B1030CE78506496e8C2dE24bf5",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Broken Link",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
         "handle": "engagements/trm-labs-public-mbb",
         "bounty": 1,
         "active": 1,
@@ -16315,100 +16347,68 @@
         }
     },
     {
-        "handle": "engagements/bugcrowd",
+        "handle": "engagements/dell-com",
         "bounty": 1,
         "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "docs.bugcrowd.com",
+                    "identifier": "*.dell.com/*",
                     "type": "website"
                 },
                 {
-                    "identifier": "bugcrowd.com",
+                    "identifier": "*.delltechnologies.com/* ",
                     "type": "website"
                 },
                 {
-                    "identifier": "Crowdcontrol",
-                    "type": "api"
-                },
-                {
-                    "identifier": "api.bugcrowd.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "gov.bugcrowd.net",
+                    "identifier": "https://console.delltechnologies.com/nav/administration",
                     "type": "website"
                 },
                 {
-                    "identifier": "*.gov.bugcrowd.net",
+                    "identifier": "https://console.delltechnologies.com/nav/invoice",
                     "type": "website"
                 },
                 {
-                    "identifier": "https://identity.bugcrowd.com/ ",
+                    "identifier": "https://console.delltechnologies.com/nav/billing",
                     "type": "website"
                 },
                 {
-                    "identifier": "*.bugcrowd.com/auth/*",
-                    "type": "website"
+                    "identifier": "Any Verified Dell-Controlled Endpoint (domains/IP space/etc.)\t",
+                    "type": "other"
                 }
             ],
             "out_of_scope": [
                 {
-                    "identifier": "bugcrowd*.freshdesk.com",
+                    "identifier": "https://console.delltechnologies.com/ ",
                     "type": "website"
                 },
                 {
-                    "identifier": "www.bugcrowd.com",
+                    "identifier": "https://console.delltechnologies.com/nav/catalog",
                     "type": "website"
                 },
                 {
-                    "identifier": "blog.bugcrowd.com",
+                    "identifier": "https://console.delltechnologies.com/nav/support",
                     "type": "website"
                 },
                 {
-                    "identifier": "researcherdocs.bugcrowd.com",
+                    "identifier": "https://console.delltechnologies.com/nav/subscriptions",
                     "type": "website"
                 },
                 {
-                    "identifier": "pages.bugcrowd.com",
+                    "identifier": "educate.dell.com",
                     "type": "website"
                 },
                 {
-                    "identifier": "forum.bugcrowd.com",
+                    "identifier": "console.dell.com",
                     "type": "website"
                 },
                 {
-                    "identifier": "email.bugcrowd.com",
+                    "identifier": "console-test.dell.com",
                     "type": "website"
                 },
                 {
-                    "identifier": "email.forum.bugcrowd.com",
+                    "identifier": "salesproductivity.dell.com",
                     "type": "website"
-                },
-                {
-                    "identifier": "go.bugcrowd.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "events.bugcrowd.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "assetinventory.bugcrowd.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "community.bugcrowd.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "trust.bugcrowd.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Social Engineering",
-                    "type": "other"
                 }
             ]
         }
