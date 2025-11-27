@@ -4924,25 +4924,6 @@
         }
     },
     {
-        "handle": "engagements/fis",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Any FIS asset is in scope",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "Reference above out of scope targets",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/netgear",
         "bounty": 1,
         "active": 1,
@@ -7099,6 +7080,25 @@
         }
     },
     {
+        "handle": "engagements/fis",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Any FIS asset is in scope",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "Reference above out of scope targets",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
         "handle": "engagements/braze-bb",
         "bounty": 1,
         "active": 0,
@@ -7714,6 +7714,52 @@
         }
     },
     {
+        "handle": "engagements/backblaze",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Backblaze Android mobile application",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Backblaze iOS mobile application",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Mac Personal Backup Clients",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Windows Personal Backup Clients",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Mac Restore Downloaders",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Windows Restore Downloaders",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Git Repositories (b2-sdk-java & B2 Command Line Tool)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "B2 APIs (*.backblazeb2.com)",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Backblaze Website (*.backblaze.com)",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
         "handle": "engagements/bitdefenderbox2",
         "bounty": 1,
         "active": 1,
@@ -7824,52 +7870,6 @@
         }
     },
     {
-        "handle": "engagements/backblaze",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Backblaze Android mobile application",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Backblaze iOS mobile application",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Mac Personal Backup Clients",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Windows Personal Backup Clients",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Mac Restore Downloaders",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Windows Restore Downloaders",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Git Repositories (b2-sdk-java & B2 Command Line Tool)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "B2 APIs (*.backblazeb2.com)",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Backblaze Website (*.backblaze.com)",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/quizlet",
         "bounty": 1,
         "active": 1,
@@ -7944,6 +7944,45 @@
                 }
             ],
             "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/flourish",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "flo.uri.sh",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.flourish.studio",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.xyzbmojn.net",
+                    "type": "website"
+                },
+                {
+                    "identifier": "flourish-user-templates.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "flourish-user-preview.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.kiln.it",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "training.flourish.studio",
+                    "type": "website"
+                }
+            ]
         }
     },
     {
@@ -8044,95 +8083,6 @@
                 },
                 {
                     "identifier": "community.linktr.ee",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/sendbird-mbb",
-        "bounty": 1,
-        "active": 0,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://dashboard.sendbird.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://gate.sendbird.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://api-{app-id}.sendbird.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://ws-{app-id}.sendbird.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://desk-api-{region}.sendbird.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://ws-{app-id}.calls.sendbird.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://api-{app-id}.calls.sendbird.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://api-{app-id}.notifications.sendbird.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://sendbird.com/docs",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://sendbird.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/flourish",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "flo.uri.sh",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.flourish.studio",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.xyzbmojn.net",
-                    "type": "website"
-                },
-                {
-                    "identifier": "flourish-user-templates.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "flourish-user-preview.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.kiln.it",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "training.flourish.studio",
                     "type": "website"
                 }
             ]
@@ -8972,6 +8922,28 @@
         }
     },
     {
+        "handle": "engagements/fireblocks-mbb-og",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "sb-console-api.fireblocks.io",
+                    "type": "website"
+                },
+                {
+                    "identifier": "sb-mobile-api.fireblocks.io",
+                    "type": "website"
+                },
+                {
+                    "identifier": "sandbox-api.fireblocks.io",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
         "handle": "engagements/simplisafe",
         "bounty": 1,
         "active": 1,
@@ -9107,21 +9079,49 @@
         }
     },
     {
-        "handle": "engagements/fireblocks-mbb-og",
+        "handle": "engagements/sendbird-mbb",
         "bounty": 1,
-        "active": 1,
+        "active": 0,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "sb-console-api.fireblocks.io",
+                    "identifier": "https://dashboard.sendbird.com",
                     "type": "website"
                 },
                 {
-                    "identifier": "sb-mobile-api.fireblocks.io",
+                    "identifier": "https://gate.sendbird.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://api-{app-id}.sendbird.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://ws-{app-id}.sendbird.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://desk-api-{region}.sendbird.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://ws-{app-id}.calls.sendbird.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://api-{app-id}.calls.sendbird.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://api-{app-id}.notifications.sendbird.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://sendbird.com/docs",
                     "type": "website"
                 },
                 {
-                    "identifier": "sandbox-api.fireblocks.io",
+                    "identifier": "https://sendbird.com",
                     "type": "website"
                 }
             ],
@@ -9427,61 +9427,6 @@
             "out_of_scope": [
                 {
                     "identifier": "http://www.theplaymania.com/",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/fivetran-mbb-og",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.fivetran.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Fivetran SDK",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "Any internal, staging, or development services.",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Social engineering against Fivetran Support or Fivetran Employees",
-                    "type": "other"
-                },
-                {
-                    "identifier": "*.db.fivetran.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "testing-datalake.fivetran.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "shop.fivetran.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "status.fivetran.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "support.fivetran.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "community-stage.fivetran.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "trust.fivetran.com",
                     "type": "website"
                 }
             ]
@@ -11011,6 +10956,61 @@
         }
     },
     {
+        "handle": "engagements/fivetran-mbb-og",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.fivetran.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Fivetran SDK",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "Any internal, staging, or development services.",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Social engineering against Fivetran Support or Fivetran Employees",
+                    "type": "other"
+                },
+                {
+                    "identifier": "*.db.fivetran.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "testing-datalake.fivetran.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "shop.fivetran.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "status.fivetran.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "support.fivetran.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "community-stage.fivetran.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "trust.fivetran.com",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
         "handle": "engagements/shipwire",
         "bounty": 1,
         "active": 0,
@@ -11034,6 +11034,24 @@
         "active": 0,
         "assets": {
             "in_scope": [],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/ultramobile-public",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://www.mintmobile.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.ultramobile.com",
+                    "type": "website"
+                }
+            ],
             "out_of_scope": []
         }
     },
@@ -11094,24 +11112,6 @@
                     "type": "website"
                 }
             ]
-        }
-    },
-    {
-        "handle": "engagements/ultramobile-public",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://www.mintmobile.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.ultramobile.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
         }
     },
     {
@@ -11236,149 +11236,6 @@
                 },
                 {
                     "identifier": "Anything not explicitly listed as in-scope",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/kohls",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Kohl\u2019s entire public digital footprint that is not Out-Of-Scope(See list below)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "www.kohls.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Kohl's Mobile Application for iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Kohl's Mobile Application for Android",
-                    "type": "android"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "apply.kohls.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*kohls.com/kohlscredit/prequal",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*kohlsecommerce.com/kohlscredit/prequal",
-                    "type": "other"
-                },
-                {
-                    "identifier": "corporate.kohls.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "productchampions.kohls.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "link-preprod.kohls.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "developer.kohls.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "lclive.kohls.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "author-mykohls.kohls.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "mykohls-origin.kohls.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "origin-stage65-corporate.kohls.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "origin-stage65-mykohls.kohls.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "author-stage65-mykohls.kohls.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "stage65-corporate.kohls.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "stage65-mykohls.kohls.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "author-qa65-mykohls.kohls.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "mykohls.kohls.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "any domain with archaius.json endoint is out of scope",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*kohls.com/feature/pre-qual/prequal_inquiry.jsp?icid=prequalfooter",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*kohls.com/checkout/prequal_inquiry.jsp#/preQualEligible",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*kohlsecommerce.com/feature/pre-qual/prequal_inquiry.jsp?icid=prequalfooter",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*kohlsecommerce.com/checkout/prequal_inquiry.jsp#/preQualEligible",
-                    "type": "website"
-                },
-                {
-                    "identifier": "vp-*.kohls.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*qa*.kohls.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "wfh*.kohls.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "kconnect.kohls.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "connection.kohls.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "kohlsmerch.kohls.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "b2b.kohls.com/",
                     "type": "website"
                 }
             ]
@@ -13025,6 +12882,149 @@
                 }
             ],
             "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/kohls",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Kohl\u2019s entire public digital footprint that is not Out-Of-Scope(See list below)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "www.kohls.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Kohl's Mobile Application for iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Kohl's Mobile Application for Android",
+                    "type": "android"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "apply.kohls.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*kohls.com/kohlscredit/prequal",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*kohlsecommerce.com/kohlscredit/prequal",
+                    "type": "other"
+                },
+                {
+                    "identifier": "corporate.kohls.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "productchampions.kohls.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "link-preprod.kohls.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "developer.kohls.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "lclive.kohls.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "author-mykohls.kohls.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "mykohls-origin.kohls.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "origin-stage65-corporate.kohls.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "origin-stage65-mykohls.kohls.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "author-stage65-mykohls.kohls.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "stage65-corporate.kohls.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "stage65-mykohls.kohls.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "author-qa65-mykohls.kohls.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "mykohls.kohls.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "any domain with archaius.json endoint is out of scope",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*kohls.com/feature/pre-qual/prequal_inquiry.jsp?icid=prequalfooter",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*kohls.com/checkout/prequal_inquiry.jsp#/preQualEligible",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*kohlsecommerce.com/feature/pre-qual/prequal_inquiry.jsp?icid=prequalfooter",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*kohlsecommerce.com/checkout/prequal_inquiry.jsp#/preQualEligible",
+                    "type": "website"
+                },
+                {
+                    "identifier": "vp-*.kohls.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*qa*.kohls.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "wfh*.kohls.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "kconnect.kohls.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "connection.kohls.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "kohlsmerch.kohls.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "b2b.kohls.com/",
+                    "type": "website"
+                }
+            ]
         }
     },
     {
@@ -15639,105 +15639,6 @@
         }
     },
     {
-        "handle": "engagements/bugcrowd",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "docs.bugcrowd.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "bugcrowd.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Crowdcontrol",
-                    "type": "api"
-                },
-                {
-                    "identifier": "api.bugcrowd.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "gov.bugcrowd.net",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.gov.bugcrowd.net",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://identity.bugcrowd.com/ ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.bugcrowd.com/auth/*",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "bugcrowd*.freshdesk.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "www.bugcrowd.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "blog.bugcrowd.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "researcherdocs.bugcrowd.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "pages.bugcrowd.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "forum.bugcrowd.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "email.bugcrowd.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "email.forum.bugcrowd.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "go.bugcrowd.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "events.bugcrowd.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "assetinventory.bugcrowd.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "community.bugcrowd.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "trust.bugcrowd.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Social Engineering",
-                    "type": "other"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/binance",
         "bounty": 1,
         "active": 1,
@@ -16064,6 +15965,105 @@
                 {
                     "identifier": "Any other third-party websites hosted by non-Tesla entities",
                     "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/bugcrowd",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "docs.bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Crowdcontrol",
+                    "type": "api"
+                },
+                {
+                    "identifier": "api.bugcrowd.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "gov.bugcrowd.net",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.gov.bugcrowd.net",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://identity.bugcrowd.com/ ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.bugcrowd.com/auth/*",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "bugcrowd*.freshdesk.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "www.bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "blog.bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "researcherdocs.bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "pages.bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "forum.bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "email.bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "email.forum.bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "go.bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "events.bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "assetinventory.bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "community.bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "trust.bugcrowd.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Social Engineering",
+                    "type": "other"
                 }
             ]
         }
