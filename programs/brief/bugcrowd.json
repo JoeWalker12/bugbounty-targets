@@ -6398,257 +6398,6 @@
         }
     },
     {
-        "handle": "engagements/atlassian",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Atlassian Guard Standard and Premium (https://admin.atlassian.com/atlassian-guard)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Atlassian Admin (https://admin.atlassian.com/)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Atlassian Identity (https://id.atlassian.com/login)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Atlassian Start (https://start.atlassian.com)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Bitbucket Cloud including Bitbucket Pipelines (https://bitbucket.org)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Confluence Cloud (bugbounty-test-<bugcrowd-name>.atlassian.net/wiki)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Confluence Cloud Premium (bugbounty-test-<bugcrowd-name>.atlassian.net/wiki)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Confluence Cloud Mobile App for Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Confluence Cloud Mobile App for iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Jira Cloud Mobile App for Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Jira Cloud Mobile App for iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Jira Service Management Cloud (bugbounty-test-<bugcrowd-name>.atlassian.net)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Jira Software Cloud (bugbounty-test-<bugcrowd-name>.atlassian.net)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Jira Work Management Cloud formerly Jira Core (bugbounty-test-<bugcrowd-name>.atlassian.net)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Any associated *.atlassian.com or *.atl-paas.net domain that can be exploited DIRECTLY from the *.atlassian.net instance",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Rovo",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Atlassian Compass",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Atlassian Marketplace (https://marketplace.atlassian.com)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Atlassian Atlas",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Bitbucket Data Center",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Confluence Data Center",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Crowd",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Jira Core Data Center",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Jira Service Management Data Center",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Jira Software Data Center",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.atlastunnel.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Any other *.atlassian.com or *.atl-paas.net domain that cannot be exploited directly from a *.atlassian.net instance",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.loom.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Loom Desktop App (Windows)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Loom Desktop App (macOS)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Loom for Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Loom for iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Loom Chrome Extension",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Bamboo",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Confluence Companion App for macOS and Windows",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Confluence Data Center Mobile App for Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Confluence Data Center Mobile App for iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Crucible",
-                    "type": "website"
-                },
-                {
-                    "identifier": "FishEye",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Jira Data Center Mobile App for Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Jira Data Center Mobile App for iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Sourcetree for macOS and Windows (https://www.sourcetreeapp.com/)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Other - (all other Atlassian targets)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Jira Product Discovery",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Forge Platform",
-                    "type": "other"
-                },
-                {
-                    "identifier": "GraphQL API (bugbounty-test-<bugcrowd-name>.atlassian.net/gateway/api/graphql)",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://www.npmjs.com/package/@forge/cli",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "Any internal or development services.",
-                    "type": "website"
-                },
-                {
-                    "identifier": "First and third party apps and plugins from the marketplace are excluded from this bounty but may be in scope for https://bugcrowd.com/atlassianapps",
-                    "type": "website"
-                },
-                {
-                    "identifier": "shop.atlassian.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": " bytebucket.org",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.bitbucket.io",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://blog.bitbucket.org",
-                    "type": "website"
-                },
-                {
-                    "identifier": "HipChat (inc. HipChat Data Center, HipChat Desktop, HipChat Mobile)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Stride (inc. Stride Video, Stride Desktop, Stride Mobile)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "support.atlassian.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Any customer instance. Do not test customer instances or affect customer data. Customer cloud instances may be in the form of <customer>.atlassian.net or <customer>.jira.com. Test only your own instances.",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Any repository that you are not an owner of - do not impact Atlassian customers in any way.",
-                    "type": "website"
-                },
-                {
-                    "identifier": "support.loom.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "info.loom.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/aiven-mbb-og",
         "bounty": 1,
         "active": 1,
@@ -7099,6 +6848,257 @@
         }
     },
     {
+        "handle": "engagements/atlassian",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Atlassian Guard Standard and Premium (https://admin.atlassian.com/atlassian-guard)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Atlassian Admin (https://admin.atlassian.com/)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Atlassian Identity (https://id.atlassian.com/login)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Atlassian Start (https://start.atlassian.com)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Bitbucket Cloud including Bitbucket Pipelines (https://bitbucket.org)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Confluence Cloud (bugbounty-test-<bugcrowd-name>.atlassian.net/wiki)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Confluence Cloud Premium (bugbounty-test-<bugcrowd-name>.atlassian.net/wiki)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Confluence Cloud Mobile App for Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Confluence Cloud Mobile App for iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Jira Cloud Mobile App for Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Jira Cloud Mobile App for iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Jira Service Management Cloud (bugbounty-test-<bugcrowd-name>.atlassian.net)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Jira Software Cloud (bugbounty-test-<bugcrowd-name>.atlassian.net)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Jira Work Management Cloud formerly Jira Core (bugbounty-test-<bugcrowd-name>.atlassian.net)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Any associated *.atlassian.com or *.atl-paas.net domain that can be exploited DIRECTLY from the *.atlassian.net instance",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Rovo",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Atlassian Compass",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Atlassian Marketplace (https://marketplace.atlassian.com)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Atlassian Atlas",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Bitbucket Data Center",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Confluence Data Center",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Crowd",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Jira Core Data Center",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Jira Service Management Data Center",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Jira Software Data Center",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.atlastunnel.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Any other *.atlassian.com or *.atl-paas.net domain that cannot be exploited directly from a *.atlassian.net instance",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.loom.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Loom Desktop App (Windows)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Loom Desktop App (macOS)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Loom for Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Loom for iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Loom Chrome Extension",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Bamboo",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Confluence Companion App for macOS and Windows",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Confluence Data Center Mobile App for Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Confluence Data Center Mobile App for iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Crucible",
+                    "type": "website"
+                },
+                {
+                    "identifier": "FishEye",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Jira Data Center Mobile App for Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Jira Data Center Mobile App for iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Sourcetree for macOS and Windows (https://www.sourcetreeapp.com/)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Other - (all other Atlassian targets)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Jira Product Discovery",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Forge Platform",
+                    "type": "other"
+                },
+                {
+                    "identifier": "GraphQL API (bugbounty-test-<bugcrowd-name>.atlassian.net/gateway/api/graphql)",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://www.npmjs.com/package/@forge/cli",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "Any internal or development services.",
+                    "type": "website"
+                },
+                {
+                    "identifier": "First and third party apps and plugins from the marketplace are excluded from this bounty but may be in scope for https://bugcrowd.com/atlassianapps",
+                    "type": "website"
+                },
+                {
+                    "identifier": "shop.atlassian.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": " bytebucket.org",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.bitbucket.io",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://blog.bitbucket.org",
+                    "type": "website"
+                },
+                {
+                    "identifier": "HipChat (inc. HipChat Data Center, HipChat Desktop, HipChat Mobile)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Stride (inc. Stride Video, Stride Desktop, Stride Mobile)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "support.atlassian.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Any customer instance. Do not test customer instances or affect customer data. Customer cloud instances may be in the form of <customer>.atlassian.net or <customer>.jira.com. Test only your own instances.",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Any repository that you are not an owner of - do not impact Atlassian customers in any way.",
+                    "type": "website"
+                },
+                {
+                    "identifier": "support.loom.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "info.loom.com",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
         "handle": "engagements/braze-bb",
         "bounty": 1,
         "active": 0,
@@ -7371,28 +7371,6 @@
                 {
                     "identifier": "ws.blockchain.info",
                     "type": "api"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/craftcoders",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://marketplace.atlassian.com/apps/1223249/mailto-wiki-send-emails-to-confluence?hosting=cloud&tab=overview",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://marketplace.atlassian.com/apps/1223249/mailto-wiki-send-emails-to-confluence?tab=overview&hosting=server",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://marketplace.atlassian.com/apps/1223249/mailto-wiki-email-for-confluence?hosting=datacenter&tab=overview",
-                    "type": "website"
                 }
             ],
             "out_of_scope": []
@@ -7714,6 +7692,52 @@
         }
     },
     {
+        "handle": "engagements/backblaze",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Backblaze Android mobile application",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Backblaze iOS mobile application",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Mac Personal Backup Clients",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Windows Personal Backup Clients",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Mac Restore Downloaders",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Windows Restore Downloaders",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Git Repositories (b2-sdk-java & B2 Command Line Tool)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "B2 APIs (*.backblazeb2.com)",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Backblaze Website (*.backblaze.com)",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
         "handle": "engagements/bitdefenderbox2",
         "bounty": 1,
         "active": 1,
@@ -7824,52 +7848,6 @@
         }
     },
     {
-        "handle": "engagements/backblaze",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Backblaze Android mobile application",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Backblaze iOS mobile application",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Mac Personal Backup Clients",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Windows Personal Backup Clients",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Mac Restore Downloaders",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Windows Restore Downloaders",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Git Repositories (b2-sdk-java & B2 Command Line Tool)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "B2 APIs (*.backblazeb2.com)",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Backblaze Website (*.backblaze.com)",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/quizlet",
         "bounty": 1,
         "active": 1,
@@ -7944,6 +7922,45 @@
                 }
             ],
             "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/flourish",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "flo.uri.sh",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.flourish.studio",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.xyzbmojn.net",
+                    "type": "website"
+                },
+                {
+                    "identifier": "flourish-user-templates.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "flourish-user-preview.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.kiln.it",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "training.flourish.studio",
+                    "type": "website"
+                }
+            ]
         }
     },
     {
@@ -8044,45 +8061,6 @@
                 },
                 {
                     "identifier": "community.linktr.ee",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/flourish",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "flo.uri.sh",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.flourish.studio",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.xyzbmojn.net",
-                    "type": "website"
-                },
-                {
-                    "identifier": "flourish-user-templates.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "flourish-user-preview.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.kiln.it",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "training.flourish.studio",
                     "type": "website"
                 }
             ]
@@ -8655,6 +8633,28 @@
         }
     },
     {
+        "handle": "engagements/fireblocks-mbb-og",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "sb-console-api.fireblocks.io",
+                    "type": "website"
+                },
+                {
+                    "identifier": "sb-mobile-api.fireblocks.io",
+                    "type": "website"
+                },
+                {
+                    "identifier": "sandbox-api.fireblocks.io",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
         "handle": "engagements/simplisafe",
         "bounty": 1,
         "active": 1,
@@ -8787,28 +8787,6 @@
                     "type": "website"
                 }
             ]
-        }
-    },
-    {
-        "handle": "engagements/fireblocks-mbb-og",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "sb-console-api.fireblocks.io",
-                    "type": "website"
-                },
-                {
-                    "identifier": "sb-mobile-api.fireblocks.io",
-                    "type": "website"
-                },
-                {
-                    "identifier": "sandbox-api.fireblocks.io",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
         }
     },
     {
@@ -9122,6 +9100,28 @@
                 },
                 {
                     "identifier": "hk.staging.jobsdb.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/craftcoders",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/1223249/mailto-wiki-send-emails-to-confluence?hosting=cloud&tab=overview",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/1223249/mailto-wiki-send-emails-to-confluence?tab=overview&hosting=server",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/1223249/mailto-wiki-email-for-confluence?hosting=datacenter&tab=overview",
                     "type": "website"
                 }
             ],
@@ -11281,29 +11281,6 @@
         }
     },
     {
-        "handle": "engagements/hostgator-latam-bb",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://www.hostgator.com.br/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://financeiro.hostgator.com.br",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "https://carrinho.hostgator.com.br/",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/mallofemirates",
         "bounty": 1,
         "active": 1,
@@ -11335,6 +11312,29 @@
                 }
             ],
             "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/hostgator-latam-bb",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://www.hostgator.com.br/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://financeiro.hostgator.com.br",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "https://carrinho.hostgator.com.br/",
+                    "type": "website"
+                }
+            ]
         }
     },
     {
@@ -12029,32 +12029,6 @@
         }
     },
     {
-        "handle": "engagements/wyze",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://auth.wyze.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://my.wyze.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://api.wyzecam.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Wyze Cam V3",
-                    "type": "hardware"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/opera",
         "bounty": 1,
         "active": 1,
@@ -12410,6 +12384,32 @@
         }
     },
     {
+        "handle": "engagements/wyze",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://auth.wyze.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://my.wyze.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://api.wyzecam.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Wyze Cam V3",
+                    "type": "hardware"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
         "handle": "engagements/aylo-brazzers-mbb-og",
         "bounty": 1,
         "active": 1,
@@ -12542,6 +12542,330 @@
                     "type": "website"
                 }
             ]
+        }
+    },
+    {
+        "handle": "engagements/anytask-mbb-og",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://api.anytask.com/",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://www.anytask.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "AnyTask Android app",
+                    "type": "android"
+                },
+                {
+                    "identifier": "AnyTask iOS app",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "api.anytask.thesecurityteam.rocks",
+                    "type": "api"
+                },
+                {
+                    "identifier": "anytask.thesecurityteam.rocks",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/optimizely",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://app.optimizely.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://cdn.optimizely.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://cdn-pci.optimizely.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://optimizely-edge.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://api.optimizely.com/",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://dxc.episerver.net/ ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://paasportal.episerver.net/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://paasportal.episerver.net/api/v1.0/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://app.welcomesoftware.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://accounts.welcomesoftware.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://api.welcomesoftware.com/ ",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://cdn-app.welcomesoftware.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://analytics.welcomesoftware.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://flags.expeng.optimizely.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://accounts.cmp.optimizely.com/",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "https://www.optimizely.com/",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/kohls",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Kohl\u2019s entire public digital footprint that is not Out-Of-Scope(See list below)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "www.kohls.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Kohl's Mobile Application for iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Kohl's Mobile Application for Android",
+                    "type": "android"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "apply.kohls.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*kohls.com/kohlscredit/prequal",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*kohlsecommerce.com/kohlscredit/prequal",
+                    "type": "other"
+                },
+                {
+                    "identifier": "corporate.kohls.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "productchampions.kohls.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "link-preprod.kohls.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "developer.kohls.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "lclive.kohls.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "author-mykohls.kohls.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "mykohls-origin.kohls.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "origin-stage65-corporate.kohls.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "origin-stage65-mykohls.kohls.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "author-stage65-mykohls.kohls.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "stage65-corporate.kohls.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "stage65-mykohls.kohls.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "author-qa65-mykohls.kohls.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "mykohls.kohls.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "any domain with archaius.json endoint is out of scope",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*kohls.com/feature/pre-qual/prequal_inquiry.jsp?icid=prequalfooter",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*kohls.com/checkout/prequal_inquiry.jsp#/preQualEligible",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*kohlsecommerce.com/feature/pre-qual/prequal_inquiry.jsp?icid=prequalfooter",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*kohlsecommerce.com/checkout/prequal_inquiry.jsp#/preQualEligible",
+                    "type": "website"
+                },
+                {
+                    "identifier": "vp-*.kohls.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*qa*.kohls.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "wfh*.kohls.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "kconnect.kohls.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "connection.kohls.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "kohlsmerch.kohls.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "b2b.kohls.com/",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/entain-public-mbb-og",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Partypoker Website (and all its subdomains)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Ladbrokes Digital  (and all its subdomains)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Coral Sports  (and all its subdomains)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Gala Bingo (and all its subdomains)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Partycasino Website (and all its subdomains)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Bwin Website (and all its subdomains)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Partycasino APK",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Bwin Poker-Casino iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Bwin Sports iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Partycasino iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Partypoker iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Gala Casino Website (and all its subdomains)",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/pantheon",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://dashboard.pantheon.io",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": []
         }
     },
     {
@@ -12701,330 +13025,6 @@
                     "type": "website"
                 }
             ]
-        }
-    },
-    {
-        "handle": "engagements/kohls",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Kohl\u2019s entire public digital footprint that is not Out-Of-Scope(See list below)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "www.kohls.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Kohl's Mobile Application for iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Kohl's Mobile Application for Android",
-                    "type": "android"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "apply.kohls.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*kohls.com/kohlscredit/prequal",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*kohlsecommerce.com/kohlscredit/prequal",
-                    "type": "other"
-                },
-                {
-                    "identifier": "corporate.kohls.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "productchampions.kohls.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "link-preprod.kohls.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "developer.kohls.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "lclive.kohls.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "author-mykohls.kohls.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "mykohls-origin.kohls.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "origin-stage65-corporate.kohls.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "origin-stage65-mykohls.kohls.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "author-stage65-mykohls.kohls.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "stage65-corporate.kohls.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "stage65-mykohls.kohls.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "author-qa65-mykohls.kohls.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "mykohls.kohls.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "any domain with archaius.json endoint is out of scope",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*kohls.com/feature/pre-qual/prequal_inquiry.jsp?icid=prequalfooter",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*kohls.com/checkout/prequal_inquiry.jsp#/preQualEligible",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*kohlsecommerce.com/feature/pre-qual/prequal_inquiry.jsp?icid=prequalfooter",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*kohlsecommerce.com/checkout/prequal_inquiry.jsp#/preQualEligible",
-                    "type": "website"
-                },
-                {
-                    "identifier": "vp-*.kohls.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*qa*.kohls.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "wfh*.kohls.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "kconnect.kohls.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "connection.kohls.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "kohlsmerch.kohls.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "b2b.kohls.com/",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/anytask-mbb-og",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://api.anytask.com/",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://www.anytask.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "AnyTask Android app",
-                    "type": "android"
-                },
-                {
-                    "identifier": "AnyTask iOS app",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "api.anytask.thesecurityteam.rocks",
-                    "type": "api"
-                },
-                {
-                    "identifier": "anytask.thesecurityteam.rocks",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/entain-public-mbb-og",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Partypoker Website (and all its subdomains)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Ladbrokes Digital  (and all its subdomains)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Coral Sports  (and all its subdomains)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Gala Bingo (and all its subdomains)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Partycasino Website (and all its subdomains)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Bwin Website (and all its subdomains)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Partycasino APK",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Bwin Poker-Casino iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Bwin Sports iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Partycasino iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Partypoker iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Gala Casino Website (and all its subdomains)",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/optimizely",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://app.optimizely.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://cdn.optimizely.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://cdn-pci.optimizely.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://optimizely-edge.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://api.optimizely.com/",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://dxc.episerver.net/ ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://paasportal.episerver.net/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://paasportal.episerver.net/api/v1.0/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://app.welcomesoftware.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://accounts.welcomesoftware.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://api.welcomesoftware.com/ ",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://cdn-app.welcomesoftware.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://analytics.welcomesoftware.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://flags.expeng.optimizely.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://accounts.cmp.optimizely.com/",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "https://www.optimizely.com/",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/pantheon",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://dashboard.pantheon.io",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": []
         }
     },
     {
