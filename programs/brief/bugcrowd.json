@@ -6460,257 +6460,6 @@
         }
     },
     {
-        "handle": "engagements/atlassian",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Atlassian Guard Standard and Premium (https://admin.atlassian.com/atlassian-guard)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Atlassian Admin (https://admin.atlassian.com/)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Atlassian Identity (https://id.atlassian.com/login)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Atlassian Start (https://start.atlassian.com)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Bitbucket Cloud including Bitbucket Pipelines (https://bitbucket.org)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Confluence Cloud (bugbounty-test-<bugcrowd-name>.atlassian.net/wiki)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Confluence Cloud Premium (bugbounty-test-<bugcrowd-name>.atlassian.net/wiki)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Confluence Cloud Mobile App for Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Confluence Cloud Mobile App for iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Jira Cloud Mobile App for Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Jira Cloud Mobile App for iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Jira Service Management Cloud (bugbounty-test-<bugcrowd-name>.atlassian.net)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Jira Software Cloud (bugbounty-test-<bugcrowd-name>.atlassian.net)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Jira Work Management Cloud formerly Jira Core (bugbounty-test-<bugcrowd-name>.atlassian.net)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Any associated *.atlassian.com or *.atl-paas.net domain that can be exploited DIRECTLY from the *.atlassian.net instance",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Rovo",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Atlassian Compass",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Atlassian Marketplace (https://marketplace.atlassian.com)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Atlassian Atlas",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Bitbucket Data Center",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Confluence Data Center",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Crowd",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Jira Core Data Center",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Jira Service Management Data Center",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Jira Software Data Center",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.atlastunnel.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Any other *.atlassian.com or *.atl-paas.net domain that cannot be exploited directly from a *.atlassian.net instance",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.loom.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Loom Desktop App (Windows)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Loom Desktop App (macOS)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Loom for Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Loom for iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Loom Chrome Extension",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Bamboo",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Confluence Companion App for macOS and Windows",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Confluence Data Center Mobile App for Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Confluence Data Center Mobile App for iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Crucible",
-                    "type": "website"
-                },
-                {
-                    "identifier": "FishEye",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Jira Data Center Mobile App for Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Jira Data Center Mobile App for iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Sourcetree for macOS and Windows (https://www.sourcetreeapp.com/)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Other - (all other Atlassian targets)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Jira Product Discovery",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Forge Platform",
-                    "type": "other"
-                },
-                {
-                    "identifier": "GraphQL API (bugbounty-test-<bugcrowd-name>.atlassian.net/gateway/api/graphql)",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://www.npmjs.com/package/@forge/cli",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "Any internal or development services.",
-                    "type": "website"
-                },
-                {
-                    "identifier": "First and third party apps and plugins from the marketplace are excluded from this bounty but may be in scope for https://bugcrowd.com/atlassianapps",
-                    "type": "website"
-                },
-                {
-                    "identifier": "shop.atlassian.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": " bytebucket.org",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.bitbucket.io",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://blog.bitbucket.org",
-                    "type": "website"
-                },
-                {
-                    "identifier": "HipChat (inc. HipChat Data Center, HipChat Desktop, HipChat Mobile)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Stride (inc. Stride Video, Stride Desktop, Stride Mobile)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "support.atlassian.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Any customer instance. Do not test customer instances or affect customer data. Customer cloud instances may be in the form of <customer>.atlassian.net or <customer>.jira.com. Test only your own instances.",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Any repository that you are not an owner of - do not impact Atlassian customers in any way.",
-                    "type": "website"
-                },
-                {
-                    "identifier": "support.loom.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "info.loom.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/asana",
         "bounty": 1,
         "active": 1,
@@ -7085,6 +6834,257 @@
         }
     },
     {
+        "handle": "engagements/atlassian",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Atlassian Guard Standard and Premium (https://admin.atlassian.com/atlassian-guard)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Atlassian Admin (https://admin.atlassian.com/)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Atlassian Identity (https://id.atlassian.com/login)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Atlassian Start (https://start.atlassian.com)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Bitbucket Cloud including Bitbucket Pipelines (https://bitbucket.org)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Confluence Cloud (bugbounty-test-<bugcrowd-name>.atlassian.net/wiki)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Confluence Cloud Premium (bugbounty-test-<bugcrowd-name>.atlassian.net/wiki)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Confluence Cloud Mobile App for Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Confluence Cloud Mobile App for iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Jira Cloud Mobile App for Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Jira Cloud Mobile App for iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Jira Service Management Cloud (bugbounty-test-<bugcrowd-name>.atlassian.net)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Jira Software Cloud (bugbounty-test-<bugcrowd-name>.atlassian.net)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Jira Work Management Cloud formerly Jira Core (bugbounty-test-<bugcrowd-name>.atlassian.net)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Any associated *.atlassian.com or *.atl-paas.net domain that can be exploited DIRECTLY from the *.atlassian.net instance",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Rovo",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Atlassian Compass",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Atlassian Marketplace (https://marketplace.atlassian.com)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Atlassian Atlas",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Bitbucket Data Center",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Confluence Data Center",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Crowd",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Jira Core Data Center",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Jira Service Management Data Center",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Jira Software Data Center",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.atlastunnel.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Any other *.atlassian.com or *.atl-paas.net domain that cannot be exploited directly from a *.atlassian.net instance",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.loom.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Loom Desktop App (Windows)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Loom Desktop App (macOS)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Loom for Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Loom for iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Loom Chrome Extension",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Bamboo",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Confluence Companion App for macOS and Windows",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Confluence Data Center Mobile App for Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Confluence Data Center Mobile App for iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Crucible",
+                    "type": "website"
+                },
+                {
+                    "identifier": "FishEye",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Jira Data Center Mobile App for Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Jira Data Center Mobile App for iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Sourcetree for macOS and Windows (https://www.sourcetreeapp.com/)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Other - (all other Atlassian targets)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Jira Product Discovery",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Forge Platform",
+                    "type": "other"
+                },
+                {
+                    "identifier": "GraphQL API (bugbounty-test-<bugcrowd-name>.atlassian.net/gateway/api/graphql)",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://www.npmjs.com/package/@forge/cli",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "Any internal or development services.",
+                    "type": "website"
+                },
+                {
+                    "identifier": "First and third party apps and plugins from the marketplace are excluded from this bounty but may be in scope for https://bugcrowd.com/atlassianapps",
+                    "type": "website"
+                },
+                {
+                    "identifier": "shop.atlassian.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": " bytebucket.org",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.bitbucket.io",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://blog.bitbucket.org",
+                    "type": "website"
+                },
+                {
+                    "identifier": "HipChat (inc. HipChat Data Center, HipChat Desktop, HipChat Mobile)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Stride (inc. Stride Video, Stride Desktop, Stride Mobile)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "support.atlassian.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Any customer instance. Do not test customer instances or affect customer data. Customer cloud instances may be in the form of <customer>.atlassian.net or <customer>.jira.com. Test only your own instances.",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Any repository that you are not an owner of - do not impact Atlassian customers in any way.",
+                    "type": "website"
+                },
+                {
+                    "identifier": "support.loom.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "info.loom.com",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
         "handle": "engagements/braze-bb",
         "bounty": 1,
         "active": 0,
@@ -7359,109 +7359,6 @@
                 {
                     "identifier": "app.web.com",
                     "type": "website"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/twentyminuten",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://www.20min.ch",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://cm.20min.ch/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://api.20min.ch/",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://videoplayer.20min.ch",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://partner-feeds.20min.ch",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://screenplayer.20min.ch",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://audio.20min.ch",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "https://tgt.tamedia.ch",
-                    "type": "api"
-                },
-                {
-                    "identifier": "http://auth.20min.ch",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://cre-api.tamedia.ch",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://track.20min.ch",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Social Media Links (older than 2 years)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Subdomain Takeover ",
-                    "type": "other"
-                },
-                {
-                    "identifier": "DMARC, SPF, DKIM",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://*.connect.ringier.ch",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.onelog.ch",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.20min-tv.ch",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.newsnetz.tv",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.appuser.ch",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.iagentur.ch",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.streamboat.ch",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.streamboatserver.ch",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Other Domains and Subdomains not specifically in scope",
-                    "type": "other"
                 }
             ]
         }
@@ -8770,45 +8667,6 @@
         }
     },
     {
-        "handle": "engagements/quizlet",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://*.quizlet.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Quizlet iOS App",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Quizlet Android App",
-                    "type": "android"
-                },
-                {
-                    "identifier": "3.0 API",
-                    "type": "api"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "api.quizlet.com/2.0",
-                    "type": "api"
-                },
-                {
-                    "identifier": " help.quizlet.com (zendesk)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "get.quizlet.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/openai",
         "bounty": 1,
         "active": 1,
@@ -8869,143 +8727,6 @@
                 {
                     "identifier": "Atlas",
                     "type": "other"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/coindesk-mbb-og",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "coindesk.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "CoinDesk Indices",
-                    "type": "website"
-                },
-                {
-                    "identifier": "CoinDesk Events",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Production CoinDesk Events",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Consensus2023 Site",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Consensus2024 Site",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Consensus2025 Site",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Consensus HK Site",
-                    "type": "website"
-                },
-                {
-                    "identifier": "uat.coindesk.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "uat.accounts.coindesk.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "CoinDesk Staging Site",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/seek-com",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.employer.seek.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.jobsdb.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.jobstreet.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.jobstreet.com.sg",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.jobstreet.com.my",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.jobstreet.co.id",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.seekasia.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "id.employer.staging.seek.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "my.employer.staging.seek.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "ph.employer.staging.seek.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "hk.employer.staging.seek.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "th.employer.staging.seek.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "www.staging.jobstreet.com.ph",
-                    "type": "website"
-                },
-                {
-                    "identifier": "www.staging.jobstreet.co.id",
-                    "type": "website"
-                },
-                {
-                    "identifier": "www.staging.jobstreet.com.sg",
-                    "type": "website"
-                },
-                {
-                    "identifier": "www.staging.jobstreet.com.my",
-                    "type": "website"
-                },
-                {
-                    "identifier": "th.staging.jobsdb.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "hk.staging.jobsdb.com",
-                    "type": "website"
                 }
             ],
             "out_of_scope": []
@@ -9109,6 +8830,285 @@
                 },
                 {
                     "identifier": "community.linktr.ee",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/quizlet",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://*.quizlet.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Quizlet iOS App",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Quizlet Android App",
+                    "type": "android"
+                },
+                {
+                    "identifier": "3.0 API",
+                    "type": "api"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "api.quizlet.com/2.0",
+                    "type": "api"
+                },
+                {
+                    "identifier": " help.quizlet.com (zendesk)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "get.quizlet.com",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/twentyminuten",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://www.20min.ch",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://cm.20min.ch/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://api.20min.ch/",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://videoplayer.20min.ch",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://partner-feeds.20min.ch",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://screenplayer.20min.ch",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://audio.20min.ch",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "https://tgt.tamedia.ch",
+                    "type": "api"
+                },
+                {
+                    "identifier": "http://auth.20min.ch",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://cre-api.tamedia.ch",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://track.20min.ch",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Social Media Links (older than 2 years)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Subdomain Takeover ",
+                    "type": "other"
+                },
+                {
+                    "identifier": "DMARC, SPF, DKIM",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://*.connect.ringier.ch",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.onelog.ch",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.20min-tv.ch",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.newsnetz.tv",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.appuser.ch",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.iagentur.ch",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.streamboat.ch",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.streamboatserver.ch",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Other Domains and Subdomains not specifically in scope",
+                    "type": "other"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/seek-com",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.employer.seek.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.jobsdb.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.jobstreet.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.jobstreet.com.sg",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.jobstreet.com.my",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.jobstreet.co.id",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.seekasia.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "id.employer.staging.seek.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "my.employer.staging.seek.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "ph.employer.staging.seek.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "hk.employer.staging.seek.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "th.employer.staging.seek.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "www.staging.jobstreet.com.ph",
+                    "type": "website"
+                },
+                {
+                    "identifier": "www.staging.jobstreet.co.id",
+                    "type": "website"
+                },
+                {
+                    "identifier": "www.staging.jobstreet.com.sg",
+                    "type": "website"
+                },
+                {
+                    "identifier": "www.staging.jobstreet.com.my",
+                    "type": "website"
+                },
+                {
+                    "identifier": "th.staging.jobsdb.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "hk.staging.jobsdb.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/coindesk-mbb-og",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "coindesk.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "CoinDesk Indices",
+                    "type": "website"
+                },
+                {
+                    "identifier": "CoinDesk Events",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Production CoinDesk Events",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Consensus2023 Site",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Consensus2024 Site",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Consensus2025 Site",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Consensus HK Site",
+                    "type": "website"
+                },
+                {
+                    "identifier": "uat.coindesk.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "uat.accounts.coindesk.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "CoinDesk Staging Site",
                     "type": "website"
                 }
             ]
@@ -10297,105 +10297,6 @@
         }
     },
     {
-        "handle": "engagements/lululemon",
-        "bounty": 1,
-        "active": 0,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "shop.lululemon.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.lululemon.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Lululemon Mobile App - iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "https://www.lululemon.com.au",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.lululemon.de",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.lululemon.es",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.eu.lululemon.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.lululemon.fr",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.lululemon.com.hk",
-                    "type": "website"
-                },
-                {
-                    "identifier": "http://www.lululemon.co.jp",
-                    "type": "website"
-                },
-                {
-                    "identifier": "http://www.lululemon.co.kr",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.lululemon.co.nz",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.lululemon.co.uk",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "*.lululemon.cn",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://fr.shop.lululemon.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.lululemon.me",
-                    "type": "website"
-                },
-                {
-                    "identifier": "careers.lululemon.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://info.lululemon.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://pnimages.lululemon.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "AEM - Assets",
-                    "type": "website"
-                },
-                {
-                    "identifier": "AEM - Sites",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.mirror.co",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/mastercard",
         "bounty": 1,
         "active": 1,
@@ -10997,6 +10898,105 @@
         }
     },
     {
+        "handle": "engagements/lululemon",
+        "bounty": 1,
+        "active": 0,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "shop.lululemon.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.lululemon.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Lululemon Mobile App - iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "https://www.lululemon.com.au",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.lululemon.de",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.lululemon.es",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.eu.lululemon.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.lululemon.fr",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.lululemon.com.hk",
+                    "type": "website"
+                },
+                {
+                    "identifier": "http://www.lululemon.co.jp",
+                    "type": "website"
+                },
+                {
+                    "identifier": "http://www.lululemon.co.kr",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.lululemon.co.nz",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.lululemon.co.uk",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "*.lululemon.cn",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://fr.shop.lululemon.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.lululemon.me",
+                    "type": "website"
+                },
+                {
+                    "identifier": "careers.lululemon.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://info.lululemon.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://pnimages.lululemon.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "AEM - Assets",
+                    "type": "website"
+                },
+                {
+                    "identifier": "AEM - Sites",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.mirror.co",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
         "handle": "engagements/shipwire",
         "bounty": 1,
         "active": 0,
@@ -11162,27 +11162,23 @@
         }
     },
     {
-        "handle": "engagements/plusgrade-mbb-public",
+        "handle": "engagements/hostgator-latam-bb",
         "bounty": 1,
-        "active": 0,
+        "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "*.points.com",
+                    "identifier": "https://www.hostgator.com.br/",
                     "type": "website"
                 },
                 {
-                    "identifier": "Additional Loyalty scope included under resources tab",
+                    "identifier": "https://financeiro.hostgator.com.br",
                     "type": "website"
                 }
             ],
             "out_of_scope": [
                 {
-                    "identifier": "Partner Website & Applications",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Anything not explicitly listed as in-scope",
+                    "identifier": "https://carrinho.hostgator.com.br/",
                     "type": "website"
                 }
             ]
@@ -11220,29 +11216,6 @@
                 }
             ],
             "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/hostgator-latam-bb",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://www.hostgator.com.br/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://financeiro.hostgator.com.br",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "https://carrinho.hostgator.com.br/",
-                    "type": "website"
-                }
-            ]
         }
     },
     {
@@ -11662,6 +11635,32 @@
         }
     },
     {
+        "handle": "engagements/wyze",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://auth.wyze.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://my.wyze.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://api.wyzecam.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Wyze Cam V3",
+                    "type": "hardware"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
         "handle": "engagements/opera",
         "bounty": 1,
         "active": 1,
@@ -12014,32 +12013,6 @@
                     "type": "website"
                 }
             ]
-        }
-    },
-    {
-        "handle": "engagements/wyze",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://auth.wyze.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://my.wyze.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://api.wyzecam.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Wyze Cam V3",
-                    "type": "hardware"
-                }
-            ],
-            "out_of_scope": []
         }
     },
     {
@@ -12403,20 +12376,6 @@
         }
     },
     {
-        "handle": "engagements/pantheon",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://dashboard.pantheon.io",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/zola-mbb-og",
         "bounty": 1,
         "active": 0,
@@ -12453,6 +12412,20 @@
                     "type": "website"
                 }
             ]
+        }
+    },
+    {
+        "handle": "engagements/pantheon",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://dashboard.pantheon.io",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": []
         }
     },
     {
@@ -12591,6 +12564,121 @@
         }
     },
     {
+        "handle": "engagements/upwork",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "www.upwork.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Upwork - Android Application",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Upwork - iOS Application",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Upwork Dash Messenger Desktop Version (www.upwork.com/downloads)",
+                    "type": "hardware"
+                },
+                {
+                    "identifier": "www.upwork.com/api ",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Direct Contracts",
+                    "type": "website"
+                },
+                {
+                    "identifier": "api.upwork.com/graphql",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Upwork - Marketplace Portal",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Upwork - Messages",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Upwork - Mobile Application IOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Upwork - Mobile Application Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Upwork - api.upwork.com/graphql",
+                    "type": "api"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "Social media hijacking",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Any subdomain/domain/property not listed in the 'in scope' section, is out of scope. ",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Any Third-party Services",
+                    "type": "other"
+                },
+                {
+                    "identifier": "support.upwork.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "community.stage.upwork.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "community.upwork.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "stage.upwork.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "e.upwork.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "status.upwork.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "signature.upwork.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "careers.upwork.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "tip.upwork.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "tip.upwork.com ",
+                    "type": "other"
+                },
+                {
+                    "identifier": "pardot.upwork.com",
+                    "type": "other"
+                }
+            ]
+        }
+    },
+    {
         "handle": "engagements/irobot",
         "bounty": 1,
         "active": 0,
@@ -12713,6 +12801,45 @@
         }
     },
     {
+        "handle": "engagements/imperva-mbb",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://*.imperva.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.cloudvector.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.incapsula.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://supportportal.thalesgroup.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "PTaaS Reference",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "http://docs.imperva.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "http://docs-be.imperva.com/",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
         "handle": "engagements/myapp-mbb-og",
         "bounty": 1,
         "active": 1,
@@ -12748,121 +12875,6 @@
                 }
             ],
             "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/upwork",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "www.upwork.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Upwork - Android Application",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Upwork - iOS Application",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Upwork Dash Messenger Desktop Version (www.upwork.com/downloads)",
-                    "type": "hardware"
-                },
-                {
-                    "identifier": "www.upwork.com/api ",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Direct Contracts",
-                    "type": "website"
-                },
-                {
-                    "identifier": "api.upwork.com/graphql",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Upwork - Marketplace Portal",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Upwork - Messages",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Upwork - Mobile Application IOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Upwork - Mobile Application Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Upwork - api.upwork.com/graphql",
-                    "type": "api"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "Social media hijacking",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Any subdomain/domain/property not listed in the 'in scope' section, is out of scope. ",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Any Third-party Services",
-                    "type": "other"
-                },
-                {
-                    "identifier": "support.upwork.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "community.stage.upwork.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "community.upwork.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "stage.upwork.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "e.upwork.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "status.upwork.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "signature.upwork.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "careers.upwork.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "tip.upwork.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "tip.upwork.com ",
-                    "type": "other"
-                },
-                {
-                    "identifier": "pardot.upwork.com",
-                    "type": "other"
-                }
-            ]
         }
     },
     {
@@ -12941,45 +12953,6 @@
         }
     },
     {
-        "handle": "engagements/imperva-mbb",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://*.imperva.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.cloudvector.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.incapsula.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://supportportal.thalesgroup.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "PTaaS Reference",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "http://docs.imperva.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "http://docs-be.imperva.com/",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/anytask-mbb-og",
         "bounty": 1,
         "active": 1,
@@ -13011,6 +12984,33 @@
                 }
             ],
             "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/plusgrade-mbb-public",
+        "bounty": 1,
+        "active": 0,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.points.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Additional Loyalty scope included under resources tab",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "Partner Website & Applications",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Anything not explicitly listed as in-scope",
+                    "type": "website"
+                }
+            ]
         }
     },
     {
@@ -15557,56 +15557,6 @@
         }
     },
     {
-        "handle": "engagements/intercom",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "iOS SDK",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "https://api.intercom.io",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://app.intercom.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.intercomassets.com / *.intercomcdn.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://app.intercom.io",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Android SDK",
-                    "type": "android"
-                },
-                {
-                    "identifier": "https://www.intercom.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "mcp.intercom.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://api-iam.intercom.io",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://*.mobile-messenger.intercom.com",
-                    "type": "api"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/pexels",
         "bounty": 1,
         "active": 1,
@@ -16067,6 +16017,56 @@
                 {
                     "identifier": "Latest Supported LTS Versions of the Unity Editor - Unity 6.x.x Standard LTS, Unity 2022.3.x / 2021.3.x xLTS (enterprise license)",
                     "type": "other"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/intercom",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "iOS SDK",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "https://api.intercom.io",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://app.intercom.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.intercomassets.com / *.intercomcdn.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://app.intercom.io",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Android SDK",
+                    "type": "android"
+                },
+                {
+                    "identifier": "https://www.intercom.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "mcp.intercom.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://api-iam.intercom.io",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://*.mobile-messenger.intercom.com",
+                    "type": "api"
                 }
             ],
             "out_of_scope": []
