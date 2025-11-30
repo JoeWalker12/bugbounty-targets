@@ -6179,45 +6179,6 @@
         }
     },
     {
-        "handle": "engagements/tamedia",
-        "bounty": 1,
-        "active": 0,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://www.tagesanzeiger.ch",
-                    "type": "website"
-                },
-                {
-                    "identifier": "API calls going to disco-api from https://www.tagesanzeiger.ch ",
-                    "type": "api"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "https://abo.inscopedomain.ch",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://login.inscopedomain.ch/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://auth.inscopedomain.ch/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://tgt.inscopedomain.ch/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://shop.inscopedomain.ch/",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/fis",
         "bounty": 1,
         "active": 1,
@@ -7085,6 +7046,45 @@
         }
     },
     {
+        "handle": "engagements/tamedia",
+        "bounty": 1,
+        "active": 0,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://www.tagesanzeiger.ch",
+                    "type": "website"
+                },
+                {
+                    "identifier": "API calls going to disco-api from https://www.tagesanzeiger.ch ",
+                    "type": "api"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "https://abo.inscopedomain.ch",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://login.inscopedomain.ch/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://auth.inscopedomain.ch/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://tgt.inscopedomain.ch/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://shop.inscopedomain.ch/",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
         "handle": "engagements/braze-bb",
         "bounty": 1,
         "active": 0,
@@ -7513,6 +7513,25 @@
         }
     },
     {
+        "handle": "engagements/navan",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://staging-prime.navan.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "tripactions.com",
+                    "type": "other"
+                }
+            ]
+        }
+    },
+    {
         "handle": "engagements/craftcoders",
         "bounty": 1,
         "active": 1,
@@ -7532,71 +7551,6 @@
                 }
             ],
             "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/backblaze",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Backblaze Android mobile application",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Backblaze iOS mobile application",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Mac Personal Backup Clients",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Windows Personal Backup Clients",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Mac Restore Downloaders",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Windows Restore Downloaders",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Git Repositories (b2-sdk-java & B2 Command Line Tool)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "B2 APIs (*.backblazeb2.com)",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Backblaze Website (*.backblaze.com)",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/navan",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://staging-prime.navan.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "tripactions.com",
-                    "type": "other"
-                }
-            ]
         }
     },
     {
@@ -8332,109 +8286,6 @@
         }
     },
     {
-        "handle": "engagements/linktree-mbb-og",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.linktr.ee",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.linktree.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.tr.ee",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.linktree-extensions.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Linktree iOS app",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Linktree Android app",
-                    "type": "android"
-                },
-                {
-                    "identifier": "plannthat.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Plann iOS app",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Plann Android app",
-                    "type": "android"
-                },
-                {
-                    "identifier": "*.odesli.co",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.odesli.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.song.link",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.songlink.io",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.album.link",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.artist.link",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.pods.link",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.playlist.link",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.mylink.page",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "*.filestack.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.freshdesk.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.blstr.xyz",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.blstr.co",
-                    "type": "website"
-                },
-                {
-                    "identifier": "community.linktr.ee",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/maffashion",
         "bounty": 1,
         "active": 1,
@@ -9112,6 +8963,109 @@
                 }
             ],
             "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/linktree-mbb-og",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.linktr.ee",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.linktree.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.tr.ee",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.linktree-extensions.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Linktree iOS app",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Linktree Android app",
+                    "type": "android"
+                },
+                {
+                    "identifier": "plannthat.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Plann iOS app",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Plann Android app",
+                    "type": "android"
+                },
+                {
+                    "identifier": "*.odesli.co",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.odesli.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.song.link",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.songlink.io",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.album.link",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.artist.link",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.pods.link",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.playlist.link",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.mylink.page",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "*.filestack.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.freshdesk.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.blstr.xyz",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.blstr.co",
+                    "type": "website"
+                },
+                {
+                    "identifier": "community.linktr.ee",
+                    "type": "website"
+                }
+            ]
         }
     },
     {
@@ -10705,108 +10659,6 @@
         }
     },
     {
-        "handle": "engagements/acorns",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.acorns.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Acorns for iOS",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://graphql.acorns.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Acorns for Android",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://www.gohenry.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.pixpay.fr/",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "share.acorns.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "grow.acorns.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "store.acorns.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/fivetran-mbb-og",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.fivetran.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Fivetran SDK",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "Any internal, staging, or development services.",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Social engineering against Fivetran Support or Fivetran Employees",
-                    "type": "other"
-                },
-                {
-                    "identifier": "*.db.fivetran.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "testing-datalake.fivetran.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "shop.fivetran.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "status.fivetran.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "support.fivetran.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "community-stage.fivetran.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "trust.fivetran.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/monash-mbb",
         "bounty": 1,
         "active": 1,
@@ -10997,6 +10849,108 @@
         }
     },
     {
+        "handle": "engagements/acorns",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.acorns.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Acorns for iOS",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://graphql.acorns.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Acorns for Android",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://www.gohenry.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.pixpay.fr/",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "share.acorns.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "grow.acorns.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "store.acorns.com",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/fivetran-mbb-og",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.fivetran.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Fivetran SDK",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "Any internal, staging, or development services.",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Social engineering against Fivetran Support or Fivetran Employees",
+                    "type": "other"
+                },
+                {
+                    "identifier": "*.db.fivetran.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "testing-datalake.fivetran.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "shop.fivetran.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "status.fivetran.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "support.fivetran.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "community-stage.fivetran.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "trust.fivetran.com",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
         "handle": "engagements/shipwire",
         "bounty": 1,
         "active": 0,
@@ -11020,6 +10974,24 @@
         "active": 0,
         "assets": {
             "in_scope": [],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/ultramobile-public",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://www.mintmobile.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.ultramobile.com",
+                    "type": "website"
+                }
+            ],
             "out_of_scope": []
         }
     },
@@ -11080,24 +11052,6 @@
                     "type": "website"
                 }
             ]
-        }
-    },
-    {
-        "handle": "engagements/ultramobile-public",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://www.mintmobile.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.ultramobile.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
         }
     },
     {
@@ -11162,6 +11116,29 @@
         }
     },
     {
+        "handle": "engagements/hostgator-latam-bb",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://www.hostgator.com.br/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://financeiro.hostgator.com.br",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "https://carrinho.hostgator.com.br/",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
         "handle": "engagements/mallofemirates",
         "bounty": 1,
         "active": 1,
@@ -11193,29 +11170,6 @@
                 }
             ],
             "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/hostgator-latam-bb",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://www.hostgator.com.br/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://financeiro.hostgator.com.br",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "https://carrinho.hostgator.com.br/",
-                    "type": "website"
-                }
-            ]
         }
     },
     {
@@ -12034,81 +11988,6 @@
         }
     },
     {
-        "handle": "engagements/optimizely",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://app.optimizely.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://cdn.optimizely.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://cdn-pci.optimizely.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://optimizely-edge.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://api.optimizely.com/",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://dxc.episerver.net/ ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://paasportal.episerver.net/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://paasportal.episerver.net/api/v1.0/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://app.welcomesoftware.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://accounts.welcomesoftware.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://api.welcomesoftware.com/ ",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://cdn-app.welcomesoftware.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://analytics.welcomesoftware.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://flags.expeng.optimizely.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://accounts.cmp.optimizely.com/",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "https://www.optimizely.com/",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/imperva-mbb",
         "bounty": 1,
         "active": 1,
@@ -12145,40 +12024,6 @@
                     "type": "website"
                 }
             ]
-        }
-    },
-    {
-        "handle": "engagements/anytask-mbb-og",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://api.anytask.com/",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://www.anytask.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "AnyTask Android app",
-                    "type": "android"
-                },
-                {
-                    "identifier": "AnyTask iOS app",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "api.anytask.thesecurityteam.rocks",
-                    "type": "api"
-                },
-                {
-                    "identifier": "anytask.thesecurityteam.rocks",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
         }
     },
     {
@@ -12297,57 +12142,108 @@
         }
     },
     {
-        "handle": "engagements/entain-public-mbb-og",
+        "handle": "engagements/optimizely",
         "bounty": 1,
         "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "Partypoker Website (and all its subdomains)",
+                    "identifier": "https://app.optimizely.com/",
                     "type": "website"
                 },
                 {
-                    "identifier": "Ladbrokes Digital  (and all its subdomains)",
+                    "identifier": "https://cdn.optimizely.com/",
                     "type": "website"
                 },
                 {
-                    "identifier": "Coral Sports  (and all its subdomains)",
+                    "identifier": "https://cdn-pci.optimizely.com/",
                     "type": "website"
                 },
                 {
-                    "identifier": "Gala Bingo (and all its subdomains)",
+                    "identifier": "https://optimizely-edge.com",
                     "type": "website"
                 },
                 {
-                    "identifier": "Partycasino Website (and all its subdomains)",
+                    "identifier": "https://api.optimizely.com/",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://dxc.episerver.net/ ",
                     "type": "website"
                 },
                 {
-                    "identifier": "Bwin Website (and all its subdomains)",
+                    "identifier": "https://paasportal.episerver.net/",
                     "type": "website"
                 },
                 {
-                    "identifier": "Partycasino APK",
+                    "identifier": "https://paasportal.episerver.net/api/v1.0/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://app.welcomesoftware.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://accounts.welcomesoftware.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://api.welcomesoftware.com/ ",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://cdn-app.welcomesoftware.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://analytics.welcomesoftware.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://flags.expeng.optimizely.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://accounts.cmp.optimizely.com/",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "https://www.optimizely.com/",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/anytask-mbb-og",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://api.anytask.com/",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://www.anytask.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "AnyTask Android app",
                     "type": "android"
                 },
                 {
-                    "identifier": "Bwin Poker-Casino iOS",
+                    "identifier": "AnyTask iOS app",
                     "type": "ios"
                 },
                 {
-                    "identifier": "Bwin Sports iOS",
-                    "type": "ios"
+                    "identifier": "api.anytask.thesecurityteam.rocks",
+                    "type": "api"
                 },
                 {
-                    "identifier": "Partycasino iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Partypoker iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Gala Casino Website (and all its subdomains)",
+                    "identifier": "anytask.thesecurityteam.rocks",
                     "type": "website"
                 }
             ],
@@ -12414,219 +12310,6 @@
                 {
                     "identifier": "Electroneum iOS App",
                     "type": "ios"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/comcast-mbb",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.xfinity.com\t",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.comcast.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.xcal.tv",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Staging, QA, Dev, and Test Environments",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "*.hfc.comcastbusiness.net",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.hsd1.*.comcast.net",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*business.comcast.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "10.0.0.0/8",
-                    "type": "network"
-                },
-                {
-                    "identifier": "50.128.0.0/12",
-                    "type": "network"
-                },
-                {
-                    "identifier": "50.152.0.0/13",
-                    "type": "network"
-                },
-                {
-                    "identifier": "96.201.0.0/16",
-                    "type": "network"
-                },
-                {
-                    "identifier": "96.202.128.0/17",
-                    "type": "network"
-                },
-                {
-                    "identifier": "96.203.0.0/16",
-                    "type": "network"
-                },
-                {
-                    "identifier": "172.26.128.0/18",
-                    "type": "network"
-                },
-                {
-                    "identifier": "184.112.0.0/13",
-                    "type": "network"
-                },
-                {
-                    "identifier": "184.122.0.0/15",
-                    "type": "network"
-                },
-                {
-                    "identifier": "NBC Universal",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Sky",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.sys.comcast.net",
-                    "type": "website"
-                },
-                {
-                    "identifier": "admin.selectwifi.xfinity.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/irobot",
-        "bounty": 1,
-        "active": 0,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "iRobot Roomba\u2122 105",
-                    "type": "hardware"
-                },
-                {
-                    "identifier": "iRobot Roomba\u2122 205",
-                    "type": "hardware"
-                },
-                {
-                    "identifier": "iRobot Roomba\u2122 405",
-                    "type": "hardware"
-                },
-                {
-                    "identifier": "iRobot Roomba\u2122 505",
-                    "type": "hardware"
-                },
-                {
-                    "identifier": "iRobot Roomba\u2122 705",
-                    "type": "hardware"
-                },
-                {
-                    "identifier": "https://apps.apple.com/us/app/roomba-home/id6504274697",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "https://play.google.com/store/apps/details?id=com.irobot.home.prime",
-                    "type": "android"
-                },
-                {
-                    "identifier": "https://aspen-ecommerce-prod.iot.irobotapi.com/dev/v1/ecommerce/entitlements/{entitlement_id}",
-                    "type": "api"
-                },
-                {
-                    "identifier": "iRobot API Endpoint",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://zuora-ecommerce-prod.iot.irobotapi.com/dev/v1/ecommerce/notifications/raas",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://aspen-ecommerce-prod.iot.irobotapi.com/dev/v1/ecommerce/robots/{robot_id}/entitlements",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://aspen-ecommerce-prod.iot.irobotapi.com/dev/v1/ecommerce/users/{user_id}/entitlements",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://www.irobot.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.irobot.ca/en_CA",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.irobot.ca/fr_CA/home",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.irobot.at/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.irobot.be/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.irobot.de/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.irobot.es/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.irobot.fr/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.irobot.co.uk/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.irobot.ie/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.irobot.nl/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.irobot.pt/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.homesupport.irobot.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://media.irobot.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://investor.irobot.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://answers.irobot.com",
-                    "type": "website"
                 }
             ],
             "out_of_scope": []
@@ -12818,6 +12501,233 @@
         }
     },
     {
+        "handle": "engagements/comcast-mbb",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.xfinity.com\t",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.comcast.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.xcal.tv",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Staging, QA, Dev, and Test Environments",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "*.hfc.comcastbusiness.net",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.hsd1.*.comcast.net",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*business.comcast.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "10.0.0.0/8",
+                    "type": "network"
+                },
+                {
+                    "identifier": "50.128.0.0/12",
+                    "type": "network"
+                },
+                {
+                    "identifier": "50.152.0.0/13",
+                    "type": "network"
+                },
+                {
+                    "identifier": "96.201.0.0/16",
+                    "type": "network"
+                },
+                {
+                    "identifier": "96.202.128.0/17",
+                    "type": "network"
+                },
+                {
+                    "identifier": "96.203.0.0/16",
+                    "type": "network"
+                },
+                {
+                    "identifier": "172.26.128.0/18",
+                    "type": "network"
+                },
+                {
+                    "identifier": "184.112.0.0/13",
+                    "type": "network"
+                },
+                {
+                    "identifier": "184.122.0.0/15",
+                    "type": "network"
+                },
+                {
+                    "identifier": "NBC Universal",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Sky",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.sys.comcast.net",
+                    "type": "website"
+                },
+                {
+                    "identifier": "admin.selectwifi.xfinity.com",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/pantheon",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://dashboard.pantheon.io",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/irobot",
+        "bounty": 1,
+        "active": 0,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "iRobot Roomba\u2122 105",
+                    "type": "hardware"
+                },
+                {
+                    "identifier": "iRobot Roomba\u2122 205",
+                    "type": "hardware"
+                },
+                {
+                    "identifier": "iRobot Roomba\u2122 405",
+                    "type": "hardware"
+                },
+                {
+                    "identifier": "iRobot Roomba\u2122 505",
+                    "type": "hardware"
+                },
+                {
+                    "identifier": "iRobot Roomba\u2122 705",
+                    "type": "hardware"
+                },
+                {
+                    "identifier": "https://apps.apple.com/us/app/roomba-home/id6504274697",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "https://play.google.com/store/apps/details?id=com.irobot.home.prime",
+                    "type": "android"
+                },
+                {
+                    "identifier": "https://aspen-ecommerce-prod.iot.irobotapi.com/dev/v1/ecommerce/entitlements/{entitlement_id}",
+                    "type": "api"
+                },
+                {
+                    "identifier": "iRobot API Endpoint",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://zuora-ecommerce-prod.iot.irobotapi.com/dev/v1/ecommerce/notifications/raas",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://aspen-ecommerce-prod.iot.irobotapi.com/dev/v1/ecommerce/robots/{robot_id}/entitlements",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://aspen-ecommerce-prod.iot.irobotapi.com/dev/v1/ecommerce/users/{user_id}/entitlements",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://www.irobot.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.irobot.ca/en_CA",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.irobot.ca/fr_CA/home",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.irobot.at/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.irobot.be/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.irobot.de/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.irobot.es/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.irobot.fr/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.irobot.co.uk/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.irobot.ie/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.irobot.nl/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.irobot.pt/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.homesupport.irobot.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://media.irobot.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://investor.irobot.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://answers.irobot.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
         "handle": "engagements/zola-mbb-og",
         "bounty": 1,
         "active": 0,
@@ -12854,20 +12764,6 @@
                     "type": "website"
                 }
             ]
-        }
-    },
-    {
-        "handle": "engagements/pantheon",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://dashboard.pantheon.io",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": []
         }
     },
     {
@@ -13011,6 +12907,64 @@
                     "type": "website"
                 }
             ]
+        }
+    },
+    {
+        "handle": "engagements/entain-public-mbb-og",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Partypoker Website (and all its subdomains)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Ladbrokes Digital  (and all its subdomains)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Coral Sports  (and all its subdomains)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Gala Bingo (and all its subdomains)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Partycasino Website (and all its subdomains)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Bwin Website (and all its subdomains)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Partycasino APK",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Bwin Poker-Casino iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Bwin Sports iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Partycasino iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Partypoker iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Gala Casino Website (and all its subdomains)",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
         }
     },
     {
@@ -16066,6 +16020,52 @@
                 },
                 {
                     "identifier": "Broken Link",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/backblaze",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Backblaze Android mobile application",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Backblaze iOS mobile application",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Mac Personal Backup Clients",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Windows Personal Backup Clients",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Mac Restore Downloaders",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Windows Restore Downloaders",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Git Repositories (b2-sdk-java & B2 Command Line Tool)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "B2 APIs (*.backblazeb2.com)",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Backblaze Website (*.backblaze.com)",
                     "type": "website"
                 }
             ],
