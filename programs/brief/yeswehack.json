@@ -1,5 +1,31 @@
 [
     {
+        "handle": "blackbox-bforbank-mobile",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://play.google.com/store/apps/details?id=com.bforbank.android",
+                    "type": "mobile-application-android"
+                },
+                {
+                    "identifier": "https://apps.apple.com/us/app/bforbank-banque-en-ligne/id1607839793",
+                    "type": "mobile-application-ios"
+                },
+                {
+                    "identifier": "https://gtw-b2capps.bforbank.com/*",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://gtw-b2capps.bforbank.com/customer-acquisition/access-management/users*",
+                    "type": "api"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
         "handle": "openproject",
         "bounty": 1,
         "active": 1,
@@ -3368,32 +3394,6 @@
                 {
                     "identifier": "Any resource created or accessed with the Outscale Cloud on eu-west-2 region -  created by the Hunter",
                     "type": "other"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "blackbox-bforbank-mobile",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://play.google.com/store/apps/details?id=com.bforbank.android",
-                    "type": "mobile-application-android"
-                },
-                {
-                    "identifier": "https://apps.apple.com/us/app/bforbank-banque-en-ligne/id1607839793",
-                    "type": "mobile-application-ios"
-                },
-                {
-                    "identifier": "https://gtw-b2capps.bforbank.com/*",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://gtw-b2capps.bforbank.com/customer-acquisition/access-management/users*",
-                    "type": "api"
                 }
             ],
             "out_of_scope": []
