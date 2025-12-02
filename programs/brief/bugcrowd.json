@@ -4471,6 +4471,61 @@
         }
     },
     {
+        "handle": "engagements/cms-bbpublic",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*eua.cms.gov",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*eua.cms.gov/efi",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://idm.cms.gov/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*qpp.cms.gov/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*cssoperations.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*nsa-idr.cms.gov",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "*https://www.eqrs.cms.gov and all related subdomains, APIs, and supporting services.",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*https://www.portal.cms.gov (T-MSIS, MacFin, FFM)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*https://www.healthcare.gov",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*https://www.cuidadodesalud.gov/es",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*https://developer.cms.gov/marketplace-api/",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
         "handle": "engagements/tempusex-public-mbb-og",
         "bounty": 1,
         "active": 1,
@@ -4777,24 +4832,6 @@
                 {
                     "identifier": "SAP HANA Cloud",
                     "type": "website"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/coindesk-mobile-mbb-og",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "iOS app - https://apps.apple.com/us/app/coindesk-crypto-bitcoin-news/id6502816903",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Android app - https://play.google.com/store/apps/details?id=com.coindesk.mobile",
-                    "type": "android"
                 }
             ],
             "out_of_scope": []
@@ -7089,6 +7126,24 @@
         }
     },
     {
+        "handle": "engagements/coindesk-mobile-mbb-og",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "iOS app - https://apps.apple.com/us/app/coindesk-crypto-bitcoin-news/id6502816903",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Android app - https://play.google.com/store/apps/details?id=com.coindesk.mobile",
+                    "type": "android"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
         "handle": "engagements/braze-bb",
         "bounty": 1,
         "active": 0,
@@ -8521,177 +8576,6 @@
         }
     },
     {
-        "handle": "engagements/originenergy-og1",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://www.originenergy.com.au/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.origindigital-pac.com.au",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.odcdn.com.au",
-                    "type": "website"
-                },
-                {
-                    "identifier": "dataportal.originenergy.com.au",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.support.originenergy.com.au",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.api.originenergy.com.au",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.download.originenergy.com.au",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://api.rx.originenergy.com.au/v1/gateway/schema/graphql",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://api.rx.originenergy.com.au/v1/gateway/schema/kraken/graphql",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://api.rx.originenergy.com.au/v1/lpg/graphql",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://www.winconnect.com.au/moving-out/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.winconnect.com.au/get-connected/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://customerportal.winconnect.com.au/login",
-                    "type": "website"
-                },
-                {
-                    "identifier": "signup.myconnect.com.au",
-                    "type": "website"
-                },
-                {
-                    "identifier": "portal.myconnect.com.au",
-                    "type": "website"
-                },
-                {
-                    "identifier": "myconnect.com.au",
-                    "type": "website"
-                },
-                {
-                    "identifier": "portal.myconnect.com.au/new-connection",
-                    "type": "website"
-                },
-                {
-                    "identifier": "ssu.myconnect.com.au/signup/get-connected ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "hub.myconnect.com.au",
-                    "type": "website"
-                },
-                {
-                    "identifier": "portal.anz.kinergysolutions.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "portal-api.anz.kinergysolutions.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "portal.originzero.com.au",
-                    "type": "website"
-                },
-                {
-                    "identifier": "api-portal.originzero.com.au",
-                    "type": "api"
-                },
-                {
-                    "identifier": "sign.originzero.com.au",
-                    "type": "website"
-                },
-                {
-                    "identifier": "businessportal.origin.com.au",
-                    "type": "website"
-                },
-                {
-                    "identifier": "api-businessportal.origin.com.au",
-                    "type": "api"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "https://www.originenergy.com.au/moving/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://auth.api.originenergy.com.au/**",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://origin-energy.formstack.com/**",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.compareandconnect.com.au/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://agent.compareandconnect.com.au/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://fastconnect.co.nz",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://Yourporter.com.au",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://raywhitehomenow.com/ ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "solarquotes.com.au/leads",
-                    "type": "website"
-                },
-                {
-                    "identifier": "solarquotes.com.au/suppliers",
-                    "type": "website"
-                },
-                {
-                    "identifier": "solarquotes.com.au/wp-admin",
-                    "type": "website"
-                },
-                {
-                    "identifier": "manufacturers.solarquotes.com.au",
-                    "type": "website"
-                },
-                {
-                    "identifier": "solarquotes.com.au/quote/start",
-                    "type": "website"
-                },
-                {
-                    "identifier": "solarquotes.com.au/quotesv2",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/simplisafe",
         "bounty": 1,
         "active": 1,
@@ -9088,6 +8972,177 @@
         }
     },
     {
+        "handle": "engagements/originenergy-og1",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://www.originenergy.com.au/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.origindigital-pac.com.au",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.odcdn.com.au",
+                    "type": "website"
+                },
+                {
+                    "identifier": "dataportal.originenergy.com.au",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.support.originenergy.com.au",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.api.originenergy.com.au",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.download.originenergy.com.au",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://api.rx.originenergy.com.au/v1/gateway/schema/graphql",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://api.rx.originenergy.com.au/v1/gateway/schema/kraken/graphql",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://api.rx.originenergy.com.au/v1/lpg/graphql",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://www.winconnect.com.au/moving-out/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.winconnect.com.au/get-connected/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://customerportal.winconnect.com.au/login",
+                    "type": "website"
+                },
+                {
+                    "identifier": "signup.myconnect.com.au",
+                    "type": "website"
+                },
+                {
+                    "identifier": "portal.myconnect.com.au",
+                    "type": "website"
+                },
+                {
+                    "identifier": "myconnect.com.au",
+                    "type": "website"
+                },
+                {
+                    "identifier": "portal.myconnect.com.au/new-connection",
+                    "type": "website"
+                },
+                {
+                    "identifier": "ssu.myconnect.com.au/signup/get-connected ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "hub.myconnect.com.au",
+                    "type": "website"
+                },
+                {
+                    "identifier": "portal.anz.kinergysolutions.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "portal-api.anz.kinergysolutions.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "portal.originzero.com.au",
+                    "type": "website"
+                },
+                {
+                    "identifier": "api-portal.originzero.com.au",
+                    "type": "api"
+                },
+                {
+                    "identifier": "sign.originzero.com.au",
+                    "type": "website"
+                },
+                {
+                    "identifier": "businessportal.origin.com.au",
+                    "type": "website"
+                },
+                {
+                    "identifier": "api-businessportal.origin.com.au",
+                    "type": "api"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "https://www.originenergy.com.au/moving/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://auth.api.originenergy.com.au/**",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://origin-energy.formstack.com/**",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.compareandconnect.com.au/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://agent.compareandconnect.com.au/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://fastconnect.co.nz",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://Yourporter.com.au",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://raywhitehomenow.com/ ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "solarquotes.com.au/leads",
+                    "type": "website"
+                },
+                {
+                    "identifier": "solarquotes.com.au/suppliers",
+                    "type": "website"
+                },
+                {
+                    "identifier": "solarquotes.com.au/wp-admin",
+                    "type": "website"
+                },
+                {
+                    "identifier": "manufacturers.solarquotes.com.au",
+                    "type": "website"
+                },
+                {
+                    "identifier": "solarquotes.com.au/quote/start",
+                    "type": "website"
+                },
+                {
+                    "identifier": "solarquotes.com.au/quotesv2",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
         "handle": "engagements/k15t",
         "bounty": 1,
         "active": 1,
@@ -9261,28 +9316,6 @@
                 {
                     "identifier": "https://casino.*.betmgm.com/en/games (read \"Find a Game to test on our targets\")",
                     "type": "website"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/tyler-tech-data-insights",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://opendata.test-socrata.com/admin/gateway",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://opendata-demo.test-socrata.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://opendata.test-socrata.com",
-                    "type": "other"
                 }
             ],
             "out_of_scope": []
@@ -10970,6 +11003,28 @@
         }
     },
     {
+        "handle": "engagements/tyler-tech-data-insights",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://opendata.test-socrata.com/admin/gateway",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://opendata-demo.test-socrata.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://opendata.test-socrata.com",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
         "handle": "engagements/shipwire",
         "bounty": 1,
         "active": 0,
@@ -11706,84 +11761,6 @@
         }
     },
     {
-        "handle": "engagements/seek",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.seek.com.au",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://seekcdn.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "SEEK mobile app for iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "SEEK mobile app for Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "*.skinfra.xyz",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.outfra.xyz",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.sol-data.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.jobapi.net",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.seekpass.co",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.seekpass-staging.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.aips-internal.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.certsy.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.certsynonprod.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "SEEK Pass Mobile App for iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "SEEK Pass Mobile App for Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "graphql.seek.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "auth.seek.com",
-                    "type": "api"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/kohls",
         "bounty": 1,
         "active": 1,
@@ -11927,45 +11904,6 @@
         }
     },
     {
-        "handle": "engagements/imperva-mbb",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://*.imperva.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.cloudvector.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.incapsula.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://supportportal.thalesgroup.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "PTaaS Reference",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "http://docs.imperva.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "http://docs-be.imperva.com/",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/hostgator-latam-bb",
         "bounty": 1,
         "active": 1,
@@ -12047,6 +11985,123 @@
         }
     },
     {
+        "handle": "engagements/seek",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.seek.com.au",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://seekcdn.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "SEEK mobile app for iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "SEEK mobile app for Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "*.skinfra.xyz",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.outfra.xyz",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.sol-data.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.jobapi.net",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.seekpass.co",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.seekpass-staging.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.aips-internal.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.certsy.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.certsynonprod.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "SEEK Pass Mobile App for iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "SEEK Pass Mobile App for Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "graphql.seek.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "auth.seek.com",
+                    "type": "api"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/imperva-mbb",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://*.imperva.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.cloudvector.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.incapsula.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://supportportal.thalesgroup.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "PTaaS Reference",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "http://docs.imperva.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "http://docs-be.imperva.com/",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
         "handle": "engagements/anytask-mbb-og",
         "bounty": 1,
         "active": 1,
@@ -12075,6 +12130,32 @@
                 {
                     "identifier": "anytask.thesecurityteam.rocks",
                     "type": "website"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/balsamiq",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/1213404/balsamiq-wireframes-for-confluence-cloud?hosting=cloud&tab=overview",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/1212796/balsamiq-wireframes-for-jira-cloud?hosting=cloud&tab=overview",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/5161/balsamiq-wireframes-for-jira?hosting=datacenter&tab=overview",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/256/balsamiq-wireframes-for-confluence?hosting=datacenter&tab=overview",
+                    "type": "other"
                 }
             ],
             "out_of_scope": []
@@ -12153,32 +12234,6 @@
                     "type": "website"
                 }
             ]
-        }
-    },
-    {
-        "handle": "engagements/balsamiq",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://marketplace.atlassian.com/apps/1213404/balsamiq-wireframes-for-confluence-cloud?hosting=cloud&tab=overview",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://marketplace.atlassian.com/apps/1212796/balsamiq-wireframes-for-jira-cloud?hosting=cloud&tab=overview",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://marketplace.atlassian.com/apps/5161/balsamiq-wireframes-for-jira?hosting=datacenter&tab=overview",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://marketplace.atlassian.com/apps/256/balsamiq-wireframes-for-confluence?hosting=datacenter&tab=overview",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": []
         }
     },
     {
@@ -12454,73 +12509,6 @@
                 },
                 {
                     "identifier": "admin.selectwifi.xfinity.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/moneytreekkog",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Moneytree Web for Web",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Moneytree Universal Vault",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Moneytree Internal Redash",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://app-staging.getmoneytree.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Moneytree Web for Mobile",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Moneytree Web for Mobile (with Oauth)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Moneytree MyAccount",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Moneytree Business",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Moneytree API",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Moneytree Android Mobile Application (staging; see below)",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Moneytree iOS Mobile Application (production; see below)",
-                    "type": "ios"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "moneytree.jp",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Any production asset of Moneytree KK (excepting the iOS app)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "getmoneytree.com",
                     "type": "website"
                 }
             ]
@@ -15626,69 +15614,6 @@
         }
     },
     {
-        "handle": "engagements/kucoin",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://kucoin.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.kucoin.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Kucoin IOS App",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Kucoin Android",
-                    "type": "android"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "support.kucoin.plus",
-                    "type": "website"
-                },
-                {
-                    "identifier": "store.kucoin.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "docs.kucoin.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "intro.kucoin.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "cert.kucoin.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "sandbox.kucoin.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "passport.kucoin.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*-sdb.kucoin.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*-sandbox.kucoin.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/dell-com",
         "bounty": 1,
         "active": 1,
@@ -15929,24 +15854,6 @@
         }
     },
     {
-        "handle": "engagements/trm-labs-public-mbb",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "chainabuse-staging.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "api.chainabuse-staging.com",
-                    "type": "api"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/bugcrowd",
         "bounty": 1,
         "active": 1,
@@ -16041,6 +15948,154 @@
                 {
                     "identifier": "Social Engineering",
                     "type": "other"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/kucoin",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://kucoin.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.kucoin.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Kucoin IOS App",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Kucoin Android",
+                    "type": "android"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "support.kucoin.plus",
+                    "type": "website"
+                },
+                {
+                    "identifier": "store.kucoin.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "docs.kucoin.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "intro.kucoin.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "cert.kucoin.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "sandbox.kucoin.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "passport.kucoin.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*-sdb.kucoin.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*-sandbox.kucoin.com",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/trm-labs-public-mbb",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "chainabuse-staging.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "api.chainabuse-staging.com",
+                    "type": "api"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/moneytreekkog",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Moneytree Web for Web",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Moneytree Universal Vault",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Moneytree Internal Redash",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://app-staging.getmoneytree.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Moneytree Web for Mobile",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Moneytree Web for Mobile (with Oauth)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Moneytree MyAccount",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Moneytree Business",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Moneytree API",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Moneytree Android Mobile Application (staging; see below)",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Moneytree iOS Mobile Application (production; see below)",
+                    "type": "ios"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "moneytree.jp",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Any production asset of Moneytree KK (excepting the iOS app)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "getmoneytree.com",
+                    "type": "website"
                 }
             ]
         }
