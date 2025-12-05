@@ -5892,257 +5892,6 @@
         }
     },
     {
-        "handle": "engagements/atlassian",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Atlassian Guard Standard and Premium (https://admin.atlassian.com/atlassian-guard)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Atlassian Admin (https://admin.atlassian.com/)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Atlassian Identity (https://id.atlassian.com/login)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Atlassian Start (https://start.atlassian.com)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Bitbucket Cloud including Bitbucket Pipelines (https://bitbucket.org)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Confluence Cloud (bugbounty-test-<bugcrowd-name>.atlassian.net/wiki)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Confluence Cloud Premium (bugbounty-test-<bugcrowd-name>.atlassian.net/wiki)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Confluence Cloud Mobile App for Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Confluence Cloud Mobile App for iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Jira Cloud Mobile App for Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Jira Cloud Mobile App for iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Jira Service Management Cloud (bugbounty-test-<bugcrowd-name>.atlassian.net)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Jira Software Cloud (bugbounty-test-<bugcrowd-name>.atlassian.net)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Jira Work Management Cloud formerly Jira Core (bugbounty-test-<bugcrowd-name>.atlassian.net)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Any associated *.atlassian.com or *.atl-paas.net domain that can be exploited DIRECTLY from the *.atlassian.net instance",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Rovo",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Atlassian Compass",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Atlassian Marketplace (https://marketplace.atlassian.com)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Atlassian Atlas",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Bitbucket Data Center",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Confluence Data Center",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Crowd",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Jira Core Data Center",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Jira Service Management Data Center",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Jira Software Data Center",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.atlastunnel.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Any other *.atlassian.com or *.atl-paas.net domain that cannot be exploited directly from a *.atlassian.net instance",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.loom.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Loom Desktop App (Windows)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Loom Desktop App (macOS)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Loom for Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Loom for iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Loom Chrome Extension",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Bamboo",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Confluence Companion App for macOS and Windows",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Confluence Data Center Mobile App for Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Confluence Data Center Mobile App for iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Crucible",
-                    "type": "website"
-                },
-                {
-                    "identifier": "FishEye",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Jira Data Center Mobile App for Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Jira Data Center Mobile App for iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Sourcetree for macOS and Windows (https://www.sourcetreeapp.com/)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Other - (all other Atlassian targets)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Jira Product Discovery",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Forge Platform",
-                    "type": "other"
-                },
-                {
-                    "identifier": "GraphQL API (bugbounty-test-<bugcrowd-name>.atlassian.net/gateway/api/graphql)",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://www.npmjs.com/package/@forge/cli",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "Any internal or development services.",
-                    "type": "website"
-                },
-                {
-                    "identifier": "First and third party apps and plugins from the marketplace are excluded from this bounty but may be in scope for https://bugcrowd.com/atlassianapps",
-                    "type": "website"
-                },
-                {
-                    "identifier": "shop.atlassian.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": " bytebucket.org",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.bitbucket.io",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://blog.bitbucket.org",
-                    "type": "website"
-                },
-                {
-                    "identifier": "HipChat (inc. HipChat Data Center, HipChat Desktop, HipChat Mobile)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Stride (inc. Stride Video, Stride Desktop, Stride Mobile)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "support.atlassian.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Any customer instance. Do not test customer instances or affect customer data. Customer cloud instances may be in the form of <customer>.atlassian.net or <customer>.jira.com. Test only your own instances.",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Any repository that you are not an owner of - do not impact Atlassian customers in any way.",
-                    "type": "website"
-                },
-                {
-                    "identifier": "support.loom.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "info.loom.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/auth0-okta",
         "bounty": 1,
         "active": 1,
@@ -6633,37 +6382,6 @@
         }
     },
     {
-        "handle": "engagements/carrefour",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Carrefour UAE iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Carrefour UAE Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "carrefouruae.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://api-prod.retailsso.com",
-                    "type": "api"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "https://cwingsfe.mafrservices.com/login",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/coindesk-mobile-mbb-og",
         "bounty": 1,
         "active": 1,
@@ -7144,6 +6862,288 @@
         }
     },
     {
+        "handle": "engagements/atlassian",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Atlassian Guard Standard and Premium (https://admin.atlassian.com/atlassian-guard)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Atlassian Admin (https://admin.atlassian.com/)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Atlassian Identity (https://id.atlassian.com/login)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Atlassian Start (https://start.atlassian.com)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Bitbucket Cloud including Bitbucket Pipelines (https://bitbucket.org)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Confluence Cloud (bugbounty-test-<bugcrowd-name>.atlassian.net/wiki)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Confluence Cloud Premium (bugbounty-test-<bugcrowd-name>.atlassian.net/wiki)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Confluence Cloud Mobile App for Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Confluence Cloud Mobile App for iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Jira Cloud Mobile App for Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Jira Cloud Mobile App for iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Jira Service Management Cloud (bugbounty-test-<bugcrowd-name>.atlassian.net)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Jira Software Cloud (bugbounty-test-<bugcrowd-name>.atlassian.net)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Jira Work Management Cloud formerly Jira Core (bugbounty-test-<bugcrowd-name>.atlassian.net)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Any associated *.atlassian.com or *.atl-paas.net domain that can be exploited DIRECTLY from the *.atlassian.net instance",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Rovo",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Atlassian Compass",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Atlassian Marketplace (https://marketplace.atlassian.com)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Atlassian Atlas",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Bitbucket Data Center",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Confluence Data Center",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Crowd",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Jira Core Data Center",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Jira Service Management Data Center",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Jira Software Data Center",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.atlastunnel.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Any other *.atlassian.com or *.atl-paas.net domain that cannot be exploited directly from a *.atlassian.net instance",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.loom.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Loom Desktop App (Windows)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Loom Desktop App (macOS)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Loom for Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Loom for iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Loom Chrome Extension",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Bamboo",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Confluence Companion App for macOS and Windows",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Confluence Data Center Mobile App for Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Confluence Data Center Mobile App for iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Crucible",
+                    "type": "website"
+                },
+                {
+                    "identifier": "FishEye",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Jira Data Center Mobile App for Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Jira Data Center Mobile App for iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Sourcetree for macOS and Windows (https://www.sourcetreeapp.com/)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Other - (all other Atlassian targets)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Jira Product Discovery",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Forge Platform",
+                    "type": "other"
+                },
+                {
+                    "identifier": "GraphQL API (bugbounty-test-<bugcrowd-name>.atlassian.net/gateway/api/graphql)",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://www.npmjs.com/package/@forge/cli",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "Any internal or development services.",
+                    "type": "website"
+                },
+                {
+                    "identifier": "First and third party apps and plugins from the marketplace are excluded from this bounty but may be in scope for https://bugcrowd.com/atlassianapps",
+                    "type": "website"
+                },
+                {
+                    "identifier": "shop.atlassian.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": " bytebucket.org",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.bitbucket.io",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://blog.bitbucket.org",
+                    "type": "website"
+                },
+                {
+                    "identifier": "HipChat (inc. HipChat Data Center, HipChat Desktop, HipChat Mobile)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Stride (inc. Stride Video, Stride Desktop, Stride Mobile)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "support.atlassian.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Any customer instance. Do not test customer instances or affect customer data. Customer cloud instances may be in the form of <customer>.atlassian.net or <customer>.jira.com. Test only your own instances.",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Any repository that you are not an owner of - do not impact Atlassian customers in any way.",
+                    "type": "website"
+                },
+                {
+                    "identifier": "support.loom.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "info.loom.com",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/carrefour",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Carrefour UAE iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Carrefour UAE Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "carrefouruae.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://api-prod.retailsso.com",
+                    "type": "api"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "https://cwingsfe.mafrservices.com/login",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
         "handle": "engagements/braze-bb",
         "bounty": 1,
         "active": 0,
@@ -7188,41 +7188,6 @@
             "out_of_scope": [
                 {
                     "identifier": "*.bullish.com/",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/directly",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "app.sandbox.directly.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.sandbox.directly.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://sandbox.directly.com/dashboard/index",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "www.directly.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "resources.directly.com/*",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.sandbox.directly.com/schedule-a-demo/* OR /product/* OR /careers/* OR /about/* OR /legal/* OR /trust/*",
                     "type": "website"
                 }
             ]
@@ -9147,6 +9112,41 @@
         }
     },
     {
+        "handle": "engagements/directly",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "app.sandbox.directly.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.sandbox.directly.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://sandbox.directly.com/dashboard/index",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "www.directly.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "resources.directly.com/*",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.sandbox.directly.com/schedule-a-demo/* OR /product/* OR /careers/* OR /about/* OR /legal/* OR /trust/*",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
         "handle": "engagements/k15t",
         "bounty": 1,
         "active": 1,
@@ -11056,24 +11056,6 @@
         }
     },
     {
-        "handle": "engagements/ultramobile-public",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://www.mintmobile.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.ultramobile.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/aylo-mydirtyhobby-mbb-og",
         "bounty": 1,
         "active": 1,
@@ -11130,6 +11112,24 @@
                     "type": "website"
                 }
             ]
+        }
+    },
+    {
+        "handle": "engagements/ultramobile-public",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://www.mintmobile.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.ultramobile.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
         }
     },
     {
@@ -11467,87 +11467,6 @@
         }
     },
     {
-        "handle": "engagements/hostgator-latam-bb",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://www.hostgator.com.br/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://financeiro.hostgator.com.br",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "https://carrinho.hostgator.com.br/",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/entain-public-mbb-og",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Partypoker Website (and all its subdomains)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Ladbrokes Digital  (and all its subdomains)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Coral Sports  (and all its subdomains)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Gala Bingo (and all its subdomains)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Partycasino Website (and all its subdomains)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Bwin Website (and all its subdomains)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Partycasino APK",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Bwin Poker-Casino iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Bwin Sports iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Partycasino iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Partypoker iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Gala Casino Website (and all its subdomains)",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/seek",
         "bounty": 1,
         "active": 1,
@@ -11662,6 +11581,87 @@
                     "type": "website"
                 }
             ]
+        }
+    },
+    {
+        "handle": "engagements/hostgator-latam-bb",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://www.hostgator.com.br/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://financeiro.hostgator.com.br",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "https://carrinho.hostgator.com.br/",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/entain-public-mbb-og",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Partypoker Website (and all its subdomains)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Ladbrokes Digital  (and all its subdomains)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Coral Sports  (and all its subdomains)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Gala Bingo (and all its subdomains)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Partycasino Website (and all its subdomains)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Bwin Website (and all its subdomains)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Partycasino APK",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Bwin Poker-Casino iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Bwin Sports iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Partycasino iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Partypoker iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Gala Casino Website (and all its subdomains)",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
         }
     },
     {
@@ -13209,37 +13209,6 @@
         }
     },
     {
-        "handle": "engagements/jora",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.jora.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.jora.xyz",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://apps.apple.com/us/app/jora-jobs-job-search-app/id917565665\t",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "https://play.google.com/store/apps/details?id=com.jora.android&hl=en_US\t",
-                    "type": "android"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "*.joralocal.com.au\t",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/lightspeed-hospitality",
         "bounty": 1,
         "active": 0,
@@ -13334,56 +13303,6 @@
                 {
                     "identifier": "*.cashstaging.app",
                     "type": "website"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/intercom",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "iOS SDK",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "https://api.intercom.io",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://app.intercom.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.intercomassets.com / *.intercomcdn.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://app.intercom.io",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Android SDK",
-                    "type": "android"
-                },
-                {
-                    "identifier": "https://www.intercom.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "mcp.intercom.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://api-iam.intercom.io",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://*.mobile-messenger.intercom.com",
-                    "type": "api"
                 }
             ],
             "out_of_scope": []
@@ -15404,165 +15323,6 @@
         }
     },
     {
-        "handle": "engagements/aylo-nutaku-mbb-og",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://www.nutaku.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.nutaku.net",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://xnxx.nutaku.net",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://xvideos.nutaku.net",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://osapi.nutaku.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://mobileapi.nutaku.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://gateway-api.nutaku.net",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.nutakupublishing.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "https://www.nutaku.net/mobile-app-download/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://xnxx.nutaku.net/mobile-app-download/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://xvideos.nutaku.net/mobile-app-download/ ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "http://www.nutaku.net/blog ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "brazzers-waifu-go.nutaku.net ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "merge-nymphs.nutaku.net ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "sacred-sword-sfw.nutaku.net ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "shelter-69.nutaku.net ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "cdn-cosmic-shock-league.nutaku.net ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "cdn-cross-promotions.nutaku.net ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "cdn-crystal-maidens-test.nutaku.net ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "cdn-fapceo.nutaku.net ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "cdn-publishing.nutaku.net ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "cdn.crushcrush.nutaku.net ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "cdn.crystal-maidens-staging.nutaku.net ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "cdn.flowerknight.nutaku.net ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "college-life.nutaku.net ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "heavy-metal-babes.nutaku.net ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "pocket-waifu.nutaku.net ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "sacred-sword-nsfw.nutaku.net ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.cross-promotion.nutaku.net ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.nutaku.net/support ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.nutaku.com/support/ ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.nutaku.com/members/support-tickets/ ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.nutaku.net/members/support-tickets/ ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "play.nutaku.net ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "sbox-*.*.nutaku.net ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Pf.nutaku.com ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.nutaku.net/desktop-app-download/ ",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/legacy-blockchain-mbb-og",
         "bounty": 1,
         "active": 1,
@@ -16076,6 +15836,246 @@
                 }
             ],
             "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/intercom",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "iOS SDK",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "https://api.intercom.io",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://app.intercom.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.intercomassets.com / *.intercomcdn.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://app.intercom.io",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Android SDK",
+                    "type": "android"
+                },
+                {
+                    "identifier": "https://www.intercom.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "mcp.intercom.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://api-iam.intercom.io",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://*.mobile-messenger.intercom.com",
+                    "type": "api"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/jora",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.jora.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.jora.xyz",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://apps.apple.com/us/app/jora-jobs-job-search-app/id917565665\t",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "https://play.google.com/store/apps/details?id=com.jora.android&hl=en_US\t",
+                    "type": "android"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "*.joralocal.com.au\t",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/aylo-nutaku-mbb-og",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://www.nutaku.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.nutaku.net",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://xnxx.nutaku.net",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://xvideos.nutaku.net",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://osapi.nutaku.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://mobileapi.nutaku.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://gateway-api.nutaku.net",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.nutakupublishing.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "https://www.nutaku.net/mobile-app-download/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://xnxx.nutaku.net/mobile-app-download/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://xvideos.nutaku.net/mobile-app-download/ ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "http://www.nutaku.net/blog ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "brazzers-waifu-go.nutaku.net ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "merge-nymphs.nutaku.net ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "sacred-sword-sfw.nutaku.net ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "shelter-69.nutaku.net ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "cdn-cosmic-shock-league.nutaku.net ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "cdn-cross-promotions.nutaku.net ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "cdn-crystal-maidens-test.nutaku.net ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "cdn-fapceo.nutaku.net ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "cdn-publishing.nutaku.net ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "cdn.crushcrush.nutaku.net ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "cdn.crystal-maidens-staging.nutaku.net ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "cdn.flowerknight.nutaku.net ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "college-life.nutaku.net ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "heavy-metal-babes.nutaku.net ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "pocket-waifu.nutaku.net ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "sacred-sword-nsfw.nutaku.net ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.cross-promotion.nutaku.net ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.nutaku.net/support ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.nutaku.com/support/ ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.nutaku.com/members/support-tickets/ ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.nutaku.net/members/support-tickets/ ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "play.nutaku.net ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "sbox-*.*.nutaku.net ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Pf.nutaku.com ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.nutaku.net/desktop-app-download/ ",
+                    "type": "website"
+                }
+            ]
         }
     },
     {
