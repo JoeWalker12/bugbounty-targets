@@ -8581,6 +8581,37 @@
         }
     },
     {
+        "handle": "engagements/personalcapital",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://devstaging.pcapcloud.com/*",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "*.empower-retirement.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.personalcapital.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.empower.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.retirementpartner.com",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
         "handle": "engagements/openai",
         "bounty": 1,
         "active": 1,
@@ -8760,6 +8791,41 @@
         }
     },
     {
+        "handle": "engagements/directly",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "app.sandbox.directly.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.sandbox.directly.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://sandbox.directly.com/dashboard/index",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "www.directly.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "resources.directly.com/*",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.sandbox.directly.com/schedule-a-demo/* OR /product/* OR /careers/* OR /about/* OR /legal/* OR /trust/*",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
         "handle": "engagements/originenergy-og1",
         "bounty": 1,
         "active": 1,
@@ -8931,37 +8997,6 @@
         }
     },
     {
-        "handle": "engagements/personalcapital",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://devstaging.pcapcloud.com/*",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "*.empower-retirement.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.personalcapital.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.empower.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.retirementpartner.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/fireblocks-mbb-og",
         "bounty": 1,
         "active": 1,
@@ -8981,41 +9016,6 @@
                 }
             ],
             "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/directly",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "app.sandbox.directly.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.sandbox.directly.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://sandbox.directly.com/dashboard/index",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "www.directly.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "resources.directly.com/*",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.sandbox.directly.com/schedule-a-demo/* OR /product/* OR /careers/* OR /about/* OR /legal/* OR /trust/*",
-                    "type": "website"
-                }
-            ]
         }
     },
     {
@@ -10995,6 +10995,24 @@
         }
     },
     {
+        "handle": "engagements/ultramobile-public",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://www.mintmobile.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.ultramobile.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
         "handle": "engagements/aylo-mydirtyhobby-mbb-og",
         "bounty": 1,
         "active": 1,
@@ -11051,24 +11069,6 @@
                     "type": "website"
                 }
             ]
-        }
-    },
-    {
-        "handle": "engagements/ultramobile-public",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://www.mintmobile.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.ultramobile.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
         }
     },
     {
@@ -12144,65 +12144,6 @@
         }
     },
     {
-        "handle": "engagements/tidal-bugbounty",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.tidal.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.wimpmusic.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.tidalhifi.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "api.tidal.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*tidalhi.fi",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.tdl.sh",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Tidal Client for iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Tidal Client for Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Tidal Desktop Client",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Tidal Official Clients (e.g. Sonos integration, Tesla integration, etc.)",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "developer.tidal.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "embed.tidal.com",
-                    "type": "other"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/blockopensource",
         "bounty": 1,
         "active": 1,
@@ -12833,40 +12774,6 @@
         }
     },
     {
-        "handle": "engagements/mallofemirates",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://www.malloftheemirates.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://play.google.com/store/apps/details?id=com.belongi.moe",
-                    "type": "android"
-                },
-                {
-                    "identifier": "https://apps.apple.com/app/mall-of-the-emirates-moe/id1449578693",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "https://api.mafshoppingmalls.com/",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://www.premogiftcards.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://identity.majidalfuttaim.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/irobot",
         "bounty": 1,
         "active": 0,
@@ -12982,6 +12889,99 @@
                 },
                 {
                     "identifier": "https://answers.irobot.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/tidal-bugbounty",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.tidal.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.wimpmusic.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.tidalhifi.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "api.tidal.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*tidalhi.fi",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.tdl.sh",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Tidal Client for iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Tidal Client for Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Tidal Desktop Client",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Tidal Official Clients (e.g. Sonos integration, Tesla integration, etc.)",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "developer.tidal.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "embed.tidal.com",
+                    "type": "other"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/mallofemirates",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://www.malloftheemirates.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://play.google.com/store/apps/details?id=com.belongi.moe",
+                    "type": "android"
+                },
+                {
+                    "identifier": "https://apps.apple.com/app/mall-of-the-emirates-moe/id1449578693",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "https://api.mafshoppingmalls.com/",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://www.premogiftcards.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://identity.majidalfuttaim.com",
                     "type": "website"
                 }
             ],
