@@ -8377,6 +8377,37 @@
         }
     },
     {
+        "handle": "engagements/personalcapital",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://devstaging.pcapcloud.com/*",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "*.empower-retirement.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.personalcapital.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.empower.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.retirementpartner.com",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
         "handle": "engagements/pinterest",
         "bounty": 1,
         "active": 1,
@@ -8484,6 +8515,41 @@
             "out_of_scope": [
                 {
                     "identifier": "https://www.myprotein.com.tr/",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/directly",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "app.sandbox.directly.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.sandbox.directly.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://sandbox.directly.com/dashboard/index",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "www.directly.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "resources.directly.com/*",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.sandbox.directly.com/schedule-a-demo/* OR /product/* OR /careers/* OR /about/* OR /legal/* OR /trust/*",
                     "type": "website"
                 }
             ]
@@ -8661,37 +8727,6 @@
         }
     },
     {
-        "handle": "engagements/personalcapital",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://devstaging.pcapcloud.com/*",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "*.empower-retirement.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.personalcapital.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.empower.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.retirementpartner.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/fireblocks-mbb-og",
         "bounty": 1,
         "active": 1,
@@ -8711,41 +8746,6 @@
                 }
             ],
             "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/directly",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "app.sandbox.directly.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.sandbox.directly.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://sandbox.directly.com/dashboard/index",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "www.directly.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "resources.directly.com/*",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.sandbox.directly.com/schedule-a-demo/* OR /product/* OR /careers/* OR /about/* OR /legal/* OR /trust/*",
-                    "type": "website"
-                }
-            ]
         }
     },
     {
@@ -8812,6 +8812,72 @@
                 {
                     "identifier": "ws.blockchain.info",
                     "type": "api"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/openai",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "api.openai.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "ChatGPT",
+                    "type": "website"
+                },
+                {
+                    "identifier": "ChatGPT Plugins",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Third Party Targets",
+                    "type": "website"
+                },
+                {
+                    "identifier": "OpenAI API Keys",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://openai.org",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.openai.org",
+                    "type": "api"
+                },
+                {
+                    "identifier": "openai.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.openai.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Developer Platform Playground",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Other",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Sora App",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Sora",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Atlas",
+                    "type": "other"
                 }
             ],
             "out_of_scope": []
@@ -8921,6 +8987,56 @@
         }
     },
     {
+        "handle": "engagements/sendbird-mbb",
+        "bounty": 1,
+        "active": 0,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://dashboard.sendbird.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://gate.sendbird.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://api-{app-id}.sendbird.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://ws-{app-id}.sendbird.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://desk-api-{region}.sendbird.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://ws-{app-id}.calls.sendbird.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://api-{app-id}.calls.sendbird.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://api-{app-id}.notifications.sendbird.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://sendbird.com/docs",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://sendbird.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
         "handle": "engagements/webdotcom",
         "bounty": 1,
         "active": 1,
@@ -8969,122 +9085,6 @@
                     "type": "website"
                 }
             ]
-        }
-    },
-    {
-        "handle": "engagements/openai",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "api.openai.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "ChatGPT",
-                    "type": "website"
-                },
-                {
-                    "identifier": "ChatGPT Plugins",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Third Party Targets",
-                    "type": "website"
-                },
-                {
-                    "identifier": "OpenAI API Keys",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://openai.org",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.openai.org",
-                    "type": "api"
-                },
-                {
-                    "identifier": "openai.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.openai.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Developer Platform Playground",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Other",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Sora App",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Sora",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Atlas",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/sendbird-mbb",
-        "bounty": 1,
-        "active": 0,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://dashboard.sendbird.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://gate.sendbird.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://api-{app-id}.sendbird.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://ws-{app-id}.sendbird.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://desk-api-{region}.sendbird.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://ws-{app-id}.calls.sendbird.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://api-{app-id}.calls.sendbird.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://api-{app-id}.notifications.sendbird.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://sendbird.com/docs",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://sendbird.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
         }
     },
     {
@@ -10995,24 +10995,6 @@
         }
     },
     {
-        "handle": "engagements/ultramobile-public",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://www.mintmobile.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.ultramobile.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/aylo-mydirtyhobby-mbb-og",
         "bounty": 1,
         "active": 1,
@@ -11069,6 +11051,24 @@
                     "type": "website"
                 }
             ]
+        }
+    },
+    {
+        "handle": "engagements/ultramobile-public",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://www.mintmobile.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.ultramobile.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
         }
     },
     {
@@ -13778,153 +13778,6 @@
         }
     },
     {
-        "handle": "engagements/arlo",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Arlo Safe Android App",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Arlo Safe iOS App",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Arlo Secure Android App",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Arlo Secure iOS App",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Arlo All-In-One Sensor (Home Security System)",
-                    "type": "iot"
-                },
-                {
-                    "identifier": "Arlo Base Station",
-                    "type": "iot"
-                },
-                {
-                    "identifier": "Arlo Cellular & Battery Backup (Home Security System)",
-                    "type": "iot"
-                },
-                {
-                    "identifier": "Arlo Chime 2",
-                    "type": "iot"
-                },
-                {
-                    "identifier": "Arlo Essential 2 & 3 (indoor & outdoor camera, doorbell)",
-                    "type": "iot"
-                },
-                {
-                    "identifier": "Arlo Wired Floodlight",
-                    "type": "iot"
-                },
-                {
-                    "identifier": "Arlo Go v2",
-                    "type": "iot"
-                },
-                {
-                    "identifier": "Arlo Home Security System",
-                    "type": "iot"
-                },
-                {
-                    "identifier": "Arlo Pro 3 Floodlight",
-                    "type": "iot"
-                },
-                {
-                    "identifier": "Arlo Pro SmartHub",
-                    "type": "iot"
-                },
-                {
-                    "identifier": "Arlo Pro 5S",
-                    "type": "iot"
-                },
-                {
-                    "identifier": "Arlo Pro 6",
-                    "type": "iot"
-                },
-                {
-                    "identifier": "Arlo Safe Button",
-                    "type": "iot"
-                },
-                {
-                    "identifier": "Arlo Ultra 2",
-                    "type": "iot"
-                },
-                {
-                    "identifier": "Arlo Wireless Video Doorbell",
-                    "type": "iot"
-                },
-                {
-                    "identifier": "Arlo Wire-Free Outdoor Siren (Home Security System)",
-                    "type": "iot"
-                },
-                {
-                    "identifier": "*.arlo.com (subdomains impacting customer-facing services)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "*.arloxcld.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://*-prod.arlo.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://beta.arlo.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://mcs.arlo.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://my.arlo.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://myapi.arlo.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://www.arlo.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://updates.arlo.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://partnerapi.arlo.com",
-                    "type": "api"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "http://community.arlo.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "http://survey.arlo.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "http://research.arlo.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://investor.arlo.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/jora",
         "bounty": 1,
         "active": 1,
@@ -16153,6 +16006,153 @@
                 },
                 {
                     "identifier": "https://www.lafourchette.com",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/arlo",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Arlo Safe Android App",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Arlo Safe iOS App",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Arlo Secure Android App",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Arlo Secure iOS App",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Arlo All-In-One Sensor (Home Security System)",
+                    "type": "iot"
+                },
+                {
+                    "identifier": "Arlo Base Station",
+                    "type": "iot"
+                },
+                {
+                    "identifier": "Arlo Cellular & Battery Backup (Home Security System)",
+                    "type": "iot"
+                },
+                {
+                    "identifier": "Arlo Chime 2",
+                    "type": "iot"
+                },
+                {
+                    "identifier": "Arlo Essential 2 & 3 (indoor & outdoor camera, doorbell)",
+                    "type": "iot"
+                },
+                {
+                    "identifier": "Arlo Wired Floodlight",
+                    "type": "iot"
+                },
+                {
+                    "identifier": "Arlo Go v2",
+                    "type": "iot"
+                },
+                {
+                    "identifier": "Arlo Home Security System",
+                    "type": "iot"
+                },
+                {
+                    "identifier": "Arlo Pro 3 Floodlight",
+                    "type": "iot"
+                },
+                {
+                    "identifier": "Arlo Pro SmartHub",
+                    "type": "iot"
+                },
+                {
+                    "identifier": "Arlo Pro 5S",
+                    "type": "iot"
+                },
+                {
+                    "identifier": "Arlo Pro 6",
+                    "type": "iot"
+                },
+                {
+                    "identifier": "Arlo Safe Button",
+                    "type": "iot"
+                },
+                {
+                    "identifier": "Arlo Ultra 2",
+                    "type": "iot"
+                },
+                {
+                    "identifier": "Arlo Wireless Video Doorbell",
+                    "type": "iot"
+                },
+                {
+                    "identifier": "Arlo Wire-Free Outdoor Siren (Home Security System)",
+                    "type": "iot"
+                },
+                {
+                    "identifier": "*.arlo.com (subdomains impacting customer-facing services)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "*.arloxcld.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://*-prod.arlo.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://beta.arlo.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://mcs.arlo.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://my.arlo.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://myapi.arlo.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://www.arlo.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://updates.arlo.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://partnerapi.arlo.com",
+                    "type": "api"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "http://community.arlo.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "http://survey.arlo.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "http://research.arlo.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://investor.arlo.com",
                     "type": "website"
                 }
             ]
