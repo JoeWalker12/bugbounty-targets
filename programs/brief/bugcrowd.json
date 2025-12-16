@@ -7441,6 +7441,37 @@
         }
     },
     {
+        "handle": "engagements/personalcapital",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://devstaging.pcapcloud.com/*",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "*.empower-retirement.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.personalcapital.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.empower.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.retirementpartner.com",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
         "handle": "engagements/pinterest",
         "bounty": 1,
         "active": 1,
@@ -7500,6 +7531,41 @@
                 }
             ],
             "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/directly",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "app.sandbox.directly.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.sandbox.directly.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://sandbox.directly.com/dashboard/index",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "www.directly.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "resources.directly.com/*",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.sandbox.directly.com/schedule-a-demo/* OR /product/* OR /careers/* OR /about/* OR /legal/* OR /trust/*",
+                    "type": "website"
+                }
+            ]
         }
     },
     {
@@ -7674,37 +7740,6 @@
         }
     },
     {
-        "handle": "engagements/personalcapital",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://devstaging.pcapcloud.com/*",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "*.empower-retirement.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.personalcapital.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.empower.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.retirementpartner.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/fireblocks-mbb-og",
         "bounty": 1,
         "active": 1,
@@ -7724,41 +7759,6 @@
                 }
             ],
             "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/directly",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "app.sandbox.directly.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.sandbox.directly.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://sandbox.directly.com/dashboard/index",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "www.directly.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "resources.directly.com/*",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.sandbox.directly.com/schedule-a-demo/* OR /product/* OR /careers/* OR /about/* OR /legal/* OR /trust/*",
-                    "type": "website"
-                }
-            ]
         }
     },
     {
@@ -7933,61 +7933,6 @@
         }
     },
     {
-        "handle": "engagements/coindesk-mbb-og",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "coindesk.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "CoinDesk Indices",
-                    "type": "website"
-                },
-                {
-                    "identifier": "CoinDesk Events",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Production CoinDesk Events",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Consensus2023 Site",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Consensus2024 Site",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Consensus2025 Site",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Consensus HK Site",
-                    "type": "website"
-                },
-                {
-                    "identifier": "uat.coindesk.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "uat.accounts.coindesk.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "CoinDesk Staging Site",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/maffashion",
         "bounty": 1,
         "active": 1,
@@ -8055,69 +8000,58 @@
         }
     },
     {
-        "handle": "engagements/openai",
+        "handle": "engagements/coindesk-mbb-og",
         "bounty": 1,
         "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "api.openai.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "ChatGPT",
+                    "identifier": "coindesk.com",
                     "type": "website"
-                },
-                {
-                    "identifier": "ChatGPT Plugins",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Third Party Targets",
-                    "type": "website"
-                },
-                {
-                    "identifier": "OpenAI API Keys",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://openai.org",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.openai.org",
-                    "type": "api"
-                },
-                {
-                    "identifier": "openai.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.openai.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Developer Platform Playground",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Other",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Sora App",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Sora",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Atlas",
-                    "type": "other"
                 }
             ],
-            "out_of_scope": []
+            "out_of_scope": [
+                {
+                    "identifier": "CoinDesk Indices",
+                    "type": "website"
+                },
+                {
+                    "identifier": "CoinDesk Events",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Production CoinDesk Events",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Consensus2023 Site",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Consensus2024 Site",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Consensus2025 Site",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Consensus HK Site",
+                    "type": "website"
+                },
+                {
+                    "identifier": "uat.coindesk.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "uat.accounts.coindesk.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "CoinDesk Staging Site",
+                    "type": "website"
+                }
+            ]
         }
     },
     {
@@ -8221,6 +8155,72 @@
                     "type": "website"
                 }
             ]
+        }
+    },
+    {
+        "handle": "engagements/openai",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "api.openai.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "ChatGPT",
+                    "type": "website"
+                },
+                {
+                    "identifier": "ChatGPT Plugins",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Third Party Targets",
+                    "type": "website"
+                },
+                {
+                    "identifier": "OpenAI API Keys",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://openai.org",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.openai.org",
+                    "type": "api"
+                },
+                {
+                    "identifier": "openai.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.openai.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Developer Platform Playground",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Other",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Sora App",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Sora",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Atlas",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": []
         }
     },
     {
@@ -11121,159 +11121,6 @@
         }
     },
     {
-        "handle": "engagements/optimizely",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://app.optimizely.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://cdn.optimizely.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://cdn-pci.optimizely.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://optimizely-edge.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://api.optimizely.com/",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://dxc.episerver.net/ ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://paasportal.episerver.net/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://paasportal.episerver.net/api/v1.0/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://app.welcomesoftware.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://accounts.welcomesoftware.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://api.welcomesoftware.com/ ",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://cdn-app.welcomesoftware.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://analytics.welcomesoftware.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://flags.expeng.optimizely.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://accounts.cmp.optimizely.com/",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "https://www.optimizely.com/",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/seek",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.seek.com.au",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://seekcdn.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "SEEK mobile app for iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "SEEK mobile app for Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "*.skinfra.xyz",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.outfra.xyz",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.sol-data.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.jobapi.net",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.seekpass.co",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.seekpass-staging.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.aips-internal.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.certsy.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.certsynonprod.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "SEEK Pass Mobile App for iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "SEEK Pass Mobile App for Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "graphql.seek.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "auth.seek.com",
-                    "type": "api"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/freedomofpress",
         "bounty": 1,
         "active": 1,
@@ -12202,6 +12049,159 @@
                 {
                     "identifier": "embed.tidal.com",
                     "type": "other"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/seek",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.seek.com.au",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://seekcdn.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "SEEK mobile app for iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "SEEK mobile app for Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "*.skinfra.xyz",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.outfra.xyz",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.sol-data.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.jobapi.net",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.seekpass.co",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.seekpass-staging.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.aips-internal.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.certsy.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.certsynonprod.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "SEEK Pass Mobile App for iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "SEEK Pass Mobile App for Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "graphql.seek.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "auth.seek.com",
+                    "type": "api"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/optimizely",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://app.optimizely.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://cdn.optimizely.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://cdn-pci.optimizely.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://optimizely-edge.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://api.optimizely.com/",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://dxc.episerver.net/ ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://paasportal.episerver.net/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://paasportal.episerver.net/api/v1.0/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://app.welcomesoftware.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://accounts.welcomesoftware.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://api.welcomesoftware.com/ ",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://cdn-app.welcomesoftware.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://analytics.welcomesoftware.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://flags.expeng.optimizely.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://accounts.cmp.optimizely.com/",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "https://www.optimizely.com/",
+                    "type": "website"
                 }
             ]
         }
@@ -14638,153 +14638,6 @@
         }
     },
     {
-        "handle": "engagements/arlo",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Arlo Safe Android App",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Arlo Safe iOS App",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Arlo Secure Android App",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Arlo Secure iOS App",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Arlo All-In-One Sensor (Home Security System)",
-                    "type": "iot"
-                },
-                {
-                    "identifier": "Arlo Base Station",
-                    "type": "iot"
-                },
-                {
-                    "identifier": "Arlo Cellular & Battery Backup (Home Security System)",
-                    "type": "iot"
-                },
-                {
-                    "identifier": "Arlo Chime 2",
-                    "type": "iot"
-                },
-                {
-                    "identifier": "Arlo Essential 2 & 3 (indoor & outdoor camera, doorbell)",
-                    "type": "iot"
-                },
-                {
-                    "identifier": "Arlo Wired Floodlight",
-                    "type": "iot"
-                },
-                {
-                    "identifier": "Arlo Go v2",
-                    "type": "iot"
-                },
-                {
-                    "identifier": "Arlo Home Security System",
-                    "type": "iot"
-                },
-                {
-                    "identifier": "Arlo Pro 3 Floodlight",
-                    "type": "iot"
-                },
-                {
-                    "identifier": "Arlo Pro SmartHub",
-                    "type": "iot"
-                },
-                {
-                    "identifier": "Arlo Pro 5S",
-                    "type": "iot"
-                },
-                {
-                    "identifier": "Arlo Pro 6",
-                    "type": "iot"
-                },
-                {
-                    "identifier": "Arlo Safe Button",
-                    "type": "iot"
-                },
-                {
-                    "identifier": "Arlo Ultra 2",
-                    "type": "iot"
-                },
-                {
-                    "identifier": "Arlo Wireless Video Doorbell",
-                    "type": "iot"
-                },
-                {
-                    "identifier": "Arlo Wire-Free Outdoor Siren (Home Security System)",
-                    "type": "iot"
-                },
-                {
-                    "identifier": "*.arlo.com (subdomains impacting customer-facing services)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "*.arloxcld.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://*-prod.arlo.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://beta.arlo.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://mcs.arlo.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://my.arlo.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://myapi.arlo.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://www.arlo.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://updates.arlo.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://partnerapi.arlo.com",
-                    "type": "api"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "http://community.arlo.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "http://survey.arlo.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "http://research.arlo.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://investor.arlo.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/opensea",
         "bounty": 1,
         "active": 1,
@@ -15061,41 +14914,150 @@
         }
     },
     {
-        "handle": "engagements/unity",
+        "handle": "engagements/arlo",
         "bounty": 1,
         "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "id.unity.com",
-                    "type": "website"
+                    "identifier": "Arlo Safe Android App",
+                    "type": "android"
                 },
                 {
-                    "identifier": "api.unity.com",
+                    "identifier": "Arlo Safe iOS App",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Arlo Secure Android App",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Arlo Secure iOS App",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Arlo All-In-One Sensor (Home Security System)",
+                    "type": "iot"
+                },
+                {
+                    "identifier": "Arlo Base Station",
+                    "type": "iot"
+                },
+                {
+                    "identifier": "Arlo Cellular & Battery Backup (Home Security System)",
+                    "type": "iot"
+                },
+                {
+                    "identifier": "Arlo Chime 2",
+                    "type": "iot"
+                },
+                {
+                    "identifier": "Arlo Essential 2 & 3 (indoor & outdoor camera, doorbell)",
+                    "type": "iot"
+                },
+                {
+                    "identifier": "Arlo Wired Floodlight",
+                    "type": "iot"
+                },
+                {
+                    "identifier": "Arlo Go v2",
+                    "type": "iot"
+                },
+                {
+                    "identifier": "Arlo Home Security System",
+                    "type": "iot"
+                },
+                {
+                    "identifier": "Arlo Pro 3 Floodlight",
+                    "type": "iot"
+                },
+                {
+                    "identifier": "Arlo Pro SmartHub",
+                    "type": "iot"
+                },
+                {
+                    "identifier": "Arlo Pro 5S",
+                    "type": "iot"
+                },
+                {
+                    "identifier": "Arlo Pro 6",
+                    "type": "iot"
+                },
+                {
+                    "identifier": "Arlo Safe Button",
+                    "type": "iot"
+                },
+                {
+                    "identifier": "Arlo Ultra 2",
+                    "type": "iot"
+                },
+                {
+                    "identifier": "Arlo Wireless Video Doorbell",
+                    "type": "iot"
+                },
+                {
+                    "identifier": "Arlo Wire-Free Outdoor Siren (Home Security System)",
+                    "type": "iot"
+                },
+                {
+                    "identifier": "*.arlo.com (subdomains impacting customer-facing services)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "*.arloxcld.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://*-prod.arlo.com",
                     "type": "api"
                 },
                 {
-                    "identifier": "cloud.unity.com",
+                    "identifier": "https://beta.arlo.com",
                     "type": "website"
                 },
                 {
-                    "identifier": "store.unity.com",
+                    "identifier": "https://mcs.arlo.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://my.arlo.com",
                     "type": "website"
                 },
                 {
-                    "identifier": "pay.unity.com",
+                    "identifier": "https://myapi.arlo.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://www.arlo.com",
                     "type": "website"
                 },
                 {
-                    "identifier": "player-login.unity.com",
-                    "type": "other"
+                    "identifier": "https://updates.arlo.com",
+                    "type": "api"
                 },
                 {
-                    "identifier": "Latest Supported LTS Versions of the Unity Editor - Unity 6.x.x Standard LTS, Unity 2022.3.x / 2021.3.x xLTS (enterprise license)",
-                    "type": "other"
+                    "identifier": "https://partnerapi.arlo.com",
+                    "type": "api"
                 }
             ],
-            "out_of_scope": []
+            "out_of_scope": [
+                {
+                    "identifier": "http://community.arlo.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "http://survey.arlo.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "http://research.arlo.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://investor.arlo.com",
+                    "type": "website"
+                }
+            ]
         }
     },
     {
@@ -15224,6 +15186,40 @@
         }
     },
     {
+        "handle": "engagements/bitgo-mbb-og-public",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.bitgo.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "app.bitgo.com ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "app.bitgo-test.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "bitgo.ae",
+                    "type": "other"
+                },
+                {
+                    "identifier": "wbtc.network",
+                    "type": "other"
+                },
+                {
+                    "identifier": "usdstandard.com",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
         "handle": "engagements/thefork-mbb-og",
         "bounty": 1,
         "active": 1,
@@ -15343,33 +15339,37 @@
         }
     },
     {
-        "handle": "engagements/bitgo-mbb-og-public",
+        "handle": "engagements/unity",
         "bounty": 1,
         "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "*.bitgo.com",
+                    "identifier": "id.unity.com",
                     "type": "website"
                 },
                 {
-                    "identifier": "app.bitgo.com ",
+                    "identifier": "api.unity.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "cloud.unity.com",
                     "type": "website"
                 },
                 {
-                    "identifier": "app.bitgo-test.com",
+                    "identifier": "store.unity.com",
                     "type": "website"
                 },
                 {
-                    "identifier": "bitgo.ae",
+                    "identifier": "pay.unity.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "player-login.unity.com",
                     "type": "other"
                 },
                 {
-                    "identifier": "wbtc.network",
-                    "type": "other"
-                },
-                {
-                    "identifier": "usdstandard.com",
+                    "identifier": "Latest Supported LTS Versions of the Unity Editor - Unity 6.x.x Standard LTS, Unity 2022.3.x / 2021.3.x xLTS (enterprise license)",
                     "type": "other"
                 }
             ],
