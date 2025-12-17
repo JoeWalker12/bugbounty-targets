@@ -5497,25 +5497,6 @@
         }
     },
     {
-        "handle": "engagements/fis",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Any FIS asset is in scope",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "Reference above out of scope targets",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/asana",
         "bounty": 1,
         "active": 1,
@@ -6279,6 +6260,25 @@
         }
     },
     {
+        "handle": "engagements/fis",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Any FIS asset is in scope",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "Reference above out of scope targets",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
         "handle": "engagements/braze-bb",
         "bounty": 1,
         "active": 0,
@@ -6974,72 +6974,6 @@
         }
     },
     {
-        "handle": "engagements/personalcapital",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://devstaging.pcapcloud.com/*",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "*.empower-retirement.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.personalcapital.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.empower.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.retirementpartner.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/directly",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "app.sandbox.directly.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.sandbox.directly.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://sandbox.directly.com/dashboard/index",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "www.directly.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "resources.directly.com/*",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.sandbox.directly.com/schedule-a-demo/* OR /product/* OR /careers/* OR /about/* OR /legal/* OR /trust/*",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/originenergy-og1",
         "bounty": 1,
         "active": 1,
@@ -7211,25 +7145,69 @@
         }
     },
     {
-        "handle": "engagements/fireblocks-mbb-og",
+        "handle": "engagements/personalcapital",
         "bounty": 1,
         "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "sb-console-api.fireblocks.io",
-                    "type": "website"
-                },
-                {
-                    "identifier": "sb-mobile-api.fireblocks.io",
-                    "type": "website"
-                },
-                {
-                    "identifier": "sandbox-api.fireblocks.io",
+                    "identifier": "https://devstaging.pcapcloud.com/*",
                     "type": "website"
                 }
             ],
-            "out_of_scope": []
+            "out_of_scope": [
+                {
+                    "identifier": "*.empower-retirement.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.personalcapital.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.empower.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.retirementpartner.com",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/directly",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "app.sandbox.directly.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.sandbox.directly.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://sandbox.directly.com/dashboard/index",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "www.directly.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "resources.directly.com/*",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.sandbox.directly.com/schedule-a-demo/* OR /product/* OR /careers/* OR /about/* OR /legal/* OR /trust/*",
+                    "type": "website"
+                }
+            ]
         }
     },
     {
@@ -7522,6 +7500,109 @@
         }
     },
     {
+        "handle": "engagements/linktree-mbb-og",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.linktr.ee",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.linktree.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.tr.ee",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.linktree-extensions.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Linktree iOS app",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Linktree Android app",
+                    "type": "android"
+                },
+                {
+                    "identifier": "plannthat.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Plann iOS app",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Plann Android app",
+                    "type": "android"
+                },
+                {
+                    "identifier": "*.odesli.co",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.odesli.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.song.link",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.songlink.io",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.album.link",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.artist.link",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.pods.link",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.playlist.link",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.mylink.page",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "*.filestack.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.freshdesk.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.blstr.xyz",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.blstr.co",
+                    "type": "website"
+                },
+                {
+                    "identifier": "community.linktr.ee",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
         "handle": "engagements/seek-com",
         "bounty": 1,
         "active": 1,
@@ -7597,6 +7678,215 @@
                 },
                 {
                     "identifier": "hk.staging.jobsdb.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/coindesk-mbb-og",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "coindesk.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "CoinDesk Indices",
+                    "type": "website"
+                },
+                {
+                    "identifier": "CoinDesk Events",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Production CoinDesk Events",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Consensus2023 Site",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Consensus2024 Site",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Consensus2025 Site",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Consensus HK Site",
+                    "type": "website"
+                },
+                {
+                    "identifier": "uat.coindesk.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "uat.accounts.coindesk.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "CoinDesk Staging Site",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/hutgroup-public",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://*.cultbeauty.co.uk/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.lookfantastic.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.myprotein.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.myvitamins.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.arrowfilms.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.mankind.co.uk/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.illamasqua.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.matalan.co.uk",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.enjoyselfish.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "https://www.myprotein.com.tr/",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/navan",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://staging-prime.navan.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "tripactions.com",
+                    "type": "other"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/pinterest",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "api.pinterest.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.pinterest.com Web Apps",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Pinterest iOS Mobile Application",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Pinterest Android Mobile Application",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Pinterest Lite Android Mobile Application",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Chrome extension (download at: chrome.google.com/webstore/detail/pinterest-save-button/gpdjojdkbbmdfjfahjcgigfpmkopogic?hl=en)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Edge extension (download at: https://microsoftedge.microsoft.com/addons/detail/pinterest-save-button/bkgoflemacdadndiohhdnphcmdhacabg)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Firefox extension (download at:   https://addons.mozilla.org/firefox/addon/pinterest/)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Safari extension (download at: https://apps.apple.com/us/app/save-to-pinterest/id6473649042)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Open source projects(non-forked) listed at github.com/pinterest/",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://www.shffls.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Shuffles App for Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Shuffles App for iOS",
+                    "type": "ios"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/fireblocks-mbb-og",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "sb-console-api.fireblocks.io",
+                    "type": "website"
+                },
+                {
+                    "identifier": "sb-mobile-api.fireblocks.io",
+                    "type": "website"
+                },
+                {
+                    "identifier": "sandbox-api.fireblocks.io",
                     "type": "website"
                 }
             ],
@@ -7855,164 +8145,6 @@
         }
     },
     {
-        "handle": "engagements/linktree-mbb-og",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.linktr.ee",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.linktree.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.tr.ee",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.linktree-extensions.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Linktree iOS app",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Linktree Android app",
-                    "type": "android"
-                },
-                {
-                    "identifier": "plannthat.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Plann iOS app",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Plann Android app",
-                    "type": "android"
-                },
-                {
-                    "identifier": "*.odesli.co",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.odesli.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.song.link",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.songlink.io",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.album.link",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.artist.link",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.pods.link",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.playlist.link",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.mylink.page",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "*.filestack.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.freshdesk.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.blstr.xyz",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.blstr.co",
-                    "type": "website"
-                },
-                {
-                    "identifier": "community.linktr.ee",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/coindesk-mbb-og",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "coindesk.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "CoinDesk Indices",
-                    "type": "website"
-                },
-                {
-                    "identifier": "CoinDesk Events",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Production CoinDesk Events",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Consensus2023 Site",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Consensus2024 Site",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Consensus2025 Site",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Consensus HK Site",
-                    "type": "website"
-                },
-                {
-                    "identifier": "uat.coindesk.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "uat.accounts.coindesk.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "CoinDesk Staging Site",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/openai",
         "bounty": 1,
         "active": 1,
@@ -8076,76 +8208,6 @@
                 }
             ],
             "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/hutgroup-public",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://*.cultbeauty.co.uk/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.lookfantastic.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.myprotein.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.myvitamins.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.arrowfilms.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.mankind.co.uk/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.illamasqua.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.matalan.co.uk",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.enjoyselfish.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "https://www.myprotein.com.tr/",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/navan",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://staging-prime.navan.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "tripactions.com",
-                    "type": "other"
-                }
-            ]
         }
     },
     {
@@ -8213,68 +8275,6 @@
                     "type": "website"
                 }
             ]
-        }
-    },
-    {
-        "handle": "engagements/pinterest",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "api.pinterest.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.pinterest.com Web Apps",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Pinterest iOS Mobile Application",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Pinterest Android Mobile Application",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Pinterest Lite Android Mobile Application",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Chrome extension (download at: chrome.google.com/webstore/detail/pinterest-save-button/gpdjojdkbbmdfjfahjcgigfpmkopogic?hl=en)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Edge extension (download at: https://microsoftedge.microsoft.com/addons/detail/pinterest-save-button/bkgoflemacdadndiohhdnphcmdhacabg)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Firefox extension (download at:   https://addons.mozilla.org/firefox/addon/pinterest/)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Safari extension (download at: https://apps.apple.com/us/app/save-to-pinterest/id6473649042)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Open source projects(non-forked) listed at github.com/pinterest/",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://www.shffls.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Shuffles App for Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Shuffles App for iOS",
-                    "type": "ios"
-                }
-            ],
-            "out_of_scope": []
         }
     },
     {
@@ -10217,6 +10217,24 @@
         }
     },
     {
+        "handle": "engagements/ultramobile-public",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://www.mintmobile.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.ultramobile.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
         "handle": "engagements/aylo-mydirtyhobby-mbb-og",
         "bounty": 1,
         "active": 1,
@@ -10273,24 +10291,6 @@
                     "type": "website"
                 }
             ]
-        }
-    },
-    {
-        "handle": "engagements/ultramobile-public",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://www.mintmobile.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.ultramobile.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
         }
     },
     {
@@ -11880,84 +11880,6 @@
         }
     },
     {
-        "handle": "engagements/seek",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.seek.com.au",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://seekcdn.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "SEEK mobile app for iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "SEEK mobile app for Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "*.skinfra.xyz",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.outfra.xyz",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.sol-data.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.jobapi.net",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.seekpass.co",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.seekpass-staging.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.aips-internal.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.certsy.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.certsynonprod.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "SEEK Pass Mobile App for iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "SEEK Pass Mobile App for Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "graphql.seek.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "auth.seek.com",
-                    "type": "api"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/wyze",
         "bounty": 1,
         "active": 1,
@@ -12208,6 +12130,84 @@
                     "type": "other"
                 }
             ]
+        }
+    },
+    {
+        "handle": "engagements/seek",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.seek.com.au",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://seekcdn.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "SEEK mobile app for iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "SEEK mobile app for Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "*.skinfra.xyz",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.outfra.xyz",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.sol-data.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.jobapi.net",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.seekpass.co",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.seekpass-staging.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.aips-internal.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.certsy.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.certsynonprod.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "SEEK Pass Mobile App for iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "SEEK Pass Mobile App for Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "graphql.seek.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "auth.seek.com",
+                    "type": "api"
+                }
+            ],
+            "out_of_scope": []
         }
     },
     {
