@@ -6745,6 +6745,41 @@
         }
     },
     {
+        "handle": "engagements/directly",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "app.sandbox.directly.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.sandbox.directly.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://sandbox.directly.com/dashboard/index",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "www.directly.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "resources.directly.com/*",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.sandbox.directly.com/schedule-a-demo/* OR /product/* OR /careers/* OR /about/* OR /legal/* OR /trust/*",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
         "handle": "engagements/originenergy-og1",
         "bounty": 1,
         "active": 1,
@@ -6910,41 +6945,6 @@
                 },
                 {
                     "identifier": "solarquotes.com.au/quotesv2",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/directly",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "app.sandbox.directly.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.sandbox.directly.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://sandbox.directly.com/dashboard/index",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "www.directly.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "resources.directly.com/*",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.sandbox.directly.com/schedule-a-demo/* OR /product/* OR /careers/* OR /about/* OR /legal/* OR /trust/*",
                     "type": "website"
                 }
             ]
@@ -7347,6 +7347,73 @@
         }
     },
     {
+        "handle": "engagements/maffashion",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "www.crateandbarrel.me",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://api-prod.thatconceptstore.com/",
+                    "type": "api"
+                },
+                {
+                    "identifier": "THAT Concept Store iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "THAT Concept Store Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "https://thatconceptstore.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.cb2.ae/en",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.allsaints.me/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "www.lululemon.me",
+                    "type": "website"
+                },
+                {
+                    "identifier": "lapi.yellowblocks.me",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://www.shiseido.me/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "lego.me",
+                    "type": "website"
+                },
+                {
+                    "identifier": "psychobunny.me",
+                    "type": "website"
+                },
+                {
+                    "identifier": "fashion4less.me",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "www.americangirlmena.com",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
         "handle": "engagements/fireblocks-mbb-og",
         "bounty": 1,
         "active": 1,
@@ -7420,67 +7487,31 @@
         }
     },
     {
-        "handle": "engagements/maffashion",
+        "handle": "engagements/personalcapital",
         "bounty": 1,
         "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "www.crateandbarrel.me",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://api-prod.thatconceptstore.com/",
-                    "type": "api"
-                },
-                {
-                    "identifier": "THAT Concept Store iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "THAT Concept Store Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "https://thatconceptstore.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.cb2.ae/en",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.allsaints.me/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "www.lululemon.me",
-                    "type": "website"
-                },
-                {
-                    "identifier": "lapi.yellowblocks.me",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://www.shiseido.me/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "lego.me",
-                    "type": "website"
-                },
-                {
-                    "identifier": "psychobunny.me",
-                    "type": "website"
-                },
-                {
-                    "identifier": "fashion4less.me",
+                    "identifier": "https://devstaging.pcapcloud.com/*",
                     "type": "website"
                 }
             ],
             "out_of_scope": [
                 {
-                    "identifier": "www.americangirlmena.com",
+                    "identifier": "*.empower-retirement.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.personalcapital.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.empower.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.retirementpartner.com",
                     "type": "website"
                 }
             ]
@@ -7514,37 +7545,6 @@
                 }
             ],
             "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/personalcapital",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://devstaging.pcapcloud.com/*",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "*.empower-retirement.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.personalcapital.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.empower.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.retirementpartner.com",
-                    "type": "website"
-                }
-            ]
         }
     },
     {
@@ -8780,105 +8780,6 @@
             "out_of_scope": [
                 {
                     "identifier": "http://www.theplaymania.com/",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/lululemon",
-        "bounty": 1,
-        "active": 0,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "shop.lululemon.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.lululemon.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Lululemon Mobile App - iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "https://www.lululemon.com.au",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.lululemon.de",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.lululemon.es",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.eu.lululemon.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.lululemon.fr",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.lululemon.com.hk",
-                    "type": "website"
-                },
-                {
-                    "identifier": "http://www.lululemon.co.jp",
-                    "type": "website"
-                },
-                {
-                    "identifier": "http://www.lululemon.co.kr",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.lululemon.co.nz",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.lululemon.co.uk",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "*.lululemon.cn",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://fr.shop.lululemon.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.lululemon.me",
-                    "type": "website"
-                },
-                {
-                    "identifier": "careers.lululemon.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://info.lululemon.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://pnimages.lululemon.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "AEM - Assets",
-                    "type": "website"
-                },
-                {
-                    "identifier": "AEM - Sites",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.mirror.co",
                     "type": "website"
                 }
             ]
@@ -10190,6 +10091,105 @@
         }
     },
     {
+        "handle": "engagements/lululemon",
+        "bounty": 1,
+        "active": 0,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "shop.lululemon.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.lululemon.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Lululemon Mobile App - iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "https://www.lululemon.com.au",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.lululemon.de",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.lululemon.es",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.eu.lululemon.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.lululemon.fr",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.lululemon.com.hk",
+                    "type": "website"
+                },
+                {
+                    "identifier": "http://www.lululemon.co.jp",
+                    "type": "website"
+                },
+                {
+                    "identifier": "http://www.lululemon.co.kr",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.lululemon.co.nz",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.lululemon.co.uk",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "*.lululemon.cn",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://fr.shop.lululemon.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.lululemon.me",
+                    "type": "website"
+                },
+                {
+                    "identifier": "careers.lululemon.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://info.lululemon.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://pnimages.lululemon.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "AEM - Assets",
+                    "type": "website"
+                },
+                {
+                    "identifier": "AEM - Sites",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.mirror.co",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
         "handle": "engagements/shipwire",
         "bounty": 1,
         "active": 0,
@@ -10213,6 +10213,24 @@
         "active": 0,
         "assets": {
             "in_scope": [],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/ultramobile-public",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://www.mintmobile.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.ultramobile.com",
+                    "type": "website"
+                }
+            ],
             "out_of_scope": []
         }
     },
@@ -10273,24 +10291,6 @@
                     "type": "website"
                 }
             ]
-        }
-    },
-    {
-        "handle": "engagements/ultramobile-public",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://www.mintmobile.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.ultramobile.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
         }
     },
     {
@@ -14223,117 +14223,6 @@
         }
     },
     {
-        "handle": "engagements/ciscomeraki",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.meraki.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.ikarem.io",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Cisco Meraki Systems Manager",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Cisco Meraki Virtual Security Appliances",
-                    "type": "other"
-                },
-                {
-                    "identifier": "*.network-auth.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Cisco Meraki Dashboard Mobile Application (iOS and Android)",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Cisco Campus Gateways",
-                    "type": "hardware"
-                },
-                {
-                    "identifier": "Cisco Catalyst 9200L Series Switches (Cloud-Managed)",
-                    "type": "hardware"
-                },
-                {
-                    "identifier": "Cisco Meraki MX Security Appliances",
-                    "type": "hardware"
-                },
-                {
-                    "identifier": "Cisco Meraki MS Switches",
-                    "type": "hardware"
-                },
-                {
-                    "identifier": "Cisco Meraki MR Access Points",
-                    "type": "hardware"
-                },
-                {
-                    "identifier": "Cisco Meraki MV Security Cameras",
-                    "type": "hardware"
-                },
-                {
-                    "identifier": "Cisco Meraki Z Series (Z1,Z3(C))",
-                    "type": "hardware"
-                },
-                {
-                    "identifier": "meraki.cisco.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "apps.meraki.io",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "merakipartners.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "developers.meraki.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "smhelp.meraki.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "community.meraki.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "community-staging.meraki.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.cisco.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "meraki.cisco.com/form/contact",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Customer API Keys",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Meraki MC Phones",
-                    "type": "hardware"
-                },
-                {
-                    "identifier": "documentation.meraki.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/bitgo-mbb-og-public",
         "bounty": 1,
         "active": 1,
@@ -15375,6 +15264,117 @@
                 },
                 {
                     "identifier": "https://www.lafourchette.com",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/ciscomeraki",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.meraki.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.ikarem.io",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Cisco Meraki Systems Manager",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Cisco Meraki Virtual Security Appliances",
+                    "type": "other"
+                },
+                {
+                    "identifier": "*.network-auth.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Cisco Meraki Dashboard Mobile Application (iOS and Android)",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Cisco Campus Gateways",
+                    "type": "hardware"
+                },
+                {
+                    "identifier": "Cisco Catalyst 9200L Series Switches (Cloud-Managed)",
+                    "type": "hardware"
+                },
+                {
+                    "identifier": "Cisco Meraki MX Security Appliances",
+                    "type": "hardware"
+                },
+                {
+                    "identifier": "Cisco Meraki MS Switches",
+                    "type": "hardware"
+                },
+                {
+                    "identifier": "Cisco Meraki MR Access Points",
+                    "type": "hardware"
+                },
+                {
+                    "identifier": "Cisco Meraki MV Security Cameras",
+                    "type": "hardware"
+                },
+                {
+                    "identifier": "Cisco Meraki Z Series (Z1,Z3(C))",
+                    "type": "hardware"
+                },
+                {
+                    "identifier": "meraki.cisco.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "apps.meraki.io",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "merakipartners.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "developers.meraki.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "smhelp.meraki.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "community.meraki.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "community-staging.meraki.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.cisco.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "meraki.cisco.com/form/contact",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Customer API Keys",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Meraki MC Phones",
+                    "type": "hardware"
+                },
+                {
+                    "identifier": "documentation.meraki.com",
                     "type": "website"
                 }
             ]
