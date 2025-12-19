@@ -6745,6 +6745,41 @@
         }
     },
     {
+        "handle": "engagements/directly",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "app.sandbox.directly.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.sandbox.directly.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://sandbox.directly.com/dashboard/index",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "www.directly.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "resources.directly.com/*",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.sandbox.directly.com/schedule-a-demo/* OR /product/* OR /careers/* OR /about/* OR /legal/* OR /trust/*",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
         "handle": "engagements/originenergy-og1",
         "bounty": 1,
         "active": 1,
@@ -6910,41 +6945,6 @@
                 },
                 {
                     "identifier": "solarquotes.com.au/quotesv2",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/directly",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "app.sandbox.directly.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.sandbox.directly.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://sandbox.directly.com/dashboard/index",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "www.directly.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "resources.directly.com/*",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.sandbox.directly.com/schedule-a-demo/* OR /product/* OR /careers/* OR /about/* OR /legal/* OR /trust/*",
                     "type": "website"
                 }
             ]
@@ -7347,73 +7347,6 @@
         }
     },
     {
-        "handle": "engagements/maffashion",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "www.crateandbarrel.me",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://api-prod.thatconceptstore.com/",
-                    "type": "api"
-                },
-                {
-                    "identifier": "THAT Concept Store iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "THAT Concept Store Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "https://thatconceptstore.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.cb2.ae/en",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.allsaints.me/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "www.lululemon.me",
-                    "type": "website"
-                },
-                {
-                    "identifier": "lapi.yellowblocks.me",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://www.shiseido.me/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "lego.me",
-                    "type": "website"
-                },
-                {
-                    "identifier": "psychobunny.me",
-                    "type": "website"
-                },
-                {
-                    "identifier": "fashion4less.me",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "www.americangirlmena.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/fireblocks-mbb-og",
         "bounty": 1,
         "active": 1,
@@ -7487,31 +7420,67 @@
         }
     },
     {
-        "handle": "engagements/personalcapital",
+        "handle": "engagements/maffashion",
         "bounty": 1,
         "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "https://devstaging.pcapcloud.com/*",
+                    "identifier": "www.crateandbarrel.me",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://api-prod.thatconceptstore.com/",
+                    "type": "api"
+                },
+                {
+                    "identifier": "THAT Concept Store iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "THAT Concept Store Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "https://thatconceptstore.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.cb2.ae/en",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.allsaints.me/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "www.lululemon.me",
+                    "type": "website"
+                },
+                {
+                    "identifier": "lapi.yellowblocks.me",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://www.shiseido.me/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "lego.me",
+                    "type": "website"
+                },
+                {
+                    "identifier": "psychobunny.me",
+                    "type": "website"
+                },
+                {
+                    "identifier": "fashion4less.me",
                     "type": "website"
                 }
             ],
             "out_of_scope": [
                 {
-                    "identifier": "*.empower-retirement.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.personalcapital.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.empower.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.retirementpartner.com",
+                    "identifier": "www.americangirlmena.com",
                     "type": "website"
                 }
             ]
@@ -7545,6 +7514,37 @@
                 }
             ],
             "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/personalcapital",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://devstaging.pcapcloud.com/*",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "*.empower-retirement.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.personalcapital.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.empower.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.retirementpartner.com",
+                    "type": "website"
+                }
+            ]
         }
     },
     {
@@ -8019,72 +8019,6 @@
         }
     },
     {
-        "handle": "engagements/openai",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "api.openai.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "ChatGPT",
-                    "type": "website"
-                },
-                {
-                    "identifier": "ChatGPT Plugins",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Third Party Targets",
-                    "type": "website"
-                },
-                {
-                    "identifier": "OpenAI API Keys",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://openai.org",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.openai.org",
-                    "type": "api"
-                },
-                {
-                    "identifier": "openai.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.openai.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Developer Platform Playground",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Other",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Sora App",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Sora",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Atlas",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/quizlet",
         "bounty": 1,
         "active": 1,
@@ -8275,6 +8209,72 @@
                     "type": "website"
                 }
             ]
+        }
+    },
+    {
+        "handle": "engagements/openai",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "api.openai.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "ChatGPT",
+                    "type": "website"
+                },
+                {
+                    "identifier": "ChatGPT Plugins",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Third Party Targets",
+                    "type": "website"
+                },
+                {
+                    "identifier": "OpenAI API Keys",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://openai.org",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.openai.org",
+                    "type": "api"
+                },
+                {
+                    "identifier": "openai.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.openai.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Developer Platform Playground",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Other",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Sora App",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Sora",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Atlas",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": []
         }
     },
     {
