@@ -5336,25 +5336,6 @@
         }
     },
     {
-        "handle": "engagements/fis",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Any FIS asset is in scope",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "Reference above out of scope targets",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/bitdefender",
         "bounty": 1,
         "active": 1,
@@ -6249,6 +6230,25 @@
         }
     },
     {
+        "handle": "engagements/fis",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Any FIS asset is in scope",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "Reference above out of scope targets",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
         "handle": "engagements/braze-bb",
         "bounty": 1,
         "active": 0,
@@ -6630,41 +6630,6 @@
         }
     },
     {
-        "handle": "engagements/directly",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "app.sandbox.directly.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.sandbox.directly.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://sandbox.directly.com/dashboard/index",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "www.directly.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "resources.directly.com/*",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.sandbox.directly.com/schedule-a-demo/* OR /product/* OR /careers/* OR /about/* OR /legal/* OR /trust/*",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/originenergy-og1",
         "bounty": 1,
         "active": 1,
@@ -6830,6 +6795,41 @@
                 },
                 {
                     "identifier": "solarquotes.com.au/quotesv2",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/directly",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "app.sandbox.directly.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.sandbox.directly.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://sandbox.directly.com/dashboard/index",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "www.directly.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "resources.directly.com/*",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.sandbox.directly.com/schedule-a-demo/* OR /product/* OR /careers/* OR /about/* OR /legal/* OR /trust/*",
                     "type": "website"
                 }
             ]
