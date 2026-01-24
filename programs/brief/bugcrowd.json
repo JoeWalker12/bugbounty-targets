@@ -5753,19 +5753,39 @@
         }
     },
     {
-        "handle": "engagements/volkswagen-og",
+        "handle": "engagements/sky-plc-mbb-og",
         "bounty": 1,
-        "active": 0,
+        "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "*.volkswagen.de",
+                    "identifier": "All internet facing Sky UK/ROI assets",
                     "type": "website"
                 }
             ],
             "out_of_scope": [
                 {
-                    "identifier": "erwin.volkswagen.de",
+                    "identifier": "*skybroadband.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "*skybet.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "*skynewsarabia.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "*skynews.com.au",
+                    "type": "other"
+                },
+                {
+                    "identifier": "All internet facing Sky DACH assets",
+                    "type": "website"
+                },
+                {
+                    "identifier": "All internet facing Sky Italy assets ",
                     "type": "website"
                 }
             ]
@@ -6258,6 +6278,25 @@
         }
     },
     {
+        "handle": "engagements/volkswagen-og",
+        "bounty": 1,
+        "active": 0,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.volkswagen.de",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "erwin.volkswagen.de",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
         "handle": "engagements/tyler-tech-data-insights",
         "bounty": 1,
         "active": 1,
@@ -6312,6 +6351,84 @@
                 {
                     "identifier": "https://maf-holding-prod.apigee.net",
                     "type": "api"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/indeed",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.indeed.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.indeedflex.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://apis.indeed.com/graphql",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Indeed Job Search Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Indeed Job Search iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Android Indeed Flex App",
+                    "type": "android"
+                },
+                {
+                    "identifier": "iOS Indeed Flex App",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Career Scout",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.indeed.tech",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.indeed.net",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://resume.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://wowjobs.ca",
+                    "type": "website"
+                },
+                {
+                    "identifier": "\u5c65\u6b74\u66f8\u4f5c\u6210 (Universal Resume) iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "\u5c65\u6b74\u66f8\u4f5c\u6210 (Universal Resume) Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Indeed Connect for Employers",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Indeed Recruiter Extension (Chrome)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Any host/web property/mobile app verified to be owned by Indeed",
+                    "type": "other"
                 }
             ],
             "out_of_scope": []
@@ -6411,139 +6528,6 @@
                 },
                 {
                     "identifier": "https://www.mirror.co",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/indeed",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.indeed.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.indeedflex.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://apis.indeed.com/graphql",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Indeed Job Search Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Indeed Job Search iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Android Indeed Flex App",
-                    "type": "android"
-                },
-                {
-                    "identifier": "iOS Indeed Flex App",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Career Scout",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.indeed.tech",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.indeed.net",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://resume.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://wowjobs.ca",
-                    "type": "website"
-                },
-                {
-                    "identifier": "\u5c65\u6b74\u66f8\u4f5c\u6210 (Universal Resume) iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "\u5c65\u6b74\u66f8\u4f5c\u6210 (Universal Resume) Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Indeed Connect for Employers",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Indeed Recruiter Extension (Chrome)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Any host/web property/mobile app verified to be owned by Indeed",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/fivetran-mbb-og",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.fivetran.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Fivetran SDK",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "Any internal, staging, or development services.",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Social engineering against Fivetran Support or Fivetran Employees",
-                    "type": "other"
-                },
-                {
-                    "identifier": "*.db.fivetran.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "testing-datalake.fivetran.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "shop.fivetran.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "status.fivetran.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "support.fivetran.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "community-stage.fivetran.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "trust.fivetran.com",
                     "type": "website"
                 }
             ]
@@ -6883,6 +6867,61 @@
                 },
                 {
                     "identifier": "sasinator.flatmates.com.au",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/fivetran-mbb-og",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.fivetran.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Fivetran SDK",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "Any internal, staging, or development services.",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Social engineering against Fivetran Support or Fivetran Employees",
+                    "type": "other"
+                },
+                {
+                    "identifier": "*.db.fivetran.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "testing-datalake.fivetran.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "shop.fivetran.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "status.fivetran.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "support.fivetran.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "community-stage.fivetran.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "trust.fivetran.com",
                     "type": "website"
                 }
             ]
@@ -7446,141 +7485,6 @@
             "out_of_scope": [
                 {
                     "identifier": "https://www.optimizely.com/",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/aylo-brazzers-mbb-og",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.twistys.com ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.brazzers.com ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.mofos.com ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.realitykings.com ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.seancody.com ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.digitalplayground.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.transangels.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "probiller.twistys.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "probiller.brazzers.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "probiller.mofos.com ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "probiller.realitykings.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "probiller.seancody.com ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "probiller.digitalplayground.com ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "probiller.transangels.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "www.seancodyapparel.com ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.project1service.com ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.project1content.com ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "officialzzstore.com ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "rkcams.com ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "mofoscams.com ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "liveatbrazzers.com ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "babeslivecams.com ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "ang.brazzers.com ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.pabbp.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.contentabc.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.adtng.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "support.*.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "cams.*.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "survey.*.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "livecams.*.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "ads.*.com",
                     "type": "website"
                 }
             ]
@@ -8884,6 +8788,141 @@
                 }
             ],
             "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/aylo-brazzers-mbb-og",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.twistys.com ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.brazzers.com ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.mofos.com ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.realitykings.com ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.seancody.com ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.digitalplayground.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.transangels.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "probiller.twistys.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "probiller.brazzers.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "probiller.mofos.com ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "probiller.realitykings.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "probiller.seancody.com ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "probiller.digitalplayground.com ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "probiller.transangels.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "www.seancodyapparel.com ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.project1service.com ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.project1content.com ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "officialzzstore.com ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "rkcams.com ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "mofoscams.com ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "liveatbrazzers.com ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "babeslivecams.com ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "ang.brazzers.com ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.pabbp.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.contentabc.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.adtng.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "support.*.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "cams.*.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "survey.*.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "livecams.*.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "ads.*.com",
+                    "type": "website"
+                }
+            ]
         }
     },
     {
@@ -11337,69 +11376,6 @@
         }
     },
     {
-        "handle": "engagements/kucoin",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://kucoin.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.kucoin.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Kucoin IOS App",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Kucoin Android",
-                    "type": "android"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "support.kucoin.plus",
-                    "type": "website"
-                },
-                {
-                    "identifier": "store.kucoin.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "docs.kucoin.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "intro.kucoin.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "cert.kucoin.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "sandbox.kucoin.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "passport.kucoin.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*-sdb.kucoin.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*-sandbox.kucoin.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/arlo",
         "bounty": 1,
         "active": 1,
@@ -12059,6 +12035,69 @@
                 },
                 {
                     "identifier": "documentation.meraki.com",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/kucoin",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://kucoin.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.kucoin.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Kucoin IOS App",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Kucoin Android",
+                    "type": "android"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "support.kucoin.plus",
+                    "type": "website"
+                },
+                {
+                    "identifier": "store.kucoin.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "docs.kucoin.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "intro.kucoin.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "cert.kucoin.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "sandbox.kucoin.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "passport.kucoin.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*-sdb.kucoin.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*-sandbox.kucoin.com",
                     "type": "website"
                 }
             ]
@@ -13124,68 +13163,6 @@
         }
     },
     {
-        "handle": "engagements/pinterest",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "api.pinterest.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.pinterest.com Web Apps",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Pinterest iOS Mobile Application",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Pinterest Android Mobile Application",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Pinterest Lite Android Mobile Application",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Chrome extension (download at: chrome.google.com/webstore/detail/pinterest-save-button/gpdjojdkbbmdfjfahjcgigfpmkopogic?hl=en)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Edge extension (download at: https://microsoftedge.microsoft.com/addons/detail/pinterest-save-button/bkgoflemacdadndiohhdnphcmdhacabg)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Firefox extension (download at:   https://addons.mozilla.org/firefox/addon/pinterest/)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Safari extension (download at: https://apps.apple.com/us/app/save-to-pinterest/id6473649042)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Open source projects(non-forked) listed at github.com/pinterest/",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://www.shffls.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Shuffles App for Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Shuffles App for iOS",
-                    "type": "ios"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/skyscanner",
         "bounty": 1,
         "active": 1,
@@ -13255,257 +13232,6 @@
                 {
                     "identifier": "https://bugcrowd-pub.bounty.kiteworks.dev",
                     "type": "website"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/t-mobile",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Self Register Account on T-Mobile Microsoft Entra ID",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Cellular Network Auth Bypass via Web/Mobile App",
-                    "type": "network"
-                },
-                {
-                    "identifier": "T&P Servers",
-                    "type": "network"
-                },
-                {
-                    "identifier": "Internal Server via Internet Network",
-                    "type": "network"
-                },
-                {
-                    "identifier": "account.t-mobile.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "metrobyt-mobile.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "sprint.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "t-mobile.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.api.t-mobile.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "tfb.t-mobile.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "devedge.t-mobile.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "tess.service-now.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "digits.t-mobile.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.metrobyt-mobile.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.t-mobile.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.sprint.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "api.vistarmedia.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "packages.cortexpowered.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "api.vistarmedia.eu",
-                    "type": "website"
-                },
-                {
-                    "identifier": "production-dynam-creative.vistarmedia.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "storybook.vistarmedia.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "creatives.vistarmedia.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "sflower.cortexpowered.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "production-delivery-metrics-svc.vistarmedia.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "maps.vistarmedia.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "transcodes-cdn.vistarmedia.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "assets-cdn.vistarmedia.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "docker-staging.adstruc.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "staging-trafficking.vistarmedia.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "job-svc-b.vistarmedia.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "docsite.vistarmedia.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "sfleet.cortexpowered.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "audience-builder.vistarmedia.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "staging-login.vistarmedia.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "clients.adstruc.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "demo.adstruc.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.uscc.net",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.uscc.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.uscellular.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "dashboard-101.moengage.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "assurancewireless.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.assurancewireless.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Assets labeled as in-scope",
-                    "type": "other"
-                },
-                {
-                    "identifier": "T-Mobile - iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "T-Mobile - Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "SyncUP DRIVE - iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "SyncUP DRIVE - Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "SyncUP KIDS - iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "SyncUP KIDS - Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "SyncUP TRACKER - iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "SyncUP TRACKER - Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "DIGITS - Mobile & Desktop",
-                    "type": "other"
-                },
-                {
-                    "identifier": "T-Life - iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "T-Life - Android",
-                    "type": "android"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "*.sprint.net",
-                    "type": "website"
-                },
-                {
-                    "identifier": "/self-service-*",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.mobile.uscc.net",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.mobile.uscc.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.moengage.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Any domain, property, product, protocol, or service of the app/hardware/software version not explicitly listed in the In-Scope section is out of scope; submissions are welcome but not guaranteed for the bounty/bonus.",
-                    "type": "other"
                 }
             ]
         }
@@ -13978,6 +13704,319 @@
                 {
                     "identifier": "https://www.myprotein.com.tr/",
                     "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/pinterest",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "api.pinterest.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.pinterest.com Web Apps",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Pinterest iOS Mobile Application",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Pinterest Android Mobile Application",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Pinterest Lite Android Mobile Application",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Chrome extension (download at: chrome.google.com/webstore/detail/pinterest-save-button/gpdjojdkbbmdfjfahjcgigfpmkopogic?hl=en)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Edge extension (download at: https://microsoftedge.microsoft.com/addons/detail/pinterest-save-button/bkgoflemacdadndiohhdnphcmdhacabg)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Firefox extension (download at:   https://addons.mozilla.org/firefox/addon/pinterest/)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Safari extension (download at: https://apps.apple.com/us/app/save-to-pinterest/id6473649042)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Open source projects(non-forked) listed at github.com/pinterest/",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://www.shffls.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Shuffles App for Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Shuffles App for iOS",
+                    "type": "ios"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/t-mobile",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Self Register Account on T-Mobile Microsoft Entra ID",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Cellular Network Auth Bypass via Web/Mobile App",
+                    "type": "network"
+                },
+                {
+                    "identifier": "T&P Servers",
+                    "type": "network"
+                },
+                {
+                    "identifier": "Internal Server via Internet Network",
+                    "type": "network"
+                },
+                {
+                    "identifier": "account.t-mobile.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "metrobyt-mobile.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "sprint.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "t-mobile.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.api.t-mobile.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "tfb.t-mobile.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "devedge.t-mobile.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "tess.service-now.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "digits.t-mobile.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.metrobyt-mobile.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.t-mobile.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.sprint.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "api.vistarmedia.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "packages.cortexpowered.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "api.vistarmedia.eu",
+                    "type": "website"
+                },
+                {
+                    "identifier": "production-dynam-creative.vistarmedia.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "storybook.vistarmedia.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "creatives.vistarmedia.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "sflower.cortexpowered.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "production-delivery-metrics-svc.vistarmedia.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "maps.vistarmedia.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "transcodes-cdn.vistarmedia.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "assets-cdn.vistarmedia.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "docker-staging.adstruc.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "staging-trafficking.vistarmedia.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "job-svc-b.vistarmedia.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "docsite.vistarmedia.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "sfleet.cortexpowered.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "audience-builder.vistarmedia.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "staging-login.vistarmedia.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "clients.adstruc.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "demo.adstruc.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.uscc.net",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.uscc.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.uscellular.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "dashboard-101.moengage.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "assurancewireless.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.assurancewireless.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Assets labeled as in-scope",
+                    "type": "other"
+                },
+                {
+                    "identifier": "T-Mobile - iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "T-Mobile - Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "SyncUP DRIVE - iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "SyncUP DRIVE - Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "SyncUP KIDS - iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "SyncUP KIDS - Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "SyncUP TRACKER - iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "SyncUP TRACKER - Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "DIGITS - Mobile & Desktop",
+                    "type": "other"
+                },
+                {
+                    "identifier": "T-Life - iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "T-Life - Android",
+                    "type": "android"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "*.sprint.net",
+                    "type": "website"
+                },
+                {
+                    "identifier": "/self-service-*",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.mobile.uscc.net",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.mobile.uscc.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.moengage.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Any domain, property, product, protocol, or service of the app/hardware/software version not explicitly listed in the In-Scope section is out of scope; submissions are welcome but not guaranteed for the bounty/bonus.",
+                    "type": "other"
                 }
             ]
         }
@@ -14813,81 +14852,6 @@
                 {
                     "identifier": "https://www.ecwid.com/",
                     "type": "website"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/asana",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "app.asana.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "asana.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.asana.plus",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Asana Desktop App",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Asana iOS app",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Asana Android app",
-                    "type": "android"
-                },
-                {
-                    "identifier": "form.asana.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.app.asana.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.asana.biz",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Subdomain takeover at *asana.biz",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "Other subdomains of asana.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Social engineering against Asana Support or Asana Employees",
-                    "type": "other"
-                },
-                {
-                    "identifier": "jira*.integrations.asana.plus",
-                    "type": "website"
-                },
-                {
-                    "identifier": "asana.okta.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "assets.asana.biz",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Forms that you do not own",
-                    "type": "other"
                 }
             ]
         }
@@ -15767,45 +15731,6 @@
         }
     },
     {
-        "handle": "engagements/sky-plc-mbb-og2",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "All internet facing Sky DACH assets",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "*skybroadband.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "*skybet.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "*skynewsarabia.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "*skynews.com.au",
-                    "type": "other"
-                },
-                {
-                    "identifier": "All internet facing Sky UK/ROI assets",
-                    "type": "website"
-                },
-                {
-                    "identifier": "All internet facing Sky Italy assets ",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/etsy",
         "bounty": 1,
         "active": 1,
@@ -16410,13 +16335,88 @@
         }
     },
     {
-        "handle": "engagements/sky-plc-mbb-og",
+        "handle": "engagements/asana",
         "bounty": 1,
         "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "All internet facing Sky UK/ROI assets",
+                    "identifier": "app.asana.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "asana.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.asana.plus",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Asana Desktop App",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Asana iOS app",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Asana Android app",
+                    "type": "android"
+                },
+                {
+                    "identifier": "form.asana.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.app.asana.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.asana.biz",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Subdomain takeover at *asana.biz",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "Other subdomains of asana.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Social engineering against Asana Support or Asana Employees",
+                    "type": "other"
+                },
+                {
+                    "identifier": "jira*.integrations.asana.plus",
+                    "type": "website"
+                },
+                {
+                    "identifier": "asana.okta.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "assets.asana.biz",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Forms that you do not own",
+                    "type": "other"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/sky-plc-mbb-og2",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "All internet facing Sky DACH assets",
                     "type": "website"
                 }
             ],
@@ -16438,7 +16438,7 @@
                     "type": "other"
                 },
                 {
-                    "identifier": "All internet facing Sky DACH assets",
+                    "identifier": "All internet facing Sky UK/ROI assets",
                     "type": "website"
                 },
                 {
