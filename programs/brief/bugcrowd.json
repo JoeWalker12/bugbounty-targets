@@ -8241,32 +8241,6 @@
         }
     },
     {
-        "handle": "engagements/kaleido",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.remove.bg",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.designify.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.kaleido.ai",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.unscreen.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/blockopensource",
         "bounty": 1,
         "active": 1,
@@ -8665,6 +8639,32 @@
                     "type": "website"
                 }
             ]
+        }
+    },
+    {
+        "handle": "engagements/kaleido",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.remove.bg",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.designify.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.kaleido.ai",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.unscreen.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
         }
     },
     {
@@ -13257,45 +13257,6 @@
         }
     },
     {
-        "handle": "engagements/comcastvdp",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.sys.comcast.net",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://business.comcast.com/account",
-                    "type": "website"
-                },
-                {
-                    "identifier": "TV - Xfinity hardware and services",
-                    "type": "hardware"
-                },
-                {
-                    "identifier": "Flex - Xfinity hardware and services",
-                    "type": "hardware"
-                },
-                {
-                    "identifier": "Voice - Hardware and service",
-                    "type": "hardware"
-                },
-                {
-                    "identifier": "Mobile Apps\tiOS and Android",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "Comcastbiz.net",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/openai",
         "bounty": 1,
         "active": 1,
@@ -13424,53 +13385,42 @@
         }
     },
     {
-        "handle": "engagements/sendbird-mbb",
+        "handle": "engagements/comcastvdp",
         "bounty": 1,
-        "active": 0,
+        "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "https://dashboard.sendbird.com",
+                    "identifier": "*.sys.comcast.net",
                     "type": "website"
                 },
                 {
-                    "identifier": "https://gate.sendbird.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://api-{app-id}.sendbird.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://ws-{app-id}.sendbird.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://desk-api-{region}.sendbird.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://ws-{app-id}.calls.sendbird.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://api-{app-id}.calls.sendbird.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://api-{app-id}.notifications.sendbird.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://sendbird.com/docs",
+                    "identifier": "https://business.comcast.com/account",
                     "type": "website"
                 },
                 {
-                    "identifier": "https://sendbird.com",
-                    "type": "website"
+                    "identifier": "TV - Xfinity hardware and services",
+                    "type": "hardware"
+                },
+                {
+                    "identifier": "Flex - Xfinity hardware and services",
+                    "type": "hardware"
+                },
+                {
+                    "identifier": "Voice - Hardware and service",
+                    "type": "hardware"
+                },
+                {
+                    "identifier": "Mobile Apps\tiOS and Android",
+                    "type": "other"
                 }
             ],
-            "out_of_scope": []
+            "out_of_scope": [
+                {
+                    "identifier": "Comcastbiz.net",
+                    "type": "website"
+                }
+            ]
         }
     },
     {
@@ -13722,6 +13672,56 @@
                     "type": "other"
                 }
             ]
+        }
+    },
+    {
+        "handle": "engagements/sendbird-mbb",
+        "bounty": 1,
+        "active": 0,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://dashboard.sendbird.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://gate.sendbird.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://api-{app-id}.sendbird.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://ws-{app-id}.sendbird.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://desk-api-{region}.sendbird.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://ws-{app-id}.calls.sendbird.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://api-{app-id}.calls.sendbird.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://api-{app-id}.notifications.sendbird.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://sendbird.com/docs",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://sendbird.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
         }
     },
     {
@@ -15325,72 +15325,6 @@
         }
     },
     {
-        "handle": "engagements/netgear",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Nighthawk Pro Gaming Switch",
-                    "type": "iot"
-                },
-                {
-                    "identifier": "Nighthawk Router",
-                    "type": "iot"
-                },
-                {
-                    "identifier": "Nighthawk Switch",
-                    "type": "iot"
-                },
-                {
-                    "identifier": "Nighthawk iOS App",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Nighthawk Android App",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Orbi ",
-                    "type": "iot"
-                },
-                {
-                    "identifier": "Orbi iOS App ",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Orbi Android App ",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Insight Managed Smart Cloud Wireless Access Point",
-                    "type": "iot"
-                },
-                {
-                    "identifier": "https://api.netgear.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Insight iOS App",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Insight Android App",
-                    "type": "android"
-                },
-                {
-                    "identifier": "CHP Cloud Portal",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Meural",
-                    "type": "iot"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/hpe-networking-product-public",
         "bounty": 1,
         "active": 1,
@@ -16185,6 +16119,72 @@
                 {
                     "identifier": "*.dojo.me",
                     "type": "api"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/netgear",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Nighthawk Pro Gaming Switch",
+                    "type": "iot"
+                },
+                {
+                    "identifier": "Nighthawk Router",
+                    "type": "iot"
+                },
+                {
+                    "identifier": "Nighthawk Switch",
+                    "type": "iot"
+                },
+                {
+                    "identifier": "Nighthawk iOS App",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Nighthawk Android App",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Orbi ",
+                    "type": "iot"
+                },
+                {
+                    "identifier": "Orbi iOS App ",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Orbi Android App ",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Insight Managed Smart Cloud Wireless Access Point",
+                    "type": "iot"
+                },
+                {
+                    "identifier": "https://api.netgear.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Insight iOS App",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Insight Android App",
+                    "type": "android"
+                },
+                {
+                    "identifier": "CHP Cloud Portal",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Meural",
+                    "type": "iot"
                 }
             ],
             "out_of_scope": []
