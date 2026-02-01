@@ -9279,49 +9279,6 @@
         }
     },
     {
-        "handle": "engagements/dell-product",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Actively Supported, Bounty Eligible Dell Products",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Actively Supported, Non-Reward Eligible Dell Products",
-                    "type": "hardware"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "*.dell.com/*",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.delltechnologies.com/*",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Virtual Appliance (vApp) Manager",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Dell ObjectScale",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Dell Digital Delivery",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Dell Enterprise Hub",
-                    "type": "other"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/trm-labs-public-mbb",
         "bounty": 1,
         "active": 1,
@@ -9764,117 +9721,6 @@
                 }
             ],
             "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/tesla",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.tesla.cn",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.tesla.services",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Official Tesla iOS apps",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "*.tesla.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.teslamotors.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Any host verified to be owned by Tesla Motors Inc. (domains/IP space/etc.)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.solarcity.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.teslainsuranceservices.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Official Tesla Android apps",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Tesla Energy hardware you own",
-                    "type": "hardware"
-                },
-                {
-                    "identifier": "Tesla vehicle hardware that you own",
-                    "type": "hardware"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "employeefeedback.tesla.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "energysupport.tesla.com (you can report vulnerabilities to bugbounty.zoho.com)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "engage.tesla.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.engage.tesla.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "feedback.tesla.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "feedback.teslamotors.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "ir.tesla.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "ir.teslamotors.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "mkto.teslamotors.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "shop.eu.teslamotors.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "service.tesla.com/docs/*",
-                    "type": "website"
-                },
-                {
-                    "identifier": "service.tesla.cn/docs/*",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Any domains from acquisitions, such as maxwell.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Any other third-party websites hosted by non-Tesla entities",
-                    "type": "website"
-                }
-            ]
         }
     },
     {
@@ -11846,6 +11692,160 @@
         }
     },
     {
+        "handle": "engagements/tesla",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.tesla.cn",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.tesla.services",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Official Tesla iOS apps",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "*.tesla.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.teslamotors.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Any host verified to be owned by Tesla Motors Inc. (domains/IP space/etc.)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.solarcity.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.teslainsuranceservices.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Official Tesla Android apps",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Tesla Energy hardware you own",
+                    "type": "hardware"
+                },
+                {
+                    "identifier": "Tesla vehicle hardware that you own",
+                    "type": "hardware"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "employeefeedback.tesla.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "energysupport.tesla.com (you can report vulnerabilities to bugbounty.zoho.com)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "engage.tesla.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.engage.tesla.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "feedback.tesla.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "feedback.teslamotors.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "ir.tesla.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "ir.teslamotors.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "mkto.teslamotors.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "shop.eu.teslamotors.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "service.tesla.com/docs/*",
+                    "type": "website"
+                },
+                {
+                    "identifier": "service.tesla.cn/docs/*",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Any domains from acquisitions, such as maxwell.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Any other third-party websites hosted by non-Tesla entities",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/dell-product",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Actively Supported, Bounty Eligible Dell Products",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Actively Supported, Non-Reward Eligible Dell Products",
+                    "type": "hardware"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "*.dell.com/*",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.delltechnologies.com/*",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Virtual Appliance (vApp) Manager",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Dell ObjectScale",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Dell Digital Delivery",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Dell Enterprise Hub",
+                    "type": "other"
+                }
+            ]
+        }
+    },
+    {
         "handle": "engagements/braze-bb",
         "bounty": 1,
         "active": 0,
@@ -13336,72 +13336,6 @@
         }
     },
     {
-        "handle": "engagements/openai",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "api.openai.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "ChatGPT",
-                    "type": "website"
-                },
-                {
-                    "identifier": "ChatGPT Plugins",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Third Party Targets",
-                    "type": "website"
-                },
-                {
-                    "identifier": "OpenAI API Keys",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://openai.org",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.openai.org",
-                    "type": "api"
-                },
-                {
-                    "identifier": "openai.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.openai.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Developer Platform Playground",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Other",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Sora App",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Sora",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Atlas",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/pinterest",
         "bounty": 1,
         "active": 1,
@@ -13764,6 +13698,72 @@
         }
     },
     {
+        "handle": "engagements/openai",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "api.openai.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "ChatGPT",
+                    "type": "website"
+                },
+                {
+                    "identifier": "ChatGPT Plugins",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Third Party Targets",
+                    "type": "website"
+                },
+                {
+                    "identifier": "OpenAI API Keys",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://openai.org",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.openai.org",
+                    "type": "api"
+                },
+                {
+                    "identifier": "openai.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.openai.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Developer Platform Playground",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Other",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Sora App",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Sora",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Atlas",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
         "handle": "engagements/coindesk-mobile-mbb-og",
         "bounty": 1,
         "active": 1,
@@ -14020,100 +14020,6 @@
                 },
                 {
                     "identifier": "wsmbr.usaa.com",
-                    "type": "api"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/keepersecurity",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Keeper Browser Extension (Chrome, Safari, Firefox, Edge)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Keeper for iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "KeeperChat for Windows",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Keeper Security Website",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Keeper Desktop App for Mac, PC, Linux",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Keeper Web Vault (US, EU, AU, CA, JP, GovCloud)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Keeper AD / LDAP Bridge",
-                    "type": "api"
-                },
-                {
-                    "identifier": "KeeperChat for iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "KeeperChat for Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "KeeperChat for Mac",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Keeper for Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Keeper Connection Manager (KCM)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Keeper Admin Console (US, EU, AU, CA, JP, GovCloud)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Keeper Commander CLI/SDK",
-                    "type": "api"
-                },
-                {
-                    "identifier": "SSO Connect On-Prem",
-                    "type": "api"
-                },
-                {
-                    "identifier": "SSO Connect Cloud and Automator Service",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Keeper Endpoint Privilege Manager",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Keeper Enterprise",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Keeper Gateway",
-                    "type": "api"
-                },
-                {
-                    "identifier": "KeeperPAM Privileged Access Manager",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Keeper Secrets Manager SDK",
                     "type": "api"
                 }
             ],
@@ -15319,161 +15225,6 @@
         }
     },
     {
-        "handle": "engagements/auth0-okta",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "config.cic-bug-bounty.auth0app.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "manage.cic-bug-bounty.auth0app.com (Management Dashboard)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.cic-bug-bounty.auth0app.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Auth0 Guardian Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Auth0 Guardian IoS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "marketplace.auth0.com (Auth0 Marketplace)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "MFA Integrations\t",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://dashboard.fga.dev/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://api.us1.fga.dev/",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://customers.us1.fga.dev/",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://play.fga.dev/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Auth0 SDK for Web (Auth0.js)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Lock for Web (lock)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Auth0 Single Page App SDK (auth0-spa-js)",
-                    "type": "other"
-                },
-                {
-                    "identifier": ".NET SDK (Auth0.Net)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Auth0 Next.js SDK (nextjs-auth0)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Auth0 Java SDK (auth0-java)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Auth0 React Native SDK (react-native-auth0)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Auth0 PHP SDK (auth0-php)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "auth0.com\t",
-                    "type": "website"
-                },
-                {
-                    "identifier": "samltool.io\t",
-                    "type": "website"
-                },
-                {
-                    "identifier": "webauthn.me\t",
-                    "type": "website"
-                },
-                {
-                    "identifier": "openidconnect.net\t",
-                    "type": "website"
-                },
-                {
-                    "identifier": "jwt.io",
-                    "type": "website"
-                },
-                {
-                    "identifier": "auth0.net",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "auth0.auth0.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "manage.auth0.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "accounts.auth0.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "webtask.io\t",
-                    "type": "website"
-                },
-                {
-                    "identifier": "phenix.rocks\t",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Auth0 Docs (including quickstarts)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "sharelock.io",
-                    "type": "website"
-                },
-                {
-                    "identifier": "goextend.io\t",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://support.auth0.com/tickets/new",
-                    "type": "website"
-                },
-                {
-                    "identifier": "support.auth0.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "community.auth0.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/atlassian",
         "bounty": 1,
         "active": 1,
@@ -16188,6 +15939,255 @@
                     "type": "website"
                 }
             ]
+        }
+    },
+    {
+        "handle": "engagements/auth0-okta",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "config.cic-bug-bounty.auth0app.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "manage.cic-bug-bounty.auth0app.com (Management Dashboard)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.cic-bug-bounty.auth0app.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Auth0 Guardian Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Auth0 Guardian IoS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "marketplace.auth0.com (Auth0 Marketplace)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "MFA Integrations\t",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://dashboard.fga.dev/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://api.us1.fga.dev/",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://customers.us1.fga.dev/",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://play.fga.dev/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Auth0 SDK for Web (Auth0.js)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Lock for Web (lock)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Auth0 Single Page App SDK (auth0-spa-js)",
+                    "type": "other"
+                },
+                {
+                    "identifier": ".NET SDK (Auth0.Net)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Auth0 Next.js SDK (nextjs-auth0)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Auth0 Java SDK (auth0-java)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Auth0 React Native SDK (react-native-auth0)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Auth0 PHP SDK (auth0-php)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "auth0.com\t",
+                    "type": "website"
+                },
+                {
+                    "identifier": "samltool.io\t",
+                    "type": "website"
+                },
+                {
+                    "identifier": "webauthn.me\t",
+                    "type": "website"
+                },
+                {
+                    "identifier": "openidconnect.net\t",
+                    "type": "website"
+                },
+                {
+                    "identifier": "jwt.io",
+                    "type": "website"
+                },
+                {
+                    "identifier": "auth0.net",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "auth0.auth0.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "manage.auth0.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "accounts.auth0.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "webtask.io\t",
+                    "type": "website"
+                },
+                {
+                    "identifier": "phenix.rocks\t",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Auth0 Docs (including quickstarts)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "sharelock.io",
+                    "type": "website"
+                },
+                {
+                    "identifier": "goextend.io\t",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://support.auth0.com/tickets/new",
+                    "type": "website"
+                },
+                {
+                    "identifier": "support.auth0.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "community.auth0.com",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/keepersecurity",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Keeper Browser Extension (Chrome, Safari, Firefox, Edge)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Keeper for iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "KeeperChat for Windows",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Keeper Security Website",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Keeper Desktop App for Mac, PC, Linux",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Keeper Web Vault (US, EU, AU, CA, JP, GovCloud)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Keeper AD / LDAP Bridge",
+                    "type": "api"
+                },
+                {
+                    "identifier": "KeeperChat for iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "KeeperChat for Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "KeeperChat for Mac",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Keeper for Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Keeper Connection Manager (KCM)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Keeper Admin Console (US, EU, AU, CA, JP, GovCloud)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Keeper Commander CLI/SDK",
+                    "type": "api"
+                },
+                {
+                    "identifier": "SSO Connect On-Prem",
+                    "type": "api"
+                },
+                {
+                    "identifier": "SSO Connect Cloud and Automator Service",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Keeper Endpoint Privilege Manager",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Keeper Enterprise",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Keeper Gateway",
+                    "type": "api"
+                },
+                {
+                    "identifier": "KeeperPAM Privileged Access Manager",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Keeper Secrets Manager SDK",
+                    "type": "api"
+                }
+            ],
+            "out_of_scope": []
         }
     },
     {
