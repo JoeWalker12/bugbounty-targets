@@ -4362,7 +4362,7 @@
                 },
                 {
                     "identifier": "Backend endpoint: bug-bounty-be.glean.com",
-                    "type": "website"
+                    "type": "api"
                 },
                 {
                     "identifier": "Scio Search Crawler for Confluence- https://marketplace.atlassian.com/apps/1222714/scio-search-crawler-for-confluence?hosting=cloud&tab=overview",
@@ -7372,52 +7372,6 @@
         }
     },
     {
-        "handle": "engagements/blockopensource",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://github.com/afterpay/sdk-ios",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://github.com/afterpay/sdk-android",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://github.com/cashapp/cash-app-pay-ios-sdk",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://github.com/cashapp/cash-app-pay-android-sdk",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://github.com/cashapp/hermit",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://github.com/cashapp/misk",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://github.com/square/okhttp",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://github.com/square/okio",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://github.com/square/wire",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/pantheon",
         "bounty": 1,
         "active": 1,
@@ -8514,40 +8468,6 @@
         }
     },
     {
-        "handle": "engagements/anytask-mbb-og",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://api.anytask.com/",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://www.anytask.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "AnyTask Android app",
-                    "type": "android"
-                },
-                {
-                    "identifier": "AnyTask iOS app",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "api.anytask.thesecurityteam.rocks",
-                    "type": "api"
-                },
-                {
-                    "identifier": "anytask.thesecurityteam.rocks",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/wyze",
         "bounty": 1,
         "active": 1,
@@ -8571,45 +8491,6 @@
                 }
             ],
             "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/zola-mbb-og",
-        "bounty": 1,
-        "active": 0,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://baby.zola.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Zola Baby Registry iOS App",
-                    "type": "ios"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "https://www.zola.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://homestore.zola.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Zola Wedding Planner iOS App",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "https://vendor.zola.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://baby.zola.com/order-status/lookup",
-                    "type": "website"
-                }
-            ]
         }
     },
     {
@@ -8669,6 +8550,125 @@
                     "type": "website"
                 }
             ]
+        }
+    },
+    {
+        "handle": "engagements/zola-mbb-og",
+        "bounty": 1,
+        "active": 0,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://baby.zola.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Zola Baby Registry iOS App",
+                    "type": "ios"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "https://www.zola.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://homestore.zola.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Zola Wedding Planner iOS App",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "https://vendor.zola.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://baby.zola.com/order-status/lookup",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/anytask-mbb-og",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://api.anytask.com/",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://www.anytask.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "AnyTask Android app",
+                    "type": "android"
+                },
+                {
+                    "identifier": "AnyTask iOS app",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "api.anytask.thesecurityteam.rocks",
+                    "type": "api"
+                },
+                {
+                    "identifier": "anytask.thesecurityteam.rocks",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/blockopensource",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://github.com/afterpay/sdk-ios",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://github.com/afterpay/sdk-android",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://github.com/cashapp/cash-app-pay-ios-sdk",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://github.com/cashapp/cash-app-pay-android-sdk",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://github.com/cashapp/hermit",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://github.com/cashapp/misk",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://github.com/square/okhttp",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://github.com/square/okio",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://github.com/square/wire",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": []
         }
     },
     {
@@ -9164,165 +9164,6 @@
                 }
             ],
             "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/aylo-nutaku-mbb-og",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://www.nutaku.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.nutaku.net",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://xnxx.nutaku.net",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://xvideos.nutaku.net",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://osapi.nutaku.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://mobileapi.nutaku.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://gateway-api.nutaku.net",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.nutakupublishing.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "https://www.nutaku.net/mobile-app-download/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://xnxx.nutaku.net/mobile-app-download/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://xvideos.nutaku.net/mobile-app-download/ ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "http://www.nutaku.net/blog ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "brazzers-waifu-go.nutaku.net ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "merge-nymphs.nutaku.net ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "sacred-sword-sfw.nutaku.net ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "shelter-69.nutaku.net ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "cdn-cosmic-shock-league.nutaku.net ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "cdn-cross-promotions.nutaku.net ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "cdn-crystal-maidens-test.nutaku.net ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "cdn-fapceo.nutaku.net ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "cdn-publishing.nutaku.net ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "cdn.crushcrush.nutaku.net ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "cdn.crystal-maidens-staging.nutaku.net ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "cdn.flowerknight.nutaku.net ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "college-life.nutaku.net ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "heavy-metal-babes.nutaku.net ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "pocket-waifu.nutaku.net ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "sacred-sword-nsfw.nutaku.net ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.cross-promotion.nutaku.net ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.nutaku.net/support ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.nutaku.com/support/ ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.nutaku.com/members/support-tickets/ ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.nutaku.net/members/support-tickets/ ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "play.nutaku.net ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "sbox-*.*.nutaku.net ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Pf.nutaku.com ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.nutaku.net/desktop-app-download/ ",
-                    "type": "website"
-                }
-            ]
         }
     },
     {
@@ -11850,6 +11691,165 @@
         }
     },
     {
+        "handle": "engagements/aylo-nutaku-mbb-og",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://www.nutaku.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.nutaku.net",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://xnxx.nutaku.net",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://xvideos.nutaku.net",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://osapi.nutaku.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://mobileapi.nutaku.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://gateway-api.nutaku.net",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.nutakupublishing.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "https://www.nutaku.net/mobile-app-download/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://xnxx.nutaku.net/mobile-app-download/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://xvideos.nutaku.net/mobile-app-download/ ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "http://www.nutaku.net/blog ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "brazzers-waifu-go.nutaku.net ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "merge-nymphs.nutaku.net ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "sacred-sword-sfw.nutaku.net ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "shelter-69.nutaku.net ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "cdn-cosmic-shock-league.nutaku.net ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "cdn-cross-promotions.nutaku.net ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "cdn-crystal-maidens-test.nutaku.net ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "cdn-fapceo.nutaku.net ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "cdn-publishing.nutaku.net ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "cdn.crushcrush.nutaku.net ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "cdn.crystal-maidens-staging.nutaku.net ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "cdn.flowerknight.nutaku.net ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "college-life.nutaku.net ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "heavy-metal-babes.nutaku.net ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "pocket-waifu.nutaku.net ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "sacred-sword-nsfw.nutaku.net ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.cross-promotion.nutaku.net ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.nutaku.net/support ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.nutaku.com/support/ ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.nutaku.com/members/support-tickets/ ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.nutaku.net/members/support-tickets/ ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "play.nutaku.net ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "sbox-*.*.nutaku.net ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Pf.nutaku.com ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.nutaku.net/desktop-app-download/ ",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
         "handle": "engagements/braze-bb",
         "bounty": 1,
         "active": 0,
@@ -13353,89 +13353,6 @@
         }
     },
     {
-        "handle": "engagements/lastpass",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://lastpass.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "LastPass browser extensions (Chrome / Safari / Edge / Firefox)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Local computer apps (UWP application / Windows installer (MSI) / MacOS)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://support.lastpass.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Workstation MFA (WMFA)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://blog.lastpass.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://admin.lastpass.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://auth.lastpass.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://accounts.lastpass.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.lastpass.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "LastPass Password Manager (Android)",
-                    "type": "android"
-                },
-                {
-                    "identifier": "LastPass Authenticator (Android)",
-                    "type": "android"
-                },
-                {
-                    "identifier": "LastPass Password Manager (iOS)",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "LastPass Authenticator (iOS)",
-                    "type": "ios"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "https://identity.lastpass.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Lastpass CLI tool",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://info.lastpass.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://forums.lastpass.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/openai",
         "bounty": 1,
         "active": 1,
@@ -13499,61 +13416,6 @@
                 }
             ],
             "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/coindesk-mbb-og",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "coindesk.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "CoinDesk Indices",
-                    "type": "website"
-                },
-                {
-                    "identifier": "CoinDesk Events",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Production CoinDesk Events",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Consensus2023 Site",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Consensus2024 Site",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Consensus2025 Site",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Consensus HK Site",
-                    "type": "website"
-                },
-                {
-                    "identifier": "uat.coindesk.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "uat.accounts.coindesk.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "CoinDesk Staging Site",
-                    "type": "website"
-                }
-            ]
         }
     },
     {
@@ -13676,6 +13538,89 @@
         }
     },
     {
+        "handle": "engagements/lastpass",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://lastpass.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "LastPass browser extensions (Chrome / Safari / Edge / Firefox)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Local computer apps (UWP application / Windows installer (MSI) / MacOS)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://support.lastpass.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Workstation MFA (WMFA)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://blog.lastpass.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://admin.lastpass.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://auth.lastpass.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://accounts.lastpass.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.lastpass.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "LastPass Password Manager (Android)",
+                    "type": "android"
+                },
+                {
+                    "identifier": "LastPass Authenticator (Android)",
+                    "type": "android"
+                },
+                {
+                    "identifier": "LastPass Password Manager (iOS)",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "LastPass Authenticator (iOS)",
+                    "type": "ios"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "https://identity.lastpass.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Lastpass CLI tool",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://info.lastpass.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://forums.lastpass.com",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
         "handle": "engagements/seek-com",
         "bounty": 1,
         "active": 1,
@@ -13755,6 +13700,61 @@
                 }
             ],
             "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/coindesk-mbb-og",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "coindesk.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "CoinDesk Indices",
+                    "type": "website"
+                },
+                {
+                    "identifier": "CoinDesk Events",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Production CoinDesk Events",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Consensus2023 Site",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Consensus2024 Site",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Consensus2025 Site",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Consensus HK Site",
+                    "type": "website"
+                },
+                {
+                    "identifier": "uat.coindesk.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "uat.accounts.coindesk.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "CoinDesk Staging Site",
+                    "type": "website"
+                }
+            ]
         }
     },
     {
