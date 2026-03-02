@@ -6875,25 +6875,6 @@
         }
     },
     {
-        "handle": "engagements/fis",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Any FIS asset is in scope",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "Reference above out of scope targets",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/bitdefender",
         "bounty": 1,
         "active": 1,
@@ -7328,81 +7309,6 @@
         }
     },
     {
-        "handle": "engagements/asana",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "app.asana.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "asana.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.asana.plus",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Asana Desktop App",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Asana iOS app",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Asana Android app",
-                    "type": "android"
-                },
-                {
-                    "identifier": "form.asana.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.app.asana.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.asana.biz",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Subdomain takeover at *asana.biz",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "Other subdomains of asana.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Social engineering against Asana Support or Asana Employees",
-                    "type": "other"
-                },
-                {
-                    "identifier": "jira*.integrations.asana.plus",
-                    "type": "website"
-                },
-                {
-                    "identifier": "asana.okta.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "assets.asana.biz",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Forms that you do not own",
-                    "type": "other"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/neohrms",
         "bounty": 1,
         "active": 1,
@@ -7696,6 +7602,137 @@
         }
     },
     {
+        "handle": "engagements/wise",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "transferwise.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.transferwise.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "wise.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.wise.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Latest version of Wise iOS App",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Latest version of Wise Android App",
+                    "type": "android"
+                },
+                {
+                    "identifier": "AWS infrastructure and services in use by Wise (eg: S3 buckets)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "github.com/transferwise/*",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "Wise Affiliate Program",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Third party services not hosted by Wise",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Any Github asset not under the \u201ctransferwise\u201d organization",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Third party authentication services (eg: Facebook and Google)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://transferwise.com/help/contact",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://wise.com/help/contact",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.tw.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.tw.ee",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Non-current version of the Android app",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Non-current version of the iOS app",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "*.transferwise.tech",
+                    "type": "website"
+                },
+                {
+                    "identifier": "brand.wise.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "links.wise.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "widgets.transferwise.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "brand.transferwise.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "bootstrap.transferwise.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "links.transferwise.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "status.wise.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "status.transferwise.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "tech.transferwise.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "docs.wise.com ",
+                    "type": "other"
+                },
+                {
+                    "identifier": "github.com/transferwise/pipelinewise",
+                    "type": "other"
+                }
+            ]
+        }
+    },
+    {
         "handle": "engagements/aiven-mbb-og",
         "bounty": 1,
         "active": 1,
@@ -7830,137 +7867,6 @@
                 {
                     "identifier": "Creation of support tickets",
                     "type": "website"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/wise",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "transferwise.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.transferwise.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "wise.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.wise.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Latest version of Wise iOS App",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Latest version of Wise Android App",
-                    "type": "android"
-                },
-                {
-                    "identifier": "AWS infrastructure and services in use by Wise (eg: S3 buckets)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "github.com/transferwise/*",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "Wise Affiliate Program",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Third party services not hosted by Wise",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Any Github asset not under the \u201ctransferwise\u201d organization",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Third party authentication services (eg: Facebook and Google)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://transferwise.com/help/contact",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://wise.com/help/contact",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.tw.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.tw.ee",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Non-current version of the Android app",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Non-current version of the iOS app",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "*.transferwise.tech",
-                    "type": "website"
-                },
-                {
-                    "identifier": "brand.wise.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "links.wise.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "widgets.transferwise.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "brand.transferwise.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "bootstrap.transferwise.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "links.transferwise.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "status.wise.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "status.transferwise.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "tech.transferwise.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "docs.wise.com ",
-                    "type": "other"
-                },
-                {
-                    "identifier": "github.com/transferwise/pipelinewise",
-                    "type": "other"
                 }
             ]
         }
@@ -8887,6 +8793,25 @@
         }
     },
     {
+        "handle": "engagements/fis",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Any FIS asset is in scope",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "Reference above out of scope targets",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
         "handle": "engagements/classdojo",
         "bounty": 1,
         "active": 1,
@@ -8960,6 +8885,45 @@
             "out_of_scope": [
                 {
                     "identifier": "https://shop.classdojo.com",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/tamedia",
+        "bounty": 1,
+        "active": 0,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://www.tagesanzeiger.ch",
+                    "type": "website"
+                },
+                {
+                    "identifier": "API calls going to disco-api from https://www.tagesanzeiger.ch ",
+                    "type": "api"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "https://abo.inscopedomain.ch",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://login.inscopedomain.ch/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://auth.inscopedomain.ch/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://tgt.inscopedomain.ch/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://shop.inscopedomain.ch/",
                     "type": "website"
                 }
             ]
@@ -9065,40 +9029,76 @@
         }
     },
     {
-        "handle": "engagements/tamedia",
+        "handle": "engagements/asana",
         "bounty": 1,
-        "active": 0,
+        "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "https://www.tagesanzeiger.ch",
+                    "identifier": "app.asana.com",
                     "type": "website"
                 },
                 {
-                    "identifier": "API calls going to disco-api from https://www.tagesanzeiger.ch ",
-                    "type": "api"
+                    "identifier": "asana.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.asana.plus",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Asana Desktop App",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Asana iOS app",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Asana Android app",
+                    "type": "android"
+                },
+                {
+                    "identifier": "form.asana.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.app.asana.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.asana.biz",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Subdomain takeover at *asana.biz",
+                    "type": "other"
                 }
             ],
             "out_of_scope": [
                 {
-                    "identifier": "https://abo.inscopedomain.ch",
+                    "identifier": "Other subdomains of asana.com",
                     "type": "website"
                 },
                 {
-                    "identifier": "https://login.inscopedomain.ch/",
+                    "identifier": "Social engineering against Asana Support or Asana Employees",
+                    "type": "other"
+                },
+                {
+                    "identifier": "jira*.integrations.asana.plus",
                     "type": "website"
                 },
                 {
-                    "identifier": "https://auth.inscopedomain.ch/",
+                    "identifier": "asana.okta.com",
                     "type": "website"
                 },
                 {
-                    "identifier": "https://tgt.inscopedomain.ch/",
+                    "identifier": "assets.asana.biz",
                     "type": "website"
                 },
                 {
-                    "identifier": "https://shop.inscopedomain.ch/",
-                    "type": "website"
+                    "identifier": "Forms that you do not own",
+                    "type": "other"
                 }
             ]
         }
@@ -10730,57 +10730,6 @@
         }
     },
     {
-        "handle": "engagements/hutgroup-public",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://*.cultbeauty.co.uk/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.lookfantastic.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.myprotein.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.myvitamins.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.arrowfilms.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.mankind.co.uk/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.illamasqua.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.matalan.co.uk",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.enjoyselfish.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "https://www.myprotein.com.tr/",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/soundcloud",
         "bounty": 1,
         "active": 1,
@@ -10894,6 +10843,57 @@
                 },
                 {
                     "identifier": "firston.soundcloud.com",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/hutgroup-public",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://*.cultbeauty.co.uk/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.lookfantastic.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.myprotein.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.myvitamins.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.arrowfilms.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.mankind.co.uk/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.illamasqua.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.matalan.co.uk",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.enjoyselfish.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "https://www.myprotein.com.tr/",
                     "type": "website"
                 }
             ]
