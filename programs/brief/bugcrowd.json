@@ -7764,6 +7764,49 @@
         }
     },
     {
+        "handle": "engagements/dell-product",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Actively Supported, Bounty Eligible Dell Products",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Actively Supported, Non-Reward Eligible Dell Products",
+                    "type": "hardware"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "*.dell.com/*",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.delltechnologies.com/*",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Virtual Appliance (vApp) Manager",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Dell ObjectScale",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Dell Digital Delivery",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Dell Enterprise Hub",
+                    "type": "other"
+                }
+            ]
+        }
+    },
+    {
         "handle": "engagements/thefork-mbb-og",
         "bounty": 1,
         "active": 1,
@@ -7878,49 +7921,6 @@
                 {
                     "identifier": "https://www.lafourchette.com",
                     "type": "website"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/dell-product",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Actively Supported, Bounty Eligible Dell Products",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Actively Supported, Non-Reward Eligible Dell Products",
-                    "type": "hardware"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "*.dell.com/*",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.delltechnologies.com/*",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Virtual Appliance (vApp) Manager",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Dell ObjectScale",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Dell Digital Delivery",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Dell Enterprise Hub",
-                    "type": "other"
                 }
             ]
         }
@@ -8281,84 +8281,6 @@
                     "type": "website"
                 }
             ]
-        }
-    },
-    {
-        "handle": "engagements/indeed",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.indeed.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.indeedflex.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://apis.indeed.com/graphql",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Indeed Job Search Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Indeed Job Search iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Android Indeed Flex App",
-                    "type": "android"
-                },
-                {
-                    "identifier": "iOS Indeed Flex App",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Career Scout",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.indeed.tech",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.indeed.net",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://resume.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://wowjobs.ca",
-                    "type": "website"
-                },
-                {
-                    "identifier": "\u5c65\u6b74\u66f8\u4f5c\u6210 (Universal Resume) iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "\u5c65\u6b74\u66f8\u4f5c\u6210 (Universal Resume) Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Indeed Connect for Employers",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Indeed Recruiter Extension (Chrome)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Any host/web property/mobile app verified to be owned by Indeed",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": []
         }
     },
     {
@@ -9646,6 +9568,84 @@
                     "type": "website"
                 }
             ]
+        }
+    },
+    {
+        "handle": "engagements/indeed",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.indeed.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.indeedflex.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://apis.indeed.com/graphql",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Indeed Job Search Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Indeed Job Search iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Android Indeed Flex App",
+                    "type": "android"
+                },
+                {
+                    "identifier": "iOS Indeed Flex App",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Career Scout",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.indeed.tech",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.indeed.net",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://resume.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://wowjobs.ca",
+                    "type": "website"
+                },
+                {
+                    "identifier": "\u5c65\u6b74\u66f8\u4f5c\u6210 (Universal Resume) iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "\u5c65\u6b74\u66f8\u4f5c\u6210 (Universal Resume) Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Indeed Connect for Employers",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Indeed Recruiter Extension (Chrome)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Any host/web property/mobile app verified to be owned by Indeed",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": []
         }
     },
     {
@@ -10946,85 +10946,6 @@
         }
     },
     {
-        "handle": "engagements/classdojo",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "IoS App",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "https://api.classdojo.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Android App",
-                    "type": "android"
-                },
-                {
-                    "identifier": "https://teach.classdojo.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://student.classdojo.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.classdojo.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://home.classdojo.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://dev.tutoring.classdojo.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "wss://ws.multiplayer.classdojo.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://ticket.multiplayer.classdojo.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://clients.multiplayer.classdojo.com/launcher/prod/latest",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://monster-customizer.classdojo.com/cf6dfa68-1a81-4c6d-bc0b-38f3666b37d6/index.html",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.classdojo.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.classdojo.co.uk",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.doj.io",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.dojo.me",
-                    "type": "api"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "https://shop.classdojo.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/cfr",
         "bounty": 1,
         "active": 1,
@@ -11436,165 +11357,6 @@
                 },
                 {
                     "identifier": "Creation of support tickets",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/auth0-okta",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "config.cic-bug-bounty.auth0app.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "manage.cic-bug-bounty.auth0app.com (Management Dashboard)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.cic-bug-bounty.auth0app.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Auth0 Guardian Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Auth0 Guardian IoS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "marketplace.auth0.com (Auth0 Marketplace)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "MFA Integrations\t",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://dashboard.fga.dev/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://api.us1.fga.dev/",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://customers.us1.fga.dev/",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://play.fga.dev/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Auth0 SDK for Web (Auth0.js)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Lock for Web (lock)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Auth0 Single Page App SDK (auth0-spa-js)",
-                    "type": "other"
-                },
-                {
-                    "identifier": ".NET SDK (Auth0.Net)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Auth0 Next.js SDK (nextjs-auth0)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Auth0 Java SDK (auth0-java)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Auth0 React Native SDK (react-native-auth0)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Auth0 PHP SDK (auth0-php)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Auth0 passport-ws-fed",
-                    "type": "other"
-                },
-                {
-                    "identifier": "auth0.com\t",
-                    "type": "website"
-                },
-                {
-                    "identifier": "samltool.io\t",
-                    "type": "website"
-                },
-                {
-                    "identifier": "webauthn.me\t",
-                    "type": "website"
-                },
-                {
-                    "identifier": "openidconnect.net\t",
-                    "type": "website"
-                },
-                {
-                    "identifier": "jwt.io",
-                    "type": "website"
-                },
-                {
-                    "identifier": "auth0.net",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "auth0.auth0.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "manage.auth0.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "accounts.auth0.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "webtask.io\t",
-                    "type": "website"
-                },
-                {
-                    "identifier": "phenix.rocks\t",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Auth0 Docs (including quickstarts)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "sharelock.io",
-                    "type": "website"
-                },
-                {
-                    "identifier": "goextend.io\t",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://support.auth0.com/tickets/new",
-                    "type": "website"
-                },
-                {
-                    "identifier": "support.auth0.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "community.auth0.com",
                     "type": "website"
                 }
             ]
@@ -12052,6 +11814,244 @@
                 },
                 {
                     "identifier": "info.loom.com",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/auth0-okta",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "config.cic-bug-bounty.auth0app.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "manage.cic-bug-bounty.auth0app.com (Management Dashboard)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.cic-bug-bounty.auth0app.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Auth0 Guardian Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Auth0 Guardian IoS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "marketplace.auth0.com (Auth0 Marketplace)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "MFA Integrations\t",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://dashboard.fga.dev/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://api.us1.fga.dev/",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://customers.us1.fga.dev/",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://play.fga.dev/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Auth0 SDK for Web (Auth0.js)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Lock for Web (lock)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Auth0 Single Page App SDK (auth0-spa-js)",
+                    "type": "other"
+                },
+                {
+                    "identifier": ".NET SDK (Auth0.Net)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Auth0 Next.js SDK (nextjs-auth0)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Auth0 Java SDK (auth0-java)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Auth0 React Native SDK (react-native-auth0)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Auth0 PHP SDK (auth0-php)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Auth0 passport-ws-fed",
+                    "type": "other"
+                },
+                {
+                    "identifier": "auth0.com\t",
+                    "type": "website"
+                },
+                {
+                    "identifier": "samltool.io\t",
+                    "type": "website"
+                },
+                {
+                    "identifier": "webauthn.me\t",
+                    "type": "website"
+                },
+                {
+                    "identifier": "openidconnect.net\t",
+                    "type": "website"
+                },
+                {
+                    "identifier": "jwt.io",
+                    "type": "website"
+                },
+                {
+                    "identifier": "auth0.net",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "auth0.auth0.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "manage.auth0.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "accounts.auth0.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "webtask.io\t",
+                    "type": "website"
+                },
+                {
+                    "identifier": "phenix.rocks\t",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Auth0 Docs (including quickstarts)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "sharelock.io",
+                    "type": "website"
+                },
+                {
+                    "identifier": "goextend.io\t",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://support.auth0.com/tickets/new",
+                    "type": "website"
+                },
+                {
+                    "identifier": "support.auth0.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "community.auth0.com",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/classdojo",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "IoS App",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "https://api.classdojo.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Android App",
+                    "type": "android"
+                },
+                {
+                    "identifier": "https://teach.classdojo.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://student.classdojo.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.classdojo.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://home.classdojo.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://dev.tutoring.classdojo.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "wss://ws.multiplayer.classdojo.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://ticket.multiplayer.classdojo.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://clients.multiplayer.classdojo.com/launcher/prod/latest",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://monster-customizer.classdojo.com/cf6dfa68-1a81-4c6d-bc0b-38f3666b37d6/index.html",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.classdojo.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.classdojo.co.uk",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.doj.io",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.dojo.me",
+                    "type": "api"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "https://shop.classdojo.com",
                     "type": "website"
                 }
             ]
@@ -13116,109 +13116,6 @@
         }
     },
     {
-        "handle": "engagements/linktree-mbb-og",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.linktr.ee",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.linktree.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.tr.ee",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.linktree-extensions.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Linktree iOS app",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Linktree Android app",
-                    "type": "android"
-                },
-                {
-                    "identifier": "plannthat.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Plann iOS app",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Plann Android app",
-                    "type": "android"
-                },
-                {
-                    "identifier": "*.odesli.co",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.odesli.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.song.link",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.songlink.io",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.album.link",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.artist.link",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.pods.link",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.playlist.link",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.mylink.page",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "*.filestack.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.freshdesk.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.blstr.xyz",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.blstr.co",
-                    "type": "website"
-                },
-                {
-                    "identifier": "community.linktr.ee",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/backblaze",
         "bounty": 1,
         "active": 1,
@@ -13427,164 +13324,6 @@
                 }
             ],
             "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/quizlet",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://*.quizlet.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Quizlet iOS App",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Quizlet Android App",
-                    "type": "android"
-                },
-                {
-                    "identifier": "3.0 API",
-                    "type": "api"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "api.quizlet.com/2.0",
-                    "type": "api"
-                },
-                {
-                    "identifier": " help.quizlet.com (zendesk)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "get.quizlet.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/soundcloud",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "SoundCloud Android app",
-                    "type": "android"
-                },
-                {
-                    "identifier": "soundcloud.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.soundcloud.org",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.s-cloud.net",
-                    "type": "website"
-                },
-                {
-                    "identifier": "SoundCloud iOS app",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "*.soundcloud.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.services.repostnetwork.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "api-*.soundcloud.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "artists.soundcloud.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "soundcloud.org",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "blog.soundcloud.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "status.soundcloud.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "help.soundcloud.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": " community.soundcloud.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "copyright.soundcloud.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "advertising.soundcloud.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "soundcloudmail.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "press.soundcloud.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "scdrops.soundcloud.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "promote.soundcloud.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "contest.soundcloud.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "playback.soundcloud.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "jobs.soundcloud.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "playerone.soundcloud.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "support.soundcloud.org",
-                    "type": "website"
-                },
-                {
-                    "identifier": "secdomaintest.soundcloud.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "firston.soundcloud.com",
-                    "type": "website"
-                }
-            ]
         }
     },
     {
@@ -13904,6 +13643,267 @@
                 {
                     "identifier": "Any domain, property, product, protocol, or service of the app/hardware/software version not explicitly listed in the In-Scope section is out of scope; submissions are welcome but not guaranteed for the bounty/bonus.",
                     "type": "other"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/soundcloud",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "SoundCloud Android app",
+                    "type": "android"
+                },
+                {
+                    "identifier": "soundcloud.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.soundcloud.org",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.s-cloud.net",
+                    "type": "website"
+                },
+                {
+                    "identifier": "SoundCloud iOS app",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "*.soundcloud.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.services.repostnetwork.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "api-*.soundcloud.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "artists.soundcloud.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "soundcloud.org",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "blog.soundcloud.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "status.soundcloud.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "help.soundcloud.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": " community.soundcloud.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "copyright.soundcloud.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "advertising.soundcloud.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "soundcloudmail.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "press.soundcloud.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "scdrops.soundcloud.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "promote.soundcloud.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "contest.soundcloud.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "playback.soundcloud.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "jobs.soundcloud.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "playerone.soundcloud.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "support.soundcloud.org",
+                    "type": "website"
+                },
+                {
+                    "identifier": "secdomaintest.soundcloud.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "firston.soundcloud.com",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/linktree-mbb-og",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.linktr.ee",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.linktree.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.tr.ee",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.linktree-extensions.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Linktree iOS app",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Linktree Android app",
+                    "type": "android"
+                },
+                {
+                    "identifier": "plannthat.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Plann iOS app",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Plann Android app",
+                    "type": "android"
+                },
+                {
+                    "identifier": "*.odesli.co",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.odesli.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.song.link",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.songlink.io",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.album.link",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.artist.link",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.pods.link",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.playlist.link",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.mylink.page",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "*.filestack.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.freshdesk.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.blstr.xyz",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.blstr.co",
+                    "type": "website"
+                },
+                {
+                    "identifier": "community.linktr.ee",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/quizlet",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://*.quizlet.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Quizlet iOS App",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Quizlet Android App",
+                    "type": "android"
+                },
+                {
+                    "identifier": "3.0 API",
+                    "type": "api"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "api.quizlet.com/2.0",
+                    "type": "api"
+                },
+                {
+                    "identifier": " help.quizlet.com (zendesk)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "get.quizlet.com",
+                    "type": "website"
                 }
             ]
         }
@@ -14554,52 +14554,6 @@
                 {
                     "identifier": "https://answers.irobot.com",
                     "type": "website"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/blockopensource",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://github.com/afterpay/sdk-ios",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://github.com/afterpay/sdk-android",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://github.com/cashapp/cash-app-pay-ios-sdk",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://github.com/cashapp/cash-app-pay-android-sdk",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://github.com/cashapp/hermit",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://github.com/cashapp/misk",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://github.com/square/okhttp",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://github.com/square/okio",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://github.com/square/wire",
-                    "type": "other"
                 }
             ],
             "out_of_scope": []
@@ -15641,6 +15595,52 @@
                     "type": "website"
                 }
             ]
+        }
+    },
+    {
+        "handle": "engagements/blockopensource",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://github.com/afterpay/sdk-ios",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://github.com/afterpay/sdk-android",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://github.com/cashapp/cash-app-pay-ios-sdk",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://github.com/cashapp/cash-app-pay-android-sdk",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://github.com/cashapp/hermit",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://github.com/cashapp/misk",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://github.com/square/okhttp",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://github.com/square/okio",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://github.com/square/wire",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": []
         }
     },
     {
