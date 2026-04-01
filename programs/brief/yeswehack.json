@@ -548,84 +548,6 @@
         }
     },
     {
-        "handle": "systemd-bug-bounty-program",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "systemd (the manager itself)",
-                    "type": "open-source"
-                },
-                {
-                    "identifier": "systemd-boot",
-                    "type": "open-source"
-                },
-                {
-                    "identifier": "systemd-stub",
-                    "type": "open-source"
-                },
-                {
-                    "identifier": "systemd-udev",
-                    "type": "open-source"
-                },
-                {
-                    "identifier": "systemd-journald",
-                    "type": "open-source"
-                },
-                {
-                    "identifier": "systemd-logind",
-                    "type": "open-source"
-                },
-                {
-                    "identifier": "libsystemd",
-                    "type": "open-source"
-                },
-                {
-                    "identifier": "systemd-timesyncd",
-                    "type": "open-source"
-                },
-                {
-                    "identifier": "systemd-hostnamed",
-                    "type": "open-source"
-                },
-                {
-                    "identifier": "systemd-resolved",
-                    "type": "open-source"
-                },
-                {
-                    "identifier": "systemd-cryptenroll",
-                    "type": "open-source"
-                },
-                {
-                    "identifier": "systemd-cryptsetup",
-                    "type": "open-source"
-                },
-                {
-                    "identifier": "systemd-veritysetup",
-                    "type": "open-source"
-                },
-                {
-                    "identifier": "systemd-fstab-generator",
-                    "type": "open-source"
-                },
-                {
-                    "identifier": "systemd-gpt-auto-generator",
-                    "type": "open-source"
-                },
-                {
-                    "identifier": "systemd-ask-password",
-                    "type": "open-source"
-                },
-                {
-                    "identifier": "Others",
-                    "type": "open-source"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "sante-publique-france-bugbounty-public-program",
         "bounty": 1,
         "active": 1,
@@ -1693,6 +1615,24 @@
                 },
                 {
                     "identifier": "https://preprod-datahub.xelians.fr/",
+                    "type": "web-application"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "grw-trading-fze-bug-bounty-program",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://*.grwtrading.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://*.dropxl.com",
                     "type": "web-application"
                 }
             ],
@@ -3262,126 +3202,6 @@
         }
     },
     {
-        "handle": "openpgp-js-bug-bounty-program",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Security Vulnerability in OpenPGP.js's high-level API",
-                    "type": "open-source"
-                },
-                {
-                    "identifier": "Security Vulnerability in the OpenPGP Standard",
-                    "type": "open-source"
-                },
-                {
-                    "identifier": "Interoperability Issue in OpenPGP.js",
-                    "type": "open-source"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "sequoia-pgp-bug-bounty-program",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "buffered-reader",
-                    "type": "open-source"
-                },
-                {
-                    "identifier": "nettle-sys",
-                    "type": "open-source"
-                },
-                {
-                    "identifier": "nettle-rs",
-                    "type": "open-source"
-                },
-                {
-                    "identifier": "SHA1-CD",
-                    "type": "open-source"
-                },
-                {
-                    "identifier": "sequoia-openpgp",
-                    "type": "open-source"
-                },
-                {
-                    "identifier": "sequoia-autocrypt",
-                    "type": "open-source"
-                },
-                {
-                    "identifier": "sequoia-ipc",
-                    "type": "open-source"
-                },
-                {
-                    "identifier": "sequoia-net",
-                    "type": "open-source"
-                },
-                {
-                    "identifier": "Shared OpenPGP Certificate Directory",
-                    "type": "open-source"
-                },
-                {
-                    "identifier": "sequoia-cert-store",
-                    "type": "open-source"
-                },
-                {
-                    "identifier": "sequoia-wot",
-                    "type": "open-source"
-                },
-                {
-                    "identifier": "sequoia-policy-config",
-                    "type": "open-source"
-                },
-                {
-                    "identifier": "rpm-sequoia",
-                    "type": "open-source"
-                },
-                {
-                    "identifier": "sqv",
-                    "type": "open-source"
-                },
-                {
-                    "identifier": "sq",
-                    "type": "open-source"
-                },
-                {
-                    "identifier": "sqop",
-                    "type": "open-source"
-                },
-                {
-                    "identifier": "octopus",
-                    "type": "open-source"
-                },
-                {
-                    "identifier": "sequoia-git",
-                    "type": "open-source"
-                },
-                {
-                    "identifier": "OpenPGP Cert Directory Specification",
-                    "type": "open-source"
-                },
-                {
-                    "identifier": "Web of Trust Specification",
-                    "type": "open-source"
-                },
-                {
-                    "identifier": "Sequoia git Specification",
-                    "type": "open-source"
-                },
-                {
-                    "identifier": "chameleon",
-                    "type": "open-source"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "atg-public-bug-bounty-program",
         "bounty": 1,
         "active": 1,
@@ -3528,36 +3348,6 @@
                 {
                     "identifier": "https://paymayabiller-prod.paymaya.com/",
                     "type": "api"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "log4j-bug-bounty-program",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Log4j 2.x",
-                    "type": "open-source"
-                },
-                {
-                    "identifier": "Log4j API for Kotlin",
-                    "type": "open-source"
-                },
-                {
-                    "identifier": "Log4j API for Scala",
-                    "type": "open-source"
-                },
-                {
-                    "identifier": "Log4cxx",
-                    "type": "open-source"
-                },
-                {
-                    "identifier": "Log4net",
-                    "type": "open-source"
                 }
             ],
             "out_of_scope": []
