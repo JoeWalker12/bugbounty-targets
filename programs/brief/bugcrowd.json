@@ -6298,6 +6298,24 @@
         }
     },
     {
+        "handle": "engagements/felix-health-mbb-og",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "bugcrowd.charm.felixforus.ca",
+                    "type": "website"
+                },
+                {
+                    "identifier": "bugcrowd.lucky.felixforus.ca",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
         "handle": "engagements/upwork",
         "bounty": 1,
         "active": 1,
@@ -6410,24 +6428,6 @@
                     "type": "other"
                 }
             ]
-        }
-    },
-    {
-        "handle": "engagements/felix-health-mbb-og",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "bugcrowd.charm.felixforus.ca",
-                    "type": "website"
-                },
-                {
-                    "identifier": "bugcrowd.lucky.felixforus.ca",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
         }
     },
     {
@@ -7310,88 +7310,6 @@
         }
     },
     {
-        "handle": "engagements/canva",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "www.canva.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Canva Developer Portal",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Apps SDK Sandboxing",
-                    "type": "other"
-                },
-                {
-                    "identifier": "api.canva.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.canva.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.canva-apps.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.canva.tech",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Canva for ChatGPT",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Canva for Slack",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Canva Desktop (macOS / Windows)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Canva (iOS)",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Canva (Android)",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Canva (Chrome Extension)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "*.canva.cn",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.canva-apps.cn",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Leaked Credentials and Secrets (Canva Employee/Contractor)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Leaked Credentials and Secrets (Canva User)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "3rd-Party Provider Vulnerability",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/tyler-tech-data-insights",
         "bounty": 1,
         "active": 1,
@@ -7411,61 +7329,6 @@
                 }
             ],
             "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/fivetran-mbb-og",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.fivetran.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Fivetran SDK",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "Any internal, staging, or development services.",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Social engineering against Fivetran Support or Fivetran Employees",
-                    "type": "other"
-                },
-                {
-                    "identifier": "*.db.fivetran.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "testing-datalake.fivetran.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "shop.fivetran.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "status.fivetran.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "support.fivetran.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "community-stage.fivetran.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "trust.fivetran.com",
-                    "type": "website"
-                }
-            ]
         }
     },
     {
@@ -8600,6 +8463,143 @@
                 }
             ],
             "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/canva",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "www.canva.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Canva Developer Portal",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Apps SDK Sandboxing",
+                    "type": "other"
+                },
+                {
+                    "identifier": "api.canva.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.canva.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.canva-apps.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.canva.tech",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Canva for ChatGPT",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Canva for Slack",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Canva Desktop (macOS / Windows)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Canva (iOS)",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Canva (Android)",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Canva (Chrome Extension)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "*.canva.cn",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.canva-apps.cn",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Leaked Credentials and Secrets (Canva Employee/Contractor)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Leaked Credentials and Secrets (Canva User)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "3rd-Party Provider Vulnerability",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/fivetran-mbb-og",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.fivetran.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Fivetran SDK",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "Any internal, staging, or development services.",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Social engineering against Fivetran Support or Fivetran Employees",
+                    "type": "other"
+                },
+                {
+                    "identifier": "*.db.fivetran.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "testing-datalake.fivetran.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "shop.fivetran.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "status.fivetran.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "support.fivetran.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "community-stage.fivetran.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "trust.fivetran.com",
+                    "type": "website"
+                }
+            ]
         }
     },
     {
@@ -10764,145 +10764,6 @@
         }
     },
     {
-        "handle": "engagements/aiven-mbb-og",
-        "bounty": 1,
-        "active": 0,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Aiven for Clickhouse",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Aiven for Metrics",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Aiven for Valkey",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Aiven for Apache Kafka",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Aiven for OpenSearch",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Aiven for Grafana",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Aiven for PostgreSQL",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Aiven for Caching",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Aiven for MySQL",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Aiven for Apache Flink",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Aiven for Dragonfly",
-                    "type": "other"
-                },
-                {
-                    "identifier": "regatta.aiven.io",
-                    "type": "website"
-                },
-                {
-                    "identifier": "aiven.io",
-                    "type": "website"
-                },
-                {
-                    "identifier": "console.aiven.io",
-                    "type": "website"
-                },
-                {
-                    "identifier": "api.aiven.io",
-                    "type": "api"
-                },
-                {
-                    "identifier": "github.com/Aiven-Open",
-                    "type": "other"
-                },
-                {
-                    "identifier": "github.com/Aiven",
-                    "type": "other"
-                },
-                {
-                    "identifier": "falcon-bug-bounty-flag-pgsql-dev-sandbox.aivencloud.com",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "aquarium.aiven.io\t",
-                    "type": "website"
-                },
-                {
-                    "identifier": "uptime.aiven.io\t",
-                    "type": "website"
-                },
-                {
-                    "identifier": "video.aiven.io\t",
-                    "type": "website"
-                },
-                {
-                    "identifier": "aiven.io/community",
-                    "type": "website"
-                },
-                {
-                    "identifier": "aiven.io/contact",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Customer services you did not create",
-                    "type": "other"
-                },
-                {
-                    "identifier": "*.aiven.fi",
-                    "type": "other"
-                },
-                {
-                    "identifier": "github.com/Aiven-Labs",
-                    "type": "other"
-                },
-                {
-                    "identifier": "*.avns.net",
-                    "type": "other"
-                },
-                {
-                    "identifier": "events.aiven.io",
-                    "type": "website"
-                },
-                {
-                    "identifier": "ideas.aiven.io",
-                    "type": "other"
-                },
-                {
-                    "identifier": "aivenhelp.zendesk.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "support.aiven.io",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Creation of support tickets",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/auth0-okta",
         "bounty": 1,
         "active": 1,
@@ -11057,6 +10918,145 @@
                 {
                     "identifier": "Auth0 passport-ws-fed",
                     "type": "other"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/aiven-mbb-og",
+        "bounty": 1,
+        "active": 0,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Aiven for Clickhouse",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Aiven for Metrics",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Aiven for Valkey",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Aiven for Apache Kafka",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Aiven for OpenSearch",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Aiven for Grafana",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Aiven for PostgreSQL",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Aiven for Caching",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Aiven for MySQL",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Aiven for Apache Flink",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Aiven for Dragonfly",
+                    "type": "other"
+                },
+                {
+                    "identifier": "regatta.aiven.io",
+                    "type": "website"
+                },
+                {
+                    "identifier": "aiven.io",
+                    "type": "website"
+                },
+                {
+                    "identifier": "console.aiven.io",
+                    "type": "website"
+                },
+                {
+                    "identifier": "api.aiven.io",
+                    "type": "api"
+                },
+                {
+                    "identifier": "github.com/Aiven-Open",
+                    "type": "other"
+                },
+                {
+                    "identifier": "github.com/Aiven",
+                    "type": "other"
+                },
+                {
+                    "identifier": "falcon-bug-bounty-flag-pgsql-dev-sandbox.aivencloud.com",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "aquarium.aiven.io\t",
+                    "type": "website"
+                },
+                {
+                    "identifier": "uptime.aiven.io\t",
+                    "type": "website"
+                },
+                {
+                    "identifier": "video.aiven.io\t",
+                    "type": "website"
+                },
+                {
+                    "identifier": "aiven.io/community",
+                    "type": "website"
+                },
+                {
+                    "identifier": "aiven.io/contact",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Customer services you did not create",
+                    "type": "other"
+                },
+                {
+                    "identifier": "*.aiven.fi",
+                    "type": "other"
+                },
+                {
+                    "identifier": "github.com/Aiven-Labs",
+                    "type": "other"
+                },
+                {
+                    "identifier": "*.avns.net",
+                    "type": "other"
+                },
+                {
+                    "identifier": "events.aiven.io",
+                    "type": "website"
+                },
+                {
+                    "identifier": "ideas.aiven.io",
+                    "type": "other"
+                },
+                {
+                    "identifier": "aivenhelp.zendesk.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "support.aiven.io",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Creation of support tickets",
+                    "type": "website"
                 }
             ]
         }
@@ -15654,41 +15654,6 @@
         }
     },
     {
-        "handle": "engagements/directly",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "app.sandbox.directly.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.sandbox.directly.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://sandbox.directly.com/dashboard/index",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "www.directly.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "resources.directly.com/*",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.sandbox.directly.com/schedule-a-demo/* OR /product/* OR /careers/* OR /about/* OR /legal/* OR /trust/*",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/linktree-mbb-og",
         "bounty": 1,
         "active": 1,
@@ -15930,6 +15895,71 @@
         }
     },
     {
+        "handle": "engagements/directly",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "app.sandbox.directly.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.sandbox.directly.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://sandbox.directly.com/dashboard/index",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "www.directly.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "resources.directly.com/*",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.sandbox.directly.com/schedule-a-demo/* OR /product/* OR /careers/* OR /about/* OR /legal/* OR /trust/*",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/eazybi",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/1211051/eazybi-reports-and-charts-for-jira?hosting=cloud",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/1211051/eazybi-reports-and-charts-for-jira?hosting=datacenter",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/1219504/eazybi-reports-and-charts-for-confluence?hosting=cloud",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/1219504/eazybi-reports-and-charts-for-confluence?hosting=datacenter",
+                    "type": "website"
+                },
+                {
+                    "identifier": "docs.eazybi.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
         "handle": "engagements/maffashion",
         "bounty": 1,
         "active": 1,
@@ -15994,36 +16024,6 @@
                     "type": "website"
                 }
             ]
-        }
-    },
-    {
-        "handle": "engagements/eazybi",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://marketplace.atlassian.com/apps/1211051/eazybi-reports-and-charts-for-jira?hosting=cloud",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://marketplace.atlassian.com/apps/1211051/eazybi-reports-and-charts-for-jira?hosting=datacenter",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://marketplace.atlassian.com/apps/1219504/eazybi-reports-and-charts-for-confluence?hosting=cloud",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://marketplace.atlassian.com/apps/1219504/eazybi-reports-and-charts-for-confluence?hosting=datacenter",
-                    "type": "website"
-                },
-                {
-                    "identifier": "docs.eazybi.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
         }
     },
     {
