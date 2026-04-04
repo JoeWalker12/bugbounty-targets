@@ -6450,33 +6450,6 @@
         }
     },
     {
-        "handle": "engagements/bullish",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://bullish.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://investor.bullish.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "*.bullish.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://simnext.bullish-test.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/opera",
         "bounty": 1,
         "active": 1,
@@ -6874,6 +6847,33 @@
                 },
                 {
                     "identifier": "32s.opera.com",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/bullish",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://bullish.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://investor.bullish.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "*.bullish.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://simnext.bullish-test.com",
                     "type": "website"
                 }
             ]
@@ -9560,81 +9560,6 @@
         }
     },
     {
-        "handle": "engagements/asana",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "app.asana.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "asana.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.asana.plus",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Asana Desktop App",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Asana iOS app",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Asana Android app",
-                    "type": "android"
-                },
-                {
-                    "identifier": "form.asana.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.app.asana.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.asana.biz",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Subdomain takeover at *asana.biz",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "Other subdomains of asana.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Social engineering against Asana Support or Asana Employees",
-                    "type": "other"
-                },
-                {
-                    "identifier": "jira*.integrations.asana.plus",
-                    "type": "website"
-                },
-                {
-                    "identifier": "asana.okta.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "assets.asana.biz",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Forms that you do not own",
-                    "type": "other"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/sky-plc-mbb-og2",
         "bounty": 1,
         "active": 1,
@@ -10698,165 +10623,6 @@
         }
     },
     {
-        "handle": "engagements/auth0-okta",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "config.cic-bug-bounty.auth0app.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "manage.cic-bug-bounty.auth0app.com (Management Dashboard)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.cic-bug-bounty.auth0app.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Auth0 Guardian Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Auth0 Guardian IoS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "marketplace.auth0.com (Auth0 Marketplace)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "MFA Integrations\t",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://dashboard.fga.dev/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://api.us1.fga.dev/",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://customers.us1.fga.dev/",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://play.fga.dev/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Auth0 SDK for Web (Auth0.js)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Lock for Web (lock)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Auth0 Single Page App SDK (auth0-spa-js)",
-                    "type": "other"
-                },
-                {
-                    "identifier": ".NET SDK (Auth0.Net)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Auth0 Next.js SDK (nextjs-auth0)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Auth0 Java SDK (auth0-java)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Auth0 React Native SDK (react-native-auth0)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Auth0 PHP SDK (auth0-php)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "auth0.com\t",
-                    "type": "website"
-                },
-                {
-                    "identifier": "samltool.io\t",
-                    "type": "website"
-                },
-                {
-                    "identifier": "webauthn.me\t",
-                    "type": "website"
-                },
-                {
-                    "identifier": "openidconnect.net\t",
-                    "type": "website"
-                },
-                {
-                    "identifier": "jwt.io",
-                    "type": "website"
-                },
-                {
-                    "identifier": "auth0.net",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "auth0.auth0.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "manage.auth0.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "accounts.auth0.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "webtask.io\t",
-                    "type": "website"
-                },
-                {
-                    "identifier": "phenix.rocks\t",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Auth0 Docs (including quickstarts)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "sharelock.io",
-                    "type": "website"
-                },
-                {
-                    "identifier": "goextend.io\t",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://support.auth0.com/tickets/new",
-                    "type": "website"
-                },
-                {
-                    "identifier": "support.auth0.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "community.auth0.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Auth0 passport-ws-fed",
-                    "type": "other"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/netgear",
         "bounty": 1,
         "active": 1,
@@ -11057,6 +10823,240 @@
                 {
                     "identifier": "Creation of support tickets",
                     "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/auth0-okta",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "config.cic-bug-bounty.auth0app.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "manage.cic-bug-bounty.auth0app.com (Management Dashboard)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.cic-bug-bounty.auth0app.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Auth0 Guardian Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Auth0 Guardian IoS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "marketplace.auth0.com (Auth0 Marketplace)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "MFA Integrations\t",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://dashboard.fga.dev/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://api.us1.fga.dev/",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://customers.us1.fga.dev/",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://play.fga.dev/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Auth0 SDK for Web (Auth0.js)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Lock for Web (lock)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Auth0 Single Page App SDK (auth0-spa-js)",
+                    "type": "other"
+                },
+                {
+                    "identifier": ".NET SDK (Auth0.Net)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Auth0 Next.js SDK (nextjs-auth0)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Auth0 Java SDK (auth0-java)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Auth0 React Native SDK (react-native-auth0)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Auth0 PHP SDK (auth0-php)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "auth0.com\t",
+                    "type": "website"
+                },
+                {
+                    "identifier": "samltool.io\t",
+                    "type": "website"
+                },
+                {
+                    "identifier": "webauthn.me\t",
+                    "type": "website"
+                },
+                {
+                    "identifier": "openidconnect.net\t",
+                    "type": "website"
+                },
+                {
+                    "identifier": "jwt.io",
+                    "type": "website"
+                },
+                {
+                    "identifier": "auth0.net",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "auth0.auth0.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "manage.auth0.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "accounts.auth0.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "webtask.io\t",
+                    "type": "website"
+                },
+                {
+                    "identifier": "phenix.rocks\t",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Auth0 Docs (including quickstarts)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "sharelock.io",
+                    "type": "website"
+                },
+                {
+                    "identifier": "goextend.io\t",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://support.auth0.com/tickets/new",
+                    "type": "website"
+                },
+                {
+                    "identifier": "support.auth0.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "community.auth0.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Auth0 passport-ws-fed",
+                    "type": "other"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/asana",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "app.asana.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "asana.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.asana.plus",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Asana Desktop App",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Asana iOS app",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Asana Android app",
+                    "type": "android"
+                },
+                {
+                    "identifier": "form.asana.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.app.asana.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.asana.biz",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Subdomain takeover at *asana.biz",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "Other subdomains of asana.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Social engineering against Asana Support or Asana Employees",
+                    "type": "other"
+                },
+                {
+                    "identifier": "jira*.integrations.asana.plus",
+                    "type": "website"
+                },
+                {
+                    "identifier": "asana.okta.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "assets.asana.biz",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Forms that you do not own",
+                    "type": "other"
                 }
             ]
         }
@@ -13217,24 +13217,6 @@
         }
     },
     {
-        "handle": "engagements/statuspage",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "manage.statuspage.io",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.statuspage.io",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/elementor",
         "bounty": 1,
         "active": 1,
@@ -14084,6 +14066,24 @@
         }
     },
     {
+        "handle": "engagements/statuspage",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "manage.statuspage.io",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.statuspage.io",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
         "handle": "engagements/braze-bb",
         "bounty": 1,
         "active": 0,
@@ -14797,6 +14797,36 @@
         }
     },
     {
+        "handle": "engagements/eazybi",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/1211051/eazybi-reports-and-charts-for-jira?hosting=cloud",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/1211051/eazybi-reports-and-charts-for-jira?hosting=datacenter",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/1219504/eazybi-reports-and-charts-for-confluence?hosting=cloud",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/1219504/eazybi-reports-and-charts-for-confluence?hosting=datacenter",
+                    "type": "website"
+                },
+                {
+                    "identifier": "docs.eazybi.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
         "handle": "engagements/maffashion",
         "bounty": 1,
         "active": 1,
@@ -14861,36 +14891,6 @@
                     "type": "website"
                 }
             ]
-        }
-    },
-    {
-        "handle": "engagements/eazybi",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://marketplace.atlassian.com/apps/1211051/eazybi-reports-and-charts-for-jira?hosting=cloud",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://marketplace.atlassian.com/apps/1211051/eazybi-reports-and-charts-for-jira?hosting=datacenter",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://marketplace.atlassian.com/apps/1219504/eazybi-reports-and-charts-for-confluence?hosting=cloud",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://marketplace.atlassian.com/apps/1219504/eazybi-reports-and-charts-for-confluence?hosting=datacenter",
-                    "type": "website"
-                },
-                {
-                    "identifier": "docs.eazybi.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
         }
     },
     {
