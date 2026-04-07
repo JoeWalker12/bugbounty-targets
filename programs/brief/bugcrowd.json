@@ -5579,101 +5579,6 @@
         }
     },
     {
-        "handle": "engagements/comcast-mbb",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.xfinity.com\t",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.comcast.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.xcal.tv",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Staging, QA, Dev, and Test Environments",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "*.hfc.comcastbusiness.net",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.hsd1.*.comcast.net",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*business.comcast.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "10.0.0.0/8",
-                    "type": "network"
-                },
-                {
-                    "identifier": "50.128.0.0/12",
-                    "type": "network"
-                },
-                {
-                    "identifier": "50.152.0.0/13",
-                    "type": "network"
-                },
-                {
-                    "identifier": "96.201.0.0/16",
-                    "type": "network"
-                },
-                {
-                    "identifier": "96.202.128.0/17",
-                    "type": "network"
-                },
-                {
-                    "identifier": "96.203.0.0/16",
-                    "type": "network"
-                },
-                {
-                    "identifier": "172.26.128.0/18",
-                    "type": "network"
-                },
-                {
-                    "identifier": "184.112.0.0/13",
-                    "type": "network"
-                },
-                {
-                    "identifier": "184.122.0.0/15",
-                    "type": "network"
-                },
-                {
-                    "identifier": "NBC Universal",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Sky",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.sys.comcast.net",
-                    "type": "website"
-                },
-                {
-                    "identifier": "admin.selectwifi.xfinity.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "harvard.xfinity.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/optimizely",
         "bounty": 1,
         "active": 1,
@@ -6795,6 +6700,32 @@
         }
     },
     {
+        "handle": "engagements/wyze",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://auth.wyze.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://my.wyze.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://api.wyzecam.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Wyze Cam V3",
+                    "type": "hardware"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
         "handle": "engagements/tidal-bugbounty",
         "bounty": 1,
         "active": 1,
@@ -6854,29 +6785,98 @@
         }
     },
     {
-        "handle": "engagements/wyze",
+        "handle": "engagements/comcast-mbb",
         "bounty": 1,
         "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "https://auth.wyze.com",
+                    "identifier": "*.xfinity.com\t",
                     "type": "website"
                 },
                 {
-                    "identifier": "https://my.wyze.com",
+                    "identifier": "*.comcast.com",
                     "type": "website"
                 },
                 {
-                    "identifier": "https://api.wyzecam.com",
-                    "type": "api"
+                    "identifier": "*.xcal.tv",
+                    "type": "website"
                 },
                 {
-                    "identifier": "Wyze Cam V3",
-                    "type": "hardware"
+                    "identifier": "Staging, QA, Dev, and Test Environments",
+                    "type": "website"
                 }
             ],
-            "out_of_scope": []
+            "out_of_scope": [
+                {
+                    "identifier": "*.hfc.comcastbusiness.net",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.hsd1.*.comcast.net",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*business.comcast.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "10.0.0.0/8",
+                    "type": "network"
+                },
+                {
+                    "identifier": "50.128.0.0/12",
+                    "type": "network"
+                },
+                {
+                    "identifier": "50.152.0.0/13",
+                    "type": "network"
+                },
+                {
+                    "identifier": "96.201.0.0/16",
+                    "type": "network"
+                },
+                {
+                    "identifier": "96.202.128.0/17",
+                    "type": "network"
+                },
+                {
+                    "identifier": "96.203.0.0/16",
+                    "type": "network"
+                },
+                {
+                    "identifier": "172.26.128.0/18",
+                    "type": "network"
+                },
+                {
+                    "identifier": "184.112.0.0/13",
+                    "type": "network"
+                },
+                {
+                    "identifier": "184.122.0.0/15",
+                    "type": "network"
+                },
+                {
+                    "identifier": "NBC Universal",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Sky",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.sys.comcast.net",
+                    "type": "website"
+                },
+                {
+                    "identifier": "admin.selectwifi.xfinity.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "harvard.xfinity.com",
+                    "type": "website"
+                }
+            ]
         }
     },
     {
@@ -10229,45 +10229,6 @@
         }
     },
     {
-        "handle": "engagements/clickhouse",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://clickhou.se/bugcrowd",
-                    "type": "website"
-                },
-                {
-                    "identifier": "ClickHouse Cloud environment hosted by ClickHouse",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://github.com/ClickHouse/ClickHouse",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "New support cases, Chat, Request new integration form",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Share feedback form",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Vulnerability scanners",
-                    "type": "website"
-                },
-                {
-                    "identifier": "learn.clickhouse.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/classdojo",
         "bounty": 1,
         "active": 1,
@@ -11059,6 +11020,45 @@
                 }
             ],
             "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/clickhouse",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://clickhou.se/bugcrowd",
+                    "type": "website"
+                },
+                {
+                    "identifier": "ClickHouse Cloud environment hosted by ClickHouse",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://github.com/ClickHouse/ClickHouse",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "New support cases, Chat, Request new integration form",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Share feedback form",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Vulnerability scanners",
+                    "type": "website"
+                },
+                {
+                    "identifier": "learn.clickhouse.com",
+                    "type": "website"
+                }
+            ]
         }
     },
     {
@@ -12630,48 +12630,6 @@
         }
     },
     {
-        "handle": "engagements/elementor",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://my.elementor.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://go.elementor.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://translate.elementor.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://developers.elementor.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://library.elementor.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://elementor.careers",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://activitylog.io/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://send2.co/",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/arlo",
         "bounty": 1,
         "active": 1,
@@ -13759,6 +13717,196 @@
         }
     },
     {
+        "handle": "engagements/intercom",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "iOS SDK",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "https://api.intercom.io",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://app.intercom.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.intercomassets.com / *.intercomcdn.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://app.intercom.io",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Android SDK",
+                    "type": "android"
+                },
+                {
+                    "identifier": "https://www.intercom.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "mcp.intercom.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://api-iam.intercom.io",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://*.mobile-messenger.intercom.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "fin.ai",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://app.fin.ai/",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/cashapp",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Cash App Mobile Application for iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Cash App Mobile Application for Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "*.cash.app",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.cashstaging.app",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/prosus-og",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "dealflow.prosus.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "dealflowapi.prosus.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "analytics-admin.prosus.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "analytics.prosus.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "data.prosus.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "hr.prosus.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "tracker.naspers.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "cfc.naspers.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "peopleview.naspers.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "nav.naspers.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/fireblocks-mbb-og2",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "github.com/fireblocks/mpc-lib",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/elementor",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://my.elementor.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://go.elementor.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://translate.elementor.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://developers.elementor.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://library.elementor.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://elementor.careers",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://activitylog.io/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://send2.co/",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
         "handle": "engagements/binance",
         "bounty": 1,
         "active": 1,
@@ -13890,64 +14038,6 @@
         }
     },
     {
-        "handle": "engagements/intercom",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "iOS SDK",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "https://api.intercom.io",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://app.intercom.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.intercomassets.com / *.intercomcdn.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://app.intercom.io",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Android SDK",
-                    "type": "android"
-                },
-                {
-                    "identifier": "https://www.intercom.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "mcp.intercom.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://api-iam.intercom.io",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://*.mobile-messenger.intercom.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "fin.ai",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://app.fin.ai/",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/opensea",
         "bounty": 1,
         "active": 1,
@@ -13988,96 +14078,6 @@
                 {
                     "identifier": "Broken Link",
                     "type": "website"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/cashapp",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Cash App Mobile Application for iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Cash App Mobile Application for Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "*.cash.app",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.cashstaging.app",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/prosus-og",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "dealflow.prosus.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "dealflowapi.prosus.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "analytics-admin.prosus.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "analytics.prosus.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "data.prosus.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "hr.prosus.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "tracker.naspers.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "cfc.naspers.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "peopleview.naspers.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "nav.naspers.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/fireblocks-mbb-og2",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "github.com/fireblocks/mpc-lib",
-                    "type": "other"
                 }
             ],
             "out_of_scope": []
@@ -15056,6 +15056,68 @@
         }
     },
     {
+        "handle": "engagements/pinterest",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "api.pinterest.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.pinterest.com Web Apps",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Pinterest iOS Mobile Application",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Pinterest Android Mobile Application",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Pinterest Lite Android Mobile Application",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Chrome extension (download at: chrome.google.com/webstore/detail/pinterest-save-button/gpdjojdkbbmdfjfahjcgigfpmkopogic?hl=en)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Edge extension (download at: https://microsoftedge.microsoft.com/addons/detail/pinterest-save-button/bkgoflemacdadndiohhdnphcmdhacabg)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Firefox extension (download at:   https://addons.mozilla.org/firefox/addon/pinterest/)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Safari extension (download at: https://apps.apple.com/us/app/save-to-pinterest/id6473649042)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Open source projects(non-forked) listed at github.com/pinterest/",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://www.shffls.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Shuffles App for Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Shuffles App for iOS",
+                    "type": "ios"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
         "handle": "engagements/lastpass",
         "bounty": 1,
         "active": 1,
@@ -15191,68 +15253,6 @@
                     "type": "website"
                 }
             ]
-        }
-    },
-    {
-        "handle": "engagements/pinterest",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "api.pinterest.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.pinterest.com Web Apps",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Pinterest iOS Mobile Application",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Pinterest Android Mobile Application",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Pinterest Lite Android Mobile Application",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Chrome extension (download at: chrome.google.com/webstore/detail/pinterest-save-button/gpdjojdkbbmdfjfahjcgigfpmkopogic?hl=en)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Edge extension (download at: https://microsoftedge.microsoft.com/addons/detail/pinterest-save-button/bkgoflemacdadndiohhdnphcmdhacabg)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Firefox extension (download at:   https://addons.mozilla.org/firefox/addon/pinterest/)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Safari extension (download at: https://apps.apple.com/us/app/save-to-pinterest/id6473649042)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Open source projects(non-forked) listed at github.com/pinterest/",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://www.shffls.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Shuffles App for Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Shuffles App for iOS",
-                    "type": "ios"
-                }
-            ],
-            "out_of_scope": []
         }
     },
     {
