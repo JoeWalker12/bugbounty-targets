@@ -5453,24 +5453,6 @@
         }
     },
     {
-        "handle": "engagements/felix-health-mbb-og",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "bugcrowd.charm.felixforus.ca",
-                    "type": "website"
-                },
-                {
-                    "identifier": "bugcrowd.lucky.felixforus.ca",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/plusgrade-mbb-public",
         "bounty": 1,
         "active": 0,
@@ -6622,6 +6604,132 @@
         }
     },
     {
+        "handle": "engagements/moneytreekkog",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Moneytree Web for Web",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Moneytree Universal Vault",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Moneytree Internal Redash",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://app-staging.getmoneytree.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Moneytree Web for Mobile",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Moneytree Web for Mobile (with Oauth)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Moneytree MyAccount",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Moneytree Business",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Moneytree API",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Moneytree Android Mobile Application (staging; see below)",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Moneytree iOS Mobile Application (production; see below)",
+                    "type": "ios"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "moneytree.jp",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Any production asset of Moneytree KK (excepting the iOS app)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "getmoneytree.com",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/tidal-bugbounty",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.tidal.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.wimpmusic.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.tidalhifi.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "api.tidal.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*tidalhi.fi",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.tdl.sh",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Tidal Client for iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Tidal Client for Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Tidal Desktop Client",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Tidal Official Clients (e.g. Sonos integration, Tesla integration, etc.)",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "developer.tidal.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "embed.tidal.com",
+                    "type": "other"
+                }
+            ]
+        }
+    },
+    {
         "handle": "engagements/kohls",
         "bounty": 1,
         "active": 1,
@@ -6765,129 +6873,21 @@
         }
     },
     {
-        "handle": "engagements/tidal-bugbounty",
+        "handle": "engagements/felix-health-mbb-og",
         "bounty": 1,
         "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "*.tidal.com",
+                    "identifier": "bugcrowd.charm.felixforus.ca",
                     "type": "website"
                 },
                 {
-                    "identifier": "*.wimpmusic.com",
+                    "identifier": "bugcrowd.lucky.felixforus.ca",
                     "type": "website"
-                },
-                {
-                    "identifier": "*.tidalhifi.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "api.tidal.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*tidalhi.fi",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.tdl.sh",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Tidal Client for iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Tidal Client for Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Tidal Desktop Client",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Tidal Official Clients (e.g. Sonos integration, Tesla integration, etc.)",
-                    "type": "other"
                 }
             ],
-            "out_of_scope": [
-                {
-                    "identifier": "developer.tidal.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "embed.tidal.com",
-                    "type": "other"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/moneytreekkog",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Moneytree Web for Web",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Moneytree Universal Vault",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Moneytree Internal Redash",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://app-staging.getmoneytree.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Moneytree Web for Mobile",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Moneytree Web for Mobile (with Oauth)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Moneytree MyAccount",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Moneytree Business",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Moneytree API",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Moneytree Android Mobile Application (staging; see below)",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Moneytree iOS Mobile Application (production; see below)",
-                    "type": "ios"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "moneytree.jp",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Any production asset of Moneytree KK (excepting the iOS app)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "getmoneytree.com",
-                    "type": "website"
-                }
-            ]
+            "out_of_scope": []
         }
     },
     {
@@ -11495,28 +11495,6 @@
         }
     },
     {
-        "handle": "engagements/smartchain-mbb-og",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Smartchain Blockchain",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Smartchain Block Explorer",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Smartchain Staging Block Explorer",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/prosus-og",
         "bounty": 1,
         "active": 1,
@@ -13410,125 +13388,6 @@
         }
     },
     {
-        "handle": "engagements/thefork-mbb-og",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": " manager.thefork.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "secure.thefork.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "payment.lafourchette.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "api.thefork.io",
-                    "type": "api"
-                },
-                {
-                    "identifier": "TheFork Manager iOS App",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "TheFork Manager Android App",
-                    "type": "android"
-                },
-                {
-                    "identifier": "widget.thefork.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "TheFork Manager Blog",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.thefork.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://m.thefork.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://api.thefork.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://blog.thefork.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "TheFork iOS App",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "TheFork Android App",
-                    "type": "android"
-                },
-                {
-                    "identifier": "*.tools.thefork.tech",
-                    "type": "website"
-                },
-                {
-                    "identifier": "www.restaurant-information.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "*.myfourchette.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "www.myfourchette.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "website.theforkmanager.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.lafourchette.rest ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "login.theforkmanager.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "developer.thefork.io",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://*.eltenedor.*",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.thefork.*",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Customer semi-login / PartialLogin feature",
-                    "type": "website"
-                },
-                {
-                    "identifier": "module.thefork.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.lafourchette.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/tesla",
         "bounty": 1,
         "active": 1,
@@ -14113,6 +13972,125 @@
         }
     },
     {
+        "handle": "engagements/thefork-mbb-og",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": " manager.thefork.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "secure.thefork.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "payment.lafourchette.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "api.thefork.io",
+                    "type": "api"
+                },
+                {
+                    "identifier": "TheFork Manager iOS App",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "TheFork Manager Android App",
+                    "type": "android"
+                },
+                {
+                    "identifier": "widget.thefork.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "TheFork Manager Blog",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.thefork.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://m.thefork.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://api.thefork.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://blog.thefork.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "TheFork iOS App",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "TheFork Android App",
+                    "type": "android"
+                },
+                {
+                    "identifier": "*.tools.thefork.tech",
+                    "type": "website"
+                },
+                {
+                    "identifier": "www.restaurant-information.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "*.myfourchette.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "www.myfourchette.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "website.theforkmanager.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.lafourchette.rest ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "login.theforkmanager.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "developer.thefork.io",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://*.eltenedor.*",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.thefork.*",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Customer semi-login / PartialLogin feature",
+                    "type": "website"
+                },
+                {
+                    "identifier": "module.thefork.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.lafourchette.com",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
         "handle": "engagements/soteri",
         "bounty": 1,
         "active": 1,
@@ -14136,6 +14114,28 @@
                 },
                 {
                     "identifier": "https://marketplace.atlassian.com/apps/1221399/security-for-bitbucket-enhanced-secret-scanner-by-soteri?hosting=datacenter&tab=overview",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/smartchain-mbb-og",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Smartchain Blockchain",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Smartchain Block Explorer",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Smartchain Staging Block Explorer",
                     "type": "website"
                 }
             ],
@@ -15143,6 +15143,52 @@
         }
     },
     {
+        "handle": "engagements/backblaze",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Backblaze Android mobile application",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Backblaze iOS mobile application",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Mac Personal Backup Clients",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Windows Personal Backup Clients",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Mac Restore Downloaders",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Windows Restore Downloaders",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Git Repositories (b2-sdk-java & B2 Command Line Tool)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "B2 APIs (*.backblazeb2.com)",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Backblaze Website (*.backblaze.com)",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
         "handle": "engagements/soundcloud",
         "bounty": 1,
         "active": 1,
@@ -15262,48 +15308,62 @@
         }
     },
     {
-        "handle": "engagements/backblaze",
+        "handle": "engagements/hutgroup-public",
         "bounty": 1,
         "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "Backblaze Android mobile application",
-                    "type": "android"
+                    "identifier": "https://*.cultbeauty.co.uk/",
+                    "type": "website"
                 },
                 {
-                    "identifier": "Backblaze iOS mobile application",
-                    "type": "ios"
+                    "identifier": "https://*.lookfantastic.com/",
+                    "type": "website"
                 },
                 {
-                    "identifier": "Mac Personal Backup Clients",
-                    "type": "other"
+                    "identifier": "https://*.myprotein.com/",
+                    "type": "website"
                 },
                 {
-                    "identifier": "Windows Personal Backup Clients",
-                    "type": "other"
+                    "identifier": "https://*.myvitamins.com/",
+                    "type": "website"
                 },
                 {
-                    "identifier": "Mac Restore Downloaders",
-                    "type": "other"
+                    "identifier": "https://*.arrowfilms.com",
+                    "type": "website"
                 },
                 {
-                    "identifier": "Windows Restore Downloaders",
-                    "type": "other"
+                    "identifier": "https://*.mankind.co.uk/",
+                    "type": "website"
                 },
                 {
-                    "identifier": "Git Repositories (b2-sdk-java & B2 Command Line Tool)",
-                    "type": "other"
+                    "identifier": "https://*.illamasqua.com/",
+                    "type": "website"
                 },
                 {
-                    "identifier": "B2 APIs (*.backblazeb2.com)",
-                    "type": "api"
+                    "identifier": "https://www.matalan.co.uk",
+                    "type": "website"
                 },
                 {
-                    "identifier": "Backblaze Website (*.backblaze.com)",
+                    "identifier": "https://*.enjoyselfish.com",
                     "type": "website"
                 }
             ],
+            "out_of_scope": [
+                {
+                    "identifier": "https://www.myprotein.com.tr/",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/personalcapital",
+        "bounty": 1,
+        "active": 0,
+        "assets": {
+            "in_scope": [],
             "out_of_scope": []
         }
     },
@@ -15457,302 +15517,6 @@
                 {
                     "identifier": "Shuffles App for iOS",
                     "type": "ios"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/hutgroup-public",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://*.cultbeauty.co.uk/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.lookfantastic.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.myprotein.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.myvitamins.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.arrowfilms.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.mankind.co.uk/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.illamasqua.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.matalan.co.uk",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.enjoyselfish.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "https://www.myprotein.com.tr/",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/personalcapital",
-        "bounty": 1,
-        "active": 0,
-        "assets": {
-            "in_scope": [],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/linktree-mbb-og",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.linktr.ee",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.linktree.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.tr.ee",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.linktree-extensions.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Linktree iOS app",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Linktree Android app",
-                    "type": "android"
-                },
-                {
-                    "identifier": "plannthat.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Plann iOS app",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Plann Android app",
-                    "type": "android"
-                },
-                {
-                    "identifier": "*.odesli.co",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.odesli.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.song.link",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.songlink.io",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.album.link",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.artist.link",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.pods.link",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.playlist.link",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.mylink.page",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "*.filestack.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.freshdesk.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.blstr.xyz",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.blstr.co",
-                    "type": "website"
-                },
-                {
-                    "identifier": "community.linktr.ee",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/lastpass",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://lastpass.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "LastPass browser extensions (Chrome / Safari / Edge / Firefox)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Local computer apps (UWP application / Windows installer (MSI) / MacOS)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://support.lastpass.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Workstation MFA (WMFA)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://blog.lastpass.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://admin.lastpass.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://auth.lastpass.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://accounts.lastpass.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.lastpass.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "LastPass Password Manager (Android)",
-                    "type": "android"
-                },
-                {
-                    "identifier": "LastPass Authenticator (Android)",
-                    "type": "android"
-                },
-                {
-                    "identifier": "LastPass Password Manager (iOS)",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "LastPass Authenticator (iOS)",
-                    "type": "ios"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "https://identity.lastpass.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Lastpass CLI tool",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://info.lastpass.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://forums.lastpass.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/sendbird-mbb",
-        "bounty": 1,
-        "active": 0,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://dashboard.sendbird.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://gate.sendbird.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://api-{app-id}.sendbird.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://ws-{app-id}.sendbird.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://desk-api-{region}.sendbird.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://ws-{app-id}.calls.sendbird.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://api-{app-id}.calls.sendbird.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://api-{app-id}.notifications.sendbird.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://sendbird.com/docs",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://sendbird.com",
-                    "type": "website"
                 }
             ],
             "out_of_scope": []
@@ -16131,6 +15895,242 @@
                     "type": "other"
                 }
             ]
+        }
+    },
+    {
+        "handle": "engagements/linktree-mbb-og",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.linktr.ee",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.linktree.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.tr.ee",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.linktree-extensions.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Linktree iOS app",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Linktree Android app",
+                    "type": "android"
+                },
+                {
+                    "identifier": "plannthat.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Plann iOS app",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Plann Android app",
+                    "type": "android"
+                },
+                {
+                    "identifier": "*.odesli.co",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.odesli.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.song.link",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.songlink.io",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.album.link",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.artist.link",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.pods.link",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.playlist.link",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.mylink.page",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "*.filestack.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.freshdesk.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.blstr.xyz",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.blstr.co",
+                    "type": "website"
+                },
+                {
+                    "identifier": "community.linktr.ee",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/lastpass",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://lastpass.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "LastPass browser extensions (Chrome / Safari / Edge / Firefox)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Local computer apps (UWP application / Windows installer (MSI) / MacOS)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://support.lastpass.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Workstation MFA (WMFA)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://blog.lastpass.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://admin.lastpass.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://auth.lastpass.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://accounts.lastpass.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.lastpass.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "LastPass Password Manager (Android)",
+                    "type": "android"
+                },
+                {
+                    "identifier": "LastPass Authenticator (Android)",
+                    "type": "android"
+                },
+                {
+                    "identifier": "LastPass Password Manager (iOS)",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "LastPass Authenticator (iOS)",
+                    "type": "ios"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "https://identity.lastpass.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Lastpass CLI tool",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://info.lastpass.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://forums.lastpass.com",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/sendbird-mbb",
+        "bounty": 1,
+        "active": 0,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://dashboard.sendbird.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://gate.sendbird.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://api-{app-id}.sendbird.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://ws-{app-id}.sendbird.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://desk-api-{region}.sendbird.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://ws-{app-id}.calls.sendbird.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://api-{app-id}.calls.sendbird.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://api-{app-id}.notifications.sendbird.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://sendbird.com/docs",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://sendbird.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
         }
     },
     {
