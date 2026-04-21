@@ -6154,42 +6154,37 @@
         }
     },
     {
-        "handle": "engagements/tamedia",
+        "handle": "engagements/colined",
         "bounty": 1,
-        "active": 0,
+        "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "https://www.tagesanzeiger.ch",
+                    "identifier": "Pivot Report - Cloud - https://marketplace.atlassian.com/apps/1215414/pivot-report?hosting=cloud&tab=overview",
                     "type": "website"
                 },
                 {
-                    "identifier": "API calls going to disco-api from https://www.tagesanzeiger.ch ",
-                    "type": "api"
+                    "identifier": "Worklogs Report - Cloud - https://marketplace.atlassian.com/apps/1216516/worklogs-report?hosting=cloud&tab=overview",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Worklogs Report - Data Center - https://marketplace.atlassian.com/apps/1216516/worklogs-report?hosting=datacenter&tab=overview",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Pivot Report - Server - https://marketplace.atlassian.com/apps/1215414/pivot-report?hosting=server&tab=overview",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Worklogs Report - Server - https://marketplace.atlassian.com/apps/1216516/worklogs-report?hosting=server&tab=overview",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Pivot Report - Data Center - https://marketplace.atlassian.com/apps/1215414/pivot-report?hosting=datacenter&tab=overview",
+                    "type": "website"
                 }
             ],
-            "out_of_scope": [
-                {
-                    "identifier": "https://abo.inscopedomain.ch",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://login.inscopedomain.ch/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://auth.inscopedomain.ch/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://tgt.inscopedomain.ch/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://shop.inscopedomain.ch/",
-                    "type": "website"
-                }
-            ]
+            "out_of_scope": []
         }
     },
     {
@@ -6260,40 +6255,6 @@
                 },
                 {
                     "identifier": "https://marketplace.atlassian.com/apps/1230689/easy-confluence-gadget-for-jira-dashboards?hosting=cloud",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/colined",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Pivot Report - Cloud - https://marketplace.atlassian.com/apps/1215414/pivot-report?hosting=cloud&tab=overview",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Worklogs Report - Cloud - https://marketplace.atlassian.com/apps/1216516/worklogs-report?hosting=cloud&tab=overview",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Worklogs Report - Data Center - https://marketplace.atlassian.com/apps/1216516/worklogs-report?hosting=datacenter&tab=overview",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Pivot Report - Server - https://marketplace.atlassian.com/apps/1215414/pivot-report?hosting=server&tab=overview",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Worklogs Report - Server - https://marketplace.atlassian.com/apps/1216516/worklogs-report?hosting=server&tab=overview",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Pivot Report - Data Center - https://marketplace.atlassian.com/apps/1215414/pivot-report?hosting=datacenter&tab=overview",
                     "type": "website"
                 }
             ],
@@ -6712,200 +6673,6 @@
         }
     },
     {
-        "handle": "engagements/aiven-mbb-og",
-        "bounty": 1,
-        "active": 0,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Aiven for Clickhouse",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Aiven for Metrics",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Aiven for Valkey",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Aiven for Apache Kafka",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Aiven for OpenSearch",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Aiven for Grafana",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Aiven for PostgreSQL",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Aiven for Caching",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Aiven for MySQL",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Aiven for Apache Flink",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Aiven for Dragonfly",
-                    "type": "other"
-                },
-                {
-                    "identifier": "regatta.aiven.io",
-                    "type": "website"
-                },
-                {
-                    "identifier": "aiven.io",
-                    "type": "website"
-                },
-                {
-                    "identifier": "console.aiven.io",
-                    "type": "website"
-                },
-                {
-                    "identifier": "api.aiven.io",
-                    "type": "api"
-                },
-                {
-                    "identifier": "github.com/Aiven-Open",
-                    "type": "other"
-                },
-                {
-                    "identifier": "github.com/Aiven",
-                    "type": "other"
-                },
-                {
-                    "identifier": "falcon-bug-bounty-flag-pgsql-dev-sandbox.aivencloud.com",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "aquarium.aiven.io\t",
-                    "type": "website"
-                },
-                {
-                    "identifier": "uptime.aiven.io\t",
-                    "type": "website"
-                },
-                {
-                    "identifier": "video.aiven.io\t",
-                    "type": "website"
-                },
-                {
-                    "identifier": "aiven.io/community",
-                    "type": "website"
-                },
-                {
-                    "identifier": "aiven.io/contact",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Customer services you did not create",
-                    "type": "other"
-                },
-                {
-                    "identifier": "*.aiven.fi",
-                    "type": "other"
-                },
-                {
-                    "identifier": "github.com/Aiven-Labs",
-                    "type": "other"
-                },
-                {
-                    "identifier": "*.avns.net",
-                    "type": "other"
-                },
-                {
-                    "identifier": "events.aiven.io",
-                    "type": "website"
-                },
-                {
-                    "identifier": "ideas.aiven.io",
-                    "type": "other"
-                },
-                {
-                    "identifier": "aivenhelp.zendesk.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "support.aiven.io",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Creation of support tickets",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/etsy",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "www.etsy.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Etsy Mobile Application (Android)",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Etsy Mobile Application (iPhone)",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Etsy API (see documentation below)",
-                    "type": "api"
-                },
-                {
-                    "identifier": "etsypayments.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "blog.etsy.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "careers.etsy.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "help.etsy.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "community.etsy.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.etsy.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "icht.etsysecure.com",
-                    "type": "api"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/clickhouse",
         "bounty": 1,
         "active": 1,
@@ -6942,56 +6709,6 @@
                     "type": "website"
                 }
             ]
-        }
-    },
-    {
-        "handle": "engagements/recorded-future-mbb-og",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "www.recordedfuture.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://tria.ge",
-                    "type": "website"
-                },
-                {
-                    "identifier": "id.recordedfuture.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "hatching.io",
-                    "type": "website"
-                },
-                {
-                    "identifier": "geminiadvisory.io",
-                    "type": "website"
-                },
-                {
-                    "identifier": "app.recordedfuture.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "api.recordedfuture.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Recorded Future iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Recorded Future Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "securitytrails.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
         }
     },
     {
@@ -7589,6 +7306,289 @@
                 {
                     "identifier": "webmail.usaa.com",
                     "type": "other"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/etsy",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "www.etsy.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Etsy Mobile Application (Android)",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Etsy Mobile Application (iPhone)",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Etsy API (see documentation below)",
+                    "type": "api"
+                },
+                {
+                    "identifier": "etsypayments.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "blog.etsy.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "careers.etsy.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "help.etsy.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "community.etsy.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.etsy.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "icht.etsysecure.com",
+                    "type": "api"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/aiven-mbb-og",
+        "bounty": 1,
+        "active": 0,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Aiven for Clickhouse",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Aiven for Metrics",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Aiven for Valkey",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Aiven for Apache Kafka",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Aiven for OpenSearch",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Aiven for Grafana",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Aiven for PostgreSQL",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Aiven for Caching",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Aiven for MySQL",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Aiven for Apache Flink",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Aiven for Dragonfly",
+                    "type": "other"
+                },
+                {
+                    "identifier": "regatta.aiven.io",
+                    "type": "website"
+                },
+                {
+                    "identifier": "aiven.io",
+                    "type": "website"
+                },
+                {
+                    "identifier": "console.aiven.io",
+                    "type": "website"
+                },
+                {
+                    "identifier": "api.aiven.io",
+                    "type": "api"
+                },
+                {
+                    "identifier": "github.com/Aiven-Open",
+                    "type": "other"
+                },
+                {
+                    "identifier": "github.com/Aiven",
+                    "type": "other"
+                },
+                {
+                    "identifier": "falcon-bug-bounty-flag-pgsql-dev-sandbox.aivencloud.com",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "aquarium.aiven.io\t",
+                    "type": "website"
+                },
+                {
+                    "identifier": "uptime.aiven.io\t",
+                    "type": "website"
+                },
+                {
+                    "identifier": "video.aiven.io\t",
+                    "type": "website"
+                },
+                {
+                    "identifier": "aiven.io/community",
+                    "type": "website"
+                },
+                {
+                    "identifier": "aiven.io/contact",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Customer services you did not create",
+                    "type": "other"
+                },
+                {
+                    "identifier": "*.aiven.fi",
+                    "type": "other"
+                },
+                {
+                    "identifier": "github.com/Aiven-Labs",
+                    "type": "other"
+                },
+                {
+                    "identifier": "*.avns.net",
+                    "type": "other"
+                },
+                {
+                    "identifier": "events.aiven.io",
+                    "type": "website"
+                },
+                {
+                    "identifier": "ideas.aiven.io",
+                    "type": "other"
+                },
+                {
+                    "identifier": "aivenhelp.zendesk.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "support.aiven.io",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Creation of support tickets",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/tamedia",
+        "bounty": 1,
+        "active": 0,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://www.tagesanzeiger.ch",
+                    "type": "website"
+                },
+                {
+                    "identifier": "API calls going to disco-api from https://www.tagesanzeiger.ch ",
+                    "type": "api"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "https://abo.inscopedomain.ch",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://login.inscopedomain.ch/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://auth.inscopedomain.ch/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://tgt.inscopedomain.ch/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://shop.inscopedomain.ch/",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/recorded-future-mbb-og",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "www.recordedfuture.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://tria.ge",
+                    "type": "website"
+                },
+                {
+                    "identifier": "id.recordedfuture.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "hatching.io",
+                    "type": "website"
+                },
+                {
+                    "identifier": "geminiadvisory.io",
+                    "type": "website"
+                },
+                {
+                    "identifier": "app.recordedfuture.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "api.recordedfuture.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Recorded Future iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Recorded Future Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "securitytrails.com",
+                    "type": "website"
                 }
             ],
             "out_of_scope": []
@@ -10180,36 +10180,6 @@
         }
     },
     {
-        "handle": "engagements/planethosterinc",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "my.planethoster.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "api.planethoster.net",
-                    "type": "api"
-                },
-                {
-                    "identifier": " world.planethoster.net",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://mg.n0c.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "www.planethoster.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/tyler-tech-data-insights",
         "bounty": 1,
         "active": 1,
@@ -11125,6 +11095,36 @@
                     "type": "website"
                 }
             ]
+        }
+    },
+    {
+        "handle": "engagements/planethosterinc",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "my.planethoster.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "api.planethoster.net",
+                    "type": "api"
+                },
+                {
+                    "identifier": " world.planethoster.net",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://mg.n0c.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "www.planethoster.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
         }
     },
     {
@@ -12649,73 +12649,6 @@
         }
     },
     {
-        "handle": "engagements/dell-com",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.dell.com/*",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.delltechnologies.com/* ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://console.delltechnologies.com/nav/administration",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://console.delltechnologies.com/nav/invoice",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://console.delltechnologies.com/nav/billing",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Any Verified Dell-Controlled Endpoint (domains/IP space/etc.)\t",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "https://console.delltechnologies.com/ ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://console.delltechnologies.com/nav/catalog",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://console.delltechnologies.com/nav/support",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://console.delltechnologies.com/nav/subscriptions",
-                    "type": "website"
-                },
-                {
-                    "identifier": "educate.dell.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "console.dell.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "console-test.dell.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "salesproductivity.dell.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/cloudinary",
         "bounty": 1,
         "active": 1,
@@ -14180,6 +14113,73 @@
         }
     },
     {
+        "handle": "engagements/dell-com",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.dell.com/*",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.delltechnologies.com/* ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://console.delltechnologies.com/nav/administration",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://console.delltechnologies.com/nav/invoice",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://console.delltechnologies.com/nav/billing",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Any Verified Dell-Controlled Endpoint (domains/IP space/etc.)\t",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "https://console.delltechnologies.com/ ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://console.delltechnologies.com/nav/catalog",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://console.delltechnologies.com/nav/support",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://console.delltechnologies.com/nav/subscriptions",
+                    "type": "website"
+                },
+                {
+                    "identifier": "educate.dell.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "console.dell.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "console-test.dell.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "salesproductivity.dell.com",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
         "handle": "engagements/braze-bb",
         "bounty": 1,
         "active": 0,
@@ -15207,68 +15207,6 @@
         }
     },
     {
-        "handle": "engagements/pinterest",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "api.pinterest.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.pinterest.com Web Apps",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Pinterest iOS Mobile Application",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Pinterest Android Mobile Application",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Pinterest Lite Android Mobile Application",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Chrome extension (download at: chrome.google.com/webstore/detail/pinterest-save-button/gpdjojdkbbmdfjfahjcgigfpmkopogic?hl=en)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Edge extension (download at: https://microsoftedge.microsoft.com/addons/detail/pinterest-save-button/bkgoflemacdadndiohhdnphcmdhacabg)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Firefox extension (download at:   https://addons.mozilla.org/firefox/addon/pinterest/)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Safari extension (download at: https://apps.apple.com/us/app/save-to-pinterest/id6473649042)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Open source projects(non-forked) listed at github.com/pinterest/",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://www.shffls.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Shuffles App for Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Shuffles App for iOS",
-                    "type": "ios"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/linktree-mbb-og",
         "bounty": 1,
         "active": 1,
@@ -16158,6 +16096,68 @@
                     "type": "website"
                 }
             ]
+        }
+    },
+    {
+        "handle": "engagements/pinterest",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "api.pinterest.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.pinterest.com Web Apps",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Pinterest iOS Mobile Application",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Pinterest Android Mobile Application",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Pinterest Lite Android Mobile Application",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Chrome extension (download at: chrome.google.com/webstore/detail/pinterest-save-button/gpdjojdkbbmdfjfahjcgigfpmkopogic?hl=en)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Edge extension (download at: https://microsoftedge.microsoft.com/addons/detail/pinterest-save-button/bkgoflemacdadndiohhdnphcmdhacabg)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Firefox extension (download at:   https://addons.mozilla.org/firefox/addon/pinterest/)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Safari extension (download at: https://apps.apple.com/us/app/save-to-pinterest/id6473649042)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Open source projects(non-forked) listed at github.com/pinterest/",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://www.shffls.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Shuffles App for Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Shuffles App for iOS",
+                    "type": "ios"
+                }
+            ],
+            "out_of_scope": []
         }
     },
     {
