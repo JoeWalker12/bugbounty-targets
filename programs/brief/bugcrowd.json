@@ -8323,6 +8323,684 @@
         }
     },
     {
+        "handle": "engagements/imperva-mbb",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://*.imperva.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.cloudvector.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.incapsula.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://supportportal.thalesgroup.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "PTaaS Reference",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "http://docs.imperva.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "http://docs-be.imperva.com/",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/tidal-bugbounty",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.tidal.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.wimpmusic.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.tidalhifi.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "api.tidal.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*tidalhi.fi",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.tdl.sh",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Tidal Client for iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Tidal Client for Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Tidal Desktop Client",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Tidal Official Clients (e.g. Sonos integration, Tesla integration, etc.)",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "developer.tidal.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "embed.tidal.com",
+                    "type": "other"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/seek",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.seek.com.au",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://seekcdn.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "SEEK mobile app for iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "SEEK mobile app for Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "*.skinfra.xyz",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.outfra.xyz",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.sol-data.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.jobapi.net",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.seekpass.co",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.seekpass-staging.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.aips-internal.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.certsy.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.certsynonprod.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "SEEK Pass Mobile App for iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "SEEK Pass Mobile App for Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "graphql.seek.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "auth.seek.com",
+                    "type": "api"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/upwork",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "www.upwork.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Upwork - Android Application",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Upwork - iOS Application",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Upwork Dash Messenger Desktop Version (www.upwork.com/downloads)",
+                    "type": "hardware"
+                },
+                {
+                    "identifier": "www.upwork.com/api ",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Direct Contracts",
+                    "type": "website"
+                },
+                {
+                    "identifier": "api.upwork.com/graphql",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Upwork - Marketplace Portal",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Upwork - Messages",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Upwork - Mobile Application IOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Upwork - Mobile Application Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Upwork - api.upwork.com/graphql",
+                    "type": "api"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "Social media hijacking",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Any subdomain/domain/property not listed in the 'in scope' section, is out of scope. ",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Any Third-party Services",
+                    "type": "other"
+                },
+                {
+                    "identifier": "support.upwork.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "community.stage.upwork.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "community.upwork.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "stage.upwork.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "e.upwork.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "status.upwork.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "signature.upwork.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "careers.upwork.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "tip.upwork.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "tip.upwork.com ",
+                    "type": "other"
+                },
+                {
+                    "identifier": "pardot.upwork.com",
+                    "type": "other"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/comcast-mbb",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.xfinity.com\t",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.comcast.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.xcal.tv",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Staging, QA, Dev, and Test Environments",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "*.hfc.comcastbusiness.net",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.hsd1.*.comcast.net",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*business.comcast.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "10.0.0.0/8",
+                    "type": "network"
+                },
+                {
+                    "identifier": "50.128.0.0/12",
+                    "type": "network"
+                },
+                {
+                    "identifier": "50.152.0.0/13",
+                    "type": "network"
+                },
+                {
+                    "identifier": "96.201.0.0/16",
+                    "type": "network"
+                },
+                {
+                    "identifier": "96.202.128.0/17",
+                    "type": "network"
+                },
+                {
+                    "identifier": "96.203.0.0/16",
+                    "type": "network"
+                },
+                {
+                    "identifier": "172.26.128.0/18",
+                    "type": "network"
+                },
+                {
+                    "identifier": "184.112.0.0/13",
+                    "type": "network"
+                },
+                {
+                    "identifier": "184.122.0.0/15",
+                    "type": "network"
+                },
+                {
+                    "identifier": "NBC Universal",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Sky",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.sys.comcast.net",
+                    "type": "website"
+                },
+                {
+                    "identifier": "admin.selectwifi.xfinity.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "harvard.xfinity.com",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/felix-health-mbb-og",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "bugcrowd.charm.felixforus.ca",
+                    "type": "website"
+                },
+                {
+                    "identifier": "bugcrowd.lucky.felixforus.ca",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/latitude-financial-service-bugbounty",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://api.test.latitudefinancial.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://master.servicecentre.digitalservicing-np.lfscnp.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://master.servicecentre-nz.digitalservicing-np.lfscnp.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.28degreescard.com.au",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.buyersedge.com.au",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.carecredit.com.au",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.gemcreditline.co.nz",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.gemfinance.co.nz",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.gemvisa.com.au",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.genoapay.co.nz",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.genoapay.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.gomastercard.com.au",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.interestfree.com.au",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.latitudefinancial.co.nz",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.latitudefinancial.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.latitudefinancial.com.au",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.latitudeinfinity.com.au",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.latitudepay.com.au",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.latitudepay.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.umiloans.com.au",
+                    "type": "website"
+                },
+                {
+                    "identifier": "images.latitudepayapps.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "app.latitudepayapps.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": " *.test.*.lfscnp.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.dev.*.lfscnp.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.sandbox.*.lfscnp.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.-np.*.lfscnp.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "https://investors.latitudefinancial.com.au",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://auth.latitudefinancial.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://auth.*.latitudefinancial.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "*.latitudefs.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://*.my.latitudepay.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.sg.latitudepay.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://my.latitudepay.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://sg.latitudepay.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://t.latitudefinancial.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://p.latitudefinancial.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Payment APIs",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/bullish",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://bullish.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://investor.bullish.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "*.bullish.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://simnext.bullish-test.com",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/wyze",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://auth.wyze.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://my.wyze.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://api.wyzecam.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Wyze Cam V3",
+                    "type": "hardware"
+                },
+                {
+                    "identifier": "Wyze Cam v4",
+                    "type": "hardware"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/entain-public-mbb-og",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Partypoker Website (and all its subdomains)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Ladbrokes Digital  (and all its subdomains)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Coral Sports  (and all its subdomains)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Gala Bingo (and all its subdomains)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Partycasino Website (and all its subdomains)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Bwin Website (and all its subdomains)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Partycasino APK",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Bwin Poker-Casino iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Bwin Sports iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Partycasino iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Partypoker iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Gala Casino Website (and all its subdomains)",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
         "handle": "engagements/opera",
         "bounty": 1,
         "active": 1,
@@ -8734,392 +9412,6 @@
         }
     },
     {
-        "handle": "engagements/imperva-mbb",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://*.imperva.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.cloudvector.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.incapsula.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://supportportal.thalesgroup.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "PTaaS Reference",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "http://docs.imperva.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "http://docs-be.imperva.com/",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/tidal-bugbounty",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.tidal.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.wimpmusic.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.tidalhifi.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "api.tidal.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*tidalhi.fi",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.tdl.sh",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Tidal Client for iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Tidal Client for Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Tidal Desktop Client",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Tidal Official Clients (e.g. Sonos integration, Tesla integration, etc.)",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "developer.tidal.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "embed.tidal.com",
-                    "type": "other"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/seek",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.seek.com.au",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://seekcdn.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "SEEK mobile app for iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "SEEK mobile app for Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "*.skinfra.xyz",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.outfra.xyz",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.sol-data.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.jobapi.net",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.seekpass.co",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.seekpass-staging.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.aips-internal.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.certsy.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.certsynonprod.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "SEEK Pass Mobile App for iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "SEEK Pass Mobile App for Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "graphql.seek.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "auth.seek.com",
-                    "type": "api"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/upwork",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "www.upwork.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Upwork - Android Application",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Upwork - iOS Application",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Upwork Dash Messenger Desktop Version (www.upwork.com/downloads)",
-                    "type": "hardware"
-                },
-                {
-                    "identifier": "www.upwork.com/api ",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Direct Contracts",
-                    "type": "website"
-                },
-                {
-                    "identifier": "api.upwork.com/graphql",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Upwork - Marketplace Portal",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Upwork - Messages",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Upwork - Mobile Application IOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Upwork - Mobile Application Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Upwork - api.upwork.com/graphql",
-                    "type": "api"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "Social media hijacking",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Any subdomain/domain/property not listed in the 'in scope' section, is out of scope. ",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Any Third-party Services",
-                    "type": "other"
-                },
-                {
-                    "identifier": "support.upwork.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "community.stage.upwork.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "community.upwork.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "stage.upwork.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "e.upwork.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "status.upwork.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "signature.upwork.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "careers.upwork.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "tip.upwork.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "tip.upwork.com ",
-                    "type": "other"
-                },
-                {
-                    "identifier": "pardot.upwork.com",
-                    "type": "other"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/comcast-mbb",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.xfinity.com\t",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.comcast.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.xcal.tv",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Staging, QA, Dev, and Test Environments",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "*.hfc.comcastbusiness.net",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.hsd1.*.comcast.net",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*business.comcast.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "10.0.0.0/8",
-                    "type": "network"
-                },
-                {
-                    "identifier": "50.128.0.0/12",
-                    "type": "network"
-                },
-                {
-                    "identifier": "50.152.0.0/13",
-                    "type": "network"
-                },
-                {
-                    "identifier": "96.201.0.0/16",
-                    "type": "network"
-                },
-                {
-                    "identifier": "96.202.128.0/17",
-                    "type": "network"
-                },
-                {
-                    "identifier": "96.203.0.0/16",
-                    "type": "network"
-                },
-                {
-                    "identifier": "172.26.128.0/18",
-                    "type": "network"
-                },
-                {
-                    "identifier": "184.112.0.0/13",
-                    "type": "network"
-                },
-                {
-                    "identifier": "184.122.0.0/15",
-                    "type": "network"
-                },
-                {
-                    "identifier": "NBC Universal",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Sky",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.sys.comcast.net",
-                    "type": "website"
-                },
-                {
-                    "identifier": "admin.selectwifi.xfinity.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "harvard.xfinity.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/blockopensource",
         "bounty": 1,
         "active": 1,
@@ -9160,298 +9452,6 @@
                 {
                     "identifier": "https://github.com/square/wire",
                     "type": "other"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/felix-health-mbb-og",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "bugcrowd.charm.felixforus.ca",
-                    "type": "website"
-                },
-                {
-                    "identifier": "bugcrowd.lucky.felixforus.ca",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/latitude-financial-service-bugbounty",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://api.test.latitudefinancial.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://master.servicecentre.digitalservicing-np.lfscnp.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://master.servicecentre-nz.digitalservicing-np.lfscnp.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.28degreescard.com.au",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.buyersedge.com.au",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.carecredit.com.au",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.gemcreditline.co.nz",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.gemfinance.co.nz",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.gemvisa.com.au",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.genoapay.co.nz",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.genoapay.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.gomastercard.com.au",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.interestfree.com.au",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.latitudefinancial.co.nz",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.latitudefinancial.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.latitudefinancial.com.au",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.latitudeinfinity.com.au",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.latitudepay.com.au",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.latitudepay.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.umiloans.com.au",
-                    "type": "website"
-                },
-                {
-                    "identifier": "images.latitudepayapps.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "app.latitudepayapps.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": " *.test.*.lfscnp.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.dev.*.lfscnp.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.sandbox.*.lfscnp.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.-np.*.lfscnp.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "https://investors.latitudefinancial.com.au",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://auth.latitudefinancial.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://auth.*.latitudefinancial.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "*.latitudefs.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://*.my.latitudepay.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.sg.latitudepay.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://my.latitudepay.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://sg.latitudepay.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://t.latitudefinancial.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://p.latitudefinancial.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Payment APIs",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/bullish",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://bullish.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://investor.bullish.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "*.bullish.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://simnext.bullish-test.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/wyze",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://auth.wyze.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://my.wyze.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://api.wyzecam.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Wyze Cam V3",
-                    "type": "hardware"
-                },
-                {
-                    "identifier": "Wyze Cam v4",
-                    "type": "hardware"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/entain-public-mbb-og",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Partypoker Website (and all its subdomains)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Ladbrokes Digital  (and all its subdomains)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Coral Sports  (and all its subdomains)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Gala Bingo (and all its subdomains)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Partycasino Website (and all its subdomains)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Bwin Website (and all its subdomains)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Partycasino APK",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Bwin Poker-Casino iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Bwin Sports iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Partycasino iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Partypoker iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Gala Casino Website (and all its subdomains)",
-                    "type": "website"
                 }
             ],
             "out_of_scope": []
@@ -13598,137 +13598,6 @@
         }
     },
     {
-        "handle": "engagements/binance",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "api.coinmarketcap.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "pro-api.coinmarketcap.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.binance.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Binance Desktop Application",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Binance Mobile Application for Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Binance Mobile Application for iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "api.binance.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Binance macOS Application",
-                    "type": "other"
-                },
-                {
-                    "identifier": "pro.coinmarketcap.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "CoinMarketCap Android app",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Trustwallet Android App",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Trustwallet iOS App",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "https://github.com/trustwallet/wallet-core/",
-                    "type": "other"
-                },
-                {
-                    "identifier": "CoinMarketCap iOS app",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "portal-api.coinmarketcap.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "coinmarketcap.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "3rdparty-apis.coinmarketcap.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.binance.us",
-                    "type": "website"
-                },
-                {
-                    "identifier": "binance.tr",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Trustwallet Chrome Extension",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "jobs.coinmarketcap.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "support.binance.*",
-                    "type": "website"
-                },
-                {
-                    "identifier": "binance.sg",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.trustwallet.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.trustwalletapp.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.binance.org",
-                    "type": "website"
-                },
-                {
-                    "identifier": "blog.coinmarketcap.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "support.coinmarketcap.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "blockchain.coinmarketcap.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.coinmarketcap.com",
-                    "type": "other"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/intercom",
         "bounty": 1,
         "active": 1,
@@ -14048,67 +13917,6 @@
         }
     },
     {
-        "handle": "engagements/fireblocks-mbb-og2",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "github.com/fireblocks/mpc-lib",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/CCData-mbb-og",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "CoinDesk Data - Data API",
-                    "type": "api"
-                },
-                {
-                    "identifier": "CoinDesk Data - Tools API",
-                    "type": "api"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "coindesk.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "uat.coindesk.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Production CoinDesk Events",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Consensus2025 Site",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Consensus HK Site",
-                    "type": "website"
-                },
-                {
-                    "identifier": "data.coindesk.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "developers.coindesk.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/tesla",
         "bounty": 1,
         "active": 1,
@@ -14220,6 +14028,137 @@
         }
     },
     {
+        "handle": "engagements/binance",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "api.coinmarketcap.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "pro-api.coinmarketcap.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.binance.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Binance Desktop Application",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Binance Mobile Application for Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Binance Mobile Application for iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "api.binance.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Binance macOS Application",
+                    "type": "other"
+                },
+                {
+                    "identifier": "pro.coinmarketcap.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "CoinMarketCap Android app",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Trustwallet Android App",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Trustwallet iOS App",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "https://github.com/trustwallet/wallet-core/",
+                    "type": "other"
+                },
+                {
+                    "identifier": "CoinMarketCap iOS app",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "portal-api.coinmarketcap.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "coinmarketcap.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "3rdparty-apis.coinmarketcap.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.binance.us",
+                    "type": "website"
+                },
+                {
+                    "identifier": "binance.tr",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Trustwallet Chrome Extension",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "jobs.coinmarketcap.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "support.binance.*",
+                    "type": "website"
+                },
+                {
+                    "identifier": "binance.sg",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.trustwallet.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.trustwalletapp.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.binance.org",
+                    "type": "website"
+                },
+                {
+                    "identifier": "blog.coinmarketcap.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "support.coinmarketcap.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "blockchain.coinmarketcap.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.coinmarketcap.com",
+                    "type": "other"
+                }
+            ]
+        }
+    },
+    {
         "handle": "engagements/jora",
         "bounty": 1,
         "active": 1,
@@ -14245,6 +14184,67 @@
             "out_of_scope": [
                 {
                     "identifier": "*.joralocal.com.au\t",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/fireblocks-mbb-og2",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "github.com/fireblocks/mpc-lib",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/CCData-mbb-og",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "CoinDesk Data - Data API",
+                    "type": "api"
+                },
+                {
+                    "identifier": "CoinDesk Data - Tools API",
+                    "type": "api"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "coindesk.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "uat.coindesk.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Production CoinDesk Events",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Consensus2025 Site",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Consensus HK Site",
+                    "type": "website"
+                },
+                {
+                    "identifier": "data.coindesk.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "developers.coindesk.com",
                     "type": "website"
                 }
             ]
@@ -16020,68 +16020,6 @@
         }
     },
     {
-        "handle": "engagements/pinterest",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "api.pinterest.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.pinterest.com Web Apps",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Pinterest iOS Mobile Application",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Pinterest Android Mobile Application",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Pinterest Lite Android Mobile Application",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Chrome extension (download at: chrome.google.com/webstore/detail/pinterest-save-button/gpdjojdkbbmdfjfahjcgigfpmkopogic?hl=en)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Edge extension (download at: https://microsoftedge.microsoft.com/addons/detail/pinterest-save-button/bkgoflemacdadndiohhdnphcmdhacabg)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Firefox extension (download at:   https://addons.mozilla.org/firefox/addon/pinterest/)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Safari extension (download at: https://apps.apple.com/us/app/save-to-pinterest/id6473649042)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Open source projects(non-forked) listed at github.com/pinterest/",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://www.shffls.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Shuffles App for Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Shuffles App for iOS",
-                    "type": "ios"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/sendbird-mbb",
         "bounty": 1,
         "active": 0,
@@ -16203,6 +16141,68 @@
                     "type": "website"
                 }
             ]
+        }
+    },
+    {
+        "handle": "engagements/pinterest",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "api.pinterest.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.pinterest.com Web Apps",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Pinterest iOS Mobile Application",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Pinterest Android Mobile Application",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Pinterest Lite Android Mobile Application",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Chrome extension (download at: chrome.google.com/webstore/detail/pinterest-save-button/gpdjojdkbbmdfjfahjcgigfpmkopogic?hl=en)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Edge extension (download at: https://microsoftedge.microsoft.com/addons/detail/pinterest-save-button/bkgoflemacdadndiohhdnphcmdhacabg)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Firefox extension (download at:   https://addons.mozilla.org/firefox/addon/pinterest/)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Safari extension (download at: https://apps.apple.com/us/app/save-to-pinterest/id6473649042)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Open source projects(non-forked) listed at github.com/pinterest/",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://www.shffls.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Shuffles App for Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Shuffles App for iOS",
+                    "type": "ios"
+                }
+            ],
+            "out_of_scope": []
         }
     },
     {
