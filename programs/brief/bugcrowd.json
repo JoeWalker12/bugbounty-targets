@@ -6406,73 +6406,290 @@
         }
     },
     {
-        "handle": "engagements/openai",
+        "handle": "engagements/quizlet",
         "bounty": 1,
         "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "api.openai.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "ChatGPT",
+                    "identifier": "https://*.quizlet.com",
                     "type": "website"
                 },
                 {
-                    "identifier": "ChatGPT Plugins",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Third Party Targets",
-                    "type": "website"
-                },
-                {
-                    "identifier": "OpenAI API Keys",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://openai.org",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.openai.org",
-                    "type": "api"
-                },
-                {
-                    "identifier": "openai.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.openai.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Developer Platform Playground",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Other",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Sora App",
+                    "identifier": "Quizlet iOS App",
                     "type": "ios"
                 },
                 {
-                    "identifier": "Sora",
+                    "identifier": "Quizlet Android App",
+                    "type": "android"
+                },
+                {
+                    "identifier": "3.0 API",
+                    "type": "api"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "api.quizlet.com/2.0",
+                    "type": "api"
+                },
+                {
+                    "identifier": " help.quizlet.com (zendesk)",
                     "type": "website"
                 },
                 {
-                    "identifier": "Atlas",
+                    "identifier": "get.quizlet.com",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/simplisafe",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "bb1.simplisafe.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "bb2.simplisafe.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "cb.simplisafe.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "api.simplisafe.com (HSP Endpoints)",
+                    "type": "api"
+                },
+                {
+                    "identifier": "api.services.simplisafe.com (HSP Endpoints)",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.prd.cam.simplisafe.com (HSP Endpoints)",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.prd.platform.simplisafe.com (HSP Endpoints)",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.prd.services.simplisafe.com (HSP Endpoints)",
+                    "type": "api"
+                },
+                {
+                    "identifier": "SimpliSafe Customer Webapp - US",
+                    "type": "website"
+                },
+                {
+                    "identifier": "SimpliSafe Customer Webapp - UK",
+                    "type": "website"
+                },
+                {
+                    "identifier": "SimpliSafe Customer iOS App",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "SimpliSafe Customer Android App",
+                    "type": "android"
+                },
+                {
+                    "identifier": "mfa.simplisafe.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.prd.aser.simplisafe.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.prd.webapps.simplisafe.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "api.simplisafe.com (App Endpoints)",
+                    "type": "api"
+                },
+                {
+                    "identifier": "api.services.simplisafe.com (App Endpoints)",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.prd.services.simplisafe.com (App Endpoints)",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.prd.platform.simplisafe.com (App Endpoints)",
+                    "type": "api"
+                },
+                {
+                    "identifier": "media.simplisafe.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.prd.cam.simplisafe.com (App Endpoints)",
+                    "type": "api"
+                },
+                {
+                    "identifier": "SimpliSafe Website - US",
+                    "type": "website"
+                },
+                {
+                    "identifier": "SimpliSafe Website - UK",
+                    "type": "website"
+                },
+                {
+                    "identifier": "api.prd.commerce.simplisafe.com",
+                    "type": "api"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "auth.simplisafe.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "careers.simplisafe.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "clicks.simplisafe.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "library.simplisafe.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "livechat.simplisafe.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "press.simplisafe.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "support.simplisafe.com",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/pinterest",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "api.pinterest.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.pinterest.com Web Apps",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Pinterest iOS Mobile Application",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Pinterest Android Mobile Application",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Pinterest Lite Android Mobile Application",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Chrome extension (download at: chrome.google.com/webstore/detail/pinterest-save-button/gpdjojdkbbmdfjfahjcgigfpmkopogic?hl=en)",
                     "type": "other"
                 },
                 {
-                    "identifier": "Codex",
+                    "identifier": "Edge extension (download at: https://microsoftedge.microsoft.com/addons/detail/pinterest-save-button/bkgoflemacdadndiohhdnphcmdhacabg)",
                     "type": "other"
+                },
+                {
+                    "identifier": "Firefox extension (download at:   https://addons.mozilla.org/firefox/addon/pinterest/)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Safari extension (download at: https://apps.apple.com/us/app/save-to-pinterest/id6473649042)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Open source projects(non-forked) listed at github.com/pinterest/",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://www.shffls.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Shuffles App for Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Shuffles App for iOS",
+                    "type": "ios"
                 }
             ],
             "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/hutgroup-public",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://*.cultbeauty.co.uk/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.lookfantastic.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.myprotein.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.myvitamins.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.arrowfilms.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.mankind.co.uk/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.illamasqua.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.matalan.co.uk",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.enjoyselfish.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "https://www.myprotein.com.tr/",
+                    "type": "website"
+                }
+            ]
         }
     },
     {
@@ -6851,290 +7068,73 @@
         }
     },
     {
-        "handle": "engagements/quizlet",
+        "handle": "engagements/openai",
         "bounty": 1,
         "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "https://*.quizlet.com",
+                    "identifier": "api.openai.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "ChatGPT",
                     "type": "website"
                 },
                 {
-                    "identifier": "Quizlet iOS App",
+                    "identifier": "ChatGPT Plugins",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Third Party Targets",
+                    "type": "website"
+                },
+                {
+                    "identifier": "OpenAI API Keys",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://openai.org",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.openai.org",
+                    "type": "api"
+                },
+                {
+                    "identifier": "openai.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.openai.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Developer Platform Playground",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Other",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Sora App",
                     "type": "ios"
                 },
                 {
-                    "identifier": "Quizlet Android App",
-                    "type": "android"
-                },
-                {
-                    "identifier": "3.0 API",
-                    "type": "api"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "api.quizlet.com/2.0",
-                    "type": "api"
-                },
-                {
-                    "identifier": " help.quizlet.com (zendesk)",
+                    "identifier": "Sora",
                     "type": "website"
                 },
                 {
-                    "identifier": "get.quizlet.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/simplisafe",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "bb1.simplisafe.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "bb2.simplisafe.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "cb.simplisafe.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "api.simplisafe.com (HSP Endpoints)",
-                    "type": "api"
-                },
-                {
-                    "identifier": "api.services.simplisafe.com (HSP Endpoints)",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.prd.cam.simplisafe.com (HSP Endpoints)",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.prd.platform.simplisafe.com (HSP Endpoints)",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.prd.services.simplisafe.com (HSP Endpoints)",
-                    "type": "api"
-                },
-                {
-                    "identifier": "SimpliSafe Customer Webapp - US",
-                    "type": "website"
-                },
-                {
-                    "identifier": "SimpliSafe Customer Webapp - UK",
-                    "type": "website"
-                },
-                {
-                    "identifier": "SimpliSafe Customer iOS App",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "SimpliSafe Customer Android App",
-                    "type": "android"
-                },
-                {
-                    "identifier": "mfa.simplisafe.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.prd.aser.simplisafe.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.prd.webapps.simplisafe.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "api.simplisafe.com (App Endpoints)",
-                    "type": "api"
-                },
-                {
-                    "identifier": "api.services.simplisafe.com (App Endpoints)",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.prd.services.simplisafe.com (App Endpoints)",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.prd.platform.simplisafe.com (App Endpoints)",
-                    "type": "api"
-                },
-                {
-                    "identifier": "media.simplisafe.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.prd.cam.simplisafe.com (App Endpoints)",
-                    "type": "api"
-                },
-                {
-                    "identifier": "SimpliSafe Website - US",
-                    "type": "website"
-                },
-                {
-                    "identifier": "SimpliSafe Website - UK",
-                    "type": "website"
-                },
-                {
-                    "identifier": "api.prd.commerce.simplisafe.com",
-                    "type": "api"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "auth.simplisafe.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "careers.simplisafe.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "clicks.simplisafe.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "library.simplisafe.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "livechat.simplisafe.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "press.simplisafe.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "support.simplisafe.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/pinterest",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "api.pinterest.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.pinterest.com Web Apps",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Pinterest iOS Mobile Application",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Pinterest Android Mobile Application",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Pinterest Lite Android Mobile Application",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Chrome extension (download at: chrome.google.com/webstore/detail/pinterest-save-button/gpdjojdkbbmdfjfahjcgigfpmkopogic?hl=en)",
+                    "identifier": "Atlas",
                     "type": "other"
                 },
                 {
-                    "identifier": "Edge extension (download at: https://microsoftedge.microsoft.com/addons/detail/pinterest-save-button/bkgoflemacdadndiohhdnphcmdhacabg)",
+                    "identifier": "Codex",
                     "type": "other"
-                },
-                {
-                    "identifier": "Firefox extension (download at:   https://addons.mozilla.org/firefox/addon/pinterest/)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Safari extension (download at: https://apps.apple.com/us/app/save-to-pinterest/id6473649042)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Open source projects(non-forked) listed at github.com/pinterest/",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://www.shffls.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Shuffles App for Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Shuffles App for iOS",
-                    "type": "ios"
                 }
             ],
             "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/hutgroup-public",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://*.cultbeauty.co.uk/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.lookfantastic.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.myprotein.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.myvitamins.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.arrowfilms.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.mankind.co.uk/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.illamasqua.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.matalan.co.uk",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.enjoyselfish.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "https://www.myprotein.com.tr/",
-                    "type": "website"
-                }
-            ]
         }
     },
     {
@@ -8113,46 +8113,6 @@
                     "type": "website"
                 }
             ]
-        }
-    },
-    {
-        "handle": "engagements/smartchain-mbb-og",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Smartchain Blockchain",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Smartchain Block Explorer",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Smartchain Staging Block Explorer",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/legacy-blockchain-mbb-og",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Legacy Blockchain ",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Legacy Block Explorer",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
         }
     },
     {
@@ -10190,6 +10150,46 @@
         }
     },
     {
+        "handle": "engagements/smartchain-mbb-og",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Smartchain Blockchain",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Smartchain Block Explorer",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Smartchain Staging Block Explorer",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/legacy-blockchain-mbb-og",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Legacy Blockchain ",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Legacy Block Explorer",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
         "handle": "engagements/lululemon",
         "bounty": 1,
         "active": 0,
@@ -11803,53 +11803,6 @@
         }
     },
     {
-        "handle": "engagements/acorns",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.acorns.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Acorns for iOS",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://graphql.acorns.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Acorns for Android",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://www.gohenry.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.pixpay.fr/",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "share.acorns.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "grow.acorns.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "store.acorns.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/canva",
         "bounty": 1,
         "active": 1,
@@ -11959,6 +11912,53 @@
             "out_of_scope": [
                 {
                     "identifier": "erwin.volkswagen.de",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/acorns",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.acorns.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Acorns for iOS",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://graphql.acorns.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Acorns for Android",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://www.gohenry.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.pixpay.fr/",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "share.acorns.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "grow.acorns.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "store.acorns.com",
                     "type": "website"
                 }
             ]
@@ -13175,61 +13175,6 @@
         }
     },
     {
-        "handle": "engagements/etsy",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "www.etsy.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Etsy Mobile Application (Android)",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Etsy Mobile Application (iPhone)",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Etsy API (see documentation below)",
-                    "type": "api"
-                },
-                {
-                    "identifier": "etsypayments.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "blog.etsy.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "careers.etsy.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "help.etsy.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "community.etsy.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.etsy.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "icht.etsysecure.com",
-                    "type": "api"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/opsgenie",
         "bounty": 1,
         "active": 1,
@@ -13395,380 +13340,6 @@
                 {
                     "identifier": "github.com/transferwise/pipelinewise",
                     "type": "other"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/atlassian",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Atlassian Guard Standard and Premium (https://admin.atlassian.com/atlassian-guard)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Atlassian Admin (https://admin.atlassian.com/)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Atlassian Identity (https://id.atlassian.com/login)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Atlassian Start (https://start.atlassian.com)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Bitbucket Cloud including Bitbucket Pipelines (https://bitbucket.org)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Confluence Cloud (bugbounty-test-<bugcrowd-name>.atlassian.net/wiki)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Confluence Cloud Premium (bugbounty-test-<bugcrowd-name>.atlassian.net/wiki)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Confluence Cloud Mobile App for Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Confluence Cloud Mobile App for iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Jira Cloud Mobile App for Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Jira Cloud Mobile App for iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Jira Service Management Cloud (bugbounty-test-<bugcrowd-name>.atlassian.net)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Jira Software Cloud (bugbounty-test-<bugcrowd-name>.atlassian.net)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Jira Work Management Cloud formerly Jira Core (bugbounty-test-<bugcrowd-name>.atlassian.net)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Any associated *.atlassian.com or *.atl-paas.net domain that can be exploited DIRECTLY from the *.atlassian.net instance",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Rovo",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Rovo Dev CLI",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Other Rovo Dev",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Atlassian MCP Server",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Atlassian Compass",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Atlassian Marketplace (https://marketplace.atlassian.com)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Atlassian Atlas",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Bitbucket Data Center",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Confluence Data Center",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Crowd",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Jira Core Data Center",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Jira Service Management Data Center",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Jira Software Data Center",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.atlastunnel.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Any other *.atlassian.com or *.atl-paas.net domain that cannot be exploited directly from a *.atlassian.net instance",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.loom.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Loom Desktop App (Windows)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Loom Desktop App (macOS)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Loom for Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Loom for iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Loom Chrome Extension",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Bamboo",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Confluence Companion App for macOS and Windows",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Confluence Data Center Mobile App for Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Confluence Data Center Mobile App for iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Crucible",
-                    "type": "website"
-                },
-                {
-                    "identifier": "FishEye",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Jira Data Center Mobile App for Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Jira Data Center Mobile App for iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Sourcetree for macOS and Windows (https://www.sourcetreeapp.com/)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Other - (all other Atlassian targets)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Jira Product Discovery",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Forge Platform",
-                    "type": "other"
-                },
-                {
-                    "identifier": "GraphQL API (bugbounty-test-<bugcrowd-name>.atlassian.net/gateway/api/graphql)",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://www.npmjs.com/package/@forge/cli",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "Any internal or development services.",
-                    "type": "website"
-                },
-                {
-                    "identifier": "First and third party apps and plugins from the marketplace are excluded from this bounty but may be in scope for https://bugcrowd.com/atlassianapps",
-                    "type": "website"
-                },
-                {
-                    "identifier": "shop.atlassian.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": " bytebucket.org",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.bitbucket.io",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://blog.bitbucket.org",
-                    "type": "website"
-                },
-                {
-                    "identifier": "HipChat (inc. HipChat Data Center, HipChat Desktop, HipChat Mobile)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Stride (inc. Stride Video, Stride Desktop, Stride Mobile)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "support.atlassian.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Any customer instance. Do not test customer instances or affect customer data. Customer cloud instances may be in the form of <customer>.atlassian.net or <customer>.jira.com. Test only your own instances.",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Any repository that you are not an owner of - do not impact Atlassian customers in any way.",
-                    "type": "website"
-                },
-                {
-                    "identifier": "support.loom.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "info.loom.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/bitdefender",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Bitdefender Total Security",
-                    "type": "other"
-                },
-                {
-                    "identifier": "*.bitdefender.net",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Bitdefender Antimalware Engines",
-                    "type": "other"
-                },
-                {
-                    "identifier": "*.bitdefender.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Bitdefender GravityZone Business Security ",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "businessinsights.bitdefender.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "businessemail.bitdefender.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "businessresources.bitdefender.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "oemhub.bitdefender.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "oemresources.bitdefender.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "community.bitdefender.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "resellerportal.bitdefender.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "brand.bitdefender.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "stats.bitdefender.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "sstats.bitdefender.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "lsems.gravityzone.bitdefender.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "ssems.gravityzone.bitdefender.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "crp.bitdefender.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "telcosuccess.bitdefender.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "demo.bitdefender.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "translate.bitdefender.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "explore.bitdefender.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "explore-lb.bitdefender.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "partner-marketing.bitdefender.com ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "seems.gravityzone.bitdefender.com",
-                    "type": "website"
                 }
             ]
         }
@@ -14260,6 +13831,435 @@
                 },
                 {
                     "identifier": "learn.clickhouse.com",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/bitdefender",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Bitdefender Total Security",
+                    "type": "other"
+                },
+                {
+                    "identifier": "*.bitdefender.net",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Bitdefender Antimalware Engines",
+                    "type": "other"
+                },
+                {
+                    "identifier": "*.bitdefender.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Bitdefender GravityZone Business Security ",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "businessinsights.bitdefender.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "businessemail.bitdefender.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "businessresources.bitdefender.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "oemhub.bitdefender.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "oemresources.bitdefender.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "community.bitdefender.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "resellerportal.bitdefender.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "brand.bitdefender.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "stats.bitdefender.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "sstats.bitdefender.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "lsems.gravityzone.bitdefender.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "ssems.gravityzone.bitdefender.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "crp.bitdefender.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "telcosuccess.bitdefender.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "demo.bitdefender.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "translate.bitdefender.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "explore.bitdefender.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "explore-lb.bitdefender.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "partner-marketing.bitdefender.com ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "seems.gravityzone.bitdefender.com",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/etsy",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "www.etsy.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Etsy Mobile Application (Android)",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Etsy Mobile Application (iPhone)",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Etsy API (see documentation below)",
+                    "type": "api"
+                },
+                {
+                    "identifier": "etsypayments.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "blog.etsy.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "careers.etsy.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "help.etsy.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "community.etsy.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.etsy.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "icht.etsysecure.com",
+                    "type": "api"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/atlassian",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Atlassian Guard Standard and Premium (https://admin.atlassian.com/atlassian-guard)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Atlassian Admin (https://admin.atlassian.com/)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Atlassian Identity (https://id.atlassian.com/login)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Atlassian Start (https://start.atlassian.com)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Bitbucket Cloud including Bitbucket Pipelines (https://bitbucket.org)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Confluence Cloud (bugbounty-test-<bugcrowd-name>.atlassian.net/wiki)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Confluence Cloud Premium (bugbounty-test-<bugcrowd-name>.atlassian.net/wiki)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Confluence Cloud Mobile App for Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Confluence Cloud Mobile App for iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Jira Cloud Mobile App for Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Jira Cloud Mobile App for iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Jira Service Management Cloud (bugbounty-test-<bugcrowd-name>.atlassian.net)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Jira Software Cloud (bugbounty-test-<bugcrowd-name>.atlassian.net)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Jira Work Management Cloud formerly Jira Core (bugbounty-test-<bugcrowd-name>.atlassian.net)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Any associated *.atlassian.com or *.atl-paas.net domain that can be exploited DIRECTLY from the *.atlassian.net instance",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Rovo",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Rovo Dev CLI",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Other Rovo Dev",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Atlassian MCP Server",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Atlassian Compass",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Atlassian Marketplace (https://marketplace.atlassian.com)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Atlassian Atlas",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Bitbucket Data Center",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Confluence Data Center",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Crowd",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Jira Core Data Center",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Jira Service Management Data Center",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Jira Software Data Center",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.atlastunnel.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Any other *.atlassian.com or *.atl-paas.net domain that cannot be exploited directly from a *.atlassian.net instance",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.loom.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Loom Desktop App (Windows)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Loom Desktop App (macOS)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Loom for Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Loom for iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Loom Chrome Extension",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Bamboo",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Confluence Companion App for macOS and Windows",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Confluence Data Center Mobile App for Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Confluence Data Center Mobile App for iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Crucible",
+                    "type": "website"
+                },
+                {
+                    "identifier": "FishEye",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Jira Data Center Mobile App for Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Jira Data Center Mobile App for iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Sourcetree for macOS and Windows (https://www.sourcetreeapp.com/)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Other - (all other Atlassian targets)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Jira Product Discovery",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Forge Platform",
+                    "type": "other"
+                },
+                {
+                    "identifier": "GraphQL API (bugbounty-test-<bugcrowd-name>.atlassian.net/gateway/api/graphql)",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://www.npmjs.com/package/@forge/cli",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "Any internal or development services.",
+                    "type": "website"
+                },
+                {
+                    "identifier": "First and third party apps and plugins from the marketplace are excluded from this bounty but may be in scope for https://bugcrowd.com/atlassianapps",
+                    "type": "website"
+                },
+                {
+                    "identifier": "shop.atlassian.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": " bytebucket.org",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.bitbucket.io",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://blog.bitbucket.org",
+                    "type": "website"
+                },
+                {
+                    "identifier": "HipChat (inc. HipChat Data Center, HipChat Desktop, HipChat Mobile)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Stride (inc. Stride Video, Stride Desktop, Stride Mobile)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "support.atlassian.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Any customer instance. Do not test customer instances or affect customer data. Customer cloud instances may be in the form of <customer>.atlassian.net or <customer>.jira.com. Test only your own instances.",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Any repository that you are not an owner of - do not impact Atlassian customers in any way.",
+                    "type": "website"
+                },
+                {
+                    "identifier": "support.loom.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "info.loom.com",
                     "type": "website"
                 }
             ]
