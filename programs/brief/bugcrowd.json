@@ -1,14 +1,5 @@
 [
     {
-        "handle": "engagements/matlab-online",
-        "bounty": 1,
-        "active": 0,
-        "assets": {
-            "in_scope": [],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/openai-safety",
         "bounty": 1,
         "active": 1,
@@ -5419,29 +5410,6 @@
         }
     },
     {
-        "handle": "engagements/bullish-exchange",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://simnext.bullish-test.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://api.simnext.bullish-test.com",
-                    "type": "api"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "*.bullish.com/",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/coindesk-mbb-og",
         "bounty": 1,
         "active": 1,
@@ -5945,45 +5913,6 @@
         }
     },
     {
-        "handle": "engagements/quizlet",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://*.quizlet.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Quizlet iOS App",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Quizlet Android App",
-                    "type": "android"
-                },
-                {
-                    "identifier": "3.0 API",
-                    "type": "api"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "api.quizlet.com/2.0",
-                    "type": "api"
-                },
-                {
-                    "identifier": " help.quizlet.com (zendesk)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "get.quizlet.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/t-mobile",
         "bounty": 1,
         "active": 1,
@@ -6435,56 +6364,6 @@
         }
     },
     {
-        "handle": "engagements/sendbird-mbb",
-        "bounty": 1,
-        "active": 0,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://dashboard.sendbird.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://gate.sendbird.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://api-{app-id}.sendbird.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://ws-{app-id}.sendbird.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://desk-api-{region}.sendbird.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://ws-{app-id}.calls.sendbird.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://api-{app-id}.calls.sendbird.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://api-{app-id}.notifications.sendbird.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://sendbird.com/docs",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://sendbird.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/simplisafe",
         "bounty": 1,
         "active": 1,
@@ -6882,6 +6761,45 @@
         }
     },
     {
+        "handle": "engagements/quizlet",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://*.quizlet.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Quizlet iOS App",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Quizlet Android App",
+                    "type": "android"
+                },
+                {
+                    "identifier": "3.0 API",
+                    "type": "api"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "api.quizlet.com/2.0",
+                    "type": "api"
+                },
+                {
+                    "identifier": " help.quizlet.com (zendesk)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "get.quizlet.com",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
         "handle": "engagements/navan",
         "bounty": 1,
         "active": 0,
@@ -6896,6 +6814,79 @@
                 {
                     "identifier": "tripactions.com",
                     "type": "other"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/sendbird-mbb",
+        "bounty": 1,
+        "active": 0,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://dashboard.sendbird.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://gate.sendbird.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://api-{app-id}.sendbird.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://ws-{app-id}.sendbird.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://desk-api-{region}.sendbird.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://ws-{app-id}.calls.sendbird.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://api-{app-id}.calls.sendbird.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://api-{app-id}.notifications.sendbird.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://sendbird.com/docs",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://sendbird.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/bullish-exchange",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://simnext.bullish-test.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://api.simnext.bullish-test.com",
+                    "type": "api"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "*.bullish.com/",
+                    "type": "website"
                 }
             ]
         }
@@ -9334,45 +9325,360 @@
         }
     },
     {
-        "handle": "engagements/elementor",
+        "handle": "engagements/opensea",
         "bounty": 1,
         "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "https://my.elementor.com/",
+                    "identifier": "opensea.io",
                     "type": "website"
                 },
                 {
-                    "identifier": "https://go.elementor.com/",
+                    "identifier": "http://wallet.opensea.io/",
                     "type": "website"
                 },
                 {
-                    "identifier": "https://translate.elementor.com/",
-                    "type": "website"
+                    "identifier": "io.opensea - Android App",
+                    "type": "android"
                 },
                 {
-                    "identifier": "https://developers.elementor.com/",
-                    "type": "website"
+                    "identifier": "io.opensea - iOS App",
+                    "type": "ios"
                 },
                 {
-                    "identifier": "https://library.elementor.com/",
-                    "type": "website"
+                    "identifier": "OpenSea MCP",
+                    "type": "other"
                 },
                 {
-                    "identifier": "https://elementor.careers",
-                    "type": "website"
+                    "identifier": "https://github.com/ProjectOpenSea/seaport#deployments",
+                    "type": "other"
                 },
                 {
-                    "identifier": "https://activitylog.io/",
-                    "type": "website"
+                    "identifier": "https://etherscan.io/address/0x0000a26b00c1F0DF003000390027140000fAa719",
+                    "type": "other"
                 },
                 {
-                    "identifier": "https://send2.co/",
+                    "identifier": "https://etherscan.io/address/0x00005EA00Ac477B1030CE78506496e8C2dE24bf5",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Broken Link",
                     "type": "website"
                 }
             ],
             "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/octopus-og",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.octopus.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Octopus Deploy Git Repo",
+                    "type": "other"
+                },
+                {
+                    "identifier": "octopus.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": " partners.octopus.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.octopus.app",
+                    "type": "website"
+                },
+                {
+                    "identifier": "artifactorysample.octopus.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "bamboosample.octopus.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "jenkinssample.octopus.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "teamcitysample.octopus.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "nexussample.octopus.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "myget.octopus.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "trust.octopus.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "i.octopus.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "ir.octopus.com",
+                    "type": "other"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/bitgo-mbb-og-public",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.bitgo.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "app.bitgo.com ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "app.bitgo-test.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "bitgo.ae",
+                    "type": "other"
+                },
+                {
+                    "identifier": "wbtc.network",
+                    "type": "other"
+                },
+                {
+                    "identifier": "usdstandard.com",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/ciscomeraki",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.meraki.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.ikarem.io",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Cisco Meraki Systems Manager",
+                    "type": "other"
+                },
+                {
+                    "identifier": "*.network-auth.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Cisco Meraki Dashboard Mobile Application (iOS and Android)",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Cisco Campus Gateways",
+                    "type": "hardware"
+                },
+                {
+                    "identifier": "Cisco Catalyst 9200L Series Switches (Cloud-Managed)",
+                    "type": "hardware"
+                },
+                {
+                    "identifier": "Cisco Meraki MX & Z Series Security Appliances (Including vMX)",
+                    "type": "hardware"
+                },
+                {
+                    "identifier": "Cisco Meraki MS Switches",
+                    "type": "hardware"
+                },
+                {
+                    "identifier": "Cisco Meraki MR Access Points",
+                    "type": "hardware"
+                },
+                {
+                    "identifier": "Cisco Meraki MV Smart Cameras",
+                    "type": "hardware"
+                },
+                {
+                    "identifier": "Cisco Meraki MG Fixed Wireless Access Devices",
+                    "type": "hardware"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "merakipartners.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "developers.meraki.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "smhelp.meraki.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "community.meraki.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "community-staging.meraki.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.cisco.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "meraki.cisco.com/form/contact",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Customer API Keys",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Meraki MC Phones",
+                    "type": "hardware"
+                },
+                {
+                    "identifier": "documentation.meraki.com",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/tesla",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.tesla.cn",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.tesla.services",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Official Tesla iOS apps",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "*.tesla.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.teslamotors.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Any host verified to be owned by Tesla Motors Inc. (domains/IP space/etc.)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.solarcity.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.teslainsuranceservices.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Official Tesla Android apps",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Tesla Energy hardware you own",
+                    "type": "hardware"
+                },
+                {
+                    "identifier": "Tesla vehicle hardware that you own",
+                    "type": "hardware"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "employeefeedback.tesla.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "energysupport.tesla.com (you can report vulnerabilities to bugbounty.zoho.com)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "engage.tesla.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.engage.tesla.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "feedback.tesla.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "feedback.teslamotors.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "ir.tesla.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "ir.teslamotors.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "mkto.teslamotors.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "shop.eu.teslamotors.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "service.tesla.com/docs/*",
+                    "type": "website"
+                },
+                {
+                    "identifier": "service.tesla.cn/docs/*",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Any domains from acquisitions, such as maxwell.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Any other third-party websites hosted by non-Tesla entities",
+                    "type": "website"
+                }
+            ]
         }
     },
     {
@@ -9507,274 +9813,6 @@
         }
     },
     {
-        "handle": "engagements/octopus-og",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.octopus.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Octopus Deploy Git Repo",
-                    "type": "other"
-                },
-                {
-                    "identifier": "octopus.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": " partners.octopus.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.octopus.app",
-                    "type": "website"
-                },
-                {
-                    "identifier": "artifactorysample.octopus.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "bamboosample.octopus.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "jenkinssample.octopus.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "teamcitysample.octopus.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "nexussample.octopus.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "myget.octopus.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "trust.octopus.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "i.octopus.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "ir.octopus.com",
-                    "type": "other"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/opensea",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "opensea.io",
-                    "type": "website"
-                },
-                {
-                    "identifier": "http://wallet.opensea.io/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "io.opensea - Android App",
-                    "type": "android"
-                },
-                {
-                    "identifier": "io.opensea - iOS App",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "OpenSea MCP",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://github.com/ProjectOpenSea/seaport#deployments",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://etherscan.io/address/0x0000a26b00c1F0DF003000390027140000fAa719",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://etherscan.io/address/0x00005EA00Ac477B1030CE78506496e8C2dE24bf5",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Broken Link",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/bitgo-mbb-og-public",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.bitgo.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "app.bitgo.com ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "app.bitgo-test.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "bitgo.ae",
-                    "type": "other"
-                },
-                {
-                    "identifier": "wbtc.network",
-                    "type": "other"
-                },
-                {
-                    "identifier": "usdstandard.com",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/smartchain-mbb-og",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Smartchain Blockchain",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Smartchain Block Explorer",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Smartchain Staging Block Explorer",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/ciscomeraki",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.meraki.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.ikarem.io",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Cisco Meraki Systems Manager",
-                    "type": "other"
-                },
-                {
-                    "identifier": "*.network-auth.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Cisco Meraki Dashboard Mobile Application (iOS and Android)",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Cisco Campus Gateways",
-                    "type": "hardware"
-                },
-                {
-                    "identifier": "Cisco Catalyst 9200L Series Switches (Cloud-Managed)",
-                    "type": "hardware"
-                },
-                {
-                    "identifier": "Cisco Meraki MX & Z Series Security Appliances (Including vMX)",
-                    "type": "hardware"
-                },
-                {
-                    "identifier": "Cisco Meraki MS Switches",
-                    "type": "hardware"
-                },
-                {
-                    "identifier": "Cisco Meraki MR Access Points",
-                    "type": "hardware"
-                },
-                {
-                    "identifier": "Cisco Meraki MV Smart Cameras",
-                    "type": "hardware"
-                },
-                {
-                    "identifier": "Cisco Meraki MG Fixed Wireless Access Devices",
-                    "type": "hardware"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "merakipartners.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "developers.meraki.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "smhelp.meraki.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "community.meraki.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "community-staging.meraki.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.cisco.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "meraki.cisco.com/form/contact",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Customer API Keys",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Meraki MC Phones",
-                    "type": "hardware"
-                },
-                {
-                    "identifier": "documentation.meraki.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/thefork-mbb-og",
         "bounty": 1,
         "active": 1,
@@ -9890,117 +9928,6 @@
         }
     },
     {
-        "handle": "engagements/tesla",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.tesla.cn",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.tesla.services",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Official Tesla iOS apps",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "*.tesla.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.teslamotors.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Any host verified to be owned by Tesla Motors Inc. (domains/IP space/etc.)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.solarcity.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.teslainsuranceservices.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Official Tesla Android apps",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Tesla Energy hardware you own",
-                    "type": "hardware"
-                },
-                {
-                    "identifier": "Tesla vehicle hardware that you own",
-                    "type": "hardware"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "employeefeedback.tesla.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "energysupport.tesla.com (you can report vulnerabilities to bugbounty.zoho.com)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "engage.tesla.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.engage.tesla.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "feedback.tesla.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "feedback.teslamotors.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "ir.tesla.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "ir.teslamotors.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "mkto.teslamotors.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "shop.eu.teslamotors.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "service.tesla.com/docs/*",
-                    "type": "website"
-                },
-                {
-                    "identifier": "service.tesla.cn/docs/*",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Any domains from acquisitions, such as maxwell.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Any other third-party websites hosted by non-Tesla entities",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/fireblocks-mbb-og2",
         "bounty": 1,
         "active": 1,
@@ -10009,6 +9936,70 @@
                 {
                     "identifier": "github.com/fireblocks/mpc-lib",
                     "type": "other"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/smartchain-mbb-og",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Smartchain Blockchain",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Smartchain Block Explorer",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Smartchain Staging Block Explorer",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/elementor",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://my.elementor.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://go.elementor.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://translate.elementor.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://developers.elementor.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://library.elementor.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://elementor.careers",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://activitylog.io/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://send2.co/",
+                    "type": "website"
                 }
             ],
             "out_of_scope": []
@@ -13386,269 +13377,6 @@
         }
     },
     {
-        "handle": "engagements/atlassian",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Atlassian Guard Standard and Premium (https://admin.atlassian.com/atlassian-guard)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Atlassian Admin (https://admin.atlassian.com/)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Atlassian Identity (https://id.atlassian.com/login)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Atlassian Start (https://start.atlassian.com)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Bitbucket Cloud including Bitbucket Pipelines (https://bitbucket.org)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Confluence Cloud (bugbounty-test-<bugcrowd-name>.atlassian.net/wiki)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Confluence Cloud Premium (bugbounty-test-<bugcrowd-name>.atlassian.net/wiki)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Confluence Cloud Mobile App for Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Confluence Cloud Mobile App for iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Jira Cloud Mobile App for Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Jira Cloud Mobile App for iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Jira Service Management Cloud (bugbounty-test-<bugcrowd-name>.atlassian.net)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Jira Software Cloud (bugbounty-test-<bugcrowd-name>.atlassian.net)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Jira Work Management Cloud formerly Jira Core (bugbounty-test-<bugcrowd-name>.atlassian.net)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Any associated *.atlassian.com or *.atl-paas.net domain that can be exploited DIRECTLY from the *.atlassian.net instance",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Rovo",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Rovo Dev CLI",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Other Rovo Dev",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Atlassian MCP Server",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Atlassian Compass",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Atlassian Marketplace (https://marketplace.atlassian.com)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Atlassian Atlas",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Bitbucket Data Center",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Confluence Data Center",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Crowd",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Jira Core Data Center",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Jira Service Management Data Center",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Jira Software Data Center",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.atlastunnel.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Any other *.atlassian.com or *.atl-paas.net domain that cannot be exploited directly from a *.atlassian.net instance",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.loom.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Loom Desktop App (Windows)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Loom Desktop App (macOS)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Loom for Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Loom for iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Loom Chrome Extension",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Bamboo",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Confluence Companion App for macOS and Windows",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Confluence Data Center Mobile App for Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Confluence Data Center Mobile App for iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Crucible",
-                    "type": "website"
-                },
-                {
-                    "identifier": "FishEye",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Jira Data Center Mobile App for Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Jira Data Center Mobile App for iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Sourcetree for macOS and Windows (https://www.sourcetreeapp.com/)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Other - (all other Atlassian targets)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Jira Product Discovery",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Forge Platform",
-                    "type": "other"
-                },
-                {
-                    "identifier": "GraphQL API (bugbounty-test-<bugcrowd-name>.atlassian.net/gateway/api/graphql)",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://www.npmjs.com/package/@forge/cli",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "Any internal or development services.",
-                    "type": "website"
-                },
-                {
-                    "identifier": "First and third party apps and plugins from the marketplace are excluded from this bounty but may be in scope for https://bugcrowd.com/atlassianapps",
-                    "type": "website"
-                },
-                {
-                    "identifier": "shop.atlassian.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": " bytebucket.org",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.bitbucket.io",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://blog.bitbucket.org",
-                    "type": "website"
-                },
-                {
-                    "identifier": "HipChat (inc. HipChat Data Center, HipChat Desktop, HipChat Mobile)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Stride (inc. Stride Video, Stride Desktop, Stride Mobile)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "support.atlassian.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Any customer instance. Do not test customer instances or affect customer data. Customer cloud instances may be in the form of <customer>.atlassian.net or <customer>.jira.com. Test only your own instances.",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Any repository that you are not an owner of - do not impact Atlassian customers in any way.",
-                    "type": "website"
-                },
-                {
-                    "identifier": "support.loom.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "info.loom.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/classdojo",
         "bounty": 1,
         "active": 1,
@@ -13958,61 +13686,6 @@
                 }
             ],
             "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/etsy",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "www.etsy.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Etsy Mobile Application (Android)",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Etsy Mobile Application (iPhone)",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Etsy API (see documentation below)",
-                    "type": "api"
-                },
-                {
-                    "identifier": "etsypayments.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "blog.etsy.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "careers.etsy.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "help.etsy.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "community.etsy.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.etsy.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "icht.etsysecure.com",
-                    "type": "api"
-                }
-            ]
         }
     },
     {
@@ -14369,6 +14042,324 @@
                 {
                     "identifier": "All internet facing Sky Italy assets ",
                     "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/atlassian",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Atlassian Guard Standard and Premium (https://admin.atlassian.com/atlassian-guard)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Atlassian Admin (https://admin.atlassian.com/)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Atlassian Identity (https://id.atlassian.com/login)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Atlassian Start (https://start.atlassian.com)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Bitbucket Cloud including Bitbucket Pipelines (https://bitbucket.org)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Confluence Cloud (bugbounty-test-<bugcrowd-name>.atlassian.net/wiki)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Confluence Cloud Premium (bugbounty-test-<bugcrowd-name>.atlassian.net/wiki)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Confluence Cloud Mobile App for Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Confluence Cloud Mobile App for iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Jira Cloud Mobile App for Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Jira Cloud Mobile App for iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Jira Service Management Cloud (bugbounty-test-<bugcrowd-name>.atlassian.net)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Jira Software Cloud (bugbounty-test-<bugcrowd-name>.atlassian.net)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Jira Work Management Cloud formerly Jira Core (bugbounty-test-<bugcrowd-name>.atlassian.net)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Any associated *.atlassian.com or *.atl-paas.net domain that can be exploited DIRECTLY from the *.atlassian.net instance",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Rovo",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Rovo Dev CLI",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Other Rovo Dev",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Atlassian MCP Server",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Atlassian Compass",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Atlassian Marketplace (https://marketplace.atlassian.com)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Atlassian Atlas",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Bitbucket Data Center",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Confluence Data Center",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Crowd",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Jira Core Data Center",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Jira Service Management Data Center",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Jira Software Data Center",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.atlastunnel.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Any other *.atlassian.com or *.atl-paas.net domain that cannot be exploited directly from a *.atlassian.net instance",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.loom.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Loom Desktop App (Windows)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Loom Desktop App (macOS)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Loom for Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Loom for iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Loom Chrome Extension",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Bamboo",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Confluence Companion App for macOS and Windows",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Confluence Data Center Mobile App for Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Confluence Data Center Mobile App for iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Crucible",
+                    "type": "website"
+                },
+                {
+                    "identifier": "FishEye",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Jira Data Center Mobile App for Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Jira Data Center Mobile App for iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Sourcetree for macOS and Windows (https://www.sourcetreeapp.com/)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Other - (all other Atlassian targets)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Jira Product Discovery",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Forge Platform",
+                    "type": "other"
+                },
+                {
+                    "identifier": "GraphQL API (bugbounty-test-<bugcrowd-name>.atlassian.net/gateway/api/graphql)",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://www.npmjs.com/package/@forge/cli",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "Any internal or development services.",
+                    "type": "website"
+                },
+                {
+                    "identifier": "First and third party apps and plugins from the marketplace are excluded from this bounty but may be in scope for https://bugcrowd.com/atlassianapps",
+                    "type": "website"
+                },
+                {
+                    "identifier": "shop.atlassian.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": " bytebucket.org",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.bitbucket.io",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://blog.bitbucket.org",
+                    "type": "website"
+                },
+                {
+                    "identifier": "HipChat (inc. HipChat Data Center, HipChat Desktop, HipChat Mobile)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Stride (inc. Stride Video, Stride Desktop, Stride Mobile)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "support.atlassian.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Any customer instance. Do not test customer instances or affect customer data. Customer cloud instances may be in the form of <customer>.atlassian.net or <customer>.jira.com. Test only your own instances.",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Any repository that you are not an owner of - do not impact Atlassian customers in any way.",
+                    "type": "website"
+                },
+                {
+                    "identifier": "support.loom.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "info.loom.com",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/etsy",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "www.etsy.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Etsy Mobile Application (Android)",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Etsy Mobile Application (iPhone)",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Etsy API (see documentation below)",
+                    "type": "api"
+                },
+                {
+                    "identifier": "etsypayments.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "blog.etsy.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "careers.etsy.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "help.etsy.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "community.etsy.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.etsy.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "icht.etsysecure.com",
+                    "type": "api"
                 }
             ]
         }
@@ -14949,44 +14940,6 @@
                     "type": "website"
                 }
             ]
-        }
-    },
-    {
-        "handle": "engagements/myapp-mbb-og",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "my.thesecurityteam.rocks",
-                    "type": "website"
-                },
-                {
-                    "identifier": "api.thesecurityteam.rocks",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://my.electroneum.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://electroneum.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://api.electroneum.com/",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Electroneum Android App",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Electroneum iOS App",
-                    "type": "ios"
-                }
-            ],
-            "out_of_scope": []
         }
     },
     {
@@ -15708,52 +15661,6 @@
         }
     },
     {
-        "handle": "engagements/blockopensource",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://github.com/afterpay/sdk-ios",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://github.com/afterpay/sdk-android",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://github.com/cashapp/cash-app-pay-ios-sdk",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://github.com/cashapp/cash-app-pay-android-sdk",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://github.com/cashapp/hermit",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://github.com/cashapp/misk",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://github.com/square/okhttp",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://github.com/square/okio",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://github.com/square/wire",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/imperva-mbb",
         "bounty": 1,
         "active": 1,
@@ -16077,88 +15984,6 @@
         }
     },
     {
-        "handle": "engagements/seek",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.seek.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.employer.seek.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.seekpass.co",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.jobsdb.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.jobstreet.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://seekcdn.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "*.myseek.xyz",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.outfra.xyz",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.skinfra.xyz",
-                    "type": "website"
-                },
-                {
-                    "identifier": "graphql.seek.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "auth.seek.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.jobapi.net",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.sol-data.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.aips-internal.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "SEEK mobile app for iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "SEEK mobile app for Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "SEEK Pass Mobile App for iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "SEEK Pass Mobile App for Android",
-                    "type": "android"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/comcast-mbb",
         "bounty": 1,
         "active": 1,
@@ -16318,6 +16143,181 @@
                     "type": "website"
                 }
             ]
+        }
+    },
+    {
+        "handle": "engagements/blockopensource",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://github.com/afterpay/sdk-ios",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://github.com/afterpay/sdk-android",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://github.com/cashapp/cash-app-pay-ios-sdk",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://github.com/cashapp/cash-app-pay-android-sdk",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://github.com/cashapp/hermit",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://github.com/cashapp/misk",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://github.com/square/okhttp",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://github.com/square/okio",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://github.com/square/wire",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/myapp-mbb-og",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "my.thesecurityteam.rocks",
+                    "type": "website"
+                },
+                {
+                    "identifier": "api.thesecurityteam.rocks",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://my.electroneum.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://electroneum.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://api.electroneum.com/",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Electroneum Android App",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Electroneum iOS App",
+                    "type": "ios"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/seek",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.seek.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.employer.seek.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.seekpass.co",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.jobsdb.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.jobstreet.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://seekcdn.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "*.myseek.xyz",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.outfra.xyz",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.skinfra.xyz",
+                    "type": "website"
+                },
+                {
+                    "identifier": "graphql.seek.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "auth.seek.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.jobapi.net",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.sol-data.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.aips-internal.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "SEEK mobile app for iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "SEEK mobile app for Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "SEEK Pass Mobile App for iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "SEEK Pass Mobile App for Android",
+                    "type": "android"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/matlab-online",
+        "bounty": 1,
+        "active": 0,
+        "assets": {
+            "in_scope": [],
+            "out_of_scope": []
         }
     },
     {
