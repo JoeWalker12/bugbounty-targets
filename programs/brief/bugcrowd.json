@@ -5575,61 +5575,6 @@
         }
     },
     {
-        "handle": "engagements/skyscanner",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Skyscanner iOS App",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Skyscanner Android App",
-                    "type": "android"
-                },
-                {
-                    "identifier": "gateway.skyscanner.net/*",
-                    "type": "api"
-                },
-                {
-                    "identifier": "skyscanner.net/hotels/book/*",
-                    "type": "website"
-                },
-                {
-                    "identifier": "skyscanner.net/*",
-                    "type": "website"
-                },
-                {
-                    "identifier": "partnerportal.skyscanner.net/*",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.skyscanner.net",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Skyscanner Android app",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Skyscanner iOS app",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "AWS Infrastructure",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "Corporate Email (*@skyscanner.net)",
-                    "type": "other"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/flourish",
         "bounty": 1,
         "active": 1,
@@ -6005,68 +5950,6 @@
                     "type": "website"
                 }
             ]
-        }
-    },
-    {
-        "handle": "engagements/openai",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "api.openai.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "ChatGPT",
-                    "type": "website"
-                },
-                {
-                    "identifier": "ChatGPT Plugins",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Third Party Targets",
-                    "type": "website"
-                },
-                {
-                    "identifier": "OpenAI API Keys",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://openai.org",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.openai.org",
-                    "type": "api"
-                },
-                {
-                    "identifier": "openai.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.openai.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Developer Platform Playground",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Other",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Atlas",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Codex Desktop",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": []
         }
     },
     {
@@ -6581,52 +6464,62 @@
         }
     },
     {
-        "handle": "engagements/j-tricks",
+        "handle": "engagements/openai",
         "bounty": 1,
         "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "https://marketplace.atlassian.com/apps/31399/jql-tricks-plugin?hosting=cloud&tab=overview",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/plugin-people",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
+                    "identifier": "api.openai.com",
+                    "type": "api"
+                },
                 {
-                    "identifier": "[Cloud] Enterprise Mail Handler (JEMHC) for Jira Cloud",
+                    "identifier": "ChatGPT",
                     "type": "website"
                 },
                 {
-                    "identifier": "[DC] Enterprise Mail Handler (JEMH) for Jira",
+                    "identifier": "ChatGPT Plugins",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Third Party Targets",
                     "type": "website"
                 },
                 {
-                    "identifier": "[Cloud] Custom Space User Management (CSUM) for Confluence Cloud",
+                    "identifier": "OpenAI API Keys",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://openai.org",
                     "type": "website"
                 },
                 {
-                    "identifier": "[DC] Custom Space User Management (CSUM)",
+                    "identifier": "*.openai.org",
+                    "type": "api"
+                },
+                {
+                    "identifier": "openai.com",
                     "type": "website"
                 },
                 {
-                    "identifier": "[DC] Latex for Confluence",
+                    "identifier": "*.openai.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Developer Platform Playground",
                     "type": "website"
                 },
                 {
-                    "identifier": "[DC] Switch User (SU) for Jira",
-                    "type": "website"
+                    "identifier": "Other",
+                    "type": "other"
                 },
                 {
-                    "identifier": "[DC] Switch User (SU) for Confluence",
-                    "type": "website"
+                    "identifier": "Atlas",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Codex Desktop",
+                    "type": "other"
                 }
             ],
             "out_of_scope": []
@@ -7006,6 +6899,113 @@
                 },
                 {
                     "identifier": "Any domain, property, product, protocol, or service of the app/hardware/software version not explicitly listed in the In-Scope section is out of scope; submissions are welcome but not guaranteed for the bounty/bonus.",
+                    "type": "other"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/plugin-people",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "[Cloud] Enterprise Mail Handler (JEMHC) for Jira Cloud",
+                    "type": "website"
+                },
+                {
+                    "identifier": "[DC] Enterprise Mail Handler (JEMH) for Jira",
+                    "type": "website"
+                },
+                {
+                    "identifier": "[Cloud] Custom Space User Management (CSUM) for Confluence Cloud",
+                    "type": "website"
+                },
+                {
+                    "identifier": "[DC] Custom Space User Management (CSUM)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "[DC] Latex for Confluence",
+                    "type": "website"
+                },
+                {
+                    "identifier": "[DC] Switch User (SU) for Jira",
+                    "type": "website"
+                },
+                {
+                    "identifier": "[DC] Switch User (SU) for Confluence",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/j-tricks",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/31399/jql-tricks-plugin?hosting=cloud&tab=overview",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/skyscanner",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Skyscanner iOS App",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Skyscanner Android App",
+                    "type": "android"
+                },
+                {
+                    "identifier": "gateway.skyscanner.net/*",
+                    "type": "api"
+                },
+                {
+                    "identifier": "skyscanner.net/hotels/book/*",
+                    "type": "website"
+                },
+                {
+                    "identifier": "skyscanner.net/*",
+                    "type": "website"
+                },
+                {
+                    "identifier": "partnerportal.skyscanner.net/*",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.skyscanner.net",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Skyscanner Android app",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Skyscanner iOS app",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "AWS Infrastructure",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "Corporate Email (*@skyscanner.net)",
                     "type": "other"
                 }
             ]
@@ -9045,25 +9045,6 @@
         }
     },
     {
-        "handle": "engagements/volkswagen-og",
-        "bounty": 1,
-        "active": 0,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.volkswagen.de",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "erwin.volkswagen.de",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/lululemon",
         "bounty": 1,
         "active": 0,
@@ -9157,6 +9138,25 @@
                 },
                 {
                     "identifier": "https://www.mirror.co",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/volkswagen-og",
+        "bounty": 1,
+        "active": 0,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.volkswagen.de",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "erwin.volkswagen.de",
                     "type": "website"
                 }
             ]
@@ -10282,165 +10282,6 @@
         }
     },
     {
-        "handle": "engagements/auth0-okta",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "config.cic-bug-bounty.auth0app.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "manage.cic-bug-bounty.auth0app.com (Management Dashboard)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.cic-bug-bounty.auth0app.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Auth0 Guardian Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Auth0 Guardian IoS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "marketplace.auth0.com (Auth0 Marketplace)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "MFA Integrations\t",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://dashboard.fga.dev/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://api.us1.fga.dev/",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://customers.us1.fga.dev/",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://play.fga.dev/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Auth0 SDK for Web (Auth0.js)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Lock for Web (lock)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Auth0 Single Page App SDK (auth0-spa-js)",
-                    "type": "other"
-                },
-                {
-                    "identifier": ".NET SDK (Auth0.Net)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Auth0 Next.js SDK (nextjs-auth0)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Auth0 Java SDK (auth0-java)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Auth0 React Native SDK (react-native-auth0)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Auth0 PHP SDK (auth0-php)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "auth0.com\t",
-                    "type": "website"
-                },
-                {
-                    "identifier": "samltool.io\t",
-                    "type": "website"
-                },
-                {
-                    "identifier": "webauthn.me\t",
-                    "type": "website"
-                },
-                {
-                    "identifier": "openidconnect.net\t",
-                    "type": "website"
-                },
-                {
-                    "identifier": "jwt.io",
-                    "type": "website"
-                },
-                {
-                    "identifier": "auth0.net",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "auth0.auth0.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "manage.auth0.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "accounts.auth0.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "webtask.io\t",
-                    "type": "website"
-                },
-                {
-                    "identifier": "phenix.rocks\t",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Auth0 Docs (including quickstarts)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "sharelock.io",
-                    "type": "website"
-                },
-                {
-                    "identifier": "goextend.io\t",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://support.auth0.com/tickets/new",
-                    "type": "website"
-                },
-                {
-                    "identifier": "support.auth0.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "community.auth0.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Auth0 passport-ws-fed",
-                    "type": "other"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/thousandeyes-og",
         "bounty": 1,
         "active": 0,
@@ -10564,84 +10405,6 @@
                 {
                     "identifier": "Recorded Future MCP",
                     "type": "api"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/neohrms",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://secure.neogov.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://login.neogov.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://performance.neogov.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://learn.neogov.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://api.neogov.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://onboard.neogov.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://unified.neogov.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://eforms.neogov.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://cdn.neogov.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.governmentjobs.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://analytics.neogov.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://powerdms.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://secure.cuehit.net/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://app.agency360.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://securesignin.neogov.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://securesignin.powerdms.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://hr.neogov.com",
-                    "type": "website"
                 }
             ],
             "out_of_scope": []
@@ -11461,80 +11224,6 @@
         }
     },
     {
-        "handle": "engagements/deviniti",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Issue Sync Pro - https://marketplace.atlassian.com/apps/1229958/issue-sync-lite?hosting=cloud&tab=overview",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Actions for Jira Service Management - Cloud - https://marketplace.atlassian.com/apps/1213697/actions-for-jira-service-management?hosting=cloud&tab=overview",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Dynamic Forms for Jira (Cloud) - https://marketplace.atlassian.com/apps/1210820/dynamic-forms-for-jira?hosting=cloud&tab=overview",
-                    "type": "website"
-                },
-                {
-                    "identifier": "My Requests Extension for Jira Service Managament - Cloud - https://marketplace.atlassian.com/apps/1219647/my-requests-extension-for-jira-service-management?hosting=cloud&tab=overview",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Queues for Jira Service Management - Cloud - https://marketplace.atlassian.com/apps/1216386/queues-for-jira-service-management?hosting=cloud&tab=overview",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Issue Sync - Synchronization for Jira - Cloud - https://marketplace.atlassian.com/apps/1213346/issue-sync-integration-for-jira?hosting=cloud&tab=overview",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Integrator for Confluence & Jira - https://marketplace.atlassian.com/apps/1224763/coji-confluence-pages-for-jira?hosting=cloud&tab=overview",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Theme Extension for Jira Service Management (Cloud) - https://marketplace.atlassian.com/apps/1220300/theme-extension-for-jira-service-management?hosting=cloud&tab=overview",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Extension for Jira Service Management (Cloud) -  https://marketplace.atlassian.com/apps/1212161/extension-for-jira-service-desk?hosting=cloud&tab=overview",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Issue Templates for Jira - https://marketplace.atlassian.com/apps/1211044/issue-templates-for-jira?hosting=cloud&tab=overview",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Requirements & Test Management for Jira (Cloud) - https://marketplace.atlassian.com/apps/1220294/requirements-test-management-for-jira?hosting=cloud&tab=overview",
-                    "type": "website"
-                },
-                {
-                    "identifier": "AI Ticket Assistant - https://marketplace.atlassian.com/apps/1238286/ai-ticket-assistant?hosting=cloud&tab=overview ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "SLA Time Management -  https://marketplace.atlassian.com/apps/1237787?tab=overview&hosting=cloud",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Entra ID (Azure AD) Attributes Sync for Jira - https://marketplace.atlassian.com/apps/1220477/azure-ad-attributes-for-jira?hosting=cloud&tab=overview",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Workflow Building Blocks for Jira | https://marketplace.atlassian.com/apps/1233642/workflow-building-blocks-for-jira?hosting=cloud&tab=overview",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Procuro - Complete Procurement Management in JSM | https://marketplace.atlassian.com/apps/22817756/procuro-complete-procurement-management-in-jsm?hosting=cloud&tab=overview",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/keepersecurity",
         "bounty": 1,
         "active": 1,
@@ -11630,45 +11319,6 @@
                 }
             ],
             "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/clickhouse",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://clickhou.se/bugcrowd",
-                    "type": "website"
-                },
-                {
-                    "identifier": "ClickHouse Cloud environment hosted by ClickHouse",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://github.com/ClickHouse/ClickHouse",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "New support cases, Chat, Request new integration form",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Share feedback form",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Vulnerability scanners",
-                    "type": "website"
-                },
-                {
-                    "identifier": "learn.clickhouse.com",
-                    "type": "website"
-                }
-            ]
         }
     },
     {
@@ -11787,6 +11437,356 @@
                     "type": "website"
                 }
             ]
+        }
+    },
+    {
+        "handle": "engagements/auth0-okta",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "config.cic-bug-bounty.auth0app.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "manage.cic-bug-bounty.auth0app.com (Management Dashboard)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.cic-bug-bounty.auth0app.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Auth0 Guardian Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Auth0 Guardian IoS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "marketplace.auth0.com (Auth0 Marketplace)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "MFA Integrations\t",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://dashboard.fga.dev/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://api.us1.fga.dev/",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://customers.us1.fga.dev/",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://play.fga.dev/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Auth0 SDK for Web (Auth0.js)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Lock for Web (lock)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Auth0 Single Page App SDK (auth0-spa-js)",
+                    "type": "other"
+                },
+                {
+                    "identifier": ".NET SDK (Auth0.Net)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Auth0 Next.js SDK (nextjs-auth0)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Auth0 Java SDK (auth0-java)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Auth0 React Native SDK (react-native-auth0)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Auth0 PHP SDK (auth0-php)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "auth0.com\t",
+                    "type": "website"
+                },
+                {
+                    "identifier": "samltool.io\t",
+                    "type": "website"
+                },
+                {
+                    "identifier": "webauthn.me\t",
+                    "type": "website"
+                },
+                {
+                    "identifier": "openidconnect.net\t",
+                    "type": "website"
+                },
+                {
+                    "identifier": "jwt.io",
+                    "type": "website"
+                },
+                {
+                    "identifier": "auth0.net",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "auth0.auth0.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "manage.auth0.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "accounts.auth0.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "webtask.io\t",
+                    "type": "website"
+                },
+                {
+                    "identifier": "phenix.rocks\t",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Auth0 Docs (including quickstarts)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "sharelock.io",
+                    "type": "website"
+                },
+                {
+                    "identifier": "goextend.io\t",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://support.auth0.com/tickets/new",
+                    "type": "website"
+                },
+                {
+                    "identifier": "support.auth0.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "community.auth0.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Auth0 passport-ws-fed",
+                    "type": "other"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/clickhouse",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://clickhou.se/bugcrowd",
+                    "type": "website"
+                },
+                {
+                    "identifier": "ClickHouse Cloud environment hosted by ClickHouse",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://github.com/ClickHouse/ClickHouse",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "New support cases, Chat, Request new integration form",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Share feedback form",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Vulnerability scanners",
+                    "type": "website"
+                },
+                {
+                    "identifier": "learn.clickhouse.com",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/neohrms",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://secure.neogov.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://login.neogov.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://performance.neogov.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://learn.neogov.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://api.neogov.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://onboard.neogov.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://unified.neogov.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://eforms.neogov.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://cdn.neogov.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.governmentjobs.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://analytics.neogov.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://powerdms.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://secure.cuehit.net/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://app.agency360.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://securesignin.neogov.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://securesignin.powerdms.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://hr.neogov.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/deviniti",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Issue Sync Pro - https://marketplace.atlassian.com/apps/1229958/issue-sync-lite?hosting=cloud&tab=overview",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Actions for Jira Service Management - Cloud - https://marketplace.atlassian.com/apps/1213697/actions-for-jira-service-management?hosting=cloud&tab=overview",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Dynamic Forms for Jira (Cloud) - https://marketplace.atlassian.com/apps/1210820/dynamic-forms-for-jira?hosting=cloud&tab=overview",
+                    "type": "website"
+                },
+                {
+                    "identifier": "My Requests Extension for Jira Service Managament - Cloud - https://marketplace.atlassian.com/apps/1219647/my-requests-extension-for-jira-service-management?hosting=cloud&tab=overview",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Queues for Jira Service Management - Cloud - https://marketplace.atlassian.com/apps/1216386/queues-for-jira-service-management?hosting=cloud&tab=overview",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Issue Sync - Synchronization for Jira - Cloud - https://marketplace.atlassian.com/apps/1213346/issue-sync-integration-for-jira?hosting=cloud&tab=overview",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Integrator for Confluence & Jira - https://marketplace.atlassian.com/apps/1224763/coji-confluence-pages-for-jira?hosting=cloud&tab=overview",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Theme Extension for Jira Service Management (Cloud) - https://marketplace.atlassian.com/apps/1220300/theme-extension-for-jira-service-management?hosting=cloud&tab=overview",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Extension for Jira Service Management (Cloud) -  https://marketplace.atlassian.com/apps/1212161/extension-for-jira-service-desk?hosting=cloud&tab=overview",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Issue Templates for Jira - https://marketplace.atlassian.com/apps/1211044/issue-templates-for-jira?hosting=cloud&tab=overview",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Requirements & Test Management for Jira (Cloud) - https://marketplace.atlassian.com/apps/1220294/requirements-test-management-for-jira?hosting=cloud&tab=overview",
+                    "type": "website"
+                },
+                {
+                    "identifier": "AI Ticket Assistant - https://marketplace.atlassian.com/apps/1238286/ai-ticket-assistant?hosting=cloud&tab=overview ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "SLA Time Management -  https://marketplace.atlassian.com/apps/1237787?tab=overview&hosting=cloud",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Entra ID (Azure AD) Attributes Sync for Jira - https://marketplace.atlassian.com/apps/1220477/azure-ad-attributes-for-jira?hosting=cloud&tab=overview",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Workflow Building Blocks for Jira | https://marketplace.atlassian.com/apps/1233642/workflow-building-blocks-for-jira?hosting=cloud&tab=overview",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Procuro - Complete Procurement Management in JSM | https://marketplace.atlassian.com/apps/22817756/procuro-complete-procurement-management-in-jsm?hosting=cloud&tab=overview",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
         }
     },
     {
@@ -14273,121 +14273,6 @@
         }
     },
     {
-        "handle": "engagements/thefork-mbb-og",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "secure.thefork.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "payment.lafourchette.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "api.thefork.io",
-                    "type": "api"
-                },
-                {
-                    "identifier": "widget.thefork.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "TheFork Manager Blog",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.thefork.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://m.thefork.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://api.thefork.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://blog.thefork.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "TheFork iOS App",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "TheFork Android App",
-                    "type": "android"
-                },
-                {
-                    "identifier": "*.tools.thefork.tech",
-                    "type": "website"
-                },
-                {
-                    "identifier": "www.restaurant-information.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "*.myfourchette.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "www.myfourchette.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "website.theforkmanager.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.lafourchette.rest ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "login.theforkmanager.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "developer.thefork.io",
-                    "type": "other"
-                },
-                {
-                    "identifier": "manager.thefork.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "\"TheFork Manager\" iOS mobile application",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "\"TheFork Manager\" Android mobile application",
-                    "type": "android"
-                },
-                {
-                    "identifier": "https://*.eltenedor.*",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.thefork.*",
-                    "type": "website"
-                },
-                {
-                    "identifier": "module.thefork.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.lafourchette.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/tesla",
         "bounty": 1,
         "active": 1,
@@ -14666,39 +14551,70 @@
         }
     },
     {
-        "handle": "engagements/smartchain-mbb-og",
+        "handle": "engagements/dell-com",
         "bounty": 1,
         "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "Smartchain Blockchain",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Smartchain Block Explorer",
+                    "identifier": "*.dell.com/*",
                     "type": "website"
                 },
                 {
-                    "identifier": "Smartchain Staging Block Explorer",
+                    "identifier": "*.delltechnologies.com/* ",
                     "type": "website"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/fireblocks-mbb-og2",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
+                },
                 {
-                    "identifier": "github.com/fireblocks/mpc-lib",
+                    "identifier": "https://console.delltechnologies.com/nav/administration",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://console.delltechnologies.com/nav/invoice",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://console.delltechnologies.com/nav/billing",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Any Verified Dell-Controlled Endpoint (domains/IP space/etc.)\t",
                     "type": "other"
                 }
             ],
-            "out_of_scope": []
+            "out_of_scope": [
+                {
+                    "identifier": "https://console.delltechnologies.com/ ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://console.delltechnologies.com/nav/catalog",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://console.delltechnologies.com/nav/support",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://console.delltechnologies.com/nav/subscriptions",
+                    "type": "website"
+                },
+                {
+                    "identifier": "educate.dell.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "console.dell.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "console-test.dell.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "salesproductivity.dell.com",
+                    "type": "website"
+                }
+            ]
         }
     },
     {
@@ -14801,70 +14717,154 @@
         }
     },
     {
-        "handle": "engagements/dell-com",
+        "handle": "engagements/fireblocks-mbb-og2",
         "bounty": 1,
         "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "*.dell.com/*",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.delltechnologies.com/* ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://console.delltechnologies.com/nav/administration",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://console.delltechnologies.com/nav/invoice",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://console.delltechnologies.com/nav/billing",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Any Verified Dell-Controlled Endpoint (domains/IP space/etc.)\t",
+                    "identifier": "github.com/fireblocks/mpc-lib",
                     "type": "other"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/thefork-mbb-og",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "secure.thefork.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "payment.lafourchette.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "api.thefork.io",
+                    "type": "api"
+                },
+                {
+                    "identifier": "widget.thefork.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "TheFork Manager Blog",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.thefork.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://m.thefork.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://api.thefork.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://blog.thefork.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "TheFork iOS App",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "TheFork Android App",
+                    "type": "android"
+                },
+                {
+                    "identifier": "*.tools.thefork.tech",
+                    "type": "website"
+                },
+                {
+                    "identifier": "www.restaurant-information.com",
+                    "type": "website"
                 }
             ],
             "out_of_scope": [
                 {
-                    "identifier": "https://console.delltechnologies.com/ ",
+                    "identifier": "*.myfourchette.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "www.myfourchette.com",
                     "type": "website"
                 },
                 {
-                    "identifier": "https://console.delltechnologies.com/nav/catalog",
+                    "identifier": "website.theforkmanager.com",
                     "type": "website"
                 },
                 {
-                    "identifier": "https://console.delltechnologies.com/nav/support",
+                    "identifier": "*.lafourchette.rest ",
                     "type": "website"
                 },
                 {
-                    "identifier": "https://console.delltechnologies.com/nav/subscriptions",
+                    "identifier": "login.theforkmanager.com",
                     "type": "website"
                 },
                 {
-                    "identifier": "educate.dell.com",
+                    "identifier": "developer.thefork.io",
+                    "type": "other"
+                },
+                {
+                    "identifier": "manager.thefork.com",
                     "type": "website"
                 },
                 {
-                    "identifier": "console.dell.com",
+                    "identifier": "\"TheFork Manager\" iOS mobile application",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "\"TheFork Manager\" Android mobile application",
+                    "type": "android"
+                },
+                {
+                    "identifier": "https://*.eltenedor.*",
                     "type": "website"
                 },
                 {
-                    "identifier": "console-test.dell.com",
+                    "identifier": "https://www.thefork.*",
                     "type": "website"
                 },
                 {
-                    "identifier": "salesproductivity.dell.com",
+                    "identifier": "module.thefork.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.lafourchette.com",
                     "type": "website"
                 }
             ]
+        }
+    },
+    {
+        "handle": "engagements/smartchain-mbb-og",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Smartchain Blockchain",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Smartchain Block Explorer",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Smartchain Staging Block Explorer",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
         }
     },
     {
@@ -16222,28 +16222,6 @@
         }
     },
     {
-        "handle": "engagements/freedomofpress",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://github.com/freedomofpress/securedrop",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://github.com/freedomofpress/securedrop-workstation",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://github.com/freedomofpress/securedrop-client",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/agilislt",
         "bounty": 1,
         "active": 1,
@@ -16423,160 +16401,6 @@
                 }
             ],
             "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/comcast-mbb",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.xfinity.com\t",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.comcast.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.xcal.tv",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Staging, QA, Dev, and Test Environments",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "*.hfc.comcastbusiness.net",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.hsd1.*.comcast.net",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*business.comcast.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "10.0.0.0/8",
-                    "type": "network"
-                },
-                {
-                    "identifier": "50.128.0.0/12",
-                    "type": "network"
-                },
-                {
-                    "identifier": "50.152.0.0/13",
-                    "type": "network"
-                },
-                {
-                    "identifier": "96.201.0.0/16",
-                    "type": "network"
-                },
-                {
-                    "identifier": "96.202.128.0/17",
-                    "type": "network"
-                },
-                {
-                    "identifier": "96.203.0.0/16",
-                    "type": "network"
-                },
-                {
-                    "identifier": "172.26.128.0/18",
-                    "type": "network"
-                },
-                {
-                    "identifier": "184.112.0.0/13",
-                    "type": "network"
-                },
-                {
-                    "identifier": "184.122.0.0/15",
-                    "type": "network"
-                },
-                {
-                    "identifier": "NBC Universal",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Sky",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.sys.comcast.net",
-                    "type": "website"
-                },
-                {
-                    "identifier": "admin.selectwifi.xfinity.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "harvard.xfinity.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/tidal-bugbounty",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.tidal.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.wimpmusic.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.tidalhifi.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "api.tidal.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*tidalhi.fi",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.tdl.sh",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Tidal Client for iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Tidal Client for Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Tidal Desktop Client",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Tidal Official Clients (e.g. Sonos integration, Tesla integration, etc.)",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "developer.tidal.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "embed.tidal.com",
-                    "type": "other"
-                }
-            ]
         }
     },
     {
@@ -16928,6 +16752,182 @@
                 }
             ],
             "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/comcast-mbb",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.xfinity.com\t",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.comcast.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.xcal.tv",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Staging, QA, Dev, and Test Environments",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "*.hfc.comcastbusiness.net",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.hsd1.*.comcast.net",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*business.comcast.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "10.0.0.0/8",
+                    "type": "network"
+                },
+                {
+                    "identifier": "50.128.0.0/12",
+                    "type": "network"
+                },
+                {
+                    "identifier": "50.152.0.0/13",
+                    "type": "network"
+                },
+                {
+                    "identifier": "96.201.0.0/16",
+                    "type": "network"
+                },
+                {
+                    "identifier": "96.202.128.0/17",
+                    "type": "network"
+                },
+                {
+                    "identifier": "96.203.0.0/16",
+                    "type": "network"
+                },
+                {
+                    "identifier": "172.26.128.0/18",
+                    "type": "network"
+                },
+                {
+                    "identifier": "184.112.0.0/13",
+                    "type": "network"
+                },
+                {
+                    "identifier": "184.122.0.0/15",
+                    "type": "network"
+                },
+                {
+                    "identifier": "NBC Universal",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Sky",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.sys.comcast.net",
+                    "type": "website"
+                },
+                {
+                    "identifier": "admin.selectwifi.xfinity.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "harvard.xfinity.com",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/freedomofpress",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://github.com/freedomofpress/securedrop",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://github.com/freedomofpress/securedrop-workstation",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://github.com/freedomofpress/securedrop-client",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/tidal-bugbounty",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.tidal.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.wimpmusic.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.tidalhifi.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "api.tidal.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*tidalhi.fi",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.tdl.sh",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Tidal Client for iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Tidal Client for Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Tidal Desktop Client",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Tidal Official Clients (e.g. Sonos integration, Tesla integration, etc.)",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "developer.tidal.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "embed.tidal.com",
+                    "type": "other"
+                }
+            ]
         }
     },
     {
