@@ -109879,7 +109879,101 @@
         "isPrivate": false,
         "serviceLevel": "Platform",
         "category": "rdp",
-        "target_groups": null,
+        "target_groups": [
+            {
+                "id": "b435e66e-b59f-47dc-8429-925b1cb9cc20",
+                "name": "In Scope ",
+                "targets": [
+                    {
+                        "id": "bb6de758-7eb4-43df-8086-d1c2550372f6",
+                        "uri": "https://matlab.mathworks.com/",
+                        "name": "https://matlab.mathworks.com/ [MATLAB ONLINE]",
+                        "category": "website",
+                        "ipAddress": null,
+                        "description": null,
+                        "engagementBriefTargetGroupTarget": {
+                            "id": "5ff852d8-6b3e-4f41-b458-de204a1b7d0d",
+                            "sortOrder": 0
+                        },
+                        "sortOrder": 0,
+                        "tags": [
+                            {
+                                "id": "45e28558-ada7-4f38-b087-fb0e6ac31e0d",
+                                "name": "AWS",
+                                "targetId": "bb6de758-7eb4-43df-8086-d1c2550372f6"
+                            },
+                            {
+                                "id": "a5bf7fc5-03c4-42f4-b10d-5ceb23d1c064",
+                                "name": "Lodash",
+                                "targetId": "bb6de758-7eb4-43df-8086-d1c2550372f6"
+                            },
+                            {
+                                "id": "bc744424-2ab8-48c8-b938-c6d6abcdf500",
+                                "name": "Website Testing",
+                                "targetId": "bb6de758-7eb4-43df-8086-d1c2550372f6"
+                            },
+                            {
+                                "id": "fbcf3656-e6af-403a-a14e-6ec830fb8668",
+                                "name": "Javascript",
+                                "targetId": "bb6de758-7eb4-43df-8086-d1c2550372f6"
+                            },
+                            {
+                                "id": "16818e15-ac0f-4e76-999b-8b6a87db2837",
+                                "name": "Docker",
+                                "targetId": "bb6de758-7eb4-43df-8086-d1c2550372f6"
+                            },
+                            {
+                                "id": "e82bba17-848b-4f2b-a2a5-58d2a83530d4",
+                                "name": "Kubernetes",
+                                "targetId": "bb6de758-7eb4-43df-8086-d1c2550372f6"
+                            }
+                        ],
+                        "recentChangeFlags": null
+                    }
+                ],
+                "inScope": true,
+                "sortOrder": 0,
+                "description": null,
+                "rewardRange": {
+                    "id": "023b8ca9-d11f-4634-87a6-f03ba5d483b1",
+                    "p1MaxCents": 700000,
+                    "p1MinCents": 300000,
+                    "p2MaxCents": 300000,
+                    "p2MinCents": 120000,
+                    "p3MaxCents": 75000,
+                    "p3MinCents": 55000,
+                    "p4MaxCents": 25000,
+                    "p4MinCents": 20000,
+                    "p5MaxCents": null,
+                    "p5MinCents": null,
+                    "engagementMaxCents": null
+                },
+                "descriptionHtml": "<h2>Target Overview</h2>\n\n<ul>\n<li><p>This is a browser-based version of <a href=\"https://www.mathworks.com/products/matlab.html\" rel=\"nofollow noreferrer\" target=\"_blank\">MATLAB</a>. This platform gives users a MATLAB experience in a browser. As such, it is <em>designed to execute user-supplied MATLAB code</em>. This includes OS commands using the <a href=\"https://www.mathworks.com/help/matlab/ref/system.html\" rel=\"nofollow noreferrer\" target=\"_blank\">system()</a> or <a href=\"https://www.mathworks.com/help/matlab/internet-file-access.html\" rel=\"nofollow noreferrer\" target=\"_blank\">network enabled functions</a> in MATLAB. Executing MATLAB commands at the prompt or within a MATLAB program does not meet the standard for any &quot;Server-Side Injection&quot; vulnerabilities. We are interested in vulnerabilities that allow a user to execute commands as a privileged (root) user.</p></li>\n<li><p>MATLAB Online runs in a Docker container on a Linux host running in Amazon EC2. We are particularly interested in any vulnerabilities that allow a user to escape from the Docker container to the host operating system. The production environment for MATLAB Online is <a href=\"https://matlab.mathworks.com/\" rel=\"nofollow noreferrer\" target=\"_blank\">https://matlab.mathworks.com/</a></p></li>\n<li><p>MATLAB Online has several features that contact MathWorks. For example, &quot;Send feedback&quot;. Do not use these features to contact MathWorks staff.</p></li>\n</ul>",
+                "rewardRangeData": {
+                    "1": {
+                        "min": 3000,
+                        "max": 7000
+                    },
+                    "2": {
+                        "min": 1200,
+                        "max": 3000
+                    },
+                    "3": {
+                        "min": 550,
+                        "max": 750
+                    },
+                    "4": {
+                        "min": 200,
+                        "max": 250
+                    },
+                    "5": {
+                        "min": null,
+                        "max": null
+                    }
+                },
+                "recentChangeFlags": null
+            }
+        ],
         "status": "paused"
     },
     {
