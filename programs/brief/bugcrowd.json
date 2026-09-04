@@ -7062,6 +7062,87 @@
         }
     },
     {
+        "handle": "engagements/bullish-exchange",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://simnext.bullish-test.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://api.simnext.bullish-test.com",
+                    "type": "api"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "*.bullish.com/",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/openai",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "api.openai.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "ChatGPT",
+                    "type": "website"
+                },
+                {
+                    "identifier": "ChatGPT Plugins",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Third Party Targets",
+                    "type": "website"
+                },
+                {
+                    "identifier": "OpenAI API Keys",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://openai.org",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.openai.org",
+                    "type": "api"
+                },
+                {
+                    "identifier": "openai.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.openai.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Developer Platform Playground",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Other",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Codex Desktop",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
         "handle": "engagements/t-mobile",
         "bounty": 1,
         "active": 1,
@@ -7406,87 +7487,6 @@
                     "type": "other"
                 }
             ]
-        }
-    },
-    {
-        "handle": "engagements/bullish-exchange",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://simnext.bullish-test.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://api.simnext.bullish-test.com",
-                    "type": "api"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "*.bullish.com/",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/openai",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "api.openai.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "ChatGPT",
-                    "type": "website"
-                },
-                {
-                    "identifier": "ChatGPT Plugins",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Third Party Targets",
-                    "type": "website"
-                },
-                {
-                    "identifier": "OpenAI API Keys",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://openai.org",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.openai.org",
-                    "type": "api"
-                },
-                {
-                    "identifier": "openai.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.openai.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Developer Platform Playground",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Other",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Codex Desktop",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": []
         }
     },
     {
@@ -8406,81 +8406,6 @@
                 {
                     "identifier": "icht.etsysecure.com",
                     "type": "api"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/asana",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "app.asana.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "asana.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.asana.plus",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Asana Desktop App",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Asana iOS app",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Asana Android app",
-                    "type": "android"
-                },
-                {
-                    "identifier": "form.asana.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.app.asana.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.asana.biz",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Subdomain takeover at *asana.biz",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "Other subdomains of asana.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Social engineering against Asana Support or Asana Employees",
-                    "type": "other"
-                },
-                {
-                    "identifier": "jira*.integrations.asana.plus",
-                    "type": "website"
-                },
-                {
-                    "identifier": "asana.okta.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "assets.asana.biz",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Forms that you do not own",
-                    "type": "other"
                 }
             ]
         }
@@ -9488,6 +9413,210 @@
         }
     },
     {
+        "handle": "engagements/recorded-future-mbb-og",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "www.recordedfuture.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://tria.ge",
+                    "type": "website"
+                },
+                {
+                    "identifier": "id.recordedfuture.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "hatching.io",
+                    "type": "website"
+                },
+                {
+                    "identifier": "geminiadvisory.io",
+                    "type": "website"
+                },
+                {
+                    "identifier": "app.recordedfuture.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "api.recordedfuture.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Recorded Future iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Recorded Future Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "securitytrails.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Riskrecon",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Riskrecon Vendor portal US",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Riskrecon Vendor portal EU",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Riskrecon API us",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Riskrecon API EU",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Riskrecon IDP US",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Riskrecon IDP EU",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Riskrecon Portal US",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Riskrecon Portal EU",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Recorded Future MCP",
+                    "type": "api"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/carrefour",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Carrefour UAE iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Carrefour UAE Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "carrefouruae.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://api-prod.retailsso.com",
+                    "type": "api"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "https://cwingsfe.mafrservices.com/login",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/glassdoor-ogbb",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://api.glassdoor.com/*",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://www.glassdoor.com/*",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://www.glassdoor.com/member/*",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://www.glassdoor.com/employers/ec/*",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://www.glassdoor.com/Job/*",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.glassdoor.com/Reviews/*",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.glassdoor.com/Compare/*",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.glassdoor.com/mz-survey/*",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.glassdoor.com/Salaries/*",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Fishbowl",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://api.fishbowlapp.com/*",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Fishbowl - Android App",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Fishbowl - iOS ",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Glassdoor iOS App",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Glassdoor Android App",
+                    "type": "android"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "Glassdoor Help Page ",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Glassdoor Design Page",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Glassdoor Blog",
+                    "type": "other"
+                }
+            ]
+        }
+    },
+    {
         "handle": "engagements/atlassian",
         "bounty": 1,
         "active": 1,
@@ -9751,90 +9880,173 @@
         }
     },
     {
-        "handle": "engagements/recorded-future-mbb-og",
+        "handle": "engagements/asana",
         "bounty": 1,
         "active": 1,
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "www.recordedfuture.com",
+                    "identifier": "app.asana.com",
                     "type": "website"
                 },
                 {
-                    "identifier": "https://tria.ge",
+                    "identifier": "asana.com",
                     "type": "website"
                 },
                 {
-                    "identifier": "id.recordedfuture.com",
+                    "identifier": "*.asana.plus",
                     "type": "website"
                 },
                 {
-                    "identifier": "hatching.io",
-                    "type": "website"
+                    "identifier": "Asana Desktop App",
+                    "type": "other"
                 },
                 {
-                    "identifier": "geminiadvisory.io",
-                    "type": "website"
-                },
-                {
-                    "identifier": "app.recordedfuture.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "api.recordedfuture.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Recorded Future iOS",
+                    "identifier": "Asana iOS app",
                     "type": "ios"
                 },
                 {
-                    "identifier": "Recorded Future Android",
+                    "identifier": "Asana Android app",
                     "type": "android"
                 },
                 {
-                    "identifier": "securitytrails.com",
+                    "identifier": "form.asana.com",
                     "type": "website"
                 },
                 {
-                    "identifier": "Riskrecon",
+                    "identifier": "*.app.asana.com",
                     "type": "website"
                 },
                 {
-                    "identifier": "Riskrecon Vendor portal US",
+                    "identifier": "*.asana.biz",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Subdomain takeover at *asana.biz",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "Other subdomains of asana.com",
                     "type": "website"
                 },
                 {
-                    "identifier": "Riskrecon Vendor portal EU",
+                    "identifier": "Social engineering against Asana Support or Asana Employees",
+                    "type": "other"
+                },
+                {
+                    "identifier": "jira*.integrations.asana.plus",
                     "type": "website"
                 },
                 {
-                    "identifier": "Riskrecon API us",
+                    "identifier": "asana.okta.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "assets.asana.biz",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Forms that you do not own",
+                    "type": "other"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/keepersecurity",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Keeper Browser Extension (Chrome, Safari, Firefox, Edge)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Keeper Desktop App for Mac, PC, Linux",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Keeper Web Vault (US, EU, AU, CA, JP, GovCloud)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Keeper for iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Keeper for Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Keeper Enterprise",
+                    "type": "website"
+                },
+                {
+                    "identifier": "KeeperPAM Privileged Access Manager",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Keeper Connection Manager (KCM)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Keeper Secrets Manager SDK",
                     "type": "api"
                 },
                 {
-                    "identifier": "Riskrecon API EU",
+                    "identifier": "Keeper Endpoint Privilege Manager",
                     "type": "api"
                 },
                 {
-                    "identifier": "Riskrecon IDP US",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Riskrecon IDP EU",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Riskrecon Portal US",
+                    "identifier": "Keeper Admin Console (US, EU, AU, CA, JP, GovCloud)",
                     "type": "website"
                 },
                 {
-                    "identifier": "Riskrecon Portal EU",
+                    "identifier": "Keeper Security Website",
                     "type": "website"
                 },
                 {
-                    "identifier": "Recorded Future MCP",
+                    "identifier": "KeeperDB",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Keeper AD / LDAP Bridge",
                     "type": "api"
+                },
+                {
+                    "identifier": "Keeper Gateway",
+                    "type": "api"
+                },
+                {
+                    "identifier": "SSO Connect Cloud and Automator Service",
+                    "type": "api"
+                },
+                {
+                    "identifier": "SSO Connect On-Prem",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Keeper Commander CLI/SDK",
+                    "type": "api"
+                },
+                {
+                    "identifier": "KeeperChat for Windows",
+                    "type": "other"
+                },
+                {
+                    "identifier": "KeeperChat for iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "KeeperChat for Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "KeeperChat for Mac",
+                    "type": "other"
                 }
             ],
             "out_of_scope": []
@@ -9967,218 +10179,6 @@
                 {
                     "identifier": "Creation of support tickets",
                     "type": "website"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/keepersecurity",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Keeper Browser Extension (Chrome, Safari, Firefox, Edge)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Keeper Desktop App for Mac, PC, Linux",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Keeper Web Vault (US, EU, AU, CA, JP, GovCloud)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Keeper for iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Keeper for Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Keeper Enterprise",
-                    "type": "website"
-                },
-                {
-                    "identifier": "KeeperPAM Privileged Access Manager",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Keeper Connection Manager (KCM)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Keeper Secrets Manager SDK",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Keeper Endpoint Privilege Manager",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Keeper Admin Console (US, EU, AU, CA, JP, GovCloud)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Keeper Security Website",
-                    "type": "website"
-                },
-                {
-                    "identifier": "KeeperDB",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Keeper AD / LDAP Bridge",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Keeper Gateway",
-                    "type": "api"
-                },
-                {
-                    "identifier": "SSO Connect Cloud and Automator Service",
-                    "type": "api"
-                },
-                {
-                    "identifier": "SSO Connect On-Prem",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Keeper Commander CLI/SDK",
-                    "type": "api"
-                },
-                {
-                    "identifier": "KeeperChat for Windows",
-                    "type": "other"
-                },
-                {
-                    "identifier": "KeeperChat for iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "KeeperChat for Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "KeeperChat for Mac",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/carrefour",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Carrefour UAE iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Carrefour UAE Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "carrefouruae.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://api-prod.retailsso.com",
-                    "type": "api"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "https://cwingsfe.mafrservices.com/login",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/glassdoor-ogbb",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://api.glassdoor.com/*",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://www.glassdoor.com/*",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://www.glassdoor.com/member/*",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://www.glassdoor.com/employers/ec/*",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://www.glassdoor.com/Job/*",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.glassdoor.com/Reviews/*",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.glassdoor.com/Compare/*",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.glassdoor.com/mz-survey/*",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.glassdoor.com/Salaries/*",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Fishbowl",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://api.fishbowlapp.com/*",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Fishbowl - Android App",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Fishbowl - iOS ",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Glassdoor iOS App",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Glassdoor Android App",
-                    "type": "android"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "Glassdoor Help Page ",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Glassdoor Design Page",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Glassdoor Blog",
-                    "type": "other"
                 }
             ]
         }
@@ -11059,53 +11059,6 @@
         }
     },
     {
-        "handle": "engagements/acorns",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.acorns.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Acorns for iOS",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://graphql.acorns.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Acorns for Android",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://www.gohenry.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.pixpay.fr/",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "share.acorns.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "grow.acorns.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "store.acorns.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/majidalfuttaim-loyalty",
         "bounty": 1,
         "active": 1,
@@ -11221,6 +11174,53 @@
                 }
             ],
             "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/acorns",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.acorns.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Acorns for iOS",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://graphql.acorns.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Acorns for Android",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://www.gohenry.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.pixpay.fr/",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "share.acorns.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "grow.acorns.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "store.acorns.com",
+                    "type": "website"
+                }
+            ]
         }
     },
     {
@@ -13695,461 +13695,6 @@
         }
     },
     {
-        "handle": "engagements/opera",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "auth.opera.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "accounts.opera.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "flow.opera.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "autoupdate.geo.opera.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "net.geo.opera.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "download.opera.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "speeddials.opera.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "browser-notifications.opera.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "www.opera.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Opera PC",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Opera GX",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Opera Neon",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Opera Air",
-                    "type": "other"
-                },
-                {
-                    "identifier": "get.geo.opera.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Opera Mini",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Apex Football",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Opera for Android ",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Opera News",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Opera GX for Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Opera for iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Opera GX for iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "MiniPay",
-                    "type": "android"
-                },
-                {
-                    "identifier": "cryptowallet.opera-api.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "suggestions.opera-api.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.opera.software",
-                    "type": "other"
-                },
-                {
-                    "identifier": "weather.opera-api.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "push.opera.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.osp.opera.software",
-                    "type": "api"
-                },
-                {
-                    "identifier": "bugs.opera.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.opera.technology",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://gx.games",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://create.gx.games",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://gx.me",
-                    "type": "website"
-                },
-                {
-                    "identifier": "features.opera-api.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "cdn-store.opera-api.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.sec-tunnel.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.opera.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "exchange.opera.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "merchandise.opera-api.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "blocklist.opera-api.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "gx.opera-api.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "37.228.104.0/21",
-                    "type": "api"
-                },
-                {
-                    "identifier": "77.111.244.0/22",
-                    "type": "api"
-                },
-                {
-                    "identifier": "82.145.208.0/20",
-                    "type": "api"
-                },
-                {
-                    "identifier": "91.203.96.0/22",
-                    "type": "api"
-                },
-                {
-                    "identifier": "102.23.96.0/22",
-                    "type": "api"
-                },
-                {
-                    "identifier": "103.83.120.0/22",
-                    "type": "api"
-                },
-                {
-                    "identifier": "107.167.96.0/19",
-                    "type": "api"
-                },
-                {
-                    "identifier": "141.0.8.0/21",
-                    "type": "api"
-                },
-                {
-                    "identifier": "185.26.180.0/22",
-                    "type": "api"
-                },
-                {
-                    "identifier": "195.189.143.0/24",
-                    "type": "api"
-                },
-                {
-                    "identifier": "203.89.100.0/22",
-                    "type": "api"
-                },
-                {
-                    "identifier": "marketplace.gamemaker.io",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.opera-mini.net",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.opera.news",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.operanewsapp.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "GameMaker Studio 2",
-                    "type": "other"
-                },
-                {
-                    "identifier": "*.yoyogames.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "www.gamemaker.io",
-                    "type": "website"
-                },
-                {
-                    "identifier": "cashback.opera.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.apex-football.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.operafootball.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.feednews.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.dailyadvent.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "api.gx.games/gxc",
-                    "type": "api"
-                },
-                {
-                    "identifier": "api.gx.games/dc",
-                    "type": "api"
-                },
-                {
-                    "identifier": "api.gx.games/dev ",
-                    "type": "api"
-                },
-                {
-                    "identifier": "api.gx.games/profile",
-                    "type": "api"
-                },
-                {
-                    "identifier": "api.gx.games/session",
-                    "type": "api"
-                },
-                {
-                    "identifier": "api.gx.games/gms",
-                    "type": "api"
-                },
-                {
-                    "identifier": "api.gx.games/gx",
-                    "type": "api"
-                },
-                {
-                    "identifier": "api.gx.games/pub",
-                    "type": "api"
-                },
-                {
-                    "identifier": "api.gx.me/me",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.apexnews.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.apexscores.io",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.opr.news",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.osite99.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.savi.xyz",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.rtbscale.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "ofp.adx.opera.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "ofa.adx.opera.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "cms.adx.opera.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "auth-adx.op-mobile.opera.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.adx.opera.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "operaneon.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "api.neon.opera.com/neon/pub",
-                    "type": "api"
-                },
-                {
-                    "identifier": "api.neon.opera.com/neon/store",
-                    "type": "api"
-                },
-                {
-                    "identifier": "api.neon.opera.com/pub",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://neon.opera.com/cards/",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "concurso.opera.com ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "investor.opera.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "help.yoyogames.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "bugs.yoyogames.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "admanager.opera.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "accountsstage.yoyogames.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "control.gx-servers.opera.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "help.gx-servers.opera.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "verizon-us-seattle.opera-mini.net",
-                    "type": "website"
-                },
-                {
-                    "identifier": "s2{1,2}-05-08-v09.opera-mini.net",
-                    "type": "website"
-                },
-                {
-                    "identifier": "verizon-us-lvs-seattle.opera-mini.net",
-                    "type": "website"
-                },
-                {
-                    "identifier": "107.167.127.4{0,1}",
-                    "type": "website"
-                },
-                {
-                    "identifier": "jobs.opera.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "verizon-us-lvs-ashburn.opera-mini.net",
-                    "type": "website"
-                },
-                {
-                    "identifier": "interstitial.opera-mini.net",
-                    "type": "api"
-                },
-                {
-                    "identifier": "certs.opera.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "checkout.opera.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "contest.opera.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "catch.opera.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "wallpaper.opera.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "tabfulness.opera.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "32s.opera.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/seek",
         "bounty": 1,
         "active": 1,
@@ -15053,6 +14598,461 @@
                 }
             ],
             "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/opera",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "auth.opera.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "accounts.opera.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "flow.opera.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "autoupdate.geo.opera.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "net.geo.opera.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "download.opera.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "speeddials.opera.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "browser-notifications.opera.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "www.opera.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Opera PC",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Opera GX",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Opera Neon",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Opera Air",
+                    "type": "other"
+                },
+                {
+                    "identifier": "get.geo.opera.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Opera Mini",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Apex Football",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Opera for Android ",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Opera News",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Opera GX for Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Opera for iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Opera GX for iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "MiniPay",
+                    "type": "android"
+                },
+                {
+                    "identifier": "cryptowallet.opera-api.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "suggestions.opera-api.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.opera.software",
+                    "type": "other"
+                },
+                {
+                    "identifier": "weather.opera-api.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "push.opera.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.osp.opera.software",
+                    "type": "api"
+                },
+                {
+                    "identifier": "bugs.opera.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.opera.technology",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://gx.games",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://create.gx.games",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://gx.me",
+                    "type": "website"
+                },
+                {
+                    "identifier": "features.opera-api.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "cdn-store.opera-api.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.sec-tunnel.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.opera.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "exchange.opera.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "merchandise.opera-api.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "blocklist.opera-api.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "gx.opera-api.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "37.228.104.0/21",
+                    "type": "api"
+                },
+                {
+                    "identifier": "77.111.244.0/22",
+                    "type": "api"
+                },
+                {
+                    "identifier": "82.145.208.0/20",
+                    "type": "api"
+                },
+                {
+                    "identifier": "91.203.96.0/22",
+                    "type": "api"
+                },
+                {
+                    "identifier": "102.23.96.0/22",
+                    "type": "api"
+                },
+                {
+                    "identifier": "103.83.120.0/22",
+                    "type": "api"
+                },
+                {
+                    "identifier": "107.167.96.0/19",
+                    "type": "api"
+                },
+                {
+                    "identifier": "141.0.8.0/21",
+                    "type": "api"
+                },
+                {
+                    "identifier": "185.26.180.0/22",
+                    "type": "api"
+                },
+                {
+                    "identifier": "195.189.143.0/24",
+                    "type": "api"
+                },
+                {
+                    "identifier": "203.89.100.0/22",
+                    "type": "api"
+                },
+                {
+                    "identifier": "marketplace.gamemaker.io",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.opera-mini.net",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.opera.news",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.operanewsapp.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "GameMaker Studio 2",
+                    "type": "other"
+                },
+                {
+                    "identifier": "*.yoyogames.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "www.gamemaker.io",
+                    "type": "website"
+                },
+                {
+                    "identifier": "cashback.opera.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.apex-football.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.operafootball.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.feednews.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.dailyadvent.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "api.gx.games/gxc",
+                    "type": "api"
+                },
+                {
+                    "identifier": "api.gx.games/dc",
+                    "type": "api"
+                },
+                {
+                    "identifier": "api.gx.games/dev ",
+                    "type": "api"
+                },
+                {
+                    "identifier": "api.gx.games/profile",
+                    "type": "api"
+                },
+                {
+                    "identifier": "api.gx.games/session",
+                    "type": "api"
+                },
+                {
+                    "identifier": "api.gx.games/gms",
+                    "type": "api"
+                },
+                {
+                    "identifier": "api.gx.games/gx",
+                    "type": "api"
+                },
+                {
+                    "identifier": "api.gx.games/pub",
+                    "type": "api"
+                },
+                {
+                    "identifier": "api.gx.me/me",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.apexnews.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.apexscores.io",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.opr.news",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.osite99.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.savi.xyz",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.rtbscale.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "ofp.adx.opera.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "ofa.adx.opera.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "cms.adx.opera.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "auth-adx.op-mobile.opera.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.adx.opera.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "operaneon.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "api.neon.opera.com/neon/pub",
+                    "type": "api"
+                },
+                {
+                    "identifier": "api.neon.opera.com/neon/store",
+                    "type": "api"
+                },
+                {
+                    "identifier": "api.neon.opera.com/pub",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://neon.opera.com/cards/",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "concurso.opera.com ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "investor.opera.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "help.yoyogames.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "bugs.yoyogames.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "admanager.opera.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "accountsstage.yoyogames.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "control.gx-servers.opera.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "help.gx-servers.opera.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "verizon-us-seattle.opera-mini.net",
+                    "type": "website"
+                },
+                {
+                    "identifier": "s2{1,2}-05-08-v09.opera-mini.net",
+                    "type": "website"
+                },
+                {
+                    "identifier": "verizon-us-lvs-seattle.opera-mini.net",
+                    "type": "website"
+                },
+                {
+                    "identifier": "107.167.127.4{0,1}",
+                    "type": "website"
+                },
+                {
+                    "identifier": "jobs.opera.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "verizon-us-lvs-ashburn.opera-mini.net",
+                    "type": "website"
+                },
+                {
+                    "identifier": "interstitial.opera-mini.net",
+                    "type": "api"
+                },
+                {
+                    "identifier": "certs.opera.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "checkout.opera.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "contest.opera.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "catch.opera.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "wallpaper.opera.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "tabfulness.opera.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "32s.opera.com",
+                    "type": "website"
+                }
+            ]
         }
     },
     {
@@ -16727,83 +16727,6 @@
         }
     },
     {
-        "handle": "engagements/kucoin",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://kucoin.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.kucoin.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Kucoin IOS App",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Kucoin Android",
-                    "type": "android"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "support.kucoin.plus",
-                    "type": "website"
-                },
-                {
-                    "identifier": "store.kucoin.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "docs.kucoin.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "intro.kucoin.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "cert.kucoin.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "sandbox.kucoin.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "passport.kucoin.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*-sdb.kucoin.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*-sandbox.kucoin.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/pexels",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.pexels.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/statuspage",
         "bounty": 1,
         "active": 1,
@@ -17350,73 +17273,6 @@
         }
     },
     {
-        "handle": "engagements/octopus-og",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.octopus.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Octopus Deploy Git Repo",
-                    "type": "other"
-                },
-                {
-                    "identifier": "octopus.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": " partners.octopus.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.octopus.app",
-                    "type": "website"
-                },
-                {
-                    "identifier": "artifactorysample.octopus.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "bamboosample.octopus.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "jenkinssample.octopus.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "teamcitysample.octopus.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "nexussample.octopus.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "myget.octopus.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "trust.octopus.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "i.octopus.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "ir.octopus.com",
-                    "type": "other"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/smartchain-mbb-og",
         "bounty": 1,
         "active": 1,
@@ -17436,117 +17292,6 @@
                 }
             ],
             "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/tesla",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.tesla.cn",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.tesla.services",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Official Tesla iOS apps",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "*.tesla.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.teslamotors.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Any host verified to be owned by Tesla Motors Inc. (domains/IP space/etc.)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.solarcity.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.teslainsuranceservices.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Official Tesla Android apps",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Tesla Energy hardware you own",
-                    "type": "hardware"
-                },
-                {
-                    "identifier": "Tesla vehicle hardware that you own",
-                    "type": "hardware"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "employeefeedback.tesla.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "energysupport.tesla.com (you can report vulnerabilities to bugbounty.zoho.com)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "engage.tesla.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.engage.tesla.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "feedback.tesla.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "feedback.teslamotors.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "ir.tesla.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "ir.teslamotors.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "mkto.teslamotors.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "shop.eu.teslamotors.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "service.tesla.com/docs/*",
-                    "type": "website"
-                },
-                {
-                    "identifier": "service.tesla.cn/docs/*",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Any domains from acquisitions, such as maxwell.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Any other third-party websites hosted by non-Tesla entities",
-                    "type": "website"
-                }
-            ]
         }
     },
     {
@@ -17961,6 +17706,87 @@
         }
     },
     {
+        "handle": "engagements/octopus-og",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.octopus.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Octopus Deploy Git Repo",
+                    "type": "other"
+                },
+                {
+                    "identifier": "octopus.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": " partners.octopus.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.octopus.app",
+                    "type": "website"
+                },
+                {
+                    "identifier": "artifactorysample.octopus.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "bamboosample.octopus.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "jenkinssample.octopus.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "teamcitysample.octopus.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "nexussample.octopus.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "myget.octopus.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "trust.octopus.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "i.octopus.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "ir.octopus.com",
+                    "type": "other"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/pexels",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.pexels.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
         "handle": "engagements/thefork-mbb-og",
         "bounty": 1,
         "active": 1,
@@ -18074,6 +17900,180 @@
                 },
                 {
                     "identifier": "https://www.lafourchette.com",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/kucoin",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://kucoin.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.kucoin.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Kucoin IOS App",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Kucoin Android",
+                    "type": "android"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "support.kucoin.plus",
+                    "type": "website"
+                },
+                {
+                    "identifier": "store.kucoin.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "docs.kucoin.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "intro.kucoin.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "cert.kucoin.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "sandbox.kucoin.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "passport.kucoin.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*-sdb.kucoin.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*-sandbox.kucoin.com",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/tesla",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.tesla.cn",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.tesla.services",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Official Tesla iOS apps",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "*.tesla.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.teslamotors.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Any host verified to be owned by Tesla Motors Inc. (domains/IP space/etc.)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.solarcity.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.teslainsuranceservices.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Official Tesla Android apps",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Tesla Energy hardware you own",
+                    "type": "hardware"
+                },
+                {
+                    "identifier": "Tesla vehicle hardware that you own",
+                    "type": "hardware"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "employeefeedback.tesla.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "energysupport.tesla.com (you can report vulnerabilities to bugbounty.zoho.com)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "engage.tesla.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.engage.tesla.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "feedback.tesla.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "feedback.teslamotors.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "ir.tesla.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "ir.teslamotors.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "mkto.teslamotors.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "shop.eu.teslamotors.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "service.tesla.com/docs/*",
+                    "type": "website"
+                },
+                {
+                    "identifier": "service.tesla.cn/docs/*",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Any domains from acquisitions, such as maxwell.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Any other third-party websites hosted by non-Tesla entities",
                     "type": "website"
                 }
             ]
