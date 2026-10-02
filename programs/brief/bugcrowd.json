@@ -6527,269 +6527,6 @@
         }
     },
     {
-        "handle": "engagements/atlassian",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Atlassian Guard Standard and Premium (https://admin.atlassian.com/atlassian-guard)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Atlassian Admin (https://admin.atlassian.com/)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Atlassian Identity (https://id.atlassian.com/login)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Atlassian Start (https://start.atlassian.com)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Bitbucket Cloud including Bitbucket Pipelines (https://bitbucket.org)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Confluence Cloud (bugbounty-test-<bugcrowd-name>.atlassian.net/wiki)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Confluence Cloud Premium (bugbounty-test-<bugcrowd-name>.atlassian.net/wiki)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Confluence Cloud Mobile App for Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Confluence Cloud Mobile App for iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Jira Cloud Mobile App for Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Jira Cloud Mobile App for iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Jira Service Management Cloud (bugbounty-test-<bugcrowd-name>.atlassian.net)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Jira Software Cloud (bugbounty-test-<bugcrowd-name>.atlassian.net)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Jira Work Management Cloud formerly Jira Core (bugbounty-test-<bugcrowd-name>.atlassian.net)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Any associated *.atlassian.com or *.atl-paas.net domain that can be exploited DIRECTLY from the *.atlassian.net instance",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Rovo",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Rovo Dev CLI",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Other Rovo Dev",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Atlassian MCP Server",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Atlassian Marketplace (https://marketplace.atlassian.com)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Atlassian Atlas",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.atlastunnel.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Any other *.atlassian.com or *.atl-paas.net domain that cannot be exploited directly from a *.atlassian.net instance",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.loom.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Loom Desktop App (Windows)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Loom Desktop App (macOS)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Loom for Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Loom for iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Loom Chrome Extension",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Atlassian Compass",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Bamboo",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Bitbucket Data Center",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Confluence Companion App for macOS and Windows",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Confluence Data Center Mobile App for Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Confluence Data Center Mobile App for iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Crucible",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Confluence Data Center",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Crowd",
-                    "type": "website"
-                },
-                {
-                    "identifier": "FishEye",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Jira Core Data Center",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Jira Data Center Mobile App for Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Jira Data Center Mobile App for iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Jira Product Discovery",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Jira Service Management Data Center",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Jira Software Data Center",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Sourcetree for macOS and Windows (https://www.sourcetreeapp.com/)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Other - (all other Atlassian targets)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Forge Platform",
-                    "type": "other"
-                },
-                {
-                    "identifier": "GraphQL API (bugbounty-test-<bugcrowd-name>.atlassian.net/gateway/api/graphql)",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://www.npmjs.com/package/@forge/cli",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "Any internal or development services.",
-                    "type": "website"
-                },
-                {
-                    "identifier": "First and third party apps and plugins from the marketplace are excluded from this bounty but may be in scope for https://bugcrowd.com/atlassianapps",
-                    "type": "website"
-                },
-                {
-                    "identifier": "shop.atlassian.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": " bytebucket.org",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.bitbucket.io",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://blog.bitbucket.org",
-                    "type": "website"
-                },
-                {
-                    "identifier": "HipChat (inc. HipChat Data Center, HipChat Desktop, HipChat Mobile)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Stride (inc. Stride Video, Stride Desktop, Stride Mobile)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "support.atlassian.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Any customer instance. Do not test customer instances or affect customer data. Customer cloud instances may be in the form of <customer>.atlassian.net or <customer>.jira.com. Test only your own instances.",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Any repository that you are not an owner of - do not impact Atlassian customers in any way.",
-                    "type": "website"
-                },
-                {
-                    "identifier": "support.loom.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "info.loom.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/browserstack-market",
         "bounty": 1,
         "active": 1,
@@ -7011,85 +6748,6 @@
             "out_of_scope": [
                 {
                     "identifier": "*.atlassian.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/classdojo",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "IoS App",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "https://api.classdojo.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Android App",
-                    "type": "android"
-                },
-                {
-                    "identifier": "https://teach.classdojo.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://student.classdojo.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.classdojo.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://home.classdojo.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://dev.tutoring.classdojo.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "wss://ws.multiplayer.classdojo.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://ticket.multiplayer.classdojo.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://clients.multiplayer.classdojo.com/launcher/prod/latest",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://monster-customizer.classdojo.com/cf6dfa68-1a81-4c6d-bc0b-38f3666b37d6/index.html",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.classdojo.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.classdojo.co.uk",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.doj.io",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.dojo.me",
-                    "type": "api"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "https://shop.classdojo.com",
                     "type": "website"
                 }
             ]
@@ -7405,29 +7063,6 @@
         }
     },
     {
-        "handle": "engagements/fis",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Any FIS asset is in scope",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.tdfitloan.com/#!/",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "Reference above out of scope targets",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/lightspeed-retail",
         "bounty": 1,
         "active": 0,
@@ -7589,80 +7224,6 @@
         }
     },
     {
-        "handle": "engagements/codefortynine",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://marketplace.atlassian.com/apps/1218652/deep-clone-for-jira?hosting=cloud",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://marketplace.atlassian.com/apps/1219514/merge-agent-for-jira?hosting=cloud",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://marketplace.atlassian.com/apps/1220136/quick-filters-for-jira-dashboards?hosting=cloud",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://marketplace.atlassian.com/apps/1219476/comment-custom-fields-for-jira?hosting=cloud",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://marketplace.atlassian.com/apps/1221733/external-data-for-confluence?hosting=cloud",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://marketplace.atlassian.com/apps/1219288/comment-history-log-for-jira?hosting=cloud",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://marketplace.atlassian.com/apps/1215055/slack-for-confluence?hosting=cloud",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://marketplace.atlassian.com/apps/1219807/version-sync-for-jira?hosting=cloud",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://marketplace.atlassian.com/apps/1220964/snipe-it-for-jira?hosting=cloud",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://marketplace.atlassian.com/apps/1218211/secure-google-calendar-for-confluence?hosting=cloud",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://marketplace.atlassian.com/apps/1219994/external-data-for-jira-fields?hosting=cloud",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://marketplace.atlassian.com/apps/1232630/external-data-for-jira-fields-extension?hosting=cloud",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://marketplace.atlassian.com/apps/1222978/dynamic-fields-for-jira?hosting=cloud",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://marketplace.atlassian.com/apps/1223455/advanced-bulk-edit-for-jira?hosting=cloud",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://marketplace.atlassian.com/apps/1226627/prime-custom-fields-for-jira?hosting=cloud",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://marketplace.atlassian.com/apps/1230689/easy-confluence-gadget-for-jira-dashboards?hosting=cloud",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/vr-group-mbb-og1",
         "bounty": 1,
         "active": 1,
@@ -7674,49 +7235,6 @@
                 }
             ],
             "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/clickhouse",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://clickhou.se/bugcrowd",
-                    "type": "website"
-                },
-                {
-                    "identifier": "ClickHouse Cloud environment hosted by ClickHouse",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://github.com/ClickHouse/ClickHouse",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://cloud.langfuse.com/",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "New support cases, Chat, Request new integration form",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Share feedback form",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Vulnerability scanners",
-                    "type": "website"
-                },
-                {
-                    "identifier": "learn.clickhouse.com",
-                    "type": "website"
-                }
-            ]
         }
     },
     {
@@ -8008,6 +7526,488 @@
                 },
                 {
                     "identifier": "Aiven Runtime",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/fis",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Any FIS asset is in scope",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.tdfitloan.com/#!/",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "Reference above out of scope targets",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/clickhouse",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://clickhou.se/bugcrowd",
+                    "type": "website"
+                },
+                {
+                    "identifier": "ClickHouse Cloud environment hosted by ClickHouse",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://github.com/ClickHouse/ClickHouse",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://cloud.langfuse.com/",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "New support cases, Chat, Request new integration form",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Share feedback form",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Vulnerability scanners",
+                    "type": "website"
+                },
+                {
+                    "identifier": "learn.clickhouse.com",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/codefortynine",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/1218652/deep-clone-for-jira?hosting=cloud",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/1219514/merge-agent-for-jira?hosting=cloud",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/1220136/quick-filters-for-jira-dashboards?hosting=cloud",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/1219476/comment-custom-fields-for-jira?hosting=cloud",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/1221733/external-data-for-confluence?hosting=cloud",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/1219288/comment-history-log-for-jira?hosting=cloud",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/1215055/slack-for-confluence?hosting=cloud",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/1219807/version-sync-for-jira?hosting=cloud",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/1220964/snipe-it-for-jira?hosting=cloud",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/1218211/secure-google-calendar-for-confluence?hosting=cloud",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/1219994/external-data-for-jira-fields?hosting=cloud",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/1232630/external-data-for-jira-fields-extension?hosting=cloud",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/1222978/dynamic-fields-for-jira?hosting=cloud",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/1223455/advanced-bulk-edit-for-jira?hosting=cloud",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/1226627/prime-custom-fields-for-jira?hosting=cloud",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/1230689/easy-confluence-gadget-for-jira-dashboards?hosting=cloud",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/classdojo",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "IoS App",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "https://api.classdojo.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Android App",
+                    "type": "android"
+                },
+                {
+                    "identifier": "https://teach.classdojo.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://student.classdojo.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.classdojo.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://home.classdojo.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://dev.tutoring.classdojo.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "wss://ws.multiplayer.classdojo.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://ticket.multiplayer.classdojo.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://clients.multiplayer.classdojo.com/launcher/prod/latest",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://monster-customizer.classdojo.com/cf6dfa68-1a81-4c6d-bc0b-38f3666b37d6/index.html",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.classdojo.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.classdojo.co.uk",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.doj.io",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.dojo.me",
+                    "type": "api"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "https://shop.classdojo.com",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/atlassian",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Atlassian Guard Standard and Premium (https://admin.atlassian.com/atlassian-guard)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Atlassian Admin (https://admin.atlassian.com/)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Atlassian Identity (https://id.atlassian.com/login)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Atlassian Start (https://start.atlassian.com)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Bitbucket Cloud including Bitbucket Pipelines (https://bitbucket.org)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Confluence Cloud (bugbounty-test-<bugcrowd-name>.atlassian.net/wiki)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Confluence Cloud Premium (bugbounty-test-<bugcrowd-name>.atlassian.net/wiki)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Confluence Cloud Mobile App for Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Confluence Cloud Mobile App for iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Jira Cloud Mobile App for Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Jira Cloud Mobile App for iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Jira Service Management Cloud (bugbounty-test-<bugcrowd-name>.atlassian.net)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Jira Software Cloud (bugbounty-test-<bugcrowd-name>.atlassian.net)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Jira Work Management Cloud formerly Jira Core (bugbounty-test-<bugcrowd-name>.atlassian.net)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Any associated *.atlassian.com or *.atl-paas.net domain that can be exploited DIRECTLY from the *.atlassian.net instance",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Rovo",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Rovo Dev CLI",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Other Rovo Dev",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Atlassian MCP Server",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Atlassian Marketplace (https://marketplace.atlassian.com)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Atlassian Atlas",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.atlastunnel.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Any other *.atlassian.com or *.atl-paas.net domain that cannot be exploited directly from a *.atlassian.net instance",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.loom.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Loom Desktop App (Windows)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Loom Desktop App (macOS)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Loom for Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Loom for iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Loom Chrome Extension",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Atlassian Compass",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Bamboo",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Bitbucket Data Center",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Confluence Companion App for macOS and Windows",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Confluence Data Center Mobile App for Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Confluence Data Center Mobile App for iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Crucible",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Confluence Data Center",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Crowd",
+                    "type": "website"
+                },
+                {
+                    "identifier": "FishEye",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Jira Core Data Center",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Jira Data Center Mobile App for Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Jira Data Center Mobile App for iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Jira Product Discovery",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Jira Service Management Data Center",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Jira Software Data Center",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Sourcetree for macOS and Windows (https://www.sourcetreeapp.com/)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Other - (all other Atlassian targets)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Forge Platform",
+                    "type": "other"
+                },
+                {
+                    "identifier": "GraphQL API (bugbounty-test-<bugcrowd-name>.atlassian.net/gateway/api/graphql)",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://www.npmjs.com/package/@forge/cli",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "Any internal or development services.",
+                    "type": "website"
+                },
+                {
+                    "identifier": "First and third party apps and plugins from the marketplace are excluded from this bounty but may be in scope for https://bugcrowd.com/atlassianapps",
+                    "type": "website"
+                },
+                {
+                    "identifier": "shop.atlassian.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": " bytebucket.org",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.bitbucket.io",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://blog.bitbucket.org",
+                    "type": "website"
+                },
+                {
+                    "identifier": "HipChat (inc. HipChat Data Center, HipChat Desktop, HipChat Mobile)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Stride (inc. Stride Video, Stride Desktop, Stride Mobile)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "support.atlassian.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Any customer instance. Do not test customer instances or affect customer data. Customer cloud instances may be in the form of <customer>.atlassian.net or <customer>.jira.com. Test only your own instances.",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Any repository that you are not an owner of - do not impact Atlassian customers in any way.",
+                    "type": "website"
+                },
+                {
+                    "identifier": "support.loom.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "info.loom.com",
                     "type": "website"
                 }
             ]
@@ -11430,6 +11430,84 @@
         }
     },
     {
+        "handle": "engagements/indeed",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.indeed.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.indeedflex.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://apis.indeed.com/graphql",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Indeed Job Search Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Indeed Job Search iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Android Indeed Flex App",
+                    "type": "android"
+                },
+                {
+                    "identifier": "iOS Indeed Flex App",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Career Scout",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.indeed.tech",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.indeed.net",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://resume.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://wowjobs.ca",
+                    "type": "website"
+                },
+                {
+                    "identifier": "\u5c65\u6b74\u66f8\u4f5c\u6210 (Universal Resume) iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "\u5c65\u6b74\u66f8\u4f5c\u6210 (Universal Resume) Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Indeed Connect for Employers",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Indeed Recruiter Extension (Chrome)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Any host/web property/mobile app verified to be owned by Indeed",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
         "handle": "engagements/mastercard",
         "bounty": 1,
         "active": 1,
@@ -11521,84 +11599,6 @@
                 },
                 {
                     "identifier": "Public Others Target",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/indeed",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.indeed.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.indeedflex.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://apis.indeed.com/graphql",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Indeed Job Search Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Indeed Job Search iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Android Indeed Flex App",
-                    "type": "android"
-                },
-                {
-                    "identifier": "iOS Indeed Flex App",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Career Scout",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.indeed.tech",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.indeed.net",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://resume.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://wowjobs.ca",
-                    "type": "website"
-                },
-                {
-                    "identifier": "\u5c65\u6b74\u66f8\u4f5c\u6210 (Universal Resume) iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "\u5c65\u6b74\u66f8\u4f5c\u6210 (Universal Resume) Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Indeed Connect for Employers",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Indeed Recruiter Extension (Chrome)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Any host/web property/mobile app verified to be owned by Indeed",
                     "type": "other"
                 }
             ],
@@ -12253,24 +12253,6 @@
         }
     },
     {
-        "handle": "engagements/unisys-mbb-og",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.unisys.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.unifysquare.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/volkswagen-vwfs-mbb-og",
         "bounty": 1,
         "active": 1,
@@ -12402,105 +12384,6 @@
                 },
                 {
                     "identifier": "store.acorns.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/lululemon",
-        "bounty": 1,
-        "active": 0,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "shop.lululemon.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.lululemon.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Lululemon Mobile App - iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "https://www.lululemon.com.au",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.lululemon.de",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.lululemon.es",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.eu.lululemon.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.lululemon.fr",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.lululemon.com.hk",
-                    "type": "website"
-                },
-                {
-                    "identifier": "http://www.lululemon.co.jp",
-                    "type": "website"
-                },
-                {
-                    "identifier": "http://www.lululemon.co.kr",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.lululemon.co.nz",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.lululemon.co.uk",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "*.lululemon.cn",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://fr.shop.lululemon.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.lululemon.me",
-                    "type": "website"
-                },
-                {
-                    "identifier": "careers.lululemon.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://info.lululemon.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://pnimages.lululemon.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "AEM - Assets",
-                    "type": "website"
-                },
-                {
-                    "identifier": "AEM - Sites",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.mirror.co",
                     "type": "website"
                 }
             ]
@@ -13145,6 +13028,123 @@
                 },
                 {
                     "identifier": "http://arcanitegames.ca/",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/lululemon",
+        "bounty": 1,
+        "active": 0,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "shop.lululemon.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.lululemon.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Lululemon Mobile App - iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "https://www.lululemon.com.au",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.lululemon.de",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.lululemon.es",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.eu.lululemon.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.lululemon.fr",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.lululemon.com.hk",
+                    "type": "website"
+                },
+                {
+                    "identifier": "http://www.lululemon.co.jp",
+                    "type": "website"
+                },
+                {
+                    "identifier": "http://www.lululemon.co.kr",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.lululemon.co.nz",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.lululemon.co.uk",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "*.lululemon.cn",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://fr.shop.lululemon.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.lululemon.me",
+                    "type": "website"
+                },
+                {
+                    "identifier": "careers.lululemon.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://info.lululemon.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://pnimages.lululemon.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "AEM - Assets",
+                    "type": "website"
+                },
+                {
+                    "identifier": "AEM - Sites",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.mirror.co",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/unisys-mbb-og",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.unisys.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.unifysquare.com",
                     "type": "website"
                 }
             ],
@@ -13878,89 +13878,6 @@
         }
     },
     {
-        "handle": "engagements/lastpass",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://lastpass.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "LastPass browser extensions (Chrome / Safari / Edge / Firefox)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Local computer apps (UWP application / Windows installer (MSI) / MacOS)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://support.lastpass.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Workstation MFA (WMFA)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://blog.lastpass.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://admin.lastpass.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://auth.lastpass.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://accounts.lastpass.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.lastpass.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "LastPass Password Manager (Android)",
-                    "type": "android"
-                },
-                {
-                    "identifier": "LastPass Authenticator (Android)",
-                    "type": "android"
-                },
-                {
-                    "identifier": "LastPass Password Manager (iOS)",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "LastPass Authenticator (iOS)",
-                    "type": "ios"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "https://identity.lastpass.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Lastpass CLI tool",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://info.lastpass.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://forums.lastpass.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/blofin-crypto-mbb-og",
         "bounty": 1,
         "active": 1,
@@ -14100,44 +14017,6 @@
         }
     },
     {
-        "handle": "engagements/plugin-people",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "[Cloud] Enterprise Mail Handler (JEMHC) for Jira Cloud",
-                    "type": "website"
-                },
-                {
-                    "identifier": "[DC] Enterprise Mail Handler (JEMH) for Jira",
-                    "type": "website"
-                },
-                {
-                    "identifier": "[Cloud] Custom Space User Management (CSUM) for Confluence Cloud",
-                    "type": "website"
-                },
-                {
-                    "identifier": "[DC] Custom Space User Management (CSUM)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "[DC] Latex for Confluence",
-                    "type": "website"
-                },
-                {
-                    "identifier": "[DC] Switch User (SU) for Jira",
-                    "type": "website"
-                },
-                {
-                    "identifier": "[DC] Switch User (SU) for Confluence",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "engagements/bullish-exchange",
         "bounty": 1,
         "active": 1,
@@ -14188,260 +14067,6 @@
                 }
             ],
             "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/soundcloud",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "SoundCloud Android app",
-                    "type": "android"
-                },
-                {
-                    "identifier": "soundcloud.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.soundcloud.org",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.s-cloud.net",
-                    "type": "website"
-                },
-                {
-                    "identifier": "SoundCloud iOS app",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "*.soundcloud.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.services.repostnetwork.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "api-*.soundcloud.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "artists.soundcloud.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "soundcloud.org",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "blog.soundcloud.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "status.soundcloud.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "help.soundcloud.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": " community.soundcloud.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "copyright.soundcloud.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "advertising.soundcloud.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "soundcloudmail.com",
-                    "type": "other"
-                },
-                {
-                    "identifier": "press.soundcloud.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "scdrops.soundcloud.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "promote.soundcloud.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "contest.soundcloud.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "playback.soundcloud.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "jobs.soundcloud.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "playerone.soundcloud.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "support.soundcloud.org",
-                    "type": "website"
-                },
-                {
-                    "identifier": "secdomaintest.soundcloud.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "firston.soundcloud.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/simplisafe",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "bb1.simplisafe.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "bb2.simplisafe.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "cb.simplisafe.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "api.simplisafe.com (HSP Endpoints)",
-                    "type": "api"
-                },
-                {
-                    "identifier": "api.services.simplisafe.com (HSP Endpoints)",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.prd.cam.simplisafe.com (HSP Endpoints)",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.prd.platform.simplisafe.com (HSP Endpoints)",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.prd.services.simplisafe.com (HSP Endpoints)",
-                    "type": "api"
-                },
-                {
-                    "identifier": "SimpliSafe Customer Webapp - US",
-                    "type": "website"
-                },
-                {
-                    "identifier": "SimpliSafe Customer Webapp - UK",
-                    "type": "website"
-                },
-                {
-                    "identifier": "SimpliSafe Customer iOS App",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "SimpliSafe Customer Android App",
-                    "type": "android"
-                },
-                {
-                    "identifier": "mfa.simplisafe.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.prd.aser.simplisafe.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.prd.webapps.simplisafe.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "api.simplisafe.com (App Endpoints)",
-                    "type": "api"
-                },
-                {
-                    "identifier": "api.services.simplisafe.com (App Endpoints)",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.prd.services.simplisafe.com (App Endpoints)",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.prd.platform.simplisafe.com (App Endpoints)",
-                    "type": "api"
-                },
-                {
-                    "identifier": "media.simplisafe.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.prd.cam.simplisafe.com (App Endpoints)",
-                    "type": "api"
-                },
-                {
-                    "identifier": "SimpliSafe Website - US",
-                    "type": "website"
-                },
-                {
-                    "identifier": "SimpliSafe Website - UK",
-                    "type": "website"
-                },
-                {
-                    "identifier": "api.prd.commerce.simplisafe.com",
-                    "type": "api"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "auth.simplisafe.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "careers.simplisafe.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "clicks.simplisafe.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "library.simplisafe.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "livechat.simplisafe.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "press.simplisafe.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "support.simplisafe.com",
-                    "type": "website"
-                }
-            ]
         }
     },
     {
@@ -14571,109 +14196,6 @@
                 {
                     "identifier": "community.linktr.ee",
                     "type": "website"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/twentyminuten",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://www.20min.ch",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://cm.20min.ch/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://api.20min.ch/",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://videoplayer.20min.ch",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://partner-feeds.20min.ch",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://screenplayer.20min.ch",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://audio.20min.ch",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "https://tgt.tamedia.ch",
-                    "type": "api"
-                },
-                {
-                    "identifier": "http://auth.20min.ch",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://cre-api.tamedia.ch",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://track.20min.ch",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Social Media Links (older than 2 years)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Subdomain Takeover ",
-                    "type": "other"
-                },
-                {
-                    "identifier": "DMARC, SPF, DKIM",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://*.connect.ringier.ch",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.onelog.ch",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.20min-tv.ch",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.newsnetz.tv",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.appuser.ch",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.iagentur.ch",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.streamboat.ch",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.streamboatserver.ch",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Other Domains and Subdomains not specifically in scope",
-                    "type": "other"
                 }
             ]
         }
@@ -15030,119 +14552,6 @@
         }
     },
     {
-        "handle": "engagements/pinterest",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "api.pinterest.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.pinterest.com Web Apps",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Pinterest iOS Mobile Application",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Pinterest Android Mobile Application",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Pinterest Lite Android Mobile Application",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Chrome extension (download at: chrome.google.com/webstore/detail/pinterest-save-button/gpdjojdkbbmdfjfahjcgigfpmkopogic?hl=en)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Edge extension (download at: https://microsoftedge.microsoft.com/addons/detail/pinterest-save-button/bkgoflemacdadndiohhdnphcmdhacabg)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Firefox extension (download at:   https://addons.mozilla.org/firefox/addon/pinterest/)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Safari extension (download at: https://apps.apple.com/us/app/save-to-pinterest/id6473649042)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Open source projects(non-forked) listed at github.com/pinterest/",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://www.shffls.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Shuffles App for Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Shuffles App for iOS",
-                    "type": "ios"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/hutgroup-public",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://*.cultbeauty.co.uk/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.lookfantastic.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.myprotein.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.myvitamins.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.arrowfilms.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.mankind.co.uk/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.illamasqua.com/",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://www.matalan.co.uk",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://*.enjoyselfish.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "https://www.myprotein.com.tr/",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/flourish",
         "bounty": 1,
         "active": 1,
@@ -15208,6 +14617,289 @@
         }
     },
     {
+        "handle": "engagements/backblaze",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Backblaze Android mobile application",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Backblaze iOS mobile application",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Mac Personal Backup Clients",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Windows Personal Backup Clients",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Mac Restore Downloaders",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Windows Restore Downloaders",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Git Repositories (b2-sdk-java & B2 Command Line Tool)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "B2 APIs (*.backblazeb2.com)",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Backblaze Website (*.backblaze.com)",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/twentyminuten",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://www.20min.ch",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://cm.20min.ch/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://api.20min.ch/",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://videoplayer.20min.ch",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://partner-feeds.20min.ch",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://screenplayer.20min.ch",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://audio.20min.ch",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "https://tgt.tamedia.ch",
+                    "type": "api"
+                },
+                {
+                    "identifier": "http://auth.20min.ch",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://cre-api.tamedia.ch",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://track.20min.ch",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Social Media Links (older than 2 years)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Subdomain Takeover ",
+                    "type": "other"
+                },
+                {
+                    "identifier": "DMARC, SPF, DKIM",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://*.connect.ringier.ch",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.onelog.ch",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.20min-tv.ch",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.newsnetz.tv",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.appuser.ch",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.iagentur.ch",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.streamboat.ch",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.streamboatserver.ch",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Other Domains and Subdomains not specifically in scope",
+                    "type": "other"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/lastpass",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://lastpass.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "LastPass browser extensions (Chrome / Safari / Edge / Firefox)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Local computer apps (UWP application / Windows installer (MSI) / MacOS)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://support.lastpass.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Workstation MFA (WMFA)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://blog.lastpass.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://admin.lastpass.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://auth.lastpass.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://accounts.lastpass.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.lastpass.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "LastPass Password Manager (Android)",
+                    "type": "android"
+                },
+                {
+                    "identifier": "LastPass Authenticator (Android)",
+                    "type": "android"
+                },
+                {
+                    "identifier": "LastPass Password Manager (iOS)",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "LastPass Authenticator (iOS)",
+                    "type": "ios"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "https://identity.lastpass.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Lastpass CLI tool",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://info.lastpass.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://forums.lastpass.com",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/hutgroup-public",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://*.cultbeauty.co.uk/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.lookfantastic.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.myprotein.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.myvitamins.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.arrowfilms.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.mankind.co.uk/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.illamasqua.com/",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://www.matalan.co.uk",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://*.enjoyselfish.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "https://www.myprotein.com.tr/",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
         "handle": "engagements/navan",
         "bounty": 1,
         "active": 0,
@@ -15222,6 +14914,360 @@
                 {
                     "identifier": "tripactions.com",
                     "type": "other"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/simplisafe",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "bb1.simplisafe.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "bb2.simplisafe.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "cb.simplisafe.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "api.simplisafe.com (HSP Endpoints)",
+                    "type": "api"
+                },
+                {
+                    "identifier": "api.services.simplisafe.com (HSP Endpoints)",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.prd.cam.simplisafe.com (HSP Endpoints)",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.prd.platform.simplisafe.com (HSP Endpoints)",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.prd.services.simplisafe.com (HSP Endpoints)",
+                    "type": "api"
+                },
+                {
+                    "identifier": "SimpliSafe Customer Webapp - US",
+                    "type": "website"
+                },
+                {
+                    "identifier": "SimpliSafe Customer Webapp - UK",
+                    "type": "website"
+                },
+                {
+                    "identifier": "SimpliSafe Customer iOS App",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "SimpliSafe Customer Android App",
+                    "type": "android"
+                },
+                {
+                    "identifier": "mfa.simplisafe.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.prd.aser.simplisafe.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.prd.webapps.simplisafe.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "api.simplisafe.com (App Endpoints)",
+                    "type": "api"
+                },
+                {
+                    "identifier": "api.services.simplisafe.com (App Endpoints)",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.prd.services.simplisafe.com (App Endpoints)",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.prd.platform.simplisafe.com (App Endpoints)",
+                    "type": "api"
+                },
+                {
+                    "identifier": "media.simplisafe.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.prd.cam.simplisafe.com (App Endpoints)",
+                    "type": "api"
+                },
+                {
+                    "identifier": "SimpliSafe Website - US",
+                    "type": "website"
+                },
+                {
+                    "identifier": "SimpliSafe Website - UK",
+                    "type": "website"
+                },
+                {
+                    "identifier": "api.prd.commerce.simplisafe.com",
+                    "type": "api"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "auth.simplisafe.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "careers.simplisafe.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "clicks.simplisafe.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "library.simplisafe.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "livechat.simplisafe.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "press.simplisafe.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "support.simplisafe.com",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/plugin-people",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "[Cloud] Enterprise Mail Handler (JEMHC) for Jira Cloud",
+                    "type": "website"
+                },
+                {
+                    "identifier": "[DC] Enterprise Mail Handler (JEMH) for Jira",
+                    "type": "website"
+                },
+                {
+                    "identifier": "[Cloud] Custom Space User Management (CSUM) for Confluence Cloud",
+                    "type": "website"
+                },
+                {
+                    "identifier": "[DC] Custom Space User Management (CSUM)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "[DC] Latex for Confluence",
+                    "type": "website"
+                },
+                {
+                    "identifier": "[DC] Switch User (SU) for Jira",
+                    "type": "website"
+                },
+                {
+                    "identifier": "[DC] Switch User (SU) for Confluence",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/pinterest",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "api.pinterest.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.pinterest.com Web Apps",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Pinterest iOS Mobile Application",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Pinterest Android Mobile Application",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Pinterest Lite Android Mobile Application",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Chrome extension (download at: chrome.google.com/webstore/detail/pinterest-save-button/gpdjojdkbbmdfjfahjcgigfpmkopogic?hl=en)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Edge extension (download at: https://microsoftedge.microsoft.com/addons/detail/pinterest-save-button/bkgoflemacdadndiohhdnphcmdhacabg)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Firefox extension (download at:   https://addons.mozilla.org/firefox/addon/pinterest/)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Safari extension (download at: https://apps.apple.com/us/app/save-to-pinterest/id6473649042)",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Open source projects(non-forked) listed at github.com/pinterest/",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://www.shffls.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Shuffles App for Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Shuffles App for iOS",
+                    "type": "ios"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/soundcloud",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "SoundCloud Android app",
+                    "type": "android"
+                },
+                {
+                    "identifier": "soundcloud.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.soundcloud.org",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.s-cloud.net",
+                    "type": "website"
+                },
+                {
+                    "identifier": "SoundCloud iOS app",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "*.soundcloud.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.services.repostnetwork.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "api-*.soundcloud.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "artists.soundcloud.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "soundcloud.org",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "blog.soundcloud.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "status.soundcloud.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "help.soundcloud.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": " community.soundcloud.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "copyright.soundcloud.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "advertising.soundcloud.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "soundcloudmail.com",
+                    "type": "other"
+                },
+                {
+                    "identifier": "press.soundcloud.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "scdrops.soundcloud.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "promote.soundcloud.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "contest.soundcloud.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "playback.soundcloud.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "jobs.soundcloud.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "playerone.soundcloud.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "support.soundcloud.org",
+                    "type": "website"
+                },
+                {
+                    "identifier": "secdomaintest.soundcloud.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "firston.soundcloud.com",
+                    "type": "website"
                 }
             ]
         }
@@ -15279,52 +15325,6 @@
                 {
                     "identifier": "Codex Desktop",
                     "type": "other"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/backblaze",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Backblaze Android mobile application",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Backblaze iOS mobile application",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Mac Personal Backup Clients",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Windows Personal Backup Clients",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Mac Restore Downloaders",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Windows Restore Downloaders",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Git Repositories (b2-sdk-java & B2 Command Line Tool)",
-                    "type": "other"
-                },
-                {
-                    "identifier": "B2 APIs (*.backblazeb2.com)",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Backblaze Website (*.backblaze.com)",
-                    "type": "website"
                 }
             ],
             "out_of_scope": []
@@ -16601,112 +16601,6 @@
         }
     },
     {
-        "handle": "engagements/cloudinary",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://cloudinary.com/console",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://api.cloudinary.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://res.cloudinary.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "mediaflows.cloudinary.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "dimensions.cloudinary.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "https://support.cloudinary.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "wiki.cloudinary.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/dell-com",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.dell.com/*",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.delltechnologies.com/* ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://console.delltechnologies.com/nav/administration",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://console.delltechnologies.com/nav/invoice",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://console.delltechnologies.com/nav/billing",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Any Verified Dell-Controlled Endpoint (domains/IP space/etc.)\t",
-                    "type": "other"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "https://console.delltechnologies.com/ ",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://console.delltechnologies.com/nav/catalog",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://console.delltechnologies.com/nav/support",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://console.delltechnologies.com/nav/subscriptions",
-                    "type": "website"
-                },
-                {
-                    "identifier": "educate.dell.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "console.dell.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "console-test.dell.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "salesproductivity.dell.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/toolsplus",
         "bounty": 1,
         "active": 1,
@@ -17017,37 +16911,6 @@
         }
     },
     {
-        "handle": "engagements/jora",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.jora.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.jora.xyz",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Jora Jobs iOS App",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Jora Jobs Android App",
-                    "type": "android"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "*.joralocal.com.au\t",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/pexels",
         "bounty": 1,
         "active": 1,
@@ -17274,263 +17137,6 @@
         }
     },
     {
-        "handle": "engagements/CCData-mbb-og",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "CoinDesk Data - Data API",
-                    "type": "api"
-                },
-                {
-                    "identifier": "CoinDesk Data - Tools API",
-                    "type": "api"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "coindesk.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "uat.coindesk.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Production CoinDesk Events",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Consensus2025 Site",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Consensus HK Site",
-                    "type": "website"
-                },
-                {
-                    "identifier": "data.coindesk.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "developers.coindesk.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/binance",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "api.coinmarketcap.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "pro-api.coinmarketcap.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.binance.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Binance Desktop Application",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Binance Mobile Application for Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Binance Mobile Application for iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "api.binance.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "Binance macOS Application",
-                    "type": "other"
-                },
-                {
-                    "identifier": "pro.coinmarketcap.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "CoinMarketCap Android app",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Trustwallet Android App",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Trustwallet iOS App",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "https://github.com/trustwallet/wallet-core/",
-                    "type": "other"
-                },
-                {
-                    "identifier": "CoinMarketCap iOS app",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "portal-api.coinmarketcap.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "coinmarketcap.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "3rdparty-apis.coinmarketcap.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "*.binance.us",
-                    "type": "website"
-                },
-                {
-                    "identifier": "binance.tr",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Trustwallet Chrome Extension",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "jobs.coinmarketcap.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "support.binance.*",
-                    "type": "website"
-                },
-                {
-                    "identifier": "binance.sg",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.trustwallet.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.trustwalletapp.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.binance.org",
-                    "type": "website"
-                },
-                {
-                    "identifier": "blog.coinmarketcap.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "support.coinmarketcap.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "blockchain.coinmarketcap.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.coinmarketcap.com",
-                    "type": "other"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/trello",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "trello.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "api.trello.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.trello.services",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Trello Desktop Client",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Trello Mobile App for Android",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Trello Mobile App for iOS",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "Butler for Trello",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Calendar Power-Up",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Card Aging Power-Up",
-                    "type": "website"
-                },
-                {
-                    "identifier": "List Limits Power-Up",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Voting Power-Up",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Microsoft Teams Integration",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Trello Third Party Powerups",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "First party (made-by-trello) power-ups other than those inscope are excluded from this program but can be reported to http://bugcrowd.com/atlassianapps",
-                    "type": "website"
-                },
-                {
-                    "identifier": "e.trello.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "help.trello.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "trello-attachments.s3.amazonaws.com",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
         "handle": "engagements/creativas",
         "bounty": 1,
         "active": 1,
@@ -17558,117 +17164,6 @@
                 }
             ],
             "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/tesla",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "*.tesla.cn",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.tesla.services",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Official Tesla iOS apps",
-                    "type": "ios"
-                },
-                {
-                    "identifier": "*.tesla.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.teslamotors.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Any host verified to be owned by Tesla Motors Inc. (domains/IP space/etc.)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.solarcity.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.teslainsuranceservices.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Official Tesla Android apps",
-                    "type": "android"
-                },
-                {
-                    "identifier": "Tesla Energy hardware you own",
-                    "type": "hardware"
-                },
-                {
-                    "identifier": "Tesla vehicle hardware that you own",
-                    "type": "hardware"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "employeefeedback.tesla.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "energysupport.tesla.com (you can report vulnerabilities to bugbounty.zoho.com)",
-                    "type": "website"
-                },
-                {
-                    "identifier": "engage.tesla.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "*.engage.tesla.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "feedback.tesla.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "feedback.teslamotors.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "ir.tesla.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "ir.teslamotors.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "mkto.teslamotors.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "shop.eu.teslamotors.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "service.tesla.com/docs/*",
-                    "type": "website"
-                },
-                {
-                    "identifier": "service.tesla.cn/docs/*",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Any domains from acquisitions, such as maxwell.com",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Any other third-party websites hosted by non-Tesla entities",
-                    "type": "website"
-                }
-            ]
         }
     },
     {
@@ -17715,135 +17210,6 @@
                 },
                 {
                     "identifier": "nav.naspers.com",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/stonikbyte",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Documents for Jira - Cloud - https://marketplace.atlassian.com/apps/1211062/documents-for-jira?hosting=cloud&tab=overview",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Great Gadgets for Confluence Cloud | https://marketplace.atlassian.com/apps/1226592/great-gadgets-for-confluence-cloud?hosting=cloud&tab=overview",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Project Team for Jira Cloud | https://marketplace.atlassian.com/apps/1217117/project-team-for-jira-cloud?hosting=cloud&tab=overview",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Great Gadgets for Jira Cloud - https://marketplace.atlassian.com/apps/1216564/great-gadgets-for-jira-cloud?hosting=cloud&tab=overview",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Velocity & Throughput Charts for Agile, Scrum, Kanban - https://marketplace.atlassian.com/apps/607387265/velocity-throughput-charts-for-agile-scrum-kanban?hosting=cloud&tab=overview",
-                    "type": "website"
-                },
-                {
-                    "identifier": "DevOps Gadgets for Jira (Insights from GitHub & BB) - https://marketplace.atlassian.com/apps/1237211/devops-gadgets-for-jira-insights-from-github-bb?hosting=cloud&tab=overview",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://marketplace.atlassian.com/apps/2077076462/wip-run-wip-aging-charts-for-scrum-kanban-scaled-agile?hosting=cloud&tab=overview",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://marketplace.atlassian.com/apps/375826955/burndown-burnup-charts-with-forecast-for-agile-teams?hosting=cloud&tab=overview",
-                    "type": "website"
-                },
-                {
-                    "identifier": "Cumulative Flow Diagram - https://marketplace.atlassian.com/apps/1752044660/cumulative-flow-diagram-cfd-charts-for-agile-scrum-kanban?hosting=cloud&tab=overview",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": [
-                {
-                    "identifier": "Non- Atlassian Marketplace Apps",
-                    "type": "website"
-                }
-            ]
-        }
-    },
-    {
-        "handle": "engagements/bloompeak",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://marketplace.atlassian.com/apps/1226236/reports-charts-graphs-for-jira?tab=overview&hosting=cloud",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://marketplace.atlassian.com/apps/1226236/reports-charts-and-graphs-for-jira?hosting=datacenter&tab=overview",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://marketplace.atlassian.com/apps/1226734/reports-charts-and-graphs-for-jira-dashboard-free?hosting=cloud&tab=overview",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://marketplace.atlassian.com/apps/1226734/reports-charts-and-graphs-for-jira-dashboard-free?hosting=datacenter&tab=overview",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://marketplace.atlassian.com/apps/1221826/status-time?hosting=cloud&tab=overview",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://marketplace.atlassian.com/apps/1221826/status-time-reports?hosting=datacenter&tab=overview",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://marketplace.atlassian.com/apps/1222051/status-time-free?tab=overview&hosting=cloud",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://marketplace.atlassian.com/apps/1222051/status-time-free?hosting=datacenter&tab=overview",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://marketplace.atlassian.com/apps/1231321/sum-up-reports-for-jira?hosting=cloud&tab=overview",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://marketplace.atlassian.com/apps/1231321/sum-up-reports-for-jira?hosting=datacenter&tab=overview",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://marketplace.atlassian.com/apps/1222833/restore-deleted-issues?hosting=cloud&tab=overview",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://marketplace.atlassian.com/apps/1223002/track-deleted-issues?hosting=cloud&tab=overview",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://marketplace.atlassian.com/apps/1224572/issue-translator?hosting=cloud&tab=overview",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://marketplace.atlassian.com/apps/1226140/issue-translator-free?hosting=cloud&tab=overview",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://marketplace.atlassian.com/apps/2529437344/sprint-capacity-planner-for-jira?hosting=cloud&tab=overview",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://marketplace.atlassian.com/apps/1224410/manage-users-for-jira-cloud?hosting=cloud",
-                    "type": "website"
-                },
-                {
-                    "identifier": "https://marketplace.atlassian.com/apps/1223088/project-role-tab-for-jira-cloud?hosting=cloud&tab=overview",
                     "type": "website"
                 }
             ],
@@ -18133,6 +17499,24 @@
         }
     },
     {
+        "handle": "engagements/legacy-blockchain-mbb-og",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Legacy Blockchain ",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Legacy Block Explorer",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
         "handle": "engagements/smartchain-mbb-og",
         "bounty": 1,
         "active": 1,
@@ -18148,24 +17532,6 @@
                 },
                 {
                     "identifier": "Smartchain Staging Block Explorer",
-                    "type": "website"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "engagements/legacy-blockchain-mbb-og",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Legacy Blockchain ",
-                    "type": "other"
-                },
-                {
-                    "identifier": "Legacy Block Explorer",
                     "type": "website"
                 }
             ],
@@ -18279,6 +17645,561 @@
         }
     },
     {
+        "handle": "engagements/dell-com",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.dell.com/*",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.delltechnologies.com/* ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://console.delltechnologies.com/nav/administration",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://console.delltechnologies.com/nav/invoice",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://console.delltechnologies.com/nav/billing",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Any Verified Dell-Controlled Endpoint (domains/IP space/etc.)\t",
+                    "type": "other"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "https://console.delltechnologies.com/ ",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://console.delltechnologies.com/nav/catalog",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://console.delltechnologies.com/nav/support",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://console.delltechnologies.com/nav/subscriptions",
+                    "type": "website"
+                },
+                {
+                    "identifier": "educate.dell.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "console.dell.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "console-test.dell.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "salesproductivity.dell.com",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/cloudinary",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://cloudinary.com/console",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://api.cloudinary.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://res.cloudinary.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "mediaflows.cloudinary.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "dimensions.cloudinary.com",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "https://support.cloudinary.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "wiki.cloudinary.com",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/CCData-mbb-og",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "CoinDesk Data - Data API",
+                    "type": "api"
+                },
+                {
+                    "identifier": "CoinDesk Data - Tools API",
+                    "type": "api"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "coindesk.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "uat.coindesk.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Production CoinDesk Events",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Consensus2025 Site",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Consensus HK Site",
+                    "type": "website"
+                },
+                {
+                    "identifier": "data.coindesk.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "developers.coindesk.com",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/stonikbyte",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Documents for Jira - Cloud - https://marketplace.atlassian.com/apps/1211062/documents-for-jira?hosting=cloud&tab=overview",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Great Gadgets for Confluence Cloud | https://marketplace.atlassian.com/apps/1226592/great-gadgets-for-confluence-cloud?hosting=cloud&tab=overview",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Project Team for Jira Cloud | https://marketplace.atlassian.com/apps/1217117/project-team-for-jira-cloud?hosting=cloud&tab=overview",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Great Gadgets for Jira Cloud - https://marketplace.atlassian.com/apps/1216564/great-gadgets-for-jira-cloud?hosting=cloud&tab=overview",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Velocity & Throughput Charts for Agile, Scrum, Kanban - https://marketplace.atlassian.com/apps/607387265/velocity-throughput-charts-for-agile-scrum-kanban?hosting=cloud&tab=overview",
+                    "type": "website"
+                },
+                {
+                    "identifier": "DevOps Gadgets for Jira (Insights from GitHub & BB) - https://marketplace.atlassian.com/apps/1237211/devops-gadgets-for-jira-insights-from-github-bb?hosting=cloud&tab=overview",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/2077076462/wip-run-wip-aging-charts-for-scrum-kanban-scaled-agile?hosting=cloud&tab=overview",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/375826955/burndown-burnup-charts-with-forecast-for-agile-teams?hosting=cloud&tab=overview",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Cumulative Flow Diagram - https://marketplace.atlassian.com/apps/1752044660/cumulative-flow-diagram-cfd-charts-for-agile-scrum-kanban?hosting=cloud&tab=overview",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "Non- Atlassian Marketplace Apps",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/bloompeak",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/1226236/reports-charts-graphs-for-jira?tab=overview&hosting=cloud",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/1226236/reports-charts-and-graphs-for-jira?hosting=datacenter&tab=overview",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/1226734/reports-charts-and-graphs-for-jira-dashboard-free?hosting=cloud&tab=overview",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/1226734/reports-charts-and-graphs-for-jira-dashboard-free?hosting=datacenter&tab=overview",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/1221826/status-time?hosting=cloud&tab=overview",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/1221826/status-time-reports?hosting=datacenter&tab=overview",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/1222051/status-time-free?tab=overview&hosting=cloud",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/1222051/status-time-free?hosting=datacenter&tab=overview",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/1231321/sum-up-reports-for-jira?hosting=cloud&tab=overview",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/1231321/sum-up-reports-for-jira?hosting=datacenter&tab=overview",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/1222833/restore-deleted-issues?hosting=cloud&tab=overview",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/1223002/track-deleted-issues?hosting=cloud&tab=overview",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/1224572/issue-translator?hosting=cloud&tab=overview",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/1226140/issue-translator-free?hosting=cloud&tab=overview",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/2529437344/sprint-capacity-planner-for-jira?hosting=cloud&tab=overview",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/1224410/manage-users-for-jira-cloud?hosting=cloud",
+                    "type": "website"
+                },
+                {
+                    "identifier": "https://marketplace.atlassian.com/apps/1223088/project-role-tab-for-jira-cloud?hosting=cloud&tab=overview",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/jora",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.jora.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.jora.xyz",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Jora Jobs iOS App",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Jora Jobs Android App",
+                    "type": "android"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "*.joralocal.com.au\t",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/binance",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "api.coinmarketcap.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "pro-api.coinmarketcap.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.binance.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Binance Desktop Application",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Binance Mobile Application for Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Binance Mobile Application for iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "api.binance.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "Binance macOS Application",
+                    "type": "other"
+                },
+                {
+                    "identifier": "pro.coinmarketcap.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "CoinMarketCap Android app",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Trustwallet Android App",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Trustwallet iOS App",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "https://github.com/trustwallet/wallet-core/",
+                    "type": "other"
+                },
+                {
+                    "identifier": "CoinMarketCap iOS app",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "portal-api.coinmarketcap.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "coinmarketcap.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "3rdparty-apis.coinmarketcap.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "*.binance.us",
+                    "type": "website"
+                },
+                {
+                    "identifier": "binance.tr",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Trustwallet Chrome Extension",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "jobs.coinmarketcap.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "support.binance.*",
+                    "type": "website"
+                },
+                {
+                    "identifier": "binance.sg",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.trustwallet.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.trustwalletapp.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.binance.org",
+                    "type": "website"
+                },
+                {
+                    "identifier": "blog.coinmarketcap.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "support.coinmarketcap.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "blockchain.coinmarketcap.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.coinmarketcap.com",
+                    "type": "other"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "engagements/tesla",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "*.tesla.cn",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.tesla.services",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Official Tesla iOS apps",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "*.tesla.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.teslamotors.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Any host verified to be owned by Tesla Motors Inc. (domains/IP space/etc.)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.solarcity.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.teslainsuranceservices.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Official Tesla Android apps",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Tesla Energy hardware you own",
+                    "type": "hardware"
+                },
+                {
+                    "identifier": "Tesla vehicle hardware that you own",
+                    "type": "hardware"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "employeefeedback.tesla.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "energysupport.tesla.com (you can report vulnerabilities to bugbounty.zoho.com)",
+                    "type": "website"
+                },
+                {
+                    "identifier": "engage.tesla.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.engage.tesla.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "feedback.tesla.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "feedback.teslamotors.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "ir.tesla.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "ir.teslamotors.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "mkto.teslamotors.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "shop.eu.teslamotors.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "service.tesla.com/docs/*",
+                    "type": "website"
+                },
+                {
+                    "identifier": "service.tesla.cn/docs/*",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Any domains from acquisitions, such as maxwell.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Any other third-party websites hosted by non-Tesla entities",
+                    "type": "website"
+                }
+            ]
+        }
+    },
+    {
         "handle": "engagements/opensea",
         "bounty": 1,
         "active": 1,
@@ -18330,6 +18251,85 @@
                 }
             ],
             "out_of_scope": []
+        }
+    },
+    {
+        "handle": "engagements/trello",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "trello.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "api.trello.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "*.trello.services",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Trello Desktop Client",
+                    "type": "other"
+                },
+                {
+                    "identifier": "Trello Mobile App for Android",
+                    "type": "android"
+                },
+                {
+                    "identifier": "Trello Mobile App for iOS",
+                    "type": "ios"
+                },
+                {
+                    "identifier": "Butler for Trello",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Calendar Power-Up",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Card Aging Power-Up",
+                    "type": "website"
+                },
+                {
+                    "identifier": "List Limits Power-Up",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Voting Power-Up",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Microsoft Teams Integration",
+                    "type": "website"
+                },
+                {
+                    "identifier": "Trello Third Party Powerups",
+                    "type": "website"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "First party (made-by-trello) power-ups other than those inscope are excluded from this program but can be reported to http://bugcrowd.com/atlassianapps",
+                    "type": "website"
+                },
+                {
+                    "identifier": "e.trello.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "help.trello.com",
+                    "type": "website"
+                },
+                {
+                    "identifier": "trello-attachments.s3.amazonaws.com",
+                    "type": "website"
+                }
+            ]
         }
     },
     {
