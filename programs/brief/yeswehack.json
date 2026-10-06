@@ -1,5 +1,109 @@
 [
     {
+        "handle": "swiss-post",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "(*.post.ch:80|*.post.ch:443) AND 194.41.128.0/17",
+                    "type": "other"
+                },
+                {
+                    "identifier": "https://account.post.ch",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://shop.post.ch/shop",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://service.post.ch/ekp-web/",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://service.post.ch/zopa/app/",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://play.google.com/store/apps/details?id=com.nth.swisspost&hl=de_CH&gl=US",
+                    "type": "mobile-application-android"
+                },
+                {
+                    "identifier": "https://apps.apple.com/ch/app/die-post/id378676700",
+                    "type": "mobile-application-ios"
+                },
+                {
+                    "identifier": "https://billingonline.post.ch/OnlinePayment/Web/v1/BOI",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://service.post.ch/ele-klp/ele/",
+                    "type": "web-application"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "kiteworks-public-bug-bounty-program-1",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "Crown Jewel Heist",
+                    "type": "challenge"
+                },
+                {
+                    "identifier": "Kiteworks Core",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "Email Protection Gateway (EPG)",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "Managed File Transfer (MFT)",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "Secure Data Forms (SDF, aka Advanced Forms)",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "API Playground",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "Kiteworks Android App",
+                    "type": "mobile-application-android"
+                },
+                {
+                    "identifier": "Kiteworks iOS App",
+                    "type": "mobile-application-ios"
+                },
+                {
+                    "identifier": "Kiteworks for Desktop",
+                    "type": "application"
+                },
+                {
+                    "identifier": "Kiteworks Desktop Client 2.0",
+                    "type": "application"
+                },
+                {
+                    "identifier": "Kiteworks for Outlook Desktop",
+                    "type": "application"
+                },
+                {
+                    "identifier": "Kiteworks for Office Desktop",
+                    "type": "application"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
         "handle": "infomaniak-bug-bounty-program",
         "bounty": 1,
         "active": 1,
@@ -536,64 +640,6 @@
         }
     },
     {
-        "handle": "kiteworks-public-bug-bounty-program-1",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "Crown Jewel Heist",
-                    "type": "challenge"
-                },
-                {
-                    "identifier": "Kiteworks Core",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "Email Protection Gateway (EPG)",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "Managed File Transfer (MFT)",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "Secure Data Forms (SDF, aka Advanced Forms)",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "API Playground",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "Kiteworks Android App",
-                    "type": "mobile-application-android"
-                },
-                {
-                    "identifier": "Kiteworks iOS App",
-                    "type": "mobile-application-ios"
-                },
-                {
-                    "identifier": "Kiteworks for Desktop",
-                    "type": "application"
-                },
-                {
-                    "identifier": "Kiteworks Desktop Client 2.0",
-                    "type": "application"
-                },
-                {
-                    "identifier": "Kiteworks for Outlook Desktop",
-                    "type": "application"
-                },
-                {
-                    "identifier": "Kiteworks for Office Desktop",
-                    "type": "application"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "atg-public-bug-bounty-program",
         "bounty": 1,
         "active": 1,
@@ -732,52 +778,6 @@
                 {
                     "identifier": "*.europolitan.se",
                     "type": "wildcard"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "swiss-post",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "(*.post.ch:80|*.post.ch:443) AND 194.41.128.0/17",
-                    "type": "other"
-                },
-                {
-                    "identifier": "https://account.post.ch",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://shop.post.ch/shop",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://service.post.ch/ekp-web/",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://service.post.ch/zopa/app/",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://play.google.com/store/apps/details?id=com.nth.swisspost&hl=de_CH&gl=US",
-                    "type": "mobile-application-android"
-                },
-                {
-                    "identifier": "https://apps.apple.com/ch/app/die-post/id378676700",
-                    "type": "mobile-application-ios"
-                },
-                {
-                    "identifier": "https://billingonline.post.ch/OnlinePayment/Web/v1/BOI",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://service.post.ch/ele-klp/ele/",
-                    "type": "web-application"
                 }
             ],
             "out_of_scope": []
