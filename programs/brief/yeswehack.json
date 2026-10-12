@@ -1,5 +1,347 @@
 [
     {
+        "handle": "infomaniak-bug-bounty-program",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "api.infomaniak.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "login.infomaniak.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "manager.infomaniak.com/v3/*",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "shop.infomaniak.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "ksuite.infomaniak.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.kdrive.infomaniak.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "swiss-backup*.infomaniak.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "www.infomaniak.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.kchat.infomaniak.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "calendar.infomaniak.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "chk.infomaniak.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "contacts.infomaniak.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "etickets.infomaniak.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "kmeet.infomaniak.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "kpaste.infomaniak.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "mail.infomaniak.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "player-radio.infomaniak.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "storage*.infomaniak.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "sync.infomaniak.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "swisstransfer.infomaniak.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "vod.infomaniak.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "*.vod2.infomaniak.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "welcome.infomaniak.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "www.swisstransfer.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "euria.infomaniak.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://play.google.com/store/apps/details?id=com.infomaniak.drive",
+                    "type": "mobile-application-android"
+                },
+                {
+                    "identifier": "https://apps.apple.com/app/infomaniak-kdrive/id1482778676",
+                    "type": "mobile-application-ios"
+                },
+                {
+                    "identifier": "https://github.com/Infomaniak/desktop-kDrive",
+                    "type": "application"
+                },
+                {
+                    "identifier": "https://play.google.com/store/apps/details?id=com.infomaniak.mail",
+                    "type": "mobile-application-android"
+                },
+                {
+                    "identifier": "https://apps.apple.com/fr/app/infomaniak-mail/id1622596573",
+                    "type": "mobile-application-ios"
+                },
+                {
+                    "identifier": "https://play.google.com/store/apps/details?id=com.infomaniak.auth",
+                    "type": "mobile-application-android"
+                },
+                {
+                    "identifier": "https://apps.apple.com/fr/app/infomaniak-authenticator/id1478424817",
+                    "type": "mobile-application-ios"
+                },
+                {
+                    "identifier": "kdrive.infomaniak.com/app/*/preview/*",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "kdrive.infomaniak.com/app/office*/*",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "ksuite.infomaniak.com/*/kdrive/*/preview/*",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "infomaniak.events",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "hosting-ik.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "ix2smbdyjt.infomaniak.site",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "5k8vrbdyje.infomaniak.site",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "fv3lfbdyjh.infomaniak.site",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "l75pvbdyjo.infomaniak.site",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://play.google.com/store/apps/details?id=com.infomaniak.chat",
+                    "type": "mobile-application-android"
+                },
+                {
+                    "identifier": "https://apps.apple.com/fr/app/infomaniak-kchat/id6443845553",
+                    "type": "mobile-application-ios"
+                },
+                {
+                    "identifier": "https://play.google.com/store/apps/details?id=com.infomaniak.euria",
+                    "type": "mobile-application-android"
+                },
+                {
+                    "identifier": "https://apps.apple.com/fr/app/infomaniak-euria/id6754152858",
+                    "type": "mobile-application-ios"
+                },
+                {
+                    "identifier": "https://play.google.com/store/apps/details?id=com.infomaniak.swisstransfer",
+                    "type": "mobile-application-android"
+                },
+                {
+                    "identifier": "https://apps.apple.com/fr/app/infomaniak-swisstransfer/id6737686335",
+                    "type": "mobile-application-ios"
+                },
+                {
+                    "identifier": "https://play.google.com/store/apps/details?id=com.infomaniak.sync",
+                    "type": "mobile-application-android"
+                },
+                {
+                    "identifier": "*.infomaniak.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "api.pub1.infomaniak.cloud",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "api.pub2.infomaniak.cloud",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "manager.infomaniak.com/*proxy*",
+                    "type": "mobile-application"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "xelians-blackbox-program",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://preprod-xam.xelians.fr/",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://preprod-datahub.xelians.fr/",
+                    "type": "web-application"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
+        "handle": "pine-labs-bug-bounty-program",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "https://billingserver.pinelabs.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "dashboard.pluralonline.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://lounge.pinelabs.com/loungeui/login",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://pinepgconsole.in:9099",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "analytics.pinelabs.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://myplutus.pinelabs.my",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "trm.pinepaymentsolutions.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://trm.pinelabs.ae",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://www.letspaylater.ph",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://credit.pinelabs.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://play.google.com/store/apps/details?id=com.pinelabs.emicatalogue.pinelabs&hl=uz",
+                    "type": "mobile-application-android"
+                },
+                {
+                    "identifier": "https://emistores.pinelabs.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://www.pinelabs.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://www.pinelabs.my",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://www.pinelabs.ae",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://www.pinelabs.us",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://board.pinelabs.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://nbs.pinelabs.com",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://api.pluralonline.com",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://api.pluralpay.in",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://pinepg.in",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://pluralcheckout.pinepg.in",
+                    "type": "api"
+                },
+                {
+                    "identifier": "https://developers.woohoo.in/",
+                    "type": "web-application"
+                },
+                {
+                    "identifier": "https://www.woohoo.in/",
+                    "type": "web-application"
+                }
+            ],
+            "out_of_scope": []
+        }
+    },
+    {
         "handle": "cryptobox-bug-bounty",
         "bounty": 1,
         "active": 1,
@@ -210,220 +552,6 @@
                 {
                     "identifier": "Kiteworks for Office Desktop",
                     "type": "application"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "infomaniak-bug-bounty-program",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "api.infomaniak.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "login.infomaniak.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "manager.infomaniak.com/v3/*",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "shop.infomaniak.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "ksuite.infomaniak.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.kdrive.infomaniak.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "swiss-backup*.infomaniak.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "www.infomaniak.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.kchat.infomaniak.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "calendar.infomaniak.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "chk.infomaniak.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "contacts.infomaniak.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "etickets.infomaniak.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "kmeet.infomaniak.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "kpaste.infomaniak.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "mail.infomaniak.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "player-radio.infomaniak.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "storage*.infomaniak.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "sync.infomaniak.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "swisstransfer.infomaniak.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "vod.infomaniak.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "*.vod2.infomaniak.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "welcome.infomaniak.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "www.swisstransfer.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "euria.infomaniak.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://play.google.com/store/apps/details?id=com.infomaniak.drive",
-                    "type": "mobile-application-android"
-                },
-                {
-                    "identifier": "https://apps.apple.com/app/infomaniak-kdrive/id1482778676",
-                    "type": "mobile-application-ios"
-                },
-                {
-                    "identifier": "https://github.com/Infomaniak/desktop-kDrive",
-                    "type": "application"
-                },
-                {
-                    "identifier": "https://play.google.com/store/apps/details?id=com.infomaniak.mail",
-                    "type": "mobile-application-android"
-                },
-                {
-                    "identifier": "https://apps.apple.com/fr/app/infomaniak-mail/id1622596573",
-                    "type": "mobile-application-ios"
-                },
-                {
-                    "identifier": "https://play.google.com/store/apps/details?id=com.infomaniak.auth",
-                    "type": "mobile-application-android"
-                },
-                {
-                    "identifier": "https://apps.apple.com/fr/app/infomaniak-authenticator/id1478424817",
-                    "type": "mobile-application-ios"
-                },
-                {
-                    "identifier": "kdrive.infomaniak.com/app/*/preview/*",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "kdrive.infomaniak.com/app/office*/*",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "ksuite.infomaniak.com/*/kdrive/*/preview/*",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "infomaniak.events",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "hosting-ik.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "ix2smbdyjt.infomaniak.site",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "5k8vrbdyje.infomaniak.site",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "fv3lfbdyjh.infomaniak.site",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "l75pvbdyjo.infomaniak.site",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://play.google.com/store/apps/details?id=com.infomaniak.chat",
-                    "type": "mobile-application-android"
-                },
-                {
-                    "identifier": "https://apps.apple.com/fr/app/infomaniak-kchat/id6443845553",
-                    "type": "mobile-application-ios"
-                },
-                {
-                    "identifier": "https://play.google.com/store/apps/details?id=com.infomaniak.euria",
-                    "type": "mobile-application-android"
-                },
-                {
-                    "identifier": "https://apps.apple.com/fr/app/infomaniak-euria/id6754152858",
-                    "type": "mobile-application-ios"
-                },
-                {
-                    "identifier": "https://play.google.com/store/apps/details?id=com.infomaniak.swisstransfer",
-                    "type": "mobile-application-android"
-                },
-                {
-                    "identifier": "https://apps.apple.com/fr/app/infomaniak-swisstransfer/id6737686335",
-                    "type": "mobile-application-ios"
-                },
-                {
-                    "identifier": "https://play.google.com/store/apps/details?id=com.infomaniak.sync",
-                    "type": "mobile-application-android"
-                },
-                {
-                    "identifier": "*.infomaniak.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "api.pub1.infomaniak.cloud",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "api.pub2.infomaniak.cloud",
-                    "type": "web-application"
                 }
             ],
             "out_of_scope": []
@@ -2072,104 +2200,6 @@
         }
     },
     {
-        "handle": "pine-labs-bug-bounty-program",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://billingserver.pinelabs.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "dashboard.pluralonline.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://lounge.pinelabs.com/loungeui/login",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://pinepgconsole.in:9099",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "analytics.pinelabs.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://myplutus.pinelabs.my",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "trm.pinepaymentsolutions.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://trm.pinelabs.ae",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://www.letspaylater.ph",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://credit.pinelabs.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://play.google.com/store/apps/details?id=com.pinelabs.emicatalogue.pinelabs&hl=uz",
-                    "type": "mobile-application-android"
-                },
-                {
-                    "identifier": "https://emistores.pinelabs.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://www.pinelabs.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://www.pinelabs.my",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://www.pinelabs.ae",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://www.pinelabs.us",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://board.pinelabs.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://nbs.pinelabs.com",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://api.pluralonline.com",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://api.pluralpay.in",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://pinepg.in",
-                    "type": "api"
-                },
-                {
-                    "identifier": "https://pluralcheckout.pinepg.in",
-                    "type": "api"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
         "handle": "otto-de-bug-bounty",
         "bounty": 1,
         "active": 1,
@@ -2768,24 +2798,6 @@
                 {
                     "identifier": "https://bluetooth-events.onecloud.harman.com",
                     "type": "api"
-                }
-            ],
-            "out_of_scope": []
-        }
-    },
-    {
-        "handle": "xelians-blackbox-program",
-        "bounty": 1,
-        "active": 1,
-        "assets": {
-            "in_scope": [
-                {
-                    "identifier": "https://preprod-xam.xelians.fr/",
-                    "type": "web-application"
-                },
-                {
-                    "identifier": "https://preprod-datahub.xelians.fr/",
-                    "type": "web-application"
                 }
             ],
             "out_of_scope": []
